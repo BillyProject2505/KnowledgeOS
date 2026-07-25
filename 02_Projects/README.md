@@ -2,17 +2,21 @@
 
 ## Purpose
 
-This directory contains project-specific documentation and integrations.
+Contains project-specific integrations.
 
-## Scope
+---
 
-Projects consume Knowledge Objects from `01_Knowledge`.
+## Contents
 
-They do not own shared canonical knowledge.
-
-## Examples
-
-- Coz We Care
+- CozWeCare
 - OBK
 - KDS
 - Personal
+
+---
+
+## Navigation
+
+### Parent
+
+Repository Root
