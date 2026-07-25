@@ -1,5 +1,4 @@
-# KOS-AS Part-01
-# Knowledge Object Foundation
+# Knowledge Operating System Architecture Specification (KOS-AS)
 
 Version: 1.0
 
@@ -9,160 +8,69 @@ Status: Canonical
 
 # Purpose
 
-This document establishes the conceptual foundation of the Knowledge Operating System (KOS).
+The Knowledge Operating System Architecture Specification (KOS-AS) defines the conceptual architecture of the Knowledge Operating System.
 
-It defines what knowledge is, what a Knowledge Object is, and the principles governing how knowledge is represented, identified, and managed within the repository.
+It establishes the principles, concepts, and architectural foundation governing how knowledge is represented, organized, managed, and evolved throughout the system.
 
-Every specification, registry, project, and repository artifact ultimately builds upon the concepts defined in this document.
-
----
-
-# Objectives
-
-This document aims to:
-
-- define Knowledge
-- define Knowledge Objects
-- establish object identity
-- define object boundaries
-- introduce metadata concepts
-- establish lifecycle concepts
-- prepare the foundation for future specifications
+KOS-AS serves as the highest-level architectural specification upon which all other specifications are built.
 
 ---
 
-# What is Knowledge?
+# Scope
 
-Knowledge is organized information that carries meaning, context, and purpose.
+KOS-AS defines:
 
-Within the Knowledge Operating System, knowledge is treated as a managed asset rather than unstructured information.
+- Knowledge Objects
+- Knowledge Architecture
+- Knowledge Relationships
+- Knowledge Lifecycle
+- AI Integration
 
-Knowledge should be:
-
-- understandable
-- reusable
-- traceable
-- versioned
-- maintainable
+Implementation details are intentionally excluded and are defined in the Physical Repository Specification (PRS).
 
 ---
 
-# What is a Knowledge Object?
+# Structure
 
-A Knowledge Object (KO) is the smallest independently identifiable unit of managed knowledge within the Knowledge Operating System.
-
-Every Knowledge Object has:
-
-- identity
-- purpose
-- metadata
-- lifecycle
-- ownership
-- relationships
-
-Knowledge Objects are the fundamental building blocks of the entire system.
+| ID | Document | Status |
+|----|----------|--------|
+| KOS-AS-01 | Knowledge Object Foundation | Planned |
+| KOS-AS-02 | Knowledge Architecture | Planned |
+| KOS-AS-03 | Knowledge Relationship | Planned |
+| KOS-AS-04 | Knowledge Lifecycle | Planned |
+| KOS-AS-05 | AI Integration | Planned |
 
 ---
 
-# Characteristics of a Knowledge Object
+# Reading Order
 
-A valid Knowledge Object should be:
+The specification should be read sequentially.
 
-- uniquely identifiable
-- independently understandable
-- version controlled
-- reusable
-- traceable
-- maintainable
+Each part introduces concepts that are expanded by subsequent parts.
 
 ---
 
-# Knowledge Object Identity
+# Relationship to Other Specifications
 
-Every Knowledge Object shall possess a permanent identifier.
-
-Example:
-
-```
-KO-000001
-```
-
-The identifier never changes throughout the object's lifetime.
+| Specification | Purpose |
+|---------------|---------|
+| PRS | Defines the physical implementation of the architecture. |
+| IP | Defines the implementation roadmap. |
+| Registry Specification | Defines the metadata architecture supporting KOS. |
 
 ---
 
-# Knowledge Object Metadata
+# Related Registries
 
-Every Knowledge Object should include metadata describing:
-
-- identifier
-- title
-- type
-- owner
-- status
-- version
-
-Metadata is maintained through the Registry subsystem.
-
----
-
-# Knowledge Object Lifecycle
-
-Every Knowledge Object progresses through a lifecycle.
-
-Typical stages include:
-
-- Planned
-- Draft
-- Review
-- Canonical
-- Deprecated
-- Archived
-
-The lifecycle is managed independently from the object's content.
-
----
-
-# Knowledge Object Relationships
-
-Knowledge Objects rarely exist in isolation.
-
-They may:
-
-- reference another object
-- depend on another object
-- implement another object
-- supersede another object
-
-Relationships are maintained through the Relationship Registry.
-
----
-
-# Design Principles
-
-Knowledge Objects should be:
-
-- modular
-- reusable
-- immutable in identity
-- evolvable in content
-- discoverable
-- interconnected
-
----
-
-# Summary
-
-Knowledge Objects are the atomic building blocks of the Knowledge Operating System.
-
-Every repository artifact should ultimately be representable as one or more Knowledge Objects.
-
-The remaining parts of the KOS Architecture Specification expand upon the concepts introduced in this document.
-
----
-
-# Related Documents
-
-- Registry Specification
 - Knowledge Object Registry
-- KOS-AS Part-02 Knowledge Architecture
+- Document Registry
+- Version Registry
+- Relationship Registry
+
+---
+
+# Status
+
+This specification is under active development.
+
+Each approved part will become Canonical independently.
