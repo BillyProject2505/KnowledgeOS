@@ -1,25 +1,28 @@
-# 00_System
+# Releases
 
 ## Purpose
 
-Contains system-level documents that define how KnowledgeOS is designed, governed, planned, and released.
+Contains release information for KnowledgeOS.
 
 ---
 
 ## Scope
 
-This directory stores system documentation only.
-
-It does not contain reusable Knowledge Objects.
+Stores release history and changelog.
 
 ---
 
 ## Contents
 
-- Architecture
-- Governance
-- Planning
-- Releases
+- Release Notes
+- Changelog
+- Version History
+
+---
+
+## Rules
+
+Every official release must be documented.
 
 ---
 
@@ -27,11 +30,8 @@ It does not contain reusable Knowledge Objects.
 
 ### Parent
 
-Repository Root
+00_System
 
-### Children
+### Related
 
-- Architecture
 - Governance
-- Planning
-- Releases
