@@ -2,13 +2,24 @@
 
 ## Purpose
 
-This directory stores reusable non-document assets.
+Stores reusable assets.
 
-## Examples
+---
+
+## Contents
 
 - Logos
 - Fonts
 - Icons
 - Images
+- Templates
 - Audio
 - Video
+
+---
+
+## Navigation
+
+### Parent
+
+Repository Root
