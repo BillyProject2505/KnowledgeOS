@@ -2,15 +2,39 @@
 
 ## Purpose
 
-This directory contains implementation planning documents for KnowledgeOS.
+Contains implementation planning documents.
+
+---
+
+## Scope
+
+Stores plans, milestones, and implementation schedules.
+
+---
 
 ## Contents
 
 - Implementation Plan (IP)
 - Roadmap
 - Milestones
-- Task Planning
 
-## Scope
+---
 
-This directory contains planning documents. It does not define the system architecture or repository governance.
+## Rules
+
+Planning documents guide implementation.
+
+Planning documents do not define architecture.
+
+---
+
+## Navigation
+
+### Parent
+
+00_System
+
+### Related
+
+- Architecture
+- Governance
