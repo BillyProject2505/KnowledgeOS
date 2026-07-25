@@ -2,9 +2,17 @@
 
 ## Purpose
 
-This directory stores all canonical Knowledge Objects used by KnowledgeOS.
+Stores all canonical Knowledge Objects.
 
-## Knowledge Object Types
+---
+
+## Scope
+
+Reusable knowledge shared across projects.
+
+---
+
+## Contents
 
 - Frameworks
 - Bibles
@@ -15,8 +23,21 @@ This directory stores all canonical Knowledge Objects used by KnowledgeOS.
 - References
 - Decisions
 
-## Scope
+---
 
-Only reusable Knowledge Objects are stored here.
+## Navigation
 
-Project-specific documents belong in `02_Projects`.
+### Parent
+
+Repository Root
+
+### Children
+
+- Frameworks
+- Bibles
+- Standards
+- Registries
+- Prompts
+- Templates
+- References
+- Decisions
