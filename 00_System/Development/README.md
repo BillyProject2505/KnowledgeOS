@@ -8,17 +8,23 @@ Status: Active
 
 # Purpose
 
-The Development Workspace contains all non-canonical artifacts produced during the development of the Knowledge Operating System (KOS).
+The Development Workspace provides a dedicated environment for developing architectural artifacts before they become Canonical Specifications.
 
-Its purpose is to provide a structured environment for exploring ideas, designing architectures, validating concepts, and preparing specifications before they are promoted to Canonical status.
+This workspace supports the Architecture Development Lifecycle (ADL) by separating exploratory and iterative work from the repository's official knowledge base.
 
 ---
 
 # Scope
 
-This workspace contains temporary and working artifacts created during the Architecture Development Lifecycle (ADL).
+The Development Workspace contains all non-canonical artifacts produced during architecture development.
 
-Artifacts in this workspace are not normative and must not be treated as official specifications.
+Typical artifacts include:
+
+- Discovery Notes
+- Architecture Blueprints
+- Architecture Reviews
+
+Artifacts stored in this workspace are temporary by nature and may change throughout the development process.
 
 ---
 
@@ -26,55 +32,64 @@ Artifacts in this workspace are not normative and must not be treated as officia
 
 | Folder | Purpose |
 |---------|---------|
-| Discovery | Capture ideas, research, questions, and early exploration. |
+| Discovery | Capture ideas, research, questions, assumptions, and conceptual exploration. |
 | Blueprints | Transform validated discoveries into structured architectural blueprints. |
-| Reviews | Record validation results, review comments, and architectural decisions before freezing a blueprint. |
+| Reviews | Record validation outcomes, review comments, and architectural decisions. |
 
 ---
 
 # Relationship to Specifications
 
-Development artifacts may eventually become Canonical Specifications after completing the Architecture Development Lifecycle (ADL).
+Development artifacts support the creation of Canonical Specifications.
 
-Only approved documents are promoted to:
-
-```text
-00_System/Specifications/
-```
-
-The promotion process is governed by ADL.
+A document is promoted to the `Specifications` directory only after completing the Architecture Development Lifecycle (ADL).
 
 ---
 
 # Guiding Principles
 
-- Explore before deciding.
-- Validate before documenting.
-- Freeze before publishing.
-- Keep working artifacts separate from Canonical artifacts.
+The Development Workspace follows these principles:
+
+- Separate working artifacts from Canonical Specifications.
+- Encourage exploration before architectural decisions are made.
+- Preserve traceability from initial ideas to final specifications.
+- Support iterative development while protecting Canonical knowledge.
 
 ---
 
-# Lifecycle
+# Artifact Lifecycle
 
 ```text
 Idea
     ↓
-Discovery
+Discovery Notes
     ↓
-Blueprint
+Architecture Blueprint
     ↓
-Review
+Architecture Review
     ↓
-Freeze
+Architecture Freeze
     ↓
 Canonical Specification
 ```
 
 ---
 
+# Directory Layout
+
+```text
+Development/
+├── Discovery/
+├── Blueprints/
+└── Reviews/
+```
+
+Each subdirectory supports a specific stage of the Architecture Development Lifecycle.
+
+---
+
 # Status
 
-This workspace is intended for active development and continuous refinement.
+This workspace is intended for active development.
 
-Documents may change frequently until they are promoted to Canonical Specifications.
+Documents within this workspace may change frequently until they are promoted to Canonical Specifications.
