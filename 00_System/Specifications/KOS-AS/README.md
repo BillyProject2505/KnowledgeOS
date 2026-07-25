@@ -34,7 +34,7 @@ It does not define repository implementation details. Those are specified in the
 
 | ID | Document | Status |
 |----|----------|--------|
-| KOS-AS-01 | Knowledge Object Foundation | Planned |
+| KOS-AS-01 | Knowledge Object Foundation | Draft |
 | KOS-AS-02 | Knowledge Architecture | Planned |
 | KOS-AS-03 | Knowledge Relationship | Planned |
 | KOS-AS-04 | Knowledge Lifecycle | Planned |
