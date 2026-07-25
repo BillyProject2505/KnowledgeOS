@@ -1,2 +1,7 @@
 # KnowledgeOS
-Knowledge Operating System (KOS): A canonical knowledge repository for AI-assisted projects, providing a Single Source of Truth through structured Knowledge Objects, governance, and reusable standards.
+
+Knowledge Operating System (KOS)
+
+This repository contains the canonical knowledge architecture, standards, frameworks, and reusable Knowledge Objects used across AI-assisted projects.
+
+Status: Under Construction
