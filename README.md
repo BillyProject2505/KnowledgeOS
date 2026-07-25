@@ -2,6 +2,35 @@
 
 Knowledge Operating System (KOS)
 
-This repository contains the canonical knowledge architecture, standards, frameworks, and reusable Knowledge Objects used across AI-assisted projects.
+---
 
-Status: Under Construction
+## Purpose
+
+KnowledgeOS is a canonical repository designed to store, organize, and govern reusable Knowledge Objects for AI-assisted projects.
+
+It serves as the Single Source of Truth (SSOT) across all projects.
+
+---
+
+## Repository Structure
+
+- 00_System
+- 01_Knowledge
+- 02_Projects
+- 03_Resources
+- 99_Archive
+
+---
+
+## Documentation
+
+- README.md
+- INDEX.md
+- MAP.md
+
+---
+
+## Status
+
+Current Phase:
+Phase 2 — Navigation Layer
