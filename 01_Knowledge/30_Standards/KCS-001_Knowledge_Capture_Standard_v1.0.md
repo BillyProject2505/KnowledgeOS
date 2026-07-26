@@ -5,12 +5,9 @@ LOCK
 
 ## Purpose
 
-Mulai percakapan ini, gunakan Knowledge Capture Standard (KCS) sebagai standar resmi dalam mengelola seluruh pengetahuan di KnowledgeOS.
+Knowledge Capture Standard (KCS) mendefinisikan standar untuk menangkap, mendokumentasikan, dan menyusun knowledge sebelum disimpan dalam KnowledgeOS.
 
-KnowledgeOS adalah **Content Production Knowledge System** yang hanya digunakan untuk menyimpan pengetahuan, konfigurasi, standar, dan aset yang dibutuhkan untuk memproduksi konten. Repository ini bukan sistem manajemen organisasi.
-
-Seluruh rekomendasi, analisis, dan penyusunan dokumen harus mengikuti standar berikut.
-
+Standar ini menjadi acuan bagi execution engine dalam mengubah informasi menjadi knowledge yang terdokumentasi secara konsisten.
 ---
 
 # Repository Scope
