@@ -11,7 +11,9 @@
 
 # 1. Purpose
 
-Production Bible Standard (PBS) menetapkan standar resmi untuk penyusunan, pengelolaan, dan penggunaan Production Bible di KnowledgeOS.
+Production Workflow Standard (PWS) mendefinisikan workflow standar yang diterapkan oleh execution engine selama proses produksi konten menggunakan knowledge yang tersimpan di KnowledgeOS.
+
+Standar ini memastikan setiap permintaan diproses melalui tahapan yang konsisten, terdokumentasi, dapat diaudit, dan dapat diulang.
 
 PBS memastikan bahwa setiap Production Bible memiliki struktur, ruang lingkup, dan fungsi yang konsisten sehingga dapat menjadi Single Source of Truth bagi suatu proyek.
 
