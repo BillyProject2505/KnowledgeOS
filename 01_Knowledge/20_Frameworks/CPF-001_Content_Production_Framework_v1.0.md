@@ -11,11 +11,9 @@
 
 # 1. Purpose
 
-Content Production Framework (CPF) mendefinisikan arsitektur produksi konten yang digunakan oleh seluruh proyek dalam KnowledgeOS.
+Content Production Framework (CPF) mendefinisikan arsitektur produksi konten yang menjadi acuan bagi execution engine dalam menghasilkan konten menggunakan knowledge yang tersimpan di KnowledgeOS.
 
-CPF menjelaskan bagaimana pengetahuan diorganisasi, bagaimana setiap komponen saling berinteraksi, serta bagaimana proses produksi berlangsung dari permintaan awal hingga publikasi akhir.
-
-CPF tidak mendefinisikan aturan desain, branding, editorial, ataupun gaya visual. Aturan tersebut dikelola oleh dokumen lain sesuai tanggung jawabnya.
+CPF menjelaskan hubungan antar komponen pengetahuan, alur produksi, dan tanggung jawab setiap komponen dalam proses produksi.
 
 ---
 
