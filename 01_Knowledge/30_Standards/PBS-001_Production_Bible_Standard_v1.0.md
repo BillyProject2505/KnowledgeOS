@@ -216,6 +216,8 @@ Seluruh Production Bible harus:
 - mengikuti Versioning Standard (VS);
 - melewati Quality Gate Standard (QGS) sebelum memperoleh status LOCK.
 
+Production Workflow Standard mendefinisikan workflow yang diterapkan oleh execution engine. KnowledgeOS berfungsi sebagai repository yang menyediakan knowledge dan tidak menjalankan workflow secara langsung.
+
 ---
 
 # Canonical Decision
