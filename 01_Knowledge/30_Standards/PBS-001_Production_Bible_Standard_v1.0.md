@@ -11,7 +11,9 @@
 
 # 1. Purpose
 
-Production Workflow Standard (PWS) mendefinisikan workflow standar yang diterapkan oleh execution engine selama proses produksi konten menggunakan knowledge yang tersimpan di KnowledgeOS.
+Production Bible Standard (PBS) menetapkan standar resmi untuk penyusunan, pengelolaan, dan penggunaan Production Bible sebagai referensi proyek yang digunakan oleh execution engine selama proses produksi.
+
+Production Bible menyimpan pengetahuan spesifik proyek dan melengkapi Frameworks serta Standards yang tersimpan di KnowledgeOS.
 
 Standar ini memastikan setiap permintaan diproses melalui tahapan yang konsisten, terdokumentasi, dapat diaudit, dan dapat diulang.
 
@@ -155,7 +157,9 @@ Production Bible
 Project Production
 ```
 
-Production Bible menggunakan aturan umum dari KnowledgeOS dan melengkapinya dengan pengetahuan yang khusus untuk proyek.
+KnowledgeOS menyediakan Frameworks, Standards, Templates, Registries, dan Production Bible sebagai sumber pengetahuan.
+
+Execution engine menggunakan dokumen-dokumen tersebut sebagai referensi selama proses produksi, sementara KnowledgeOS tetap berperan sebagai repository dan Single Source of Truth.
 
 ---
 
@@ -217,6 +221,8 @@ Seluruh Production Bible harus:
 - melewati Quality Gate Standard (QGS) sebelum memperoleh status LOCK.
 
 Production Workflow Standard mendefinisikan workflow yang diterapkan oleh execution engine. KnowledgeOS berfungsi sebagai repository yang menyediakan knowledge dan tidak menjalankan workflow secara langsung.
+
+Production Bible digunakan oleh execution engine sebagai referensi utama untuk menerapkan aturan spesifik proyek selama proses produksi. KnowledgeOS hanya menyimpan dan mengelola dokumen kanonis tersebut sebagai Single Source of Truth.
 
 ---
 
