@@ -235,6 +235,8 @@ Perubahan terhadap CPF harus memenuhi ketentuan berikut.
 
 # Canonical Decision
 
-Content Production Framework (CPF) merupakan framework induk yang menjelaskan arsitektur produksi konten dalam KnowledgeOS.
+Content Production Framework (CPF) merupakan framework induk yang mendefinisikan arsitektur produksi konten yang diterapkan oleh execution engine berdasarkan knowledge yang tersimpan di KnowledgeOS.
+
+CPF mengatur hubungan antar Frameworks, Standards, Bibles, Registries, Templates, dan Prompts sehingga membentuk sistem produksi yang konsisten, dapat digunakan kembali, dan independen terhadap platform AI tertentu.
 
 CPF tidak menggantikan Standards, Bibles, Templates, Registries, maupun Prompts. CPF mengatur hubungan, alur, dan tanggung jawab seluruh komponen tersebut sehingga membentuk satu sistem produksi konten yang konsisten, dapat digunakan kembali, dan bersifat project-independent.
