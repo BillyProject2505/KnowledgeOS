@@ -11,7 +11,9 @@
 
 # 1. Purpose
 
-Quality Gate Standard (QGS) menetapkan mekanisme evaluasi kualitas yang harus dilalui sebelum suatu output dinyatakan selesai dan dapat dipublikasikan.
+Quality Gate Standard (QGS) mendefinisikan mekanisme evaluasi kualitas yang diterapkan oleh execution engine sebelum suatu output dinyatakan selesai dan dapat disetujui atau dipublikasikan.
+
+Standar ini menyediakan kriteria evaluasi yang konsisten, terdokumentasi, dan dapat diaudit.
 
 QGS memastikan bahwa setiap hasil produksi memenuhi standar KnowledgeOS secara konsisten, terdokumentasi, dan dapat diaudit.
 
@@ -302,6 +304,7 @@ Seluruh output yang diproduksi melalui KnowledgeOS:
 - wajib memiliki Review Record;
 - hanya dapat memasuki tahap Approval apabila seluruh Mandatory Gate berstatus PASS atau CONDITIONAL PASS sesuai kebijakan yang berlaku.
 
+Quality Gate diterapkan oleh execution engine selama tahap Review sebagaimana didefinisikan dalam Production Workflow Standard. KnowledgeOS berfungsi sebagai sumber standar evaluasi dan tidak melakukan proses review secara langsung.
 ---
 
 # Canonical Decision
