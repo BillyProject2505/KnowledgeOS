@@ -13915,5 +13915,1743 @@ Referenced By:
 
 ---
 
+## PB-CON-021 — Editorial References & Evidence Management
+
+Status: LOCK
+Version: 1.0
+Type: Content System
+
+---
+
+### Purpose
+
+Define the canonical framework for managing references, evidence, and supporting information used in Coz We Care editorial publications.
+
+This framework ensures that every scientific, medical, and educational claim is supported by reliable evidence, remains traceable, and can be maintained throughout the content lifecycle.
+
+---
+
+### Evidence Management Statement
+
+Every factual claim presented in Coz We Care publications SHOULD be supported by appropriate evidence.
+
+Evidence management SHALL promote scientific integrity, editorial transparency, organisational knowledge preservation, and long-term content reliability.
+
+---
+
+## PB-CON-REF-001
+
+### Objectives
+
+Evidence Management exists to:
+
+- Support scientific accuracy.
+- Improve editorial credibility.
+- Enable source traceability.
+- Preserve organisational knowledge.
+- Simplify future content updates.
+- Strengthen AI-assisted production.
+- Promote responsible public health communication.
+
+---
+
+## PB-CON-REF-002
+
+### Acceptable Evidence Sources
+
+Editorial evidence SHOULD prioritise:
+
+- Peer-reviewed scientific literature.
+- International public health organisations.
+- National health authorities.
+- Clinical practice guidelines.
+- Government publications.
+- Official epidemiological reports.
+- Systematic reviews and meta-analyses where available.
+
+Lower-quality evidence SHOULD only be used when higher-quality evidence is unavailable and its limitations are clearly understood.
+
+---
+
+## PB-CON-REF-003
+
+### Source Evaluation
+
+Editorial reviewers SHOULD evaluate evidence based on:
+
+- Scientific credibility.
+- Authority of the publisher.
+- Publication date.
+- Relevance.
+- Methodological quality.
+- Consistency with current scientific consensus.
+
+Evidence that no longer reflects current knowledge SHOULD be replaced.
+
+---
+
+## PB-CON-REF-004
+
+### Evidence Traceability
+
+Editorial teams SHOULD maintain sufficient information to identify the origin of evidence used in publications.
+
+Documentation MAY include:
+
+- Source title.
+- Publishing organisation.
+- Publication year.
+- Author where applicable.
+- Version or edition where applicable.
+- Internal reference identifier.
+
+Traceability SHALL support future review and verification.
+
+---
+
+## PB-CON-REF-005
+
+### Citation Consistency
+
+References SHOULD be documented consistently across editorial assets.
+
+Citation practices SHALL:
+
+- Avoid ambiguity.
+- Preserve source identification.
+- Support future verification.
+- Remain proportionate to the publication format.
+
+Internal documentation MAY contain more detailed reference information than public-facing publications.
+
+---
+
+## PB-CON-REF-006
+
+### Evidence Currency
+
+Editorial evidence SHOULD be reviewed periodically to ensure continued relevance.
+
+Review SHOULD consider:
+
+- Scientific updates.
+- Revised clinical guidance.
+- Public health recommendations.
+- New research findings.
+- Regulatory changes.
+
+Outdated evidence SHOULD be replaced where appropriate.
+
+---
+
+## PB-CON-REF-007
+
+### Evidence Repository
+
+Approved evidence SHOULD be maintained within the organisational knowledge repository.
+
+The repository MAY include:
+
+- Scientific publications.
+- Official guidelines.
+- Educational resources.
+- Standard reference materials.
+- Internal evidence summaries.
+- Approved reusable citations.
+
+The repository SHALL support efficient editorial reuse.
+
+---
+
+## PB-CON-REF-008
+
+### AI Evidence Usage
+
+AI-assisted production MAY utilise approved evidence repositories.
+
+AI-generated content SHALL NOT introduce unsupported factual claims.
+
+Human reviewers SHALL verify that evidence has been accurately represented before publication.
+
+---
+
+## PB-CON-REF-009
+
+### Evidence Review
+
+Evidence management SHOULD be reviewed periodically through:
+
+- Scientific audits.
+- Editorial audits.
+- Governance reviews.
+- Community feedback where appropriate.
+- Production improvement initiatives.
+
+Findings SHOULD inform future revisions of editorial standards.
+
+---
+
+## PB-CON-REF-010
+
+### Continuous Evidence Improvement
+
+The evidence management framework SHOULD evolve alongside scientific progress.
+
+Approved improvements MAY include:
+
+- Updated evidence standards.
+- Expanded reference repositories.
+- Improved documentation methods.
+- Enhanced AI knowledge integration.
+- Revised editorial guidance.
+
+Changes SHALL follow the Editorial Governance framework.
+
+---
+
+### Success Criteria
+
+The Editorial References & Evidence Management framework is considered successfully implemented when:
+
+- Editorial claims are supported by reliable evidence.
+- References remain traceable and maintainable.
+- Evidence is periodically reviewed for continued relevance.
+- Scientific credibility is consistently maintained across all publications.
+
+---
+
+### Relationships
+
+Depends On:
+
+- PB-CON-009 — Scientific Accuracy Standards
+- PB-CON-012 — Editorial Quality Assurance
+- PB-CON-013 — Editorial Governance
+- PB-CON-015 — Content Documentation & Knowledge Management
+
+Supports:
+
+- Scientific Integrity
+- Editorial Credibility
+- Knowledge Management
+- AI-Assisted Production
+- Future Production Bible Development
+
+Referenced By:
+
+- Every evidence-based Coz We Care publication
+- Editorial Knowledge Repository
+- Scientific Review Process
+
+---
+
+## PB-CON-022 — Editorial Versioning & Change Management
+
+Status: LOCK
+Version: 1.0
+Type: Content System
+
+---
+
+### Purpose
+
+Define the canonical framework for managing revisions, updates, and version control for all editorial standards and content assets within Coz We Care.
+
+This framework ensures that editorial changes are planned, documented, approved, traceable, and consistently implemented while preserving the integrity of historical records.
+
+---
+
+### Change Management Statement
+
+All controlled editorial assets SHALL be managed through a formal versioning and change management process.
+
+Editorial changes SHALL improve quality without compromising consistency, scientific integrity, or organisational knowledge.
+
+---
+
+## PB-CON-VCM-001
+
+### Objectives
+
+Editorial Versioning & Change Management exists to:
+
+- Preserve editorial integrity.
+- Maintain document traceability.
+- Prevent conflicting standards.
+- Support continuous improvement.
+- Enable controlled collaboration.
+- Protect organisational knowledge.
+- Ensure historical accountability.
+
+---
+
+## PB-CON-VCM-002
+
+### Controlled Editorial Assets
+
+Version control SHALL apply to all controlled editorial assets, including:
+
+- Production Bible sections.
+- Editorial standards.
+- Writing guidelines.
+- Editorial templates.
+- Controlled vocabularies.
+- AI prompt libraries.
+- Editorial workflows.
+- Governance documentation.
+
+Each controlled asset SHALL have one canonical active version.
+
+---
+
+## PB-CON-VCM-003
+
+### Version Identification
+
+Every controlled editorial asset SHOULD include:
+
+- Version number.
+- Status.
+- Revision date where applicable.
+- Approval authority.
+- Change summary.
+- Relationship to previous versions.
+
+Version identifiers SHALL uniquely distinguish each approved revision.
+
+---
+
+## PB-CON-VCM-004
+
+### Change Categories
+
+Editorial changes MAY be classified as:
+
+- Editorial correction.
+- Scientific update.
+- Structural improvement.
+- Clarification.
+- Policy revision.
+- Governance update.
+- Major architectural revision.
+
+Classification SHOULD reflect the significance of the change.
+
+---
+
+## PB-CON-VCM-005
+
+### Change Approval
+
+Changes to controlled editorial assets SHALL undergo appropriate review before becoming canonical.
+
+Approval SHOULD verify:
+
+- Scientific accuracy.
+- Editorial consistency.
+- Governance compliance.
+- Documentation completeness.
+- Compatibility with existing standards.
+
+Unapproved revisions SHALL NOT replace canonical versions.
+
+---
+
+## PB-CON-VCM-006
+
+### Revision History
+
+Every controlled editorial asset SHOULD maintain a revision history documenting:
+
+- Version number.
+- Summary of changes.
+- Approval date.
+- Approval authority.
+- Reason for revision.
+
+Revision history SHALL support long-term traceability.
+
+---
+
+## PB-CON-VCM-007
+
+### Deprecation
+
+When an editorial asset is superseded:
+
+- The previous version SHALL be retained.
+- Its status SHALL be marked as deprecated, archived, or superseded as appropriate.
+- References SHOULD be updated to the current canonical version.
+- Historical traceability SHALL be preserved.
+
+---
+
+## PB-CON-VCM-008
+
+### Compatibility
+
+Editorial revisions SHOULD maintain compatibility with existing Production Bible architecture whenever practical.
+
+Where compatibility cannot be maintained, migration guidance SHOULD be documented to support implementation.
+
+---
+
+## PB-CON-VCM-009
+
+### AI Synchronisation
+
+Approved editorial revisions SHOULD be reflected within AI-assisted production resources.
+
+AI knowledge sources SHALL remain synchronised with current canonical editorial standards to minimise outdated guidance.
+
+Human verification SHALL confirm successful implementation.
+
+---
+
+## PB-CON-VCM-010
+
+### Continuous Improvement
+
+The versioning and change management framework SHOULD evolve through:
+
+- Governance reviews.
+- Editorial audits.
+- Scientific developments.
+- Operational experience.
+- Community feedback.
+- Organisational learning.
+
+Approved improvements SHALL be incorporated into future versions of the Production Bible.
+
+---
+
+### Success Criteria
+
+The Editorial Versioning & Change Management framework is considered successfully implemented when:
+
+- Editorial revisions remain fully traceable.
+- Canonical standards remain unambiguous.
+- Historical versions are preserved.
+- Editorial improvements are implemented through controlled governance.
+
+---
+
+### Relationships
+
+Depends On:
+
+- PB-CON-013 — Editorial Governance
+- PB-CON-015 — Content Documentation & Knowledge Management
+- PB-CON-021 — Editorial References & Evidence Management
+
+Supports:
+
+- Knowledge Management
+- Editorial Governance
+- AI-Assisted Production
+- Continuous Improvement
+- Future Production Bible Development
+
+Referenced By:
+
+- Every controlled editorial asset
+- Editorial Knowledge Repository
+- Production Bible Governance
+
+---
+
+## PB-CON-023 — Editorial Records Retention & Archival
+
+Status: LOCK
+Version: 1.0
+Type: Content System
+
+---
+
+### Purpose
+
+Define the canonical framework for retaining, archiving, preserving, and retiring editorial records created throughout the Coz We Care content lifecycle.
+
+This framework ensures that editorial assets remain traceable, recoverable, historically accurate, and available for organisational learning while preventing unnecessary accumulation of obsolete materials.
+
+---
+
+### Records Management Statement
+
+Editorial records SHALL be managed throughout their entire lifecycle using controlled retention and archival practices.
+
+Historical records SHALL preserve organisational knowledge without creating ambiguity regarding the current canonical standards.
+
+---
+
+## PB-CON-ARC-001
+
+### Objectives
+
+Editorial Records Management exists to:
+
+- Preserve organisational knowledge.
+- Maintain historical traceability.
+- Support governance audits.
+- Protect canonical standards.
+- Improve future editorial learning.
+- Enable efficient information retrieval.
+- Prevent accidental loss of editorial assets.
+
+---
+
+## PB-CON-ARC-002
+
+### Editorial Record Types
+
+Editorial records MAY include:
+
+- Production Bible revisions.
+- Editorial standards.
+- Publication approvals.
+- Scientific review records.
+- Editorial review documentation.
+- Governance decisions.
+- Version histories.
+- Approved templates.
+- AI prompt revisions.
+- Editorial audit reports.
+
+Each record SHALL be assigned an appropriate lifecycle.
+
+---
+
+## PB-CON-ARC-003
+
+### Retention Principles
+
+Editorial records SHOULD be retained according to their organisational value.
+
+Retention decisions SHALL consider:
+
+- Scientific significance.
+- Governance importance.
+- Historical relevance.
+- Legal obligations where applicable.
+- Operational usefulness.
+- Future reference value.
+
+Canonical assets SHOULD receive permanent retention.
+
+---
+
+## PB-CON-ARC-004
+
+### Archival Standards
+
+Archived records SHALL:
+
+- Preserve original content.
+- Maintain version integrity.
+- Include sufficient metadata.
+- Remain recoverable.
+- Prevent unauthorised modification.
+
+Archival SHALL preserve historical authenticity.
+
+---
+
+## PB-CON-ARC-005
+
+### Canonical Preservation
+
+Canonical editorial assets SHALL NEVER be overwritten.
+
+When revisions occur:
+
+- Previous canonical versions SHALL remain archived.
+- New versions SHALL become the active canonical edition only after approval.
+- Historical versions SHALL remain accessible for governance purposes.
+
+---
+
+## PB-CON-ARC-006
+
+### Record Classification
+
+Editorial records SHOULD be classified according to their lifecycle, including:
+
+- Draft.
+- Under Review.
+- Approved.
+- Canonical.
+- Superseded.
+- Archived.
+- Retired.
+
+Classification SHALL clearly communicate the current status of each record.
+
+---
+
+## PB-CON-ARC-007
+
+### Retrieval and Traceability
+
+Archived records SHOULD remain searchable through:
+
+- Version identifiers.
+- Document identifiers.
+- Publication dates.
+- Governance references.
+- Related editorial standards.
+
+Traceability SHALL support audits, reviews, and future editorial decisions.
+
+---
+
+## PB-CON-ARC-008
+
+### AI Knowledge Preservation
+
+Only approved canonical knowledge SHOULD be incorporated into AI-assisted editorial systems.
+
+Archived or superseded materials SHALL NOT replace current canonical guidance unless explicitly required for historical analysis.
+
+Human oversight SHALL govern all AI knowledge updates.
+
+---
+
+## PB-CON-ARC-009
+
+### Archival Review
+
+Archived editorial records SHOULD be reviewed periodically to verify:
+
+- Metadata completeness.
+- Archive integrity.
+- Retrieval capability.
+- Status accuracy.
+- Continued historical value.
+
+Review findings SHOULD inform improvements to knowledge preservation practices.
+
+---
+
+## PB-CON-ARC-010
+
+### Continuous Improvement
+
+The Editorial Records Retention & Archival framework SHOULD evolve through:
+
+- Governance reviews.
+- Editorial audits.
+- Knowledge management improvements.
+- Technological developments.
+- Organisational learning.
+- Long-term operational experience.
+
+Approved improvements SHALL be incorporated into future versions of the Production Bible.
+
+---
+
+### Success Criteria
+
+The Editorial Records Retention & Archival framework is considered successfully implemented when:
+
+- Canonical knowledge is permanently preserved.
+- Historical records remain traceable and recoverable.
+- Editorial assets are consistently classified throughout their lifecycle.
+- Organisational knowledge remains protected across future Production Bible revisions.
+
+---
+
+### Relationships
+
+Depends On:
+
+- PB-CON-015 — Content Documentation & Knowledge Management
+- PB-CON-021 — Editorial References & Evidence Management
+- PB-CON-022 — Editorial Versioning & Change Management
+
+Supports:
+
+- Knowledge Preservation
+- Editorial Governance
+- Organisational Learning
+- AI-Assisted Production
+- Future Production Bible Development
+
+Referenced By:
+
+- Editorial Knowledge Repository
+- Production Bible Governance
+- Canonical Editorial Assets
+
+---
+
+## PB-CON-024 — Editorial Compliance & Audit Framework
+
+Status: LOCK
+Version: 1.0
+Type: Content System
+
+---
+
+### Purpose
+
+Define the canonical framework for monitoring, auditing, and verifying compliance with the Coz We Care Production Bible and all approved editorial standards.
+
+This framework ensures that editorial activities remain consistent with organisational governance, scientific integrity, and established editorial requirements while enabling continuous organisational improvement.
+
+---
+
+### Compliance Statement
+
+Every controlled editorial activity SHALL comply with the applicable standards defined within the Coz We Care Production Bible.
+
+Compliance SHALL be evaluated through systematic auditing, documented findings, corrective actions, and continuous improvement.
+
+---
+
+## PB-CON-AUD-001
+
+### Objectives
+
+The Editorial Compliance & Audit Framework exists to:
+
+- Verify adherence to editorial standards.
+- Protect scientific integrity.
+- Maintain brand consistency.
+- Strengthen organisational accountability.
+- Support governance decisions.
+- Identify improvement opportunities.
+- Preserve public trust.
+
+---
+
+## PB-CON-AUD-002
+
+### Scope of Audit
+
+Editorial audits MAY evaluate:
+
+- Editorial standards compliance.
+- Scientific accuracy.
+- Writing quality.
+- Brand consistency.
+- Accessibility.
+- Ethical communication.
+- Governance compliance.
+- Documentation completeness.
+- AI-assisted production.
+- Publication workflows.
+
+Audit scope SHALL be appropriate to the objectives of each review.
+
+---
+
+## PB-CON-AUD-003
+
+### Audit Principles
+
+Editorial audits SHALL be:
+
+- Objective.
+- Evidence-based.
+- Consistent.
+- Transparent.
+- Constructive.
+- Documented.
+- Proportionate.
+
+Audits exist to improve editorial quality rather than assign blame.
+
+---
+
+## PB-CON-AUD-004
+
+### Audit Process
+
+Editorial audits SHOULD follow the following sequence:
+
+1. Define audit scope.
+2. Collect supporting evidence.
+3. Evaluate compliance.
+4. Document findings.
+5. Recommend corrective actions.
+6. Verify implementation where applicable.
+7. Record lessons learned.
+
+Every completed audit SHOULD produce a documented outcome.
+
+---
+
+## PB-CON-AUD-005
+
+### Compliance Levels
+
+Audit findings MAY classify compliance as:
+
+- Fully Compliant.
+- Compliant with Minor Improvements.
+- Partially Compliant.
+- Non-Compliant.
+
+Classification SHALL reflect the significance of identified issues.
+
+---
+
+## PB-CON-AUD-006
+
+### Corrective Actions
+
+Where non-compliance is identified, corrective actions SHOULD:
+
+- Address root causes.
+- Define responsible parties.
+- Establish implementation priorities.
+- Include verification criteria.
+- Be documented for future review.
+
+Corrective actions SHOULD strengthen future editorial performance.
+
+---
+
+## PB-CON-AUD-007
+
+### Audit Documentation
+
+Audit documentation SHOULD include:
+
+- Audit objectives.
+- Scope.
+- Evidence reviewed.
+- Findings.
+- Compliance assessment.
+- Recommended actions.
+- Approval information.
+
+Documentation SHALL support future governance and organisational learning.
+
+---
+
+## PB-CON-AUD-008
+
+### AI Compliance Auditing
+
+AI-assisted editorial production SHOULD be periodically audited to verify:
+
+- Compliance with editorial standards.
+- Scientific accuracy.
+- Appropriate terminology.
+- Governance compliance.
+- Consistency with canonical Production Bible requirements.
+
+Human reviewers SHALL remain responsible for audit conclusions.
+
+---
+
+## PB-CON-AUD-009
+
+### Audit Reporting
+
+Audit reports SHOULD communicate:
+
+- Overall compliance status.
+- Significant findings.
+- Trends.
+- Risks.
+- Improvement opportunities.
+- Recommended governance actions.
+
+Reports SHOULD support strategic editorial decision-making.
+
+---
+
+## PB-CON-AUD-010
+
+### Continuous Audit Improvement
+
+The Editorial Compliance & Audit Framework SHOULD evolve through:
+
+- Governance reviews.
+- Editorial audits.
+- Scientific developments.
+- Organisational learning.
+- Operational experience.
+- Community feedback where appropriate.
+
+Approved improvements SHALL become part of future versions of the Production Bible.
+
+---
+
+### Success Criteria
+
+The Editorial Compliance & Audit Framework is considered successfully implemented when:
+
+- Editorial compliance is consistently monitored.
+- Audit findings lead to measurable improvements.
+- Governance decisions are supported by documented evidence.
+- Editorial standards remain consistently applied across all publications.
+
+---
+
+### Relationships
+
+Depends On:
+
+- PB-CON-012 — Editorial Quality Assurance
+- PB-CON-013 — Editorial Governance
+- PB-CON-022 — Editorial Versioning & Change Management
+- PB-CON-023 — Editorial Records Retention & Archival
+
+Supports:
+
+- Editorial Governance
+- Quality Assurance
+- Continuous Improvement
+- Organisational Learning
+- Future Production Bible Development
+
+Referenced By:
+
+- Editorial audit reports
+- Governance reviews
+- Continuous improvement initiatives
+
+---
+
+## PB-CON-024 — Editorial Compliance & Audit Framework
+
+Status: LOCK
+Version: 1.0
+Type: Content System
+
+---
+
+### Purpose
+
+Define the canonical framework for monitoring, auditing, and verifying compliance with the Coz We Care Production Bible and all approved editorial standards.
+
+This framework ensures that editorial activities remain consistent with organisational governance, scientific integrity, and established editorial requirements while enabling continuous organisational improvement.
+
+---
+
+### Compliance Statement
+
+Every controlled editorial activity SHALL comply with the applicable standards defined within the Coz We Care Production Bible.
+
+Compliance SHALL be evaluated through systematic auditing, documented findings, corrective actions, and continuous improvement.
+
+---
+
+## PB-CON-AUD-001
+
+### Objectives
+
+The Editorial Compliance & Audit Framework exists to:
+
+- Verify adherence to editorial standards.
+- Protect scientific integrity.
+- Maintain brand consistency.
+- Strengthen organisational accountability.
+- Support governance decisions.
+- Identify improvement opportunities.
+- Preserve public trust.
+
+---
+
+## PB-CON-AUD-002
+
+### Scope of Audit
+
+Editorial audits MAY evaluate:
+
+- Editorial standards compliance.
+- Scientific accuracy.
+- Writing quality.
+- Brand consistency.
+- Accessibility.
+- Ethical communication.
+- Governance compliance.
+- Documentation completeness.
+- AI-assisted production.
+- Publication workflows.
+
+Audit scope SHALL be appropriate to the objectives of each review.
+
+---
+
+## PB-CON-AUD-003
+
+### Audit Principles
+
+Editorial audits SHALL be:
+
+- Objective.
+- Evidence-based.
+- Consistent.
+- Transparent.
+- Constructive.
+- Documented.
+- Proportionate.
+
+Audits exist to improve editorial quality rather than assign blame.
+
+---
+
+## PB-CON-AUD-004
+
+### Audit Process
+
+Editorial audits SHOULD follow the following sequence:
+
+1. Define audit scope.
+2. Collect supporting evidence.
+3. Evaluate compliance.
+4. Document findings.
+5. Recommend corrective actions.
+6. Verify implementation where applicable.
+7. Record lessons learned.
+
+Every completed audit SHOULD produce a documented outcome.
+
+---
+
+## PB-CON-AUD-005
+
+### Compliance Levels
+
+Audit findings MAY classify compliance as:
+
+- Fully Compliant.
+- Compliant with Minor Improvements.
+- Partially Compliant.
+- Non-Compliant.
+
+Classification SHALL reflect the significance of identified issues.
+
+---
+
+## PB-CON-AUD-006
+
+### Corrective Actions
+
+Where non-compliance is identified, corrective actions SHOULD:
+
+- Address root causes.
+- Define responsible parties.
+- Establish implementation priorities.
+- Include verification criteria.
+- Be documented for future review.
+
+Corrective actions SHOULD strengthen future editorial performance.
+
+---
+
+## PB-CON-AUD-007
+
+### Audit Documentation
+
+Audit documentation SHOULD include:
+
+- Audit objectives.
+- Scope.
+- Evidence reviewed.
+- Findings.
+- Compliance assessment.
+- Recommended actions.
+- Approval information.
+
+Documentation SHALL support future governance and organisational learning.
+
+---
+
+## PB-CON-AUD-008
+
+### AI Compliance Auditing
+
+AI-assisted editorial production SHOULD be periodically audited to verify:
+
+- Compliance with editorial standards.
+- Scientific accuracy.
+- Appropriate terminology.
+- Governance compliance.
+- Consistency with canonical Production Bible requirements.
+
+Human reviewers SHALL remain responsible for audit conclusions.
+
+---
+
+## PB-CON-AUD-009
+
+### Audit Reporting
+
+Audit reports SHOULD communicate:
+
+- Overall compliance status.
+- Significant findings.
+- Trends.
+- Risks.
+- Improvement opportunities.
+- Recommended governance actions.
+
+Reports SHOULD support strategic editorial decision-making.
+
+---
+
+## PB-CON-AUD-010
+
+### Continuous Audit Improvement
+
+The Editorial Compliance & Audit Framework SHOULD evolve through:
+
+- Governance reviews.
+- Editorial audits.
+- Scientific developments.
+- Organisational learning.
+- Operational experience.
+- Community feedback where appropriate.
+
+Approved improvements SHALL become part of future versions of the Production Bible.
+
+---
+
+### Success Criteria
+
+The Editorial Compliance & Audit Framework is considered successfully implemented when:
+
+- Editorial compliance is consistently monitored.
+- Audit findings lead to measurable improvements.
+- Governance decisions are supported by documented evidence.
+- Editorial standards remain consistently applied across all publications.
+
+---
+
+### Relationships
+
+Depends On:
+
+- PB-CON-012 — Editorial Quality Assurance
+- PB-CON-013 — Editorial Governance
+- PB-CON-022 — Editorial Versioning & Change Management
+- PB-CON-023 — Editorial Records Retention & Archival
+
+Supports:
+
+- Editorial Governance
+- Quality Assurance
+- Continuous Improvement
+- Organisational Learning
+- Future Production Bible Development
+
+Referenced By:
+
+- Editorial audit reports
+- Governance reviews
+- Continuous improvement initiatives
+
+---
+
+## PB-CON-025 — Content System Integration
+
+Status: LOCK
+Version: 1.0
+Type: Content System
+
+---
+
+### Purpose
+
+Define the canonical integration framework for the Content System within the overall Coz We Care Production Bible architecture.
+
+This framework establishes how every content-related standard interacts with other Production Bible domains, ensuring that editorial activities operate as a unified system rather than as independent documents.
+
+---
+
+### Integration Statement
+
+The Content System SHALL function as an integrated component of the Coz We Care Production Bible.
+
+Every content standard SHALL maintain clear relationships with governance, branding, visual design, production, AI, knowledge management, and quality assurance systems.
+
+---
+
+## PB-CON-INT-001
+
+### Architectural Position
+
+The Content System is the canonical authority governing:
+
+- Editorial standards.
+- Educational content.
+- Writing practices.
+- Scientific communication.
+- Editorial governance.
+- Editorial quality.
+- Content lifecycle.
+- Editorial knowledge.
+
+The Content System SHALL operate within the overall Production Bible architecture.
+
+---
+
+## PB-CON-INT-002
+
+### Integration with Brand System
+
+The Content System SHALL align with the Brand System by ensuring:
+
+- Consistent brand voice.
+- Approved messaging.
+- Organisational mission alignment.
+- Audience positioning.
+- Communication objectives.
+
+Editorial content SHALL reinforce the Coz We Care brand identity.
+
+---
+
+## PB-CON-INT-003
+
+### Integration with Visual Identity System
+
+Editorial content SHALL integrate with the Visual Identity System to ensure:
+
+- Consistent visual hierarchy.
+- Appropriate typography.
+- Accessible layouts.
+- Brand-consistent presentation.
+- Harmonised educational communication.
+
+Editorial and visual systems SHALL function as complementary components.
+
+---
+
+## PB-CON-INT-004
+
+### Integration with Production Workflow
+
+Every stage of the production workflow SHALL reference the Content System where applicable.
+
+Integration includes:
+
+- Content planning.
+- Script development.
+- Editorial review.
+- Scientific review.
+- Quality assurance.
+- Publication.
+- Continuous improvement.
+
+Editorial standards SHALL guide each production phase.
+
+---
+
+## PB-CON-INT-005
+
+### Integration with AI Systems
+
+AI-assisted production SHALL utilise approved Content System standards.
+
+Integration SHALL ensure:
+
+- Consistent terminology.
+- Approved editorial guidance.
+- Scientific accuracy.
+- Governance compliance.
+- Knowledge consistency.
+
+Human oversight SHALL remain mandatory.
+
+---
+
+## PB-CON-INT-006
+
+### Integration with Knowledge Management
+
+Approved editorial standards SHALL become part of the organisational knowledge base.
+
+Knowledge integration SHALL support:
+
+- Documentation.
+- Searchability.
+- Reuse.
+- AI knowledge.
+- Organisational learning.
+- Future Production Bible development.
+
+---
+
+## PB-CON-INT-007
+
+### Integration with Governance
+
+Editorial Governance SHALL coordinate with organisational governance through:
+
+- Policy implementation.
+- Version approval.
+- Audit processes.
+- Decision management.
+- Risk management.
+- Continuous improvement.
+
+Governance relationships SHALL remain clearly documented.
+
+---
+
+## PB-CON-INT-008
+
+### Integration with Quality Assurance
+
+Editorial Quality Assurance SHALL integrate with broader organisational quality systems.
+
+Integration SHALL include:
+
+- Editorial reviews.
+- Scientific validation.
+- Accessibility evaluation.
+- Brand compliance.
+- Governance verification.
+
+Quality assurance SHALL operate consistently across all editorial assets.
+
+---
+
+## PB-CON-INT-009
+
+### Integration with Future Systems
+
+Future Production Bible modules SHALL integrate with the Content System through documented architectural relationships.
+
+Future integrations SHOULD preserve:
+
+- Canonical consistency.
+- Backward compatibility where practical.
+- Knowledge continuity.
+- Editorial integrity.
+
+New systems SHALL complement rather than duplicate existing standards.
+
+---
+
+## PB-CON-INT-010
+
+### System Evolution
+
+The Content System SHALL evolve through controlled governance while maintaining compatibility with the overall Production Bible architecture.
+
+Architectural improvements SHOULD:
+
+- Strengthen interoperability.
+- Reduce duplication.
+- Improve maintainability.
+- Preserve canonical integrity.
+- Support long-term scalability.
+
+All structural changes SHALL follow the Editorial Governance and Version Management frameworks.
+
+---
+
+### Success Criteria
+
+The Content System Integration framework is considered successfully implemented when:
+
+- Editorial standards operate as a unified system.
+- Relationships between Production Bible domains are clearly defined.
+- Future architectural expansion remains consistent.
+- Organisational knowledge remains coherent across all editorial activities.
+
+---
+
+### Relationships
+
+Depends On:
+
+- PB-CON-013 — Editorial Governance
+- PB-CON-015 — Content Documentation & Knowledge Management
+- PB-CON-022 — Editorial Versioning & Change Management
+- PB-CON-024 — Editorial Compliance & Audit Framework
+
+Supports:
+
+- Production Bible Architecture
+- AI-Assisted Production
+- Knowledge Management
+- Organisational Governance
+- Future Production Bible Expansion
+
+Referenced By:
+
+- Every Production Bible domain
+- Editorial Governance Framework
+- Organisational Knowledge Architecture
+
+---
+
+## PB-CON-026 — Content System Governance Summary
+
+Status: LOCK
+Version: 1.0
+Type: Content System
+
+---
+
+### Purpose
+
+Define the overarching governance summary for the Content System and establish the canonical principles that govern all present and future editorial standards within the Coz We Care Production Bible.
+
+This section serves as the concluding governance layer for the Content System, ensuring that every editorial standard operates under a unified governance philosophy.
+
+---
+
+### Governance Statement
+
+All Content System standards SHALL be governed through a controlled, transparent, evidence-based, and continuously improving governance model.
+
+No individual editorial standard SHALL operate independently of this governance framework.
+
+---
+
+## PB-CON-GOV-001
+
+### Canonical Authority
+
+The Content System is the sole canonical authority governing editorial content within the Coz We Care Production Bible.
+
+All editorial guidance SHALL derive from approved canonical standards.
+
+Conflicting editorial guidance SHALL be resolved through the Editorial Governance Framework.
+
+---
+
+## PB-CON-GOV-002
+
+### Principles
+
+The Content System SHALL operate according to the following principles:
+
+- Scientific integrity.
+- Editorial consistency.
+- Audience-centred communication.
+- Transparency.
+- Accessibility.
+- Inclusivity.
+- Accountability.
+- Continuous improvement.
+
+These principles SHALL guide every editorial decision.
+
+---
+
+## PB-CON-GOV-003
+
+### Governance Hierarchy
+
+Editorial governance SHALL follow the hierarchy below:
+
+1. Production Bible.
+2. Canonical Editorial Standards.
+3. Approved Editorial Procedures.
+4. Approved Editorial Templates.
+5. Publication-Specific Guidance.
+
+Lower-level documents SHALL NOT override higher-level canonical standards.
+
+---
+
+## PB-CON-GOV-004
+
+### Change Governance
+
+All modifications to the Content System SHALL:
+
+- Follow formal governance procedures.
+- Be documented.
+- Undergo appropriate review.
+- Preserve historical traceability.
+- Receive formal approval before becoming canonical.
+
+Unauthorised modifications SHALL NOT become part of the canonical Production Bible.
+
+---
+
+## PB-CON-GOV-005
+
+### Cross-System Consistency
+
+The Content System SHALL remain consistent with:
+
+- Brand System.
+- Visual Identity System.
+- Production Workflow.
+- Knowledge Management.
+- Quality Assurance.
+- AI Governance.
+- Future Production Bible domains.
+
+Cross-domain consistency SHALL be maintained throughout future revisions.
+
+---
+
+## PB-CON-GOV-006
+
+### Organisational Learning
+
+Lessons derived from:
+
+- Editorial audits.
+- Scientific updates.
+- Community feedback.
+- Publication outcomes.
+- Governance reviews.
+- Operational experience.
+
+SHOULD inform future improvements to the Content System.
+
+Learning SHALL strengthen—not replace—the established governance process.
+
+---
+
+## PB-CON-GOV-007
+
+### Long-Term Sustainability
+
+The Content System SHALL be maintained to support long-term organisational sustainability by ensuring:
+
+- Stable governance.
+- Scalable architecture.
+- Consistent documentation.
+- Knowledge preservation.
+- Future maintainability.
+- AI compatibility.
+
+The framework SHOULD remain adaptable without compromising canonical integrity.
+
+---
+
+## PB-CON-GOV-008
+
+### Final Governance Assurance
+
+Before publication, every Content System standard SHOULD be evaluated to confirm:
+
+- Governance compliance.
+- Editorial consistency.
+- Scientific validity.
+- Documentation completeness.
+- Relationship integrity.
+- Version accuracy.
+
+Only compliant standards SHALL become canonical.
+
+---
+
+### Success Criteria
+
+The Content System Governance Summary is considered successfully implemented when:
+
+- All editorial standards operate under one unified governance model.
+- Canonical authority is clearly established.
+- Governance remains consistent across future revisions.
+- The Content System supports sustainable organisational growth.
+
+---
+
+### Relationships
+
+Depends On:
+
+- PB-CON-013 — Editorial Governance
+- PB-CON-022 — Editorial Versioning & Change Management
+- PB-CON-024 — Editorial Compliance & Audit Framework
+- PB-CON-025 — Content System Integration
+
+Supports:
+
+- Entire Content System
+- Production Bible Governance
+- Organisational Knowledge
+- Long-Term Editorial Sustainability
+
+Referenced By:
+
+- All future Content System standards
+- Production Bible governance documentation
+- Editorial operating procedures
+
+---
+
+### End of Part IV — Content System
+
+Part IV is complete upon approval of this section.
+
+---
+
+# Part V — Editorial Workflow System
+
+Status: LOCK
+Version: 1.0
+Type: Workflow System
+
+---
+
+# PB-WF-001 — Editorial Workflow Principles
+
+---
+
+### Purpose
+
+Define the canonical principles governing the complete editorial workflow of Coz We Care, ensuring that every publication follows a consistent, traceable, quality-controlled, and evidence-based production process.
+
+This framework establishes how editorial work progresses from an initial idea to post-publication learning.
+
+---
+
+### Workflow Statement
+
+Every editorial asset SHALL be produced through an approved workflow.
+
+Editorial activities SHALL follow documented stages, defined responsibilities, and formal quality controls before publication.
+
+No publication SHOULD bypass the approved workflow unless explicitly authorised through Editorial Governance.
+
+---
+
+## PB-WF-001-001
+
+### Objectives
+
+The Editorial Workflow exists to:
+
+- Standardise editorial production.
+- Improve publication quality.
+- Reduce production errors.
+- Strengthen scientific integrity.
+- Support collaborative work.
+- Increase production efficiency.
+- Preserve organisational knowledge.
+- Enable continuous improvement.
+
+---
+
+## PB-WF-001-002
+
+### Workflow Philosophy
+
+The Editorial Workflow is built upon the following principles:
+
+- Plan before creating.
+- Verify before publishing.
+- Document before approving.
+- Review before releasing.
+- Learn after publishing.
+
+Every workflow stage contributes to overall publication quality.
+
+---
+
+## PB-WF-001-003
+
+### Canonical Workflow Stages
+
+The standard editorial workflow SHALL consist of the following stages:
+
+1. Content Planning.
+2. Research.
+3. Editorial Development.
+4. Scientific Verification.
+5. Visual Production.
+6. Editorial Review.
+7. Quality Assurance.
+8. Approval.
+9. Publication.
+10. Post-Publication Evaluation.
+
+Additional stages MAY be introduced where operationally necessary.
+
+---
+
+## PB-WF-001-004
+
+### Workflow Governance
+
+Every workflow stage SHALL have:
+
+- Defined objectives.
+- Required deliverables.
+- Responsible reviewers.
+- Entry criteria.
+- Exit criteria.
+- Quality checkpoints.
+
+Workflow governance SHALL ensure accountability throughout production.
+
+---
+
+## PB-WF-001-005
+
+### Workflow Consistency
+
+Editorial workflows SHALL remain consistent across:
+
+- Educational posts.
+- Carousels.
+- Reels.
+- Stories.
+- Campaign materials.
+- Community resources.
+- Future publication formats.
+
+Minor operational differences SHALL NOT compromise workflow integrity.
+
+---
+
+## PB-WF-001-006
+
+### Continuous Workflow Improvement
+
+Workflow improvements SHOULD originate from:
+
+- Editorial audits.
+- Quality reviews.
+- Scientific developments.
+- Team experience.
+- Organisational learning.
+- Governance decisions.
+
+Changes SHALL follow the Editorial Governance Framework before becoming canonical.
+
+---
+
+### Success Criteria
+
+The Editorial Workflow Principles are considered successfully implemented when:
+
+- Every publication follows the approved workflow.
+- Workflow stages remain clearly defined.
+- Editorial quality improves consistently.
+- Production remains transparent and traceable.
+
+---
+
+### Relationships
+
+Depends On:
+
+- PB-CON-013 — Editorial Governance
+- PB-CON-024 — Editorial Compliance & Audit Framework
+- PB-CON-026 — Content System Governance Summary
+
+Supports:
+
+- Entire Editorial Workflow System
+- Quality Assurance
+- Editorial Governance
+- Production Consistency
+
+Referenced By:
+
+- All workflow procedures
+- Editorial operating manuals
+- Production checklists
+
+---
+
 
 
