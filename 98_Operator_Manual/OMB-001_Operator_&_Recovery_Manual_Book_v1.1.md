@@ -1,7 +1,7 @@
 # OMB-001 — Operator & Recovery Manual Book
 
 > **Status:** LOCK  
-> **Versi:** 1.0  
+> **Versi:** 1.1  
 > **Kategori:** Canonical Document  
 > **Kode Dokumen:** OMB-001  
 > **Lokasi Repository:** `98_Operator_Manual/OMB-001_Operator_&_Recovery_Manual_Book_v1.0.md`
