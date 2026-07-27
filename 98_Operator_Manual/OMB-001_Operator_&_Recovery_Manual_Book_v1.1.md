@@ -161,9 +161,9 @@ Tampilan Arsitektur
 ↓
 Temukan RM-ID
 ↓
-Lihat Paket Pemulihan
+Pilih Recovery Package (RP-*)
 ↓
-Download dokumen dari GitHub
+Download dari GitHub
 ↓
 Upload ke ChatGPT
 ↓
@@ -417,9 +417,9 @@ Tampilan Arsitektur
 ↓
 Temukan RM-ID
 ↓
-Lihat Paket Pemulihan
+Pilih Recovery Package (RP-*)
 ↓
-Download dokumen dari GitHub
+Download dari GitHub
 ↓
 Upload ke ChatGPT
 ↓
@@ -605,22 +605,17 @@ OMB menggunakan lima tingkat prioritas.
 Gunakan urutan berikut.
 
 ```text
-Upload dokumen
-★★★★★
+RM-ID
 ↓
-Verifikasi konteks
+Recovery Package (RP-*)
 ↓
-Sudah cukup?
+Download dari GitHub
 ↓
-YA
+Upload ke ChatGPT
+↓
+Verifikasi Konteks
 ↓
 Mulai bekerja
-
-ATAU
-
-TIDAK
-↓
-Upload dokumen
 ★★★★☆
 ↓
 Verifikasi kembali
@@ -959,17 +954,17 @@ Tujuannya adalah membantu operator menentukan **RM-ID** dan **Paket Pemulihan** 
 Seluruh skenario mengikuti alur kerja yang sama.
 
 ```text
-Tentukan pekerjaan
+Membuat Standard
 ↓
-Cari RM-ID
+RM-003
 ↓
-Pilih Paket Pemulihan
+RP-KN
 ↓
-Download dokumen dari GitHub
+Download dari GitHub
 ↓
 Upload ke ChatGPT
 ↓
-Mulai bekerja
+Mulai membuat Standard
 ```
 
 ---
