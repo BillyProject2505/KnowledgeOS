@@ -15653,5 +15653,2079 @@ Referenced By:
 
 ---
 
+## PB-WF-002 — Content Planning Workflow
 
+Status: LOCK
+Version: 1.0
+Type: Workflow System
+
+---
+
+### Purpose
+
+Define the canonical workflow for planning editorial content before research, writing, visual production, and publication activities begin.
+
+This framework ensures that every Coz We Care publication originates from clearly identified objectives, audience needs, organisational priorities, and evidence-informed planning.
+
+---
+
+### Workflow Statement
+
+Every editorial asset SHALL begin with an approved content planning process.
+
+Content planning SHALL establish the purpose, scope, audience, educational objectives, and production requirements before editorial development commences.
+
+---
+
+## PB-WF-002-001
+
+### Objectives
+
+The Content Planning Workflow exists to:
+
+- Align publications with organisational objectives.
+- Identify audience needs.
+- Define educational goals.
+- Prioritise scientifically relevant topics.
+- Improve production efficiency.
+- Reduce unnecessary revisions.
+- Support cross-functional collaboration.
+- Ensure consistent editorial planning.
+
+---
+
+## PB-WF-002-002
+
+### Planning Inputs
+
+Content planning SHOULD consider:
+
+- Organisational priorities.
+- Community needs.
+- Scientific developments.
+- Public health updates.
+- Frequently asked questions.
+- Audience feedback.
+- Campaign objectives.
+- Seasonal or awareness events.
+- Editorial calendar commitments.
+
+Planning SHALL utilise the most current and reliable information available.
+
+---
+
+## PB-WF-002-003
+
+### Content Brief
+
+Every planned publication SHOULD be supported by a documented Content Brief.
+
+The Content Brief MAY include:
+
+- Working title.
+- Publication objective.
+- Target audience.
+- Core educational message.
+- Key supporting evidence.
+- Intended publication format.
+- Desired call-to-action.
+- Expected publication date.
+- Responsible contributors.
+
+The Content Brief SHALL guide all subsequent workflow stages.
+
+---
+
+## PB-WF-002-004
+
+### Topic Prioritisation
+
+Editorial topics SHOULD be prioritised according to:
+
+- Public health relevance.
+- Scientific importance.
+- Audience demand.
+- Organisational strategy.
+- Educational impact.
+- Timeliness.
+- Resource availability.
+
+Prioritisation SHALL remain transparent and evidence-based.
+
+---
+
+## PB-WF-002-005
+
+### Educational Objectives
+
+Each planned publication SHALL define one or more educational objectives.
+
+Objectives SHOULD:
+
+- Be specific.
+- Be understandable.
+- Support measurable learning outcomes.
+- Promote accurate public understanding.
+- Encourage informed decision-making.
+
+Educational objectives SHALL remain consistent throughout production.
+
+---
+
+## PB-WF-002-006
+
+### Audience Definition
+
+The intended audience SHOULD be clearly identified during planning.
+
+Audience characteristics MAY include:
+
+- General public.
+- Key populations.
+- Young adults.
+- Community members.
+- Healthcare providers.
+- People seeking HIV information.
+- Partners and families.
+- Other defined stakeholder groups.
+
+Audience definition SHALL influence communication style, terminology, and presentation.
+
+---
+
+## PB-WF-002-007
+
+### Risk Assessment
+
+Content planning SHOULD identify potential risks, including:
+
+- Scientific misinterpretation.
+- Stigmatising language.
+- Accessibility concerns.
+- Outdated information.
+- Ethical considerations.
+- Reputational risks.
+
+Identified risks SHOULD inform subsequent review activities.
+
+---
+
+## PB-WF-002-008
+
+### Planning Approval
+
+Before entering the Research Workflow, planning documentation SHOULD be reviewed to confirm:
+
+- Editorial objectives are defined.
+- Audience is identified.
+- Topic is appropriate.
+- Required resources are available.
+- Potential risks have been considered.
+
+Approved planning SHALL authorise progression to the Research Workflow.
+
+---
+
+## PB-WF-002-009
+
+### Planning Documentation
+
+Planning records SHOULD be retained as part of the editorial knowledge base.
+
+Documentation MAY include:
+
+- Content Brief.
+- Planning notes.
+- Editorial calendar references.
+- Meeting outcomes.
+- Approval records.
+
+Planning documentation SHALL support future traceability.
+
+---
+
+## PB-WF-002-010
+
+### Continuous Planning Improvement
+
+The Content Planning Workflow SHOULD improve through:
+
+- Editorial experience.
+- Audience insights.
+- Campaign evaluations.
+- Governance reviews.
+- Organisational learning.
+- Workflow audits.
+
+Approved improvements SHALL be incorporated into future workflow revisions.
+
+---
+
+### Success Criteria
+
+The Content Planning Workflow is considered successfully implemented when:
+
+- Every publication begins with documented planning.
+- Educational objectives are clearly defined.
+- Audience needs are identified before production.
+- Editorial planning supports efficient and consistent publication development.
+
+---
+
+### Relationships
+
+Depends On:
+
+- PB-WF-001 — Editorial Workflow Principles
+- PB-CON-013 — Editorial Governance
+- PB-CON-024 — Editorial Compliance & Audit Framework
+
+Supports:
+
+- Research Workflow
+- Editorial Development Workflow
+- Editorial Quality
+- Production Consistency
+
+Referenced By:
+
+- Editorial calendar
+- Content briefs
+- Production planning documentation
+
+---
+
+## PB-WF-003 — Research Workflow
+
+Status: LOCK
+Version: 1.0
+Type: Workflow System
+
+---
+
+### Purpose
+
+Define the canonical workflow for conducting editorial research to ensure that every Coz We Care publication is supported by accurate, current, relevant, and evidence-based information.
+
+This framework establishes the standards for gathering, evaluating, documenting, and managing evidence before editorial development begins.
+
+---
+
+### Workflow Statement
+
+Every editorial publication SHALL undergo an appropriate research process before editorial writing commences.
+
+Research SHALL identify reliable evidence, evaluate source quality, document findings, and establish the factual foundation for all subsequent editorial activities.
+
+---
+
+## PB-WF-003-001
+
+### Objectives
+
+The Research Workflow exists to:
+
+- Ensure scientific accuracy.
+- Support evidence-based communication.
+- Reduce misinformation.
+- Improve editorial credibility.
+- Strengthen public trust.
+- Support editorial consistency.
+- Preserve research traceability.
+- Facilitate future knowledge reuse.
+
+---
+
+## PB-WF-003-002
+
+### Research Scope
+
+Research activities SHOULD determine:
+
+- The scientific questions to be answered.
+- Relevant educational objectives.
+- Required supporting evidence.
+- Current scientific consensus.
+- Applicable public health guidance.
+- Audience information needs.
+
+The scope SHALL be proportional to the complexity and risk of the publication.
+
+---
+
+## PB-WF-003-003
+
+### Information Sources
+
+Research SHOULD prioritise authoritative sources, including:
+
+- Peer-reviewed scientific literature.
+- International public health organisations.
+- National public health authorities.
+- Clinical practice guidelines.
+- Systematic reviews.
+- Meta-analyses.
+- Official epidemiological reports.
+
+Lower-quality sources SHOULD only be used where appropriate and SHALL be clearly identified.
+
+---
+
+## PB-WF-003-004
+
+### Source Evaluation
+
+Each information source SHOULD be evaluated for:
+
+- Scientific credibility.
+- Publication date.
+- Relevance.
+- Authoritativeness.
+- Methodological quality.
+- Potential bias.
+- Consistency with current scientific evidence.
+
+Only sufficiently reliable evidence SHOULD support editorial content.
+
+---
+
+## PB-WF-003-005
+
+### Evidence Documentation
+
+Research findings SHOULD be documented to include:
+
+- Source references.
+- Key findings.
+- Scientific conclusions.
+- Publication dates.
+- Important limitations.
+- Editorial implications.
+
+Documentation SHALL support transparency and future verification.
+
+---
+
+## PB-WF-003-006
+
+### Evidence Synthesis
+
+Research evidence SHOULD be synthesised into clear editorial guidance by:
+
+- Identifying scientific consensus.
+- Resolving conflicting evidence where possible.
+- Highlighting uncertainties.
+- Simplifying complex concepts without reducing accuracy.
+- Aligning findings with educational objectives.
+
+Evidence synthesis SHALL preserve scientific integrity.
+
+---
+
+## PB-WF-003-007
+
+### Research Risk Assessment
+
+Researchers SHOULD identify potential risks, including:
+
+- Outdated evidence.
+- Conflicting recommendations.
+- Weak scientific support.
+- Misinterpretation of findings.
+- Incomplete evidence.
+- Emerging scientific uncertainty.
+
+Identified risks SHALL be communicated to subsequent workflow stages.
+
+---
+
+## PB-WF-003-008
+
+### Research Approval
+
+Before entering the Editorial Development Workflow, research SHOULD confirm:
+
+- Evidence is sufficient.
+- Sources are reliable.
+- Scientific questions are adequately addressed.
+- Documentation is complete.
+- Significant risks have been identified.
+
+Approved research SHALL authorise progression to editorial writing.
+
+---
+
+## PB-WF-003-009
+
+### Research Records
+
+Research documentation SHOULD be retained within the editorial knowledge repository.
+
+Records MAY include:
+
+- Literature searches.
+- Source lists.
+- Research summaries.
+- Evidence tables.
+- Scientific notes.
+- Review comments.
+
+Research records SHALL support future traceability and organisational learning.
+
+---
+
+## PB-WF-003-010
+
+### Continuous Research Improvement
+
+The Research Workflow SHOULD improve through:
+
+- Scientific developments.
+- Editorial experience.
+- Audit findings.
+- Knowledge management improvements.
+- Governance reviews.
+- Organisational learning.
+
+Approved improvements SHALL be incorporated into future workflow revisions.
+
+---
+
+### Success Criteria
+
+The Research Workflow is considered successfully implemented when:
+
+- Editorial publications are supported by reliable evidence.
+- Research findings are fully documented.
+- Scientific accuracy is maintained throughout production.
+- Research outputs support efficient editorial development.
+
+---
+
+### Relationships
+
+Depends On:
+
+- PB-WF-001 — Editorial Workflow Principles
+- PB-WF-002 — Content Planning Workflow
+- PB-CON-021 — Editorial References & Evidence Management
+
+Supports:
+
+- Editorial Development Workflow
+- Scientific Review Workflow
+- Editorial Quality
+- Knowledge Management
+
+Referenced By:
+
+- Research documentation
+- Editorial evidence repository
+- Scientific review records
+
+---
+
+## PB-WF-004 — Editorial Development Workflow
+
+Status: LOCK
+Version: 1.0
+Type: Workflow System
+
+---
+
+### Purpose
+
+Define the canonical workflow for transforming approved research into clear, accurate, audience-centred editorial content that aligns with the Coz We Care Production Bible.
+
+This framework establishes the standards for drafting, structuring, refining, and preparing editorial content prior to scientific review and visual production.
+
+---
+
+### Workflow Statement
+
+Editorial development SHALL convert validated evidence into educational content that is scientifically accurate, understandable, consistent with the Coz We Care brand, and appropriate for the intended audience.
+
+Editorial drafting SHALL follow approved editorial standards and remain faithful to the supporting evidence.
+
+---
+
+## PB-WF-004-001
+
+### Objectives
+
+The Editorial Development Workflow exists to:
+
+- Translate scientific evidence into accessible language.
+- Maintain editorial consistency.
+- Support audience understanding.
+- Preserve scientific accuracy.
+- Encourage audience engagement.
+- Reduce ambiguity.
+- Prepare content for scientific review.
+- Support efficient production.
+
+---
+
+## PB-WF-004-002
+
+### Editorial Inputs
+
+Editorial development SHOULD utilise:
+
+- Approved Content Brief.
+- Research documentation.
+- Educational objectives.
+- Audience definition.
+- Editorial standards.
+- Brand guidelines.
+- Applicable governance requirements.
+
+Only approved planning and research outputs SHALL be used as editorial inputs.
+
+---
+
+## PB-WF-004-003
+
+### Content Structure
+
+Editorial content SHOULD be organised to include:
+
+- Clear introduction.
+- Logical progression of ideas.
+- Accurate explanation.
+- Supporting evidence where appropriate.
+- Practical relevance.
+- Clear conclusion or call-to-action.
+
+Content structure SHALL improve readability and learning outcomes.
+
+---
+
+## PB-WF-004-004
+
+### Writing Standards
+
+Editorial writing SHALL:
+
+- Use clear language.
+- Avoid unnecessary jargon.
+- Explain technical terminology when required.
+- Maintain a respectful and inclusive tone.
+- Use person-centred communication.
+- Remain factually accurate.
+- Reflect the Coz We Care editorial voice.
+
+Writing quality SHALL prioritise audience comprehension without compromising scientific integrity.
+
+---
+
+## PB-WF-004-005
+
+### Editorial Consistency
+
+Draft content SHOULD remain consistent with:
+
+- Editorial terminology.
+- Scientific evidence.
+- Brand messaging.
+- Educational objectives.
+- Approved style guidance.
+- Existing canonical editorial standards.
+
+Consistency SHALL minimise conflicting information across publications.
+
+---
+
+## PB-WF-004-006
+
+### Draft Review
+
+Before scientific review, the editorial draft SHOULD be evaluated for:
+
+- Completeness.
+- Clarity.
+- Logical flow.
+- Consistency.
+- Accuracy of interpretation.
+- Readability.
+- Alignment with the intended audience.
+
+Identified issues SHOULD be addressed before progressing to the next workflow stage.
+
+---
+
+## PB-WF-004-007
+
+### Revision Management
+
+Editorial revisions SHOULD:
+
+- Preserve approved educational objectives.
+- Maintain scientific accuracy.
+- Improve readability where appropriate.
+- Document significant changes.
+- Avoid introducing unsupported claims.
+
+Major revisions SHOULD remain traceable.
+
+---
+
+## PB-WF-004-008
+
+### Editorial Readiness
+
+Editorial content SHALL be considered ready for Scientific Review when:
+
+- Drafting is complete.
+- Educational objectives are addressed.
+- Supporting evidence has been incorporated.
+- Terminology is consistent.
+- Required documentation is complete.
+
+Editorial readiness SHALL authorise progression to the Scientific Review Workflow.
+
+---
+
+## PB-WF-004-009
+
+### Editorial Records
+
+Editorial development documentation SHOULD include:
+
+- Draft versions.
+- Revision history.
+- Editorial comments.
+- Contributor notes.
+- Approval records.
+- Supporting references.
+
+Documentation SHALL support future traceability and organisational learning.
+
+---
+
+## PB-WF-004-010
+
+### Continuous Editorial Improvement
+
+The Editorial Development Workflow SHOULD improve through:
+
+- Editorial audits.
+- Scientific developments.
+- Audience feedback.
+- Quality assurance findings.
+- Governance reviews.
+- Organisational learning.
+
+Approved improvements SHALL be incorporated into future workflow revisions.
+
+---
+
+### Success Criteria
+
+The Editorial Development Workflow is considered successfully implemented when:
+
+- Editorial drafts accurately reflect approved research.
+- Scientific information is understandable to the intended audience.
+- Editorial consistency is maintained across publications.
+- Drafts are fully prepared for scientific review.
+
+---
+
+### Relationships
+
+Depends On:
+
+- PB-WF-002 — Content Planning Workflow
+- PB-WF-003 — Research Workflow
+- PB-CON-003 — Editorial Writing Standards
+
+Supports:
+
+- Scientific Review Workflow
+- Visual Production Workflow
+- Editorial Quality
+- Publication Consistency
+
+Referenced By:
+
+- Editorial drafts
+- Revision records
+- Scientific review documentation
+
+---
+
+## PB-WF-005 — Scientific Review Workflow
+
+Status: LOCK
+Version: 1.0
+Type: Workflow System
+
+---
+
+### Purpose
+
+Define the canonical workflow for conducting scientific review to ensure that every Coz We Care publication is accurate, evidence-based, current, ethically appropriate, and consistent with accepted public health knowledge before publication proceeds.
+
+This framework establishes the standards for validating scientific content, identifying inaccuracies, resolving evidence-related issues, and approving editorial material for subsequent production stages.
+
+---
+
+### Workflow Statement
+
+Every editorial publication containing scientific, medical, or public health information SHALL undergo an appropriate Scientific Review before visual production and publication.
+
+Scientific Review SHALL verify factual accuracy, consistency with current evidence, appropriate interpretation of research, and alignment with recognised public health guidance.
+
+---
+
+## PB-WF-005-001
+
+### Objectives
+
+The Scientific Review Workflow exists to:
+
+- Verify scientific accuracy.
+- Protect public trust.
+- Prevent misinformation.
+- Maintain evidence-based communication.
+- Ensure consistency with recognised guidance.
+- Reduce scientific errors.
+- Support editorial quality.
+- Strengthen organisational credibility.
+
+---
+
+## PB-WF-005-002
+
+### Review Inputs
+
+Scientific Review SHOULD utilise:
+
+- Approved editorial draft.
+- Research documentation.
+- Supporting references.
+- Evidence summaries.
+- Editorial objectives.
+- Relevant scientific guidelines.
+- Applicable public health recommendations.
+
+Only approved editorial drafts SHALL proceed to Scientific Review.
+
+---
+
+## PB-WF-005-003
+
+### Scientific Validation
+
+Scientific Review SHALL evaluate:
+
+- Factual accuracy.
+- Scientific consistency.
+- Correct interpretation of evidence.
+- Current scientific relevance.
+- Appropriate terminology.
+- Consistency with accepted public health guidance.
+
+Scientific conclusions SHALL accurately represent the supporting evidence.
+
+---
+
+## PB-WF-005-004
+
+### Identification of Issues
+
+Scientific reviewers SHOULD identify:
+
+- Unsupported claims.
+- Outdated information.
+- Misinterpretation of evidence.
+- Inaccurate terminology.
+- Missing context.
+- Overstated conclusions.
+- Potentially misleading statements.
+
+All identified issues SHOULD be documented for editorial revision.
+
+---
+
+## PB-WF-005-005
+
+### Recommendations
+
+Scientific Review MAY recommend:
+
+- Editorial clarification.
+- Additional evidence.
+- Terminology revisions.
+- Structural improvements.
+- Updated references.
+- Removal of unsupported statements.
+- Additional scientific review where necessary.
+
+Recommendations SHALL improve scientific integrity without altering approved educational objectives unnecessarily.
+
+---
+
+## PB-WF-005-006
+
+### Review Outcomes
+
+Scientific Review outcomes MAY include:
+
+- Approved.
+- Approved with Minor Revisions.
+- Major Revision Required.
+- Not Approved.
+
+The outcome SHALL be documented together with supporting rationale.
+
+---
+
+## PB-WF-005-007
+
+### Revision Verification
+
+Where revisions are required, reviewers SHOULD verify that:
+
+- Identified issues have been resolved.
+- Scientific accuracy has been restored.
+- No new inaccuracies have been introduced.
+- Editorial intent remains consistent.
+
+Revised content SHALL undergo additional review where appropriate.
+
+---
+
+## PB-WF-005-008
+
+### Scientific Approval
+
+Scientific approval SHALL confirm that:
+
+- Evidence is accurately represented.
+- Scientific terminology is appropriate.
+- Editorial claims are adequately supported.
+- Significant scientific risks have been addressed.
+- The publication is suitable to proceed to Visual Production.
+
+Scientific approval SHALL authorise progression to the Visual Production Workflow.
+
+---
+
+## PB-WF-005-009
+
+### Scientific Review Records
+
+Scientific Review documentation SHOULD include:
+
+- Reviewer comments.
+- Identified issues.
+- Recommended revisions.
+- Approval decisions.
+- Supporting references.
+- Revision verification records.
+
+Documentation SHALL support traceability, governance, and future audits.
+
+---
+
+## PB-WF-005-010
+
+### Continuous Scientific Improvement
+
+The Scientific Review Workflow SHOULD improve through:
+
+- Advances in scientific evidence.
+- Editorial audits.
+- Reviewer feedback.
+- Governance reviews.
+- Organisational learning.
+- Quality assurance findings.
+
+Approved improvements SHALL be incorporated into future workflow revisions.
+
+---
+
+### Success Criteria
+
+The Scientific Review Workflow is considered successfully implemented when:
+
+- Scientific accuracy is independently verified.
+- Editorial claims are supported by reliable evidence.
+- Scientific risks are appropriately addressed.
+- Publications are approved only after satisfactory scientific validation.
+
+---
+
+### Relationships
+
+Depends On:
+
+- PB-WF-003 — Research Workflow
+- PB-WF-004 — Editorial Development Workflow
+- PB-CON-021 — Editorial References & Evidence Management
+
+Supports:
+
+- Visual Production Workflow
+- Editorial Quality Assurance
+- Publication Approval
+- Public Trust
+
+Referenced By:
+
+- Scientific review reports
+- Editorial revision records
+- Publication approval documentation
+
+---
+
+## PB-WF-006 — Visual Production Workflow
+
+Status: LOCK
+Version: 1.0
+Type: Workflow System
+
+---
+
+### Purpose
+
+Define the canonical workflow for producing visual assets that accurately represent approved editorial content while maintaining consistency with the Coz We Care Brand System, Visual Identity System, and Production Bible.
+
+This framework establishes the standards for transforming scientifically approved editorial content into visually effective educational materials suitable for publication.
+
+---
+
+### Workflow Statement
+
+Visual production SHALL begin only after editorial content has successfully completed Scientific Review.
+
+Every visual asset SHALL accurately communicate the approved editorial message while complying with the Coz We Care visual standards and accessibility requirements.
+
+---
+
+## PB-WF-006-001
+
+### Objectives
+
+The Visual Production Workflow exists to:
+
+- Translate editorial content into effective visual communication.
+- Maintain brand consistency.
+- Improve audience engagement.
+- Support educational understanding.
+- Ensure accessibility.
+- Reduce visual inconsistencies.
+- Improve production efficiency.
+- Prepare publication-ready assets.
+
+---
+
+## PB-WF-006-002
+
+### Production Inputs
+
+Visual production SHOULD utilise:
+
+- Approved editorial content.
+- Scientific Review approval.
+- Brand System standards.
+- Visual Identity System standards.
+- Approved illustrations or imagery.
+- Layout specifications.
+- Publication requirements.
+
+Only approved editorial outputs SHALL proceed to visual production.
+
+---
+
+## PB-WF-006-003
+
+### Visual Interpretation
+
+Visual design SHALL accurately represent the approved editorial content.
+
+Visual elements SHOULD:
+
+- Reinforce the educational message.
+- Avoid misleading representations.
+- Support audience comprehension.
+- Reflect scientific accuracy where applicable.
+- Maintain consistency with organisational branding.
+
+Creative interpretation SHALL NOT alter approved scientific meaning.
+
+---
+
+## PB-WF-006-004
+
+### Visual Standards
+
+Every visual asset SHALL comply with:
+
+- Official logo usage.
+- Approved colour palette.
+- Typography standards.
+- Layout system.
+- Illustration guidelines.
+- Iconography standards.
+- Accessibility requirements.
+- Brand consistency requirements.
+
+Visual production SHALL follow the canonical Visual Identity System.
+
+---
+
+## PB-WF-006-005
+
+### Asset Production
+
+Visual assets MAY include:
+
+- Carousel graphics.
+- Social media posts.
+- Reels.
+- Stories.
+- Infographics.
+- Educational illustrations.
+- Campaign materials.
+- Presentation graphics.
+
+Each asset SHALL be appropriate for its intended publication format.
+
+---
+
+## PB-WF-006-006
+
+### Internal Visual Review
+
+Before Quality Assurance, visual assets SHOULD be evaluated for:
+
+- Layout consistency.
+- Typography accuracy.
+- Brand compliance.
+- Visual hierarchy.
+- Image quality.
+- Accessibility.
+- Alignment with approved editorial content.
+
+Identified issues SHOULD be corrected before progressing.
+
+---
+
+## PB-WF-006-007
+
+### Revision Management
+
+Visual revisions SHOULD:
+
+- Preserve editorial intent.
+- Maintain brand consistency.
+- Improve readability.
+- Improve accessibility.
+- Correct production errors.
+- Be documented where significant.
+
+Major design revisions SHOULD remain traceable.
+
+---
+
+## PB-WF-006-008
+
+### Visual Readiness
+
+Visual production SHALL be considered complete when:
+
+- Editorial content is accurately represented.
+- Brand standards are satisfied.
+- Visual quality requirements are met.
+- Required production specifications are complete.
+- Assets are prepared for Quality Assurance.
+
+Completion SHALL authorise progression to the Quality Assurance Workflow.
+
+---
+
+## PB-WF-006-009
+
+### Production Records
+
+Visual production documentation SHOULD include:
+
+- Design files.
+- Asset versions.
+- Production notes.
+- Revision history.
+- Approval records.
+- Supporting resources.
+
+Documentation SHALL support governance, future updates, and organisational knowledge.
+
+---
+
+## PB-WF-006-010
+
+### Continuous Visual Improvement
+
+The Visual Production Workflow SHOULD improve through:
+
+- Design reviews.
+- Accessibility evaluations.
+- Editorial audits.
+- Audience feedback.
+- Governance reviews.
+- Organisational learning.
+
+Approved improvements SHALL be incorporated into future workflow revisions.
+
+---
+
+### Success Criteria
+
+The Visual Production Workflow is considered successfully implemented when:
+
+- Approved editorial content is accurately represented visually.
+- Brand consistency is maintained across all assets.
+- Accessibility requirements are satisfied.
+- Visual assets are fully prepared for Quality Assurance.
+
+---
+
+### Relationships
+
+Depends On:
+
+- PB-WF-004 — Editorial Development Workflow
+- PB-WF-005 — Scientific Review Workflow
+- PB-VIS-001 through PB-VIS-026 — Visual Identity System
+
+Supports:
+
+- Quality Assurance Workflow
+- Publication Workflow
+- Brand Consistency
+- Educational Communication
+
+Referenced By:
+
+- Design files
+- Production assets
+- Visual approval records
+
+---
+
+## PB-WF-007 — Editorial Review Workflow
+
+Status: LOCK
+Version: 1.0
+Type: Workflow System
+
+---
+
+### Purpose
+
+Define the canonical workflow for conducting editorial review to ensure that every Coz We Care publication is clear, consistent, audience-appropriate, grammatically accurate, and fully aligned with the Production Bible before entering Quality Assurance.
+
+This framework establishes the standards for reviewing editorial quality independently from scientific validation, ensuring that approved scientific content is communicated effectively to the intended audience.
+
+---
+
+### Workflow Statement
+
+Every editorial publication SHALL undergo an Editorial Review after Scientific Review and before Quality Assurance.
+
+Editorial Review SHALL evaluate language quality, readability, consistency, editorial style, structural coherence, and alignment with the Coz We Care editorial standards.
+
+---
+
+## PB-WF-007-001
+
+### Objectives
+
+The Editorial Review Workflow exists to:
+
+- Improve readability.
+- Ensure editorial consistency.
+- Strengthen audience understanding.
+- Verify compliance with editorial standards.
+- Improve communication effectiveness.
+- Detect editorial errors.
+- Support publication quality.
+- Prepare content for final quality assurance.
+
+---
+
+## PB-WF-007-002
+
+### Review Inputs
+
+Editorial Review SHOULD utilise:
+
+- Scientifically approved editorial content.
+- Editorial standards.
+- Brand communication guidelines.
+- Audience definition.
+- Educational objectives.
+- Editorial terminology.
+- Applicable governance requirements.
+
+Only scientifically approved content SHALL proceed to Editorial Review.
+
+---
+
+## PB-WF-007-003
+
+### Editorial Evaluation
+
+Editorial Review SHALL evaluate:
+
+- Grammar.
+- Spelling.
+- Clarity.
+- Readability.
+- Logical flow.
+- Tone of voice.
+- Inclusive language.
+- Terminology consistency.
+- Editorial completeness.
+
+Evaluation SHALL focus on communication quality without altering approved scientific meaning.
+
+---
+
+## PB-WF-007-004
+
+### Identification of Editorial Issues
+
+Editorial reviewers SHOULD identify:
+
+- Ambiguous wording.
+- Inconsistent terminology.
+- Grammatical errors.
+- Structural weaknesses.
+- Unclear explanations.
+- Repetitive content.
+- Inappropriate tone.
+- Accessibility concerns.
+
+All findings SHOULD be documented for revision.
+
+---
+
+## PB-WF-007-005
+
+### Editorial Recommendations
+
+Editorial Review MAY recommend:
+
+- Language improvements.
+- Structural revisions.
+- Simplified explanations.
+- Improved readability.
+- Terminology harmonisation.
+- Accessibility enhancements.
+- Editorial refinements.
+
+Recommendations SHALL improve communication while preserving scientific accuracy.
+
+---
+
+## PB-WF-007-006
+
+### Review Outcomes
+
+Editorial Review outcomes MAY include:
+
+- Approved.
+- Approved with Minor Revisions.
+- Major Revision Required.
+- Not Approved.
+
+Every outcome SHALL include documented justification.
+
+---
+
+## PB-WF-007-007
+
+### Revision Verification
+
+Following editorial revisions, reviewers SHOULD verify that:
+
+- Editorial issues have been resolved.
+- Readability has improved.
+- Terminology remains consistent.
+- Scientific intent has been preserved.
+- Educational objectives remain unchanged.
+
+Additional review MAY be performed where necessary.
+
+---
+
+## PB-WF-007-008
+
+### Editorial Approval
+
+Editorial approval SHALL confirm that:
+
+- Communication quality is satisfactory.
+- Editorial standards are met.
+- Audience appropriateness has been verified.
+- Language quality supports effective learning.
+- Content is ready for Quality Assurance.
+
+Editorial approval SHALL authorise progression to the Quality Assurance Workflow.
+
+---
+
+## PB-WF-007-009
+
+### Editorial Review Records
+
+Editorial Review documentation SHOULD include:
+
+- Review comments.
+- Identified issues.
+- Recommended revisions.
+- Revision history.
+- Approval decisions.
+- Supporting editorial notes.
+
+Documentation SHALL support governance, audits, and organisational learning.
+
+---
+
+## PB-WF-007-010
+
+### Continuous Editorial Review Improvement
+
+The Editorial Review Workflow SHOULD improve through:
+
+- Editorial audits.
+- Audience feedback.
+- Quality Assurance findings.
+- Governance reviews.
+- Editorial experience.
+- Organisational learning.
+
+Approved improvements SHALL be incorporated into future workflow revisions.
+
+---
+
+### Success Criteria
+
+The Editorial Review Workflow is considered successfully implemented when:
+
+- Editorial quality is consistently verified.
+- Publications communicate clearly to the intended audience.
+- Editorial standards are applied consistently.
+- Content is fully prepared for Quality Assurance.
+
+---
+
+### Relationships
+
+Depends On:
+
+- PB-WF-004 — Editorial Development Workflow
+- PB-WF-005 — Scientific Review Workflow
+- PB-CON-003 — Editorial Writing Standards
+
+Supports:
+
+- Quality Assurance Workflow
+- Publication Workflow
+- Editorial Consistency
+- Audience Communication
+
+Referenced By:
+
+- Editorial review reports
+- Revision records
+- Quality assurance documentation
+
+---
+
+## PB-WF-008 — Quality Assurance Workflow
+
+Status: LOCK
+Version: 1.0
+Type: Workflow System
+
+---
+
+### Purpose
+
+Define the canonical workflow for performing Quality Assurance (QA) prior to publication, ensuring that every Coz We Care editorial asset satisfies all applicable editorial, scientific, visual, accessibility, governance, and production requirements.
+
+This framework establishes the final verification process before publication approval.
+
+---
+
+### Workflow Statement
+
+Every publication SHALL undergo Quality Assurance before receiving final publication approval.
+
+Quality Assurance SHALL independently verify that all preceding workflow stages have been completed satisfactorily and that the publication complies with the Coz We Care Production Bible.
+
+---
+
+## PB-WF-008-001
+
+### Objectives
+
+The Quality Assurance Workflow exists to:
+
+- Verify overall publication quality.
+- Ensure compliance with Production Bible standards.
+- Detect remaining production defects.
+- Protect organisational credibility.
+- Improve publication consistency.
+- Support governance compliance.
+- Minimise publication risk.
+- Confirm publication readiness.
+
+---
+
+## PB-WF-008-002
+
+### QA Inputs
+
+Quality Assurance SHOULD utilise:
+
+- Approved editorial content.
+- Scientific Review approval.
+- Editorial Review approval.
+- Visual production assets.
+- Brand standards.
+- Accessibility standards.
+- Production documentation.
+
+Only completed workflow outputs SHALL proceed to Quality Assurance.
+
+---
+
+## PB-WF-008-003
+
+### Quality Evaluation
+
+Quality Assurance SHALL evaluate:
+
+- Editorial quality.
+- Scientific accuracy.
+- Visual consistency.
+- Brand compliance.
+- Accessibility.
+- Production completeness.
+- Technical specifications.
+- Documentation completeness.
+
+Evaluation SHALL assess the publication as an integrated final product.
+
+---
+
+## PB-WF-008-004
+
+### Compliance Verification
+
+Quality Assurance SHOULD verify compliance with:
+
+- Production Bible.
+- Brand System.
+- Visual Identity System.
+- Content System.
+- Editorial Workflow System.
+- Governance requirements.
+- Applicable publication standards.
+
+All mandatory requirements SHALL be satisfied before approval.
+
+---
+
+## PB-WF-008-005
+
+### Identification of Defects
+
+Quality Assurance SHOULD identify:
+
+- Editorial defects.
+- Scientific inconsistencies.
+- Visual errors.
+- Branding deviations.
+- Accessibility issues.
+- Production omissions.
+- Documentation deficiencies.
+- Technical errors.
+
+Every identified issue SHOULD be documented and assigned for correction.
+
+---
+
+## PB-WF-008-006
+
+### QA Outcomes
+
+Quality Assurance outcomes MAY include:
+
+- Approved.
+- Approved with Minor Corrections.
+- Major Corrections Required.
+- Not Approved.
+
+Each outcome SHALL include documented findings and supporting justification.
+
+---
+
+## PB-WF-008-007
+
+### Corrective Verification
+
+Where corrections are required, Quality Assurance SHOULD verify that:
+
+- All identified issues have been resolved.
+- No additional defects have been introduced.
+- Publication quality has improved.
+- Production documentation has been updated where necessary.
+
+Corrected assets MAY undergo additional QA review before approval.
+
+---
+
+## PB-WF-008-008
+
+### Quality Approval
+
+Quality Assurance approval SHALL confirm that:
+
+- Editorial quality meets organisational standards.
+- Scientific review has been completed.
+- Visual production complies with approved standards.
+- Accessibility requirements have been satisfied.
+- Documentation is complete.
+- The publication is ready for final publication approval.
+
+Quality Assurance approval SHALL authorise progression to the Approval Workflow.
+
+---
+
+## PB-WF-008-009
+
+### QA Records
+
+Quality Assurance documentation SHOULD include:
+
+- QA checklist.
+- Findings.
+- Corrective actions.
+- Verification records.
+- Approval decisions.
+- Supporting documentation.
+
+Records SHALL support governance, audits, and continuous improvement.
+
+---
+
+## PB-WF-008-010
+
+### Continuous QA Improvement
+
+The Quality Assurance Workflow SHOULD improve through:
+
+- Editorial audits.
+- Publication reviews.
+- Governance evaluations.
+- Organisational learning.
+- Team experience.
+- Quality metrics.
+
+Approved improvements SHALL be incorporated into future workflow revisions.
+
+---
+
+### Success Criteria
+
+The Quality Assurance Workflow is considered successfully implemented when:
+
+- Publications consistently satisfy Production Bible requirements.
+- Remaining defects are identified before publication.
+- Compliance is independently verified.
+- Publications proceed to approval with documented quality assurance.
+
+---
+
+### Relationships
+
+Depends On:
+
+- PB-WF-005 — Scientific Review Workflow
+- PB-WF-006 — Visual Production Workflow
+- PB-WF-007 — Editorial Review Workflow
+
+Supports:
+
+- Approval Workflow
+- Publication Workflow
+- Organisational Quality
+- Governance Compliance
+
+Referenced By:
+
+- QA reports
+- Publication approval records
+- Editorial audit documentation
+
+---
+
+## PB-WF-009 — Approval Workflow
+
+Status: LOCK
+Version: 1.0
+Type: Workflow System
+
+---
+
+### Purpose
+
+Define the canonical workflow for granting formal approval prior to publication, ensuring that every Coz We Care editorial asset has successfully completed all required production, review, governance, and quality assurance activities.
+
+This framework establishes the standards for authorising publication through documented approval decisions and accountable governance.
+
+---
+
+### Workflow Statement
+
+No editorial publication SHALL be released without formal approval.
+
+Approval SHALL confirm that all required workflow stages have been completed, mandatory standards have been satisfied, and the publication is authorised for release.
+
+---
+
+## PB-WF-009-001
+
+### Objectives
+
+The Approval Workflow exists to:
+
+- Authorise publication.
+- Verify workflow completion.
+- Strengthen governance accountability.
+- Reduce publication risk.
+- Protect organisational credibility.
+- Maintain production consistency.
+- Preserve approval traceability.
+- Support continuous quality improvement.
+
+---
+
+## PB-WF-009-002
+
+### Approval Inputs
+
+Approval SHOULD utilise:
+
+- Approved Content Brief.
+- Scientific Review approval.
+- Editorial Review approval.
+- Quality Assurance approval.
+- Production documentation.
+- Publication metadata.
+- Applicable governance records.
+
+Only publications that have successfully completed all required workflow stages SHALL proceed to approval.
+
+---
+
+## PB-WF-009-003
+
+### Approval Verification
+
+Approvers SHALL verify that:
+
+- Editorial objectives have been achieved.
+- Scientific validation has been completed.
+- Editorial quality requirements have been satisfied.
+- Visual production complies with approved standards.
+- Quality Assurance has been successfully completed.
+- Required documentation is complete.
+
+Approval SHALL be based on documented evidence.
+
+---
+
+## PB-WF-009-004
+
+### Approval Authority
+
+Approval authority SHALL be assigned according to organisational governance.
+
+Approval responsibilities MAY include:
+
+- Editorial leadership.
+- Scientific reviewers.
+- Content managers.
+- Governance representatives.
+- Other authorised approvers.
+
+Approval authority SHALL be clearly documented.
+
+---
+
+## PB-WF-009-005
+
+### Approval Outcomes
+
+Approval decisions MAY include:
+
+- Approved for Publication.
+- Approved with Minor Conditions.
+- Revision Required.
+- Rejected.
+
+Every decision SHALL include documented justification.
+
+---
+
+## PB-WF-009-006
+
+### Conditional Approval
+
+Where minor conditions are identified:
+
+- Required corrections SHALL be documented.
+- Responsible contributors SHALL complete the corrections.
+- Verification SHALL confirm completion before publication.
+
+Conditional approval SHALL NOT bypass mandatory quality requirements.
+
+---
+
+## PB-WF-009-007
+
+### Approval Records
+
+Approval documentation SHOULD include:
+
+- Approval decision.
+- Date of approval.
+- Authorised approver(s).
+- Conditions where applicable.
+- Supporting documentation.
+- Version information.
+
+Approval records SHALL support governance, audits, and historical traceability.
+
+---
+
+## PB-WF-009-008
+
+### Publication Authorisation
+
+Formal approval SHALL authorise progression to the Publication Workflow.
+
+No publication SHALL proceed without:
+
+- Completed approval.
+- Required documentation.
+- Verified publication assets.
+- Confirmed publication version.
+
+Publication authorisation SHALL represent the final governance decision before release.
+
+---
+
+## PB-WF-009-009
+
+### Exception Management
+
+Exceptional approval circumstances SHOULD:
+
+- Be documented.
+- Receive appropriate governance review.
+- Preserve accountability.
+- Maintain traceability.
+- Comply with organisational policies.
+
+Exceptions SHALL remain rare and appropriately justified.
+
+---
+
+## PB-WF-009-010
+
+### Continuous Approval Improvement
+
+The Approval Workflow SHOULD improve through:
+
+- Governance reviews.
+- Editorial audits.
+- Approval metrics.
+- Organisational learning.
+- Publication outcomes.
+- Continuous improvement initiatives.
+
+Approved improvements SHALL be incorporated into future workflow revisions.
+
+---
+
+### Success Criteria
+
+The Approval Workflow is considered successfully implemented when:
+
+- Every publication receives formal documented approval.
+- Governance accountability is maintained.
+- Approval decisions remain fully traceable.
+- Only authorised publications proceed to release.
+
+---
+
+### Relationships
+
+Depends On:
+
+- PB-WF-008 — Quality Assurance Workflow
+- PB-CON-013 — Editorial Governance
+- PB-CON-024 — Editorial Compliance & Audit Framework
+
+Supports:
+
+- Publication Workflow
+- Governance Accountability
+- Editorial Compliance
+- Organisational Quality
+
+Referenced By:
+
+- Approval records
+- Publication register
+- Governance documentation
+
+---
+
+## PB-WF-010 — Publication Workflow
+
+Status: LOCK
+Version: 1.0
+Type: Workflow System
+
+---
+
+### Purpose
+
+Define the canonical workflow for publishing approved Coz We Care content across authorised communication channels, ensuring that every publication is released consistently, accurately, securely, and in accordance with organisational governance.
+
+This framework establishes the standards for the final publication process, from scheduling through successful release and post-publication verification.
+
+---
+
+### Workflow Statement
+
+Only publications that have successfully completed the Approval Workflow SHALL proceed to publication.
+
+Publication SHALL follow approved schedules, authorised distribution channels, and documented release procedures to ensure consistency, traceability, and organisational accountability.
+
+---
+
+## PB-WF-010-001
+
+### Objectives
+
+The Publication Workflow exists to:
+
+- Release approved content.
+- Maintain publication consistency.
+- Ensure accurate distribution.
+- Protect organisational reputation.
+- Support audience engagement.
+- Preserve publication traceability.
+- Reduce operational risk.
+- Enable effective post-publication monitoring.
+
+---
+
+## PB-WF-010-002
+
+### Publication Inputs
+
+Publication SHOULD utilise:
+
+- Approved publication assets.
+- Final approved copy.
+- Approved visual assets.
+- Publication metadata.
+- Platform specifications.
+- Publishing schedule.
+- Distribution plan.
+
+Only formally approved publication packages SHALL proceed to publication.
+
+---
+
+## PB-WF-010-003
+
+### Pre-Publication Verification
+
+Before publication, responsible personnel SHALL verify:
+
+- Approved version is being published.
+- Editorial copy matches the approved version.
+- Visual assets are correct.
+- Platform specifications are satisfied.
+- Links function correctly.
+- Metadata is complete.
+- Scheduling information is accurate.
+
+Publication SHALL NOT proceed when unresolved issues remain.
+
+---
+
+## PB-WF-010-004
+
+### Publication Execution
+
+Publication SHALL include:
+
+- Uploading approved assets.
+- Applying approved captions.
+- Applying approved metadata.
+- Scheduling or releasing content.
+- Confirming successful publication.
+- Recording publication details.
+
+Publication SHALL follow documented operational procedures.
+
+---
+
+## PB-WF-010-005
+
+### Distribution Channels
+
+Content MAY be published through authorised channels including:
+
+- Instagram.
+- Facebook.
+- Website.
+- Messaging platforms.
+- Educational partner platforms.
+- Other officially approved communication channels.
+
+Channel selection SHALL align with the approved communication strategy.
+
+---
+
+## PB-WF-010-006
+
+### Publication Records
+
+Publication documentation SHOULD include:
+
+- Publication date.
+- Publication time.
+- Platform.
+- Published version.
+- Responsible publisher.
+- Publication URL where applicable.
+- Supporting operational notes.
+
+Publication records SHALL support governance, reporting, and historical reference.
+
+---
+
+## PB-WF-010-007
+
+### Post-Publication Verification
+
+Following publication, responsible personnel SHOULD verify:
+
+- Content is publicly accessible.
+- Formatting appears correctly.
+- Images display properly.
+- Hyperlinks function correctly.
+- Accessibility features remain intact.
+- Published content matches the approved version.
+
+Issues identified after publication SHOULD be addressed promptly.
+
+---
+
+## PB-WF-010-008
+
+### Publication Corrections
+
+Where post-publication issues are identified:
+
+- The issue SHALL be documented.
+- Appropriate corrective action SHALL be determined.
+- Corrections SHALL follow organisational governance.
+- Significant changes MAY require renewed approval.
+
+All corrective actions SHALL remain fully traceable.
+
+---
+
+## PB-WF-010-009
+
+### Publication Monitoring
+
+Following publication, monitoring SHOULD include:
+
+- Publication success.
+- Audience accessibility.
+- Operational issues.
+- Platform performance.
+- Unexpected publication errors.
+- Immediate feedback requiring attention.
+
+Monitoring SHALL support timely operational response.
+
+---
+
+## PB-WF-010-010
+
+### Continuous Publication Improvement
+
+The Publication Workflow SHOULD improve through:
+
+- Publication audits.
+- Operational reviews.
+- Team feedback.
+- Platform updates.
+- Governance reviews.
+- Organisational learning.
+
+Approved improvements SHALL be incorporated into future workflow revisions.
+
+---
+
+### Success Criteria
+
+The Publication Workflow is considered successfully implemented when:
+
+- Only approved publications are released.
+- Publications are distributed accurately across authorised channels.
+- Publication activities remain fully documented.
+- Post-publication verification confirms successful release.
+
+---
+
+### Relationships
+
+Depends On:
+
+- PB-WF-009 — Approval Workflow
+- PB-CON-015 — Publication Standards
+- PB-CON-024 — Editorial Compliance & Audit Framework
+
+Supports:
+
+- Audience Communication
+- Organisational Governance
+- Publication Traceability
+- Continuous Improvement
+
+Referenced By:
+
+- Publication register
+- Distribution records
+- Operational reports
+- Publication audit documentation
+
+---
 
