@@ -2661,3 +2661,924 @@ Effective Status: Single Source of Truth (SSOT)
 
 ---
 
+# Chapter 007 — Production Workflow
+
+## Introduction
+
+Production Workflow defines the canonical operational system used to transform ideas into Communication Artefacts that are consistent, accurate, and aligned with the standards of the Coz We Care Production Bible (CPB).
+
+While Chapter 006 defines **what** is produced through the Content Architecture, this chapter defines **how** those artefacts are produced. It establishes the operational framework governing every stage of production, from planning and development to review, approval, publication, maintenance, and eventual retirement.
+
+The purpose of this chapter is to ensure that every production activity follows a repeatable, auditable, and technology-independent workflow. By separating operational processes from content architecture, design standards, and publication strategies, the Production Workflow provides a stable foundation that remains applicable regardless of the tools, platforms, or technologies used.
+
+This chapter introduces the canonical concepts required to govern production activities, including workflow foundations, artefact lifecycle management, production stages, governance mechanisms, quality gates, roles and responsibilities, and workflow completion criteria.
+
+Together, these concepts establish a unified production system that enables consistent collaboration, improves quality assurance, supports traceability, and maintains the integrity of Communication Artefacts throughout their lifecycle.
+
+---
+
+## Definition
+
+Production Workflow is the canonical operational framework that governs how Communication Artefacts are planned, developed, reviewed, approved, published, maintained, and archived within the Coz We Care Production System.
+
+It defines the sequence of activities, governance mechanisms, responsibilities, and decision points required to ensure that every production process is consistent, traceable, repeatable, and compliant with the standards defined throughout the Coz We Care Production Bible.
+
+---
+
+## Principles
+
+The Production Workflow is governed by the following canonical principles:
+
+1. **Process Before Output**  
+   Consistent outputs are achieved through consistent and governed processes.
+
+2. **Workflow Independence**  
+   The workflow shall remain independent of software, AI models, production tools, and implementation technologies.
+
+3. **Governed Progression**  
+   Every production activity shall progress through predefined workflow stages governed by explicit entry and exit criteria.
+
+4. **Traceability**  
+   Every Communication Artefact shall be traceable throughout its entire production journey.
+
+5. **Quality by Design**  
+   Quality shall be embedded within the workflow through mandatory Quality Gates rather than relying solely on final review.
+
+6. **Separation of Concerns**  
+   Workflow governs operational processes only. Content Architecture, Brand Identity, Editorial Standards, Publication Strategy, and other domains remain governed by their respective chapters.
+
+---
+
+## Scope
+
+This chapter defines the canonical operational framework governing the production of Communication Artefacts.
+
+The scope of this chapter includes:
+
+- Production Workflow Foundation
+- Artefact Lifecycle
+- Production Stages
+- Workflow Governance
+- Quality Gates
+- Roles and Responsibilities
+- Workflow Completion Criteria
+- Workflow Architecture
+- Workflow Terminology
+
+This chapter does not define:
+
+- Content Architecture
+- Brand Identity
+- Editorial Standards
+- Platform Strategy
+- Publication Strategy
+- Asset Design Standards
+
+These domains are governed by their respective chapters within the Coz We Care Production Bible.
+
+---
+
+## 007.1 Foundation
+
+### Purpose
+
+The purpose of this section is to establish the operational foundation upon which the Production Workflow is implemented throughout the Coz We Care Production System.
+
+This section translates the canonical concepts introduced at the beginning of this chapter into an operational framework that governs daily production activities.
+
+---
+
+### Operational Philosophy
+
+The Production Workflow is designed as a governed operational system rather than a collection of isolated production tasks.
+
+Every activity performed during production shall belong to a predefined workflow, contribute to a measurable objective, and comply with the governance model defined by this Production Bible.
+
+---
+
+### Operational Characteristics
+
+The Production Workflow shall be:
+
+- Repeatable
+- Traceable
+- Governed
+- Technology-independent
+- Scalable
+- Quality-oriented
+- Collaborative
+- Maintainable
+
+These characteristics ensure that production remains consistent regardless of the production team, software, AI model, or implementation environment.
+
+---
+
+### Workflow Architecture
+
+The Production Workflow is composed of interconnected operational components that collectively govern the lifecycle of Communication Artefacts.
+
+These components include:
+
+- Artefact Lifecycle
+- Production Stages
+- Workflow Governance
+- Quality Gates
+- Roles and Responsibilities
+- Workflow Completion Criteria
+
+Each component is defined in subsequent sections of this chapter.
+
+---
+
+### Relationship to Other Chapters
+
+The Production Workflow operates as the execution layer of the Coz We Care Production Bible.
+
+It applies the standards defined by other chapters without replacing or redefining them.
+
+The relationship can be summarised as follows:
+
+- Content Architecture defines **what** is produced.
+- Production Workflow defines **how** it is produced.
+- Brand Identity defines **how it is presented.**
+- Editorial Standards define **how** it is written.
+- Publication Strategy defines **how** it is distributed.
+
+Together, these chapters form an integrated production system.
+
+## 007.2 Artefact Lifecycle
+
+### Purpose
+
+The purpose of this section is to establish the canonical lifecycle governing every Artefact created, managed, maintained, and retired within the Coz We Care Production System.
+
+The Artefact Lifecycle ensures that every Artefact progresses through a controlled sequence of Lifecycle States, enabling consistency, governance, traceability, and quality throughout the production process.
+
+---
+
+### Canonical Definition
+
+Artefact Lifecycle is the canonical state model that defines the progression of an Artefact from its initial creation until its final archival or retirement.
+
+Unlike the Production Workflow, which governs operational activities, the Artefact Lifecycle governs the condition and status of the Artefact itself.
+
+Every Artefact shall exist in one—and only one—Lifecycle State at any given time.
+
+---
+
+### Lifecycle Philosophy
+
+The lifecycle represents the evolution of an Artefact rather than the execution of production activities.
+
+Workflow describes **what people and systems do**.
+
+Lifecycle describes **the current state of the Artefact**.
+
+This separation ensures clear governance, simplifies traceability, and prevents ambiguity between operational processes and Artefact status.
+
+---
+
+### Lifecycle States
+
+Every Artefact shall progress through a predefined set of Lifecycle States.
+
+The canonical Lifecycle States are:
+
+1. Planned
+2. In Development
+3. Under Review
+4. Approved
+5. Published
+6. Maintained
+7. Archived
+
+Each Artefact shall occupy one and only one Lifecycle State at any given time.
+
+Transitions between Lifecycle States shall be governed by the Production Workflow, Quality Gates, and Workflow Governance defined throughout this chapter.
+
+---
+
+### Lifecycle State Integrity
+
+The canonical Lifecycle State model is intentionally minimal and shall remain stable over time.
+
+Operational statuses, workflow conditions, temporary labels, or implementation-specific states shall not be introduced as additional Lifecycle States.
+
+Requirements such as **Waiting for Feedback**, **Needs Revision**, **Scheduled**, **Blocked**, or similar operational conditions shall be governed by the Production Workflow, Workflow Governance, or other applicable mechanisms defined within this Production Bible.
+
+Any modification, extension, or replacement of the canonical Lifecycle State model shall only be permitted through the Canonical Change Process (CCP).
+
+---
+
+### State Transition Rules
+
+Lifecycle State transitions shall be governed by the following canonical rules:
+
+1. An Artefact shall occupy one and only one Lifecycle State at any given time.
+
+2. A Lifecycle State shall only change through a completed Production Workflow activity.
+
+3. Every state transition shall satisfy the applicable Quality Gate before progression is permitted.
+
+4. Lifecycle transitions shall be traceable and auditable.
+
+5. Reverse transitions are permitted only when explicitly authorised by the Workflow Governance.
+
+6. Archived Artefacts shall not re-enter the lifecycle without an approved restoration process.
+
+---
+
+### Relationship to Production Workflow
+
+Production Workflow and Artefact Lifecycle are complementary but distinct concepts.
+
+Production Workflow governs the operational activities performed during production.
+
+Artefact Lifecycle governs the current state of an Artefact.
+
+The Production Workflow moves an Artefact from one Lifecycle State to another, while the Lifecycle provides the canonical status used for governance, quality assurance, and traceability.
+
+Neither concept replaces the other; together they establish the operational foundation of the Coz We Care Production System.
+
+## 007.2 Artefact Lifecycle
+
+### Purpose
+
+The purpose of this section is to establish the canonical lifecycle governing every Artefact created and managed within the Coz We Care Production System.
+
+The Artefact Lifecycle ensures that every Artefact progresses through a controlled sequence of Lifecycle States, enabling consistency, governance, traceability, and quality throughout the production process.
+
+---
+
+### Canonical Definition
+
+Artefact Lifecycle is the canonical state model that defines the progression of an Artefact from its initial planning until its publication.
+
+Unlike the Production Workflow, which governs operational activities, the Artefact Lifecycle governs the condition and status of the Artefact itself.
+
+Every Artefact shall exist in one—and only one—Lifecycle State at any given time.
+
+---
+
+### Lifecycle Philosophy
+
+The lifecycle represents the evolution of an Artefact rather than the execution of production activities.
+
+Workflow describes **what people and systems do**.
+
+Lifecycle describes **the current state of the Artefact**.
+
+This separation ensures clear governance, simplifies traceability, and prevents ambiguity between operational processes and Artefact status.
+
+---
+
+### Lifecycle States
+
+Every Artefact shall progress through a predefined set of Lifecycle States.
+
+The canonical Lifecycle States are:
+
+1. Planned
+2. In Development
+3. Under Review
+4. Approved
+5. Published
+
+Each Artefact shall occupy one and only one Lifecycle State at any given time.
+
+Published is the terminal Lifecycle State of an Artefact within the scope of the Coz We Care Production Workflow.
+
+Transitions between Lifecycle States shall be governed by the Production Workflow, Quality Gates, and Workflow Governance defined throughout this chapter.
+
+---
+
+### Lifecycle State Integrity
+
+The canonical Lifecycle State model is intentionally minimal and shall remain stable over time.
+
+Operational statuses, workflow conditions, temporary labels, or implementation-specific states shall not be introduced as additional Lifecycle States.
+
+Requirements such as **Waiting for Feedback**, **Needs Revision**, **Scheduled**, **Blocked**, or similar operational conditions shall be governed by the Production Workflow, Workflow Governance, or other applicable mechanisms defined within this Production Bible.
+
+Any modification, extension, or replacement of the canonical Lifecycle State model shall only be permitted through the Canonical Change Process (CCP).
+
+---
+
+### State Transition Rules
+
+Lifecycle State transitions shall be governed by the following canonical rules:
+
+1. An Artefact shall occupy one and only one Lifecycle State at any given time.
+
+2. A Lifecycle State shall only change through a completed Production Workflow activity.
+
+3. Every state transition shall satisfy the applicable Quality Gate before progression is permitted.
+
+4. Lifecycle transitions shall be traceable and auditable.
+
+5. Reverse transitions are permitted only when explicitly authorised by the Workflow Governance.
+
+6. Published shall be the terminal Lifecycle State within the scope of the Coz We Care Production Workflow.
+
+---
+
+### Relationship to Production Workflow
+
+Production Workflow and Artefact Lifecycle are complementary but distinct concepts.
+
+Production Workflow governs the operational activities performed during production.
+
+Artefact Lifecycle governs the current state of an Artefact.
+
+The Production Workflow moves an Artefact from one Lifecycle State to another, while the Lifecycle provides the canonical status used for governance, quality assurance, and traceability.
+
+Neither concept replaces the other; together they establish the operational foundation of the Coz We Care Production System.
+
+## 007.3 Workflow Stages
+
+### Purpose
+
+The purpose of this section is to establish the canonical operational stage model governing the execution of the Production Workflow within the Coz We Care Production System.
+
+This section defines the structure that every Workflow Stage shall follow, ensuring consistency, governance, traceability, and interoperability throughout the production process.
+
+---
+
+### Canonical Definition
+
+A Workflow Stage is a governed operational phase within the Production Workflow that groups related activities toward a specific operational objective.
+
+Each Workflow Stage shall produce a measurable outcome and shall only be considered complete after satisfying its predefined completion criteria and applicable Quality Gates.
+
+Workflow Stages organise operational activities. They do not define the Lifecycle State of an Artefact but collectively enable the progression of an Artefact through its Lifecycle.
+
+---
+
+### Stage Philosophy
+
+Workflow Stages divide the Production Workflow into clearly defined operational phases.
+
+Each stage exists to achieve a distinct operational objective and shall have explicitly defined inputs, activities, outputs, validation requirements, and completion criteria.
+
+This structured approach ensures that every production process remains repeatable, auditable, and independent of specific production tools or technologies.
+
+---
+
+### Canonical Workflow Stage Model
+
+Every Workflow Stage defined within the Coz We Care Production Workflow shall conform to a common structural model to ensure consistency, traceability, governance, and interoperability throughout the production system.
+
+Each Workflow Stage shall define the following components:
+
+#### Purpose
+
+Defines the operational objective of the Workflow Stage.
+
+#### Inputs
+
+Specifies the required Artefacts, information, or prerequisites needed before the Workflow Stage may begin.
+
+#### Activities
+
+Defines the operational activities performed during the Workflow Stage.
+
+#### Outputs
+
+Specifies the Artefacts or deliverables produced upon successful completion of the Workflow Stage.
+
+#### Quality Gate
+
+Defines the mandatory validation criteria that shall be satisfied before the Workflow Stage may be considered complete.
+
+#### Exit Criteria
+
+Defines the conditions that must be fulfilled before the Artefact may progress to the next Workflow Stage.
+
+---
+
+### Workflow Stage Integrity
+
+Every Workflow Stage shall implement the complete Canonical Workflow Stage Model.
+
+Workflow Stages shall not omit, redefine, or replace any mandatory component unless explicitly approved through the Canonical Change Process (CCP).
+
+Additional stage-specific components may be introduced where necessary, provided they do not alter the canonical structure of the Workflow Stage Model.
+
+---
+
+### Canonical Workflow Stages
+
+The Coz We Care Production Workflow consists of the following canonical Workflow Stages:
+
+1. Planning
+2. Development
+3. Review
+4. Approval
+5. Publication
+
+Each Workflow Stage shall be defined using the Canonical Workflow Stage Model established in this section.
+
+---
+
+### Relationship to Artefact Lifecycle
+
+Workflow Stages govern the operational execution of the Production Workflow.
+
+Artefact Lifecycle governs the current state of an Artefact.
+
+The completion of a Workflow Stage enables the transition of an Artefact from one Lifecycle State to the next, in accordance with the applicable Quality Gates and Workflow Governance.
+
+Workflow Stages and Artefact Lifecycle are complementary concepts and shall not be interpreted as interchangeable.
+
+## 007.4 Planning
+
+### Purpose
+
+The Planning stage establishes the production objective, scope, and execution plan for an Artefact before any production activities begin.
+
+Its purpose is to ensure that production starts with a clearly defined direction, aligned requirements, and an approved implementation plan.
+
+---
+
+### Inputs
+
+The Planning stage shall receive the following inputs, as applicable:
+
+- Production request or content initiative
+- Production objective
+- Applicable Production Bible(s)
+- Applicable Standards and Frameworks
+- Supporting references and research materials
+- Production constraints
+- Stakeholder requirements
+
+All mandatory inputs shall be available before Planning activities commence.
+
+---
+
+### Activities
+
+Typical Planning activities include:
+
+- Defining the production objective
+- Identifying the target audience
+- Defining scope and expected deliverables
+- Identifying applicable standards and governance requirements
+- Collecting supporting references
+- Establishing production priorities
+- Identifying production risks and constraints
+- Preparing the initial Production Plan
+
+Planning activities shall not include content creation or asset production.
+
+---
+
+### Outputs
+
+The Planning stage shall produce:
+
+- Approved Production Plan
+- Defined production scope
+- Identified production requirements
+- Required references
+- Initial implementation direction
+
+These outputs become the official inputs for the Development stage.
+
+---
+
+### Quality Gate
+
+The Planning stage shall satisfy the following minimum Quality Gate requirements:
+
+- Production objective is clearly defined.
+- Scope is complete and unambiguous.
+- Required standards have been identified.
+- Required references are available.
+- Production constraints have been documented.
+- Implementation direction has been approved.
+
+Failure to satisfy any mandatory requirement shall prevent progression to the Development stage.
+
+---
+
+### Exit Criteria
+
+The Planning stage shall be considered complete only when:
+
+- All Planning outputs have been produced.
+- All mandatory Quality Gate requirements have been satisfied.
+- The Production Plan has been approved.
+- The Artefact is authorised to enter the Development stage.
+
+---
+
+### Relationship to Artefact Lifecycle
+
+During the Planning stage, the Artefact remains in the **Planned** Lifecycle State.
+
+Successful completion of the Planning stage authorises the transition of the Artefact from **Planned** to **In Development**, in accordance with the Production Workflow and applicable Quality Gates.
+
+## 007.5 Development
+
+### Purpose
+
+The Development stage transforms the approved Production Plan into the intended Artefact through controlled production activities.
+
+Its purpose is to ensure that the Artefact is produced in accordance with the approved objectives, applicable Production Bibles, Standards, and quality requirements.
+
+---
+
+### Inputs
+
+The Development stage shall receive the following inputs, as applicable:
+
+- Approved Production Plan
+- Defined production scope
+- Production requirements
+- Applicable Production Bible(s)
+- Applicable Standards and Frameworks
+- Supporting references
+- Approved implementation direction
+
+All mandatory inputs shall be available before Development activities commence.
+
+---
+
+### Activities
+
+Typical Development activities include:
+
+- Producing the Artefact
+- Creating written content
+- Producing visual assets
+- Producing multimedia assets
+- Applying branding and design standards
+- Applying editorial standards
+- Applying technical standards
+- Performing iterative improvements during production
+
+Development activities shall focus on producing the Artefact and shall not include formal approval or publication activities.
+
+---
+
+### Outputs
+
+The Development stage shall produce:
+
+- Completed Artefact
+- Supporting production assets
+- Production documentation, where applicable
+
+These outputs become the official inputs for the Review stage.
+
+---
+
+### Quality Gate
+
+The Development stage shall satisfy the following minimum Quality Gate requirements:
+
+- All required production deliverables have been completed.
+- Applicable Production Bibles have been followed.
+- Applicable Standards have been applied.
+- Required production assets are complete.
+- No known blocking production issues remain unresolved.
+
+Failure to satisfy any mandatory requirement shall prevent progression to the Review stage.
+
+---
+
+### Exit Criteria
+
+The Development stage shall be considered complete only when:
+
+- All Development outputs have been produced.
+- All mandatory Quality Gate requirements have been satisfied.
+- The Artefact is complete and ready for formal review.
+- The Artefact is authorised to enter the Review stage.
+
+---
+
+### Relationship to Artefact Lifecycle
+
+During the Development stage, the Artefact remains in the **In Development** Lifecycle State.
+
+Successful completion of the Development stage authorises the transition of the Artefact from **In Development** to **Under Review**, in accordance with the Production Workflow and applicable Quality Gates.
+
+## 007.6 Review
+
+### Purpose
+
+The Review stage evaluates the completed Artefact to determine whether it satisfies all applicable Production Bibles, Standards, Frameworks, quality requirements, and production objectives.
+
+Its purpose is to ensure that only Artefacts meeting the required quality criteria may proceed to the Approval stage.
+
+---
+
+### Inputs
+
+The Review stage shall receive the following inputs, as applicable:
+
+- Completed Artefact
+- Supporting production assets
+- Production documentation
+- Applicable Production Bible(s)
+- Applicable Standards and Frameworks
+- Approved Production Plan
+
+All mandatory inputs shall be available before Review activities commence.
+
+---
+
+### Activities
+
+Typical Review activities include:
+
+- Reviewing the Artefact against applicable Production Bibles
+- Verifying compliance with applicable Standards and Frameworks
+- Evaluating content quality
+- Evaluating design quality
+- Evaluating technical quality
+- Identifying non-conformities
+- Documenting review findings
+- Issuing the Review Decision
+
+Review activities shall not include Artefact modification or content production.
+
+---
+
+### Outputs
+
+The Review stage shall produce:
+
+- Review Report
+- Review Decision
+- List of identified non-conformities, where applicable
+- Recommendation for Approval or Revision
+
+These outputs become the official inputs for either the Approval stage or a new Development iteration.
+
+---
+
+### Quality Gate
+
+The Review stage shall satisfy the following minimum Quality Gate requirements:
+
+- The Review has been completed.
+- All applicable Production Bibles have been evaluated.
+- All applicable Standards have been evaluated.
+- Review findings have been documented.
+- A formal Review Decision has been issued.
+
+Failure to satisfy any mandatory requirement shall prevent progression to the Approval stage.
+
+---
+
+### Exit Criteria
+
+The Review stage shall be considered complete only when:
+
+- All Review outputs have been produced.
+- All mandatory Quality Gate requirements have been satisfied.
+- A formal Review Decision has been issued.
+- The Artefact has either been authorised to enter the Approval stage or returned to the Development stage for revision.
+
+---
+
+### Relationship to Artefact Lifecycle
+
+During the Review stage, the Artefact remains in the **Under Review** Lifecycle State.
+
+A successful Review authorises progression to the Approval stage.
+
+Where revision is required, the Artefact returns to the Development stage through the Production Workflow. No additional Lifecycle State shall be created for revision or rejection.
+
+## 007.7 Approval
+
+### Purpose
+
+The Approval stage provides the formal governance decision authorising an Artefact for publication.
+
+Its purpose is to ensure that only Artefacts that have successfully completed the Review stage and received the required authorisation may proceed to Publication.
+
+---
+
+### Inputs
+
+The Approval stage shall receive the following inputs, as applicable:
+
+- Approved Review Report
+- Review Decision
+- Completed Artefact
+- Supporting production documentation
+- Applicable governance requirements
+
+All mandatory inputs shall be available before Approval activities commence.
+
+---
+
+### Activities
+
+Typical Approval activities include:
+
+- Reviewing the Review Decision
+- Verifying that all mandatory Quality Gates have been satisfied
+- Confirming governance compliance
+- Issuing the Approval Decision
+- Recording the Approval outcome
+
+Approval activities shall not include content production, Artefact modification, or technical publication.
+
+---
+
+### Outputs
+
+The Approval stage shall produce:
+
+- Formal Approval Decision
+- Approved Artefact
+- Approval Record
+- Publication Authorisation
+
+These outputs become the official inputs for the Publication stage.
+
+---
+
+### Quality Gate
+
+The Approval stage shall satisfy the following minimum Quality Gate requirements:
+
+- A successful Review Decision exists.
+- All mandatory governance requirements have been satisfied.
+- Formal approval has been granted by the authorised approver.
+- The Approval Decision has been documented.
+
+Failure to satisfy any mandatory requirement shall prevent progression to the Publication stage.
+
+---
+
+### Exit Criteria
+
+The Approval stage shall be considered complete only when:
+
+- All Approval outputs have been produced.
+- All mandatory Quality Gate requirements have been satisfied.
+- Publication Authorisation has been issued.
+- The Artefact is authorised to enter the Publication stage.
+
+---
+
+### Relationship to Artefact Lifecycle
+
+During the Approval stage, the Artefact remains in the **Approved** Lifecycle State.
+
+Successful completion of the Approval stage authorises the transition of the Artefact to the Publication stage, where it may be published in accordance with the Production Workflow.
+
+---
+
+### Approval Integrity
+
+Approval is a governance decision, not a quality evaluation.
+
+Quality evaluation shall be completed exclusively during the Review stage.
+
+The Approval stage shall determine whether an Artefact is formally authorised for publication based on the completed Review and applicable governance requirements.
+
+## 007.8 Publication
+
+### Purpose
+
+The Publication stage executes the authorised release of an Artefact through its intended publication channels.
+
+Its purpose is to ensure that approved Artefacts are published accurately, consistently, and in accordance with the approved Production Plan and applicable publication requirements.
+
+---
+
+### Inputs
+
+The Publication stage shall receive the following inputs, as applicable:
+
+- Approved Artefact
+- Publication Authorisation
+- Approved metadata
+- Publication schedule, where applicable
+- Publication platform requirements
+
+All mandatory inputs shall be available before Publication activities commence.
+
+---
+
+### Activities
+
+Typical Publication activities include:
+
+- Preparing the Artefact for publication
+- Applying platform-specific publication requirements
+- Publishing the Artefact
+- Verifying successful publication
+- Recording publication details
+
+Publication activities shall not include content modification, quality evaluation, or governance approval.
+
+---
+
+### Outputs
+
+The Publication stage shall produce:
+
+- Published Artefact
+- Publication Record
+- Publication Confirmation
+- Distribution Information, where applicable
+
+Publication completes the Production Workflow.
+
+---
+
+### Quality Gate
+
+The Publication stage shall satisfy the following minimum Quality Gate requirements:
+
+- Publication Authorisation has been granted.
+- The correct Artefact has been published.
+- Publication has been successfully completed.
+- Publication details have been recorded.
+
+Failure to satisfy any mandatory requirement shall require corrective publication actions.
+
+---
+
+### Exit Criteria
+
+The Publication stage shall be considered complete only when:
+
+- All Publication outputs have been produced.
+- All mandatory Quality Gate requirements have been satisfied.
+- Publication has been verified as successful.
+- The Production Workflow has been been completed.
+
+---
+
+### Relationship to Artefact Lifecycle
+
+During the Publication stage, the Artefact enters the **Published** Lifecycle State.
+
+Publication is the final stage of the Coz We Care Production Workflow and completes the Artefact Lifecycle within the scope of this Production Bible.
+
+---
+
+### Publication Integrity
+
+Publication is an execution activity, not a governance decision.
+
+Governance approval shall be completed exclusively during the Approval stage.
+
+Publication shall execute only those Artefacts that have received formal Publication Authorisation.
+
+Unauthorised publication shall not be permitted.
+
+## Chapter Summary
+
+This chapter establishes the canonical Production Workflow governing the creation, evaluation, approval, and publication of every Artefact within the Coz We Care Production System.
+
+The chapter defines four complementary architectural layers:
+
+1. Foundation
+2. Artefact Lifecycle
+3. Workflow Stage Model
+4. Workflow Stage Implementation
+
+The Foundation establishes the operational principles governing the Production Workflow.
+
+The Artefact Lifecycle defines the canonical state progression of an Artefact from **Planned** to **Published**.
+
+The Workflow Stage Model establishes the mandatory structural model applicable to every Workflow Stage.
+
+The Workflow Stage Implementations define the operational execution of the Production Workflow through the following canonical stages:
+
+- Planning
+- Development
+- Review
+- Approval
+- Publication
+
+Throughout this chapter, Workflow Stages and Artefact Lifecycle are defined as complementary but independent concepts.
+
+Workflow Stages govern operational activities.
+
+Artefact Lifecycle governs Artefact status.
+
+The completion of each Workflow Stage authorises the transition of an Artefact to the next Lifecycle State in accordance with the applicable Quality Gates and Workflow Governance.
+
+Together, these components establish a complete, governed, traceable, and AI-readable Production Workflow for the Coz We Care Production System.
+
+---
+
+### Chapter Completion Statement
+
+This chapter shall serve as the sole canonical reference governing the Production Workflow within the Coz We Care Production System.
+
+Any extension, modification, or replacement of the Production Workflow defined in this chapter shall be performed exclusively through the Canonical Change Process (CCP).
+
+No implementation may redefine the concepts, Workflow Stages, Artefact Lifecycle, or governance principles established herein without formal canonical approval.
+
