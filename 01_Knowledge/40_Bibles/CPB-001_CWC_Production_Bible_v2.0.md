@@ -779,8 +779,6 @@ Validate that every production activity begins with the correct brand foundation
 
 # Chapter 03 — Audience System
 
----
-
 # 3.1 Purpose
 
 ## Purpose
@@ -1194,8 +1192,6 @@ Validate that every production activity begins with the correct audience foundat
 ---
 
 # Chapter 04 — Content Strategy
-
----
 
 # 4.1 Purpose
 
@@ -1691,33 +1687,212 @@ Validate that every production activity begins with the correct strategic founda
 
 ---
 
-# Migration Decisions
+# Chapter 05 — Content Architecture
 
-## MD-004-001
+## Chapter Mission
 
-Migrated from CPB v1 Chapter 005 while preserving all production knowledge.
+Define the canonical architecture of all Coz We Care content so every content asset is consistently structured, machine-readable, strategically aligned, and reusable across production workflows.
 
-## MD-004-002
-
-Refactored into the mandatory AI-first documentation pattern defined by the CPB Architecture Refactoring.
-
-## MD-004-003
-
-Governance metadata (Definition, Scope, Dependency, Constraint, Output, Authority declarations) removed from the chapter body and retained outside the Production Bible.
-
-## MD-004-004
-
-Restored all canonical production knowledge for:
-
-- Strategic Objectives
-- Strategic Alignment
-- Strategic Content Types
-
-to satisfy the **No Production Knowledge Loss** principle.
-
-## MD-004-005
-
-Canonical Review passed after production knowledge restoration.
+This chapter establishes what content exists, how it is categorized, and how every content asset connects to strategic objectives and editorial execution.
 
 ---
+
+# Content Architecture Principles
+
+## CA-001 — Strategy First
+
+Every content asset shall originate from a strategic objective.
+
+No standalone content may exist without strategic alignment.
+
+---
+
+## CA-002 — Structured Before Creative
+
+Content architecture defines structural consistency before creative execution.
+
+Creativity operates inside the established architecture.
+
+---
+
+## CA-003 — Reusable Knowledge
+
+Content definitions must be reusable across:
+
+- Instagram
+- FacebooK
+- TikTok
+- Website
+- Community Education
+- Campaign
+- Future Platforms
+
+without redefining their meaning.
+
+---
+
+## CA-004 — AI Readability
+
+Every content object shall be:
+
+- Machine-readable
+- Deterministic
+- Modular
+- Independently retrievable
+
+to maximize AI production efficiency.
+
+---
+
+# Strategic Objectives Mapping
+
+Every content category shall map to one or more strategic objectives.
+
+| Strategic Objective | Supported Content |
+|---------------------|------------------|
+| Education | Educational Content |
+| Prevention | Prevention Campaign |
+| Community Engagement | Engagement Content |
+| Service Awareness | Service Information |
+| Advocacy | Advocacy Content |
+| Brand Trust | Storytelling & Community Content |
+
+---
+
+# Strategic Alignment
+
+Each content asset shall maintain explicit alignment with:
+
+- Brand Mission
+- Audience Needs
+- Strategic Objectives
+- Editorial Goals
+- Production Workflow
+
+Strategic alignment is mandatory for every production asset.
+
+---
+
+# Strategic Content Types
+
+## Educational Content
+
+**Purpose**
+
+Increase public understanding through evidence-based educational materials.
+
+---
+
+## Prevention Content
+
+**Purpose**
+
+Promote healthy behavior and prevention practices.
+
+---
+
+## Service Content
+
+**Purpose**
+
+Increase awareness and utilization of Coz We Care services.
+
+---
+
+## Community Content
+
+**Purpose**
+
+Strengthen community participation and belonging.
+
+---
+
+## Storytelling Content
+
+**Purpose**
+
+Humanize the brand through authentic narratives.
+
+---
+
+## Advocacy Content
+
+**Purpose**
+
+Support stigma reduction, inclusion, and public awareness.
+
+---
+
+# Content Object Structure
+
+Every content asset shall minimally contain:
+
+- Content ID
+- Content Type
+- Strategic Objective
+- Primary Audience
+- Editorial Goal
+- Core Message
+- Call-to-Action
+- Distribution Channel
+- Production Status
+
+---
+
+# Architecture Rules
+
+## AR-001 — One Content Type, One Definition
+
+Each content type shall have exactly one canonical definition.
+
+---
+
+## AR-002 — Non-overlapping Purpose
+
+Content types shall never overlap in purpose.
+
+---
+
+## AR-003 — Editorial Inheritance
+
+Editorial execution shall inherit from the Content Architecture.
+
+---
+
+## AR-004 — Workflow Consumption
+
+Production workflows shall consume the Content Architecture without modification.
+
+---
+
+# AI Consumption Rules
+
+AI systems shall use this chapter as the canonical reference for:
+
+- Content categorization
+- Content planning
+- Editorial generation
+- Campaign composition
+- Production automation
+
+No AI workflow may redefine content structures outside this chapter.
+
+---
+
+# Canonical Dependencies
+
+## Depends On
+
+- Chapter 02 — Brand System
+- Chapter 03 — Audience System
+- Chapter 04 — Content Strategy
+
+## Consumed By
+
+- Chapter 06 — Editorial System
+- Production Workflow
+- AI Production Agents
+- Content Registry
+
+——-
 
