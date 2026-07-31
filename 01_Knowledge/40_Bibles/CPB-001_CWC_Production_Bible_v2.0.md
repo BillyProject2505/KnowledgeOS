@@ -777,3 +777,419 @@ Validate that every production activity begins with the correct brand foundation
 
 ——-
 
+# Chapter 03 — Audience System
+
+---
+
+# 3.1 Purpose
+
+## Purpose
+
+Define the canonical Audience System governing every Communication Artefact produced under the Coz We Care Production Bible (CPB).
+
+The Audience System establishes the universal audience knowledge required to ensure that every production decision is based on the intended audience before any strategic, editorial, or visual implementation begins.
+
+---
+
+## Canonical Decision
+
+The Audience System is the single canonical source governing audience knowledge within the Production Bible.
+
+The Audience System defines audience knowledge only.
+
+Audience implementation belongs exclusively to downstream production chapters.
+
+---
+
+## Rules
+
+### AS-001
+
+Every Communication Artefact shall identify its intended audience before production begins.
+
+### AS-002
+
+The Audience System defines audience knowledge, not implementation.
+
+### AS-003
+
+Audience knowledge shall remain consistent across every production workflow.
+
+---
+
+## Checklist
+
+- [ ] Audience System reviewed.
+- [ ] Intended audience identified.
+- [ ] Audience knowledge confirmed.
+- [ ] Downstream implementation chapter identified.
+
+---
+
+# 3.2 Audience Mission
+
+## Purpose
+
+Define the production mission of the Audience System.
+
+---
+
+## Canonical Decision
+
+The Audience System exists to ensure that every Communication Artefact is planned according to the people it is intended to serve.
+
+Audience knowledge shall guide production decisions while remaining independent of implementation.
+
+---
+
+## Rules
+
+### AS-004
+
+Every Communication Artefact shall serve one or more intended audiences.
+
+### AS-005
+
+Audience knowledge shall guide production decisions throughout the Production Bible.
+
+### AS-006
+
+Audience understanding shall take precedence over production convenience.
+
+---
+
+## Checklist
+
+- [ ] Audience purpose preserved.
+- [ ] Intended audience clearly identified.
+- [ ] Audience-centered production maintained.
+
+---
+
+# 3.3 Audience Model
+
+## Purpose
+
+Define the canonical audience domains that compose the Audience System.
+
+---
+
+## Canonical Decision
+
+The Audience System consists of the following audience groups:
+
+- Primary Audience
+- Secondary Audience
+- Tertiary Audience
+
+Each audience group has one canonical definition within the Production Bible.
+
+---
+
+## Audience Groups
+
+### Primary Audience
+
+The principal beneficiaries of official Coz We Care Communication Artefacts.
+
+### Secondary Audience
+
+Individuals who directly support, influence, or accompany the Primary Audience.
+
+### Tertiary Audience
+
+Individuals, institutions, and organizations that influence the broader healthcare, education, policy, or community environment.
+
+---
+
+## Rules
+
+### AS-007
+
+Every audience group shall have one canonical definition.
+
+### AS-008
+
+Audience groups shall complement one another without overlap.
+
+### AS-009
+
+No implementation details shall be defined within this chapter.
+
+---
+
+## Checklist
+
+- [ ] Audience groups identified.
+- [ ] Canonical definitions established.
+- [ ] No duplicated audience knowledge.
+
+---
+
+# 3.4 Audience Classification
+
+## Purpose
+
+Define how audiences are classified for production purposes.
+
+---
+
+## Canonical Decision
+
+Every Communication Artefact shall identify one or more audience groups using the canonical Audience Model.
+
+Audience classification exists to support production decisions rather than restrict communication.
+
+---
+
+## Rules
+
+### AS-010
+
+Every Communication Artefact shall identify at least one audience group.
+
+### AS-011
+
+A Communication Artefact may target multiple audience groups when appropriate.
+
+### AS-012
+
+Audience prioritization shall support production decisions without limiting multi-audience Communication Artefacts.
+
+---
+
+## Examples
+
+### ✔ Correct
+
+```text
+Primary Audience
+      ↓
+Secondary Audience
+      ↓
+Tertiary Audience
+```
+
+### ✘ Incorrect
+
+```text
+Platform
+    ↓
+Audience
+```
+
+---
+
+## Checklist
+
+- [ ] Audience group selected.
+- [ ] Priority audience identified.
+- [ ] Classification supports production objective.
+
+---
+
+# 3.5 Audience Architecture
+
+## Purpose
+
+Define the relationship between the Audience System and downstream production systems.
+
+---
+
+## Canonical Decision
+
+The Audience System provides audience requirements for subsequent production chapters.
+
+The Audience System does not define implementation.
+
+---
+
+## Dependency Flow
+
+```text
+Audience System
+        ↓
+Content Strategy
+        ↓
+Content Architecture
+        ↓
+Editorial System
+        ↓
+Visual Design System
+```
+
+---
+
+## Rules
+
+### AS-013
+
+Subsequent chapters shall inherit the Audience System.
+
+### AS-014
+
+Implementation chapters shall not redefine audience knowledge.
+
+---
+
+## Checklist
+
+- [ ] Dependencies identified.
+- [ ] Audience knowledge inherited correctly.
+- [ ] No conflicting definitions.
+
+---
+
+# 3.6 Audience Principles
+
+## Purpose
+
+Define the universal principles governing every audience-related production decision.
+
+---
+
+## Canonical Decision
+
+Every Communication Artefact shall comply with the following Audience Principles.
+
+---
+
+## Audience Principles
+
+### AP-001
+
+Audience Before Production
+
+### AP-002
+
+Audience-Centered Communication
+
+### AP-003
+
+Inclusive Audience Recognition
+
+### AP-004
+
+Context Before Assumption
+
+### AP-005
+
+Accessibility by Design
+
+### AP-006
+
+Respectful Communication
+
+### AP-007
+
+Production Value Through Audience Understanding
+
+---
+
+## Rules
+
+### AS-015
+
+No production decision shall weaken the Audience Principles.
+
+### AS-016
+
+Audience Principles shall govern interpretation whenever ambiguity exists.
+
+---
+
+## Checklist
+
+- [ ] Audience Principles applied.
+- [ ] Audience respected.
+- [ ] Inclusive communication maintained.
+
+---
+
+# 3.7 Audience Boundaries
+
+## Purpose
+
+Define the scope of the Audience System.
+
+---
+
+## Canonical Decision
+
+The Audience System defines audience knowledge only.
+
+Audience implementation belongs to downstream production chapters.
+
+---
+
+## Included
+
+- Audience Model
+- Audience Groups
+- Audience Classification
+- Audience Relationships
+
+---
+
+## Excluded
+
+- Editorial adaptation
+- Visual adaptation
+- Platform targeting
+- Marketing segmentation
+- Advertising strategy
+- Campaign implementation
+
+---
+
+## Rules
+
+### AS-017
+
+Only audience knowledge belongs in this chapter.
+
+### AS-018
+
+Implementation knowledge shall not be duplicated.
+
+---
+
+## Checklist
+
+- [ ] Audience scope maintained.
+- [ ] No implementation duplication.
+
+---
+
+# 3.8 Audience Checklist
+
+## Purpose
+
+Validate that every production activity begins with the correct audience foundation.
+
+---
+
+## Audience Validation
+
+- [ ] Intended audience identified.
+- [ ] Audience groups selected.
+- [ ] Audience Principles applied.
+
+---
+
+## Knowledge Validation
+
+- [ ] Canonical audience source identified.
+- [ ] No duplicated audience knowledge.
+- [ ] Dependencies confirmed.
+
+---
+
+## Production Readiness
+
+- [ ] Audience ready for Content Strategy.
+- [ ] Audience knowledge validated.
+- [ ] Audience foundation complete.
+
+---
+
