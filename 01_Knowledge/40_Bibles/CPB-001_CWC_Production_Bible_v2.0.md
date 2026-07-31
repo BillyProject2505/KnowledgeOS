@@ -1193,3 +1193,531 @@ Validate that every production activity begins with the correct audience foundat
 
 ---
 
+# Chapter 04 — Content Strategy
+
+---
+
+# 4.1 Purpose
+
+## Purpose
+
+Define the canonical Content Strategy governing every Communication Artefact produced under the Coz We Care Production Bible (CPB).
+
+The Content Strategy establishes the strategic production knowledge required to determine **why** a Communication Artefact is created before its architecture, editorial implementation, visual design, production workflow, or publication strategy are defined.
+
+---
+
+## Canonical Decision
+
+The Content Strategy is the single canonical source governing strategic production knowledge within the Production Bible.
+
+It defines **why** content exists.
+
+It does not define **how** content is implemented.
+
+---
+
+## Rules
+
+### CS-001
+
+Every Communication Artefact shall define its Content Strategy before production begins.
+
+### CS-002
+
+The Content Strategy shall define strategic knowledge only.
+
+### CS-003
+
+Strategic knowledge shall remain consistent throughout every downstream production chapter.
+
+---
+
+## Checklist
+
+- Strategic purpose identified.
+- Communication objective established.
+- Content Strategy reviewed.
+- Downstream implementation identified.
+
+---
+
+# 4.2 Content Strategy Mission
+
+## Purpose
+
+Define the production mission of the Content Strategy.
+
+---
+
+## Canonical Decision
+
+The Content Strategy exists to ensure every Communication Artefact is produced for a clearly defined strategic purpose that supports the mission of Coz We Care.
+
+Strategic intent shall drive production decisions while remaining independent from implementation.
+
+---
+
+## Rules
+
+### CS-004
+
+Every Communication Artefact shall fulfil one or more Strategic Objectives.
+
+### CS-005
+
+Strategic intent shall guide production decisions.
+
+### CS-006
+
+Strategic objectives shall take precedence over production convenience.
+
+---
+
+## Checklist
+
+- Strategic purpose defined.
+- Mission alignment confirmed.
+- Production objective validated.
+
+---
+
+# 4.3 Content Strategy Model
+
+## Purpose
+
+Define the canonical strategic domains that compose the Content Strategy.
+
+---
+
+## Canonical Decision
+
+The Content Strategy consists of five canonical strategic domains.
+
+- Strategic Objectives
+- Audience Alignment
+- Brand Alignment
+- Educational Alignment
+- Strategic Content Types
+
+Each domain has one canonical definition within the Production Bible.
+
+---
+
+# Strategic Objectives
+
+Strategic Objectives define **why** a Communication Artefact is created.
+
+## Inform
+
+Communicate factual, accurate, and relevant information that enables audiences to understand a topic correctly.
+
+The primary outcome is awareness through reliable information.
+
+## Educate
+
+Improve knowledge and understanding through structured educational communication.
+
+The primary outcome is meaningful learning rather than simple information delivery.
+
+## Prevent
+
+Encourage preventive behaviours and reduce health risks through evidence-based preventive communication.
+
+The primary outcome is healthier decision-making.
+
+## Support
+
+Provide guidance, encouragement, and psychosocial support that helps audiences navigate health-related situations with confidence and dignity.
+
+## Advocate
+
+Promote inclusion, reduce stigma, and encourage equitable access to health information, services, and opportunities.
+
+## Engage
+
+Encourage participation, dialogue, collaboration, and sustained interaction between Coz We Care and its communities.
+
+---
+
+# Strategic Alignment
+
+## Audience Alignment
+
+Ensure every Communication Artefact aligns with the canonical Audience System so that strategic decisions are driven by audience needs rather than production convenience.
+
+## Brand Alignment
+
+Ensure every Communication Artefact consistently reflects the canonical Brand System and reinforces Coz We Care's identity, values, and positioning.
+
+## Educational Alignment
+
+Ensure every Communication Artefact supports the educational mission of Coz We Care by delivering accurate, trustworthy, inclusive, and evidence-based communication.
+
+---
+
+# Strategic Content Types
+
+Strategic Content Types define the primary strategic role fulfilled by a Communication Artefact.
+
+## Educational
+
+Content whose primary strategic role is to increase knowledge, understanding, and awareness.
+
+## Preventive
+
+Content whose primary strategic role is to encourage preventive health behaviours and reduce avoidable health risks.
+
+## Supportive
+
+Content whose primary strategic role is to provide guidance, encouragement, or psychosocial support.
+
+## Advocacy
+
+Content whose primary strategic role is to reduce stigma, promote inclusion, and strengthen equitable access to health information and services.
+
+## Community Engagement
+
+Content whose primary strategic role is to strengthen participation, interaction, collaboration, and community involvement.
+
+---
+
+## Rules
+
+### CS-007
+
+Every strategic domain shall have one canonical definition.
+
+### CS-008
+
+Strategic domains shall complement one another without overlap.
+
+### CS-009
+
+Implementation details shall not be defined within this chapter.
+
+---
+
+## Checklist
+
+- Strategic domains identified.
+- Canonical definitions established.
+- No duplicated production knowledge.
+
+---
+
+# 4.4 Content Classification
+
+## Purpose
+
+Define how Communication Artefacts are classified according to strategic intent.
+
+---
+
+## Canonical Decision
+
+Every Communication Artefact shall define one or more Strategic Content Types using the canonical Content Strategy Model.
+
+Strategic classification supports production decisions without restricting communication.
+
+---
+
+## Rules
+
+### CS-010
+
+Every Communication Artefact shall define at least one Strategic Content Type.
+
+### CS-011
+
+Multiple Strategic Content Types may be assigned when appropriate.
+
+### CS-012
+
+Strategic classification shall support production decisions without limiting multi-purpose communication.
+
+### CS-013
+
+Every Communication Artefact shall identify its intended audience before production begins.
+
+### CS-014
+
+Every Communication Artefact shall align with the canonical Audience System.
+
+### CS-015
+
+Every Communication Artefact shall align with the canonical Brand System.
+
+### CS-016
+
+Every Communication Artefact shall support the educational mission of Coz We Care.
+
+---
+
+## Examples
+
+### ✔ Correct
+
+```text
+Strategic Objective
+        ↓
+Strategic Content Type
+        ↓
+Communication Artefact
+```
+
+### ✘ Incorrect
+
+```text
+Platform
+      ↓
+Strategy
+```
+
+---
+
+## Checklist
+
+- Strategic Objective selected.
+- Strategic Content Type identified.
+- Audience alignment confirmed.
+- Brand alignment confirmed.
+- Educational alignment confirmed.
+
+---
+
+# 4.5 Content Strategy Architecture
+
+## Purpose
+
+Define the relationship between the Content Strategy and downstream production systems.
+
+---
+
+## Canonical Decision
+
+The Content Strategy provides strategic requirements for all downstream production chapters.
+
+Implementation remains the responsibility of those chapters.
+
+---
+
+## Dependency Flow
+
+```text
+Content Strategy
+        ↓
+Content Architecture
+        ↓
+Editorial System
+        ↓
+Visual Design System
+```
+
+---
+
+## Rules
+
+### CS-017
+
+Subsequent chapters shall inherit the Content Strategy.
+
+### CS-018
+
+Implementation chapters shall not redefine strategic knowledge.
+
+---
+
+## Checklist
+
+- Dependencies identified.
+- Strategy inherited correctly.
+- No conflicting strategic definitions.
+
+---
+
+# 4.6 Content Strategy Principles
+
+## Purpose
+
+Define the universal principles governing strategic production decisions.
+
+---
+
+## Canonical Decision
+
+Every Communication Artefact shall comply with the following Content Strategy Principles.
+
+---
+
+## Content Strategy Principles
+
+### CSP-001
+
+Purpose Before Content
+
+### CSP-002
+
+Objective Before Implementation
+
+### CSP-003
+
+Audience-Aligned Communication
+
+### CSP-004
+
+Brand-Aligned Communication
+
+### CSP-005
+
+Educational Integrity
+
+### CSP-006
+
+Evidence-Based Communication
+
+### CSP-007
+
+Meaningful Community Engagement
+
+---
+
+## Rules
+
+### CS-019
+
+No production decision shall weaken the Content Strategy Principles.
+
+### CS-020
+
+The Content Strategy Principles shall govern interpretation whenever ambiguity exists.
+
+---
+
+## Checklist
+
+- Principles applied.
+- Strategic intent preserved.
+- Mission alignment maintained.
+
+---
+
+# 4.7 Content Strategy Boundaries
+
+## Purpose
+
+Define the scope of the Content Strategy.
+
+---
+
+## Canonical Decision
+
+The Content Strategy defines strategic production knowledge only.
+
+Implementation belongs exclusively to downstream production chapters.
+
+---
+
+## Included
+
+- Strategic Objectives
+- Strategic Alignment
+- Strategic Content Types
+- Strategic Classification
+
+---
+
+## Excluded
+
+- Content Architecture
+- Editorial implementation
+- Visual implementation
+- Production Workflow
+- Publication Strategy
+- Platform Strategy
+
+---
+
+## Rules
+
+### CS-021
+
+Only strategic production knowledge belongs in this chapter.
+
+### CS-022
+
+Implementation knowledge shall not be duplicated.
+
+---
+
+## Checklist
+
+- Strategic scope maintained.
+- No duplicated implementation knowledge.
+
+---
+
+# 4.8 Content Strategy Checklist
+
+## Purpose
+
+Validate that every production activity begins with the correct strategic foundation.
+
+---
+
+## Strategy Validation
+
+- Strategic Objective identified.
+- Strategic Content Type selected.
+- Audience Alignment confirmed.
+- Brand Alignment confirmed.
+- Educational Alignment confirmed.
+
+---
+
+## Knowledge Validation
+
+- Canonical strategy source identified.
+- No duplicated strategic knowledge.
+- Production knowledge preserved.
+
+---
+
+## Production Readiness
+
+- Ready for Content Architecture.
+- Strategy validated.
+- Strategic foundation complete.
+
+---
+
+# Migration Decisions
+
+## MD-004-001
+
+Migrated from CPB v1 Chapter 005 while preserving all production knowledge.
+
+## MD-004-002
+
+Refactored into the mandatory AI-first documentation pattern defined by the CPB Architecture Refactoring.
+
+## MD-004-003
+
+Governance metadata (Definition, Scope, Dependency, Constraint, Output, Authority declarations) removed from the chapter body and retained outside the Production Bible.
+
+## MD-004-004
+
+Restored all canonical production knowledge for:
+
+- Strategic Objectives
+- Strategic Alignment
+- Strategic Content Types
+
+to satisfy the **No Production Knowledge Loss** principle.
+
+## MD-004-005
+
+Canonical Review passed after production knowledge restoration.
+
+---
+
