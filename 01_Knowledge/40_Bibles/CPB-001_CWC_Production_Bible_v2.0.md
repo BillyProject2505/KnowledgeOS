@@ -461,3 +461,319 @@ Every production activity shall successfully complete the Foundation Checklist.
 
 ---
 
+# Chapter 02 — Brand System
+
+## 2.1 Purpose
+
+### Purpose
+
+Define the canonical Brand System governing every Communication Artefact produced under the Coz We Care Production Bible (CPB).
+
+The Brand System establishes the identity foundations that ensure every artefact consistently represents Coz We Care regardless of platform, format, or production workflow.
+
+### Canonical Decision
+
+The Brand System is the single canonical source governing the identity of Coz We Care within the Production Bible.
+
+Implementation standards belong exclusively to their respective production chapters.
+
+### Rules
+
+#### BS-001
+
+Every Communication Artefact shall comply with the Brand System before production begins.
+
+#### BS-002
+
+The Brand System defines identity, not implementation.
+
+#### BS-003
+
+Brand implementation shall remain consistent across all production outputs.
+
+### Checklist
+
+- Brand System reviewed.
+- Brand identity identified.
+- Applicable identity standards selected.
+- Implementation chapter identified.
+
+---
+
+# 2.2 Brand Mission
+
+### Purpose
+
+Define the production mission of the Coz We Care brand.
+
+### Canonical Decision
+
+The Brand System exists to ensure every Communication Artefact consistently communicates the purpose, values, and identity of Coz We Care.
+
+### Rules
+
+#### BS-004
+
+Every Communication Artefact shall strengthen brand recognition.
+
+#### BS-005
+
+Brand identity shall remain consistent regardless of production format.
+
+#### BS-006
+
+Identity consistency shall take precedence over stylistic variation.
+
+### Checklist
+
+- Brand purpose preserved.
+- Identity consistently represented.
+- Communication aligns with brand mission.
+
+---
+
+# 2.3 Brand Identity Model
+
+### Purpose
+
+Define the canonical identity domains that compose the Brand System.
+
+### Canonical Decision
+
+The Brand System consists of the following identity domains:
+
+- Visual Identity
+- Editorial Identity
+- Communication Identity
+- Educational Identity
+- Brand Positioning
+
+Each domain has one canonical owner and one canonical implementation source.
+
+### Rules
+
+#### BS-007
+
+Every identity domain shall have one canonical definition.
+
+#### BS-008
+
+Identity domains shall complement one another without overlap.
+
+#### BS-009
+
+No implementation details shall be defined within this chapter.
+
+### Checklist
+
+- Identity domains identified.
+- Canonical ownership established.
+- No duplicated identity knowledge.
+
+---
+
+# 2.4 Brand Consistency
+
+### Purpose
+
+Establish universal rules that preserve consistent brand expression.
+
+### Canonical Decision
+
+Brand consistency shall be maintained across every Communication Artefact irrespective of platform, media, or production workflow.
+
+### Rules
+
+#### BS-010
+
+Identity shall remain recognizable across all outputs.
+
+#### BS-011
+
+Brand elements shall be applied consistently.
+
+#### BS-012
+
+Platform adaptation shall never alter core identity.
+
+### Checklist
+
+- Identity preserved.
+- Platform-independent consistency achieved.
+- Core identity unchanged.
+
+---
+
+# 2.5 Brand Architecture
+
+### Purpose
+
+Define the relationship between the Brand System and downstream production systems.
+
+### Canonical Decision
+
+The Brand System provides identity requirements for subsequent production chapters.
+
+The Brand System does not define implementation.
+
+### Dependency Flow
+
+```text
+Brand System
+↓
+
+Audience System
+↓
+
+Content Strategy
+↓
+
+Content Architecture
+↓
+
+Editorial System
+↓
+
+Visual Design System
+```
+
+### Rules
+
+#### BS-013
+
+Subsequent chapters shall inherit the Brand System.
+
+#### BS-014
+
+Implementation chapters shall not redefine brand identity.
+
+### Checklist
+
+- Dependencies identified.
+- Identity inherited correctly.
+- No conflicting definitions.
+
+---
+
+# 2.6 Brand Principles
+
+### Purpose
+
+Define the universal principles governing every brand decision.
+
+### Canonical Decision
+
+Every Communication Artefact shall comply with the following Brand Principles.
+
+### Brand Principles
+
+#### BP-001
+
+Identity Before Design
+
+#### BP-002
+
+Consistency Before Creativity
+
+#### BP-003
+
+Trust Through Accuracy
+
+#### BP-004
+
+Inclusive Communication
+
+#### BP-005
+
+Educational Integrity
+
+#### BP-006
+
+Audience Recognition
+
+#### BP-007
+
+Accessibility by Design
+
+### Rules
+
+#### BS-015
+
+No production decision shall weaken the Brand Principles.
+
+#### BS-016
+
+Brand Principles shall govern interpretation whenever ambiguity exists.
+
+### Checklist
+
+- Principles applied.
+- Identity protected.
+- Communication remains trustworthy.
+
+---
+
+# 2.7 Brand Boundaries
+
+### Purpose
+
+Define the scope of the Brand System.
+
+### Canonical Decision
+
+The Brand System defines brand identity only.
+
+Production implementation belongs to downstream chapters.
+
+### Included
+
+- Identity
+- Positioning
+- Brand domains
+- Identity relationships
+
+### Excluded
+
+- Typography specifications
+- Colour specifications
+- Layout standards
+- Production workflow
+- Publication strategy
+
+### Rules
+
+#### BS-017
+
+Only identity knowledge belongs in this chapter.
+
+#### BS-018
+
+Implementation knowledge shall not be duplicated.
+
+### Checklist
+
+- Identity scope maintained.
+- No implementation duplication.
+
+---
+
+# 2.8 Brand Checklist
+
+### Purpose
+
+Validate that every production activity begins with the correct brand foundation.
+
+### Brand Validation
+
+- Brand identity identified.
+- Applicable identity domains selected.
+- Brand principles applied.
+
+### Knowledge Validation
+
+- Canonical identity source identified.
+- No duplicated identity knowledge.
+- Dependencies confirmed.
+
+——-
+
