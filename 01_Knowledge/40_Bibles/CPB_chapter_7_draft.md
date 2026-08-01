@@ -3907,3 +3907,549 @@ Canvas
 
 Canvas Specifications
 ```
+---
+
+# 7.4.2 Layout System
+
+## Core Object
+
+**Layout**
+
+---
+
+## Purpose
+
+Define the Layout System of the Coz We Care Visual Design System (VDS).
+
+The Layout System governs the canonical organization of visual elements upon the Canvas.
+
+Layout establishes how visual elements are spatially organized after the Canvas has been determined and before the Communication Artefact is rendered.
+
+Layout System SHALL NOT govern:
+
+- Visual Language;
+- Communication Structure;
+- Canvas Specifications;
+- Editorial Strategy.
+
+---
+
+## Canonical Decision
+
+Layout System is the single canonical source governing Layout throughout the Coz We Care ecosystem.
+
+Layout System SHALL define:
+
+- Layout;
+- Layout Specifications;
+- Layout Consistency.
+
+Layout System SHALL NOT define:
+
+- Communication Artefacts;
+- Communication Structure;
+- Canvas Specifications;
+- Visual Language;
+- Editorial Strategy.
+
+---
+
+## Canonical Object
+
+The Layout System contains one Canonical Object.
+
+**Layout**
+
+Layout SHALL become the organization model inherited by every Communication Artefact.
+
+Every Communication Artefact SHALL organize its visual elements through the Layout.
+
+---
+
+## Canonical Responsibility
+
+Layout determines how visual elements are organized after the Canvas has been established.
+
+No other domain within the Production Bible SHALL determine the canonical organization of visual elements.
+
+---
+
+## Domain Boundary
+
+Layout System governs element organization only.
+
+Layout System SHALL NOT determine:
+
+- rendering medium;
+- communication flow;
+- communication zones;
+- visual language;
+- editorial objectives.
+
+These responsibilities remain exclusively governed by their respective canonical domains.
+
+---
+
+## Dependency Chain
+
+```text
+Layout System
+
+↓
+
+Layout
+
+↓
+
+Layout Specifications
+
+↓
+
+Communication Artefact Rendering
+```
+
+Every downstream organization decision SHALL inherit from the Layout.
+
+---
+
+## AI Production Boundary
+
+AI SHALL determine the Layout after the Canvas has been established and before applying any Layout Specification.
+
+Layout SHALL become the canonical organization decision within the Visual Specification workflow.
+
+---
+
+## Production Workflow
+
+```text
+Canvas
+
+↓
+
+Canvas Specifications
+
+↓
+
+Layout
+
+↓
+
+Layout Specifications
+
+↓
+
+Communication Artefact Rendering
+```
+
+---
+
+## Transition
+
+The Layout System establishes the organization model only.
+
+Subsequent sections SHALL define the specifications inherited by the Layout without redefining the Layout itself.
+
+```text
+Layout
+
+↓
+
+Layout Specifications
+```
+
+---
+
+# 7.4.3 Surface System
+
+## Purpose
+
+Define the Surface System of the Coz We Care Visual Design System (VDS).
+
+The Surface System governs the visual foundation upon which communication elements are presented.
+
+Surface SHALL support communication without competing with it.
+
+---
+
+## Canonical Decision
+
+Surface System is the single canonical source governing Surface throughout the Coz We Care ecosystem.
+
+Surface SHALL preserve the visual identity of Coz We Care while supporting communication effectiveness.
+
+Surface SHALL NOT become the primary visual focus of any Communication Artefact.
+
+---
+
+## Identity Decisions
+
+Surface SHALL remain visually subordinate to the Brand Identity System.
+
+Surface SHALL preserve a visual presentation that reinforces, rather than competes with, the Coz We Care identity.
+
+---
+
+## Production Intent
+
+Surface SHALL:
+
+- support readability;
+- reinforce visual hierarchy;
+- provide appropriate visual separation between communication elements;
+- minimize unnecessary visual distraction.
+
+Surface SHALL never compete with the Primary Message for visual attention.
+
+Surface exists to improve communication, not to become the communication itself.
+
+---
+
+## Implementation Freedom
+
+AI MAY determine the most appropriate surface implementation, including but not limited to:
+
+- flat surfaces;
+- subtle gradients;
+- soft shadows;
+- depth;
+- textures;
+- elevation.
+
+Provided that:
+
+- Brand Identity is preserved;
+- Production Intent is achieved;
+- communication readability is maintained.
+
+Implementation techniques SHALL NOT be treated as Canonical Decisions.
+
+---
+
+## Domain Boundary
+
+Surface System governs visual presentation only.
+
+Surface System SHALL NOT determine:
+
+- Communication Structure;
+- Layout;
+- Typography;
+- Color Identity;
+- Editorial Strategy.
+
+These responsibilities remain exclusively governed by their respective canonical domains.
+
+---
+
+## AI Production Boundary
+
+AI SHALL preserve the canonical identity and production intent of the Surface.
+
+Implementation methods remain the responsibility of AI unless explicitly governed by another canonical system.
+
+---
+
+## Transition
+
+The Surface System establishes the canonical identity and production intent of visual surfaces.
+
+Subsequent systems MAY define implementation guidance without redefining the canonical decisions established by the Surface System.
+
+---
+
+# 7.4.4 Typography System
+
+## Purpose
+
+Define the Typography System of the Coz We Care Visual Design System (VDS).
+
+The Typography System governs how written communication is presented throughout the Coz We Care ecosystem.
+
+Typography SHALL maximize communication clarity while preserving the Coz We Care visual identity.
+
+---
+
+## Canonical Decision
+
+Typography System is the single canonical source governing typography throughout the Coz We Care ecosystem.
+
+Typography SHALL establish a consistent typographic foundation for every Communication Artefact.
+
+Typography SHALL support communication effectiveness without introducing visual inconsistency across the Coz We Care ecosystem.
+
+---
+
+## Identity Decisions
+
+Typography SHALL remain consistent with the Coz We Care Brand Identity System to preserve a recognizable visual identity across all Communication Artefacts.
+
+Official typefaces defined by the Brand Identity System SHALL be treated as canonical.
+
+---
+
+## Production Intent
+
+Typography SHALL:
+
+- maximize readability;
+- reinforce information hierarchy;
+- support continuous reading flow;
+- emphasize the Primary Message without reducing clarity.
+
+Typography SHALL communicate information before expressing visual style.
+
+---
+
+## Implementation Freedom
+
+AI MAY determine the most appropriate typographic implementation, including but not limited to:
+
+- font size;
+- font weight;
+- line spacing;
+- letter spacing;
+- text wrapping;
+- line length;
+- typographic scaling.
+
+Provided that:
+
+- Brand Identity is preserved;
+- Production Intent is achieved;
+- readability remains uncompromised.
+
+Implementation techniques SHALL NOT be treated as Canonical Decisions.
+
+---
+
+## Domain Boundary
+
+Typography System governs typography only.
+
+Typography System SHALL NOT determine:
+
+- Layout;
+- Surface presentation;
+- Color Identity;
+- Communication Structure;
+- Editorial Strategy.
+
+These responsibilities remain exclusively governed by their respective canonical domains.
+
+---
+
+## AI Production Boundary
+
+AI SHALL preserve the canonical identity and production intent of Typography.
+
+Implementation methods remain the responsibility of AI unless explicitly governed by another canonical system.
+
+---
+
+## Transition
+
+The Typography System establishes the canonical identity and production intent of typography.
+
+Subsequent systems MAY define implementation guidance without redefining the canonical decisions established by the Typography System.
+
+---
+
+# 7.4.5 Graphic Elements System
+
+## Purpose
+
+Define the Graphic Elements System of the Coz We Care Visual Design System (VDS).
+
+The Graphic Elements System governs the use of supporting graphic elements throughout the Coz We Care ecosystem.
+
+Graphic Elements SHALL reinforce communication while preserving the Coz We Care visual identity.
+
+---
+
+## Canonical Decision
+
+Graphic Elements System is the single canonical source governing supporting graphic elements throughout the Coz We Care ecosystem.
+
+Graphic Elements SHALL establish a consistent visual support system for every Communication Artefact.
+
+Graphic Elements SHALL strengthen communication without introducing visual inconsistency across the Coz We Care ecosystem.
+
+---
+
+## Identity Decisions
+
+Graphic Elements SHALL remain consistent with the Coz We Care Brand Identity System to preserve a recognizable visual identity across all Communication Artefacts.
+
+Official graphic assets defined by the Brand Identity System SHALL be treated as canonical.
+
+---
+
+## Production Intent
+
+Graphic Elements SHALL:
+
+- reinforce communication hierarchy;
+- improve visual organization;
+- support information comprehension;
+- provide visual guidance where appropriate.
+
+Graphic Elements SHALL never become the primary visual focus of a Communication Artefact.
+
+Graphic Elements SHALL support the Primary Message rather than compete with it.
+
+---
+
+## Implementation Freedom
+
+AI MAY determine the most appropriate implementation of Graphic Elements, including but not limited to:
+
+- icons;
+- dividers;
+- shapes;
+- indicators;
+- badges;
+- decorative accents.
+
+Provided that:
+
+- Brand Identity is preserved;
+- Production Intent is achieved;
+- communication clarity is maintained.
+
+Implementation techniques SHALL NOT be treated as Canonical Decisions.
+
+---
+
+## Domain Boundary
+
+Graphic Elements System governs supporting graphic elements only.
+
+Graphic Elements System SHALL NOT determine:
+
+- Layout;
+- Typography;
+- Surface presentation;
+- Color Identity;
+- Editorial Strategy.
+
+These responsibilities remain exclusively governed by their respective canonical domains.
+
+---
+
+## AI Production Boundary
+
+AI SHALL preserve the canonical identity and production intent of Graphic Elements.
+
+Implementation methods remain the responsibility of AI unless explicitly governed by another canonical system.
+
+---
+
+## Transition
+
+The Graphic Elements System establishes the canonical identity and production intent of supporting graphic elements.
+
+Subsequent systems MAY define implementation guidance without redefining the canonical decisions established by the Graphic Elements System.
+
+---
+
+# 7.4.6 Imagery System
+
+## Purpose
+
+Define the Imagery System of the Coz We Care Visual Design System (VDS).
+
+The Imagery System governs the visual representation of subjects throughout the Coz We Care ecosystem.
+
+Imagery SHALL strengthen communication by providing appropriate visual representations while preserving the Coz We Care visual identity.
+
+---
+
+## Canonical Decision
+
+Imagery System is the single canonical source governing imagery throughout the Coz We Care ecosystem.
+
+Imagery SHALL establish consistent visual representation across all Communication Artefacts.
+
+Imagery SHALL provide visual representations that are authentic, trustworthy, and appropriate to the intended communication objective.
+
+---
+
+## Identity Decisions
+
+Imagery SHALL remain consistent with the Coz We Care Brand Identity System to preserve a recognizable visual identity across all Communication Artefacts.
+
+Official visual assets and canonical character designs defined by the Brand Identity System SHALL be treated as canonical.
+
+---
+
+## Production Intent
+
+Imagery SHALL:
+
+- reinforce the Primary Message;
+- improve communication clarity;
+- support the intended communication outcome where appropriate;
+- support accurate understanding of the represented subject.
+
+Imagery SHALL represent the intended subject truthfully and appropriately for the communication context.
+
+Imagery SHALL never become the primary visual focus of a Communication Artefact.
+
+Imagery SHALL support the Primary Message rather than compete with it.
+
+---
+
+## Implementation Freedom
+
+AI MAY determine the most appropriate imagery implementation, including but not limited to:
+
+- photography;
+- illustration;
+- vector artwork;
+- 3D illustration;
+- mixed media;
+- AI-generated imagery.
+
+Provided that:
+
+- Brand Identity is preserved;
+- Production Intent is achieved;
+- factual accuracy is maintained where applicable.
+
+Implementation techniques SHALL NOT be treated as Canonical Decisions.
+
+---
+
+## Domain Boundary
+
+Imagery System governs imagery only.
+
+Imagery System SHALL NOT determine:
+
+- Layout;
+- Typography;
+- Surface presentation;
+- Graphic Elements;
+- Editorial Strategy.
+
+These responsibilities remain exclusively governed by their respective canonical domains.
+
+---
+
+## AI Production Boundary
+
+AI SHALL preserve the canonical identity and production intent of Imagery.
+
+Implementation methods remain the responsibility of AI unless explicitly governed by another canonical system.
+
+---
+
+## Transition
+
+The Imagery System establishes the canonical identity and production intent of imagery.
+
+Subsequent systems MAY define implementation guidance without redefining the canonical decisions established by the Imagery System.
+
+---
+
