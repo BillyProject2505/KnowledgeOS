@@ -9,7 +9,6 @@ Define the canonical Visual Design System (VDS) governing every visual Communica
 The Visual Design System establishes the universal visual production knowledge required to translate communication decisions into consistent visual implementation before production begins.
 
 ---
-
 ### Canonical Decision
 
 The Visual Design System (VDS) is the single canonical source governing visual production knowledge within the Production Bible.
@@ -31,6 +30,7 @@ The Visual Design System SHALL translate communication decisions into visual imp
 ### VDS-002
 
 The Visual Design System SHALL NOT redefine communication decisions established by:
+
 
 - Foundation
 - Brand System
@@ -3751,6 +3751,159 @@ Maintain the Canonical Communication Structure throughout production.
 
 ### Production Readiness
 
-- Spatial Organization Rules ready for ** 7.4.1 Canvas System**.
+- Spatial Organization Rules ready for **7.4 Visual Specification**.
 
 ---
+
+# 7.4 Visual Specification
+
+# 7.4.1 Canvas System
+
+## Core Object
+
+**Canvas**
+
+---
+
+## Purpose
+
+Define the Canvas System of the Coz We Care Visual Design System (VDS).
+
+The Canvas System governs the rendering foundation upon which every Communication Artefact is produced.
+
+Canvas establishes the rendering medium before any visual element is positioned or rendered.
+
+Canvas System SHALL NOT govern:
+
+- Visual Language;
+- Communication Structure;
+- Layout Behavior;
+- Editorial Strategy.
+
+---
+
+## Canonical Decision
+
+Canvas System is the single canonical source governing Canvas throughout the Coz We Care ecosystem.
+
+Canvas System SHALL define:
+
+- Canvas;
+- Canvas Foundation;
+- Canvas Specifications;
+- Canvas Consistency.
+
+Canvas System SHALL NOT define:
+
+- Communication Artefacts;
+- Communication Structure;
+- Layout Specifications;
+- Visual Language;
+- Editorial Strategy.
+
+---
+
+## Canonical Object
+
+The Canvas System contains one Canonical Object.
+
+**Canvas**
+
+Canvas SHALL become the rendering foundation inherited by every Communication Artefact.
+
+Every Communication Artefact SHALL be rendered upon the Canvas.
+
+---
+
+## Canonical Responsibility
+
+Canvas determines the rendering medium before any rendering decision is made.
+
+No other domain within the Production Bible SHALL determine the rendering medium.
+
+---
+
+## Domain Boundary
+
+Canvas System governs the rendering medium only.
+
+Canvas System SHALL NOT determine:
+
+- communication flow;
+- communication zones;
+- layout behavior;
+- element placement;
+- visual language;
+- editorial objectives.
+
+These responsibilities remain exclusively governed by their respective canonical domains.
+
+---
+
+## Dependency Chain
+
+```text
+Canvas System
+
+↓
+
+Canvas
+
+↓
+
+Canvas Specifications
+
+↓
+
+Layout System
+
+↓
+
+Communication Artefact Rendering
+```
+
+Every downstream rendering decision SHALL inherit from the Canvas.
+
+---
+
+## AI Production Boundary
+
+AI SHALL determine the Canvas before applying any Canvas Specification or Layout Specification.
+
+Canvas SHALL become the first rendering decision within the Visual Specification workflow.
+
+---
+
+## Rendering Workflow
+
+```text
+Canvas
+
+↓
+
+Canvas Specifications
+
+↓
+
+Layout System
+
+↓
+
+Communication Artefact Rendering
+```
+
+---
+
+## Transition
+
+The Canvas System establishes the rendering foundation only.
+
+Subsequent sections SHALL define the specifications inherited by the Canvas.
+
+```text
+Canvas
+
+↓
+
+Canvas Specifications
+```
