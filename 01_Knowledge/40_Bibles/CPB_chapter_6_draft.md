@@ -1698,3 +1698,797 @@ Editorial Validation confirms that:
 - Call-to-Action Standards comply.
 
 Editorial Validation Complete.
+
+---
+
+# Chapter 06 — Editorial System
+
+## 6.1 Purpose
+
+### Purpose
+
+The Editorial System defines the canonical production knowledge governing how Communication Artefacts are written within the Coz We Care Production System.
+
+---
+
+### Canonical Decision
+
+The Editorial System answers one governing question:
+
+> **How should communication be written?**
+
+It governs editorial expression independently from Strategy, Content Architecture, Visual Design, Production Workflow, Production Quality, and Publication.
+
+---
+
+### Principles
+
+#### ES-P01 — Editorial Consistency
+
+Editorial communication shall preserve a consistent communication identity.
+
+#### ES-P02 — Editorial Clarity
+
+Editorial writing shall maximize audience understanding.
+
+#### ES-P03 — Editorial Responsibility
+
+Editorial communication shall remain accurate, respectful, and trustworthy.
+
+#### ES-P04 — Editorial Independence
+
+Editorial standards govern editorial expression only.
+
+---
+
+### Rules
+
+**ES-001**
+
+Every Communication Artefact shall comply with the Editorial System.
+
+**ES-002**
+
+Editorial standards apply consistently across all Communication Artefacts.
+
+**ES-003**
+
+Editorial decisions shall remain independent from implementation decisions.
+
+---
+
+### Implementation Examples
+
+✔ Editorial standards define how communication is written.
+
+✘ Editorial standards define visual layout.
+
+---
+
+### Checklist
+
+- Governing question preserved.
+- Editorial boundary preserved.
+- Editorial consistency maintained.
+
+---
+
+## 6.2 Editorial Mission
+
+### Purpose
+
+Define the long-term editorial purpose of the Coz We Care Production System.
+
+---
+
+### Canonical Decision
+
+The Editorial Mission ensures that every Communication Artefact improves audience understanding while preserving the editorial identity of Coz We Care.
+
+Editorial excellence is measured by communication quality rather than stylistic preference.
+
+---
+
+### Principles
+
+#### EM-P01 — Human Understanding
+
+Communication exists to improve understanding.
+
+#### EM-P02 — Trustworthiness
+
+Communication shall strengthen audience trust.
+
+#### EM-P03 — Respect
+
+Communication shall preserve human dignity.
+
+#### EM-P04 — Consistency
+
+Editorial quality shall remain consistent throughout the Production System.
+
+---
+
+### Rules
+
+**ES-004**
+
+Editorial decisions shall prioritize audience understanding.
+
+**ES-005**
+
+Editorial wording shall improve communication clarity.
+
+**ES-006**
+
+Editorial communication shall preserve reader dignity.
+
+**ES-007**
+
+Editorial quality shall remain consistent.
+
+---
+
+### Implementation Examples
+
+✔ Complex information is communicated using understandable language.
+
+✘ Writing style overrides audience comprehension.
+
+---
+
+### Checklist
+
+- Understanding prioritized.
+- Trust maintained.
+- Respect preserved.
+- Consistency maintained.
+
+---
+
+## 6.3 Editorial Model
+
+### Purpose
+
+Define the canonical structure of the Editorial System.
+
+---
+
+### Canonical Decision
+
+The Editorial System consists of six editorial domains.
+
+Each domain owns one editorial responsibility.
+
+---
+
+### Editorial Domain Registry
+
+| Domain | Responsibility | Governing Question |
+|----------|----------------|--------------------|
+| Editorial Voice | Communication identity | Who are we when we communicate? |
+| Editorial Tone | Contextual adaptation | How do we express our voice? |
+| Writing Standards | Universal writing rules | How should communication be written? |
+| Health & Educational Writing Standards | Health editorial communication | How should health information be written? |
+| Inclusive Language Standards | Inclusive communication | How should language respect every audience? |
+| Call-to-Action Standards | Audience invitation | How should communication encourage action? |
+
+---
+
+### Principles
+
+#### EMD-P01 — Single Responsibility
+
+Each editorial domain owns one responsibility.
+
+#### EMD-P02 — One Concept, One Home
+
+Editorial knowledge belongs to one editorial domain only.
+
+#### EMD-P03 — Collective Consistency
+
+Editorial domains operate as one Editorial System.
+
+---
+
+### Rules
+
+**ES-008**
+
+Every editorial standard belongs to one editorial domain.
+
+**ES-009**
+
+Editorial domains shall remain mutually exclusive.
+
+**ES-010**
+
+Editorial domains collectively define editorial production knowledge.
+
+---
+
+### Implementation Examples
+
+✔ Sentence readability belongs to Writing Standards.
+
+✔ Communication identity belongs to Editorial Voice.
+
+✘ Editorial Tone defines sentence readability.
+
+---
+
+### Checklist
+
+- Domains defined.
+- Ownership assigned.
+- No conceptual overlap.
+- Editorial coverage complete.
+
+---
+
+## 6.4 Editorial Voice
+
+### Purpose
+
+Define the permanent communication identity of the Coz We Care Editorial System.
+
+---
+
+### Canonical Decision
+
+Editorial Voice defines **who Coz We Care is when communicating**.
+
+Editorial Voice is permanent.
+
+Every Communication Artefact inherits the same Editorial Voice.
+
+---
+
+### Principles
+
+#### EV-P01 — Human-Centered
+
+Communication places people before information.
+
+#### EV-P02 — Evidence-Based
+
+Communication represents authoritative knowledge responsibly.
+
+#### EV-P03 — Educational
+
+Communication improves understanding before influencing action.
+
+#### EV-P04 — Respectful
+
+Communication preserves the dignity of every audience.
+
+#### EV-P05 — Supportive
+
+Communication encourages informed and confident decision-making.
+
+#### EV-P06 — Trustworthy
+
+Communication strengthens trust through consistency and transparency.
+
+---
+
+### Rules
+
+**ES-011**
+
+Editorial Voice shall remain consistent across every Communication Artefact.
+
+**ES-012**
+
+Editorial Voice governs all editorial decisions.
+
+**ES-013**
+
+Editorial Voice remains independent of communication context.
+
+---
+
+### Implementation Examples
+
+✔ Communication consistently reflects one editorial identity.
+
+✘ Communication changes identity according to campaign, platform, or audience.
+
+---
+
+### Checklist
+
+- Editorial identity preserved.
+- Human-centered communication maintained.
+- Trustworthiness maintained.
+- Editorial consistency preserved.
+
+---
+
+## 6.5 Editorial Tone
+
+### Purpose
+
+Define how Editorial Voice adapts to different communication contexts.
+
+---
+
+### Canonical Decision
+
+Editorial Tone defines **how Editorial Voice is expressed**.
+
+Editorial Tone is adaptive.
+
+Editorial Tone always inherits Editorial Voice.
+
+---
+
+### Principles
+
+#### ET-P01 — Voice Before Tone
+
+Editorial Voice governs Editorial Tone.
+
+#### ET-P02 — Contextual Adaptation
+
+Editorial Tone reflects the communication context.
+
+#### ET-P03 — Audience Appropriateness
+
+Editorial Tone supports the intended audience.
+
+#### ET-P04 — Communication Purpose
+
+Editorial Tone reinforces the communication purpose.
+
+#### ET-P05 — Emotional Responsibility
+
+Editorial Tone supports emotionally responsible communication.
+
+---
+
+### Canonical Editorial Tones
+
+| Tone | Primary Purpose |
+|------|------------------|
+| Educational | Improve understanding |
+| Preventive | Encourage informed prevention |
+| Supportive | Provide reassurance |
+| Community | Strengthen participation |
+| Advocacy | Promote dignity and equity |
+| Service | Guide audiences toward services |
+
+---
+
+### Rules
+
+**ES-014**
+
+Every Communication Artefact shall adopt one primary Editorial Tone.
+
+**ES-015**
+
+Editorial Tone shall remain consistent with Editorial Voice.
+
+**ES-016**
+
+Editorial Tone shall support communication context and audience needs.
+
+**ES-017**
+
+Editorial Tone shall reinforce communication effectiveness without changing editorial identity.
+
+---
+
+### Implementation Examples
+
+✔ Editorial Tone adapts while Editorial Voice remains unchanged.
+
+✘ Editorial Tone contradicts Editorial Voice through judgment, sensationalism, or coercion.
+
+---
+
+### Checklist
+
+- Editorial Voice preserved.
+- Appropriate Editorial Tone selected.
+- Audience supported.
+- Communication purpose reinforced.
+- Emotional responsibility maintained.
+
+---
+
+## 6.6 Writing Standards
+
+### Purpose
+
+Define the canonical standards governing how Communication Artefacts are written.
+
+---
+
+### Canonical Decision
+
+Writing Standards define **how communication is written**.
+
+They govern editorial expression only.
+
+---
+
+### Principles
+
+#### WS-P01 — Clarity
+
+Writing shall maximize audience understanding.
+
+#### WS-P02 — Readability
+
+Writing shall remain accessible to its intended audience.
+
+#### WS-P03 — Logical Structure
+
+Communication shall follow a coherent progression.
+
+#### WS-P04 — Conciseness
+
+Writing shall communicate only necessary information.
+
+#### WS-P05 — Terminology Consistency
+
+Canonical terminology shall remain consistent.
+
+#### WS-P06 — Message Integrity
+
+Every Communication Artefact shall communicate one primary message.
+
+---
+
+### Rules
+
+**ES-018**
+
+Writing Standards govern editorial expression.
+
+**ES-019**
+
+Editorial writing shall prioritize audience understanding.
+
+**ES-020**
+
+Canonical terminology shall remain consistent.
+
+**ES-021**
+
+Editorial writing shall preserve logical progression.
+
+---
+
+### Implementation Examples
+
+✔ One primary message supported by relevant information.
+
+✔ Consistent terminology throughout the Communication Artefact.
+
+✘ Multiple unrelated primary messages.
+
+---
+
+### Checklist
+
+- Primary message identified.
+- Readability maintained.
+- Logical progression preserved.
+- Terminology consistent.
+
+---
+
+## 6.7 Health & Educational Writing Standards
+
+### Purpose
+
+Define the canonical standards governing the editorial communication of health and educational information.
+
+---
+
+### Canonical Decision
+
+Health & Educational Writing Standards define **how health and educational information is communicated**.
+
+They govern editorial expression, not medical knowledge.
+
+---
+
+### Principles
+
+#### HEW-P01 — Meaning Preservation
+
+Editorial communication shall preserve the intended meaning of authoritative evidence.
+
+#### HEW-P02 — Audience Understanding
+
+Health communication shall prioritize understanding.
+
+#### HEW-P03 — Educational Clarity
+
+Health information shall be communicated appropriately for the intended audience.
+
+#### HEW-P04 — Editorial Objectivity
+
+Editorial wording shall remain objective and evidence-informed.
+
+#### HEW-P05 — Human Dignity
+
+Editorial communication shall preserve human dignity.
+
+#### HEW-P06 — Informed Decision-Making
+
+Editorial communication shall support informed decision-making through understanding.
+
+---
+
+### Rules
+
+**ES-022**
+
+Editorial communication shall preserve the intended meaning of authoritative evidence.
+
+**ES-023**
+
+Editorial wording shall avoid distortion.
+
+**ES-024**
+
+Editorial communication shall remain objective.
+
+**ES-025**
+
+Editorial communication shall preserve reader dignity.
+
+---
+
+### Implementation Examples
+
+✔ Health information is simplified without changing meaning.
+
+✔ Educational communication remains objective.
+
+✘ Editorial wording exaggerates evidence or creates unnecessary fear.
+
+---
+
+### Checklist
+
+- Meaning preserved.
+- Audience understanding prioritized.
+- Editorial objectivity maintained.
+- Human dignity preserved.
+
+---
+
+## 6.8 Inclusive Language Standards
+
+### Purpose
+
+Define the canonical standards governing inclusive editorial language.
+
+---
+
+### Canonical Decision
+
+Inclusive Language Standards define **how language respects every audience**.
+
+They govern editorial language only.
+
+---
+
+### Principles
+
+#### ILS-P01 — Human Dignity
+
+Editorial language shall preserve human dignity.
+
+#### ILS-P02 — Respectful Communication
+
+Editorial language shall avoid stigmatizing and discriminatory expression.
+
+#### ILS-P03 — Neutral Expression
+
+Editorial language shall remain objective and free from unnecessary assumptions.
+
+#### ILS-P04 — Accessibility
+
+Language shall remain understandable for its intended audience.
+
+#### ILS-P05 — Inclusive Communication
+
+Editorial language shall encourage understanding and participation across diverse audiences.
+
+---
+
+### Rules
+
+**ES-026**
+
+Editorial language shall preserve human dignity.
+
+**ES-027**
+
+Editorial language shall avoid stigmatizing or discriminatory wording.
+
+**ES-028**
+
+Inclusive language shall preserve factual meaning.
+
+---
+
+### Implementation Examples
+
+✔ Respectful, person-centered communication.
+
+✔ Neutral and accessible language.
+
+✘ Stereotyping or demeaning language.
+
+---
+
+### Checklist
+
+- Human dignity preserved.
+- Respect maintained.
+- Accessibility achieved.
+- Inclusive communication maintained.
+
+---
+
+## 6.9 Call-to-Action Standards
+
+### Purpose
+
+Define the canonical standards governing editorial calls to action.
+
+---
+
+### Canonical Decision
+
+Call-to-Action Standards define **how audiences are invited to take action**.
+
+They govern editorial expression only.
+
+---
+
+### Principles
+
+#### CTA-P01 — Clear Action
+
+Every Call-to-Action shall communicate one identifiable action.
+
+#### CTA-P02 — Reader Autonomy
+
+Editorial communication shall respect voluntary decision-making.
+
+#### CTA-P03 — Actionability
+
+Editorial communication shall make the intended next step understandable.
+
+#### CTA-P04 — Positive Encouragement
+
+Editorial communication shall encourage action without coercion, fear, or manipulation.
+
+---
+
+### Rules
+
+**ES-029**
+
+Every Communication Artefact shall contain one primary Call-to-Action when required.
+
+**ES-030**
+
+Call-to-Action wording shall remain respectful.
+
+**ES-031**
+
+Call-to-Action wording shall avoid coercive communication.
+
+---
+
+### Implementation Examples
+
+✔ One clear voluntary action.
+
+✔ Respectful invitation.
+
+✘ Fear-based or coercive invitation.
+
+---
+
+### Checklist
+
+- Primary action identified.
+- Reader autonomy preserved.
+- Respect maintained.
+- Action clearly understood.
+
+---
+
+## 6.10 Editorial Validation Standard
+
+### Purpose
+
+Define the canonical standard governing editorial validation.
+
+---
+
+### Canonical Decision
+
+Editorial Validation evaluates compliance with the Editorial System.
+
+It validates editorial production knowledge only.
+
+---
+
+### Principles
+
+#### EVS-P01 — Standards-Based Validation
+
+Validation shall evaluate compliance with canonical editorial standards.
+
+#### EVS-P02 — Objective Evaluation
+
+Validation shall use observable and repeatable criteria.
+
+#### EVS-P03 — Complete Editorial Coverage
+
+Validation shall evaluate every editorial domain.
+
+#### EVS-P04 — Independent Validation
+
+Editorial validation shall remain independent from other validation domains.
+
+---
+
+### Validation Domains
+
+| Domain | Evaluation Focus |
+|---------|------------------|
+| Editorial Voice | Communication identity |
+| Editorial Tone | Contextual adaptation |
+| Writing Standards | Editorial quality |
+| Health & Educational Writing Standards | Health communication |
+| Inclusive Language Standards | Inclusive communication |
+| Call-to-Action Standards | Audience invitation |
+
+---
+
+### Rules
+
+**ES-032**
+
+Editorial validation shall evaluate compliance with canonical editorial standards.
+
+**ES-033**
+
+Editorial validation shall precede downstream production review.
+
+**ES-034**
+
+Editorial validation shall rely on editorial evidence rather than editorial preference.
+
+---
+
+### Implementation Examples
+
+✔ Validation confirms compliance with applicable editorial standards.
+
+✘ Validation relies on personal writing preference.
+
+---
+
+### Checklist
+
+- Editorial identity validated.
+- Editorial standards validated.
+- Editorial compliance confirmed.
+- Ready for downstream production review.
+
+---
+
