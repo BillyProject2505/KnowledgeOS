@@ -4297,3 +4297,303 @@ Editorial validation shall rely on editorial evidence rather than editorial pref
 
 ---
 
+# 7.1 Visual Foundation
+
+## Purpose
+
+Define the Visual Design System (VDS) of the Coz We Care Production Bible.
+
+The Visual Design System governs how communication decisions are translated into visual form throughout the Coz We Care ecosystem.
+
+---
+
+## Canonical Decision
+
+The Visual Design System is the single canonical source governing visual production within the Coz We Care Production Bible.
+
+The VDS SHALL translate established communication decisions into consistent visual implementation.
+
+The VDS SHALL NOT create, modify, or redefine communication decisions established by upstream canonical domains.
+
+---
+
+## Identity Decisions
+
+Visual implementation SHALL preserve the canonical visual identity of Coz We Care.
+
+Canonical visual identity SHALL be inherited from the Brand Identity System.
+
+---
+
+## Production Intent
+
+The Visual Design System SHALL:
+
+- translate communication into visual representation;
+- preserve visual consistency;
+- maintain traceability to upstream canonical decisions;
+- support reproducible visual production.
+
+Visual implementation SHALL prioritize communication before decoration.
+
+---
+
+## Implementation Freedom
+
+AI MAY determine the most appropriate visual implementation provided that:
+
+- Canonical Identity is preserved;
+- Production Intent is achieved;
+- upstream canonical decisions remain unchanged.
+
+Implementation techniques SHALL NOT be treated as Canonical Decisions.
+
+---
+
+## Domain Boundary
+
+The Visual Design System governs visual production only.
+
+The Visual Design System SHALL NOT determine:
+
+- Foundation;
+- Brand Strategy;
+- Audience Strategy;
+- Content Strategy;
+- Editorial Strategy.
+
+These responsibilities remain exclusively governed by their respective canonical domains.
+
+---
+
+## AI Production Boundary
+
+AI SHALL inherit communication decisions from upstream canonical domains before producing any visual implementation.
+
+The Visual Design System SHALL translate, not redefine, those decisions.
+
+---
+
+## Transition
+
+The Visual Design System establishes the canonical foundation for visual production.
+
+Subsequent domains SHALL define the canonical systems that implement this visual foundation without redefining its purpose.
+
+---
+
+# 7.3 Communication Artefact System
+
+## Purpose
+
+Define the Communication Artefact System of the Coz We Care Production Bible.
+
+The Communication Artefact System governs every communication artefact produced throughout the Coz We Care ecosystem.
+
+---
+
+## Canonical Decision
+
+The Communication Artefact System is the single canonical source governing Communication Artefacts throughout the Coz We Care ecosystem.
+
+Every Communication Artefact SHALL translate canonical production decisions into communication outputs.
+
+Communication Artefacts SHALL inherit upstream canonical decisions without redefining them.
+
+---
+
+## Identity Decisions
+
+Every Communication Artefact SHALL preserve the canonical identity of Coz We Care.
+
+Communication Artefacts SHALL remain consistent with the Brand Identity System and the Visual Design System.
+
+---
+
+## Production Intent
+
+Every Communication Artefact SHALL:
+
+- communicate the intended message clearly;
+- preserve canonical identity;
+- support the intended communication objective;
+- remain appropriate to the intended communication context.
+
+Communication Artefacts SHALL prioritize communication before presentation.
+
+---
+
+## Implementation Freedom
+
+AI MAY determine the most appropriate Communication Artefact format, structure, and implementation provided that:
+
+- Canonical Identity is preserved;
+- Production Intent is achieved;
+- upstream canonical decisions remain unchanged.
+
+Implementation choices SHALL NOT be treated as Canonical Decisions.
+
+---
+
+## Domain Boundary
+
+The Communication Artefact System governs communication artefacts only.
+
+The Communication Artefact System SHALL NOT determine:
+
+- Editorial Strategy;
+- Visual Identity;
+- Production Workflow;
+- Publication Workflow.
+
+These responsibilities remain exclusively governed by their respective canonical domains.
+
+---
+
+## AI Production Boundary
+
+AI SHALL inherit all applicable canonical decisions before producing any Communication Artefact.
+
+Communication Artefacts SHALL realize canonical decisions rather than redefine them.
+
+---
+
+## Transition
+
+The Communication Artefact System establishes the canonical foundation for communication artefacts.
+
+Subsequent implementation guidance MAY define artefact-specific production patterns without redefining the canonical decisions established by this system.
+
+---
+
+# 7.4 Visual Specification
+
+## Purpose
+
+Define the Visual Specification of the Coz We Care Visual Design System (VDS).
+
+The Visual Specification governs the canonical visual systems used to realize Communication Artefacts throughout the Coz We Care ecosystem.
+
+Visual Specification SHALL preserve canonical identity while enabling consistent and reproducible visual production.
+
+---
+
+## Canonical Decision
+
+Visual Specification is the single canonical source governing visual implementation throughout the Coz We Care ecosystem.
+
+Visual Specification SHALL establish the canonical visual systems required to realize Communication Artefacts.
+
+Visual Specification SHALL implement, but SHALL NOT redefine, upstream canonical decisions.
+
+---
+
+## Canonical Systems
+
+The Visual Specification consists of the following canonical systems.
+
+### 7.4.1 Canvas System
+
+The Canvas System governs the rendering foundation upon which every Communication Artefact is produced.
+
+Canvas SHALL establish the rendering medium before any visual element is positioned or rendered.
+
+---
+
+### 7.4.2 Layout System
+
+The Layout System governs the spatial organization of visual elements within every Communication Artefact.
+
+Layout SHALL organize communication without altering canonical identity or communication intent.
+
+---
+
+### 7.4.3 Surface System
+
+The Surface System governs the visual presentation of supporting surfaces.
+
+Surface SHALL support communication while preserving the Coz We Care visual identity.
+
+---
+
+### 7.4.4 Typography System
+
+The Typography System governs how written communication is visually presented.
+
+Typography SHALL maximize communication clarity while preserving the Coz We Care visual identity.
+
+---
+
+### 7.4.5 Graphic Elements System
+
+The Graphic Elements System governs supporting graphic elements.
+
+Graphic Elements SHALL reinforce communication while preserving the Coz We Care visual identity.
+
+---
+
+### 7.4.6 Imagery System
+
+The Imagery System governs the visual representation of subjects.
+
+Imagery SHALL strengthen communication by providing appropriate visual representations while preserving the Coz We Care visual identity.
+
+---
+
+## Production Intent
+
+The Visual Specification SHALL:
+
+- preserve canonical visual identity;
+- establish consistent visual implementation;
+- support reproducible visual production;
+- ensure visual consistency across all Communication Artefacts.
+
+Visual Specification SHALL prioritize communication before visual expression.
+
+---
+
+## Implementation Freedom
+
+AI MAY determine the most appropriate implementation of each canonical visual system provided that:
+
+- Canonical Identity is preserved;
+- Production Intent is achieved;
+- upstream canonical decisions remain unchanged.
+
+Implementation techniques SHALL NOT be treated as Canonical Decisions.
+
+---
+
+## Domain Boundary
+
+The Visual Specification governs visual systems only.
+
+The Visual Specification SHALL NOT determine:
+
+- Brand Strategy;
+- Editorial Strategy;
+- Communication Objectives;
+- Production Workflow;
+- Publication Workflow.
+
+These responsibilities remain exclusively governed by their respective canonical domains.
+
+---
+
+## AI Production Boundary
+
+AI SHALL inherit all applicable canonical decisions before applying any visual specification.
+
+Visual Specification SHALL realize canonical decisions without redefining them.
+
+---
+
+## Transition
+
+The following sections define each canonical visual system independently.
+
+Each system governs a unique responsibility within the Visual Design System while preserving the unified visual identity of Coz We Care.
+
+---
+
