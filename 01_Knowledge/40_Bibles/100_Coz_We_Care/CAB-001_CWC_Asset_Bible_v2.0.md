@@ -1946,3 +1946,182 @@ The Canonical Asset shall never:
 
 ---
 
+# 1. Canonical Biological Identity
+
+## Purpose
+
+Canonical Biological Identity defines the permanent biological characteristics of the Official Brand Presenter.
+
+These characteristics establish the biological foundation upon which all other identity domains are built.
+
+The biological identity shall remain invariant across all official representations of the Brand Presenter.
+
+---
+
+## Canonical Definition
+
+The Canonical Biological Identity specifies the permanent biological attributes that define the Brand Presenter.
+
+These attributes are intrinsic to the character and shall not be modified unless an official Canonical Revision explicitly supersedes the current specification.
+
+---
+
+## Canonical Biological Specification
+
+| Property | Canonical Value | Definition | Decision Notes | Status |
+|----------|-----------------|------------|----------------|:------:|
+| Sex | Male | The biological sex as visually represented. | Aligned with brand representation strategy and target audience relevance. | 🔒 |
+| Visual Age | 25 Years | The perceived age range as visually represented. | Represents a young adult who is approachable and relatable to the primary audience. | 🔒 |
+| Ethnic Representation | Indonesian–Minahasan | The ethnic background as visually represented. | Represents local identity (Minahasan) within the Indonesian context. | 🔒 |
+| Skin Tone | Typical South-East Asian (Medium Warm) | The skin tone as visually represented under neutral lighting. | Warm beige to light brown natural tone typical of South-East Asian skin. | 🔒 |
+
+---
+
+## Canonical Principles
+
+The biological identity represents the permanent biological foundation of the Brand Presenter.
+
+All canonical implementations shall preserve these biological characteristics consistently.
+
+---
+
+## Canonical Rules
+
+- The biological characteristics defined in this section shall be treated as canonical.
+- These characteristics shall remain unchanged throughout the lifecycle of the Character Asset unless modified through an official Canonical Revision.
+- All implementations shall preserve the canonical biological identity.
+
+---
+
+## Canonical Boundary
+
+### In Scope
+
+- Permanent biological characteristics of the Brand Presenter.
+
+### Out of Scope
+
+- Canonical Facial Identity
+- Canonical Physical Identity
+- Canonical Hair Identity
+- Canonical Clothing Identity
+- Canonical Expression Identity
+- Canonical Pose & Gesture Identity
+- Canonical Rendering Identity
+
+Those domains are defined in their respective sections.
+
+---
+
+## Relationship
+
+This section establishes the biological identity foundation for all downstream identity domains.
+
+All subsequent identity definitions and implementations shall preserve the biological characteristics defined in this section.
+
+This relationship ensures that the Canonical Biological Identity remains the immutable biological foundation of the Official Brand Presenter throughout the entire Character Asset specification.
+
+---
+
+## Canonical Pairing
+
+Every biological property defined in this specification shall correspond to the equivalent annotated property within:
+
+**CAB-AS-002-REF.png**
+
+The Canonical Reference Sheet serves as the authoritative visual reference for all biological identity attributes.
+
+---
+
+# 2. Canonical Facial Identity
+
+## Purpose
+
+Canonical Facial Identity defines the permanent facial characteristics of the Official Brand Presenter.
+
+These characteristics establish the canonical facial identity that distinguishes the Brand Presenter and shall remain invariant across all official visual representations.
+
+---
+
+## Canonical Definition
+
+The Canonical Facial Identity specifies the permanent facial attributes that define the recognizable appearance of the Brand Presenter.
+
+These attributes are intrinsic to the character identity and shall not be modified unless an official Canonical Revision explicitly supersedes the current specification.
+
+---
+
+## Canonical Facial Specification
+
+> **Note**
+>
+> Migrate every Canonical Knowledge Object from the source document exactly as defined.
+>
+> Preserve:
+>
+> - Property Identifier
+> - Canonical Value
+> - Definition
+> - Decision Notes
+> - Status
+>
+> No semantic modification shall be introduced during migration.
+
+---
+
+## Canonical Principles
+
+The facial identity represents the permanent facial foundation of the Brand Presenter.
+
+All canonical implementations shall preserve these facial characteristics consistently.
+
+---
+
+## Canonical Rules
+
+- The facial characteristics defined in this section shall be treated as canonical.
+- These characteristics shall remain unchanged throughout the lifecycle of the Character Asset unless modified through an official Canonical Revision.
+- All implementations shall preserve the canonical facial identity.
+
+---
+
+## Canonical Boundary
+
+### In Scope
+
+- Permanent facial characteristics of the Brand Presenter.
+
+### Out of Scope
+
+- Canonical Biological Identity
+- Canonical Physical Identity
+- Canonical Hair Identity
+- Canonical Clothing Identity
+- Canonical Expression Identity
+- Canonical Pose & Gesture Identity
+- Canonical Rendering Identity
+
+Those domains are defined in their respective sections.
+
+---
+
+## Relationship
+
+This section establishes the canonical facial identity for the Official Brand Presenter.
+
+All subsequent identity definitions and implementations shall preserve the facial characteristics defined in this section.
+
+This relationship ensures that the Canonical Facial Identity remains invariant throughout the entire Character Asset specification.
+
+---
+
+## Canonical Pairing
+
+Every facial property defined in this specification shall correspond to the equivalent annotated property within:
+
+**CAB-AS-002-REF.png**
+
+The Canonical Reference Sheet serves as the authoritative visual reference for all facial identity attributes.
+
+---
+
