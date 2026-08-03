@@ -345,11 +345,19 @@ External standards shall be referenced rather than duplicated.
 
 ---
 
-# Asset Specification Record
+# CAB-AS-001
+
+# Official Brand Logo
+
+Version 1.0
+
+Status
+
+🔒 Canonically Locked
 
 ---
 
-## Asset Information
+# Asset Information
 
 | Field | Value |
 |------|------|
@@ -357,179 +365,504 @@ External standards shall be referenced rather than duplicated.
 | Asset Name | Official Brand Logo |
 | Asset Category | Identity Asset |
 | Asset Type | Brand Identity |
-| Status | 🔒 Canonical |
-| Version | 1.0 |
 | Owner | Coz We Care |
+| Version | 1.0 |
 | Lifecycle Status | Active |
+| Canonical Status | 🔒 Locked |
+
+---
+
+# Canonical Asset Pair
+
+This Canonical Asset is represented by two synchronized canonical components.
+
+| Component | File |
+|-----------|------|
+| Specification File | CAB-AS-001.md |
+| Canonical Reference Sheet | CAB-AS-001-REF.png |
+
+## Canonical Pairing Rule
+
+Both files together constitute a single Canonical Asset.
+
+The Specification File defines the canonical specification.
+
+The Canonical Reference Sheet defines the canonical visual reference.
+
+Neither representation shall be interpreted independently.
+
+Every Property Identifier defined in this specification shall correspond to an annotation using the same Property Identifier within the Canonical Reference Sheet.
+
+---
+
+# Purpose
+
+The Official Brand Logo defines the permanent visual identity of the Coz We Care brand.
+
+It serves as the highest-level identity asset within the Coz We Care identity system and provides the canonical specification for all official implementations of the brand logo.
+
+This Canonical Asset is composed of two synchronized representations:
+
+- the Specification File, which defines the canonical decisions;
+- the Canonical Reference Sheet, which provides the authoritative visual interpretation of those decisions.
+
+Together, these representations constitute the Single Source of Truth for the Official Brand Logo.
+
+---
+
+# Canonical Snapshot
+
+| Property | Canonical Value |
+|----------|-----------------|
+| Asset Type | Official Brand Logo |
+| Logo Surface | Transparent |
+| Primary Surface Color | Royal Blue (#0842A2) |
+| Display Position | Top Left |
+| Display Box | 135 × 163 px |
+| Canvas | 1080 × 1350 px |
+| Canonical Status | 🔒 Locked |
+
+---
+
+# Navigation
+
+The complete specification is organized into the following sections.
+
+| Section | Description |
+|---------|-------------|
+| 1 | Canonical Identity |
+| 2 | Canonical Asset Composition |
+| 3 | Canonical Intrinsic Geometry |
+| 4 | Canonical Color Specification |
+| 5 | Canonical Adaptive Identity Rules |
+| 6 | Canonical Display Geometry |
+| 7 | Canonical Measurement Protocol |
+| 8 | Canonical Asset Lifecycle |
+| 9 | Canonical Usage Rules |
+| 10 | Canonical AI Implementation Rules |
+| 11 | Canonical Reference |
+| 12 | Canonical Status |
 
 ---
 
 # 1. Canonical Identity
 
+## Purpose
+
+Canonical Identity defines the permanent identity of the Official Brand Logo.
+
+This section establishes what the Official Brand Logo fundamentally is and distinguishes the logo asset itself from any presentation or display context.
+
+The canonical identity defined in this section shall remain invariant throughout the lifecycle of the asset.
+
+---
+
+## Canonical Knowledge
+
 The Official Brand Logo is the primary visual identifier of the Coz We Care brand.
 
-It represents the highest-level identity asset within the Coz We Care identity system and shall be used consistently across all official visual communications.
+It represents the highest-level identity asset within the Coz We Care Brand Identity System and shall be used consistently across all official visual communications.
 
-The logo asset consists exclusively of the logo artwork.
+The Official Brand Logo consists exclusively of the logo artwork.
 
-The blue background displayed in the official reference image is **not part of the logo asset**. It functions solely as a presentation surface.
+The presentation background displayed in the Canonical Reference Sheet is **not part of the logo asset**.
+
+The background functions solely as a presentation surface to improve visibility during documentation and reference.
 
 Therefore, the Official Brand Logo is canonically defined as a **transparent asset**.
+
+Transparency is an intrinsic identity property of the Official Brand Logo and shall remain invariant across all implementations.
+
+---
+
+## Canonical Identity Rules
+
+The Official Brand Logo shall:
+
+- represent the highest-level visual identity of Coz We Care;
+- consist exclusively of the official logo artwork;
+- preserve transparent asset composition;
+- remain independent from any presentation surface;
+- maintain its canonical identity across all production environments.
+
+The following are **not** considered part of the Official Brand Logo:
+
+- presentation backgrounds;
+- display surfaces;
+- mockups;
+- framing elements;
+- decorative effects;
+- contextual graphics.
+
+---
+
+## Identity Preservation
+
+The following identity characteristics shall remain invariant:
+
+| Identity Property | Status |
+|-------------------|:------:|
+| Official Logo Artwork | 🔒 |
+| Transparent Asset Definition | 🔒 |
+| Highest-Level Brand Identity | 🔒 |
+| Independence from Presentation Surface | 🔒 |
+
+---
+
+## Relationship
+
+This section provides the identity foundation for:
+
+- Canonical Asset Composition
+- Canonical Intrinsic Geometry
+- Canonical Color Specification
+- Canonical Display Geometry
+- Canonical AI Implementation Rules
+
+All subsequent specifications shall preserve the canonical identity established in this section.
 
 ---
 
 # 2. Canonical Asset Composition
 
-The Official Brand Logo consists of four identity elements.
+## Purpose
 
-| Element | Type |
-|----------|------|
-| COZ | Adaptive Identity Element |
-| WE | Fixed Identity Element |
-| CARE | Fixed Identity Element |
-| HIV Awareness Ribbon (integrated into letter A) | Fixed Identity Element |
+Canonical Asset Composition defines the permanent structural elements that constitute the Official Brand Logo.
 
-No additional graphics, borders, shadows, outlines, effects, or backgrounds are considered part of the logo.
+This section identifies every component that is canonically recognized as part of the logo asset and distinguishes intrinsic identity elements from non-canonical visual additions.
+
+The composition defined in this section shall remain invariant throughout the lifecycle of the Official Brand Logo.
+
+---
+
+## Canonical Composition
+
+| Component ID | Identity Element | Element Type | Adaptive | Reference | Status |
+|--------------|------------------|--------------|:--------:|-----------|:------:|
+| BLG-CMP-001 | COZ | Identity Element | Yes | BLG-CMP-001 | 🔒 |
+| BLG-CMP-002 | WE | Identity Element | No | BLG-CMP-002 | 🔒 |
+| BLG-CMP-003 | CARE | Identity Element | No | BLG-CMP-003 | 🔒 |
+| BLG-CMP-004 | HIV Awareness Ribbon (integrated into letter A) | Identity Element | No | BLG-CMP-004 | 🔒 |
+
+---
+
+## Canonical Exclusions
+
+The following elements are **not** part of the Official Brand Logo.
+
+| Exclusion ID | Element | Status |
+|--------------|---------|:------:|
+| BLG-EXC-001 | Presentation Background | 🔒 |
+| BLG-EXC-002 | Borders | 🔒 |
+| BLG-EXC-003 | Shadows | 🔒 |
+| BLG-EXC-004 | Outlines | 🔒 |
+| BLG-EXC-005 | Decorative Effects | 🔒 |
+| BLG-EXC-006 | Mockup Elements | 🔒 |
+| BLG-EXC-007 | Contextual Graphics | 🔒 |
+
+---
+
+## Canonical Composition Rules
+
+The Official Brand Logo shall consist exclusively of the canonical identity elements defined above.
+
+No additional visual element shall become part of the logo asset unless approved through the Canonical Governance process.
+
+Presentation surfaces, documentation backgrounds, production mockups, and contextual graphics shall never be interpreted as intrinsic components of the Official Brand Logo.
+
+The HIV Awareness Ribbon shall always be treated as an integral component of the letter **A** within the word **CARE**, and shall never be separated, repositioned, or replaced.
+
+---
+
+## Identity Preservation
+
+The following composition characteristics shall remain invariant.
+
+| Property | Status |
+|----------|:------:|
+| Four Canonical Identity Elements | 🔒 |
+| COZ Adaptive Behavior | 🔒 |
+| WE Fixed Identity | 🔒 |
+| CARE Fixed Identity | 🔒 |
+| Ribbon Integrated into Letter A | 🔒 |
+| Canonical Exclusions | 🔒 |
+
+---
+
+## Relationship
+
+This section establishes the structural composition inherited by:
+
+- Canonical Intrinsic Geometry
+- Canonical Color Specification
+- Canonical Adaptive Identity Rules
+- Canonical AI Implementation Rules
+
+All subsequent specifications shall preserve the canonical composition defined in this section.
 
 ---
 
 # 3. Canonical Intrinsic Geometry
 
-Intrinsic Geometry defines the permanent proportions of the logo independent of display size.
+## Purpose
 
-| Property | Canonical Value |
-|----------|----------------|
-| Geometry Type | Fixed |
-| Aspect Ratio | 0.83 : 1 |
-| Scaling | Uniform Only |
-| Rotation | Not Allowed |
-| Stretching | Not Allowed |
-| Cropping | Not Allowed |
-| Reflection | Not Allowed |
-| Perspective Distortion | Not Allowed |
+Canonical Intrinsic Geometry defines the permanent geometric characteristics of the Official Brand Logo.
 
-The intrinsic proportions of the Official Brand Logo shall never be modified.
+These properties describe the intrinsic structure of the logo independently of display size, production medium, or implementation environment.
+
+Intrinsic Geometry preserves the identity of the logo by ensuring that all geometric relationships remain constant regardless of scale.
+
+---
+
+## Canonical Geometry
+
+| Property ID | Property | Canonical Value | Reference | Status |
+|-------------|----------|-----------------|-----------|:------:|
+| BLG-GEO-001 | Geometry Type | Fixed | BLG-GEO-001 | 🔒 |
+| BLG-GEO-002 | Aspect Ratio | 0.83 : 1 | BLG-GEO-002 | 🔒 |
+| BLG-GEO-003 | Scaling Behavior | Uniform Only | BLG-GEO-003 | 🔒 |
+| BLG-GEO-004 | Rotation | Not Allowed | BLG-GEO-004 | 🔒 |
+| BLG-GEO-005 | Stretching | Not Allowed | BLG-GEO-005 | 🔒 |
+| BLG-GEO-006 | Cropping | Not Allowed | BLG-GEO-006 | 🔒 |
+| BLG-GEO-007 | Reflection | Not Allowed | BLG-GEO-007 | 🔒 |
+| BLG-GEO-008 | Perspective Distortion | Not Allowed | BLG-GEO-008 | 🔒 |
+
+---
+
+## Canonical Geometry Rules
+
+The intrinsic geometry of the Official Brand Logo is immutable.
+
+All implementations shall preserve the canonical aspect ratio and the proportional relationship between every identity element.
+
+Only uniform scaling is permitted.
+
+The following operations are prohibited:
+
+- non-uniform scaling;
+- rotation;
+- stretching;
+- cropping;
+- mirroring or reflection;
+- perspective transformation;
+- geometric distortion of any kind.
+
+These restrictions apply to all production environments and communication media.
+
+---
+
+## Identity Preservation
+
+The following intrinsic geometric characteristics shall remain invariant.
+
+| Property | Status |
+|----------|:------:|
+| Fixed Geometry | 🔒 |
+| Canonical Aspect Ratio | 🔒 |
+| Uniform Scaling Only | 🔒 |
+| Rotation Prohibited | 🔒 |
+| Stretching Prohibited | 🔒 |
+| Cropping Prohibited | 🔒 |
+| Reflection Prohibited | 🔒 |
+| Perspective Distortion Prohibited | 🔒 |
+
+---
+
+## Relationship
+
+This section provides the geometric foundation inherited by:
+
+- Canonical Display Geometry
+- Canonical Usage Rules
+- Canonical AI Implementation Rules
+
+All future implementations shall preserve the intrinsic geometry defined in this section.
+
+---
+
+## Canonical Pairing
+
+Every Property Identifier defined in the Canonical Geometry table shall correspond to an annotation with the same identifier within:
+
+**CAB-AS-001-REF.png**
+
+The Canonical Reference Sheet serves as the authoritative visual representation of the intrinsic geometry defined in this specification.
 
 ---
 
 # 4. Canonical Color Specification
 
+## Purpose
+
+Canonical Color Specification defines the permanent color identity of the Official Brand Logo.
+
+This section establishes the official color tokens, color values, and usage assignments that constitute the canonical color system of the logo.
+
+All implementations shall preserve these color specifications without approximation or substitution.
+
+---
+
 ## Canonical Color Tokens
 
-| Token | Name | Hex | RGB | Usage | Status |
-|------|------|------|-------------|----------------|:------:|
-| CWC-CLR-001 | Royal Blue | **#0842A2** | **8, 66, 162** | Primary Surface | 🔒 |
-| CWC-CLR-002 | White | **#FFFFFF** | 255, 255, 255 | Adaptive COZ / Secondary Surface | 🔒 |
-| CWC-CLR-003 | Yellow | **#FFD400** | 255, 212, 0 | WE | 🔒 |
-| CWC-CLR-004 | Red | **#E31C23** | 227, 28, 35 | CARE & Ribbon | 🔒 |
+| Token | Color Name | Hex Code | RGB | Canonical Usage | Reference | Status |
+|--------|------------|----------|-------------|-----------------------------|-----------|:------:|
+| CWC-CLR-001 | Royal Blue | **#0842A2** | **8, 66, 162** | Primary Presentation Surface | CLR-001 | 🔒 |
+| CWC-CLR-002 | White | **#FFFFFF** | 255, 255, 255 | Adaptive COZ / Secondary Surface | CLR-002 | 🔒 |
+| CWC-CLR-003 | Yellow | **#FFD400** | 255, 212, 0 | WE | CLR-003 | 🔒 |
+| CWC-CLR-004 | Red | **#E31C23** | 227, 28, 35 | CARE & HIV Awareness Ribbon | CLR-004 | 🔒 |
 
-The Canonical Royal Blue shall always use the exact value defined by **CWC-CLR-001 (#0842A2)**.
+---
 
-No approximation, substitution, interpolation, or alternative blue values are permitted throughout the Coz We Care Asset Bible.
+## Canonical Color Rules
+
+The Official Brand Logo shall use only the Canonical Color Tokens defined in this specification.
+
+The Canonical Royal Blue shall always use the exact hexadecimal value:
+
+**#0842A2**
+
+No approximation, substitution, interpolation, color shifting, or alternative blue values are permitted.
+
+Likewise, White, Yellow, and Red shall always use their respective canonical values.
+
+All color assignments shall preserve the canonical relationship between identity elements and their designated colors.
+
+---
+
+## Color Assignment
+
+| Identity Element | Canonical Color Token | Status |
+|------------------|-----------------------|:------:|
+| COZ | Adaptive (CWC-CLR-001 or CWC-CLR-002 depending on presentation surface) | 🔒 |
+| WE | CWC-CLR-003 | 🔒 |
+| CARE | CWC-CLR-004 | 🔒 |
+| HIV Awareness Ribbon | CWC-CLR-004 | 🔒 |
+
+---
+
+## Identity Preservation
+
+The following color characteristics shall remain invariant.
+
+| Property | Status |
+|----------|:------:|
+| Royal Blue (#0842A2) | 🔒 |
+| White (#FFFFFF) | 🔒 |
+| Yellow (#FFD400) | 🔒 |
+| Red (#E31C23) | 🔒 |
+| Canonical Color Assignment | 🔒 |
+
+---
+
+## Relationship
+
+This section provides the color foundation inherited by:
+
+- Canonical Adaptive Identity Rules
+- Canonical Usage Rules
+- Canonical AI Implementation Rules
+
+All future implementations shall preserve the canonical color specification defined in this section.
+
+---
+
+## Canonical Pairing
+
+Every Canonical Color Token defined in this specification shall correspond to an annotated color reference within:
+
+**CAB-AS-001-REF.png**
+
+The Canonical Reference Sheet serves as the authoritative visual reference for all canonical color assignments.
 
 ---
 
 # 5. Canonical Adaptive Identity Rules
 
-Only one identity element is adaptive.
+## Purpose
 
-| Identity Element | Adaptive |
-|------------------|:--------:|
-| COZ | Yes |
-| WE | No |
-| CARE | No |
-| Ribbon | No |
+Canonical Adaptive Identity Rules define the adaptive rendering behavior of the Official Brand Logo.
 
-## Surface Rendering Rules
+This section specifies which identity elements are adaptive, which elements are fixed, and how the logo shall respond to different presentation surfaces while preserving its canonical identity.
 
-| Surface Color | COZ | WE | CARE | Ribbon |
-|---------------|-----|----|------|--------|
-| CWC-CLR-001 (Royal Blue) | CWC-CLR-002 (White) | CWC-CLR-003 (Yellow) | CWC-CLR-004 (Red) | CWC-CLR-004 (Red) |
-| CWC-CLR-002 (White) | CWC-CLR-001 (Royal Blue) | CWC-CLR-003 (Yellow) | CWC-CLR-004 (Red) | CWC-CLR-004 (Red) |
-
-No other adaptive rendering behavior is permitted.
+Adaptive behavior is an intrinsic identity rule and shall remain invariant across all implementations.
 
 ---
 
-# 6. Canonical Display Geometry
+## Adaptive Identity Registry
 
-Reference Canvas
-
-**1080 × 1350 px**
-
-| Parameter | Canonical Value | Status |
-|-----------|-----------------|:------:|
-| Display Box Width | **135 px** | 🔒 |
-| Display Box Height | **163 px** | 🔒 |
-| Horizontal Offset | **36 px** | 🔒 |
-| Vertical Offset | **36 px** | 🔒 |
-| Anchor Position | Top Left | 🔒 |
-| Scale Behavior | Fixed | 🔒 |
-
-These parameters define the canonical placement of the Official Brand Logo on the standard Coz We Care production canvas.
+| Property ID | Identity Element | Adaptive | Reference | Status |
+|-------------|------------------|:--------:|-----------|:------:|
+| BLG-AIR-001 | COZ | Yes | BLG-AIR-001 | 🔒 |
+| BLG-AIR-002 | WE | No | BLG-AIR-002 | 🔒 |
+| BLG-AIR-003 | CARE | No | BLG-AIR-003 | 🔒 |
+| BLG-AIR-004 | HIV Awareness Ribbon | No | BLG-AIR-004 | 🔒 |
 
 ---
 
-# 7. Canonical Measurement Protocol
+## Surface Rendering Matrix
 
-All canonical measurements shall follow the protocol below.
-
-1. Reference Canvas shall be **1080 × 1350 px**.
-2. Measurements shall use the transparent logo artwork only.
-3. Presentation backgrounds are excluded from all measurements.
-4. Display Box shall tightly enclose the visible logo artwork.
-5. Position shall be measured from the canvas origin (0,0).
-6. All values shall be measured in pixels.
-7. Only approved Canonical Measurements may modify this specification.
+| Surface | COZ | WE | CARE | Ribbon | Status |
+|---------|-----|----|------|--------|:------:|
+| Royal Blue (#0842A2) | White | Yellow | Red | Red | 🔒 |
+| White (#FFFFFF) | Royal Blue | Yellow | Red | Red | 🔒 |
 
 ---
 
-# 8. Canonical Asset Lifecycle
+## Canonical Adaptive Rules
 
-| Stage | Status |
-|--------|--------|
-| Asset Definition | Complete |
-| Intrinsic Geometry | Locked |
-| Color Specification | Locked |
-| Adaptive Identity Rules | Locked |
-| Display Geometry | Locked |
-| Measurement Protocol | Locked |
-| Production Ready | Yes |
+Only the **COZ** identity element is adaptive.
 
----
+The adaptive behavior exists solely to maintain visual contrast between the logo and its presentation surface.
 
-# 9. Canonical Usage Rules
+The following identity elements shall never change their canonical color:
 
-The Official Brand Logo shall:
+- WE
+- CARE
+- HIV Awareness Ribbon
 
-- always appear at the top-left corner of the production canvas;
-- always use the canonical display geometry;
-- always preserve its intrinsic geometry;
-- always preserve the canonical color specification;
-- always preserve the adaptive identity rules;
-- never be stretched, rotated, cropped, mirrored, recolored, redrawn, or decorated.
+No alternative adaptive behaviors are permitted.
+
+No adaptive behavior shall be inferred beyond those explicitly defined in this specification.
 
 ---
 
-# 10. Canonical AI Implementation Rules
+## Identity Preservation
 
-AI systems implementing the Official Brand Logo shall:
+The following adaptive characteristics shall remain invariant.
 
-- treat the logo as a transparent asset;
-- use only the Canonical Color Tokens defined in this specification;
-- apply adaptive rendering exclusively to the COZ identity element;
-- preserve intrinsic geometry exactly;
-- implement the logo using the canonical display geometry;
-- never infer alternative layouts, proportions, colors, or placements.
+| Property | Status |
+|----------|:------:|
+| COZ Adaptive Behavior | 🔒 |
+| WE Fixed Color | 🔒 |
+| CARE Fixed Color | 🔒 |
+| Ribbon Fixed Color | 🔒 |
+| Surface Rendering Matrix | 🔒 |
+
+---
+
+## Relationship
+
+This section inherits:
+
+- Canonical Color Specification
+
+This section provides adaptive rendering behavior for:
+
+- Canonical Usage Rules
+- Canonical AI Implementation Rules
+
+The adaptive rules defined here shall always preserve the canonical color identity established in Section 4.
 
 ---
 
-# Canonical Status
+## Canonical Pairing
 
-**LOCKED**
+Every Property Identifier defined in the Adaptive Identity Registry shall correspond to an annotation using the same identifier within:
 
-This Asset Specification Record constitutes the official canonical definition of the Coz We Care Official Brand Logo.
+**CAB-AS-001-REF.png**
 
-Any future modification shall be performed only through the Canonical Governance process and published as a new canonical version of the Asset Bible.
+The Canonical Reference Sheet serves as the authoritative visual reference for all adaptive identity behaviors.
 
 ---
+
+
