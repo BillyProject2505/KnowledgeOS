@@ -1,0 +1,17 @@
+# CWC Canonical Asset Registry v1.0
+
+# Introduction
+
+The **Coz We Care Canonical Asset Registry (CWC-CAR)** is the authoritative registry of every Canonical Asset Object within the Coz We Care ecosystem.
+
+As the identity foundation of the Canonical Asset System, CWC-CAR establishes a single, permanent, and authoritative registry for all Canonical Asset Objects. Every registered object receives a unique **Canonical Object Identifier (Object ID)** that serves as its immutable identity throughout its entire lifecycle.
+
+The registry exists to ensure that every Canonical Asset Object is uniquely identifiable, consistently classified, and permanently traceable. By separating object identity from specification and visual representation, CWC-CAR provides a stable architectural foundation that enables the ecosystem to evolve without compromising canonical consistency.
+
+Within the Coz We Care Canonical Asset System, CWC-CAR serves as the first authoritative step in the canonical lifecycle. Before an asset can be specified or represented, it must first be recognized as a Canonical Asset Object and formally registered within this registry. This principle guarantees that identity is established before documentation, implementation, or visual representation.
+
+CWC-CAR operates in close coordination with the **CWC Canonical Asset Bible (CWC-CAB)** and the **CWC Canonical Reference Sheet (CWC-CRS)**. While these companion projects define the specification and visual reference of each asset, the ownership of Canonical Object Identifiers remains exclusively within CWC-CAR. Neither CWC-CAB nor CWC-CRS may create, modify, or reassign Canonical Object Identifiers.
+
+This separation of responsibilities embodies the core architectural principles of the Coz We Care Canonical Asset System, including **Single Source of Truth**, **One Concept, One Home**, **Registry Before Specification**, **Registry Before Reference**, and **One Object, One Identifier**.
+
+Ultimately, the purpose of CWC-CAR is not merely to catalog Canonical Asset Objects, but to establish a durable identity infrastructure that enables every Canonical Asset to remain uniquely identifiable, interoperable, and consistently governed across the entire Coz We Care knowledge architecture.
