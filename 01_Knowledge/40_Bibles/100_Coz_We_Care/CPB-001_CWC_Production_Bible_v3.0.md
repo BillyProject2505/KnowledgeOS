@@ -1,3 +1,7 @@
+# Coz We Care Canonical Asset Bible v3.0
+
+---
+
 # Chapter 01 — Foundation
 
 ---
