@@ -3188,3 +3188,57 @@ By maintaining this standardized Registry Record format, CWC-CAR provides a unif
 
 ---
 
+# Registry Record
+
+> **Registry Record Identifier:** CWC-CAR-AS-001
+>
+> **Canonical Object Identifier:** CWC-OBJ-000001
+>
+> **Object Name:** Official Brand Logo
+
+---
+
+## 1. Object Identity
+
+| Field | Value |
+|-------|-------|
+| **Alternative Name(s)** | Official Coz We Care Logo |
+| **Object Type** | Logo |
+| **Object Summary** | Primary visual identity asset of the Coz We Care brand. |
+
+---
+
+## 2. Classification
+
+| Field | Value |
+|-------|-------|
+| **Domain** | Brand |
+| **Category** | Brand Identity |
+| **Type** | Logo |
+| **Subtype** | Official Brand Logo |
+
+---
+
+## 3. Canonical References
+
+| Field | Value |
+|-------|-------|
+| **Canonical Asset Specification** | CWC-CAB-AS-001 |
+| **Canonical Reference Sheet** | CWC-CRS-AS-001 |
+
+---
+
+## 4. Metadata
+
+| Field | Value |
+|-------|-------|
+| **Registry Status** | Active |
+| **Lifecycle** | Active |
+| **Registry Record Version** | 1.0 |
+| **Registration Date** | 2026-08-04 |
+| **Last Updated** | 2026-08-04 |
+| **Registry Authority** | CWC Canonical Asset Registry (CWC-CAR) |
+| **Change History** | Initial Registration |
+| **Administrative Notes** | First registered Canonical Asset Object. |
+
+---
