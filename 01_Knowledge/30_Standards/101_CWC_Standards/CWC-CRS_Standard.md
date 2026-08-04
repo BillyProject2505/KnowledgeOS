@@ -285,3 +285,99 @@ It intentionally separates **presentation** from **specification**:
 - **CWC-CAS** defines the architecture governing the Canonical Asset System.
 
 This separation preserves a clear Single Source of Truth while ensuring every Canonical Asset can be represented consistently across the entire Coz We Care Canonical Asset System.
+
+---
+
+# 18. Canonical Asset Component Model
+
+Every Canonical Reference Sheet (CWC-CRS) shall organize the representation of a Canonical Asset into two primary domains:
+
+```
+Canonical Asset
+
+├── Asset Components
+└── Structural Components
+```
+
+This model separates the intrinsic identity of the Canonical Asset from the technical information required to define, measure, and reproduce it.
+
+---
+
+## 18.1 Asset Components
+
+Asset Components describe the intrinsic visual identity of the Canonical Asset.
+
+These components collectively form the official representation of the asset and shall never be interpreted as independent Canonical Assets unless explicitly defined in the corresponding CWC-CAB.
+
+Typical examples include:
+
+- Official Artwork
+- Wordmark
+- Official Color Palette
+- Symbol
+- Emblem
+- Icon Artwork
+
+Asset Components answer the question:
+
+> **"What is this Canonical Asset?"**
+
+---
+
+## 18.2 Structural Components
+
+Structural Components describe the technical framework used to define, measure, align, construct, and reproduce the Canonical Asset.
+
+These components are not part of the visual identity itself but provide the engineering reference necessary for consistent implementation.
+
+Typical examples include:
+
+- Bounding Frame
+- Construction Grid
+- Alignment System
+- Measurement System
+- Clear Space
+- Safe Area
+- Baseline
+- Reference Axes
+
+Structural Components answer the question:
+
+> **"How is this Canonical Asset technically defined and reproduced?"**
+
+---
+
+## 18.3 Design Principle
+
+Asset Components and Structural Components shall always remain conceptually separate.
+
+- Asset Components represent the identity of the Canonical Asset.
+- Structural Components represent the technical definition of the Canonical Asset.
+
+Neither group shall be treated as an independent Canonical Asset unless explicitly registered within the CWC Canonical Asset Registry (CWC-CAR).
+
+---
+
+## 18.4 Example — Official Brand Logo
+
+```
+Official Brand Logo
+
+├── Asset Components
+│   ├── Official Logo Artwork
+│   ├── Wordmark
+│   ├── HIV Ribbon
+│   └── Official Color Palette
+│
+└── Structural Components
+    ├── Bounding Frame
+    ├── Construction Grid
+    ├── Alignment System
+    ├── Measurement System
+    ├── Clear Space
+    └── Safe Area
+```
+
+In this example, the Official Brand Logo remains a single Canonical Asset.
+
+The Asset Components collectively describe its visual identity, while the Structural Components define the technical framework required for its accurate representation and reproduction.
