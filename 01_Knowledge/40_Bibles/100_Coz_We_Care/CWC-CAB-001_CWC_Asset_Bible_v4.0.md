@@ -2719,8 +2719,6 @@ These topics are governed by their respective sections.
 | **Reference Sheet** | `CWC-CRS-AS-001` |
 | **Inheritance** | CWC-CAB Foundation Standards |
 
----
-
 ## Purpose
 
 This section defines the canonical pairing of the **Official Brand Logo** within the **Coz We Care Canonical Asset System**.
@@ -2869,9 +2867,9 @@ language: "American English"
 
 ---
 
-## 1. Document Identity
+# 1. Document Identity
 
-### 1.1 Purpose
+## 1.1 Purpose
 
 This document defines the canonical identity specification for the CWC Brand Presenter asset.
 
@@ -2879,13 +2877,13 @@ The Brand Presenter is an identity-bearing character asset whose canonical ident
 
 The specification establishes the identity characteristics that shall remain invariant across approved representations while preserving the separation between canonical identity and adaptive rendering.
 
-### 1.2 Canonical Identity Principle
+## 1.2 Canonical Identity Principle
 
 > **Identity is Canonical. Rendering is Adaptive.**
 
 The Brand Presenter may be represented through different rendering treatments and production contexts, but its canonical identity shall remain preserved.
 
-### 1.3 Refactoring Basis
+## 1.3 Refactoring Basis
 
 This version is the canonical refactoring of the Brand Presenter specification previously established in CWC-CAB v2.0.
 
@@ -2902,7 +2900,7 @@ The refactoring preserves:
 
 Validated enrichment has been added only where supported by the evidence-validation process.
 
-### 1.4 Canonical Status
+## 1.4 Canonical Status
 
 AS-002 is **Canonical Locked**.
 
@@ -2914,7 +2912,7 @@ The numerical measurement layer `CFMS-001` remains an **Evidence-Validated Candi
 
 ---
 
-## 2. Registry Reference
+# 2. Registry Reference
 
 | Registry Field | Canonical Value |
 |---|---|
@@ -2927,7 +2925,7 @@ The numerical measurement layer `CFMS-001` remains an **Evidence-Validated Candi
 | Measurement Specification | `CWC-CAB-AS-002-CFMS-001` |
 | Canonical Status | 🔒 Canonical Locked |
 
-### 2.1 Canonical Registry Relationship
+## 2.1 Canonical Registry Relationship
 
 AS-002 is the canonical Brand Presenter asset specification within CWC-CAB.
 
@@ -2939,7 +2937,7 @@ Its rendering is governed by CWC-CRS.
 
 These authorities shall remain separated.
 
-### 2.2 Authority Model
+## 2.2 Authority Model
 
 ```text
 CWC-CAB-AS-002
@@ -2964,9 +2962,8 @@ CWC-CAS
         │
         └── Lifecycle Authority
 
----
+## 2.3 Authority Boundary
 
-2.3 Authority Boundary
 CWC-CAB defines what AS-002 canonically is.
 CWC-CRS defines how AS-002 is visually rendered.
 CWC-CAR manages the canonical object identity.
@@ -3225,7 +3222,8 @@ The numerical layer shall not replace, redefine, or renumber the canonical Face 
 
 ---
 
-9. Historical Status Preservation
+# 9. Historical Status Preservation
+
 The source architecture established:
 CFG-001 as Locked;
 CFG-002–CFG-007 as Authoring / Pending.
@@ -3268,7 +3266,8 @@ The normalized unit is a reference-image measurement scale and does not represen
 
 ---
 
-11. Canonical Facial Measurement Baseline
+# 11. Canonical Facial Measurement Baseline
+
 Measurement	Baseline	Observed Reference Range	Status
 Face Width / Face Height	≈ 0.75	0.72–0.78	Evidence-Validated
 Cheekbone Width / Face Width	≈ 0.95	0.92–0.98	Evidence-Validated
@@ -3276,7 +3275,9 @@ Jaw Width / Face Width	≈ 0.73	0.70–0.76	Evidence-Validated
 Forehead Width / Face Width	≈ 0.91	0.88–0.94	Evidence-Validated
 Interocular Distance / Face Width	≈ 0.44	0.42–0.46	Evidence-Validated
 Eye Width / Face Width	≈ 0.20	0.19–0.21	Evidence-Validated
-11.1 Measurement Interpretation
+
+## 11.1 Measurement Interpretation
+
 The baseline values represent normalized reference-image geometry.
 They are intended to support:
 facial identity preservation;
@@ -3289,6 +3290,7 @@ They are not intended to function as rigid construction coordinates for every re
 ---
 
 12. Facial Measurement Landmark Framework
+
 CFMS-001 uses a defined landmark framework for normalized facial measurement.
 12.1 Vertical Landmarks
 L-01  Facial Top
@@ -3320,7 +3322,11 @@ L-19  Left Mouth Corner
 L-20  Right Mouth Corner
 These landmarks establish the measurement framework.
 They do not constitute separate canonical identity properties and shall not be interpreted as additional CFG identifiers.
-13. Measurement Classification
+
+---
+
+# 13. Measurement Classification
+
 Each numerical measurement is classified according to its evidentiary function.
 Classification	Meaning
 Reference Measurement	Measurement derived from canonical reference imagery
@@ -3334,7 +3340,11 @@ Observed Range: Yes
 Biological Anthropometric Measurement: No
 Therefore:
 CFMS-001 shall not be represented as biological anthropometric truth.
-14. Measurement Tolerance Policy
+
+---
+
+# 14. Measurement Tolerance Policy
+
 Observed reference ranges are not automatically production tolerances.
 Therefore:
 Observed Range ≠ Automatic Permitted Drift
@@ -3347,7 +3357,11 @@ rendering treatment;
 landmark visibility;
 reference-image quality;
 overall identity recognizability.
-15. Numerical Measurement and Canonical Identity Relationship
+
+---
+
+# 15. Numerical Measurement and Canonical Identity Relationship
+
 CFMS-001 supports the canonical Face Geometry layer.
 It does not replace it.
 The canonical relationship is:
@@ -3376,7 +3390,11 @@ The locked identity therefore remains defined by:
 CFG-001–CFG-007
 while CFMS-001 remains the supporting numerical measurement layer.
 Any future promotion of CFMS-001 to Canonical Locked status requires a separate validation of its measurement methodology and reproducibility.
-17. Canonical Measurement Preservation Rule
+
+---
+
+# 17. Canonical Measurement Preservation Rule
+
 The following principle applies:
 Numerical measurements support identity preservation; they do not replace the canonical visual identity specification.
 CFMS-001 shall therefore remain subordinate to the canonical Face Geometry specification and shall not independently redefine the identity of AS-002.
@@ -3429,10 +3447,14 @@ CFG-006 — Jawline Definition
 CFG-007 — Chin Shape
 
 These properties shall remain invariant across approved representations.
-18.5 Numerical Measurement Support
+
+## 18.5 Numerical Measurement Support
+
 CFMS-001 may be used as a supporting reference during identity validation.
 Its normalized measurements shall not be interpreted as rigid production coordinates or as permission to modify the locked Face Geometry properties.
-18.6 Representation Variation
+
+## 18.6 Representation Variation
+
 The following may vary when governed by the appropriate production specification:
 rendering medium;
 illustration treatment;
@@ -3444,7 +3466,9 @@ pose;
 expression;
 presentation context.
 Such variation shall not redefine or contradict the locked canonical identity.
-18.7 Identity Drift
+
+## 18.7 Identity Drift
+
 A representation shall be reviewed for identity drift when visual variation results in a material alteration of a locked canonical identity characteristic.
 Identity drift shall be evaluated contextually rather than solely through a single numerical measurement.
 Relevant review factors may include:
@@ -3455,13 +3479,20 @@ rendering treatment;
 reference quality;
 visibility of canonical landmarks;
 overall recognizability.
-19. Canonical Change Governance
-19.1 Locked Property Changes
+
+---
+
+# 19. Canonical Change Governance
+
+## 19.1 Locked Property Changes
+
 Once an identity property has reached Canonical Locked status, it shall not be changed through ordinary production editing.
 Changes require the applicable:
 Canonical Change Request (CCR)
 process.
-19.2 Locked AS-002 Identity Properties
+
+## 19.2 Locked AS-002 Identity Properties
+
 The following are subject to Canonical Change Request governance:
 Biological Identity
         │
@@ -3479,10 +3510,14 @@ Face Geometry
         ├── CFG-005
         ├── CFG-006
         └── CFG-007
-19.3 Candidate Measurement Layer
+
+## 19.3 Candidate Measurement Layer
+
 CFMS-001 remains an Evidence-Validated Candidate.
 Its candidate status means that future refinement may occur through the applicable evidence-validation and canonical review process without constituting a change to the locked identity itself.
-19.4 Governance Sequence
+
+## 19.4 Governance Sequence
+
 Evidence
    ↓
 Validation
@@ -3495,21 +3530,32 @@ Canonical Change Request
    ↓
 Approved Canonical Revision
 This sequence preserves the distinction between evidence development, canonical promotion, and post-lock change.
-20. Rendering Authority Boundary
-20.1 Rendering Governance
+
+---
+
+# 20. Rendering Authority Boundary
+
+## 20.1 Rendering Governance
+
 The canonical identity specification does not define the complete visual rendering method for AS-002.
 Rendering is governed by:
 CWC-CRS
-20.2 CAB Responsibility
+
+## 20.2 CAB Responsibility
+
 CWC-CAB defines:
 what AS-002 canonically is;
 which identity characteristics are locked;
 which identity relationships must be preserved;
 the boundaries within which rendering may vary.
-20.3 CRS Responsibility
+
+## 20.3 CRS Responsibility
+
 CWC-CRS defines the visual representation and rendering implementation of the canonical asset.
 Rendering decisions shall remain subordinate to the locked identity requirements defined by CWC-CAB.
-20.4 Authority Separation
+
+## 20.4 Authority Separation
+
 CWC-CAB
 Canonical Identity
         │
@@ -3519,16 +3565,25 @@ CWC-CRS
 Visual Representation
 CRS shall not redefine locked canonical identity properties through rendering decisions.
 CWC-CAB shall not assume responsibility for CRS-specific rendering implementation.
-21. Object Identity and Lifecycle Boundaries
-21.1 Object Identity
+
+---
+
+# 21. Object Identity and Lifecycle Boundaries
+
+## 21.1 Object Identity
+
 Canonical object identity for AS-002 is managed by:
 CWC-CAR
 The CAB specification does not duplicate the object registry as an independent authority.
-21.2 Canonical Lifecycle
+
+## 21.2 Canonical Lifecycle
+
 The canonical lifecycle of AS-002 is governed by:
 CWC-CAS
 The CAB specification does not create an independent lifecycle authority.
-21.3 Boundary Principle
+
+## 21.3 Boundary Principle
+
 CWC-CAB
    │
    ├── Canonical Asset Specification
@@ -3549,8 +3604,6 @@ CWC-CRS
    │
    └── Rendering
 Each system remains within its defined authority boundary.
-
----
 
 ## 21.4 Canonical Pairing
 
@@ -3576,38 +3629,57 @@ Canonical Reference Representation
         │
         └── Visual representation of canonical characteristics
 
-21.4.3 Pairing Boundary
+### 21.4.3 Pairing Boundary
+
 Canonical Pairing does not transfer canonical asset authority to the reference representation.
 The reference representation shall not independently redefine, modify, or supersede canonical asset properties defined by CWC-CAB.
 Canonical Pairing also does not transfer rendering authority to CWC-CAB.
 Rendering remains governed by CWC-CRS.
 Canonical Pairing does not replace the authority of CWC-CAR for object identity or CWC-CAS for canonical lifecycle.
-21.4.4 Pairing Preservation
+
+### 21.4.4 Pairing Preservation
+
 The canonical reference representation associated with AS-002 shall remain consistent with the locked canonical characteristics defined in this specification.
 Where representation varies under CWC-CRS, such variation shall preserve the canonical identity and locked characteristics of AS-002.
-22. Canonical Reference Representation
-22.1 Purpose
+
+---
+
+# 22. Canonical Reference Representation
+
+## 22.1 Purpose
+
 The Canonical Reference Representation provides the approved visual representation of AS-002 for canonical reference and production use.
 It represents the canonical characteristics defined by this specification without becoming an independent source of canonical authority.
-22.2 Representation Role
+
+## 22.2 Representation Role
+
 The reference representation shall:
 represent the locked canonical identity of AS-002;
 demonstrate the defined facial and biological characteristics;
 provide a visual reference for approved production representations;
 remain subordinate to the canonical specification.
-22.3 Rendering Relationship
+
+## 22.3 Rendering Relationship
+
 The canonical reference representation is used within the rendering architecture governed by CWC-CRS.
 CWC-CRS determines the applicable visual rendering and implementation requirements.
 CWC-CAB remains authoritative for the canonical identity characteristics that the rendering must preserve.
-22.4 Representation Invariance
+
+## 22.4 Representation Invariance
+
 Changes in rendering treatment shall not alter:
 Biological Identity;
 Facial Identity;
 Face Geometry;
 other locked canonical identity characteristics.
 The visual representation may adapt while the canonical identity remains invariant.
-23. Canonical Asset Boundaries
-23.1 CAB Responsibility
+
+---
+
+# 23. Canonical Asset Boundaries
+
+## 23.1 CAB Responsibility
+
 CWC-CAB is responsible for defining:
 the canonical asset identity;
 canonical identity characteristics;
@@ -3615,24 +3687,32 @@ locked properties;
 identity-preservation requirements;
 canonical asset boundaries;
 relationships to other canonical systems.
-23.2 CRS Responsibility
+
+## 23.2 CRS Responsibility
+
 CWC-CRS is responsible for:
 visual representation;
 rendering implementation;
 visual production reference;
 rendering-specific requirements.
-23.3 CAR Responsibility
+
+## 23.3 CAR Responsibility
+
 CWC-CAR is responsible for:
 canonical object identity;
 object-level registry identity;
 canonical asset object relationships.
-23.4 CAS Responsibility
+
+## 23.4 CAS Responsibility
+
 CWC-CAS is responsible for:
 canonical lifecycle;
 lifecycle state;
 lifecycle transitions;
 lifecycle governance.
-23.5 Boundary Principle
+
+## 23.5 Boundary Principle
+
 Each canonical system shall remain within its defined authority and shall not assume the authority of another canonical system.
 CWC-CAB
 Canonical Asset Specification
@@ -3714,18 +3794,26 @@ CFG-006 — Jawline Definition
 CFG-007 — Chin Shape
 
 These properties shall remain recognizable and structurally consistent regardless of rendering treatment.
-24.6 Implementation Consistency
+
+## 24.6 Implementation Consistency
+
 Repeated implementations of AS-002 shall represent the same canonical asset.
 Differences in rendering shall not be interpreted as differences in canonical identity.
 The implementation objective is:
 Consistent identity across variable representation.
-24.7 Production Reference
+
+## 24.7 Production Reference
+
 Where a visual reference is required for production, the applicable reference shall be provided and governed through CWC-CRS.
 The reference supports implementation consistency but does not supersede the canonical identity specification.
-24.8 Implementation Validation
+
+## 24.8 Implementation Validation
+
 Before an implementation is approved for canonical production use, it shall satisfy the applicable identity-preservation requirements defined by CWC-CAB and the rendering requirements defined by CWC-CRS.
 Implementation approval does not create a new canonical identity.
-24.9 Implementation Boundary
+
+## 24.9 Implementation Boundary
+
 Implementation Requirements shall not:
 redefine locked identity properties;
 create new canonical identity properties;
@@ -3733,21 +3821,32 @@ establish an independent rendering authority;
 establish an independent lifecycle;
 establish an independent object registry;
 modify the authority boundaries of CWC-CAB, CWC-CRS, CWC-CAR, or CWC-CAS.
-25. Canonical Change Requirements
-25.1 Purpose
+
+---
+
+# 25. Canonical Change Requirements
+
+## 25.1 Purpose
+
 Canonical Change Requirements govern proposed modifications to locked AS-002 properties.
-25.2 Locked Property Protection
+
+## 25.2 Locked Property Protection
+
 The following are protected by canonical change governance:
 Biological Identity;
 Facial Identity;
 Face Geometry;
 all other properties explicitly designated as Canonical Locked within this specification.
-25.3 Change Mechanism
+
+## 25.3 Change Mechanism
+
 A proposed change to a locked canonical property shall not be implemented through ordinary production editing.
 It shall follow the applicable:
 Canonical Change Request (CCR)
 process.
-25.4 Change Integrity
+
+## 25.4 Change Integrity
+
 A canonical change shall preserve:
 asset identity;
 canonical relationships;
@@ -3755,9 +3854,13 @@ authority boundaries;
 compatibility with CWC-CRS;
 compatibility with CWC-CAR;
 compatibility with CWC-CAS.
-25.5 Rendering Changes
+
+## 25.5 Rendering Changes
+
 Changes to rendering treatment that do not alter locked canonical identity properties remain within the authority of CWC-CRS and do not constitute a canonical identity change.
-25.6 Identity Change vs Representation Change
+
+## 25.6 Identity Change vs Representation Change
+
 Representation Change
         │
         └── Rendering variation
@@ -3924,3 +4027,1267 @@ Brand Presenter
                 └── CWC-CAS
 
 ---
+
+# CWC-CAB-AS-003 — Canonical Footer Platforms
+
+**Canonical Asset Specification**
+
+| Field | Value |
+|---|---|
+| Asset ID | `AS-003` |
+| Canonical Asset Name | **Canonical Footer Platforms** |
+| Asset Type | Communication / Identity Component |
+| Status | 🔒 **Canonical Locked** |
+| Canonical Canvas | `1080 × 1350 px` |
+
+---
+
+# 1. Document Identity
+
+## 1.1 Asset Identity
+
+**AS-003 — Canonical Footer Platforms** is the canonical CWC asset defining the official platform identities presented within the footer communication context.
+
+The asset represents the official CWC platform presence through a defined set of platform identities, their corresponding account identities, canonical ordering, permanent icon-to-account pairing, and approved visual treatment.
+
+## 1.2 Canonical Definition
+
+> **Canonical Footer Platforms is the canonical CWC asset defining the official platform identities presented as part of the footer communication context.**
+
+The current canonical membership consists of:
+
+1. Instagram
+2. Facebook
+3. TikTok
+4. WhatsApp
+
+## 1.3 Asset Scope
+
+The canonical scope of AS-003 includes:
+
+- official platform identity;
+- corresponding account identity;
+- platform ordering;
+- icon-to-account pairing;
+- two-layer component structure;
+- mandatory production presence;
+- canonical geometry;
+- surface-dependent color behavior.
+
+AS-003 does not constitute the entire Footer Zone, the complete Footer Specification, or the general CWC Iconography System.
+
+---
+
+# 2. Canonical Platform Identity
+
+## 2.1 Current Canonical Membership
+
+| No. | Platform | Canonical Account Identity |
+|---:|---|---|
+| 1 | Instagram | `@cozwecare.id` |
+| 2 | Facebook | `Tes HIV Manado` |
+| 3 | TikTok | `@cozwecare.id` |
+| 4 | WhatsApp | `0822-9255-2915` |
+
+These four platforms constitute the current canonical membership of AS-003.
+
+## 2.2 Platform Ordering
+
+The canonical left-to-right ordering is:
+
+```text
+Instagram
+    →
+Facebook
+    →
+TikTok
+    →
+WhatsApp
+
+This ordering shall be preserved in canonical implementations unless changed through the applicable canonical change mechanism.
+
+## 2.3 Platform Membership Expansion
+
+The current membership consists of four official platforms.
+Membership may be expanded in the future through an authorized canonical change.
+
+A platform shall not be added to AS-003 solely because it is used in an individual content production.
+
+Any new canonical platform must first be established through the applicable canonical change process.
+
+---
+
+# 3. Canonical Account Identity
+
+## 3.1 Account Identity Mapping
+
+Each platform has one corresponding canonical account identity.
+Instagram  ↔  @cozwecare.id
+Facebook   ↔  Tes HIV Manado
+TikTok     ↔  @cozwecare.id
+WhatsApp   ↔  0822-9255-2915
+These relationships constitute canonical account identity mappings.
+
+## 3.2 Account Identity Preservation
+The account identity associated with each platform shall remain correctly paired with its corresponding platform.
+
+The following are prohibited without authorized canonical change:
+swapping account identities between platforms;
+assigning an account identity to the wrong platform;
+replacing an account identity with another identity;
+reversing platform-to-account relationships;
+arbitrarily modifying canonical account identities.
+
+---
+
+# 4. Canonical Icon–Account Pairing
+
+## 4.1 Two-Layer Structure
+
+Each Canonical Footer Platform consists of two permanently associated layers:
+Layer 1
+Platform Icon
+
+        +
+
+Layer 2
+Account Identity
+The two layers together form the canonical platform identity component.
+4.2 Canonical Pairing Rule
+Each platform icon shall remain permanently paired with its corresponding account identity.
+Canonical pairings are:
+Instagram Icon  ↔  @cozwecare.id
+
+Facebook Icon   ↔  Tes HIV Manado
+
+TikTok Icon     ↔  @cozwecare.id
+
+WhatsApp Icon   ↔  0822-9255-2915
+
+# 4.3 Pairing Protection
+
+The icon and account identity shall not:
+be swapped;
+be reversed;
+be mismatched;
+be independently replaced;
+be arbitrarily separated;
+be reassigned to another platform.
+Any canonical alteration to a pairing requires authorized canonical change.
+
+# 4.4 Platform Recognition
+
+Official platform icons shall preserve recognizable official platform identity.
+The icon representation shall not be replaced with an unrelated or visually misleading symbol.
+
+---
+
+# 5. Mandatory Presence
+
+## 5.1 Production Requirement
+
+Canonical Footer Platforms shall be present in all CWC content production as part of the footer.
+AS-003 is therefore a mandatory canonical production component.
+It shall not be treated as an optional decorative element.
+
+## 5.2 Presence Principle
+
+CWC Content
+    │
+    └── Footer
+          │
+          └── Canonical Footer Platforms
+                │
+                ├── Instagram
+                ├── Facebook
+                ├── TikTok
+                └── WhatsApp
+
+## 5.3 Production Consistency
+Every approved CWC content implementation shall preserve the canonical presence of AS-003 unless an explicitly authorized exception or canonical change establishes otherwise.
+
+---
+
+# 6. Canonical Geometry
+
+## 6.1 Canonical Form
+
+Canonical Footer Platforms shall use a:
+
+> **Long horizontal oval / pill form**
+
+The component shall extend horizontally across the CWC content canvas while maintaining a visible inset at both lateral edges to preserve the intended oval/pill character.
+
+## 6.2 Canonical Canvas
+
+The canonical CWC content canvas is:
+
+```text
+1080 × 1350 px
+
+## 6.3 Canonical Footer Platform Dimensions
+
+The canonical Footer Platform component shall have:
+Dimension	Value
+Width	1070 px
+Height	60 px
+Left Inset	5 px
+Right Inset	5 px
+The horizontal relationship is:
+5 px + 1070 px + 5 px = 1080 px
+Therefore, the component occupies the full canonical canvas width while retaining a 5 px inset on both sides.
+
+## 6.4 Horizontal Placement
+
+The canonical placement is:
+Canvas Width
+1080 px
+
+┌──────────────────────────────────────────────────────────────┐
+│ 5 px  ┌────────────────────────────────────────────────┐ 5px │
+│       │                                                │     │
+│       │        CANONICAL FOOTER PLATFORMS              │     │
+│       │                                                │     │
+│       └────────────────────────────────────────────────┘     │
+└──────────────────────────────────────────────────────────────┘
+
+          ←──────────── 1070 px ────────────→
+The 5 px lateral inset is part of the canonical geometry.
+
+## 6.5 Vertical Dimension
+
+The canonical Footer Platform height is:
+60 px
+The height applies to the complete oval/pill component.
+
+## 6.6 Geometry Preservation
+
+The following properties are Canonical Locked:
+horizontal oval/pill form;
+1070 px width;
+60 px height;
+5 px left inset;
+5 px right inset;
+centered horizontal placement within the 1080 px canvas width.
+These properties shall not be altered through ordinary production editing.
+
+---
+
+# 7. Surface-Dependent Color
+
+## 7.1 Purpose
+
+Canonical Footer Platforms uses a surface-dependent foreground color system.
+The component does not introduce an independent background color.
+Instead:
+The background of the Footer Platform inherits the underlying surface.
+The border, platform icons, and account identities use the corresponding contrasting canonical identity color.
+
+## 7.2 Royal Blue Surface
+
+When the underlying surface is:
+Royal Blue — #0055D4
+the Canonical Footer Platforms shall use:
+Element	Canonical Color
+Pill Background	Inherits Royal Blue surface
+Border	White #FFFFFF
+Platform Icons	White #FFFFFF
+Account Identities	White #FFFFFF
+The Royal Blue surface remains visible as the background of the component.
+The white treatment applies to the foreground identity elements.
+Royal Blue Surface
+#0055D4
+
+┌──────────────────────────────────────────────────────────────┐
+│  ○ Instagram    ○ Facebook    ○ TikTok    ○ WhatsApp        │
+└──────────────────────────────────────────────────────────────┘
+     White Border + White Icons + White Account Identities
+
+## 7.3 White Surface
+
+When the underlying surface is:
+White — #FFFFFF
+the Canonical Footer Platforms shall use:
+Element	Canonical Color
+Pill Background	Inherits White surface
+Border	Royal Blue #0055D4
+Platform Icons	Royal Blue #0055D4
+Account Identities	Royal Blue #0055D4
+The White surface remains visible as the background of the component.
+The Royal Blue treatment applies to the foreground identity elements.
+White Surface
+#FFFFFF
+
+┌──────────────────────────────────────────────────────────────┐
+│  ○ Instagram    ○ Facebook    ○ TikTok    ○ WhatsApp        │
+└──────────────────────────────────────────────────────────────┘
+     Royal Blue Border + Royal Blue Icons + Royal Blue Account Identities
+
+## 7.4 Surface Inversion Rule
+
+The canonical surface behavior is:
+Royal Blue Surface #0055D4
+        │
+        ├── Background → inherited surface
+        ├── Border → White #FFFFFF
+        ├── Icons → White #FFFFFF
+        └── Account Identity → White #FFFFFF
+
+
+White Surface #FFFFFF
+        │
+        ├── Background → inherited surface
+        ├── Border → Royal Blue #0055D4
+        ├── Icons → Royal Blue #0055D4
+        └── Account Identity → Royal Blue #0055D4
+
+The component shall not introduce a separate filled background color that overrides the underlying surface.
+
+---
+
+# 8. Canonical Visual Identity
+
+# 8.1 Core Visual Characteristics
+
+Canonical Footer Platforms shall preserve the following visual characteristics:
+long horizontal oval/pill form;
+full-width horizontal composition with 5 px lateral inset;
+1070 × 60 px canonical component dimension;
+surface-inherited background;
+contrasting canonical border;
+contrasting official platform icons;
+contrasting canonical account identities.
+
+## 8.2 Visual Identity Principle
+
+The Footer Platform remains visually identifiable as a single horizontal canonical component while adapting its foreground identity color to the underlying surface.
+
+## 8.3 Surface Compatibility
+
+The canonical color treatment is limited to the defined surface conditions:
+Royal Blue surface ↔ White foreground
+White surface ↔ Royal Blue foreground
+The canonical Royal Blue value is:
+#0055D4
+The canonical White value is:
+#FFFFFF
+
+## 8.4 Color Integrity
+
+Royal Blue shall use the canonical CWC Royal Blue value:
+#0055D4
+White shall use:
+#FFFFFF
+Alternative blue values shall not be substituted for the canonical Royal Blue value in the Canonical Footer Platforms component.
+
+---
+
+# 9. Canonical Platform Identity Integrity
+
+## 9.1 Platform Identity Integrity
+
+Each platform within Canonical Footer Platforms represents a distinct official platform identity.
+
+The platform identity shall remain correctly associated with its corresponding account identity.
+
+The canonical platform set is:
+
+```text
+Instagram
+Facebook
+TikTok
+WhatsApp
+
+## 9.2 Platform-to-Account Integrity
+
+The following pairings are Canonical Locked:
+Platform	Account Identity
+Instagram	@cozwecare.id
+Facebook	Tes HIV Manado
+TikTok	@cozwecare.id
+WhatsApp	0822-9255-2915
+Each row represents one canonical platform-to-account relationship.
+No row may be reassigned without authorized canonical change.
+
+## 9.3 Pairing Invariance
+
+The following relationship shall remain invariant:
+Platform Icon
+      ↕
+Account Identity
+The icon and account identity constitute one paired platform identity component.
+The pairing shall not be:
+swapped;
+reversed;
+mismatched;
+reassigned;
+independently substituted.
+
+## 9.4 Platform Ordering Integrity
+
+The canonical ordering shall remain:
+Instagram → Facebook → TikTok → WhatsApp
+The ordering shall be preserved in approved implementations unless modified through authorized canonical change.
+
+---
+
+# 10. Canonical Platform Representation
+
+## 10.1 Representation Structure
+
+Each platform is represented through two canonical layers:
+Layer 1 — Platform Icon
+The visual identity symbol representing the official platform.
+Layer 2 — Account Identity
+The corresponding official account or contact identity associated with that platform.
+The two layers operate as a permanent paired representation.
+┌──────────────────────┐
+│  Platform Icon       │
+│          ↕           │
+│  Account Identity    │
+└──────────────────────┘
+
+## 10.2 Canonical Platform Components
+
+Instagram
+├── Platform Icon
+└── @cozwecare.id
+
+Facebook
+├── Platform Icon
+└── Tes HIV Manado
+
+TikTok
+├── Platform Icon
+└── @cozwecare.id
+
+WhatsApp
+├── Platform Icon
+└── 0822-9255-2915
+
+## 10.3 Platform Recognition
+
+Platform icons shall remain recognizable as the official identities of their respective platforms.
+The platform identity shall not be represented through an unrelated symbol or substituted icon.
+
+## 10.4 Account Identity Recognition
+
+The account identity shall remain legible and correctly associated with its platform.
+The account identity shall not be altered in a manner that changes the canonical account designation.
+
+---
+
+# 11. Canonical Membership Governance
+
+## 11.1 Current Membership
+
+The current Canonical Footer Platforms membership is:
+Instagram
+Facebook
+TikTok
+WhatsApp
+
+## 11.2 Expandable Membership
+
+Canonical Footer Platforms is an expandable asset.
+Additional official platforms may be added in the future.
+However:
+Expansion of canonical membership requires authorized canonical change.
+A platform does not become a member of AS-003 merely because it appears in an individual production.
+
+## 11.3 Existing Member Protection
+
+Existing canonical members shall not be removed, replaced, or reordered through ordinary production editing.
+Changes to membership require canonical governance.
+
+## 11.4 Membership and Production
+The current canonical membership shall be used in CWC production according to the mandatory presence requirement defined by this specification.
+
+---
+
+# 12. Footer Application
+
+## 12.1 Footer Context
+Canonical Footer Platforms is applied within the CWC footer communication context.
+The footer functions as the application context for the canonical platform identity asset.
+The asset itself remains distinct from the complete Footer Zone.
+
+## 12.2 Application Relationship
+
+CWC Content
+     │
+     ▼
+Footer Context
+     │
+     ▼
+Canonical Footer Platforms
+     │
+     ├── Instagram
+     ├── Facebook
+     ├── TikTok
+     └── WhatsApp
+
+## 12.3 Mandatory Footer Application
+
+Canonical Footer Platforms shall be present in all CWC content production as part of the footer.
+The asset shall therefore be treated as a persistent canonical production component.
+
+## 12.4 Application Boundary
+
+AS-003 defines the canonical platform identity and its approved representation characteristics.
+It does not redefine:
+the complete Footer Zone;
+the overall content layout;
+unrelated footer content;
+the complete typography system;
+the general Iconography System;
+CWC rendering architecture.
+
+---
+
+# 13. Production Preservation
+
+## 13.1 Identity Preservation
+
+All approved production representations shall preserve:
+platform membership;
+platform ordering;
+account identity;
+icon-to-account pairing;
+canonical geometry;
+canonical surface-dependent color behavior.
+
+## 13.2 Representation Adaptation
+
+Visual representation may adapt to the applicable production context only within the boundaries established by this specification and the applicable rendering authority.
+Adaptation shall not alter the canonical identity of AS-003.
+
+## 13.3 Surface Preservation
+
+The underlying surface shall remain the background of the component.
+The canonical foreground treatment shall remain:
+Royal Blue surface
+→ White border, icons, and account identities
+
+White surface
+→ Royal Blue border, icons, and account identities
+
+## 13.4 Geometry Preservation
+
+The following shall remain unchanged in approved canonical implementations:
+Width  = 1070 px
+Height = 60 px
+Left   = 5 px
+Right  = 5 px
+The component shall retain its long horizontal oval/pill form.
+
+---
+
+# 14. Authority Boundaries
+
+## 14.1 CWC-CAB
+
+CWC-CAB defines:
+what AS-003 is;
+its canonical platform membership;
+account identities;
+platform ordering;
+icon-to-account pairing;
+mandatory presence;
+canonical geometry;
+canonical surface behavior.
+
+## 14.2 CWC-CRS
+
+CWC-CRS governs the visual rendering and representation of AS-003 within production.
+Rendering adaptations shall preserve the locked canonical properties established by CWC-CAB.
+
+## 14.3 CWC-CAR
+
+CWC-CAR governs the canonical object identity and registry representation of AS-003.
+
+## 14.4 CWC-CAS
+
+CWC-CAS governs the canonical lifecycle of AS-003.
+
+## 14.5 Authority Separation
+
+CWC-CAB
+│
+├── Canonical Asset Identity
+├── Canonical Membership
+├── Canonical Pairing
+├── Canonical Geometry
+└── Canonical Surface Behavior
+        │
+        ▼
+CWC-CRS
+└── Visual Rendering
+
+CWC-CAR
+└── Object Identity
+
+CWC-CAS
+└── Lifecycle
+No system shall assume the authority of another system through ordinary production editing.
+
+---
+
+# 15. Canonical Production Requirements
+
+## 15.1 Production Use
+
+Canonical Footer Platforms shall be used as a persistent canonical footer component in all CWC content production.
+
+The component shall remain identifiable as the same canonical asset across different content contexts.
+
+## 15.2 Required Production Characteristics
+
+Every approved implementation shall preserve:
+
+- the four current canonical platform members;
+- canonical platform ordering;
+- platform-to-account identity pairing;
+- two-layer structure;
+- mandatory footer presence;
+- canonical horizontal oval/pill form;
+- `1070 × 60 px` component dimensions;
+- `5 px` left inset;
+- `5 px` right inset;
+- surface-dependent foreground color behavior.
+
+## 15.3 Production Ordering
+
+The platform sequence shall remain:
+
+```text
+Instagram → Facebook → TikTok → WhatsApp
+
+The sequence shall not be rearranged during ordinary production.
+
+## 15.4 Production Pairing
+
+Each icon shall remain paired with its corresponding account identity:
+Instagram Icon  ↔  @cozwecare.id
+Facebook Icon   ↔  Tes HIV Manado
+TikTok Icon     ↔  @cozwecare.id
+WhatsApp Icon   ↔  0822-9255-2915
+A production implementation shall not separate the icon from its corresponding account identity in a manner that creates ambiguity or permits incorrect association.
+
+## 15.5 Production Geometry
+
+The canonical geometry shall remain:
+Canvas Width   = 1080 px
+Pill Width     = 1070 px
+Pill Height    = 60 px
+Left Inset     = 5 px
+Right Inset    = 5 px
+The component shall retain its horizontal oval/pill character.
+
+## 15.6 Production Color
+
+Royal Blue Surface
+Surface        = #0055D4
+Background     = Inherited from surface
+Border         = #FFFFFF
+Platform Icons = #FFFFFF
+Account Names  = #FFFFFF
+
+White Surface
+Surface        = #FFFFFF
+Background     = Inherited from surface
+Border         = #0055D4
+Platform Icons = #0055D4
+Account Names  = #0055D4
+The component background shall not be replaced with an independent contrasting fill.
+
+## 15.7 Production Consistency
+
+Repeated use of Canonical Footer Platforms shall represent the same canonical asset.
+Differences in content context, surrounding surface, or rendering treatment shall not alter:
+platform identity;
+account identity;
+platform ordering;
+icon-to-account pairing;
+canonical geometry;
+canonical surface behavior.
+
+---
+
+# 16. Canonical Change Requirements
+
+## 16.1 Purpose
+
+Canonical Change Requirements protect the locked properties of AS-003 from unauthorized modification.
+
+Any modification to a Canonical Locked property shall follow the applicable canonical change mechanism.
+
+## 16.2 Protected Properties
+
+The following properties are Canonical Locked:
+
+- Canonical Asset Name;
+- current platform membership;
+- account identities;
+- platform ordering;
+- icon-to-account pairing;
+- two-layer structure;
+- mandatory production presence;
+- canonical form;
+- canonical dimensions;
+- left and right insets;
+- surface-dependent color behavior;
+- canonical Royal Blue value;
+- canonical White value.
+
+## 16.3 Changes Requiring Canonical Change
+
+The following changes require authorized canonical change:
+
+- adding a platform;
+- removing a platform;
+- changing a platform;
+- changing an account identity;
+- changing platform ordering;
+- changing icon-to-account pairing;
+- changing mandatory presence;
+- changing canonical dimensions;
+- changing lateral insets;
+- changing canonical form;
+- changing surface-dependent color behavior;
+- changing the canonical Royal Blue value;
+- changing the canonical White value.
+
+## 16.4 Membership Expansion
+
+Although platform membership may expand, a new platform shall not become canonical through ordinary production use.
+
+The expansion must first be formally incorporated into AS-003 through the applicable canonical change mechanism.
+
+## 16.5 Rendering Changes
+
+A rendering variation that does not alter a locked canonical property may be implemented under the authority of CWC-CRS.
+
+Such a rendering variation does not constitute a change to the canonical identity of AS-003.
+
+---
+
+# 17. Canonical Integrity
+
+## 17.1 Identity Integrity
+
+AS-003 shall continue to represent the same canonical platform identity group across all approved CWC content.
+
+## 17.2 Pairing Integrity
+
+Platform icons and account identities shall remain correctly paired.
+
+## 17.3 Ordering Integrity
+
+The canonical order shall remain:
+
+```text
+Instagram → Facebook → TikTok → WhatsApp
+
+unless formally changed through canonical governance.
+
+## 17.4 Geometry Integrity
+
+The component shall preserve:
+
+```text
+1070 × 60 px
+
+with:
+5 px left inset
+5 px right inset
+within the 1080 px canonical canvas width.
+17.5 Color Integrity
+The component shall preserve the canonical surface-dependent color relationship:
+Royal Blue #0055D4
+        ↓
+White foreground #FFFFFF
+
+White #FFFFFF
+        ↓
+Royal Blue foreground #0055D4
+
+## 17.6 Production Integrity
+
+The Canonical Footer Platforms shall remain present in all CWC content production.
+No ordinary production decision may intentionally remove, replace, or redefine AS-003.
+
+---
+
+# 18. Canonical Status
+
+## 18.1 Asset Status
+
+**AS-003 — Canonical Footer Platforms**
+
+> 🔒 **CANONICAL LOCKED**
+
+## 18.2 Lock Scope
+
+The Canonical Lock applies to the canonical identity and locked properties of AS-003, including:
+
+- platform membership;
+- account identities;
+- platform ordering;
+- icon-to-account pairing;
+- two-layer structure;
+- mandatory production presence;
+- canonical form;
+- canonical dimensions;
+- left and right insets;
+- surface-dependent color behavior;
+- canonical Royal Blue value;
+- canonical White value.
+
+## 18.3 Future Expansion
+
+Canonical Footer Platforms may be expanded to include additional official project platforms.
+
+Any such expansion shall follow the applicable canonical change mechanism before the additional platform becomes part of the canonical asset.
+
+---
+
+# 19. Canonical Asset Integrity
+
+## 19.1 Identity Integrity
+
+AS-003 shall continue to represent the same canonical platform identity group across all approved CWC content.
+
+## 19.2 Structural Integrity
+
+The canonical two-layer structure shall remain intact:
+
+```text
+Layer 1 — Platform Icon
+        ↕
+Layer 2 — Account Identity
+
+Each platform icon shall remain permanently associated with its corresponding account identity.
+
+## 19.3 Membership Integrity
+
+The current canonical membership shall remain:
+Instagram
+Facebook
+TikTok
+WhatsApp
+Future membership expansion shall occur only through authorized canonical change.
+
+## 19.4 Geometry Integrity
+
+The canonical geometry shall remain:
+Pill Width  = 1070 px
+Pill Height = 60 px
+Left Inset  = 5 px
+Right Inset = 5 px
+within the canonical 1080 × 1350 px CWC canvas.
+
+## 19.5 Color Integrity
+
+The canonical surface-dependent color behavior shall remain:
+Royal Blue Surface #0055D4
+    ↓
+White Border #FFFFFF
+White Icons #FFFFFF
+White Account Identities #FFFFFF
+
+White Surface #FFFFFF
+    ↓
+Royal Blue Border #0055D4
+Royal Blue Icons #0055D4
+Royal Blue Account Identities #0055D4
+
+## 19.6 Production Integrity
+
+Canonical Footer Platforms shall remain present in all CWC content production.
+No ordinary production decision may intentionally remove, replace, reorder, mismatch, or redefine the canonical platform identities or their corresponding account identities.
+
+---
+
+# 20. Canonical Reference Representation
+
+## 20.1 Purpose
+
+The Canonical Reference Representation provides the approved visual representation of AS-003 for canonical reference and production use.
+
+It represents the canonical characteristics defined by this specification without becoming an independent source of canonical authority.
+
+## 20.2 Representation Role
+
+The reference representation shall:
+
+- represent the locked canonical platform identity of AS-003;
+- preserve the canonical platform ordering;
+- preserve the icon-to-account identity pairing;
+- preserve the canonical geometry;
+- preserve the canonical surface-dependent color behavior;
+- provide a consistent visual reference for approved production representations.
+
+## 20.3 Rendering Relationship
+
+The canonical reference representation is used within the rendering architecture governed by CWC-CRS.
+
+CWC-CRS determines the applicable visual rendering and implementation requirements.
+
+CWC-CAB remains authoritative for the canonical identity characteristics and locked properties that the rendering must preserve.
+
+---
+
+# 21. Canonical Representation Integrity
+
+## 21.1 Identity Preservation
+
+All approved visual representations of AS-003 shall preserve the same canonical platform identities and corresponding account identities.
+
+## 21.2 Pairing Preservation
+
+The visual representation shall preserve the permanent pairing between:
+
+```text
+Platform Icon
+      ↕
+Account Identity
+
+No rendering variation may cause an icon to become visually associated with an incorrect account identity.
+
+## 21.3 Geometry Preservation
+
+The canonical visual representation shall preserve:
+1070 px component width;
+60 px component height;
+5 px left inset;
+5 px right inset;
+long horizontal oval/pill form.
+
+## 21.4 Surface Preservation
+
+The visual representation shall preserve the applicable surface-dependent color rule:
+Royal Blue Surface #0055D4
+→ White border, icons, and account identities
+
+White Surface #FFFFFF
+→ Royal Blue border, icons, and account identities
+The component background shall continue to inherit the underlying surface.
+21.5 Representation Boundary
+Visual variation may occur only within the authority of CWC-CRS and shall not alter the locked canonical characteristics of AS-003.
+
+---
+
+# 22. Canonical Asset Boundaries
+
+## 22.1 CWC-CAB Authority
+
+CWC-CAB defines the canonical identity and locked properties of AS-003, including:
+
+- platform membership;
+- account identities;
+- platform ordering;
+- icon-to-account pairing;
+- two-layer structure;
+- mandatory production presence;
+- canonical geometry;
+- canonical surface-dependent color behavior.
+
+## 22.2 CWC-CRS Authority
+
+CWC-CRS governs the visual rendering and production representation of AS-003.
+
+Rendering adaptations shall preserve all locked canonical properties defined by CWC-CAB.
+
+## 22.3 CWC-CAR Authority
+
+CWC-CAR governs the canonical object identity and registry representation of AS-003.
+
+## 22.4 CWC-CAS Authority
+
+CWC-CAS governs the canonical lifecycle and lifecycle state of AS-003.
+
+## 22.5 Authority Separation Principle
+
+Each canonical system shall remain within its defined authority.
+
+No system shall independently redefine or supersede the canonical authority of another system through ordinary production activity.
+
+---
+
+# 23. Implementation Requirements
+
+## 23.1 Implementation Principle
+
+Implementation of AS-003 shall preserve all Canonical Locked properties defined by this specification.
+
+The visual implementation may adapt to the applicable production context only where such adaptation does not alter the canonical identity, structure, geometry, pairing, ordering, or surface-dependent color behavior of AS-003.
+
+## 23.2 Required Implementation
+
+Every CWC content implementation shall include Canonical Footer Platforms as part of the footer.
+
+The implementation shall preserve:
+
+- Instagram;
+- Facebook;
+- TikTok;
+- WhatsApp;
+- canonical platform ordering;
+- canonical account identities;
+- permanent icon-to-account pairing;
+- two-layer structure;
+- `1070 × 60 px` canonical dimensions;
+- `5 px` left inset;
+- `5 px` right inset;
+- long horizontal oval/pill form;
+- surface-dependent color behavior.
+
+## 23.3 Implementation Consistency
+
+Repeated implementations of AS-003 shall represent the same canonical asset.
+
+Differences in surrounding content, surface, composition, or rendering treatment shall not create a different platform identity or alter the canonical platform-to-account relationships.
+
+## 23.4 Implementation Prohibition
+
+Implementation shall not:
+
+- remove a current canonical platform;
+- reorder the canonical platforms;
+- swap account identities;
+- mismatch icons and account identities;
+- substitute unauthorized account identities;
+- alter the canonical geometry;
+- introduce an independent background color;
+- replace the canonical surface-dependent color treatment;
+- omit AS-003 from CWC content production.
+
+## 23.5 Rendering Authority
+
+Implementation and rendering decisions remain subject to CWC-CRS.
+
+Where a rendering decision does not alter a Canonical Locked property, it may be implemented under the authority of CWC-CRS.
+
+Where a proposed implementation would alter a Canonical Locked property, the applicable canonical change mechanism shall be followed before implementation.
+
+---
+
+# 24. Canonical Asset Summary
+
+## 24.1 Canonical Identity
+
+**AS-003 — Canonical Footer Platforms** is a Canonical Locked CWC asset defining the official platform identities presented within the CWC footer communication context.
+
+## 24.2 Current Canonical Membership
+
+The current canonical platform membership is:
+
+1. Instagram
+2. Facebook
+3. TikTok
+4. WhatsApp
+
+## 24.3 Canonical Account Identities
+
+| Platform | Account Identity |
+|---|---|
+| Instagram | `@cozwecare.id` |
+| Facebook | `Tes HIV Manado` |
+| TikTok | `@cozwecare.id` |
+| WhatsApp | `0822-9255-2915` |
+
+## 24.4 Canonical Pairing
+
+Each platform icon shall remain permanently paired with its corresponding account identity.
+
+```text
+Instagram ↔ @cozwecare.id
+Facebook  ↔ Tes HIV Manado
+TikTok    ↔ @cozwecare.id
+WhatsApp  ↔ 0822-9255-2915
+
+---
+
+# 25. Canonical Asset Integrity
+
+## 25.1 Canonical Identity Integrity
+
+AS-003 shall continue to represent the same canonical platform identity group across all approved CWC content.
+
+Its canonical identity shall remain defined by:
+
+- Canonical Footer Platforms as the asset name;
+- Instagram;
+- Facebook;
+- TikTok;
+- WhatsApp;
+- the corresponding canonical account identities;
+- the canonical platform ordering;
+- the permanent icon-to-account pairing.
+
+## 25.2 Structural Integrity
+
+The canonical two-layer structure shall remain intact:
+
+```text
+Layer 1 — Platform Icon
+        ↕
+Layer 2 — Account Identity
+
+The two layers shall continue to function as a paired platform identity component.
+
+## 25.3 Geometry Integrity
+
+The canonical geometry shall remain:
+
+```text
+1070 × 60 px
+
+with:
+5 px left inset
+5 px right inset
+within the canonical 1080 × 1350 px CWC canvas.
+The long horizontal oval/pill form shall remain preserved.
+25.4 Color Integrity
+The canonical surface-dependent color relationship shall remain unchanged:
+Royal Blue Surface #0055D4
+    ↓
+White Border #FFFFFF
+White Platform Icons #FFFFFF
+White Account Identities #FFFFFF
+
+White Surface #FFFFFF
+    ↓
+Royal Blue Border #0055D4
+Royal Blue Platform Icons #0055D4
+Royal Blue Account Identities #0055D4
+The component background shall continue to inherit the underlying surface.
+
+## 25.5 Production Integrity
+
+Canonical Footer Platforms shall remain present in all CWC content production.
+No ordinary production decision may:
+remove a current canonical platform;
+replace a canonical platform;
+reorder the canonical platforms;
+swap or mismatch account identities;
+alter the permanent icon-to-account pairing;
+alter the canonical geometry;
+alter the canonical surface-dependent color behavior;
+redefine the canonical identity of AS-003.
+
+## 25.6 Change Integrity
+
+Any modification to a Canonical Locked property shall follow the applicable canonical change mechanism.
+Future platform expansion remains possible, but an additional platform shall become canonical only after authorized canonical change.
+
+---
+
+# 27. Canonical Status
+
+## 27.1 Asset Status
+
+**AS-003 — Canonical Footer Platforms**
+
+> 🔒 **CANONICAL LOCKED**
+
+## 27.2 Lock Scope
+
+The Canonical Lock applies to the canonical identity and locked properties of AS-003, including:
+
+- Canonical Asset Name;
+- current platform membership;
+- account identities;
+- platform ordering;
+- icon-to-account pairing;
+- two-layer structure;
+- mandatory production presence;
+- canonical form;
+- canonical dimensions;
+- left and right insets;
+- surface-dependent color behavior;
+- canonical Royal Blue value;
+- canonical White value.
+
+## 27.3 Current Canonical Membership
+
+The current canonical platform membership remains:
+
+| Order | Platform | Account Identity |
+|---:|---|---|
+| 1 | Instagram | `@cozwecare.id` |
+| 2 | Facebook | `Tes HIV Manado` |
+| 3 | TikTok | `@cozwecare.id` |
+| 4 | WhatsApp | `0822-9255-2915` |
+
+## 27.4 Future Expansion
+
+Canonical Footer Platforms may be expanded to include additional official project platforms.
+
+Any additional platform shall become part of the canonical asset only after the applicable canonical change has been formally authorized.
+
+Until such change is approved, the current four-platform membership remains canonical.
+
+---
+
+# 28. Final Canonical Statement
+
+## 28.1 Canonical Asset Definition
+
+**AS-003 — Canonical Footer Platforms** is a Canonical Locked CWC asset defining the official platform identities presented within the CWC footer communication context.
+
+The current canonical platform membership is:
+
+1. Instagram — `@cozwecare.id`
+2. Facebook — `Tes HIV Manado`
+3. TikTok — `@cozwecare.id`
+4. WhatsApp — `0822-9255-2915`
+
+## 28.2 Canonical Representation
+
+Canonical Footer Platforms shall be represented as a long horizontal oval/pill component with:
+
+- `1070 px` width;
+- `60 px` height;
+- `5 px` left inset;
+- `5 px` right inset;
+- two canonical layers consisting of Platform Icon and Account Identity;
+- permanent icon-to-account pairing;
+- canonical platform ordering.
+
+## 28.3 Canonical Surface Behavior
+
+On a Royal Blue surface `#0055D4`, the border, platform icons, and account identities shall be White `#FFFFFF`.
+
+On a White surface `#FFFFFF`, the border, platform icons, and account identities shall be Royal Blue `#0055D4`.
+
+The component background shall inherit the underlying surface.
+
+## 28.4 Canonical Production Requirement
+
+Canonical Footer Platforms shall be present in all CWC content production as part of the footer.
+
+## 28.5 Canonical Change
+
+Any modification to a Canonical Locked property shall follow the applicable canonical change mechanism.
+
+Future expansion of platform membership is permitted only through authorized canonical change.
+
+## 28.6 Authority
+
+CWC-CAB defines the canonical identity and locked properties of AS-003.
+
+CWC-CRS governs its visual rendering and production representation.
+
+CWC-CAR governs its canonical object identity and registry representation.
+
+CWC-CAS governs its canonical lifecycle.
+
+## 28.7 Final Status
+
+> 🔒 **AS-003 — CANONICAL FOOTER PLATFORMS — CANONICAL LOCKED**
+
+---
+
+
