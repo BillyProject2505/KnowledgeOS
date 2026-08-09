@@ -2359,3 +2359,276 @@ The **Relationships** section is omitted because no applicable object-to-object 
 The Registry Record therefore contains only applicable information and does not introduce unnecessary empty fields.
 
 ---
+
+# 6.5 Canonical Registry Record #002
+
+## CWC-CAR-AS-002 — Brand Presenter
+
+```text
+====================================================
+
+REGISTRY RECORD
+
+Registry Record Identifier : CWC-CAR-AS-002
+Canonical Object Identifier: CWC-OBJ-000002
+Object Name                : Brand Presenter
+
+----------------------------------------------------
+
+Object Identity
+
+Alternative Name(s)        : -
+Object Type                : Character
+Object Summary             : The canonical Brand Presenter character asset of the Coz We Care ecosystem.
+
+----------------------------------------------------
+
+Classification
+
+Domain                     : Brand
+Category                   : Character Asset
+Type                       : Character
+Subtype                    : Brand Presenter
+
+----------------------------------------------------
+
+Canonical References
+
+Canonical Asset Specification : CWC-CAB-AS-002
+Canonical Reference Sheet      : CWC-CRS-AS-002
+
+----------------------------------------------------
+
+Metadata
+
+Registry Status             : Active
+Registry Record Version     : 1.0
+Registration Date           : 2026-08-09
+Last Updated                : 2026-08-09
+Registry Authority          : CWC-CAR
+Change History              : Initial Registration
+Administrative Notes        : -
+
+====================================================
+
+The Relationships section is omitted because no applicable object-to-object relationship has been established for this Registry Record.
+The Lifecycle field is intentionally omitted because lifecycle authority belongs to CWC-CAS and is not independently assigned by CWC-CAR.
+The Registry Record contains only information appropriate to the CWC-CAR authority boundary and does not duplicate the canonical specification maintained by CWC-CAB or the visual representation maintained by CWC-CRS.
+The canonical artifact pairing is:
+
+CWC-OBJ-000002
+Brand Presenter
+        │
+        ├── CWC-CAR-AS-002
+        │      Registry Record
+        │
+        ├── CWC-CAB-AS-002
+        │      Canonical Asset Specification
+        │
+        └── CWC-CRS-AS-002
+               Canonical Reference Sheet
+
+CWC-CAR remains the authority for object identity, CWC-CAB for canonical specification, CWC-CRS for canonical visual representation, and CWC-CAS for lifecycle.
+
+---
+
+# 6.6 Canonical Registry Record #002 Status
+
+**CWC-CAR-AS-002 — Brand Presenter** is the second registered Canonical Asset Object within CWC-CAR v2.0.
+
+Its identity is anchored permanently to:
+
+```text
+CWC-OBJ-000002
+
+Its Registry Record artifact is identified by:
+CWC-CAR-AS-002
+Its canonical specification is referenced through:
+CWC-CAB-AS-002
+Its authoritative visual representation is referenced through:
+CWC-CRS-AS-002
+The Registry Record establishes the canonical registry identity of the Brand Presenter without duplicating the specification maintained by CWC-CAB or the visual representation maintained by CWC-CRS.
+The canonical relationship is:
+CWC-OBJ-000002
+Brand Presenter
+        │
+        ├── CWC-CAR-AS-002
+        │      Canonical Registry Record
+        │
+        ├── CWC-CAB-AS-002
+        │      Canonical Asset Specification
+        │
+        └── CWC-CRS-AS-002
+               Canonical Reference Sheet
+The three artifacts represent the same Canonical Asset Object while retaining their respective authority boundaries.
+6.7 Registry Record #002 — Authority Boundary
+The Brand Presenter Registry Record maintains a strict separation between registry identity, canonical specification, visual representation, and lifecycle authority.
+The authority model is:
+CWC-CAR
+Object Identity Authority
+        │
+        ▼
+CWC-OBJ-000002
+Brand Presenter
+        │
+        ├── CWC-CAR-AS-002
+        │      Registry Record
+        │
+        ├── CWC-CAB-AS-002
+        │      Canonical Specification
+        │
+        └── CWC-CRS-AS-002
+               Canonical Visual Representation
+               
+CWC-CAS
+Lifecycle Authority
+CWC-CAR is authoritative for the identity of the Canonical Asset Object.
+CWC-CAB is authoritative for the canonical specification of the Brand Presenter.
+CWC-CRS is authoritative for the canonical visual representation.
+CWC-CAS is authoritative for the canonical lifecycle.
+These authority boundaries shall remain independent.
+Accordingly, the CWC-CAR Registry Record shall not reproduce the locked Biological Identity, Facial Identity, Face Geometry, or the supporting CFMS-001 measurement specification defined within CWC-CAB. Those concepts have their authoritative home in the specification layer.
+The canonical principle is:
+One Canonical Asset Object, multiple authoritative artifacts, one identity anchor.
+                    CWC-OBJ-000002
+                    Brand Presenter
+                           │
+          ┌────────────────┼────────────────┐
+          │                │                │
+          ▼                ▼                ▼
+   CWC-CAR-AS-002   CWC-CAB-AS-002   CWC-CRS-AS-002
+      Registry         Specification     Representation
+      Identity
+          │
+          └───────────────┐
+                          ▼
+                       CWC-CAS
+                       Lifecycle
+This structure preserves Single Source of Truth, One Concept, One Home, and the separation of canonical authority across the CWC Canonical Asset System.
+
+---
+
+# 6.8 Registry Record #002 — SSOT Validation
+
+The **Brand Presenter** Registry Record has been reviewed against the **Single Source of Truth (SSOT)** principle.
+
+The Registry Record contains only information whose authoritative home belongs to CWC-CAR.
+
+The following information is therefore retained within the Registry Record:
+
+```text
+Object Identity
+Classification
+Canonical References
+Registry Metadata
+
+The following information is intentionally excluded from the Registry Record:
+Biological Identity
+Facial Identity
+Face Geometry
+Facial Measurement Specification
+Rendering Instructions
+Visual Construction Details
+Production Specifications
+These excluded elements belong to the canonical specification and visual representation layers and shall not be duplicated within CWC-CAR.
+The authority structure remains:
+CWC-CAS
+System / Lifecycle Authority
+        │
+        ├── CWC-CAR
+        │     Object Identity / Registry
+        │
+        ├── CWC-CAB
+        │     Canonical Specification
+        │
+        └── CWC-CRS
+              Canonical Visual Representation
+Therefore, the Registry Record does not duplicate the identity-defining specification maintained by CWC-CAB.
+6.9 Registry Record #002 — Identity Integrity
+The permanent identity of the Brand Presenter is established through:
+Canonical Object Identifier : CWC-OBJ-000002
+Object Name                 : Brand Presenter
+The Registry Record artifact is independently identified as:
+Registry Record Identifier  : CWC-CAR-AS-002
+These identifiers establish two different levels of identity:
+CWC-OBJ-000002
+        │
+        └── Canonical Asset Object
+              Brand Presenter
+
+CWC-CAR-AS-002
+        │
+        └── Registry Record Artifact
+              documenting the object
+The Registry Record Identifier may change only through the applicable artifact-governance mechanism.
+The Canonical Object Identifier shall remain permanently associated with the Brand Presenter.
+Changes to the Registry Record shall therefore not result in a change from:
+CWC-OBJ-000002
+to another Object ID unless a genuinely new Canonical Asset Object is established through the applicable canonical process.
+This preserves the fundamental CWC-CAR principle:
+One Canonical Asset Object, one permanent Canonical Object Identifier.
+6.10 Registry Record #002 — Final Canonical State
+The second Canonical Asset Object registered within CWC-CAR v2.0 is:
+CWC-OBJ-000002
+Brand Presenter
+Its authoritative registry artifact is:
+CWC-CAR-AS-002
+Its canonical specification is:
+CWC-CAB-AS-002
+Its canonical visual representation is:
+CWC-CRS-AS-002
+Its lifecycle authority remains:
+CWC-CAS
+The complete canonical pairing is therefore:
+                         CWC-OBJ-000002
+                         Brand Presenter
+                                │
+             ┌──────────────────┼──────────────────┐
+             │                  │                  │
+             ▼                  ▼                  ▼
+      CWC-CAR-AS-002     CWC-CAB-AS-002     CWC-CRS-AS-002
+         Registry          Specification      Representation
+         Identity
+             │
+             └──────────────────────┐
+                                    ▼
+                                 CWC-CAS
+                              Lifecycle Authority
+The Brand Presenter Registry Record is therefore established as the second Canonical Registry Record of CWC-CAR v2.0.
+Its identity, registry structure, canonical references, and authority boundaries are aligned with the finalized CWC-CAR v2.0 architecture.
+====================================================
+END OF CANONICAL REGISTRY RECORD #002
+CWC-CAR-AS-002 — BRAND PRESENTER
+====================================================
+
+---
+
+
+
+
+
+---
+
+
+
+
+
+---
+
+
+
+
+
+---
+
+
+
+
+
+---
+
+
+
+
+
+---
