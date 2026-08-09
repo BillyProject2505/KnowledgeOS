@@ -91,8 +91,6 @@ The Architecture domain does not redefine the system-wide architecture of the Co
 
 System-wide architectural models and relationships are established by the **CWC-CAS**.
 
----
-
 ## Architectural Boundary
 
 The CWC-CAB operates within, and shall conform to, the system architecture established by the CWC-CAS.
@@ -113,8 +111,6 @@ The following system-level concepts are treated as inherited architectural knowl
 - Canonical Lifecycle
 
 These concepts shall not be independently redefined as CWC-CAB authority.
-
----
 
 ## CAB Specification Architecture
 
@@ -139,8 +135,6 @@ Each domain has a distinct responsibility within the CWC-CAB.
 | **Governance** | Defines governance applicable specifically to CWC-CAB specifications. |
 | **Standards** | Defines standards applicable specifically to CWC-CAB authoring and specification. |
 | **Assets** | Contains the canonical specifications of individual Canonical Assets. |
-
----
 
 ## CAB Knowledge Architecture
 
@@ -169,8 +163,6 @@ Asset-specific knowledge shall remain within the corresponding asset specificati
 
 System-level knowledge shall be referenced rather than duplicated.
 
----
-
 ## Asset Specification Architecture
 
 Every Canonical Asset documented within the CWC-CAB shall be represented as an independent specification unit.
@@ -195,8 +187,6 @@ AS-001
 The identifiers establish traceability between canonical artifacts.
 
 They do not transfer ownership of canonical knowledge between those artifacts.
-
----
 
 ## Specification Ownership
 
@@ -228,8 +218,6 @@ The CWC-CAB is not authoritative for:
 
 These responsibilities remain with their respective authoritative sources.
 
----
-
 ## Specification Traceability
 
 Every canonical asset specification shall remain traceable to its corresponding Canonical Asset Object.
@@ -245,8 +233,6 @@ At minimum, an asset specification shall be capable of identifying:
 The CWC-CAB shall reference the authoritative registration maintained by CWC-CAR and the authoritative visual representation maintained by CWC-CRS.
 
 The CWC-CAB shall not redefine identifiers assigned by CWC-CAR.
-
----
 
 ## Architectural Non-Duplication
 
@@ -270,8 +256,6 @@ The Governance domain defines governance requirements applicable specifically to
 
 Its purpose is to ensure that CAB specifications are created, reviewed, approved, revised, maintained, and released in a controlled and traceable manner.
 
----
-
 ## Governance Authority Boundary
 
 The CWC-CAB does not define or establish the system-wide governance authority of the Coz We Care Canonical Asset System.
@@ -289,8 +273,6 @@ CWC-CAB governance is therefore limited to the governance of:
 - CAB-specific version management;
 - CAB-specific approval;
 - CAB-specific release.
-
----
 
 ## Governance Principles
 
@@ -322,8 +304,6 @@ CWC-CAB shall follow the Canonical Lifecycle established by the CWC-CAS.
 
 CWC-CAB shall not define, modify, or maintain an independent Canonical Lifecycle.
 
----
-
 ## Canonical Lifecycle
 
 The **CWC-CAB follows the Canonical Lifecycle established by the CWC-CAS**.
@@ -335,8 +315,6 @@ All lifecycle states, transitions, lifecycle requirements, and lifecycle governa
 CWC-CAB shall apply the Canonical Lifecycle according to its responsibility as the authoritative specification artifact within the Coz We Care Canonical Asset System.
 
 Any lifecycle change established by CWC-CAS shall be evaluated and adopted by CWC-CAB in accordance with the applicable CWC-CAS requirements.
-
----
 
 ## Canonical Review
 
@@ -358,8 +336,6 @@ Where a review concerns object identity or registry information, it shall defer 
 
 Where a review concerns visual representation, it shall defer to CWC-CRS.
 
----
-
 ## Canonical Revision
 
 Canonical specifications may be modified through an approved Canonical Revision in accordance with the Canonical Lifecycle established by CWC-CAS.
@@ -374,8 +350,6 @@ A revision shall preserve:
 
 A revision shall not create a duplicate Canonical Asset Object or duplicate canonical specification.
 
----
-
 ## CAB Version Management
 
 The CWC-CAB maintains its own document version history.
@@ -387,8 +361,6 @@ A change to CWC-CAB versioning does not automatically change:
 - CWC-CRS versioning.
 
 Each canonical artifact maintains its own document version history while following the Canonical Lifecycle established by CWC-CAS.
-
----
 
 ## Canonical Synchronization
 
@@ -414,8 +386,6 @@ It does not redefine the system-wide synchronization architecture or Canonical L
 
 The Standards domain defines standards specifically applicable to authoring, organizing, maintaining, reviewing, and validating canonical specifications within the CWC-CAB.
 
----
-
 ## Standards Authority Boundary
 
 The available system architecture does not establish a complete authoritative source for all system-wide standards.
@@ -425,8 +395,6 @@ Therefore, CWC-CAB shall not create or claim ownership of system-wide standards 
 This section defines only standards that govern the CWC-CAB itself.
 
 System-level standards shall be inherited when an authoritative source is established.
-
----
 
 ## CAB Standard Classification
 
@@ -439,8 +407,6 @@ CAB-specific standards are organized into the following categories.
 | **Quality Standards** | Define requirements for specification quality and consistency. |
 | **Reference Standards** | Define how CAB specifications correspond to authoritative visual references. |
 | **Revision Standards** | Define requirements for controlled modification of CAB specifications. |
-
----
 
 ## Standard Inheritance
 
@@ -458,8 +424,6 @@ Authoritative System-Level Standards
 
 Where a system-level standard has not yet been assigned an authoritative source, CWC-CAB shall not invent or infer such a standard.
 
----
-
 ## Standard Ownership
 
 Every CAB-specific standard shall have one authoritative home within the CWC-CAB.
@@ -468,8 +432,6 @@ System-level standards shall remain outside CWC-CAB when their authoritative own
 
 No standard shall be maintained as two competing authoritative definitions.
 
----
-
 ## Standard Compliance
 
 Every Canonical Asset specification shall comply with all applicable CAB standards.
@@ -477,8 +439,6 @@ Every Canonical Asset specification shall comply with all applicable CAB standar
 Compliance shall be evaluated during Canonical Review.
 
 Where an applicable system-level standard exists, compliance shall also be evaluated against that authoritative standard.
-
----
 
 ## Standard Evolution
 
@@ -507,8 +467,6 @@ Each asset is documented as an independent canonical specification unit while in
 
 The Assets domain defines **how each asset is specified**.
 
----
-
 ## Asset Organization
 
 Every Canonical Asset shall be documented as an independent asset unit within the CWC-CAB.
@@ -524,8 +482,6 @@ Assets
 ```
 
 The authoritative registration of each Canonical Asset Object remains within CWC-CAR.
-
----
 
 ## Asset Specification Unit
 
@@ -548,8 +504,6 @@ CWC-CRS-AS-001
 
 These identifiers provide cross-artifact traceability without merging the responsibilities of CAR, CAB, and CRS.
 
----
-
 ## Asset Independence
 
 Each Canonical Asset is an independent specification unit.
@@ -564,8 +518,6 @@ An asset shall:
 - evolve through the Canonical Lifecycle established by CWC-CAS.
 
 A change to one asset shall not implicitly modify another asset unless an explicit canonical relationship requires evaluation.
-
----
 
 ## Asset Specification Structure
 
@@ -582,8 +534,6 @@ The exact section hierarchy may vary according to asset type, but each asset spe
 
 Universal system knowledge shall not be duplicated within individual asset specifications.
 
----
-
 ## Asset Relationships
 
 Canonical Assets may maintain explicit relationships with other assets.
@@ -598,8 +548,6 @@ Asset relationships shall:
 The CWC-CAB shall document the asset-specific implications of relationships.
 
 The system-wide architecture governing those relationships remains under the applicable system-level authority.
-
----
 
 ## Asset Authoring Principles
 
@@ -616,8 +564,6 @@ Every asset specification shall follow the following principles.
 - Specification Integrity
 - Traceability
 - Canonical Lifecycle Inheritance
-
----
 
 ## Asset Registry Reference
 
@@ -640,8 +586,6 @@ Asset Specification
 
 The Registry Identifier is not redefined by the CWC-CAB.
 
----
-
 ## Asset Reference Relationship
 
 Each CWC-CAB asset specification shall maintain a reference to the corresponding authoritative visual representation maintained by **CWC-CRS**.
@@ -659,8 +603,6 @@ The CWC-CAB defines the canonical specification.
 
 The CWC-CRS documents the authoritative visual representation of that specification.
 
----
-
 ## Asset Specification Completeness
 
 A Canonical Asset specification shall contain sufficient information to allow the asset to be:
@@ -672,8 +614,6 @@ A Canonical Asset specification shall contain sufficient information to allow th
 - represented through its corresponding Reference Sheet.
 
 Completeness shall be evaluated according to the applicable asset type, CAB standards, and Canonical Lifecycle established by CWC-CAS.
-
----
 
 ## Asset Objective
 
@@ -703,8 +643,6 @@ No knowledge domain identified as **Authority Not Yet Established** shall be fil
 The CWC-CAB shall follow the authority of CWC-CAS for all system-level architectural and lifecycle requirements.
 
 ---
-
----
 document_identifier: CWC-CAB-AS-001
 registry_identifier: CWC-CAR-AS-001
 crs_document_identifier: CWC-CRS-AS-001
@@ -720,6 +658,8 @@ version: 1.0
 language: American English
 ---
 
+---
+
 # Official Brand Logo
 
 > **Canonical Asset Specification**
@@ -731,8 +671,6 @@ language: American English
 > **CWC-CRS Document Identifier:** `CWC-CRS-AS-001`
 >
 > **Status:** Canonically Locked
-
----
 
 ## Document Identity
 
@@ -750,8 +688,6 @@ language: American English
 | **Status** | Canonically Locked |
 | **Language** | American English |
 
----
-
 ## Registry Reference
 
 The **Official Brand Logo** is a registered Canonical Asset Object within the Coz We Care Canonical Asset System.
@@ -765,8 +701,6 @@ The **Official Brand Logo** is a registered Canonical Asset Object within the Co
 CWC-CAB does not redefine the Canonical Asset Object identity or Registry Identifier.
 
 The authoritative registration is maintained by CWC-CAR.
-
----
 
 ## Canonical Definition
 
@@ -861,8 +795,6 @@ These topics are governed by their respective sections or canonical artifacts.
 | **Canonical Components** | Defines the canonical structural components of the logo |
 | **CWC-CRS-AS-001** | Provides the authoritative visual reference |
 
----
-
 ## Canonical Components
 
 | Field | Value |
@@ -878,8 +810,6 @@ These topics are governed by their respective sections or canonical artifacts.
 This section defines the canonical structural components of the **Official Brand Logo**.
 
 It identifies every permanent visual component that constitutes the Official Brand Logo and establishes how these components collectively form a single inseparable canonical asset.
-
----
 
 ### Canonical Components
 
@@ -898,8 +828,6 @@ None of the components shall be interpreted, implemented, or governed as indepen
 
 The canonical identity of the Official Brand Logo exists only when these components are presented together according to the specifications defined within this Canonical Asset Bible.
 
----
-
 ### Component Relationships
 
 The canonical components maintain fixed structural relationships with one another.
@@ -915,8 +843,6 @@ The relationships between components are defined through:
 
 The detailed specifications governing these relationships are defined in the **Canonical Geometry** section.
 
----
-
 ### Canonical Exclusions
 
 The following elements are **not** part of the Official Brand Logo.
@@ -931,8 +857,6 @@ The following elements are **not** part of the Official Brand Logo.
 | `BLG-EXC-006` | Mockup Elements | 🔒 |
 | `BLG-EXC-007` | Contextual Graphics | 🔒 |
 
----
-
 ### Canonical Composition Rules
 
 The Official Brand Logo shall consist exclusively of the canonical identity elements defined above.
@@ -942,8 +866,6 @@ No additional visual element shall become part of the logo asset unless approved
 Presentation surfaces, documentation backgrounds, production mockups, and contextual graphics shall never be interpreted as intrinsic components of the Official Brand Logo.
 
 The HIV Awareness Ribbon shall always be treated as an integral component of the letter **A** within the word **CARE**, and shall never be separated, repositioned, or replaced.
-
----
 
 ### Identity Preservation
 
@@ -957,8 +879,6 @@ The following composition characteristics shall remain invariant.
 | CARE Fixed Identity | 🔒 |
 | Ribbon Integrated into Letter A | 🔒 |
 | Canonical Exclusions | 🔒 |
-
----
 
 ### Canonical Boundaries
 
@@ -975,8 +895,6 @@ It does not define:
 
 These topics are governed by their respective sections or canonical artifacts.
 
----
-
 ### Cross References
 
 | Reference | Purpose |
@@ -986,8 +904,6 @@ These topics are governed by their respective sections or canonical artifacts.
 | **Canonical Color Specification** | Defines the official colors of each canonical component. |
 | **Canonical Geometry** | Defines the structural relationships between the canonical components. |
 | **CWC-CRS-AS-001** | Provides the authoritative visual representation of every canonical component. |
-
----
 
 ## Canonical Color Specification
 
@@ -999,8 +915,6 @@ These topics are governed by their respective sections or canonical artifacts.
 | **Reference Sheet** | `CWC-CRS-AS-001` |
 | **Inheritance** | CWC-CAB Foundation Standards |
 
----
-
 ## Purpose
 
 This section defines the canonical color specification of the **Official Brand Logo**.
@@ -1008,8 +922,6 @@ This section defines the canonical color specification of the **Official Brand L
 It establishes the official color system, color assignment, adaptive behavior, and color preservation requirements that collectively form part of the permanent identity of the Official Brand Logo.
 
 All color specifications defined in this section are authoritative and shall be preserved across every approved implementation.
-
----
 
 ## Canonical Principles
 
@@ -1020,8 +932,6 @@ The color system of the Official Brand Logo shall comply with the following prin
 - Color consistency shall be preserved across all approved implementations.
 - Approved adaptations shall preserve recognizability.
 - No unofficial colors shall be introduced.
-
----
 
 ## Canonical Color Specification
 
@@ -1036,8 +946,6 @@ The color system of the Official Brand Logo shall comply with the following prin
 | **Adaptive Usage** | May be replaced by **White** on approved dark backgrounds. |
 | **Restrictions** | Shall not be substituted with any other shade of blue. |
 
----
-
 ### White
 
 | Field | Value |
@@ -1048,8 +956,6 @@ The color system of the Official Brand Logo shall comply with the following prin
 | **Primary Usage** | Alternative color of the **COZ** wordmark on approved dark backgrounds. |
 | **Adaptive Usage** | Used only for approved negative applications. |
 | **Restrictions** | Shall not replace the canonical colors of the **WE** or **CARE** wordmarks. |
-
----
 
 ### Yellow
 
@@ -1062,8 +968,6 @@ The color system of the Official Brand Logo shall comply with the following prin
 | **Adaptive Usage** | No alternative color is permitted beyond the adaptive color behavior explicitly defined in the Canonical Adaptive Identity specification. |
 | **Restrictions** | Shall not be replaced with any other yellow tone. |
 
----
-
 ### Red
 
 | Field | Value |
@@ -1075,8 +979,6 @@ The color system of the Official Brand Logo shall comply with the following prin
 | **Adaptive Usage** | No alternative color is permitted beyond the adaptive color behavior explicitly defined in the Canonical Adaptive Identity specification. |
 | **Restrictions** | Shall not be replaced with any other red tone. |
 
----
-
 ## Canonical Color Tokens
 
 | Token | Color Name | HEX | RGB | Canonical Usage | Reference | Status |
@@ -1085,8 +987,6 @@ The color system of the Official Brand Logo shall comply with the following prin
 | `CWC-CLR-002` | White | `#FFFFFF` | `255, 255, 255` | Adaptive COZ | `CLR-002` | 🔒 |
 | `CWC-CLR-003` | Yellow | `#FFD400` | `255, 212, 0` | WE Wordmark | `CLR-003` | 🔒 |
 | `CWC-CLR-004` | Red | `#E31C23` | `227, 28, 35` | CARE Wordmark & HIV Awareness Ribbon | `CLR-004` | 🔒 |
-
----
 
 ## Canonical Color Rules
 
@@ -1114,8 +1014,6 @@ No additional color variations are approved.
 
 No alternative color is permitted beyond the adaptive color behavior explicitly defined in the Canonical Adaptive Identity specification.
 
----
-
 ## Color Assignment
 
 | Identity Element | Canonical Color Token | Status |
@@ -1124,8 +1022,6 @@ No alternative color is permitted beyond the adaptive color behavior explicitly 
 | WE | `CWC-CLR-003` | 🔒 |
 | CARE | `CWC-CLR-004` | 🔒 |
 | HIV Awareness Ribbon | `CWC-CLR-004` | 🔒 |
-
----
 
 ## Identity Preservation
 
@@ -1140,8 +1036,6 @@ The following color characteristics shall remain invariant.
 | Canonical Color Assignment | 🔒 |
 | Canonical Color Token Integrity | 🔒 |
 
----
-
 ## Relationship
 
 This section provides the canonical color foundation inherited by:
@@ -1154,8 +1048,6 @@ All future implementations shall preserve the canonical color specification defi
 
 The Canonical Adaptive Identity section defines the only approved adaptive color behavior.
 
----
-
 ## Canonical Pairing
 
 Every Canonical Color Token defined in this specification shall correspond to the applicable annotated color reference within:
@@ -1163,8 +1055,6 @@ Every Canonical Color Token defined in this specification shall correspond to th
 **CWC-CRS-AS-001**
 
 The Canonical Reference Sheet serves as the authoritative visual representation of the canonical color assignments.
-
----
 
 ## Canonical Boundaries
 
@@ -1190,8 +1080,6 @@ This section defines only the canonical color system of the Official Brand Logo.
 
 These topics are governed by their respective sections or canonical artifacts.
 
----
-
 ## Cross References
 
 | Reference | Purpose |
@@ -1204,8 +1092,6 @@ These topics are governed by their respective sections or canonical artifacts.
 | **Implementation Requirements** | Defines implementation requirements for preserving canonical color specifications. |
 | **CWC-CRS-AS-001** | Provides the authoritative visual representation of the canonical color assignments. |
 
----
-
 ## Canonical Geometry
 
 | Field | Value |
@@ -1216,8 +1102,6 @@ These topics are governed by their respective sections or canonical artifacts.
 | **Reference Sheet** | `CWC-CRS-AS-001` |
 | **Inheritance** | CWC-CAB Foundation Standards |
 
----
-
 ## Purpose
 
 This section defines the canonical intrinsic geometry of the **Official Brand Logo**.
@@ -1225,8 +1109,6 @@ This section defines the canonical intrinsic geometry of the **Official Brand Lo
 It establishes the geometric properties, scaling behavior, distortion restrictions, and preservation requirements that maintain the structural integrity of the canonical logo.
 
 The intrinsic geometry of the Official Brand Logo is fixed and shall remain invariant across all approved implementations.
-
----
 
 ## Canonical Principles
 
@@ -1238,8 +1120,6 @@ The intrinsic geometry shall comply with the following principles:
 - The internal proportions of the logo shall remain unchanged.
 - No geometric distortion is permitted.
 - No transformation may alter the canonical component relationships.
-
----
 
 ## Canonical Geometry Specification
 
@@ -1253,8 +1133,6 @@ The intrinsic geometry shall comply with the following principles:
 | `BLG-GEO-006` | Cropping | Not Permitted | `GEO-006` | 🔒 |
 | `BLG-GEO-007` | Mirroring | Not Permitted | `GEO-007` | 🔒 |
 | `BLG-GEO-008` | Perspective Distortion | Not Permitted | `GEO-008` | 🔒 |
-
----
 
 ## Geometric Preservation
 
@@ -1270,8 +1148,6 @@ Every implementation shall preserve:
 
 Any transformation that changes these characteristics is non-canonical.
 
----
-
 ## Scaling Rules
 
 The Official Brand Logo may be scaled only through **uniform scaling**.
@@ -1285,8 +1161,6 @@ The aspect ratio shall remain:
 **`0.83 : 1`**
 
 at every approved scale.
-
----
 
 ## Prohibited Geometric Transformations
 
@@ -1316,8 +1190,6 @@ Perspective transformations shall not be applied to the logo.
 
 No transformation shall alter the relative proportions, alignment, or relationships between the canonical components.
 
----
-
 ## Identity Preservation
 
 The following geometric characteristics shall remain invariant:
@@ -1335,8 +1207,6 @@ The following geometric characteristics shall remain invariant:
 | No Mirroring | 🔒 |
 | No Perspective Distortion | 🔒 |
 
----
-
 ## Relationship
 
 The intrinsic geometry defined in this section provides the geometric foundation for:
@@ -1350,8 +1220,6 @@ The intrinsic geometry defined in this section provides the geometric foundation
 
 The display dimensions defined in **Canonical Display Geometry** describe the approved presentation of the asset and do not replace or alter its intrinsic geometry.
 
----
-
 ## Canonical Pairing
 
 Each canonical geometry property shall correspond to the applicable geometry reference or annotation within:
@@ -1359,8 +1227,6 @@ Each canonical geometry property shall correspond to the applicable geometry ref
 **CWC-CRS-AS-001**
 
 The Reference Sheet provides the authoritative visual representation of the geometric properties defined by this specification.
-
----
 
 ## Canonical Boundaries
 
@@ -1391,8 +1257,6 @@ This section defines the **intrinsic geometry** of the Official Brand Logo.
 
 These topics are governed by their respective sections or canonical artifacts.
 
----
-
 ## Cross References
 
 | Reference | Purpose |
@@ -1406,8 +1270,6 @@ These topics are governed by their respective sections or canonical artifacts.
 | **Implementation Requirements** | Defines implementation requirements for preserving canonical geometry. |
 | **CWC-CRS-AS-001** | Provides the authoritative visual representation of the canonical geometry. |
 
----
-
 ## Canonical Adaptive Identity
 
 | Field | Value |
@@ -1418,8 +1280,6 @@ These topics are governed by their respective sections or canonical artifacts.
 | **Reference Sheet** | `CWC-CRS-AS-001` |
 | **Inheritance** | CWC-CAB Foundation Standards |
 
----
-
 ## Purpose
 
 This section defines the canonical adaptive identity behavior of the **Official Brand Logo**.
@@ -1429,8 +1289,6 @@ It establishes which identity components may adapt to approved presentation surf
 Adaptive behavior exists only to preserve visibility and recognizability while maintaining the canonical identity of the Official Brand Logo.
 
 Adaptive behavior shall never create an unofficial logo variant.
-
----
 
 ## Canonical Principles
 
@@ -1445,8 +1303,6 @@ The Canonical Adaptive Identity shall comply with the following principles:
 - No adaptive behavior may be inferred beyond the explicitly approved rules.
 - No additional color variations are approved.
 
----
-
 ## Canonical Adaptive Identity Specification
 
 | Property ID | Identity Element | Adaptive | Canonical Behavior | Reference | Status |
@@ -1455,8 +1311,6 @@ The Canonical Adaptive Identity shall comply with the following principles:
 | `BLG-AIR-002` | WE | No | Remains Yellow. | `AIR-002` | 🔒 |
 | `BLG-AIR-003` | CARE | No | Remains Red. | `AIR-003` | 🔒 |
 | `BLG-AIR-004` | HIV Awareness Ribbon | No | Remains Red. | `AIR-004` | 🔒 |
-
----
 
 ## Approved Surface Rendering Matrix
 
@@ -1470,8 +1324,6 @@ The surface rendering matrix defines the complete approved adaptive behavior of 
 Only **COZ** is adaptive.
 
 WE, CARE, and the HIV Awareness Ribbon remain fixed.
-
----
 
 ## Adaptive Rules
 
@@ -1508,8 +1360,6 @@ The HIV Awareness Ribbon shall remain:
 
 No adaptive color behavior is permitted.
 
----
-
 ## Adaptive Identity Preservation
 
 Adaptive behavior shall preserve:
@@ -1533,8 +1383,6 @@ Adaptive behavior shall never:
 - create monochrome variants;
 - introduce unapproved surface-specific versions.
 
----
-
 ## No Additional Adaptive Variations
 
 Only the adaptive behavior explicitly defined in this section is approved.
@@ -1554,8 +1402,6 @@ No alternative color system may be inferred from:
 
 The canonical adaptive identity is closed to interpretation beyond the rules defined in this section.
 
----
-
 ## Identity Preservation
 
 | Property | Status |
@@ -1568,8 +1414,6 @@ The canonical adaptive identity is closed to interpretation beyond the rules def
 | Canonical Color Preservation | 🔒 |
 | Canonical Geometry Preservation | 🔒 |
 | No Additional Adaptive Variations | 🔒 |
-
----
 
 ## Relationship
 
@@ -1586,8 +1430,6 @@ The Canonical Adaptive Identity provides the adaptive foundation for:
 - Canonical Usage Rules
 - Implementation Requirements
 
----
-
 ## Canonical Pairing
 
 Each adaptive identity property shall correspond to the applicable adaptive identity reference or annotation within:
@@ -1595,8 +1437,6 @@ Each adaptive identity property shall correspond to the applicable adaptive iden
 **CWC-CRS-AS-001**
 
 The Canonical Reference Sheet provides the authoritative visual representation of the approved adaptive behavior.
-
----
 
 ## Canonical Boundaries
 
@@ -1622,8 +1462,6 @@ The Canonical Reference Sheet provides the authoritative visual representation o
 
 These topics are governed by their respective sections or authoritative canonical systems.
 
----
-
 ## Cross References
 
 | Reference | Purpose |
@@ -1637,8 +1475,6 @@ These topics are governed by their respective sections or authoritative canonica
 | **Implementation Requirements** | Defines requirements for implementing adaptive behavior. |
 | **CWC-CRS-AS-001** | Provides the authoritative visual representation of approved adaptive identity behavior. |
 
----
-
 ## Canonical Display Geometry
 
 | Field | Value |
@@ -1649,8 +1485,6 @@ These topics are governed by their respective sections or authoritative canonica
 | **Reference Sheet** | `CWC-CRS-AS-001` |
 | **Inheritance** | CWC-CAB Foundation Standards |
 
----
-
 ## Purpose
 
 This section defines the canonical display geometry of the **Official Brand Logo** on the Canonical Reference Canvas.
@@ -1658,8 +1492,6 @@ This section defines the canonical display geometry of the **Official Brand Logo
 Display Geometry specifies the canonical placement, display size, and anchor position of the Official Brand Logo within the standard production canvas.
 
 These specifications ensure consistent visual placement across all official Coz We Care communication assets. :contentReference[oaicite:0]{index=0}
-
----
 
 ## Canonical Definition
 
@@ -1684,8 +1516,6 @@ These specifications ensure consistent visual placement across all official Coz 
 
 These values define the canonical placement of the Official Brand Logo on the Canonical Reference Canvas. 
 
----
-
 ## Canonical Principles
 
 The Canonical Display Geometry shall comply with the following principles:
@@ -1696,8 +1526,6 @@ The Canonical Display Geometry shall comply with the following principles:
 - Fixed Display Specification
 
 These principles preserve the canonical placement of the Official Brand Logo across all official productions. :contentReference[oaicite:2]{index=2}
-
----
 
 ## Canonical Rules
 
@@ -1720,8 +1548,6 @@ The Official Brand Logo shall never:
 - modify the canonical offsets;
 - reposition the logo outside the Canonical Display Specification.
 
----
-
 ## Identity Preservation
 
 The following display characteristics shall remain invariant:
@@ -1735,8 +1561,6 @@ The following display characteristics shall remain invariant:
 | Vertical Offset | 🔒 |
 | Fixed Display Specification | 🔒 |
 
----
-
 ## Relationship
 
 This section provides the canonical display foundation for:
@@ -1747,8 +1571,6 @@ This section provides the canonical display foundation for:
 
 The display geometry defined here does not alter the intrinsic geometry of the Official Brand Logo.
 
----
-
 ## Canonical Pairing
 
 The canonical display geometry shall correspond to the applicable visual reference and annotations within:
@@ -1756,8 +1578,6 @@ The canonical display geometry shall correspond to the applicable visual referen
 **CWC-CRS-AS-001**
 
 The Canonical Reference Sheet provides the authoritative visual representation of the canonical display geometry.
-
----
 
 ## Canonical Boundaries
 
@@ -1781,8 +1601,6 @@ The Canonical Reference Sheet provides the authoritative visual representation o
 
 These topics are governed by their respective sections or canonical artifacts. :contentReference[oaicite:3]{index=3}
 
----
-
 ## Cross References
 
 | Reference | Purpose |
@@ -1794,8 +1612,6 @@ These topics are governed by their respective sections or canonical artifacts. :
 | **Implementation Requirements** | Defines implementation requirements for preserving canonical display geometry. |
 | **CWC-CRS-AS-001** | Provides the authoritative visual representation of the canonical display geometry. |
 
----
-
 ## Canonical Measurement Protocol
 
 | Field | Value |
@@ -1806,8 +1622,6 @@ These topics are governed by their respective sections or canonical artifacts. :
 | **Reference Sheet** | `CWC-CRS-AS-001` |
 | **Inheritance** | CWC-CAB Foundation Standards |
 
----
-
 ## Purpose
 
 This section defines the canonical measurement methodology for the **Official Brand Logo**.
@@ -1815,8 +1629,6 @@ This section defines the canonical measurement methodology for the **Official Br
 The Canonical Measurement Protocol establishes the standardized procedure for obtaining, validating, and reproducing canonical measurements of the Official Brand Logo.
 
 This protocol ensures that all canonical measurements are performed consistently and remain reproducible across all future implementations. :contentReference[oaicite:4]{index=4}
-
----
 
 ## Canonical Definition
 
@@ -1841,8 +1653,6 @@ The following protocol constitutes the canonical measurement methodology:
 6. All measurements shall be recorded using pixels (`px`).
 7. Only Canonically Approved Measurements may modify this specification. :contentReference[oaicite:5]{index=5}
 
----
-
 ## Canonical Principles
 
 The Canonical Measurement Protocol shall comply with the following principles:
@@ -1854,8 +1664,6 @@ The Canonical Measurement Protocol shall comply with the following principles:
 - Canonical Measurement Integrity
 
 These principles preserve the consistency and reproducibility of every canonical measurement. :contentReference[oaicite:6]{index=6}
-
----
 
 ## Canonical Rules
 
@@ -1879,23 +1687,17 @@ Canonical measurements shall never:
 - use non-canonical measurement units;
 - modify canonical measurements without Canonical Governance. :contentReference[oaicite:7]{index=7}
 
----
-
 ## Measurement Consistency
 
 All canonical measurements shall be obtained using the same measurement reference, unit, and methodology defined in this section.
 
 Measurements shall describe the transparent Official Brand Logo artwork and shall not incorporate presentation surfaces or contextual elements.
 
----
-
 ## Measurement Reproducibility
 
 The canonical measurement methodology shall produce reproducible results across approved implementations.
 
 The same reference canvas, coordinate origin, measurement unit, and transparent artwork boundary shall be used whenever canonical measurements are obtained.
-
----
 
 ## Transparent Asset Measurement
 
@@ -1904,8 +1706,6 @@ The presentation background shall never be considered part of the measurement su
 Only the visible transparent logo artwork shall be measured.
 
 The Display Box shall tightly enclose the visible logo artwork.
-
----
 
 ## Reference-Based Measurement
 
@@ -1919,15 +1719,11 @@ The coordinate origin shall be:
 
 Measurements shall be expressed in pixels.
 
----
-
 ## Canonical Measurement Integrity
 
 Canonical measurements are part of the canonical specification and shall remain unchanged unless modified through the applicable Canonical Governance process.
 
 No implementation may independently redefine, approximate, or replace a canonical measurement.
-
----
 
 ## Identity Preservation
 
@@ -1943,8 +1739,6 @@ The following measurement characteristics shall remain invariant:
 | Measurement Reproducibility | 🔒 |
 | Canonical Measurement Integrity | 🔒 |
 
----
-
 ## Relationship
 
 This section provides the canonical measurement foundation inherited by:
@@ -1955,8 +1749,6 @@ This section provides the canonical measurement foundation inherited by:
 
 The measurement protocol does not redefine the display values or intrinsic geometry. It defines how those canonical specifications are measured and validated.
 
----
-
 ## Canonical Pairing
 
 The canonical measurement properties shall correspond to the applicable measurement references or annotations within:
@@ -1964,8 +1756,6 @@ The canonical measurement properties shall correspond to the applicable measurem
 **CWC-CRS-AS-001**
 
 The Canonical Reference Sheet provides the authoritative visual reference for the canonical measurements.
-
----
 
 ## Canonical Boundaries
 
@@ -1991,8 +1781,6 @@ The Canonical Reference Sheet provides the authoritative visual reference for th
 
 These topics are governed by their respective sections or canonical artifacts. :contentReference[oaicite:8]{index=8}
 
----
-
 ## Cross References
 
 | Reference | Purpose |
@@ -2004,8 +1792,6 @@ These topics are governed by their respective sections or canonical artifacts. :
 | **Implementation Requirements** | Defines implementation requirements for preserving measurement integrity. |
 | **CWC-CRS-AS-001** | Provides the authoritative visual reference for canonical measurements. |
 
----
-
 ## Canonical Usage Rules
 
 | Field | Value |
@@ -2016,8 +1802,6 @@ These topics are governed by their respective sections or canonical artifacts. :
 | **Reference Sheet** | `CWC-CRS-AS-001` |
 | **Inheritance** | CWC-CAB Foundation Standards |
 
----
-
 ## Purpose
 
 This section defines the canonical usage requirements for the **Official Brand Logo**.
@@ -2025,8 +1809,6 @@ This section defines the canonical usage requirements for the **Official Brand L
 The purpose of these rules is to ensure that every use of the Official Brand Logo preserves its canonical identity, composition, color, geometry, adaptive identity, and visual integrity.
 
 These requirements apply to all approved uses of the Official Brand Logo across Coz We Care communication and production environments.
-
----
 
 ## Canonical Principles
 
@@ -2039,8 +1821,6 @@ The Official Brand Logo shall be used according to the following principles:
 - **Canonical Compliance**
 
 Every approved use shall preserve the defining characteristics established by the canonical specification.
-
----
 
 ## Usage Requirements
 
@@ -2057,8 +1837,6 @@ The Official Brand Logo shall:
 - maintain visual recognizability;
 - remain consistent with the authoritative visual representation maintained by CWC-CRS.
 
----
-
 ## Usage Preservation
 
 Every use of the Official Brand Logo shall preserve the following:
@@ -2074,8 +1852,6 @@ Every use of the Official Brand Logo shall preserve the following:
 | Overall Visual Consistency | 🔒 |
 
 The Official Brand Logo shall remain visually identifiable as the same canonical asset regardless of approved implementation context.
-
----
 
 ## Prohibited Usage
 
@@ -2140,8 +1916,6 @@ The following are prohibited:
 - treating contextual graphics as intrinsic logo components;
 - presenting unofficial variants as canonical assets.
 
----
-
 ## Adaptive Usage Rules
 
 Adaptive behavior shall be limited to the rules established in **Canonical Adaptive Identity**.
@@ -2161,8 +1935,6 @@ The following shall remain fixed:
 
 No additional adaptive behavior is permitted.
 
----
-
 ## Display Usage Rules
 
 Where the Official Brand Logo is implemented according to the canonical reference production specification, the following shall be preserved:
@@ -2177,8 +1949,6 @@ Where the Official Brand Logo is implemented according to the canonical referenc
 | **Display Scaling** | Fixed |
 
 Any deviation from these canonical display specifications shall not be treated as canonical usage unless explicitly authorized through the applicable canonical governance process.
-
----
 
 ## Usage Compliance
 
@@ -2195,8 +1965,6 @@ For example:
 
 The Official Brand Logo shall satisfy all applicable canonical requirements simultaneously.
 
----
-
 ## Identity Preservation
 
 The following usage characteristics shall remain invariant:
@@ -2211,8 +1979,6 @@ The following usage characteristics shall remain invariant:
 | Transparent Asset Definition | 🔒 |
 | Visual Recognizability | 🔒 |
 | Canonical Visual Integrity | 🔒 |
-
----
 
 ## Canonical Boundaries
 
@@ -2240,8 +2006,6 @@ The following usage characteristics shall remain invariant:
 
 These topics remain under their respective authoritative systems.
 
----
-
 ## Relationship
 
 This section depends upon and operationalizes:
@@ -2257,8 +2021,6 @@ This section depends upon and operationalizes:
 
 The usage rules do not create new canonical specifications. They define how the existing specifications shall be preserved during use.
 
----
-
 ## Canonical Pairing
 
 Usage compliance shall be evaluated against the canonical specification represented by:
@@ -2272,8 +2034,6 @@ and the authoritative visual representation maintained by:
 The registry identity remains established by:
 
 **CWC-CAR-AS-001**
-
----
 
 ## Cross References
 
@@ -2290,8 +2050,6 @@ The registry identity remains established by:
 | **Implementation Requirements** | Defines requirements for implementing the canonical usage rules. |
 | **CWC-CRS-AS-001** | Provides the authoritative visual representation against which usage may be validated. |
 
----
-
 ## Implementation Requirements
 
 | Field | Value |
@@ -2302,8 +2060,6 @@ The registry identity remains established by:
 | **Reference Sheet** | `CWC-CRS-AS-001` |
 | **Inheritance** | CWC-CAB Foundation Standards |
 
----
-
 ## Purpose
 
 This section defines the canonical implementation requirements for the **Official Brand Logo**.
@@ -2311,8 +2067,6 @@ This section defines the canonical implementation requirements for the **Officia
 It establishes how the canonical specification shall be interpreted, implemented, validated, and preserved across human-operated and AI-assisted production environments.
 
 Implementation shall preserve the canonical identity and shall not introduce characteristics that are not explicitly defined within the canonical specification.
-
----
 
 ## Canonical Principles
 
@@ -2326,8 +2080,6 @@ Implementation of the Official Brand Logo shall comply with the following princi
 - **Specification Integrity**
 
 These principles ensure that implementation remains subordinate to the canonical specification.
-
----
 
 ## AI-First Interpretation
 
@@ -2343,8 +2095,6 @@ AI systems shall prioritize explicit canonical specifications over:
 - learned visual patterns that conflict with the canonical specification.
 
 The AI system shall not infer a characteristic that is not explicitly defined when doing so would alter the canonical identity of the Official Brand Logo.
-
----
 
 ## Explicit Knowledge Preference
 
@@ -2362,8 +2112,6 @@ The implementation shall use the canonical values defined by:
 
 No implementation shall replace an explicit canonical specification with an inferred alternative.
 
----
-
 ## Identity Preservation
 
 Every implementation shall preserve:
@@ -2379,8 +2127,6 @@ Every implementation shall preserve:
 - canonical visual integrity.
 
 The implementation shall produce the same canonical identity regardless of whether the implementation is performed manually or through an AI-assisted workflow.
-
----
 
 ## Deterministic Implementation
 
@@ -2398,8 +2144,6 @@ Deterministic implementation includes:
 
 Implementation shall not introduce unnecessary variation between production instances.
 
----
-
 ## Canonical Compliance
 
 An implementation shall be considered canonical only when it satisfies all applicable requirements of this Canonical Asset Specification.
@@ -2415,8 +2159,6 @@ For example:
 - correct placement does not authorize unauthorized recoloring;
 - approved adaptive behavior does not authorize additional adaptive variations.
 
----
-
 ## Implementation Requirements
 
 Implementation shall:
@@ -2431,8 +2173,6 @@ Implementation shall:
 8. Follow the canonical measurement protocol.
 9. Follow all canonical usage restrictions.
 10. Use the authoritative CWC-CRS representation when visual reference is required.
-
----
 
 ## Canonical Color Implementation
 
@@ -2453,8 +2193,6 @@ The implementation shall not:
 - introduce additional color variations;
 - use CMYK or HSL as canonical color specifications.
 
----
-
 ## Canonical Geometry Implementation
 
 The implementation shall preserve:
@@ -2474,8 +2212,6 @@ The implementation shall not apply:
 - mirroring;
 - perspective distortion.
 
----
-
 ## Adaptive Identity Implementation
 
 Adaptive implementation shall be limited to the approved behavior defined in **Canonical Adaptive Identity**.
@@ -2488,8 +2224,6 @@ Only COZ may adapt between:
 WE, CARE, and the HIV Awareness Ribbon shall remain fixed.
 
 No additional adaptive behavior may be introduced.
-
----
 
 ## Unauthorized Inference
 
@@ -2505,8 +2239,6 @@ Implementation systems shall not infer or create:
 - alternative interpretations of the logo.
 
 When information is not explicitly defined, the implementation shall not invent a new canonical characteristic.
-
----
 
 ## Unauthorized Modification
 
@@ -2525,8 +2257,6 @@ This includes modifications to:
 
 Any modification to the canonical specification shall require the applicable canonical governance process.
 
----
-
 ## Prohibited Implementations
 
 The following shall not be recognized as canonical implementations:
@@ -2542,8 +2272,6 @@ The following shall not be recognized as canonical implementations:
 - implementations containing additional graphical elements;
 - implementations that treat presentation backgrounds as part of the logo.
 
----
-
 # Implementation Requirements
 
 | Field | Value |
@@ -2554,8 +2282,6 @@ The following shall not be recognized as canonical implementations:
 | **Reference Sheet** | `CWC-CRS-AS-001` |
 | **Inheritance** | CWC-CAB Foundation Standards |
 
----
-
 ## Purpose
 
 This section defines the implementation requirements of the **Official Brand Logo**.
@@ -2563,8 +2289,6 @@ This section defines the implementation requirements of the **Official Brand Log
 It establishes the mandatory requirements governing how the Official Brand Logo shall be interpreted, reproduced, implemented, and validated across all implementation environments, including both human-operated workflows and AI-assisted systems.
 
 These requirements ensure that every implementation preserves the complete canonical specification defined within this Canonical Asset Bible.
-
----
 
 ## Canonical Principles
 
@@ -2578,8 +2302,6 @@ The implementation of the Official Brand Logo shall comply with the following pr
 - **Specification Integrity**
 
 These principles ensure that every implementation reproduces the Official Brand Logo consistently and predictably.
-
----
 
 ## Implementation Requirements
 
@@ -2596,8 +2318,6 @@ Every implementation shall satisfy the following requirements:
 
 Implementations shall always prioritize explicit canonical knowledge over inferred behavior.
 
----
-
 ## Implementation Behavior
 
 Every implementation shall be based upon the following implementation behavior:
@@ -2610,8 +2330,6 @@ Every implementation shall be based upon the following implementation behavior:
 - Preserve visual recognizability under every approved implementation context.
 
 No implementation shall infer behavior that is not explicitly defined within this Canonical Asset Bible.
-
----
 
 ## Implementation Preservation
 
@@ -2626,8 +2344,6 @@ Every implementation shall preserve the following canonical characteristics:
 - Canonical Usage Rules.
 
 The implementation process shall preserve the complete canonical identity of the Official Brand Logo from source specification to final output.
-
----
 
 ## Prohibited Implementations
 
@@ -2659,8 +2375,6 @@ The following implementation behaviors are prohibited.
 
 Any implementation that violates these requirements shall be considered non-canonical.
 
----
-
 ## Canonical Validation Requirements
 
 Every completed implementation shall be validated against the authoritative specifications defined within this Canonical Asset Bible.
@@ -2675,8 +2389,6 @@ Validation shall confirm that:
 - implementation satisfies all applicable canonical specifications.
 
 Only validated implementations shall be considered canonical.
-
----
 
 ## Canonical Boundaries
 
@@ -2693,8 +2405,6 @@ It does not define:
 
 These topics are governed by their respective sections.
 
----
-
 ## Cross References
 
 | Reference | Purpose |
@@ -2706,8 +2416,6 @@ These topics are governed by their respective sections.
 | **Canonical Adaptive Identity** | Defines the approved adaptive behaviors available during implementation. |
 | **Canonical Usage Rules** | Defines the operational rules governing implementation. |
 | **CWC-CRS-AS-001** | Provides the authoritative visual reference for implementation validation. |
-
----
 
 # Canonical Pairing
 
@@ -2727,8 +2435,6 @@ It establishes the authoritative relationships between the Canonical Asset Regis
 
 Together, these artifacts constitute the complete canonical definition of the Official Brand Logo.
 
----
-
 ## Canonical Principles
 
 Canonical Pairing shall comply with the following principles:
@@ -2741,8 +2447,6 @@ Canonical Pairing shall comply with the following principles:
 - **Canonical Traceability**
 
 These principles preserve the consistency and integrity of the Official Brand Logo throughout its canonical lifecycle.
-
----
 
 ## Canonical Pairing
 
@@ -2757,8 +2461,6 @@ The Official Brand Logo is represented by the following synchronized canonical a
 These three artifacts collectively represent a single Canonical Asset Object.
 
 Each artifact has an independent authoritative responsibility and shall not assume the primary responsibility assigned to another artifact.
-
----
 
 ## Canonical Synchronization
 
@@ -2775,8 +2477,6 @@ Any revision affecting one canonical artifact shall be evaluated for its impact 
 
 Synchronization shall preserve consistency without creating duplicate authoritative ownership.
 
----
-
 ## Canonical Traceability
 
 Every canonical specification defined within this Canonical Asset Bible shall be traceable to its corresponding visual representation within the Canonical Reference Sheet.
@@ -2786,8 +2486,6 @@ Likewise, every visual element represented within the Canonical Reference Sheet 
 The Canonical Asset Registry shall provide the authoritative identity and registration information supporting both artifacts.
 
 This bidirectional traceability ensures that canonical identity, canonical specification, and canonical representation remain consistently linked.
-
----
 
 ## Canonical Authority
 
@@ -2800,8 +2498,6 @@ Each canonical artifact has a distinct responsibility.
 No canonical artifact shall duplicate the primary authoritative responsibility of another artifact.
 
 Together, these artifacts provide the complete canonical representation of the Official Brand Logo within their respective authority boundaries.
-
----
 
 ## One Concept, One Home
 
@@ -2910,8 +2606,6 @@ Changes to locked canonical identity properties require the applicable Canonical
 
 The numerical measurement layer `CFMS-001` remains an **Evidence-Validated Candidate** supporting identity preservation and quality assurance. Its candidate status does not prevent the canonical asset identity itself from being locked.
 
----
-
 # 2. Registry Reference
 
 | Registry Field | Canonical Value |
@@ -2970,8 +2664,6 @@ CWC-CAR manages the canonical object identity.
 CWC-CAS governs the canonical lifecycle.
 No authority may be transferred between these systems through ordinary asset specification editing.
 
----
-
 # 3. Canonical Biological Identity
 
 ## 3.1 Purpose
@@ -3025,8 +2717,6 @@ Their locked status is preserved in CWC-CAB v4.0.
 
 The refactoring does not retroactively alter their historical status.
 
----
-
 # 4. Canonical Identity Invariance
 
 The following rule applies to the biological identity layer:
@@ -3047,8 +2737,6 @@ Canonical Biological Identity
 Approved Rendering Variations
 
 Any proposed change to a locked biological identity characteristic shall follow the applicable Canonical Change Request process.
-
----
 
 # 5. Canonical Facial Identity
 
@@ -3077,8 +2765,6 @@ These characteristics collectively establish the recognizable facial identity of
 > **The Brand Presenter shall remain recognizably consistent with the canonical facial identity defined by this specification across all approved representations.**
 
 Rendering variation shall not redefine the underlying facial identity.
-
----
 
 # 6. Canonical Face Geometry
 
@@ -3178,8 +2864,6 @@ The chin shall maintain a smooth structural relationship with the jawline and ov
 
 **Status:** 🔒 Canonical Locked
 
----
-
 # 7. Face Geometry Preservation Rules
 
 1. All locked Face Geometry properties shall remain invariant across approved representations.
@@ -3188,8 +2872,6 @@ The chin shall maintain a smooth structural relationship with the jawline and ov
 4. Camera perspective, head rotation, facial expression, and rendering treatment may affect visual appearance but shall not be interpreted as permission to alter canonical geometry.
 5. Numerical measurements in CFMS-001 support Face Geometry preservation but do not replace the canonical CFG properties.
 6. Face Geometry remains an identity layer and is therefore distinct from rendering specification.
-
----
 
 # 8. Face Geometry and Numerical Measurement Separation
 
@@ -3220,8 +2902,6 @@ Canonical Facial Measurement Specification
 
 The numerical layer shall not replace, redefine, or renumber the canonical Face Geometry properties.
 
----
-
 # 9. Historical Status Preservation
 
 The source architecture established:
@@ -3231,8 +2911,6 @@ The v4.0 refactoring preserves this historical distinction while documenting the
 Therefore:
 The v4.0 Locked status of CFG-002–CFG-007 represents a later canonical promotion and does not imply that those properties were already locked in the earlier CAB version.
 This distinction is retained for canonical traceability.
-
----
 
 # 10. Canonical Facial Measurement Specification
 
@@ -3264,8 +2942,6 @@ Normalized Facial Height = 100.00 units
 All proportional measurements are expressed relative to this normalized reference unless otherwise specified.
 The normalized unit is a reference-image measurement scale and does not represent millimeters, centimeters, or another physical unit.
 
----
-
 # 11. Canonical Facial Measurement Baseline
 
 Measurement	Baseline	Observed Reference Range	Status
@@ -3286,8 +2962,6 @@ visual consistency assessment;
 identity drift detection;
 quality assurance.
 They are not intended to function as rigid construction coordinates for every rendered representation.
-
----
 
 12. Facial Measurement Landmark Framework
 
@@ -3323,8 +2997,6 @@ L-20  Right Mouth Corner
 These landmarks establish the measurement framework.
 They do not constitute separate canonical identity properties and shall not be interpreted as additional CFG identifiers.
 
----
-
 # 13. Measurement Classification
 
 Each numerical measurement is classified according to its evidentiary function.
@@ -3341,8 +3013,6 @@ Biological Anthropometric Measurement: No
 Therefore:
 CFMS-001 shall not be represented as biological anthropometric truth.
 
----
-
 # 14. Measurement Tolerance Policy
 
 Observed reference ranges are not automatically production tolerances.
@@ -3357,8 +3027,6 @@ rendering treatment;
 landmark visibility;
 reference-image quality;
 overall identity recognizability.
-
----
 
 # 15. Numerical Measurement and Canonical Identity Relationship
 
@@ -3391,15 +3059,11 @@ CFG-001–CFG-007
 while CFMS-001 remains the supporting numerical measurement layer.
 Any future promotion of CFMS-001 to Canonical Locked status requires a separate validation of its measurement methodology and reproducibility.
 
----
-
 # 17. Canonical Measurement Preservation Rule
 
 The following principle applies:
 Numerical measurements support identity preservation; they do not replace the canonical visual identity specification.
 CFMS-001 shall therefore remain subordinate to the canonical Face Geometry specification and shall not independently redefine the identity of AS-002.
-
----
 
 # 18. Identity Preservation Requirements
 
@@ -3480,8 +3144,6 @@ reference quality;
 visibility of canonical landmarks;
 overall recognizability.
 
----
-
 # 19. Canonical Change Governance
 
 ## 19.1 Locked Property Changes
@@ -3531,8 +3193,6 @@ Canonical Change Request
 Approved Canonical Revision
 This sequence preserves the distinction between evidence development, canonical promotion, and post-lock change.
 
----
-
 # 20. Rendering Authority Boundary
 
 ## 20.1 Rendering Governance
@@ -3565,8 +3225,6 @@ CWC-CRS
 Visual Representation
 CRS shall not redefine locked canonical identity properties through rendering decisions.
 CWC-CAB shall not assume responsibility for CRS-specific rendering implementation.
-
----
 
 # 21. Object Identity and Lifecycle Boundaries
 
@@ -3642,8 +3300,6 @@ Canonical Pairing does not replace the authority of CWC-CAR for object identity 
 The canonical reference representation associated with AS-002 shall remain consistent with the locked canonical characteristics defined in this specification.
 Where representation varies under CWC-CRS, such variation shall preserve the canonical identity and locked characteristics of AS-002.
 
----
-
 # 22. Canonical Reference Representation
 
 ## 22.1 Purpose
@@ -3673,8 +3329,6 @@ Facial Identity;
 Face Geometry;
 other locked canonical identity characteristics.
 The visual representation may adapt while the canonical identity remains invariant.
-
----
 
 # 23. Canonical Asset Boundaries
 
@@ -3734,8 +3388,6 @@ CWC-CAS
 Lifecycle
         │
         └── How the canonical asset progresses through its lifecycle
-
----
 
 # 24. Implementation Requirements
 
@@ -3822,8 +3474,6 @@ establish an independent lifecycle;
 establish an independent object registry;
 modify the authority boundaries of CWC-CAB, CWC-CRS, CWC-CAR, or CWC-CAS.
 
----
-
 # 25. Canonical Change Requirements
 
 ## 25.1 Purpose
@@ -3871,8 +3521,6 @@ Canonical Identity Change
         └── Change to locked property
              → Canonical Change Request
 The two change categories shall remain distinct.
-
----
 
 # 26. Canonical Asset Summary
 
@@ -3935,8 +3583,6 @@ The measurement specification supports identity preservation and quality assuran
 
 Each authority remains limited to its defined domain.
 
----
-
 # 27. Canonical Asset Integrity
 
 ## 27.1 Identity Integrity
@@ -3956,8 +3602,6 @@ No implementation, rendering decision, object registry operation, or lifecycle o
 Any change to a locked canonical property shall follow the applicable Canonical Change Request process.
 
 Changes that affect only rendering treatment remain within the authority of CWC-CRS provided that canonical identity is preserved.
-
----
 
 # 28. Canonical Status
 
@@ -3988,13 +3632,9 @@ Its candidate status does not invalidate or prevent the Canonical Lock of AS-002
 
 It remains a supporting specification whose future status may be revised independently through the applicable canonical process.
 
----
-
 # 29. Final Canonical Statement
 
 > **CWC-CAB-AS-002 — Brand Presenter is a Canonical Locked CWC asset whose identity is defined by this specification. Its locked identity characteristics shall remain invariant across approved representations, while visual rendering may adapt under CWC-CRS. Object identity remains governed by CWC-CAR, and canonical lifecycle remains governed by CWC-CAS.**
-
----
 
 # 30. Document Closure
 
@@ -4040,8 +3680,6 @@ Brand Presenter
 | Status | 🔒 **Canonical Locked** |
 | Canonical Canvas | `1080 × 1350 px` |
 
----
-
 # 1. Document Identity
 
 ## 1.1 Asset Identity
@@ -4075,8 +3713,6 @@ The canonical scope of AS-003 includes:
 - surface-dependent color behavior.
 
 AS-003 does not constitute the entire Footer Zone, the complete Footer Specification, or the general CWC Iconography System.
-
----
 
 # 2. Canonical Platform Identity
 
@@ -4115,8 +3751,6 @@ A platform shall not be added to AS-003 solely because it is used in an individu
 
 Any new canonical platform must first be established through the applicable canonical change process.
 
----
-
 # 3. Canonical Account Identity
 
 ## 3.1 Account Identity Mapping
@@ -4137,8 +3771,6 @@ assigning an account identity to the wrong platform;
 replacing an account identity with another identity;
 reversing platform-to-account relationships;
 arbitrarily modifying canonical account identities.
-
----
 
 # 4. Canonical Icon–Account Pairing
 
@@ -4180,8 +3812,6 @@ Any canonical alteration to a pairing requires authorized canonical change.
 Official platform icons shall preserve recognizable official platform identity.
 The icon representation shall not be replaced with an unrelated or visually misleading symbol.
 
----
-
 # 5. Mandatory Presence
 
 ## 5.1 Production Requirement
@@ -4205,8 +3835,6 @@ CWC Content
 
 ## 5.3 Production Consistency
 Every approved CWC content implementation shall preserve the canonical presence of AS-003 unless an explicitly authorized exception or canonical change establishes otherwise.
-
----
 
 # 6. Canonical Geometry
 
@@ -4270,8 +3898,6 @@ horizontal oval/pill form;
 5 px right inset;
 centered horizontal placement within the 1080 px canvas width.
 These properties shall not be altered through ordinary production editing.
-
----
 
 # 7. Surface-Dependent Color
 
@@ -4343,8 +3969,6 @@ White Surface #FFFFFF
 
 The component shall not introduce a separate filled background color that overrides the underlying surface.
 
----
-
 # 8. Canonical Visual Identity
 
 # 8.1 Core Visual Characteristics
@@ -4379,8 +4003,6 @@ Royal Blue shall use the canonical CWC Royal Blue value:
 White shall use:
 #FFFFFF
 Alternative blue values shall not be substituted for the canonical Royal Blue value in the Canonical Footer Platforms component.
-
----
 
 # 9. Canonical Platform Identity Integrity
 
@@ -4429,8 +4051,6 @@ The canonical ordering shall remain:
 Instagram → Facebook → TikTok → WhatsApp
 The ordering shall be preserved in approved implementations unless modified through authorized canonical change.
 
----
-
 # 10. Canonical Platform Representation
 
 ## 10.1 Representation Structure
@@ -4475,8 +4095,6 @@ The platform identity shall not be represented through an unrelated symbol or su
 The account identity shall remain legible and correctly associated with its platform.
 The account identity shall not be altered in a manner that changes the canonical account designation.
 
----
-
 # 11. Canonical Membership Governance
 
 ## 11.1 Current Membership
@@ -4502,8 +4120,6 @@ Changes to membership require canonical governance.
 
 ## 11.4 Membership and Production
 The current canonical membership shall be used in CWC production according to the mandatory presence requirement defined by this specification.
-
----
 
 # 12. Footer Application
 
@@ -4543,8 +4159,6 @@ the complete typography system;
 the general Iconography System;
 CWC rendering architecture.
 
----
-
 # 13. Production Preservation
 
 ## 13.1 Identity Preservation
@@ -4580,8 +4194,6 @@ Height = 60 px
 Left   = 5 px
 Right  = 5 px
 The component shall retain its long horizontal oval/pill form.
-
----
 
 # 14. Authority Boundaries
 
@@ -4630,8 +4242,6 @@ CWC-CAR
 CWC-CAS
 └── Lifecycle
 No system shall assume the authority of another system through ordinary production editing.
-
----
 
 # 15. Canonical Production Requirements
 
@@ -4712,8 +4322,6 @@ icon-to-account pairing;
 canonical geometry;
 canonical surface behavior.
 
----
-
 # 16. Canonical Change Requirements
 
 ## 16.1 Purpose
@@ -4770,8 +4378,6 @@ A rendering variation that does not alter a locked canonical property may be imp
 
 Such a rendering variation does not constitute a change to the canonical identity of AS-003.
 
----
-
 # 17. Canonical Integrity
 
 ## 17.1 Identity Integrity
@@ -4817,8 +4423,6 @@ Royal Blue foreground #0055D4
 The Canonical Footer Platforms shall remain present in all CWC content production.
 No ordinary production decision may intentionally remove, replace, or redefine AS-003.
 
----
-
 # 18. Canonical Status
 
 ## 18.1 Asset Status
@@ -4849,8 +4453,6 @@ The Canonical Lock applies to the canonical identity and locked properties of AS
 Canonical Footer Platforms may be expanded to include additional official project platforms.
 
 Any such expansion shall follow the applicable canonical change mechanism before the additional platform becomes part of the canonical asset.
-
----
 
 # 19. Canonical Asset Integrity
 
@@ -4907,8 +4509,6 @@ Royal Blue Account Identities #0055D4
 Canonical Footer Platforms shall remain present in all CWC content production.
 No ordinary production decision may intentionally remove, replace, reorder, mismatch, or redefine the canonical platform identities or their corresponding account identities.
 
----
-
 # 20. Canonical Reference Representation
 
 ## 20.1 Purpose
@@ -4935,8 +4535,6 @@ The canonical reference representation is used within the rendering architecture
 CWC-CRS determines the applicable visual rendering and implementation requirements.
 
 CWC-CAB remains authoritative for the canonical identity characteristics and locked properties that the rendering must preserve.
-
----
 
 # 21. Canonical Representation Integrity
 
@@ -4976,8 +4574,6 @@ The component background shall continue to inherit the underlying surface.
 21.5 Representation Boundary
 Visual variation may occur only within the authority of CWC-CRS and shall not alter the locked canonical characteristics of AS-003.
 
----
-
 # 22. Canonical Asset Boundaries
 
 ## 22.1 CWC-CAB Authority
@@ -5012,8 +4608,6 @@ CWC-CAS governs the canonical lifecycle and lifecycle state of AS-003.
 Each canonical system shall remain within its defined authority.
 
 No system shall independently redefine or supersede the canonical authority of another system through ordinary production activity.
-
----
 
 # 23. Implementation Requirements
 
@@ -5071,8 +4665,6 @@ Where a rendering decision does not alter a Canonical Locked property, it may be
 
 Where a proposed implementation would alter a Canonical Locked property, the applicable canonical change mechanism shall be followed before implementation.
 
----
-
 # 24. Canonical Asset Summary
 
 ## 24.1 Canonical Identity
@@ -5106,8 +4698,6 @@ Instagram ↔ @cozwecare.id
 Facebook  ↔ Tes HIV Manado
 TikTok    ↔ @cozwecare.id
 WhatsApp  ↔ 0822-9255-2915
-
----
 
 # 25. Canonical Asset Integrity
 
@@ -5182,8 +4772,6 @@ redefine the canonical identity of AS-003.
 Any modification to a Canonical Locked property shall follow the applicable canonical change mechanism.
 Future platform expansion remains possible, but an additional platform shall become canonical only after authorized canonical change.
 
----
-
 # 27. Canonical Status
 
 ## 27.1 Asset Status
@@ -5228,8 +4816,6 @@ Canonical Footer Platforms may be expanded to include additional official projec
 Any additional platform shall become part of the canonical asset only after the applicable canonical change has been formally authorized.
 
 Until such change is approved, the current four-platform membership remains canonical.
-
----
 
 # 28. Final Canonical Statement
 
