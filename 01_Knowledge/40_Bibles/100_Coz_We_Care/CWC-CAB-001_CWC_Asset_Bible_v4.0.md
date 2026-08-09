@@ -2826,3 +2826,1101 @@ Canonical Visual Representation
 
 ---
 
+---
+document_type: "Canonical Asset Specification"
+system: "CWC-CAB"
+asset_sequence: "AS-002"
+asset_name: "Brand Presenter"
+version: "4.0"
+status: "Canonical Locked"
+identity_source: "CA-KAZ"
+rendering_authority: "CWC-CRS"
+object_identity_authority: "CWC-CAR"
+lifecycle_authority: "CWC-CAS"
+measurement_specification: "CWC-CAB-AS-002-CFMS-001"
+language: "American English"
+---
+
+---
+document_type: "Canonical Asset Specification"
+system: "CWC-CAB"
+asset_sequence: "AS-002"
+asset_name: "Brand Presenter"
+version: "4.0"
+status: "Canonical Locked"
+rendering_authority: "CWC-CRS"
+object_identity_authority: "CWC-CAR"
+lifecycle_authority: "CWC-CAS"
+measurement_specification: "CWC-CAB-AS-002-CFMS-001"
+language: "American English"
+---
+
+# CWC-CAB-AS-002 — Brand Presenter
+
+**Canonical Asset Bible:** CWC-CAB v4.0  
+**Asset Sequence:** AS-002  
+**Asset Name:** Brand Presenter  
+**Asset Category:** Character Asset  
+**Canonical Status:** 🔒 Canonical Locked  
+**Rendering Authority:** CWC-CRS  
+**Object Identity Authority:** CWC-CAR  
+**Lifecycle Authority:** CWC-CAS  
+**Measurement Specification:** CWC-CAB-AS-002-CFMS-001
+
+---
+
+## 1. Document Identity
+
+### 1.1 Purpose
+
+This document defines the canonical identity specification for the CWC Brand Presenter asset.
+
+The Brand Presenter is an identity-bearing character asset whose canonical identity is defined by this specification.
+
+The specification establishes the identity characteristics that shall remain invariant across approved representations while preserving the separation between canonical identity and adaptive rendering.
+
+### 1.2 Canonical Identity Principle
+
+> **Identity is Canonical. Rendering is Adaptive.**
+
+The Brand Presenter may be represented through different rendering treatments and production contexts, but its canonical identity shall remain preserved.
+
+### 1.3 Refactoring Basis
+
+This version is the canonical refactoring of the Brand Presenter specification previously established in CWC-CAB v2.0.
+
+The refactoring preserves:
+
+- historical canonical knowledge;
+- locked source properties;
+- historical status distinctions;
+- facial identity;
+- face geometry;
+- evidence boundaries;
+- authority boundaries;
+- canonical relationships.
+
+Validated enrichment has been added only where supported by the evidence-validation process.
+
+### 1.4 Canonical Status
+
+AS-002 is **Canonical Locked**.
+
+Locked identity properties shall not be altered through ordinary production editing.
+
+Changes to locked canonical identity properties require the applicable Canonical Change Request mechanism.
+
+The numerical measurement layer `CFMS-001` remains an **Evidence-Validated Candidate** supporting identity preservation and quality assurance. Its candidate status does not prevent the canonical asset identity itself from being locked.
+
+---
+
+## 2. Registry Reference
+
+| Registry Field | Canonical Value |
+|---|---|
+| Asset Sequence | `AS-002` |
+| Asset Name | Brand Presenter |
+| Asset Category | Character Asset |
+| Rendering Authority | `CWC-CRS` |
+| Object Identity Authority | `CWC-CAR` |
+| Lifecycle Authority | `CWC-CAS` |
+| Measurement Specification | `CWC-CAB-AS-002-CFMS-001` |
+| Canonical Status | 🔒 Canonical Locked |
+
+### 2.1 Canonical Registry Relationship
+
+AS-002 is the canonical Brand Presenter asset specification within CWC-CAB.
+
+Its object identity is managed by CWC-CAR.
+
+Its canonical lifecycle follows CWC-CAS.
+
+Its rendering is governed by CWC-CRS.
+
+These authorities shall remain separated.
+
+### 2.2 Authority Model
+
+```text
+CWC-CAB-AS-002
+Brand Presenter
+        │
+        ├── Canonical Identity
+        ├── Facial Identity
+        ├── Face Geometry
+        └── CFMS-001
+              │
+              └── Numerical Supporting Evidence
+
+CWC-CRS
+        │
+        └── Rendering Authority
+
+CWC-CAR
+        │
+        └── Object Identity Authority
+
+CWC-CAS
+        │
+        └── Lifecycle Authority
+
+---
+
+2.3 Authority Boundary
+CWC-CAB defines what AS-002 canonically is.
+CWC-CRS defines how AS-002 is visually rendered.
+CWC-CAR manages the canonical object identity.
+CWC-CAS governs the canonical lifecycle.
+No authority may be transferred between these systems through ordinary asset specification editing.
+
+---
+
+# 3. Canonical Biological Identity
+
+## 3.1 Purpose
+
+Canonical Biological Identity defines the permanent biological characteristics of the Brand Presenter.
+
+These characteristics establish the biological foundation for downstream identity domains.
+
+## 3.2 Canonical Specification
+
+| Property | Canonical Value | Definition | Decision Notes | Status |
+|---|---|---|---|:---:|
+| Sex | Male | The biological sex as visually represented. | Aligned with brand representation strategy and target audience relevance. | 🔒 |
+| Visual Age | 25 Years | The perceived age range as visually represented. | Represents a young adult who is approachable and relatable to the primary audience. | 🔒 |
+| Ethnic Representation | Indonesian–Minahasan | The ethnic background as visually represented. | Represents local identity (Minahasan) within the Indonesian context. | 🔒 |
+| Skin Tone | Typical South-East Asian (Medium Warm) | The skin tone as visually represented under neutral lighting. | Warm beige to light brown natural tone typical of South-East Asian skin. | 🔒 |
+
+## 3.3 Canonical Biological Identity Rules
+
+1. These characteristics form the biological identity foundation of AS-002.
+2. Locked biological identity values shall remain unchanged unless superseded through the authorized canonical change mechanism.
+3. All approved rendering variations shall preserve these biological identity values.
+4. Biological Identity shall remain distinct from Facial Identity, Face Geometry, Physical Identity, Hair Identity, Clothing Identity, Expression Identity, and Pose & Gesture Identity.
+5. No rendering implementation may redefine a locked biological identity property.
+
+## 3.4 Canonical Boundary
+
+### In Scope
+
+- Permanent biological characteristics.
+- Canonical biological representation.
+- Identity-preservation requirements applicable to biological identity.
+
+### Out of Scope
+
+- Facial Identity.
+- Face Geometry.
+- Physical Identity.
+- Hair Identity.
+- Clothing Identity.
+- Expression Identity.
+- Pose & Gesture Identity.
+- Rendering methodology.
+- Rendering style.
+
+## 3.5 Historical Status Preservation
+
+The four biological identity properties above were already established as canonical locked values in the preceding CAB specification.
+
+Their locked status is preserved in CWC-CAB v4.0.
+
+The refactoring does not retroactively alter their historical status.
+
+---
+
+# 4. Canonical Identity Invariance
+
+The following rule applies to the biological identity layer:
+
+> **Locked biological identity characteristics shall remain invariant across all approved representations of AS-002.**
+
+Rendering may adapt.
+
+Identity may not.
+
+```text
+Canonical Biological Identity
+            │
+            ▼
+        Invariant
+            │
+            ▼
+Approved Rendering Variations
+
+Any proposed change to a locked biological identity characteristic shall follow the applicable Canonical Change Request process.
+
+---
+
+# 5. Canonical Facial Identity
+
+## 5.1 Purpose
+
+Canonical Facial Identity defines the permanent facial characteristics that distinguish the Brand Presenter.
+
+The canonical facial identity of AS-002 is defined by this specification and shall remain invariant across approved representations.
+
+Facial Identity is a distinct canonical identity domain and shall not be collapsed into Biological Identity.
+
+## 5.2 Canonical Facial Identity Structure
+
+The canonical facial identity consists of:
+
+- facial structure;
+- facial proportions;
+- facial feature relationships;
+- recognizable facial characteristics;
+- canonical face geometry.
+
+These characteristics collectively establish the recognizable facial identity of the Brand Presenter.
+
+## 5.3 Facial Identity Preservation Rule
+
+> **The Brand Presenter shall remain recognizably consistent with the canonical facial identity defined by this specification across all approved representations.**
+
+Rendering variation shall not redefine the underlying facial identity.
+
+---
+
+# 6. Canonical Face Geometry
+
+## 6.1 Purpose
+
+Face Geometry defines the structural geometry of the canonical face.
+
+The Face Geometry layer establishes identity-defining facial properties that must remain consistent across approved representations.
+
+## 6.2 Canonical Face Geometry Specification
+
+| Property ID | Property | Canonical Value | Status |
+|---|---|---|:---:|
+| `CFG-001` | Face Shape | Oval | 🔒 |
+| `CFG-002` | Face Proportion | Balanced facial proportion consistent with the canonical oval facial structure. | 🔒 |
+| `CFG-003` | Forehead Height | Moderately proportioned forehead height consistent with the canonical upper-face structure. | 🔒 |
+| `CFG-004` | Cheekbone Width | Moderate cheekbone width integrated smoothly into the overall oval facial silhouette. | 🔒 |
+| `CFG-005` | Jaw Width | Moderately narrower than the maximum facial width, contributing to the characteristic taper of the oval facial structure. | 🔒 |
+| `CFG-006` | Jawline Definition | Firm but soft jawline with a smooth transition toward the chin. | 🔒 |
+| `CFG-007` | Chin Shape | Rounded-to-softly tapered chin consistent with the terminal geometry of the canonical oval facial structure. | 🔒 |
+
+## 6.3 CFG-001 — Face Shape
+
+**Canonical Value:** Oval
+
+The canonical face has a balanced facial silhouette with gentle tapering toward the chin.
+
+The forehead is slightly wider than the jawline.
+
+**Status:** 🔒 Canonical Locked
+
+## 6.4 CFG-002 — Face Proportion
+
+**Canonical Value:**
+
+> Balanced facial proportion consistent with the canonical oval facial structure.
+
+This property defines the overall relationship between the vertical and horizontal dimensions of the face.
+
+The numerical supporting measurement for this relationship is maintained separately in CFMS-001.
+
+**Status:** 🔒 Canonical Locked
+
+## 6.5 CFG-003 — Forehead Height
+
+**Canonical Value:**
+
+> Moderately proportioned forehead height consistent with the canonical upper-face structure.
+
+This property describes the qualitative structural characteristic of forehead height.
+
+It shall not be replaced by the numerical forehead-width relationship maintained in CFMS-001.
+
+**Status:** 🔒 Canonical Locked
+
+## 6.6 CFG-004 — Cheekbone Width
+
+**Canonical Value:**
+
+> Moderate cheekbone width integrated smoothly into the overall oval facial silhouette.
+
+The cheekbone structure shall remain proportionally integrated with the broader facial silhouette.
+
+Its numerical supporting relationship is maintained separately in CFMS-001.
+
+**Status:** 🔒 Canonical Locked
+
+## 6.7 CFG-005 — Jaw Width
+
+**Canonical Value:**
+
+> Moderately narrower than the maximum facial width, contributing to the characteristic taper of the oval facial structure.
+
+The jaw shall maintain its relationship to the cheekbone and overall facial width.
+
+Its numerical supporting relationship is maintained separately in CFMS-001.
+
+**Status:** 🔒 Canonical Locked
+
+## 6.8 CFG-006 — Jawline Definition
+
+**Canonical Value:**
+
+> Firm but soft jawline with a smooth transition toward the chin.
+
+The jawline shall retain a balanced definition that supports the friendly and approachable facial identity of the Brand Presenter.
+
+**Status:** 🔒 Canonical Locked
+
+## 6.9 CFG-007 — Chin Shape
+
+**Canonical Value:**
+
+> Rounded-to-softly tapered chin consistent with the terminal geometry of the canonical oval facial structure.
+
+The chin shall maintain a smooth structural relationship with the jawline and overall facial silhouette.
+
+**Status:** 🔒 Canonical Locked
+
+---
+
+# 7. Face Geometry Preservation Rules
+
+1. All locked Face Geometry properties shall remain invariant across approved representations.
+2. Changes to locked Face Geometry require the applicable Canonical Change Request process.
+3. Rendering variation shall not redefine Face Geometry.
+4. Camera perspective, head rotation, facial expression, and rendering treatment may affect visual appearance but shall not be interpreted as permission to alter canonical geometry.
+5. Numerical measurements in CFMS-001 support Face Geometry preservation but do not replace the canonical CFG properties.
+6. Face Geometry remains an identity layer and is therefore distinct from rendering specification.
+
+---
+
+# 8. Face Geometry and Numerical Measurement Separation
+
+The following separation is mandatory:
+
+```text
+FACE GEOMETRY
+│
+├── CFG-001 — Face Shape
+├── CFG-002 — Face Proportion
+├── CFG-003 — Forehead Height
+├── CFG-004 — Cheekbone Width
+├── CFG-005 — Jaw Width
+├── CFG-006 — Jawline Definition
+└── CFG-007 — Chin Shape
+
+                │
+                │ supported by
+                ▼
+
+CFMS-001
+Canonical Facial Measurement Specification
+│
+├── Normalized facial ratios
+├── Reference ranges
+├── Landmark framework
+└── Identity QA support
+
+The numerical layer shall not replace, redefine, or renumber the canonical Face Geometry properties.
+
+---
+
+9. Historical Status Preservation
+The source architecture established:
+CFG-001 as Locked;
+CFG-002–CFG-007 as Authoring / Pending.
+The v4.0 refactoring preserves this historical distinction while documenting the subsequent evidence-validation and canonical promotion of CFG-002–CFG-007.
+Therefore:
+The v4.0 Locked status of CFG-002–CFG-007 represents a later canonical promotion and does not imply that those properties were already locked in the earlier CAB version.
+This distinction is retained for canonical traceability.
+
+---
+
+# 10. Canonical Facial Measurement Specification
+
+## 10.1 Specification Identity
+
+**Specification ID:** `CWC-CAB-AS-002-CFMS-001`
+
+**Specification Name:** Canonical Facial Measurement Specification
+
+**Measurement Type:** Normalized Reference-Image Facial Geometry
+
+**Purpose:** Supporting numerical reference for facial identity preservation and identity quality assurance.
+
+**Status:** 🟡 Evidence-Validated Candidate
+
+## 10.2 Measurement Principle
+
+CFMS-001 provides normalized numerical measurements that support the canonical Face Geometry specification.
+
+The measurements are derived from reference-image geometry and shall not be interpreted as biological anthropometric truth or physical measurements of a human subject.
+
+The measurement system therefore functions as a supporting identity-control layer rather than an independent identity authority.
+
+### Canonical Normalization
+
+```text
+Normalized Facial Height = 100.00 units
+
+All proportional measurements are expressed relative to this normalized reference unless otherwise specified.
+The normalized unit is a reference-image measurement scale and does not represent millimeters, centimeters, or another physical unit.
+
+---
+
+11. Canonical Facial Measurement Baseline
+Measurement	Baseline	Observed Reference Range	Status
+Face Width / Face Height	≈ 0.75	0.72–0.78	Evidence-Validated
+Cheekbone Width / Face Width	≈ 0.95	0.92–0.98	Evidence-Validated
+Jaw Width / Face Width	≈ 0.73	0.70–0.76	Evidence-Validated
+Forehead Width / Face Width	≈ 0.91	0.88–0.94	Evidence-Validated
+Interocular Distance / Face Width	≈ 0.44	0.42–0.46	Evidence-Validated
+Eye Width / Face Width	≈ 0.20	0.19–0.21	Evidence-Validated
+11.1 Measurement Interpretation
+The baseline values represent normalized reference-image geometry.
+They are intended to support:
+facial identity preservation;
+comparative identity review;
+visual consistency assessment;
+identity drift detection;
+quality assurance.
+They are not intended to function as rigid construction coordinates for every rendered representation.
+
+---
+
+12. Facial Measurement Landmark Framework
+CFMS-001 uses a defined landmark framework for normalized facial measurement.
+12.1 Vertical Landmarks
+L-01  Facial Top
+L-02  Brow / Upper Eye Region
+L-03  Eye Line
+L-04  Nose Base
+L-05  Mouth Center
+L-06  Chin Point
+12.2 Horizontal Landmarks
+L-07  Left Facial Boundary
+L-08  Right Facial Boundary
+
+L-09  Left Cheekbone Boundary
+L-10  Right Cheekbone Boundary
+
+L-11  Left Jaw Boundary
+L-12  Right Jaw Boundary
+
+L-13  Left Eye Boundary
+L-14  Right Eye Boundary
+
+L-15  Left Pupil Center
+L-16  Right Pupil Center
+
+L-17  Left Nose Boundary
+L-18  Right Nose Boundary
+
+L-19  Left Mouth Corner
+L-20  Right Mouth Corner
+These landmarks establish the measurement framework.
+They do not constitute separate canonical identity properties and shall not be interpreted as additional CFG identifiers.
+13. Measurement Classification
+Each numerical measurement is classified according to its evidentiary function.
+Classification	Meaning
+Reference Measurement	Measurement derived from canonical reference imagery
+Normalized Ratio	Measurement expressed relative to another facial dimension
+Observed Range	Approximate range observed across eligible reference imagery
+Biological Anthropometric Measurement	Physical human measurement
+For AS-002:
+Reference Measurement: Yes
+Normalized Ratio: Yes
+Observed Range: Yes
+Biological Anthropometric Measurement: No
+Therefore:
+CFMS-001 shall not be represented as biological anthropometric truth.
+14. Measurement Tolerance Policy
+Observed reference ranges are not automatically production tolerances.
+Therefore:
+Observed Range ≠ Automatic Permitted Drift
+A representation falling outside an observed reference range shall trigger contextual review rather than automatically constitute a canonical violation.
+The review may consider:
+camera perspective;
+head rotation;
+facial expression;
+rendering treatment;
+landmark visibility;
+reference-image quality;
+overall identity recognizability.
+15. Numerical Measurement and Canonical Identity Relationship
+CFMS-001 supports the canonical Face Geometry layer.
+It does not replace it.
+The canonical relationship is:
+Canonical Face Geometry
+        │
+        │ supported by
+        ▼
+CFMS-001
+        │
+        ├── Normalized Measurements
+        ├── Reference Ranges
+        ├── Landmark Framework
+        └── Identity QA Support
+The inverse relationship is not permitted:
+CFMS-001
+        │
+        X
+        ▼
+Redefinition of Canonical Face Geometry
+16. CFMS-001 Status and Lock Boundary
+CFMS-001 remains:
+🟡 Evidence-Validated Candidate
+This status is intentional.
+The numerical measurements have been validated as useful supporting evidence for the canonical facial geometry, but the numerical layer is not independently promoted to immutable canonical identity.
+The locked identity therefore remains defined by:
+CFG-001–CFG-007
+while CFMS-001 remains the supporting numerical measurement layer.
+Any future promotion of CFMS-001 to Canonical Locked status requires a separate validation of its measurement methodology and reproducibility.
+17. Canonical Measurement Preservation Rule
+The following principle applies:
+Numerical measurements support identity preservation; they do not replace the canonical visual identity specification.
+CFMS-001 shall therefore remain subordinate to the canonical Face Geometry specification and shall not independently redefine the identity of AS-002.
+
+---
+
+# 18. Identity Preservation Requirements
+
+## 18.1 Canonical Identity Invariance
+
+The canonical identity of AS-002 shall remain invariant across all approved representations.
+
+This requirement applies to all locked identity domains, including:
+
+- Biological Identity;
+- Facial Identity;
+- Face Geometry.
+
+Rendering may vary, provided that such variation does not alter the canonical identity.
+
+## 18.2 Identity Preservation Rule
+
+> **Rendering may vary. Identity shall remain invariant.**
+
+Approved representations shall preserve the canonical relationships between the defined identity characteristics.
+
+## 18.3 Facial Identity Preservation
+
+The following shall remain visually consistent:
+
+- overall facial structure;
+- facial proportions;
+- facial feature relationships;
+- canonical Face Geometry;
+- recognizable facial characteristics.
+
+The representation may vary in rendering treatment without redefining these characteristics.
+
+## 18.4 Face Geometry Preservation
+
+The following properties are Canonical Locked:
+
+```text
+CFG-001 — Face Shape
+CFG-002 — Face Proportion
+CFG-003 — Forehead Height
+CFG-004 — Cheekbone Width
+CFG-005 — Jaw Width
+CFG-006 — Jawline Definition
+CFG-007 — Chin Shape
+
+These properties shall remain invariant across approved representations.
+18.5 Numerical Measurement Support
+CFMS-001 may be used as a supporting reference during identity validation.
+Its normalized measurements shall not be interpreted as rigid production coordinates or as permission to modify the locked Face Geometry properties.
+18.6 Representation Variation
+The following may vary when governed by the appropriate production specification:
+rendering medium;
+illustration treatment;
+lighting;
+camera perspective;
+composition;
+environment;
+pose;
+expression;
+presentation context.
+Such variation shall not redefine or contradict the locked canonical identity.
+18.7 Identity Drift
+A representation shall be reviewed for identity drift when visual variation results in a material alteration of a locked canonical identity characteristic.
+Identity drift shall be evaluated contextually rather than solely through a single numerical measurement.
+Relevant review factors may include:
+camera perspective;
+head rotation;
+facial expression;
+rendering treatment;
+reference quality;
+visibility of canonical landmarks;
+overall recognizability.
+19. Canonical Change Governance
+19.1 Locked Property Changes
+Once an identity property has reached Canonical Locked status, it shall not be changed through ordinary production editing.
+Changes require the applicable:
+Canonical Change Request (CCR)
+process.
+19.2 Locked AS-002 Identity Properties
+The following are subject to Canonical Change Request governance:
+Biological Identity
+        │
+        ├── Sex
+        ├── Visual Age
+        ├── Ethnic Representation
+        └── Skin Tone
+
+Face Geometry
+        │
+        ├── CFG-001
+        ├── CFG-002
+        ├── CFG-003
+        ├── CFG-004
+        ├── CFG-005
+        ├── CFG-006
+        └── CFG-007
+19.3 Candidate Measurement Layer
+CFMS-001 remains an Evidence-Validated Candidate.
+Its candidate status means that future refinement may occur through the applicable evidence-validation and canonical review process without constituting a change to the locked identity itself.
+19.4 Governance Sequence
+Evidence
+   ↓
+Validation
+   ↓
+Canonical Candidate
+   ↓
+Canonical Lock
+   ↓
+Canonical Change Request
+   ↓
+Approved Canonical Revision
+This sequence preserves the distinction between evidence development, canonical promotion, and post-lock change.
+20. Rendering Authority Boundary
+20.1 Rendering Governance
+The canonical identity specification does not define the complete visual rendering method for AS-002.
+Rendering is governed by:
+CWC-CRS
+20.2 CAB Responsibility
+CWC-CAB defines:
+what AS-002 canonically is;
+which identity characteristics are locked;
+which identity relationships must be preserved;
+the boundaries within which rendering may vary.
+20.3 CRS Responsibility
+CWC-CRS defines the visual representation and rendering implementation of the canonical asset.
+Rendering decisions shall remain subordinate to the locked identity requirements defined by CWC-CAB.
+20.4 Authority Separation
+CWC-CAB
+Canonical Identity
+        │
+        │ Identity Requirements
+        ▼
+CWC-CRS
+Visual Representation
+CRS shall not redefine locked canonical identity properties through rendering decisions.
+CWC-CAB shall not assume responsibility for CRS-specific rendering implementation.
+21. Object Identity and Lifecycle Boundaries
+21.1 Object Identity
+Canonical object identity for AS-002 is managed by:
+CWC-CAR
+The CAB specification does not duplicate the object registry as an independent authority.
+21.2 Canonical Lifecycle
+The canonical lifecycle of AS-002 is governed by:
+CWC-CAS
+The CAB specification does not create an independent lifecycle authority.
+21.3 Boundary Principle
+CWC-CAB
+   │
+   ├── Canonical Asset Specification
+   │
+   ├── Identity Requirements
+   │
+   └── Identity Preservation
+
+CWC-CAR
+   │
+   └── Object Identity
+
+CWC-CAS
+   │
+   └── Canonical Lifecycle
+
+CWC-CRS
+   │
+   └── Rendering
+Each system remains within its defined authority boundary.
+
+---
+
+## 21.4 Canonical Pairing
+
+Canonical Pairing establishes the relationship between the canonical asset specification and its approved canonical reference representation.
+
+The pairing ensures that the specification and reference representation remain aligned while maintaining their distinct roles within the CWC canonical architecture.
+
+### 21.4.1 Canonical Pairing Principle
+
+> **The specification defines the canonical asset; the reference representation demonstrates its canonical characteristics.**
+
+The canonical specification remains authoritative for the definition of the asset and its locked characteristics.
+
+The canonical reference representation provides the approved visual representation of those characteristics.
+
+### 21.4.2 Pairing Relationship
+
+```text
+CWC-CAB-AS-002
+Canonical Asset Specification
+        ↕
+Canonical Reference Representation
+        │
+        └── Visual representation of canonical characteristics
+
+21.4.3 Pairing Boundary
+Canonical Pairing does not transfer canonical asset authority to the reference representation.
+The reference representation shall not independently redefine, modify, or supersede canonical asset properties defined by CWC-CAB.
+Canonical Pairing also does not transfer rendering authority to CWC-CAB.
+Rendering remains governed by CWC-CRS.
+Canonical Pairing does not replace the authority of CWC-CAR for object identity or CWC-CAS for canonical lifecycle.
+21.4.4 Pairing Preservation
+The canonical reference representation associated with AS-002 shall remain consistent with the locked canonical characteristics defined in this specification.
+Where representation varies under CWC-CRS, such variation shall preserve the canonical identity and locked characteristics of AS-002.
+22. Canonical Reference Representation
+22.1 Purpose
+The Canonical Reference Representation provides the approved visual representation of AS-002 for canonical reference and production use.
+It represents the canonical characteristics defined by this specification without becoming an independent source of canonical authority.
+22.2 Representation Role
+The reference representation shall:
+represent the locked canonical identity of AS-002;
+demonstrate the defined facial and biological characteristics;
+provide a visual reference for approved production representations;
+remain subordinate to the canonical specification.
+22.3 Rendering Relationship
+The canonical reference representation is used within the rendering architecture governed by CWC-CRS.
+CWC-CRS determines the applicable visual rendering and implementation requirements.
+CWC-CAB remains authoritative for the canonical identity characteristics that the rendering must preserve.
+22.4 Representation Invariance
+Changes in rendering treatment shall not alter:
+Biological Identity;
+Facial Identity;
+Face Geometry;
+other locked canonical identity characteristics.
+The visual representation may adapt while the canonical identity remains invariant.
+23. Canonical Asset Boundaries
+23.1 CAB Responsibility
+CWC-CAB is responsible for defining:
+the canonical asset identity;
+canonical identity characteristics;
+locked properties;
+identity-preservation requirements;
+canonical asset boundaries;
+relationships to other canonical systems.
+23.2 CRS Responsibility
+CWC-CRS is responsible for:
+visual representation;
+rendering implementation;
+visual production reference;
+rendering-specific requirements.
+23.3 CAR Responsibility
+CWC-CAR is responsible for:
+canonical object identity;
+object-level registry identity;
+canonical asset object relationships.
+23.4 CAS Responsibility
+CWC-CAS is responsible for:
+canonical lifecycle;
+lifecycle state;
+lifecycle transitions;
+lifecycle governance.
+23.5 Boundary Principle
+Each canonical system shall remain within its defined authority and shall not assume the authority of another canonical system.
+CWC-CAB
+Canonical Asset Specification
+        │
+        ├── What the asset is
+        └── What must be preserved
+
+CWC-CRS
+Rendering
+        │
+        └── How the asset is represented
+
+CWC-CAR
+Object Identity
+        │
+        └── Which canonical object the asset is
+
+CWC-CAS
+Lifecycle
+        │
+        └── How the canonical asset progresses through its lifecycle
+
+---
+
+# 24. Implementation Requirements
+
+## 24.1 Purpose
+
+Implementation Requirements define the conditions under which AS-002 may be represented in approved CWC production outputs.
+
+Implementation shall preserve the canonical identity defined by this specification while allowing rendering to be governed by CWC-CRS.
+
+## 24.2 Identity Preservation During Implementation
+
+All implementations of AS-002 shall preserve:
+
+- Biological Identity;
+- Facial Identity;
+- Face Geometry;
+- all other locked canonical identity characteristics defined by this specification.
+
+No implementation decision may intentionally alter a locked canonical property.
+
+## 24.3 Rendering Implementation
+
+Visual implementation shall follow the applicable requirements established by CWC-CRS.
+
+CWC-CAB does not prescribe the rendering technique, visual medium, or production method.
+
+The implementation shall nevertheless preserve the canonical identity requirements established by CWC-CAB.
+
+## 24.4 Representation Variability
+
+Approved implementations may vary in:
+
+- rendering medium;
+- illustration treatment;
+- lighting;
+- camera perspective;
+- composition;
+- environment;
+- pose;
+- facial expression;
+- production context.
+
+Such variation is permitted only when the resulting representation remains consistent with the locked canonical identity.
+
+## 24.5 Facial Implementation
+
+The facial representation shall preserve the locked Face Geometry properties:
+
+```text
+CFG-001 — Face Shape
+CFG-002 — Face Proportion
+CFG-003 — Forehead Height
+CFG-004 — Cheekbone Width
+CFG-005 — Jaw Width
+CFG-006 — Jawline Definition
+CFG-007 — Chin Shape
+
+These properties shall remain recognizable and structurally consistent regardless of rendering treatment.
+24.6 Implementation Consistency
+Repeated implementations of AS-002 shall represent the same canonical asset.
+Differences in rendering shall not be interpreted as differences in canonical identity.
+The implementation objective is:
+Consistent identity across variable representation.
+24.7 Production Reference
+Where a visual reference is required for production, the applicable reference shall be provided and governed through CWC-CRS.
+The reference supports implementation consistency but does not supersede the canonical identity specification.
+24.8 Implementation Validation
+Before an implementation is approved for canonical production use, it shall satisfy the applicable identity-preservation requirements defined by CWC-CAB and the rendering requirements defined by CWC-CRS.
+Implementation approval does not create a new canonical identity.
+24.9 Implementation Boundary
+Implementation Requirements shall not:
+redefine locked identity properties;
+create new canonical identity properties;
+establish an independent rendering authority;
+establish an independent lifecycle;
+establish an independent object registry;
+modify the authority boundaries of CWC-CAB, CWC-CRS, CWC-CAR, or CWC-CAS.
+25. Canonical Change Requirements
+25.1 Purpose
+Canonical Change Requirements govern proposed modifications to locked AS-002 properties.
+25.2 Locked Property Protection
+The following are protected by canonical change governance:
+Biological Identity;
+Facial Identity;
+Face Geometry;
+all other properties explicitly designated as Canonical Locked within this specification.
+25.3 Change Mechanism
+A proposed change to a locked canonical property shall not be implemented through ordinary production editing.
+It shall follow the applicable:
+Canonical Change Request (CCR)
+process.
+25.4 Change Integrity
+A canonical change shall preserve:
+asset identity;
+canonical relationships;
+authority boundaries;
+compatibility with CWC-CRS;
+compatibility with CWC-CAR;
+compatibility with CWC-CAS.
+25.5 Rendering Changes
+Changes to rendering treatment that do not alter locked canonical identity properties remain within the authority of CWC-CRS and do not constitute a canonical identity change.
+25.6 Identity Change vs Representation Change
+Representation Change
+        │
+        └── Rendering variation
+             → CWC-CRS
+
+Canonical Identity Change
+        │
+        └── Change to locked property
+             → Canonical Change Request
+The two change categories shall remain distinct.
+
+---
+
+# 26. Canonical Asset Summary
+
+## 26.1 Canonical Identity
+
+AS-002 — Brand Presenter is a canonical CWC character asset defined by this specification.
+
+Its canonical identity consists of the locked identity characteristics established within this document.
+
+## 26.2 Locked Identity Domains
+
+The following identity domains are Canonical Locked:
+
+### Biological Identity
+
+- Sex
+- Visual Age
+- Ethnic Representation
+- Skin Tone
+
+### Facial Identity
+
+- Facial structure
+- Facial proportions
+- Facial feature relationships
+- Recognizable facial characteristics
+
+### Face Geometry
+
+- `CFG-001` — Face Shape
+- `CFG-002` — Face Proportion
+- `CFG-003` — Forehead Height
+- `CFG-004` — Cheekbone Width
+- `CFG-005` — Jaw Width
+- `CFG-006` — Jawline Definition
+- `CFG-007` — Chin Shape
+
+## 26.3 Supporting Measurement Specification
+
+`CWC-CAB-AS-002-CFMS-001` provides a supporting numerical facial measurement layer.
+
+Its current status is:
+
+> **Candidate**
+
+The measurement specification supports identity preservation and quality assurance but does not replace or redefine the locked canonical identity.
+
+## 26.4 Canonical Representation Principle
+
+> **The canonical identity of AS-002 remains invariant while its approved visual representation may adapt according to CWC-CRS.**
+
+## 26.5 Canonical Authority Summary
+
+| Domain | Authority |
+|---|---|
+| Canonical Asset Specification | CWC-CAB |
+| Rendering | CWC-CRS |
+| Object Identity | CWC-CAR |
+| Canonical Lifecycle | CWC-CAS |
+
+Each authority remains limited to its defined domain.
+
+---
+
+# 27. Canonical Asset Integrity
+
+## 27.1 Identity Integrity
+
+AS-002 shall continue to represent the same canonical Brand Presenter across approved CWC implementations.
+
+## 27.2 Structural Integrity
+
+The locked Biological Identity, Facial Identity, and Face Geometry shall remain consistent across approved representations.
+
+## 27.3 Authority Integrity
+
+No implementation, rendering decision, object registry operation, or lifecycle operation may independently redefine the canonical identity specified by CWC-CAB.
+
+## 27.4 Change Integrity
+
+Any change to a locked canonical property shall follow the applicable Canonical Change Request process.
+
+Changes that affect only rendering treatment remain within the authority of CWC-CRS provided that canonical identity is preserved.
+
+---
+
+# 28. Canonical Status
+
+## 28.1 Asset Status
+
+**AS-002 — Brand Presenter**
+
+> 🔒 **CANONICAL LOCKED**
+
+## 28.2 Lock Scope
+
+The Canonical Lock applies to the canonical identity defined by this specification, including:
+
+- Biological Identity;
+- Facial Identity;
+- Face Geometry;
+- identity-preservation requirements;
+- canonical authority boundaries;
+- canonical relationships.
+
+## 28.3 Measurement Layer Status
+
+`CFMS-001` remains:
+
+> **Candidate**
+
+Its candidate status does not invalidate or prevent the Canonical Lock of AS-002.
+
+It remains a supporting specification whose future status may be revised independently through the applicable canonical process.
+
+---
+
+# 29. Final Canonical Statement
+
+> **CWC-CAB-AS-002 — Brand Presenter is a Canonical Locked CWC asset whose identity is defined by this specification. Its locked identity characteristics shall remain invariant across approved representations, while visual rendering may adapt under CWC-CRS. Object identity remains governed by CWC-CAR, and canonical lifecycle remains governed by CWC-CAS.**
+
+---
+
+# 30. Document Closure
+
+This specification represents the canonical state of AS-002 at **CWC-CAB v4.0**.
+
+Any future modification to locked canonical identity properties shall be governed through the applicable canonical change mechanism.
+
+Rendering adaptations that preserve the locked identity may continue under the authority of CWC-CRS.
+
+```text
+CWC-CAB-AS-002
+Brand Presenter
+        │
+        ├── Canonical Identity
+        │       └── 🔒 Locked
+        │
+        ├── Face Geometry
+        │       └── 🔒 Locked
+        │
+        ├── CFMS-001
+        │       └── Candidate
+        │
+        ├── Rendering
+        │       └── CWC-CRS
+        │
+        ├── Object Identity
+        │       └── CWC-CAR
+        │
+        └── Lifecycle
+                └── CWC-CAS
+
+---
