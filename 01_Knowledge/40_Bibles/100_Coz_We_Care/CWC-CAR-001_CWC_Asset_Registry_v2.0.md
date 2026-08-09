@@ -337,9 +337,7 @@ CWC-CAR may define its own registry-specific architecture, but it shall not rede
 
 The architecture defined in this domain therefore applies specifically to the **Identity and Registry Domain** of the Canonical Asset System.
 
----
-
-# 2.2 Architectural Boundary
+## 2.2 Architectural Boundary
 
 CWC-CAR is the authoritative **Identity and Registry Domain** within the Canonical Asset System.
 
@@ -374,9 +372,7 @@ These responsibilities remain under their respective authorities.
 
 This boundary is consistent with the authority model established by CWC-CAS and the corresponding boundary already implemented in CWC-CAB v4.0.
 
----
-
-# 2.3 Canonical Asset Object Architecture
+## 2.3 Canonical Asset Object Architecture
 
 A **Canonical Asset Object** is the fundamental identity unit registered within CWC-CAR.
 
@@ -410,9 +406,7 @@ Canonical Object Identifier
         │
         └──────────────► Canonical Reference Sheet
 
----
-
-# 2.4 Canonical Object Identifier
+## 2.4 Canonical Object Identifier
 
 The **Canonical Object Identifier (Object ID)** is the permanent identity assigned to a Canonical Asset Object by CWC-CAR.
 
@@ -431,9 +425,7 @@ The established identifier pattern is:
 ```text
 CWC-OBJ-xxxxxx
 
----
-
-# 2.5 Registry Record Architecture
+## 2.5 Registry Record Architecture
 
 A **Registry Record** is the authoritative registry artifact maintained by CWC-CAR for a Canonical Asset Object.
 
@@ -463,9 +455,7 @@ Registry Record
         ▼
 CWC-CAR-AS-001
 
----
-
-# 2.6 Registry Record Identifier
+## 2.6 Registry Record Identifier
 
 Every Registry Record shall possess its own **Registry Record Identifier**.
 
@@ -494,9 +484,7 @@ The distinction is therefore:
 
 The two identifiers shall never be treated as interchangeable.
 
----
-
-# 2.7 Artifact Identity Architecture
+## 2.7 Artifact Identity Architecture
 
 The Canonical Asset System uses a dual-identity model consisting of:
 
@@ -524,7 +512,7 @@ It does not represent *Asset*.
 
 This distinction allows multiple canonical projects to maintain their own artifact sequences while remaining anchored to the same Canonical Asset Object.
 
-# 2.6 Registry Record Identifier
+## 2.6 Registry Record Identifier
 
 Every Registry Record shall possess its own **Registry Record Identifier**.
 
@@ -553,9 +541,7 @@ The distinction is therefore:
 
 The two identifiers shall never be treated as interchangeable.
 
----
-
-# 2.7 Artifact Identity Architecture
+## 2.7 Artifact Identity Architecture
 
 The Canonical Asset System uses a dual-identity model consisting of:
 
@@ -583,9 +569,7 @@ It does not represent *Asset*.
 
 This distinction allows multiple canonical projects to maintain their own artifact sequences while remaining anchored to the same Canonical Asset Object.
 
----
-
-# 2.8 Canonical Artifact Relationship Model
+## 2.8 Canonical Artifact Relationship Model
 
 A Canonical Asset Object may be represented through multiple canonical artifacts, each operating within its designated authority boundary.
 
@@ -617,10 +601,7 @@ For the Official Brand Logo, this pairing is already reflected in CWC-CAB v4.0:
 
 with CWC-CAR retaining authority over the registration, CWC-CAB over the specification, and CWC-CRS over the visual representation.
 
-
----
-
-# 2.9 Registry Record Structure
+## 2.9 Registry Record Structure
 
 The canonical Registry Record architecture is intentionally minimal.
 
@@ -648,9 +629,7 @@ The architecture follows the principles:
 
 The Registry Record shall not contain information that is authoritatively maintained by CWC-CAB or CWC-CRS.
 
----
-
-# 2.10 Object Identity Architecture
+## 2.10 Object Identity Architecture
 
 The **Object Identity** section establishes the conceptual identity of the registered Canonical Asset Object.
 
@@ -672,9 +651,7 @@ These belong to the appropriate canonical specification or reference artifact.
 
 The current CWC-CAR Registry Record v2 example already adopts this minimal identity structure.
 
----
-
-# 2.11 Classification Architecture
+## 2.11 Classification Architecture
 
 Classification provides the organizational context of a Canonical Asset Object without becoming part of its immutable identity.
 
@@ -700,9 +677,7 @@ Classification may evolve when the registry taxonomy evolves, provided that such
 
 The classification therefore describes **where the object belongs**, not **what its permanent identity is**.
 
----
-
-# 2.12 Relationship Architecture
+## 2.12 Relationship Architecture
 
 Relationships describe explicit relationships between **Canonical Asset Objects**.
 
@@ -732,9 +707,7 @@ If no applicable relationship exists, the section shall not appear in the Regist
 
 This follows the **Applicable Fields Only** principle established during the development of Registry Record v2.
 
----
-
-# 2.13 Canonical Reference Architecture
+## 2.13 Canonical Reference Architecture
 
 **Canonical References** establish connections between a Registry Record and the canonical artifacts maintained by other canonical projects.
 
@@ -761,9 +734,7 @@ Canonical References shall reference artifact identifiers rather than internal c
 
 This preserves loose coupling and the SSOT architecture already reflected in the current CWC-CAR Registry Record example.
 
----
-
-# 2.14 Metadata Architecture
+## 2.14 Metadata Architecture
 
 Registry Metadata describes the **Registry Record artifact**, not the Canonical Asset Object itself.
 
@@ -782,9 +753,7 @@ The metadata layer therefore provides administrative and historical context with
 
 A revision to Registry Metadata does not create a new Canonical Asset Object and does not change its Object ID.
 
----
-
-# 2.15 Lifecycle Architecture
+## 2.15 Lifecycle Architecture
 
 CWC-CAR does not establish an independent system-wide Canonical Lifecycle.
 
@@ -809,9 +778,7 @@ The distinction is important:
 
 This replaces the stronger independent lifecycle architecture present in CWC-CAR v1 and aligns CAR with the lifecycle inheritance model already established in CWC-CAB v4.0.
 
----
-
-# 2.16 Architectural Independence
+## 2.16 Architectural Independence
 
 A change in one canonical artifact shall not automatically change the identity of the Canonical Asset Object.
 
@@ -837,9 +804,7 @@ The Object ID changes only when a genuinely new Canonical Asset Object is establ
 
 This preserves **Canonical Object Independence** and **Stable Identity**.
 
----
-
-# 2.17 Architectural Model
+## 2.17 Architectural Model
 
 The complete CWC-CAR v2.0 architecture can therefore be represented as:
 
@@ -898,9 +863,7 @@ The Registry Schema is the structural foundation upon which the **Registry Recor
 
 Every Registry Record maintained by CWC-CAR shall conform to this schema.
 
----
-
-# 3.2 Registry Design Principles
+## 3.2 Registry Design Principles
 
 The CWC-CAR v2.0 Registry Schema is governed by the following principles.
 
@@ -932,9 +895,7 @@ The Registry Schema shall not contain information whose authoritative home belon
 
 Registry updates shall not alter the permanent Canonical Object Identifier.
 
----
-
-# 3.3 Registry Record Schema
+## 3.3 Registry Record Schema
 
 The canonical Registry Record schema consists of the following structural components:
 
@@ -958,9 +919,7 @@ Lifecycle information applicable to CWC-CAR is governed by **CWC-CAS** and appli
 
 This replaces the v1 model in which Registry Lifecycle was treated as an independent schema domain.
 
----
-
-# 3.4 Registry Record Identity
+## 3.4 Registry Record Identity
 
 The Registry Record has two distinct identity layers.
 
@@ -1003,9 +962,7 @@ The two identifiers shall never be treated as interchangeable.
 | `CWC-CAR-AS-001` | Registry Record artifact |
 | `CWC-OBJ-000001` | Canonical Asset Object |
 
----
-
-# 3.5 Object Name
+## 3.5 Object Name
 
 **Object Name** is the official canonical name of the registered Canonical Asset Object.
 
@@ -1030,9 +987,7 @@ Official Brand Logo
 
 The Object Name may be maintained through controlled registry revision, while the Object ID remains immutable.
 
----
-
-# 3.6 Object Identity
+## 3.6 Object Identity
 
 The **Object Identity** section records the conceptual identity information associated with the Canonical Asset Object.
 
@@ -1058,9 +1013,7 @@ No technical specification, design rule, implementation detail, or visual repres
 
 This is a deliberate reduction from the v1 model, which included a broader identity structure and treated Object Type as part of the Registry Record Header.
 
----
-
-# 3.7 Object Type
+## 3.7 Object Type
 
 **Object Type** identifies the fundamental type of the Canonical Asset Object.
 
@@ -1104,9 +1057,7 @@ Object Type : Brand Asset
 
 The contextual classification belongs to the **Classification** section.
 
----
-
-# 3.8 Classification
+## 3.8 Classification
 
 The **Classification** section records the organizational classification of the Canonical Asset Object.
 
@@ -1138,9 +1089,7 @@ It does not establish the permanent identity of the object.
 
 Classification may therefore evolve through controlled registry maintenance without requiring a new Canonical Object Identifier.
 
----
-
-# 3.9 Relationships
+## 3.9 Relationships
 
 The **Relationships** section records explicit relationships between **Canonical Asset Objects**.
 
@@ -1169,9 +1118,7 @@ If no applicable relationship exists, the section shall be omitted.
 
 This implements the **Applicable Fields Only** principle established in the v2 schema.
 
----
-
-# 3.10 Canonical References
+## 3.10 Canonical References
 
 The **Canonical References** section records references from the CWC-CAR Registry Record to canonical artifacts maintained by related Canonical Projects.
 
@@ -1207,9 +1154,7 @@ The v1 schema allowed a wider set of reference elements, including Related Regis
 
 In v2, such fields are not part of the mandatory canonical schema. They may only be introduced if a future architectural requirement explicitly establishes them.
 
----
-
-# 3.11 Metadata
+## 3.11 Metadata
 
 The **Metadata** section records administrative information associated with the **Registry Record artifact**.
 
@@ -1265,9 +1210,7 @@ CWC-OBJ-000001
 
 A Registry Record revision therefore does not create a new Canonical Asset Object.
 
----
-
-# 3.12 Lifecycle Schema Boundary
+## 3.12 Lifecycle Schema Boundary
 
 CWC-CAR v2 shall not maintain an independent lifecycle taxonomy that competes with CWC-CAS.
 
@@ -1291,9 +1234,7 @@ Registry Metadata
 
 This maintains the same lifecycle inheritance principle already adopted by CWC-CAB v4.0, where CAB explicitly follows the lifecycle established by CWC-CAS and does not maintain an independent lifecycle.
 
----
-
-# 3.13 Fields Removed from the v1 Schema
+## 3.13 Fields Removed from the v1 Schema
 
 The following v1 concepts are removed from the **core CWC-CAR v2 Registry Schema** because they either duplicate other information or belong to a different architectural layer:
 
@@ -1312,9 +1253,7 @@ The following v1 concepts are removed from the **core CWC-CAR v2 Registry Schema
 
 This is not merely simplification. It removes information that either belongs elsewhere or creates unnecessary duplication.
 
----
-
-# 3.14 Complete v2 Schema Model
+## 3.14 Complete v2 Schema Model
 
 The resulting CWC-CAR v2 Registry Schema is:
 
@@ -1378,9 +1317,7 @@ Administrative Notes
 
 This is the **schema**, not yet the final visual template. The actual Registry Record Template will implement this schema later in the appropriate phase.
 
----
-
-# 3.15 Schema Ownership Model
+## 3.15 Schema Ownership Model
 
 The final ownership boundary is:
 
@@ -1443,9 +1380,7 @@ Governance applies to the **identity and registry responsibilities of CWC-CAR**.
 
 It does not govern the specification, implementation, or visual representation of Canonical Asset Objects.
 
----
-
-# 4.2 Governance Authority
+## 4.2 Governance Authority
 
 CWC-CAR is the authoritative registry authority for **Canonical Asset Object Identity**.
 
@@ -1473,9 +1408,7 @@ No CWC-CAR governance rule shall override a system-level architectural rule esta
 
 Likewise, CWC-CAR shall not establish governance over knowledge that belongs exclusively to CWC-CAB or CWC-CRS.
 
----
-
-# 4.3 Governance Principles
+## 4.3 Governance Principles
 
 CWC-CAR v2.0 is governed by the following principles.
 
@@ -1521,8 +1454,6 @@ CWC-CAR shall not duplicate authoritative information owned by CWC-CAS, CWC-CAB,
 
 These principles preserve the core governance principles already established in v1 while aligning them with the refined v2 architecture.
 
----
-
 # 4.4 Object Registration Governance
 
 **Object Registration Governance** defines the rules governing the creation of a new Canonical Asset Object within CWC-CAR.
@@ -1563,10 +1494,10 @@ Canonical References Established
 
 This principle is retained directly from the v1 Object ID Immutability governance.
 
----
+## 4.7 Object ID Reservation
 
-4.7 Object ID Reservation
 Once an Object ID has been assigned, it becomes permanently reserved for the corresponding Canonical Asset Object.
+
 A reserved Object ID shall not become available for reassignment when the object:
 becomes deprecated;
 becomes archived;
@@ -1586,9 +1517,7 @@ Reserved Permanently
 The Object ID remains part of the historical registry even when the corresponding object is no longer active.
 This preserves the v1 principle of permanent Object ID reservation.
 
----
-
-# 4.8 Registry Record Governance
+## 4.8 Registry Record Governance
 
 Every Canonical Asset Object shall have **one authoritative Registry Record** within CWC-CAR.
 
@@ -1617,9 +1546,7 @@ CWC-OBJ-000001
 
 These identifiers shall not be substituted for one another.
 
----
-
-# 4.9 Artifact Identity Governance
+## 4.9 Artifact Identity Governance
 
 CWC-CAR shall maintain its own **Artifact Sequence** independently from the global Canonical Object Identifier system.
 
@@ -1648,9 +1575,7 @@ The `AS` component formally means:
 
 Artifact identifiers shall not replace the Canonical Object Identifier as the identity anchor of the Canonical Asset Object.
 
----
-
-# 4.10 Classification Governance
+## 4.10 Classification Governance
 
 CWC-CAR governs the classification information stored within the Registry Record.
 
@@ -1669,9 +1594,7 @@ Classification changes shall be treated as controlled registry modifications.
 
 The purpose of classification is to organize registered objects within the registry taxonomy, not to redefine their permanent identity.
 
----
-
-# 4.11 Relationship Governance
+## 4.11 Relationship Governance
 
 CWC-CAR governs relationships between registered Canonical Asset Objects.
 
@@ -1697,9 +1620,7 @@ If no relationship exists, the Relationships section shall be omitted from the R
 
 This implements the **Applicable Fields Only** principle established in the v2 schema.
 
----
-
-# 4.12 Canonical Reference Governance
+## 4.12 Canonical Reference Governance
 
 Canonical References shall connect a CWC-CAR Registry Record to the corresponding canonical artifacts maintained by CWC-CAB and CWC-CRS.
 
@@ -1725,9 +1646,7 @@ Canonical References shall never:
 
 This maintains the reference-only role already established in the v1 registry model.
 
----
-
-# 4.13 Lifecycle Governance
+## 4.13 Lifecycle Governance
 
 CWC-CAR shall **not establish an independent Canonical Lifecycle**.
 
@@ -1757,9 +1676,7 @@ Registry Record
 
 This replaces the independent Registry Lifecycle governance model in v1 while preserving the important invariant that lifecycle transitions never change Object ID. V1 explicitly established that lifecycle transitions do not alter object identity; v2 retains that invariant but moves lifecycle authority to the system level.
 
----
-
-# 4.14 Registry Integrity Governance
+## 4.14 Registry Integrity Governance
 
 **Registry Integrity** ensures that CWC-CAR remains accurate, consistent, complete, and authoritative.
 
@@ -1790,9 +1707,7 @@ Registry Integrity
 
 This retains the core Registry Integrity model already established in v1.
 
----
-
-# 4.15 Registry Change Governance
+## 4.15 Registry Change Governance
 
 Changes to a Registry Record shall be controlled to preserve the identity and integrity of the Canonical Asset Object.
 
@@ -1822,9 +1737,7 @@ Registry Record Change
 
 Changes shall be documented through the Registry Record's **Change History**.
 
----
-
-# 4.16 Object Identity Change Governance
+## 4.16 Object Identity Change Governance
 
 A Canonical Object Identifier shall not be changed merely because an existing object undergoes revision.
 
@@ -1856,9 +1769,7 @@ Genuinely New Canonical Asset Object
 
 This governance rule prevents unnecessary fragmentation of canonical identity.
 
----
-
-# 4.17 Registry Version Governance
+## 4.17 Registry Version Governance
 
 **Registry Record Version** applies to the Registry Record artifact.
 
@@ -1878,9 +1789,7 @@ The version shall be incremented according to the applicable registry change-man
 
 The Registry Record Version shall therefore be understood as **artifact versioning**, not object identity versioning.
 
----
-
-# 4.18 Historical Traceability
+## 4.18 Historical Traceability
 
 CWC-CAR shall preserve sufficient historical information to establish the continuity of a Canonical Asset Object throughout its registered existence.
 
@@ -1911,9 +1820,7 @@ CWC-OBJ-000001
 
 All versions remain associated with the same Canonical Asset Object unless a genuinely new object is formally established.
 
----
-
-# 4.19 Governance Compliance
+## 4.19 Governance Compliance
 
 Every Registry Record shall comply with the following:
 
@@ -1932,9 +1839,7 @@ Every Registry Record shall comply with the following:
 
 A Registry Record that violates these requirements shall not be considered conformant with CWC-CAR v2.0.
 
----
-
-# 4.20 Governance Authority Boundary
+## 4.20 Governance Authority Boundary
 
 The complete governance boundary of CWC-CAR can be summarized as:
 
@@ -1992,9 +1897,7 @@ The template is a **representation of the Registry Schema**.
 
 It does not create additional schema fields or governance requirements.
 
----
-
-# 5.2 Registry Record Template
+## 5.2 Registry Record Template
 
 The canonical Registry Record Template is:
 
@@ -2060,9 +1963,7 @@ The template shall be instantiated according to the **Applicable Fields Only** p
 
 Therefore, optional sections such as **Relationships** shall be omitted when no applicable value exists.
 
----
-
-# 5.3 Template Field Rules
+## 5.3 Template Field Rules
 
 The following rules apply to the Registry Record Template.
 
@@ -2125,9 +2026,7 @@ Records the artifact identifiers of the corresponding canonical specification an
 
 Records administrative information associated with the Registry Record artifact.
 
----
-
-# 5.4 Template Conformance
+## 5.4 Template Conformance
 
 Every Registry Record created under CWC-CAR v2.0 shall conform to:
 
@@ -2143,9 +2042,7 @@ A Registry Record shall not introduce additional fields merely because they appe
 
 Any new field shall require an explicit revision to the Registry Schema and Template before it becomes canonical.
 
----
-
-# 5.5 Template and Single Source of Truth
+## 5.5 Template and Single Source of Truth
 
 The Registry Record Template is designed to prevent information duplication across the Canonical Asset System.
 
@@ -2175,9 +2072,7 @@ CWC-CAR shall not copy:
 
 This ensures that the Registry Record remains a **minimal canonical identity record** rather than becoming a duplicate specification document.
 
----
-
-# 5.6 Registry Record Versioning
+## 5.6 Registry Record Versioning
 
 The Registry Record Version identifies the version of the **Registry Record artifact**.
 
@@ -2210,9 +2105,7 @@ CWC-OBJ-000001
 
 This preserves permanent object identity while allowing controlled artifact revision.
 
----
-
-# 5.7 Template Status
+## 5.7 Template Status
 
 The Registry Record Template defined in this phase is the **canonical implementation template for CWC-CAR v2.0**.
 
@@ -2253,9 +2146,7 @@ The implementation principle is:
 
 > **Register the object once, identify it permanently, and reference authoritative information rather than duplicate it.**
 
----
-
-# 6.2 Registry Record Population Principles
+## 6.2 Registry Record Population Principles
 
 Registry Records shall be populated according to the following principles:
 
@@ -2271,9 +2162,7 @@ Registry Records shall be populated according to the following principles:
 
 The Registry Record shall contain only information necessary to establish and maintain the registered object's identity and registry status.
 
----
-
-# 6.3 First Canonical Registry Record
+## 6.3 First Canonical Registry Record
 
 The first Canonical Asset Object registered under CWC-CAR v2.0 is:
 
@@ -2283,10 +2172,13 @@ Official Brand Logo
 
 Its permanent Canonical Object Identifier is:
 CWC-OBJ-000001
+
 Its CWC-CAR Registry Record is:
 CWC-CAR-AS-001
+
 The corresponding canonical artifact pairing is:
 CWC-OBJ-000001
+
 Official Brand Logo
         │
         ├── CWC-CAR-AS-001
@@ -2299,9 +2191,7 @@ Official Brand Logo
                Canonical Reference Sheet
 The three artifacts represent the same Canonical Asset Object while retaining their respective authority boundaries.
 
----
-
-# 6.4 Canonical Registry Record #001
+## 6.4 Canonical Registry Record #001
 
 ## CWC-CAR-AS-001 — Official Brand Logo
 
@@ -2358,9 +2248,7 @@ The **Relationships** section is omitted because no applicable object-to-object 
 
 The Registry Record therefore contains only applicable information and does not introduce unnecessary empty fields.
 
----
-
-# 6.5 Canonical Registry Record #002
+## 6.5 Canonical Registry Record #002
 
 ## CWC-CAR-AS-002 — Brand Presenter
 
@@ -2412,8 +2300,11 @@ Administrative Notes        : -
 ====================================================
 
 The Relationships section is omitted because no applicable object-to-object relationship has been established for this Registry Record.
+
 The Lifecycle field is intentionally omitted because lifecycle authority belongs to CWC-CAS and is not independently assigned by CWC-CAR.
+
 The Registry Record contains only information appropriate to the CWC-CAR authority boundary and does not duplicate the canonical specification maintained by CWC-CAB or the visual representation maintained by CWC-CRS.
+
 The canonical artifact pairing is:
 
 CWC-OBJ-000002
@@ -2430,9 +2321,7 @@ Brand Presenter
 
 CWC-CAR remains the authority for object identity, CWC-CAB for canonical specification, CWC-CRS for canonical visual representation, and CWC-CAS for lifecycle.
 
----
-
-# 6.6 Canonical Registry Record #002 Status
+## 6.6 Canonical Registry Record #002 Status
 
 **CWC-CAR-AS-002 — Brand Presenter** is the second registered Canonical Asset Object within CWC-CAR v2.0.
 
@@ -2443,13 +2332,18 @@ CWC-OBJ-000002
 
 Its Registry Record artifact is identified by:
 CWC-CAR-AS-002
+
 Its canonical specification is referenced through:
 CWC-CAB-AS-002
+
 Its authoritative visual representation is referenced through:
 CWC-CRS-AS-002
+
 The Registry Record establishes the canonical registry identity of the Brand Presenter without duplicating the specification maintained by CWC-CAB or the visual representation maintained by CWC-CRS.
+
 The canonical relationship is:
 CWC-OBJ-000002
+
 Brand Presenter
         │
         ├── CWC-CAR-AS-002
@@ -2460,11 +2354,16 @@ Brand Presenter
         │
         └── CWC-CRS-AS-002
                Canonical Reference Sheet
+
 The three artifacts represent the same Canonical Asset Object while retaining their respective authority boundaries.
-6.7 Registry Record #002 — Authority Boundary
+
+## 6.7 Registry Record #002 — Authority Boundary
+
 The Brand Presenter Registry Record maintains a strict separation between registry identity, canonical specification, visual representation, and lifecycle authority.
+
 The authority model is:
 CWC-CAR
+
 Object Identity Authority
         │
         ▼
@@ -2482,14 +2381,19 @@ Brand Presenter
                
 CWC-CAS
 Lifecycle Authority
+
 CWC-CAR is authoritative for the identity of the Canonical Asset Object.
 CWC-CAB is authoritative for the canonical specification of the Brand Presenter.
 CWC-CRS is authoritative for the canonical visual representation.
 CWC-CAS is authoritative for the canonical lifecycle.
+
 These authority boundaries shall remain independent.
+
 Accordingly, the CWC-CAR Registry Record shall not reproduce the locked Biological Identity, Facial Identity, Face Geometry, or the supporting CFMS-001 measurement specification defined within CWC-CAB. Those concepts have their authoritative home in the specification layer.
+
 The canonical principle is:
 One Canonical Asset Object, multiple authoritative artifacts, one identity anchor.
+
                     CWC-OBJ-000002
                     Brand Presenter
                            │
@@ -2504,11 +2408,10 @@ One Canonical Asset Object, multiple authoritative artifacts, one identity ancho
                           ▼
                        CWC-CAS
                        Lifecycle
+
 This structure preserves Single Source of Truth, One Concept, One Home, and the separation of canonical authority across the CWC Canonical Asset System.
 
----
-
-# 6.8 Registry Record #002 — SSOT Validation
+## 6.8 Registry Record #002 — SSOT Validation
 
 The **Brand Presenter** Registry Record has been reviewed against the **Single Source of Truth (SSOT)** principle.
 
@@ -2530,9 +2433,12 @@ Facial Measurement Specification
 Rendering Instructions
 Visual Construction Details
 Production Specifications
+
 These excluded elements belong to the canonical specification and visual representation layers and shall not be duplicated within CWC-CAR.
+
 The authority structure remains:
 CWC-CAS
+
 System / Lifecycle Authority
         │
         ├── CWC-CAR
@@ -2544,13 +2450,19 @@ System / Lifecycle Authority
         └── CWC-CRS
               Canonical Visual Representation
 Therefore, the Registry Record does not duplicate the identity-defining specification maintained by CWC-CAB.
-6.9 Registry Record #002 — Identity Integrity
+
+## 6.9 Registry Record #002 — Identity Integrity
+
 The permanent identity of the Brand Presenter is established through:
+
 Canonical Object Identifier : CWC-OBJ-000002
 Object Name                 : Brand Presenter
+
 The Registry Record artifact is independently identified as:
 Registry Record Identifier  : CWC-CAR-AS-002
+
 These identifiers establish two different levels of identity:
+
 CWC-OBJ-000002
         │
         └── Canonical Asset Object
@@ -2560,26 +2472,38 @@ CWC-CAR-AS-002
         │
         └── Registry Record Artifact
               documenting the object
+
 The Registry Record Identifier may change only through the applicable artifact-governance mechanism.
+
 The Canonical Object Identifier shall remain permanently associated with the Brand Presenter.
+
 Changes to the Registry Record shall therefore not result in a change from:
 CWC-OBJ-000002
 to another Object ID unless a genuinely new Canonical Asset Object is established through the applicable canonical process.
+
 This preserves the fundamental CWC-CAR principle:
 One Canonical Asset Object, one permanent Canonical Object Identifier.
-6.10 Registry Record #002 — Final Canonical State
+
+## 6.10 Registry Record #002 — Final Canonical State
+
 The second Canonical Asset Object registered within CWC-CAR v2.0 is:
 CWC-OBJ-000002
 Brand Presenter
+
 Its authoritative registry artifact is:
 CWC-CAR-AS-002
+
 Its canonical specification is:
 CWC-CAB-AS-002
+
 Its canonical visual representation is:
 CWC-CRS-AS-002
+
 Its lifecycle authority remains:
 CWC-CAS
+
 The complete canonical pairing is therefore:
+
                          CWC-OBJ-000002
                          Brand Presenter
                                 │
@@ -2594,8 +2518,10 @@ The complete canonical pairing is therefore:
                                     ▼
                                  CWC-CAS
                               Lifecycle Authority
+
 The Brand Presenter Registry Record is therefore established as the second Canonical Registry Record of CWC-CAR v2.0.
 Its identity, registry structure, canonical references, and authority boundaries are aligned with the finalized CWC-CAR v2.0 architecture.
+
 ====================================================
 END OF CANONICAL REGISTRY RECORD #002
 CWC-CAR-AS-002 — BRAND PRESENTER
@@ -2603,9 +2529,342 @@ CWC-CAR-AS-002 — BRAND PRESENTER
 
 ---
 
+## 6.11 Canonical Registry Record #003
 
+## CWC-CAR-AS-003 — Canonical Footer Platforms
 
+```text
+====================================================
 
+REGISTRY RECORD
+
+Registry Record Identifier : CWC-CAR-AS-003
+Canonical Object Identifier: CWC-OBJ-000003
+Object Name                : Canonical Footer Platforms
+
+----------------------------------------------------
+
+Object Identity
+
+Alternative Name(s)        : -
+Object Type                : Communication / Identity Component
+Object Summary             : The canonical CWC asset defining the official platform identities presented as part of the footer communication context.
+Canonical Asset Role        : Official Footer Platform Identity Asset
+Canonical Scope             : Footer Communication Context
+
+----------------------------------------------------
+
+Classification
+
+Domain                     : Communication
+Category                   : Footer Communication
+Type                       : Platform Identity
+Subtype                    : Canonical Footer Platforms
+
+----------------------------------------------------
+
+Canonical References
+
+Canonical Asset Specification : CWC-CAB-AS-003
+Canonical Reference Sheet      : CWC-CRS-AS-003
+
+----------------------------------------------------
+
+Metadata
+
+Registry Status             : Active
+Registry Record Version     : 1.0
+Registration Date           : 2026-08-09
+Last Updated                : 2026-08-09
+Registry Authority          : CWC-CAR
+Change History              : Initial Registration
+Administrative Notes        : -
+
+====================================================
+
+The Canonical Object Identifier CWC-OBJ-000003 establishes the permanent identity of the third Canonical Asset Object.
+
+The Registry Record Identifier CWC-CAR-AS-003 identifies the registry artifact documenting that object.
+
+The object name and summary are derived from the canonical identity established in CWC-CAB-AS-003 — Canonical Footer Platforms.
+
+The Registry Record does not reproduce the detailed platform ordering, icon-to-account pairing, geometry, surface-dependent color behavior, or production requirements defined by CWC-CAB. Those remain within the authoritative specification layer.
+
+## 6.12 Registry Record #003 — Authority Boundary
+
+The **Canonical Footer Platforms** Registry Record maintains a strict separation between object identity, canonical specification, visual representation, and lifecycle authority.
+
+The authority model is:
+
+```text
+CWC-CAR
+Object Identity Authority
+        │
+        ▼
+CWC-OBJ-000003
+Canonical Footer Platforms
+        │
+        ├── CWC-CAR-AS-003
+        │      Registry Record
+        │
+        ├── CWC-CAB-AS-003
+        │      Canonical Specification
+        │
+        └── CWC-CRS-AS-003
+               Canonical Visual Representation
+
+CWC-CAS
+Lifecycle Authority
+
+CWC-CAR governs the canonical object identity and registry representation of AS-003.
+CWC-CAB defines the canonical specification of Canonical Footer Platforms, including its canonical platform membership, account identities, platform ordering, icon-to-account pairing, mandatory presence, canonical geometry, and canonical surface behavior.
+CWC-CRS governs the visual rendering and representation of AS-003 within production.
+CWC-CAS governs the canonical lifecycle of AS-003.
+These authority boundaries shall remain independent.
+
+The Registry Record therefore does not reproduce the detailed specification maintained by CWC-CAB, including:
+Platform Membership
+Account Identity
+Platform Ordering
+Icon-to-Account Pairing
+Canonical Geometry
+Surface-Dependent Color Behavior
+Production Preservation Rules
+Those concepts remain authoritative within CWC-CAB-AS-003.
+
+The canonical principle is:
+One Canonical Asset Object, multiple authoritative artifacts, one identity anchor.
+                    CWC-OBJ-000003
+              Canonical Footer Platforms
+                           │
+          ┌────────────────┼────────────────┐
+          │                │                │
+          ▼                ▼                ▼
+   CWC-CAR-AS-003   CWC-CAB-AS-003   CWC-CRS-AS-003
+      Registry         Specification     Representation
+      Identity
+          │
+          └───────────────┐
+                          ▼
+                       CWC-CAS
+                       Lifecycle
+
+This structure preserves Single Source of Truth, One Concept, One Home, and the separation of canonical authority across the CWC Canonical Asset System.
+
+## 6.13 Registry Record #003 — SSOT Validation
+
+The **Canonical Footer Platforms** Registry Record has been reviewed against the **Single Source of Truth (SSOT)** principle.
+
+The Registry Record contains only information whose authoritative home belongs to CWC-CAR.
+
+The following information is therefore retained within the Registry Record:
+
+```text
+Object Identity
+Classification
+Canonical References
+Registry Metadata
+
+The following information is intentionally not reproduced in the Registry Record:
+Platform Membership Specification
+Account Identity Mapping
+Platform Ordering
+Icon-to-Account Pairing
+Two-Layer Structure
+Canonical Geometry
+Surface-Dependent Color Behavior
+Production Preservation Requirements
+Canonical Change Requirements
+
+These elements remain within CWC-CAB-AS-003, where they are defined as part of the canonical specification of AS-003.
+
+The authority structure remains:
+CWC-CAS
+
+System / Lifecycle Authority
+        │
+        ├── CWC-CAR
+        │     Object Identity / Registry
+        │
+        ├── CWC-CAB
+        │     Canonical Specification
+        │
+        └── CWC-CRS
+              Canonical Visual Representation
+
+For AS-003 specifically:
+CWC-CAR
+└── CWC-OBJ-000003
+    Canonical Footer Platforms
+    Object Identity / Registry
+
+CWC-CAB
+└── CWC-CAB-AS-003
+    Canonical Specification
+
+CWC-CRS
+└── CWC-CRS-AS-003
+    Visual Representation
+
+CWC-CAS
+└── Lifecycle
+
+CWC-CAR remains responsible for the canonical object identity and registry representation of AS-003.
+
+CWC-CAB remains responsible for the canonical specification of AS-003.
+CWC-CRS remains responsible for the visual representation of AS-003.
+CWC-CAS remains responsible for the canonical lifecycle of AS-003.
+
+Therefore, the Registry Record does not duplicate the specification-level knowledge maintained by CWC-CAB.
+
+This preserves the SSOT principle and prevents the Registry Record from becoming a secondary specification source.
+
+## 6.14 Registry Record #003 — Identity Integrity
+
+The permanent identity of **Canonical Footer Platforms** is established through:
+
+```text
+Canonical Object Identifier : CWC-OBJ-000003
+Object Name                 : Canonical Footer Platforms
+
+The Registry Record artifact is independently identified as:
+Registry Record Identifier  : CWC-CAR-AS-003
+
+These identifiers establish two distinct levels of identity:
+CWC-OBJ-000003
+        │
+        └── Canonical Asset Object
+              Canonical Footer Platforms
+
+CWC-CAR-AS-003
+        │
+        └── Registry Record Artifact
+              documenting the object
+
+The Canonical Object Identifier is the persistent identity anchor of the Canonical Asset Object.
+The Registry Record Identifier identifies the registry artifact through which that object is registered and maintained within CWC-CAR.
+
+Changes to the Registry Record shall therefore not result in the reassignment of the Canonical Object Identifier.
+
+The identifier:
+CWC-OBJ-000003
+shall remain permanently associated with the Canonical Asset Object Canonical Footer Platforms, unless a genuinely new Canonical Asset Object is established through the applicable canonical process.
+
+This preserves the fundamental CWC-CAR principle:
+One Canonical Asset Object, one permanent Canonical Object Identifier.
+
+## 6.15 Registry Record #003 — Canonical Reference Integrity
+
+The Registry Record maintains explicit references to the two canonical artifacts associated with AS-003:
+
+CWC-CAB-AS-003
+Canonical Asset Specification
+
+CWC-CRS-AS-003
+Canonical Reference Sheet
+
+The relationship is:
+                         CWC-OBJ-000003
+                  Canonical Footer Platforms
+                                │
+             ┌──────────────────┼──────────────────┐
+             │                  │                  │
+             ▼                  ▼                  ▼
+      CWC-CAR-AS-003     CWC-CAB-AS-003     CWC-CRS-AS-003
+         Registry          Specification      Representation
+         Identity
+
+The Registry Record therefore functions as the identity and registry anchor without becoming a duplicate of either the canonical specification or the visual reference.
+The canonical references preserve traceability between the registered object and its authoritative specification and visual representation.
+
+## 6.16 Registry Record #003 — Final Canonical State
+
+The third Canonical Asset Object registered within CWC-CAR v2.0 is:
+
+```text
+CWC-OBJ-000003
+Canonical Footer Platforms
+
+Its authoritative registry artifact is:
+CWC-CAR-AS-003
+
+Its canonical specification is:
+CWC-CAB-AS-003
+
+Its canonical visual representation is:
+CWC-CRS-AS-003
+
+Its lifecycle authority remains:
+CWC-CAS
+
+The complete canonical pairing is therefore:
+                         CWC-OBJ-000003
+                  Canonical Footer Platforms
+                                │
+             ┌──────────────────┼──────────────────┐
+             │                  │                  │
+             ▼                  ▼                  ▼
+      CWC-CAR-AS-003     CWC-CAB-AS-003     CWC-CRS-AS-003
+         Registry          Specification      Representation
+         Identity
+             │
+             └──────────────────────┐
+                                    ▼
+                                 CWC-CAS
+                              Lifecycle Authority
+
+The current canonical membership of AS-003 consists of four official platforms:
+1. Instagram — @cozwecare.id
+2. Facebook  — Tes HIV Manado
+3. TikTok    — @cozwecare.id
+4. WhatsApp  — 0822-9255-2915
+
+The source specification establishes that this four-platform membership is canonical and that future expansion requires authorized canonical change.
+
+AS-003 is a Canonical Locked asset defining the official platform identities presented within the CWC footer communication context.
+
+The Canonical Footer Platforms Registry Record is therefore established as the third Canonical Registry Record of CWC-CAR v2.0.
+
+Its identity, registry structure, canonical references, and authority boundaries are aligned with the canonical specification of AS-003.
+
+## 6.17 Registry Record #003 — Canonical Closure
+
+The canonical state of Registry Record #003 is summarized as follows:
+
+====================================================
+
+CANONICAL REGISTRY RECORD #003
+
+Registry Record Identifier : CWC-CAR-AS-003
+Canonical Object Identifier: CWC-OBJ-000003
+
+Object Name                : Canonical Footer Platforms
+
+Canonical Specification    : CWC-CAB-AS-003
+Canonical Reference Sheet  : CWC-CRS-AS-003
+
+Registry Authority         : CWC-CAR
+Specification Authority    : CWC-CAB
+Rendering Authority        : CWC-CRS
+Lifecycle Authority        : CWC-CAS
+
+Registry Status            : Active
+Registry Record Version    : 1.0
+
+====================================================
+
+The Registry Record does not redefine the canonical specification of AS-003.
+The canonical platform membership, account identities, ordering, permanent icon-to-account pairing, geometry, surface behavior, mandatory presence, and canonical change requirements remain authoritative within CWC-CAB-AS-003.
+The visual representation of the asset remains under the authority of CWC-CRS-AS-003.
+The lifecycle of the asset remains under the authority of CWC-CAS.
+Accordingly:
+CWC-CAR-AS-003 establishes and maintains the registry identity of CWC-OBJ-000003 without becoming a duplicate specification or visual representation.
+This preserves the SSOT principle and the architectural separation established by the CWC Canonical Asset System.
+
+====================================================
+END OF CANONICAL REGISTRY RECORD #003
+CWC-CAR-AS-003 — CANONICAL FOOTER PLATFORMS
+====================================================
 
 ---
 
@@ -2626,7 +2885,6 @@ CWC-CAR-AS-002 — BRAND PRESENTER
 
 
 ---
-
 
 
 
