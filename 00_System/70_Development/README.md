@@ -1,95 +1,93 @@
-# Development Workspace
+# 70_Development
 
-Version: 1.0
+## Purpose
 
-Status: Active
-
----
-
-# Purpose
-
-The Development Workspace provides a dedicated environment for developing architectural artifacts before they become Canonical Specifications.
-
-This workspace supports the Architecture Development Lifecycle (ADL) by separating exploratory and iterative work from the repository's official knowledge base.
+Provides the controlled non-canonical workspace for developing architectural artifacts before they are promoted into canonical system artifacts.
 
 ---
 
-# Scope
+## Scope
 
-The Development Workspace contains all non-canonical artifacts produced during architecture development.
+`70_Development` contains exploratory and iterative architecture-development artifacts governed by the applicable Architecture Development Lifecycle (ADL).
 
-Typical artifacts include:
-
-- Discovery Notes
-- Architecture Blueprints
-- Architecture Reviews
-
-Artifacts stored in this workspace are temporary by nature and may change throughout the development process.
+Artifacts in this workspace do not independently establish canonical architectural authority.
 
 ---
 
-# Structure
-
-| Folder | Purpose |
-|---------|---------|
-| Discovery | Capture ideas, research, questions, assumptions, and conceptual exploration. |
-| Blueprints | Transform validated discoveries into structured architectural blueprints. |
-| Reviews | Record validation outcomes, review comments, and architectural decisions. |
-
----
-
-# Relationship to Specifications
-
-Development artifacts support the creation of Canonical Specifications.
-
-A document is promoted to the `50_Specifications` directory only after completing the Architecture Development Lifecycle (ADL).
-
----
-
-# Guiding Principles
-
-The Development Workspace follows these principles:
-
-- Separate working artifacts from Canonical Specifications.
-- Encourage exploration before architectural decisions are made.
-- Preserve traceability from initial ideas to final specifications.
-- Support iterative development while protecting Canonical knowledge.
-
----
-
-# Artifact Lifecycle
+## Current Structure
 
 ```text
-Idea
+70_Development/
+└── 20_Blueprints/
+```
+
+### `20_Blueprints`
+
+Contains Architecture Blueprints that transform validated discovery work into structured architectural proposals before formal review, freeze, and promotion to `50_Specifications`.
+
+Additional development stages may be materialized as numbered child directories when their canonical workspace structure and artifacts are established.
+
+---
+
+## Artifact Lifecycle
+
+```text
+Discovery
     ↓
-Discovery Notes
+20_Blueprints
     ↓
-Architecture Blueprint
-    ↓
-Architecture Review
+Review
     ↓
 Architecture Freeze
     ↓
-Canonical Specification
+50_Specifications
 ```
+
+Discovery and Review are lifecycle stages; their dedicated repository directories are not currently materialized under `70_Development`.
 
 ---
 
-# Directory Layout
+## Rules
 
-```text
-Development/
-├── Discovery/
-├── Blueprints/
-└── Reviews/
-```
-
-Each subdirectory supports a specific stage of the Architecture Development Lifecycle.
+- Development artifacts are non-canonical unless formally promoted through the applicable lifecycle.
+- Development work shall preserve traceability to its source, decisions, and resulting canonical artifact.
+- A development artifact shall not silently replace or override an existing canonical artifact.
+- Folder numbering shall reflect established lifecycle order and shall not be used to imply the existence of an unmaterialized stage.
+- Canonical artifacts belong in their applicable system layer after formal approval and promotion.
 
 ---
 
-# Status
+## Relationship to Other System Layers
 
-This workspace is intended for active development.
+- `../10_Architecture` — canonical architectural authority.
+- `../20_Governance` — governance and change-control mechanisms.
+- `../50_Specifications` — destination for formally promoted canonical specifications.
+- `../60_Releases` — publication and release traceability.
+- `../80_Planning` — implementation planning.
 
-Documents within this workspace may change frequently until they are promoted to Canonical Specifications.
+---
+
+## Navigation
+
+### Parent
+
+`../`
+
+### Child
+
+- `20_Blueprints`
+
+### Related
+
+- `../10_Architecture`
+- `../20_Governance`
+- `../50_Specifications`
+- `../60_Releases`
+- `../80_Planning`
+- `../../01_Knowledge`
+
+---
+
+## Canonical Boundary Principle
+
+`70_Development` is a controlled working layer. It supports system development but does not itself own canonical architectural, governance, standards, registry, specification, or release authority.
