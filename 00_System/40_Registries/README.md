@@ -12,13 +12,30 @@ Registries provide controlled operational representations of governed objects, i
 
 ### Universal Naming & Identification Registry (UNIR)
 
+The UNIR architecture is now materialized as three separate canonical documents with distinct responsibilities. They shall not be treated as interchangeable.
+
+```text
+UNIR-CORE-001
+    ↓
+Core Architecture
+
+UNIR-REGISTRY-001
+    ↓
+Current Registry State
+
+UNIR-REGISTRATION-RECORD-001
+    ↓
+Registration Record Representation & Traceability
+```
+
+### 1. UNIR Core Document
+
 **Document ID:** `UNIR-CORE-001`  
-**Current Version:** `1.2`  
-**Status:** `LOCKED — CANONICAL`
+**Current Version:** `1.3`  
+**Status:** `LOCKED — CANONICAL`  
+**Canonicality:** `CANONICAL`
 
-UNIR is the canonical registry architecture for Universal Naming & Identification. It operates within the normative authority established by UNIS and provides the registry machinery required for registration, identity, namespace, lifecycle/state, and governance operations.
-
-UNIR Core v1.2 is consolidated into a single canonical publication containing six distinct semantic ownership domains:
+`UNIR-CORE-001` is the canonical architectural home of the UNIR Six Core domains:
 
 - **UNIR-SCH** — Registry Object structure
 - **UNIR-OCM** — Registry Object classification
@@ -27,7 +44,35 @@ UNIR Core v1.2 is consolidated into a single canonical publication containing si
 - **UNIR-LSM** — Registry lifecycle and state
 - **UNIR-GRP** — Governance and registration
 
-The six Core domains retain separate semantic ownership even though they are published as one canonical document.
+The Core document defines the architectural and semantic ownership boundaries of the six Core domains. It is not the current registry inventory and is not a registration-record repository.
+
+[Open UNIR-CORE-001 v1.3](./10_UNIR/UNIR-CORE-001_Universal_Naming_Identification_Registry_v1.3.md)
+
+### 2. UNIR Registry State
+
+**Document ID:** `UNIR-REGISTRY-001`  
+**Current Version:** `1.0`  
+**Status:** `LOCKED — CANONICAL`  
+**Canonicality:** `CANONICAL`
+
+`UNIR-REGISTRY-001` represents the current registered state of UNIR, including current Registry Object representations, current registry state, applicable current-source provenance, and bounded registered/allocated identification content.
+
+It does not redefine the Six Core semantics and does not replace the underlying registration records.
+
+[Open UNIR-REGISTRY-001 v1.0](./10_UNIR/UNIR-REGISTRY-001_Universal_Naming_Identification_Registry_v1.0.md)
+
+### 3. UNIR Registration Record Representation
+
+**Document ID:** `UNIR-REGISTRATION-RECORD-001`  
+**Current Version:** `1.0`  
+**Status:** `LOCKED — CANONICAL`  
+**Canonicality:** `CANONICAL`
+
+`UNIR-REGISTRATION-RECORD-001` provides the canonical representation and traceability layer for validated UNIR registration records associated with current Registry Objects.
+
+Underlying readiness, authorization, allocation, decision, registration-event, reassessment, audit, review, and reconciliation artifacts remain authoritative for their own record content. This document does not become a parallel evidence repository.
+
+[Open UNIR-REGISTRATION-RECORD-001 v1.0](./10_UNIR/UNIR-REGISTRATION-RECORD-001_Universal_Naming_Identification_Registration_Record_v1.0.md)
 
 ---
 
@@ -63,11 +108,13 @@ Accordingly:
 ## Registry Principles
 
 - Registry specifications operate within the authority of applicable normative standards.
-- Registries represent governed objects and operational state; they do not silently redefine normative semantics.
 - Registry identifiers must be unique within their applicable identity scope.
 - Registry object identity, classification, namespace, lifecycle/state, and governance concerns must remain within their defined ownership boundaries.
+- Current registry state shall be represented only by the canonical current-state registry document.
+- Registration records shall remain traceable to their underlying authoritative artifacts.
 - Historical versions and superseded releases must remain traceable and must not be silently overwritten.
 - New registry constructs require explicit registration and eligibility decisions; names appearing in normative standards do not automatically become separate Registry Objects.
+- Locked canonical documents shall not be edited in place; substantive change requires the applicable revision, audit, canonicalization, and lock process.
 
 ---
 
@@ -81,10 +128,41 @@ The legacy directory has therefore been removed from the active repository struc
 
 ---
 
-## Current Canonical Registry
+## Current Canonical Registry Set
 
 | Document | Version | Status | Scope |
 |---|---:|---|---|
-| `UNIR-CORE-001_Universal_Naming_Identification_Registry_v1.2.md` | 1.2 | LOCKED — CANONICAL | Universal Naming & Identification Registry |
+| `UNIR-CORE-001_Universal_Naming_Identification_Registry_v1.3.md` | 1.3 | LOCKED — CANONICAL | UNIR Core Architecture |
+| `UNIR-REGISTRY-001_Universal_Naming_Identification_Registry_v1.0.md` | 1.0 | LOCKED — CANONICAL | Current UNIR Registry State |
+| `UNIR-REGISTRATION-RECORD-001_Universal_Naming_Identification_Registration_Record_v1.0.md` | 1.0 | LOCKED — CANONICAL | Registration Record Representation & Traceability |
 
-Additional registry specifications may be introduced only through the applicable architecture, governance, and registration processes.
+The canonical UNIR document set is located in `00_System/40_Registries/10_UNIR/`.
+
+---
+
+## Reading Order
+
+For a first-time reading of the current UNIR architecture, use this order:
+
+1. `UNIR-CORE-001` — understand the canonical Six Core architecture and boundaries.
+2. `UNIR-REGISTRY-001` — inspect the current registered Registry state.
+3. `UNIR-REGISTRATION-RECORD-001` — inspect validated registration-record relationships and traceability.
+4. The underlying registration/allocation/reassessment artifacts — consult individual records when record-level evidence is required.
+
+---
+
+## Boundary of This README
+
+This README is a **navigation and orientation document**. It is not:
+
+- a replacement for `UNIR-CORE-001`;
+- a current registry inventory;
+- a registration record repository;
+- a normative definition of UNIR semantics;
+- an alternative canonical source of registry state;
+- an authority to modify locked UNIR documents.
+
+---
+
+**Directory:** `00_System/40_Registries`  
+**UNIR canonical document directory:** `00_System/40_Registries/10_UNIR`
