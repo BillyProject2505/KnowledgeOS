@@ -44,7 +44,7 @@ The `DIC` marker is reserved for Document identifiers. Namespace allocation rema
 
 Documents in this directory shall:
 
-1. use the applicable Universal Document Standard requirements;
+1. use the applicable Universal Document System requirements;
 2. maintain explicit identity, version, status, scope, and authority boundaries;
 3. preserve distinction between document identity, title, representation, filename, and storage location;
 4. use UNIS-governed identification where applicable;
