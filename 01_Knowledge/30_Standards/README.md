@@ -1,36 +1,22 @@
 # Standards
 
-## Purpose
+## Status
 
-Stores canonical Standard Knowledge Objects.
+This directory is no longer a canonical Knowledge layer.
 
----
+## Canonical Boundary
 
-## Scope
+Normative Standards are System artifacts. They establish mandatory rules, requirements, specifications, boundaries, and conformance obligations within their declared scope.
 
-Standards define mandatory rules and specifications.
+Canonical Standards shall be stored under `00_System/30_Standard` or another explicitly applicable System standards layer.
 
----
+## Migration Rule
 
-## Contents
+No new canonical Standard artifacts shall be added to this directory.
 
-Canonical Standards.
+Existing contents shall be assessed for canonical status, authority, version, duplication, and supersession before migration or removal.
 
----
+## Related
 
-## Rules
-
-Standards are normative and must be followed.
-
----
-
-## Navigation
-
-### Parent
-
-01_Knowledge
-
-### Related
-
-- Frameworks
-- Bibles
+- `../../00_System/30_Standard`
+- `../60_References`
