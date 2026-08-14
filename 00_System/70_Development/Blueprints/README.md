@@ -27,7 +27,7 @@ Review
     ↓
 Architecture Freeze
     ↓
-Canonical Specification
+50_Specifications
 ```
 
 ---
@@ -39,6 +39,7 @@ Canonical Specification
 - A Blueprint does not become authoritative merely because it is stored in this directory.
 - Approved architecture shall be promoted through the applicable lifecycle before becoming a Canonical Specification.
 - Blueprint changes shall preserve sufficient history and traceability for architectural review.
+- A Blueprint shall not silently replace or override an existing canonical Architecture artifact.
 
 ---
 
@@ -56,13 +57,19 @@ Canonical Specification
 
 `../`
 
-### Related
+### Related System Layers
 
-- `../Discovery`
-- `../Reviews`
 - `../../10_Architecture`
 - `../../20_Governance`
+- `../../30_Standard`
+- `../../40_Registries`
 - `../../50_Specifications`
+- `../../60_Releases`
+- `../../80_Planning`
+
+### Related Knowledge Layer
+
+- `../../../01_Knowledge`
 
 ---
 
