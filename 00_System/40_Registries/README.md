@@ -71,6 +71,16 @@ Accordingly:
 
 ---
 
+## Legacy Registry Architecture Disposition
+
+The former `00_System/Registries/` directory contained an earlier registry architecture generation, including `DocumentRegistry.md`, `KnowledgeObjectRegistry.md`, `RegistrySpecification.md`, `RelationshipRegistry.md`, and `VersionRegistry.md`.
+
+These artifacts are no longer canonical. Their registry concepts and responsibilities are superseded, reconstituted, or absorbed by newer Universal architecture, governance, identification, lifecycle, relationship, and registry mechanisms.
+
+The legacy directory has therefore been removed from the active repository structure. Historical repository history remains preserved by Git.
+
+---
+
 ## Current Canonical Registry
 
 | Document | Version | Status | Scope |
