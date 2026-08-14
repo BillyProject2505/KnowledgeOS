@@ -20,13 +20,13 @@ Repository placement is determined by the artifact's canonical function and auth
 - `20_Governance` — governance, authority, decision, and change-control mechanisms.
 - `30_Standard` — canonical normative standards.
 - `40_Registries` — canonical registry architecture and operational registration mechanisms.
-- `Specifications` — canonical system specifications and materialized technical definitions.
-- `Releases` — release records, publication history, and versioned system release information.
+- `50_Specifications` — canonical system specifications and materialized technical definitions.
+- `60_Releases` — release records, publication history, and versioned system release information.
 
 ## Controlled Workspaces
 
-- `Development` — non-canonical architecture-development workspace governed by the Architecture Development Lifecycle.
-- `Planning` — implementation-planning workspace; planning artifacts do not define architectural authority.
+- `70_Development` — non-canonical architecture-development workspace governed by the Architecture Development Lifecycle.
+- `80_Planning` — implementation-planning workspace; planning artifacts do not define architectural authority.
 
 ## System Boundary
 
@@ -56,10 +56,10 @@ Repository Root
 - `20_Governance`
 - `30_Standard`
 - `40_Registries`
-- `Specifications`
-- `Releases`
-- `Development`
-- `Planning`
+- `50_Specifications`
+- `60_Releases`
+- `70_Development`
+- `80_Planning`
 
 ### Related Knowledge Layer
 
