@@ -1,8 +1,33 @@
 # Universal Production Knowledge Object (UPKO)
 
-## Content Foundation --- Materialized Working Specification
+## Canonical Normalized Master
 
-> This file is the canonical normalized master for the UPKO reconstruction work. It contains the Phase 1 audit, Phase 2 CPB extraction, Phase 3 cross-project normalization, Phase 4 canonical inventory, Phase 5 specification work, and locked taxonomy decisions recorded during this project.
+This document is the canonical normalized master for the UPKO inventory and related normalization decisions.
+
+It records the canonical production-knowledge inventory, normalized mappings, repository placement, and lock boundaries used by the UPKO system.
+
+---
+
+## Normative Taxonomy Authority
+
+The canonical Object Type taxonomy is governed separately by:
+
+```text
+UPKO_Object_Type_Taxonomy_Canonical_v1.0.md
+```
+
+This master does **not** redefine or independently govern the Object Type taxonomy.
+
+The taxonomy authority defines:
+
+- Object Type values;
+- Object Type definitions;
+- Object Type assignment rules;
+- Object Type governance and future-extension rules.
+
+This document consumes that taxonomy for the normalized UPKO inventory.
+
+---
 
 ## Canonical Classification Domain
 
@@ -18,18 +43,11 @@ Classification
     └── Visual
 ```
 
-## Canonical Object Type
+Classification Domain identifies the production-knowledge area to which a UPKO belongs.
 
-```text
-Object Type
-├── Philosophy
-├── Principle
-├── Model
-├── Classification
-├── Objective
-├── Standard
-└── System
-```
+Classification Domain and Object Type are orthogonal dimensions and shall not be collapsed.
+
+---
 
 ## Canonical 23-UPKO Mapping
 
@@ -59,25 +77,28 @@ Object Type
 | 22 | Graphic Elements System | Visual | System |
 | 23 | Imagery System | Visual | System |
 
-## Locked Taxonomy Rules
+---
+
+## Normalization Rules
 
 - Domain identifies the production-knowledge area.
-- Object Type identifies the fundamental form of the knowledge object.
-- Domain and Object Type are orthogonal.
+- Object Type is assigned according to the normative UPKO Object Type Taxonomy.
 - Applicability Information is not converted into Classification values.
 - `Foundation` is a sibling Domain value, not a parent of the other Domains.
-- `Model` is not a fallback Object Type.
-- `Relationship` is not an Object Type.
-- Identity, Positioning, Voice, Tone, and Alignment remain conceptual distinctions, not Object Types.
-- Future taxonomy additions require controlled taxonomy review and explicit canonical approval.
+- Identity, Positioning, Voice, Tone, and Alignment remain conceptual distinctions within the normalized inventory and are not treated as Object Types.
+- Future taxonomy additions are governed by the separate Object Type Taxonomy authority.
+
+---
 
 ## Canonical Status
 
 **Classification.Domain — CANONICAL / LOCKED**
 
-**Object Type — CANONICAL / LOCKED**
-
 **Coverage — 23/23 UPKOs**
+
+**Object Type assignments — conformant to the canonical UPKO Object Type Taxonomy**
+
+---
 
 ## Repository Placement
 
@@ -87,6 +108,22 @@ Canonical repository placement:
 01_Knowledge/10_UPKO/
 ```
 
+---
+
 ## Lock Boundary
 
-The locked taxonomy decisions do not alter Applicability Information, Canonical Location, Lifecycle/Status, Version, Traceability, or PKR mapping.
+This master establishes the normalized UPKO inventory and its recorded mappings.
+
+It does not independently alter or redefine:
+
+- Object Type taxonomy;
+- Object Type definitions;
+- Object Type governance;
+- Applicability Information;
+- Canonical Location;
+- Lifecycle/Status;
+- Version;
+- Traceability;
+- PKR mapping.
+
+Changes to Object Type semantics shall be made in the canonical taxonomy authority and then reflected here through controlled normalization and re-audit.
