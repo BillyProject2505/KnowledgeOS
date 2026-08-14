@@ -2,25 +2,21 @@
 
 **Document ID:** UNIR-CORE-001  
 **Document Type:** Universal Registry Architecture  
-**Version:** 1.2 (Controlled Revision)  
-**Status:** CONTROLLED REVISION — NOT YET CANONICAL  
+**Version:** 1.2  
+**Status:** LOCKED — CANONICAL  
 **Previous Version:** 1.1  
 **Canonical Scope:** Universal Naming & Identification Registry (UNIR)  
 **Normative Relationship:** Operates within the normative authority established by UNIS
 
 ---
 
-## Revision Purpose
+## Canonical Lock Record
 
-This controlled revision incorporates the materialized `DIUA` Namespace registration state into the canonical `UNIR-NSM` domain while preserving the existing six-Core architecture and the explicit boundary that DIUA is not a separate UNIR Registry Object by default.
+UNIR-CORE-001 v1.2 is canonically locked as the current canonical revision of UNIR-CORE-001.
 
-This revision does not alter the authority of UNIS, does not create an additional UNIR Core, and does not allocate any individual Document Identifier.
+This revision incorporates the materialized `DIUA` Namespace registration state into the canonical `UNIR-NSM` domain while preserving the existing six-Core architecture and the explicit boundary that DIUA is not a separate UNIR Registry Object by default.
 
----
-
-## DIUA Namespace Registration State
-
-The following Namespace state is proposed for incorporation into `UNIR-NSM`:
+## Canonical DIUA Namespace State
 
 **Namespace Literal:** `DIUA`  
 **Canonical Name:** Document Identifier Universal Architecture  
@@ -70,6 +66,21 @@ No individual Document Identifier is allocated by this revision.
 
 ---
 
+## Canonical Six-Core Architecture
+
+The six canonical UNIR Core semantic domains remain unchanged:
+
+| Core | Canonical Ownership |
+|---|---|
+| UNIR-SCH | Registry Object structure |
+| UNIR-OCM | Registry Object classification |
+| UNIR-IDM | Registry Object identity |
+| UNIR-NSM | Namespace semantics |
+| UNIR-LSM | Registry lifecycle and state |
+| UNIR-GRP | Governance and registration |
+
+No additional UNIR Core is established by this revision.
+
 ## DIUA Boundary
 
 DIUA remains an architectural construct within the Universal Identifier Architecture (UIA).
@@ -88,26 +99,26 @@ DIUA
                 Namespace state
 ```
 
----
+## Registry Boundary
+
+UNIS remains the normative Naming & Identification authority. UNIR provides registry representation, registration governance, lifecycle/state, and operational mechanisms within that authority.
+
+The DIUA Namespace state is owned operationally by `UNIR-NSM` and authorized through `UNIR-GRP`. DIUA does not receive a Registry Object ID through this registration.
+
+## Historical Integrity
+
+UNIR-CORE-001 v1.1 remains the previous canonical version and is preserved as historical material. It is not rewritten retroactively.
+
+This v1.2 revision supersedes v1.1 as the current canonical UNIR-CORE-001 release.
 
 ## Change Control
 
-This document is a controlled revision of `UNIR-CORE-001 v1.1`. The existing v1.1 artifact remains immutable and canonical until this revision completes review, impact assessment, audit, and an explicit canonical lock.
+Future substantive changes to UNIR Core semantics, Namespace state rules, or the DIUA registration state require controlled change, impact assessment, traceability, audit, and a new explicit canonical lock.
 
-No current canonical authority is transferred by this revision.
+## Status
 
----
+**Canonical Status:** LOCKED — CANONICAL
 
-## Lock Readiness
+**Current Version:** 1.2
 
-The following gates are required before canonicalization:
-
-- Six-Core architecture preserved
-- UNIS authority boundary preserved
-- UNIR-NSM ownership preserved
-- UNIR-GRP registration governance preserved
-- DIUA Registry Object eligibility remains deferred
-- No individual Document Identifier allocated
-- Historical traceability preserved
-
-**Current Status:** LOCK-READINESS PENDING
+**Previous Version:** 1.1
