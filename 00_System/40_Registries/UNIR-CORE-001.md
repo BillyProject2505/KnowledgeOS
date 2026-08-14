@@ -2,7 +2,7 @@
 
 **Document ID:** UNIR-CORE-001  
 **Document Type:** Universal Registry Architecture  
-**Version:** 1.0  
+**Version:** 1.1  
 **Status:** LOCKED — CANONICAL  
 **Canonical Scope:** Universal Naming & Identification Registry (UNIR)  
 **Normative Relationship:** Operates within the normative authority established by UNIS
@@ -52,7 +52,31 @@ Registry Architecture, Registration & Governance
 
 UNIR shall not silently redefine semantics owned by UNIS or by another UNIR Core.
 
-## 4. Registered Construct Boundary
+## 4. DIUA Boundary
+
+**DIUA (Document Identifier Universal Architecture)** is an architectural construct within the Universal Identifier Architecture (UIA).
+
+DIUA is not a UNIR Core specification, an Identifier Class, the Document Identifier Grammar itself, an individual Document Identifier, or a separate UNIR Registry Object by default.
+
+The canonical relationship is:
+
+```text
+UNIS / UIA
+    ↓
+DIUA
+    ├── governs → DIC
+    └── governs → Document Identifier Grammar
+                         ↓
+                       UNIR
+                         ↓
+                operational registration
+```
+
+DIC remains the Document Identifier Class. The Document Identifier Grammar remains the identifier construction rule governed by the applicable Universal Identifier Architecture. UNIR operationalizes these governed constructs through registration, allocation, lifecycle, and related registry mechanisms.
+
+DIUA shall not receive a separate UNIR Registry Object identity unless a future explicit registration-eligibility decision establishes that such registration is required.
+
+## 5. Registered Construct Boundary
 
 The following are governed/registered constructs and are not additional UNIR Core specifications merely by being represented in the registry:
 
@@ -66,7 +90,7 @@ The following are governed/registered constructs and are not additional UNIR Cor
 
 Their semantics remain subject to their applicable normative ownership.
 
-## 5. Core Ownership Boundaries
+## 6. Core Ownership Boundaries
 
 The following distinctions are canonical:
 
@@ -81,7 +105,7 @@ GRP  → Governance and registration
 
 The consolidated document does not merge these ownership domains semantically.
 
-## 6. Canonicality and Change Control
+## 7. Canonicality and Change Control
 
 The six Core domains below are canonically locked for UNIR v1.0.
 
@@ -89,7 +113,7 @@ The historical decision, review, reconciliation, and materialization artifacts u
 
 Any substantive change to UNIR Core semantics requires controlled revision, impact assessment, traceability, review, and a new explicit canonical lock.
 
-## 7. Consolidated Core Specifications
+## 8. Consolidated Core Specifications
 
 
 
@@ -2263,7 +2287,7 @@ UNIR-GRP v1.0 is canonically locked as part of UNIR Core v1.0.
 ---
 
 
-## 8. Canonical Release Integrity
+## 9. Canonical Release Integrity
 
 UNIR Core v1.0 has completed:
 
@@ -2280,19 +2304,20 @@ Publication authorization                 ✓
 
 Actual repository publication remains a separate controlled act.
 
-## 9. Provenance
+## 10. Provenance
 
 The consolidated document is derived from the canonically locked six-Core specifications and their approved decision/review history.
 
 The construction package contains additional provenance artifacts, including decision records, review records, reconciliation records, release records, and historical material. Those artifacts support traceability but do not override this canonical consolidated specification.
 
-## 10. Final Status
+## 11. Final Status
 
 ```text
 UNIR-CORE-001
 Version: 1.0
 Status: LOCKED — CANONICAL
 Publication Status: AUTHORIZED — NOT YET PUBLISHED
+Previous Canonical Version: 1.0
 ```
 
 > UNIR Core v1.0 is the single consolidated canonical publication of the bounded six-Core UNIR registry architecture. Its internal Core boundaries remain authoritative and distinct, while UNIS remains the normative authority for Universal Naming & Identification.
