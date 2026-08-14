@@ -1,37 +1,22 @@
 # Registries
 
-## Purpose
+## Status
 
-Stores official registries used by KnowledgeOS.
+This directory is no longer a canonical Knowledge layer.
 
----
+## Canonical Boundary
 
-## Scope
+Registry artifacts are System artifacts because registries provide controlled registration, cataloguing, identity, allocation, status, or other authoritative system state.
 
-Provides structured catalogues and identifiers.
+Canonical registries shall be stored under `00_System/40_Registries` or another explicitly applicable System registry layer.
 
----
+## Migration Rule
 
-## Contents
+No new canonical Registry artifacts shall be added to this directory.
 
-Repository Registry
+Existing contents shall be assessed for canonical status, authority, duplication, and supersession before migration or removal.
 
-Knowledge Registry
+## Related
 
----
-
-## Rules
-
-Registries are authoritative reference sources.
-
----
-
-## Navigation
-
-### Parent
-
-01_Knowledge
-
-### Related
-
-- References
+- `../../00_System/40_Registries`
+- `../60_References`
