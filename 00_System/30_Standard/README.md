@@ -53,7 +53,7 @@ Documents in this directory shall:
 
 ## Navigation
 
-- [`UNIS-CORE-001.md`](./UNIS-CORE-001.md) — current canonical Universal Naming and Identification Standard.
+- [`UNIS-CORE-001_Universal_Naming_Identification_Standard_v1.7.md`](./UNIS-CORE-001_Universal_Naming_Identification_Standard_v1.7.md) — current canonical Universal Naming and Identification Standard.
 
 ## Directory Boundary
 
