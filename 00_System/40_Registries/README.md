@@ -13,12 +13,12 @@ Registries provide controlled operational representations of governed objects, i
 ### Universal Naming & Identification Registry (UNIR)
 
 **Document ID:** `UNIR-CORE-001`  
-**Current Version:** `1.1`  
+**Current Version:** `1.2`  
 **Status:** `LOCKED — CANONICAL`
 
 UNIR is the canonical registry architecture for Universal Naming & Identification. It operates within the normative authority established by UNIS and provides the registry machinery required for registration, identity, namespace, lifecycle/state, and governance operations.
 
-UNIR Core v1.1 is consolidated into a single canonical publication containing six distinct semantic ownership domains:
+UNIR Core v1.2 is consolidated into a single canonical publication containing six distinct semantic ownership domains:
 
 - **UNIR-SCH** — Registry Object structure
 - **UNIR-OCM** — Registry Object classification
@@ -75,6 +75,6 @@ Accordingly:
 
 | Document | Version | Status | Scope |
 |---|---:|---|---|
-| `UNIR-CORE-001.md` | 1.1 | LOCKED — CANONICAL | Universal Naming & Identification Registry |
+| `UNIR-CORE-001_Universal_Naming_Identification_Registry_v1.2.md` | 1.2 | LOCKED — CANONICAL | Universal Naming & Identification Registry |
 
 Additional registry specifications may be introduced only through the applicable architecture, governance, and registration processes.
