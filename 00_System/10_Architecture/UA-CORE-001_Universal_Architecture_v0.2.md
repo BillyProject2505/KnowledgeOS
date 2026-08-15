@@ -4,7 +4,7 @@ canonicality: CANONICAL
 document_id: DIUA-DIC-000002
 core_document_code: UA-CORE-001
 document_id_class_marker: DIC
-document_id_grammar: DIUA-DIC-\<6DigitSequence\>
+document_id_grammar: DIUA-DIC-<6DigitSequence>
 document_id_namespace: DIUA
 document_id_namespace_status: REGISTERED_ACTIVE
 document_id_status: ALLOCATED_ACTIVE
@@ -28,12 +28,8 @@ source_basis:
   - UNIR-CORE-001 Universal Naming & Identification Registry v1.3
   - UNIR-ALLOCATION-ACT-001 Universal Architecture Concrete Document Identifier Allocation Act v1.0
   - UDS documentary conformance candidate revisions
-purpose: Establish the canonical Universal-level architectural model
-  without absorbing domain-specific architectural semantics or
-  governance authority
-scope: Universal-level architectural structure, classification,
-  boundaries, relationships, dependencies, conformance, compatibility,
-  evolution, lineage, status, and evidence
+purpose: Establish the canonical Universal-level architectural model without absorbing domain-specific architectural semantics or governance authority
+scope: Universal-level architectural structure, classification, boundaries, relationships, dependencies, conformance, compatibility, evolution, lineage, status, and evidence
 semantic_authority: Universal Architecture
 status: CANONICAL
 title: Universal Architecture
@@ -44,19 +40,20 @@ version: 0.2
 
 ## Document Contract
 
-  Property               Canonical Value
-  ---------------------- -------------------------------------------------
-  Document ID            `DIUA-DIC-000002` — ALLOCATED / ACTIVE
-  Namespace              `DIUA` --- REGISTERED / ACTIVE
-  Identifier Class       `DIC`
-  Identifier Grammar     `DIUA-DIC-<6DigitSequence>`
-  Document Type          Architecture Specification
-  Version                `0.2`
-  Status                 CANONICAL
-  Architectural Status   CURRENT
-  Responsibility         Universal architectural structure and coherence
-  Governance Authority   Universal Governance, as a separate document
-  Materialization        GitHub-Native Markdown
+| Property | Canonical Value |
+|---|---|
+| Document ID | `DIUA-DIC-000002` — ALLOCATED / ACTIVE |
+| Core Document Code | `UA-CORE-001` |
+| Namespace | `DIUA` — REGISTERED / ACTIVE |
+| Identifier Class | `DIC` |
+| Identifier Grammar | `DIUA-DIC-<6DigitSequence>` |
+| Document Type | Architecture Specification |
+| Version | `0.2` |
+| Status | CANONICAL |
+| Architectural Status | CURRENT |
+| Responsibility | Universal architectural structure and coherence |
+| Governance Authority | Universal Governance, as a separate document |
+| Materialization | GitHub-Native Markdown |
 
 ### Core Document Code
 
@@ -66,14 +63,13 @@ authoritative concrete Document Identifier `DIUA-DIC-000002`.
 
 ### Identity Boundary
 
-Document identity, architecture identity, representation, filename,
-storage location, version, canonicality, and governance authority are
-distinct.
+Document identity, architecture identity, representation, filename, storage
+location, version, canonicality, and governance authority are distinct.
 
-The applicable Namespace is `DIUA`. The applicable Identifier Class is
-`DIC`. The concrete individual Document ID has not yet been allocated
-and shall not be inferred from examples, filenames, repository paths, or
-sequence assumptions.
+The applicable Namespace is `DIUA`. The applicable Identifier Class is `DIC`.
+The concrete individual Document ID is `DIUA-DIC-000002`, explicitly allocated
+through `UNIR-ALLOCATION-ACT-001`. It is not inferred from examples, filename,
+repository path, document version, or sequence assumption.
 
 ### Responsibility Boundary
 
@@ -152,20 +148,20 @@ Closure / Lock Boundary:
 
 ### Canonical Interpretation
 
-This document is the current canonical Universal Architecture
-substantive baseline. Explicitly unresolved matters remain unresolved.
+This document is the current canonical Universal Architecture substantive
+baseline. Explicitly unresolved matters remain unresolved.
 
 ## Document Navigation
 
-1.  Purpose & Scope
-2.  Architectural Foundation
-3.  Normative Architectural Principles
-4.  Architectural Model
-5.  Architectural Classification
-6.  Architectural Domain Space
-7.  Architectural Boundary Model
-8.  Relationship, Integration & Dependency Model
-9.  Architectural Object Model
+1. Purpose & Scope
+2. Architectural Foundation
+3. Normative Architectural Principles
+4. Architectural Model
+5. Architectural Classification
+6. Architectural Domain Space
+7. Architectural Boundary Model
+8. Relationship, Integration & Dependency Model
+9. Architectural Object Model
 10. Architectural Structural Schema
 11. Architectural Conformance & Compatibility
 12. Architectural Evolution & Lineage
@@ -174,14 +170,14 @@ substantive baseline. Explicitly unresolved matters remain unresolved.
 15. Governance Boundary & Scope Protection
 16. Open Architectural Matters
 17. Canonical Closure
-18. Annex A --- Universal Architectural Model
-19. Annex B --- Relationship Vocabulary
-20. Annex C --- Status & Evidence Definitions
-21. Annex D --- Decision Traceability
+18. Annex A — Universal Architectural Model
+19. Annex B — Relationship Vocabulary
+20. Annex C — Status & Evidence Definitions
+21. Annex D — Decision Traceability
 
-------------------------------------------------------------------------
+---
 
-# Part I --- Foundation
+# Part I — Foundation
 
 ## 1. Purpose & Scope
 
@@ -195,33 +191,33 @@ their Canonical Architectural Homes.
 
 It covers:
 
--   Universal-level architectural structure;
--   architectural classification;
--   architectural domain placement;
--   architectural boundaries;
--   architectural relationships;
--   architectural integration;
--   architectural dependencies;
--   architectural conformance;
--   architectural compatibility;
--   architectural evolution and lineage;
--   architectural status and evidence representation.
+- Universal-level architectural structure;
+- architectural classification;
+- architectural domain placement;
+- architectural boundaries;
+- architectural relationships;
+- architectural integration;
+- architectural dependencies;
+- architectural conformance;
+- architectural compatibility;
+- architectural evolution and lineage;
+- architectural status and evidence representation.
 
 ### 1.3 Scope Exclusions
 
 Universal Architecture does not define:
 
--   substantive internal semantics of domain architectures;
--   document semantics;
--   naming and identification semantics;
--   knowledge-object semantics;
--   production semantics;
--   governance authority;
--   authorization or approval;
--   organizational jurisdiction;
--   project-specific architecture;
--   implementation architecture;
--   operational procedures.
+- substantive internal semantics of domain architectures;
+- document semantics;
+- naming and identification semantics;
+- knowledge-object semantics;
+- production semantics;
+- governance authority;
+- authorization or approval;
+- organizational jurisdiction;
+- project-specific architecture;
+- implementation architecture;
+- operational procedures.
 
 ### 1.4 Universal Governance
 
@@ -270,111 +266,111 @@ governance authority are distinct concepts.
 
 ## 3. Normative Architectural Principles
 
-### P-01 --- Architectural Separation
+### P-01 — Architectural Separation
 
 Architectural concerns remain distinguishable when their substantive
 meaning, scope, or responsibility differs.
 
-### P-02 --- Canonical Architectural Home
+### P-02 — Canonical Architectural Home
 
 Each substantive concern has an identifiable Canonical Architectural
 Home.
 
-### P-03 --- No Shadow Architecture
+### P-03 — No Shadow Architecture
 
 Universal Architecture shall not duplicate substantive domain
 architecture.
 
-### P-04 --- Integration Does Not Imply Ownership
+### P-04 — Integration Does Not Imply Ownership
 
 Integration does not transfer substantive architectural responsibility.
 
-### P-05 --- Dependency Does Not Imply Hierarchy
+### P-05 — Dependency Does Not Imply Hierarchy
 
 Dependency does not establish hierarchy, subordination, or governance
 authority.
 
-### P-06 --- Conformance Does Not Imply Governance Authority
+### P-06 — Conformance Does Not Imply Governance Authority
 
 Conformance does not establish approval, authority, ownership, or
 subordination.
 
-### P-07 --- Explicit Architectural Boundaries
+### P-07 — Explicit Architectural Boundaries
 
 Architectural entities shall have explicit and interpretable boundaries.
 
-### P-08 --- Scoped Architectural Relationships
+### P-08 — Scoped Architectural Relationships
 
 Universal relationships shall be typed and scoped according to meaning.
 
-### P-09 --- Minimum Necessary Representation
+### P-09 — Minimum Necessary Representation
 
 Universal Architecture shall represent only information necessary for
 Universal structural coherence.
 
-### P-10 --- Lowest Sufficient Architectural Level
+### P-10 — Lowest Sufficient Architectural Level
 
 Concerns shall remain at the lowest sufficient architectural level.
 
-### P-11 --- Architecture and Document Distinction
+### P-11 — Architecture and Document Distinction
 
 An architecture and its representing document remain conceptually
 distinct.
 
-### P-12 --- Architecture / Governance Separation
+### P-12 — Architecture / Governance Separation
 
 Architectural structure and evolution do not constitute governance
 authority.
 
-### P-13 --- Architectural Identity Continuity
+### P-13 — Architectural Identity Continuity
 
 Identity is preserved across change where substantive continuity
 remains.
 
-### P-14 --- Identity and Version Distinction
+### P-14 — Identity and Version Distinction
 
 Architectural identity and version are distinct.
 
-### P-15 --- Explicit Architectural Lineage
+### P-15 — Explicit Architectural Lineage
 
 Evolution preserves explicit and traceable lineage.
 
-### P-16 --- Historical / Current Distinction
+### P-16 — Historical / Current Distinction
 
 Historical relevance does not imply current validity.
 
-### P-17 --- Evidence Does Not Establish Authority
+### P-17 — Evidence Does Not Establish Authority
 
 Evidence does not by itself establish canonical status.
 
-### P-18 --- Unresolved Information Shall Remain Unresolved
+### P-18 — Unresolved Information Shall Remain Unresolved
 
 Insufficient evidence shall remain explicitly unresolved.
 
-### P-19 --- Unverified Artifact Content
+### P-19 — Unverified Artifact Content
 
 Existence does not establish verified substantive content.
 
-### P-20 --- Open Architectural Space
+### P-20 — Open Architectural Space
 
 Additional architectures may be recognized when qualification criteria
 are met.
 
-### P-21 --- Cross-Domain Qualification
+### P-21 — Cross-Domain Qualification
 
 Cross-domain relationships alone do not constitute Cross-Domain
 Architecture.
 
-------------------------------------------------------------------------
+---
 
-# Part II --- Architectural Model
+# Part II — Architectural Model
 
 ## 4. Architectural Model
 
 Universal Architecture models substantive architectures through
 Architectural Entities and their:
 
-``` text
+```text
 Architectural Entity
 ├── Classification
 ├── Boundary
@@ -398,11 +394,11 @@ Architecture responsible for a distinct substantive domain concern.
 
 Recognized examples:
 
--   UDS --- Universal Document Architecture;
--   UNIS --- Naming & Identification Architecture;
--   UPKO --- Production Knowledge Object Architecture;
--   UPKR --- Production Knowledge Registry Architecture;
--   UPB --- Production Architecture.
+- UDS — Universal Document Architecture;
+- UNIS — Naming & Identification Architecture;
+- UPKO — Production Knowledge Object Architecture;
+- UPKR — Production Knowledge Registry Architecture;
+- UPB — Production Architecture.
 
 ### 5.3 Cross-Domain Architecture
 
@@ -416,28 +412,13 @@ subordination, or jurisdiction.
 
 ## 6. Architectural Domain Space
 
-  -----------------------------------------------------------------------
-  Architecture      Principal Concern Class             Status
-  ----------------- ----------------- ----------------- -----------------
-  UDS               Document          Domain            Recognized
-                    Architecture                        
-
-  UNIS              Naming &          Domain            Recognized
-                    Identification                      
-                    Architecture                        
-
-  UPKO              Production        Domain            Recognized
-                    Knowledge Object                    
-                    Architecture                        
-
-  UPKR              Production        Domain            Open / Unverified
-                    Knowledge                           
-                    Registry                            
-                    Architecture                        
-
-  UPB               Production        Domain            Recognized
-                    Architecture                        
-  -----------------------------------------------------------------------
+| Architecture | Principal Concern | Class | Status |
+|---|---|---|---|
+| UDS | Document Architecture | Domain | Recognized |
+| UNIS | Naming & Identification Architecture | Domain | Recognized |
+| UPKO | Production Knowledge Object Architecture | Domain | Recognized |
+| UPKR | Production Knowledge Registry Architecture | Domain | Open / Unverified |
+| UPB | Production Architecture | Domain | Recognized |
 
 ### 6.1 Canonical Architectural Home
 
@@ -494,24 +475,23 @@ duplicate architecture or transfer responsibility.
 
 ### 8.1 Relationship Vocabulary
 
--   contains
--   composed of
--   depends on
--   requires
--   interfaces with
--   integrates with
--   provides to
--   consumes from
--   constrains
--   extends
--   supersedes
--   replaces
+- contains
+- composed of
+- depends on
+- requires
+- interfaces with
+- integrates with
+- provides to
+- consumes from
+- constrains
+- extends
+- supersedes
+- replaces
 
 ### 8.2 Dependency
 
-Dependency indicates architectural reliance and does not imply
-hierarchy, subordination, responsibility transfer, or governance
-authority.
+Dependency indicates architectural reliance and does not imply hierarchy,
+subordination, responsibility transfer, or governance authority.
 
 ### 8.3 Requirement
 
@@ -531,9 +511,9 @@ An Architectural Interface is an explicit interaction boundary.
 Architectural relationships are not governance relationships unless
 separately established by governance architecture.
 
-------------------------------------------------------------------------
+---
 
-# Part III --- Architectural Formalization
+# Part III — Architectural Formalization
 
 ## 9. Architectural Object Model
 
@@ -544,13 +524,13 @@ architecture.
 
 Core attributes:
 
--   Identity
--   Classification
--   Scope
--   Canonical Architectural Home
--   Universal Architectural Placement
--   Architectural Status
--   Evidence metadata
+- Identity
+- Classification
+- Scope
+- Canonical Architectural Home
+- Universal Architectural Placement
+- Architectural Status
+- Evidence metadata
 
 ### 9.2 Architectural Boundary
 
@@ -579,7 +559,7 @@ entities across change.
 
 ## 10. Architectural Structural Schema
 
-``` text
+```text
 Architectural Entity
 │
 ├── Boundary
@@ -622,9 +602,9 @@ governance authority.
 
 Conformance and compatibility are independently assessed properties.
 
-------------------------------------------------------------------------
+---
 
-# Part IV --- Evolution & Evidence
+# Part IV — Evolution & Evidence
 
 ## 12. Architectural Evolution & Lineage
 
@@ -632,15 +612,15 @@ Evolution shall preserve sufficient continuity and traceability.
 
 ### 12.1 Change Types
 
--   Revision
--   Extension
--   Restructuring
--   Addition
--   Separation
--   Consolidation
--   Replacement
--   Supersession
--   Retirement
+- Revision
+- Extension
+- Restructuring
+- Addition
+- Separation
+- Consolidation
+- Replacement
+- Supersession
+- Retirement
 
 ### 12.2 Identity Continuity
 
@@ -672,10 +652,10 @@ traceable.
 
 ### 13.1 Architectural Status
 
--   Proposed
--   Current
--   Superseded
--   Retired
+- Proposed
+- Current
+- Superseded
+- Retired
 
 Historical relevance is a temporal/reference classification.
 
@@ -685,23 +665,23 @@ Historical retention does not imply current validity.
 
 ### 13.3 Evidence Level
 
-  Level   Meaning
-  ------- ------------------------------------------------
-  E0      No Evidence
-  E1      Existence Known / Content Unverified
-  E2      Content Readable / Canonical Status Unverified
-  E3      Canonical Status Verified
+| Level | Meaning |
+|---|---|
+| E0 | No Evidence |
+| E1 | Existence Known / Content Unverified |
+| E2 | Content Readable / Canonical Status Unverified |
+| E3 | Canonical Status Verified |
 
 ### 13.4 Evidence Resolution
 
--   Unverified
--   Verified
--   Conflicted
--   Unresolved
+- Unverified
+- Verified
+- Conflicted
+- Unresolved
 
 ### 13.5 Independence
 
-``` text
+```text
 Architectural Status
 ≠ Evidence Level
 ≠ Evidence Resolution Status
@@ -709,9 +689,9 @@ Architectural Status
 
 Evidence gaps and conflicts shall remain explicit.
 
-------------------------------------------------------------------------
+---
 
-# Part V --- Boundaries & Status
+# Part V — Boundaries & Status
 
 ## 14. External Architectural Contexts
 
@@ -722,8 +702,8 @@ Architecture without becoming Universal Domain Architecture.
 
 ### 14.2 Implementation Architecture
 
-Realizes or operationalizes applicable architectural requirements
-without becoming substantive Universal Architecture.
+Realizes or operationalizes applicable architectural requirements without
+becoming substantive Universal Architecture.
 
 ### 14.3 External Context Principle
 
@@ -736,26 +716,26 @@ architecture.
 
 Universal Architecture defines:
 
--   structure;
--   classification;
--   boundaries;
--   relationships;
--   integration;
--   dependency semantics;
--   conformance semantics;
--   compatibility semantics;
--   evolution semantics.
+- structure;
+- classification;
+- boundaries;
+- relationships;
+- integration;
+- dependency semantics;
+- conformance semantics;
+- compatibility semantics;
+- evolution semantics.
 
 It does not define:
 
--   governance authority;
--   jurisdiction;
--   authorization;
--   approval;
--   delegation;
--   enforcement;
--   appointment;
--   governance revocation.
+- governance authority;
+- jurisdiction;
+- authorization;
+- approval;
+- delegation;
+- enforcement;
+- appointment;
+- governance revocation.
 
 ### 15.2 Canonical Architectural Home vs Governance Authority
 
@@ -774,8 +754,7 @@ Universal Architecture.
 
 ### 15.5 Cross-Domain Inflation Protection
 
-Cross-domain interaction alone does not justify a Cross-Domain
-Architecture.
+Cross-domain interaction alone does not justify a Cross-Domain Architecture.
 
 ### 15.6 Governance Boundary
 
@@ -784,37 +763,38 @@ document.
 
 ## 16. Open Architectural Matters
 
-### O-01 --- UPKR Architectural Scope
+### O-01 — UPKR Architectural Scope
 
 UPKR substantive scope and internal semantics remain subject to
 verification.
 
-### O-02 --- Formal Architectural Identifier Mechanism
+### O-02 — Formal Architectural Identifier Mechanism
 
 Architectural entity identification remains subject to applicable UNIS
 mechanisms. Universal Architecture shall not create a parallel system.
 
-### O-03 --- Formal Architectural Lifecycle Specification
+### O-03 — Formal Architectural Lifecycle Specification
 
 Conceptual architectural statuses exist, but a separate formal lifecycle
 specification remains open.
 
-### O-04 --- Universal Governance Relationship
+### O-04 — Universal Governance Relationship
 
 Detailed governance relationship remains deferred.
 
-### O-05 --- Detailed Architectural Interface Model
+### O-05 — Detailed Architectural Interface Model
 
 The Architectural Interface object remains conditional pending
 qualification.
 
-------------------------------------------------------------------------
+## 17. Canonical Closure
 
-# 17. Canonical Closure
-
-**Canonical Content:** CLOSED\
-**Architectural Baseline:** CURRENT\
-**Substantive Architecture:** CANONICAL
+**Canonical Content:** CLOSED  
+**Architectural Baseline:** CURRENT  
+**Substantive Architecture:** CANONICAL  
+**Lock Status:** LOCKED  
+**UDS Conformance:** CONFORMED  
+**Publication Authorization:** NOT AUTHORIZED
 
 The open matters in Section 16 remain canonical unresolved states.
 
@@ -822,7 +802,7 @@ Universal Governance is not included and is not implied by this closure.
 
 ### Identity Resolution
 
-``` text
+```text
 Namespace:
     DIUA
     REGISTERED — ACTIVE
@@ -833,18 +813,25 @@ Identifier Class:
 Grammar:
     DIUA-DIC-<6DigitSequence>
 
-Individual Document ID:
+Concrete Document ID:
     DIUA-DIC-000002
+
+Allocation State:
     ALLOCATED — ACTIVE
+
+Allocation Authority:
+    UNIR-ALLOCATION-ACT-001
 ```
 
-The allocated individual Document ID does not alter the canonicality of the substantive Universal Architecture.
+The concrete Document Identifier is an explicit UNIR allocation and is not
+derived from filename, repository path, document version, or sequence
+assumption.
 
-------------------------------------------------------------------------
+---
 
-# Annex A --- Universal Architectural Model
+# Annex A — Universal Architectural Model
 
-``` text
+```text
                          UNIVERSAL
                              │
                     UNIVERSAL ARCHITECTURE
@@ -864,101 +851,72 @@ The allocated individual Document ID does not alter the canonicality of the subs
 This is a reference representation and does not establish governance
 hierarchy.
 
-# Annex B --- Relationship Vocabulary
+# Annex B — Relationship Vocabulary
 
-  ---------------------------------------------------------------------------------
-  Relationship    Meaning                       Responsibility           Governance
-                                                     Transfer?           Authority?
-  --------------- ----------------------- -------------------- --------------------
-  contains        Structural inclusion                      No                   No
+| Relationship | Meaning | Responsibility Transfer? | Governance Authority? |
+|---|---|---:|---:|
+| contains | Structural inclusion | No | No |
+| composed of | Structural composition | No | No |
+| depends on | Architectural reliance | No | No |
+| requires | Necessary condition | No | No |
+| interfaces with | Interaction boundary | No | No |
+| integrates with | Structural participation | No | No |
+| provides to | Architectural provision | No | No |
+| consumes from | Architectural consumption | No | No |
+| constrains | Architectural limitation | No | No |
+| extends | Architectural extension | No | No |
+| supersedes | Canonical succession | No | No |
+| replaces | Structural/functional replacement | No | No |
 
-  composed of     Structural composition                    No                   No
-
-  depends on      Architectural reliance                    No                   No
-
-  requires        Necessary condition                       No                   No
-
-  interfaces with Interaction boundary                      No                   No
-
-  integrates with Structural                                No                   No
-                  participation                                
-
-  provides to     Architectural provision                   No                   No
-
-  consumes from   Architectural                             No                   No
-                  consumption                                  
-
-  constrains      Architectural                             No                   No
-                  limitation                                   
-
-  extends         Architectural extension                   No                   No
-
-  supersedes      Canonical succession                      No                   No
-
-  replaces        Structural/functional                     No                   No
-                  replacement                                  
-  ---------------------------------------------------------------------------------
-
-# Annex C --- Status & Evidence Definitions
+# Annex C — Status & Evidence Definitions
 
 ## C.1 Architectural Status
 
-  Status       Meaning
-  ------------ ----------------------------------------------
-  Proposed     Proposed, not established as current
-  Current      Treated as current
-  Superseded   Succeeded by another applicable architecture
-  Retired      No longer current for applicable use
-  Historical   Retained for historical/reference purposes
+| Status | Meaning |
+|---|---|
+| Proposed | Proposed, not established as current |
+| Current | Treated as current |
+| Superseded | Succeeded by another applicable architecture |
+| Retired | No longer current for applicable use |
+| Historical | Retained for historical/reference purposes |
 
 ## C.2 Evidence Level
 
-E0 = No evidence.\
-E1 = Existence known, substantive content unverified.\
-E2 = Content readable, canonical status unverified.\
+E0 = No evidence.  
+E1 = Existence known, substantive content unverified.  
+E2 = Content readable, canonical status unverified.  
 E3 = Canonical status verified.
 
 ## C.3 Evidence Resolution
 
 Unverified, Verified, Conflicted, Unresolved.
 
-# Annex D --- Decision Traceability & Consolidation
+# Annex D — Decision Traceability & Consolidation
 
 ## D.1 Version Lineage
 
--   Universal Architecture Draft v0.1 --- historical / withdrawn
-    predecessor.
--   Universal Architecture Draft v0.2 --- substantive revision baseline.
--   Universal Architecture v0.2 --- canonical substantive baseline.
--   Subsequent UDS conformance candidates --- documentary-envelope
-    revisions.
--   This document --- consolidated canonical materialization.
+- Universal Architecture Draft v0.1 — historical / withdrawn predecessor.
+- Universal Architecture Draft v0.2 — substantive revision baseline.
+- Universal Architecture v0.2 — canonical substantive baseline.
+- Subsequent UDS conformance candidates — documentary-envelope revisions.
+- This document — canonical consolidated representation.
 
 ## D.2 Artifact Disposition
 
-  -----------------------------------------------------------------------
-  Artifact Family                     Disposition
-  ----------------------------------- -----------------------------------
-  v0.1 drafts                         Historical / withdrawn
-
-  v0.2 draft                          Superseded draft
-
-  v0.2 canonical artifact             Canonical substantive source
-
-  v0.2 canonical-final artifact       Superseded documentary
-                                      representation
-
-  UDS conformance candidates          Superseded documentary revisions
-
-  Current final canonical representation       Canonical consolidated
-                                      representation
-  -----------------------------------------------------------------------
+| Artifact class | Disposition |
+|---|---|
+| v0.1 drafts | Historical / withdrawn |
+| v0.2 draft | Superseded draft |
+| v0.2 canonical artifact | Canonical substantive source |
+| v0.2 canonical-final artifact | Superseded documentary representation |
+| UDS conformance candidates | Superseded documentary revisions |
+| Current canonical representation | `UA-CORE-001_Universal_Architecture_v0.2.md` |
 
 ## D.3 External Identity References
 
 Universal Architecture consumes, but does not redefine:
 
-``` text
+```text
 UNIS
     ↓
 Document Identifier Grammar
@@ -972,7 +930,8 @@ DIC
 DIUA-DIC-<6DigitSequence>
 ```
 
-`DIUA` is registered-active. The individual Document ID `DIUA-DIC-000002` is allocated and active under UNIR-ALLOCATION-ACT-001.
+`DIUA` is registered-active. `DIUA-DIC-000002` is allocated and active
+under `UNIR-ALLOCATION-ACT-001`.
 
 ## D.4 Governance Separation
 
@@ -982,24 +941,24 @@ to be developed as a separate document after Universal Architecture.
 ## D.5 Consolidation Principle
 
 Consolidation means one current canonical substantive document with
-explicit provenance and disposition of predecessor artifacts. It does
-not create duplicate competing authorities by literally repeating
-obsolete versions.
+explicit provenance and disposition of predecessor artifacts. It does not
+create duplicate competing authorities by literally repeating obsolete
+versions.
 
 # Materialization Integrity Record
 
-**Consolidation Decision:** Approved\
-**Canonical Version:** `0.2`\
-**Substantive Revision:** None\
-**Namespace:** `DIUA`\
-**Identifier Class:** `DIC`\
-**Concrete Document ID:** `DIUA-DIC-000002` — ALLOCATED / ACTIVE\
-**Canonical Status:** `CANONICAL / CURRENT`  
-**Canonicalization:** `CANONICALIZED`  
-**Lock Status:** `LOCKED`  
-**Lock Status:** `LOCKED`  
+**Core Document Code:** `UA-CORE-001`  
+**Document ID:** `DIUA-DIC-000002`  
+**Canonical Version:** `0.2`  
+**Namespace:** `DIUA`  
+**Identifier Class:** `DIC`  
 **UDS Conformance:** `CONFORMED`  
-**Publication Authorization:** `NOT AUTHORIZED`\
-**Materialization:** `FINAL_CANONICAL_MATERIALIZATION_UDS_CONFORMED`
+**Canonicality:** `CANONICAL`  
+**Canonicalization:** `COMPLETED`  
+**Lock:** `LOCKED`  
+**Publication:** `NOT AUTHORIZED`  
+**Allocation Act:** `UNIR-ALLOCATION-ACT-001`  
+**Canonicalization Act:** `UA-54`  
+**Canonical Representation:** `UA-CORE-001_Universal_Architecture_v0.2.md`
 
-# END --- UNIVERSAL ARCHITECTURE v0.2
+# END — UNIVERSAL ARCHITECTURE v0.2
