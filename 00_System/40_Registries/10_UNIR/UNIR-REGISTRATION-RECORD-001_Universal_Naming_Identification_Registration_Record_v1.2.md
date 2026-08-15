@@ -13,7 +13,10 @@
 **Registry Authority:** UNIR Registry Authority for registry-record representation  
 **Parent Document:** `UNIR-REGISTRY-001 v1.2`  
 **Supersedes:** `UNIR-REGISTRATION-RECORD-001 v1.1`  
-**Publication Status:** NOT PUBLISHED  
+**Publication Status:** PUBLISHED  
+**Publication Event:** Canonical repository publication of successor revision  
+**Publication Commit:** PENDING — set by resulting publication commit  
+**Publication Timestamp:** PENDING — set by resulting publication commit  
 
 ## Identifier Allocation Traceability
 
@@ -64,7 +67,7 @@ The allocation does not create a new UNIR Registry Object. It represents a concr
 Document Status:       LOCKED — CANONICAL
 Canonicality:          CANONICAL
 Lock Status:           LOCKED
-Publication Status:    NOT PUBLISHED
+Publication Status:    PUBLISHED
 ```
 
-`UNIR-REGISTRATION-RECORD-001 v1.2` is the successor revision incorporating the verified `DIUA-DIC-000005` allocation. It supersedes the published v1.1 as the canonical locked successor, pending the separate publication step.
+`UNIR-REGISTRATION-RECORD-001 v1.2` is the successor revision incorporating the verified `DIUA-DIC-000005` allocation and supersedes the published v1.1 as the current canonical registration-record representation.
