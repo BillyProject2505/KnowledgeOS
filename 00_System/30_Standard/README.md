@@ -40,6 +40,23 @@ The current canonical Document Identifier Grammar is:
 
 The `DIC` marker is reserved for Document identifiers. Namespace allocation remains governed separately under the applicable identification architecture.
 
+### UDS-CORE-001 — Universal Document System
+
+**Document ID:** `UDS-CORE-MASTER-001`  
+**Version:** 1.5  
+**Status:** CURRENT CANONICAL MASTER — LOCKED  
+**Concrete Document Identifier:** `DIUA-DIC-000004`
+
+Defines the Universal Document System architecture and governance for authoritative documents and their associated knowledge, metadata, relationships, provenance, lifecycle, authority, canonicality, representation, and machine consumption.
+
+UDS operates within the foundational naming and identification authority of UNIS. The concrete Document Identifier `DIUA-DIC-000004` is allocated through the applicable Universal Identifier Architecture and represented in UNIR; this identifier allocation does not transfer UDS semantic authority to UNIS or UNIR.
+
+The canonical UDS document is:
+
+```text
+UDS-CORE-001_Universal_Document_System_v1.5.md
+```
+
 ## Document Governance
 
 Documents in this directory shall:
@@ -54,6 +71,7 @@ Documents in this directory shall:
 ## Navigation
 
 - [`UNIS-CORE-001_Universal_Naming_Identification_Standard_v1.7.md`](./UNIS-CORE-001_Universal_Naming_Identification_Standard_v1.7.md) — current canonical Universal Naming and Identification Standard.
+- [`UDS-CORE-001_Universal_Document_System_v1.5.md`](./UDS-CORE-001_Universal_Document_System_v1.5.md) — current canonical Universal Document System.
 
 ## Directory Boundary
 
