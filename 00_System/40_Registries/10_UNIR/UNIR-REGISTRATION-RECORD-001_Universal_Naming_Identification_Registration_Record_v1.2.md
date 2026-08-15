@@ -4,14 +4,14 @@
 **Document Type:** Registration Record Representation  
 **Title:** Universal Naming & Identification Registration Record  
 **Version:** 1.2  
-**Status:** LOCKED — CANONICAL  
-**Canonicality:** CANONICAL  
-**Lock Status:** LOCKED  
-**Document Role:** Canonical Registration Record Representation  
+**Status:** DRAFT — CANONICAL REVISION CANDIDATE  
+**Canonicality:** CANDIDATE  
+**Lock Status:** NOT LOCKED  
+**Document Role:** Canonical Registration Record Representation Candidate  
 **Document Responsibility:** UNIR Registry Authority  
 **Semantic Authority:** UNIS for Universal Naming & Identification semantics  
 **Registry Authority:** UNIR Registry Authority for registry-record representation  
-**Parent Document:** `UNIR-REGISTRY-001 v1.2`  
+**Parent Document:** `UNIR-REGISTRY-001 v1.1`  
 **Supersedes:** `UNIR-REGISTRATION-RECORD-001 v1.1`  
 **Publication Status:** NOT PUBLISHED  
 
@@ -31,17 +31,19 @@ DIUA-DIC-000005
 Universal Production Knowledge Registry
 ```
 
-**Allocation State:** ALLOCATED — ACTIVE (allocation request recorded; dedicated allocation act pending)  
+**Allocation Request State:** REQUESTED — PENDING ALLOCATION ACT  
 **Allocation Evidence:** Current allocation request and target-document identity evidence  
-**Allocation Act:** `UNIR-ALLOCATION-ACT-005` — NOT YET INDEPENDENTLY VERIFIED  
+**Allocation Act:** `UNIR-ALLOCATION-ACT-005` — NOT ESTABLISHED IN REPOSITORY  
 **Target Document:** Universal Production Knowledge Registry
 
-This revision records the requested fifth concrete Document Identifier allocation for Universal Production Knowledge Registry. It does not assert that a separate verified allocation-act artifact exists until `UNIR-ALLOCATION-ACT-005` is independently established.
+This revision records the allocation request for the fifth concrete Document Identifier, `DIUA-DIC-000005`, for Universal Production Knowledge Registry. It does not establish `ALLOCATED — ACTIVE` state and does not assert the existence of a verified dedicated allocation-act artifact. Final allocation shall be materialized only after `UNIR-ALLOCATION-ACT-005` is independently established and validated.
 
 ## Allocation Boundary
 
 ```text
 Concrete Document Identifier
+    ≠
+Allocation Request
     ≠
 Allocation Record
     ≠
@@ -54,15 +56,15 @@ UNIR Registry Object
 Current Registry State
 ```
 
-The allocation does not create a new UNIR Registry Object. It represents a concrete document identity within the applicable DIUA/DIC identification architecture.
+The allocation request does not create a new UNIR Registry Object. It represents a requested concrete document identity within the applicable DIUA/DIC identification architecture.
 
 ## Canonical Closure
 
 ```text
-Document Status:       LOCKED — CANONICAL
-Canonicality:          CANONICAL
-Lock Status:           LOCKED
+Document Status:       DRAFT — CANONICAL REVISION CANDIDATE
+Canonicality:          CANDIDATE
+Lock Status:           NOT LOCKED
 Publication Status:    NOT PUBLISHED
 ```
 
-`UNIR-REGISTRATION-RECORD-001 v1.2` supersedes v1.1 as the revision candidate for the current materialized registration-record representation. Publication remains a separate operational action.
+`UNIR-REGISTRATION-RECORD-001 v1.2` is a revision candidate for the current materialized registration-record representation. It does not supersede the published v1.1 until the applicable revision, validation, allocation-act evidence, and publication process is completed.
