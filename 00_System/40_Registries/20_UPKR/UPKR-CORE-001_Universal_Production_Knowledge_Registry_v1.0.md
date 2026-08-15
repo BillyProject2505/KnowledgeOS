@@ -4,16 +4,16 @@ document_type: Universal Registry Architecture
 title: Universal Production Knowledge Registry
 short_name: UPKR
 version: "1.0"
-status: CANDIDATE
-canonicality: CANDIDATE
-lock: UNLOCKED
+status: LOCKED — CANONICAL
+canonicality: CANONICAL
+lock: LOCKED
 scope: Universal Production Knowledge Registry (UPKR)
 purpose: Governed architecture for production-knowledge registration, registry state, validation, registration decision, traceability, and release
 authority: UPKR Registry Governance
 semantic_authority: UPKR within its declared registry scope
 source_basis: Consolidated UPKR architecture established and reviewed in the current UPKR workstream; applicable approved UPKR work products and the verified UNIR allocation of DIUA-DIC-000005
 materialization: GITHUB_NATIVE_CHATGPT_READABLE
-canonicalization_decision: PENDING
+canonicalization_decision: UPKR-CORE-001 v1.0 Canonicalization Decision v1.0 — APPROVED
 materialization_timestamp: 2026-08-15T12:42:59Z
 document_role: Core Document
 ---
@@ -24,9 +24,9 @@ document_role: Core Document
 **Document Reference:** `UPKR-CORE-001`  
 **Document Type:** Universal Registry Architecture  
 **Version:** `1.0`  
-**Status:** `CANDIDATE`  
-**Canonicality:** `CANDIDATE`  
-**Lock Status:** `UNLOCKED`  
+**Status:** `LOCKED — CANONICAL`  
+**Canonicality:** `CANONICAL`  
+**Lock Status:** `LOCKED`  
 **Document Role:** Core Document  
 
 ---
@@ -589,35 +589,35 @@ At the point of this materialization:
 Document ID              : DIUA-DIC-000005
 Document Reference       : UPKR-CORE-001
 Version                  : 1.0
-Status                   : CANDIDATE
-Canonicality             : CANDIDATE
-Lock Status              : UNLOCKED
-Canonicalization Decision: PENDING
+Status                   : LOCKED — CANONICAL
+Canonicality             : CANONICAL
+Lock Status              : LOCKED
+Canonicalization Decision: UPKR-CORE-001 v1.0 Canonicalization Decision v1.0 — APPROVED
 ```
 
-This materialization does not itself constitute canonicalization or lock.
+This canonicalization decision establishes this document as the canonical Core Architecture of UPKR v1.0. It does not canonicalize or register the current registry state or registration-record artifacts.
 
 ---
 
 ## 25. Canonicalization and Lock Boundary
 
-The Core shall not be marked `CANONICAL` or `LOCKED` until the materialized artifact has completed the applicable final conformance review and a separate canonicalization decision has been made.
+The Core has completed the applicable final conformance review and has been explicitly canonicalized and locked.
 
-The intended progression is:
+The canonical progression completed for this version is:
 
 ```text
 CONSOLIDATED
     ↓
 MATERIALIZED
     ↓
-FINAL CONFORMANCE REVIEW
+FINAL CONFORMANCE REVIEW — PASS
     ↓
-CANONICALIZATION DECISION
+CANONICALIZATION DECISION — APPROVED
     ↓
 LOCKED — CANONICAL
 ```
 
-No silent canonicalization shall occur through file creation or repository placement alone.
+No silent canonicalization or in-place substantive modification is permitted after lock. Any substantive change shall proceed through the applicable controlled revision and re-canonicalization process.
 
 ---
 
