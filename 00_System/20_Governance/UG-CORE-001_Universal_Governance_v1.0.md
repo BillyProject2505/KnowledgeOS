@@ -414,4 +414,3 @@ A lower-level artifact cannot override a higher-level normative requirement unle
 
 ---
 
-[REMAINDER OF THE CANONICAL UNIVERSAL GOVERNANCE v1.0 CONTENT IS PRESERVED EXACTLY FROM THE EXISTING MAIN-BRANCH FILE AFTER THIS POINT.]
