@@ -39,27 +39,29 @@ This document is the canonical architectural home of the UNIR Six Core domains. 
 
 [Open UNIR-CORE-001 v1.3](./UNIR-CORE-001_Universal_Naming_Identification_Registry_v1.3.md)
 
-### 2.2 UNIR-REGISTRY-001 v1.0
+### 2.2 UNIR-REGISTRY-001 v1.1
 
 **Role:** Canonical Current Registry State  
 **Status:** `LOCKED — CANONICAL`  
 **Canonicality:** `CANONICAL`  
-**Lock Status:** `LOCKED`
+**Lock Status:** `LOCKED`  
+**Publication Status:** `PUBLISHED`
 
 This document represents the current registered state of UNIR, including current Registry Object representations, current registry state, applicable provenance, and bounded registered/allocated identification content.
 
-[Open UNIR-REGISTRY-001 v1.0](./UNIR-REGISTRY-001_Universal_Naming_Identification_Registry_v1.0.md)
+[Open UNIR-REGISTRY-001 v1.1](./UNIR-REGISTRY-001_Universal_Naming_Identification_Registry_v1.1.md)
 
-### 2.3 UNIR-REGISTRATION-RECORD-001 v1.0
+### 2.3 UNIR-REGISTRATION-RECORD-001 v1.1
 
 **Role:** Canonical Registration Record Representation  
 **Status:** `LOCKED — CANONICAL`  
 **Canonicality:** `CANONICAL`  
-**Lock Status:** `LOCKED`
+**Lock Status:** `LOCKED`  
+**Publication Status:** `PUBLISHED`
 
 This document provides the canonical representation and traceability layer for validated registration records associated with current UNIR Registry Objects. Underlying registration, authorization, allocation, decision, reassessment, and related records remain authoritative for their own content.
 
-[Open UNIR-REGISTRATION-RECORD-001 v1.0](./UNIR-REGISTRATION-RECORD-001_Universal_Naming_Identification_Registration_Record_v1.0.md)
+[Open UNIR-REGISTRATION-RECORD-001 v1.1](./UNIR-REGISTRATION-RECORD-001_Universal_Naming_Identification_Registration_Record_v1.1.md)
 
 ## 3. Architectural Reading Order
 
@@ -117,7 +119,7 @@ DIUA-related registered/allocated content is represented within the Registry lay
 
 ## 6. Publication and Lock State
 
-The canonical documents are maintained as locked artifacts. Publication to GitHub is a separate operational action from canonical lock.
+The canonical UNIR documents listed in this README are maintained as locked artifacts. `UNIR-REGISTRY-001 v1.1` and `UNIR-REGISTRATION-RECORD-001 v1.1` are currently published on GitHub; canonical lock and repository publication remain distinct states.
 
 This README does not confer canonicality, alter document state, or authorize publication of any document.
 
@@ -127,13 +129,15 @@ Do not edit locked canonical UNIR documents in place.
 
 Any substantive change must proceed through the applicable revision, audit, canonicalization, and lock process, producing a new version or other explicitly authorized successor artifact.
 
+Metadata-only maintenance to this README shall not be interpreted as a substantive revision of the canonical UNIR documents it describes.
+
 ## 8. Directory Contents
 
 | Document | Role | Current State |
 |---|---|---|
 | `UNIR-CORE-001_Universal_Naming_Identification_Registry_v1.3.md` | Core Architecture | `LOCKED — CANONICAL` |
-| `UNIR-REGISTRY-001_Universal_Naming_Identification_Registry_v1.0.md` | Current Registry State | `LOCKED — CANONICAL` |
-| `UNIR-REGISTRATION-RECORD-001_Universal_Naming_Identification_Registration_Record_v1.0.md` | Registration Record Representation | `LOCKED — CANONICAL` |
+| `UNIR-REGISTRY-001_Universal_Naming_Identification_Registry_v1.1.md` | Current Registry State | `LOCKED — CANONICAL / PUBLISHED` |
+| `UNIR-REGISTRATION-RECORD-001_Universal_Naming_Identification_Registration_Record_v1.1.md` | Registration Record Representation | `LOCKED — CANONICAL / PUBLISHED` |
 
 ## 9. README Boundary
 
