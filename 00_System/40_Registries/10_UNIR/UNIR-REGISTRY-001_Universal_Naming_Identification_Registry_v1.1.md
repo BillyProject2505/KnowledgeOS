@@ -34,8 +34,8 @@ source_basis: Validated individual registration, authorization, allocation, reas
 **Canonical Repository Path:** `00_System/40_Registries/10_UNIR/UNIR-REGISTRY-001_Universal_Naming_Identification_Registry_v1.1.md`  
 **Publication Status:** PUBLISHED  
 **Publication Event:** Canonical repository publication  
-**Publication Commit:** `a885e539c6981c1bffe13d23d68713f1c6a8d22c`  
-**Publication Timestamp:** `2026-08-15T08:27:02Z`  
+**Publication Commit:** `0c4d81684ee381c16f93bee61f99f60a7dd3eac1`  
+**Publication Timestamp:** `2026-08-15T08:35:46Z`  
 **Machine-Readable Metadata:** YES — explicit YAML front matter  
 **AI Navigation:** See `## Navigation`
 
@@ -473,6 +473,8 @@ The allocations above do not create:
 
 They represent concrete Document Identifier assignments within the already established DIUA/DIC identification architecture.
 
+---
+
 ## 7. Historical Provenance
 
 Historical information is retained only where necessary to explain the current registry state.
@@ -625,8 +627,8 @@ Document Status:                  LOCKED — CANONICAL
 Canonicality:                     CANONICAL
 Lock Status:                      LOCKED
 Publication Status:               PUBLISHED
-Publication Commit:               a885e539c6981c1bffe13d23d68713f1c6a8d22c
-Publication Timestamp:            2026-08-15T08:27:02Z
+Publication Commit:               0c4d81684ee381c16f93bee61f99f60a7dd3eac1
+Publication Timestamp:            2026-08-15T08:35:46Z
 ```
 
 ### Canonical Lock
