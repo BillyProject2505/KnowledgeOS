@@ -8,7 +8,7 @@
 
 The `10_UNIR` directory contains the canonical UNIR document set currently materialized for the Universal Naming & Identification architecture.
 
-The three documents have distinct roles and shall not be treated as interchangeable:
+The documents have distinct roles and shall not be treated as interchangeable:
 
 ```text
 UNIR-CORE-001
@@ -22,9 +22,13 @@ Current Registry State
 UNIR-REGISTRATION-RECORD-001
     ↓
 Registration Record Representation & Traceability
+
+UNIR-ALLOCATION-ACT-005
+    ↓
+Concrete Document Identifier Allocation Evidence
 ```
 
-The separation exists to prevent the earlier consolidated UNIR representation from mixing Core semantics with Registry Object state and registration-record material.
+The separation exists to prevent UNIR Core semantics, current Registry Object state, registration-record material, and concrete identifier-allocation evidence from being collapsed into one representation.
 
 ## 2. Canonical Document Set
 
@@ -39,7 +43,7 @@ This document is the canonical architectural home of the UNIR Six Core domains. 
 
 [Open UNIR-CORE-001 v1.3](./UNIR-CORE-001_Universal_Naming_Identification_Registry_v1.3.md)
 
-### 2.2 UNIR-REGISTRY-001 v1.1
+### 2.2 UNIR-REGISTRY-001 v1.2
 
 **Role:** Canonical Current Registry State  
 **Status:** `LOCKED — CANONICAL`  
@@ -47,11 +51,11 @@ This document is the canonical architectural home of the UNIR Six Core domains. 
 **Lock Status:** `LOCKED`  
 **Publication Status:** `PUBLISHED`
 
-This document represents the current registered state of UNIR, including current Registry Object representations, current registry state, applicable provenance, and bounded registered/allocated identification content.
+This document represents the current registered state of UNIR, including current Registry Object representations, current registry state, applicable provenance, and bounded concrete Document Identifier allocations. The current active allocation set includes `DIUA-DIC-000001` through `DIUA-DIC-000005`, with `DIUA-DIC-000005` allocated to Universal Production Knowledge Registry.
 
-[Open UNIR-REGISTRY-001 v1.1](./UNIR-REGISTRY-001_Universal_Naming_Identification_Registry_v1.1.md)
+[Open UNIR-REGISTRY-001 v1.2](./UNIR-REGISTRY-001_Universal_Naming_Identification_Registry_v1.2.md)
 
-### 2.3 UNIR-REGISTRATION-RECORD-001 v1.1
+### 2.3 UNIR-REGISTRATION-RECORD-001 v1.2
 
 **Role:** Canonical Registration Record Representation  
 **Status:** `LOCKED — CANONICAL`  
@@ -59,9 +63,23 @@ This document represents the current registered state of UNIR, including current
 **Lock Status:** `LOCKED`  
 **Publication Status:** `PUBLISHED`
 
-This document provides the canonical representation and traceability layer for validated registration records associated with current UNIR Registry Objects. Underlying registration, authorization, allocation, decision, reassessment, and related records remain authoritative for their own content.
+This document provides the canonical representation and traceability layer for validated registration records associated with current UNIR Registry Objects and the explicitly represented concrete Document Identifier allocation `DIUA-DIC-000005`.
 
-[Open UNIR-REGISTRATION-RECORD-001 v1.1](./UNIR-REGISTRATION-RECORD-001_Universal_Naming_Identification_Registration_Record_v1.1.md)
+The v1.2 revision records `UNIR-ALLOCATION-ACT-005` as verified allocation evidence for the Universal Production Knowledge Registry target.
+
+[Open UNIR-REGISTRATION-RECORD-001 v1.2](./UNIR-REGISTRATION-RECORD-001_Universal_Naming_Identification_Registration_Record_v1.2.md)
+
+### 2.4 UNIR-ALLOCATION-ACT-005
+
+**Role:** Concrete Document Identifier Allocation Evidence  
+**Status:** `VERIFIED — ACTIVE EVIDENCE`  
+**Allocation:** `DIUA-DIC-000005`  
+**Target:** Universal Production Knowledge Registry  
+**Allocation State:** `ALLOCATED — ACTIVE`
+
+This artifact establishes the allocation evidence for `DIUA-DIC-000005`. It does not create a UNIR Registry Object, redefine DIC, create a DIUA namespace, or replace the Registration Record or Registry State representations.
+
+[Open UNIR-ALLOCATION-ACT-005](./UNIR-ALLOCATION-ACT-005_Universal_Production_Knowledge_Registry_Concrete_Document_Identifier_Allocation_Act.md)
 
 ## 3. Architectural Reading Order
 
@@ -70,6 +88,7 @@ For understanding the UNIR corpus, use the following order:
 1. **UNIR-CORE-001** — understand the canonical Core architecture and boundaries.
 2. **UNIR-REGISTRY-001** — inspect the current registered Registry state.
 3. **UNIR-REGISTRATION-RECORD-001** — inspect validated registration-record relationships and traceability.
+4. **UNIR-ALLOCATION-ACT-005** — inspect the explicit allocation evidence for `DIUA-DIC-000005`.
 
 ## 4. Authority and Boundary Rules
 
@@ -92,7 +111,11 @@ UNIR-REGISTRATION-RECORD-001
   ↓
 Canonical registration-record representation / traceability
 
-Underlying registration records
+UNIR-ALLOCATION-ACT-005
+  ↓
+Concrete identifier allocation evidence
+
+Underlying registration / authorization / allocation records
   ↓
 Authoritative for their own record content
 ```
@@ -107,11 +130,15 @@ The Six Core semantics belong to `UNIR-CORE-001`. Older consolidated UNIR docume
 
 ### Current Registry State
 
-The canonical current registry state belongs to `UNIR-REGISTRY-001`. It is not replaced by a README, historical inventory, or registration event record.
+The canonical current registry state belongs to `UNIR-REGISTRY-001`. It is not replaced by a README, historical inventory, allocation act, or registration event record.
 
 ### Registration Records
 
-`UNIR-REGISTRATION-RECORD-001` provides representation and traceability. It does not replace the underlying authoritative records or become a parallel evidence repository.
+`UNIR-REGISTRATION-RECORD-001` provides representation and traceability. It does not replace the underlying authoritative records.
+
+### Allocation Evidence
+
+`UNIR-ALLOCATION-ACT-005` is evidence for the concrete identifier allocation `DIUA-DIC-000005`. It is distinct from the Registration Record, Registry Object, and Current Registry State.
 
 ### DIUA
 
@@ -119,7 +146,7 @@ DIUA-related registered/allocated content is represented within the Registry lay
 
 ## 6. Publication and Lock State
 
-The canonical UNIR documents listed in this README are maintained as locked artifacts. `UNIR-REGISTRY-001 v1.1` and `UNIR-REGISTRATION-RECORD-001 v1.1` are currently published on GitHub; canonical lock and repository publication remain distinct states.
+The canonical UNIR documents listed in this README are maintained as locked artifacts. `UNIR-REGISTRY-001 v1.2` and `UNIR-REGISTRATION-RECORD-001 v1.2` are currently published on GitHub. `UNIR-ALLOCATION-ACT-005` is maintained as `VERIFIED — ACTIVE EVIDENCE`.
 
 This README does not confer canonicality, alter document state, or authorize publication of any document.
 
@@ -136,10 +163,27 @@ Metadata-only maintenance to this README shall not be interpreted as a substanti
 | Document | Role | Current State |
 |---|---|---|
 | `UNIR-CORE-001_Universal_Naming_Identification_Registry_v1.3.md` | Core Architecture | `LOCKED — CANONICAL` |
-| `UNIR-REGISTRY-001_Universal_Naming_Identification_Registry_v1.1.md` | Current Registry State | `LOCKED — CANONICAL / PUBLISHED` |
-| `UNIR-REGISTRATION-RECORD-001_Universal_Naming_Identification_Registration_Record_v1.1.md` | Registration Record Representation | `LOCKED — CANONICAL / PUBLISHED` |
+| `UNIR-REGISTRY-001_Universal_Naming_Identification_Registry_v1.2.md` | Current Registry State | `LOCKED — CANONICAL / PUBLISHED` |
+| `UNIR-REGISTRATION-RECORD-001_Universal_Naming_Identification_Registration_Record_v1.2.md` | Registration Record Representation | `LOCKED — CANONICAL / PUBLISHED` |
+| `UNIR-ALLOCATION-ACT-005_Universal_Production_Knowledge_Registry_Concrete_Document_Identifier_Allocation_Act.md` | Concrete Document Identifier Allocation Evidence | `VERIFIED — ACTIVE EVIDENCE` |
 
-## 9. README Boundary
+## 9. Evidence Chain for DIUA-DIC-000005
+
+```text
+UNIR-ALLOCATION-ACT-005
+        ↓
+DIUA-DIC-000005
+        ↓
+Universal Production Knowledge Registry
+        ↓
+UNIR-REGISTRATION-RECORD-001 v1.2
+        ↓
+UNIR-REGISTRY-001 v1.2
+```
+
+The relationship above is traceability only. The allocation act, registration record, and registry state remain distinct artifact classes and shall not be collapsed into a single identity.
+
+## 10. README Boundary
 
 This README exists for:
 
@@ -147,13 +191,15 @@ This README exists for:
 - document orientation;
 - role clarification;
 - high-level architectural boundaries;
-- change-control orientation.
+- change-control orientation;
+- high-level evidence-chain orientation.
 
 It is **not**:
 
 - a replacement for `UNIR-CORE-001`;
 - a current registry inventory;
 - a registration record repository;
+- an allocation-act repository;
 - a normative definition of UNIR semantics;
 - an alternative canonical source of registry state.
 
