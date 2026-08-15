@@ -18,7 +18,15 @@ It does not contain operational Knowledge Objects, implementation-planning artif
 
 Architecture defines the structural form of the system within its applicable authority boundary.
 
-The **Universal Architecture** is the current canonical architectural authority of the Universal system. Its canonical document identity is `DIUA-DIC-000002` and its canonical representation is `DIUA-DIC-000002_Universal_Architecture_v0.2.md`.
+The **Universal Architecture** is the current canonical architectural authority of the Universal system.
+
+Its authoritative Document Identifier is `DIUA-DIC-000002` and its Core Document Code is `UA-CORE-001`.
+
+Its canonical representation is:
+
+`UA-CORE-001_Universal_Architecture_v0.2.md`
+
+The document is **CANONICAL / CURRENT / LOCKED / UDS CONFORMED**.
 
 Domain, subsystem, and other subordinate architectures shall conform to the applicable higher-level architectural authority and shall not silently override it.
 
@@ -28,11 +36,27 @@ Domain, subsystem, and other subordinate architectures shall conform to the appl
 
 ### Current Canonical Architecture
 
-- [`DIUA-DIC-000002_Universal_Architecture_v0.2.md`](./DIUA-DIC-000002_Universal_Architecture_v0.2.md) — Universal Architecture v0.2; **CANONICALIZED / LOCKED / CURRENT / UDS CONFORMED**.
+- [`UA-CORE-001_Universal_Architecture_v0.2.md`](./UA-CORE-001_Universal_Architecture_v0.2.md) — Universal Architecture v0.2; **CANONICAL / CURRENT / LOCKED / UDS CONFORMED**.
 
 ### Canonicalization Record
 
-- [`UA-54_Universal_Architecture_Canonicalization_Act_v1.0.md`](./UA-54_Universal_Architecture_Canonicalization_Act_v1.0.md) — formal canonicalization act for the Universal Architecture v0.2 artifact.
+- [`UA-54_Universal_Architecture_Canonicalization_Act_v1.0.md`](./UA-54_Universal_Architecture_Canonicalization_Act_v1.0.md) — separate canonicalization decision record for `DIUA-DIC-000002`.
+
+### Naming and Identity Boundary
+
+`DIUA-DIC-000002` is the authoritative concrete Document Identifier.
+
+`UA-CORE-001` is the Core Document Code and does not replace the Document Identifier.
+
+The filename is a canonical repository representation and is not itself the Document Identifier.
+
+### Publication State
+
+The canonical architecture document is **published in this GitHub repository**.
+
+Repository publication is distinct from formal publication authorization. No formal publication-authorization record is asserted by this README unless such an authorization record is separately materialized.
+
+### Future Architecture Artifacts
 
 Future canonical architecture artifacts may include:
 
