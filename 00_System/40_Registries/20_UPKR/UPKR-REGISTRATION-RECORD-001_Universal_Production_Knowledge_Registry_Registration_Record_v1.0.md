@@ -4,16 +4,16 @@ document_type: Registration Record
 title: Universal Production Knowledge Registry Registration Record
 short_name: UPKR Registration Record
 version: "1.0"
-status: CANDIDATE
-canonicality: CANDIDATE
-lock: UNLOCKED
+status: LOCKED — CANONICAL
+canonicality: CANONICAL
+lock: LOCKED
 scope: Registration representation and traceability for the Universal Production Knowledge Registry
 purpose: Govern registration records, validation evidence, registration decisions, registration state transitions, and traceability for UPKR-managed UPKO registrations
 authority: UPKR Governance
 semantic_authority: Registry registration and traceability only; substantive Production Knowledge remains under UPKO authority
 source_basis: UPKR-CORE-001 v1.0 — LOCKED — CANONICAL; UNIR-ALLOCATION-ACT-006 — VERIFIED — ACTIVE EVIDENCE
 materialization: GITHUB_NATIVE_CHATGPT_READABLE
-canonicalization_decision: PENDING
+canonicalization_decision: UPKR-REGISTRATION-RECORD-001 v1.0 Canonicalization Decision v1.0 — APPROVED
 materialization_timestamp: 2026-08-15T13:13:42Z
 document_role: Registration Record
 ---
@@ -24,9 +24,9 @@ document_role: Registration Record
 **Document Reference:** `UPKR-REGISTRATION-RECORD-001`  
 **Document Type:** Registration Record  
 **Version:** `1.0`  
-**Status:** `CANDIDATE`  
-**Canonicality:** `CANDIDATE`  
-**Lock Status:** `UNLOCKED`  
+**Status:** `LOCKED — CANONICAL`  
+**Canonicality:** `CANONICAL`  
+**Lock Status:** `LOCKED`  
 **Document Role:** Registration Record  
 
 ---
@@ -615,33 +615,35 @@ At initial materialization:
 Document ID              : DIUA-DIC-000006
 Document Reference       : UPKR-REGISTRATION-RECORD-001
 Version                  : 1.0
-Status                   : CANDIDATE
-Canonicality             : CANDIDATE
-Lock Status              : UNLOCKED
-Canonicalization Decision: PENDING
+Status                   : LOCKED — CANONICAL
+Canonicality             : CANONICAL
+Lock Status              : LOCKED
+Canonicalization Decision: UPKR-REGISTRATION-RECORD-001 v1.0 Canonicalization Decision v1.0 — APPROVED
 ```
 
-This document is not canonicalized or locked by initial materialization.
+This canonicalization decision establishes this document as the canonical Registration Record representation layer of UPKR v1.0. It does not canonicalize or register the current registry state or any individual registration event.
 
 ---
 
 ## 26. Canonicalization Boundary
 
-The canonicalization progression for this Registration Record shall be:
+This Registration Record has completed the applicable final conformance review and has been explicitly canonicalized and locked.
+
+The canonical progression completed for this version is:
 
 ```text
 CONSOLIDATED
     ↓
 MATERIALIZED
     ↓
-FINAL CONFORMANCE REVIEW
+FINAL CONFORMANCE REVIEW — PASS
     ↓
-CANONICALIZATION DECISION
+CANONICALIZATION DECISION — APPROVED
     ↓
 LOCKED — CANONICAL
 ```
 
-Canonicalization of this Registration Record shall not automatically canonicalize current registry state or any individual registration event.
+No silent canonicalization or in-place substantive modification is permitted after lock. Any substantive change shall proceed through the applicable controlled revision and re-canonicalization process.
 
 ---
 
