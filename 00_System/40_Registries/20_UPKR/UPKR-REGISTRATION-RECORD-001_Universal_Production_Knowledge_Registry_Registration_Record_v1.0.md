@@ -12,9 +12,9 @@ purpose: Govern registration records, validation evidence, registration decision
 authority: UPKR Governance
 semantic_authority: Registry registration and traceability only; substantive Production Knowledge remains under UPKO authority
 source_basis: UPKR-CORE-001 v1.0 — LOCKED — CANONICAL; UNIR-ALLOCATION-ACT-006 — VERIFIED — ACTIVE EVIDENCE
-materialization: GITHUB_NATIVE_CHATGPT_READABLE — TARGET REPRESENTATION
+materialization: GITHUB_NATIVE_CHATGPT_READABLE
 canonicalization_decision: PENDING
-materialization_timestamp: PENDING_GITHUB_MATERIALIZATION
+materialization_timestamp: 2026-08-15T13:13:42Z
 document_role: Registration Record
 ---
 
