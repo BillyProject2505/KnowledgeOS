@@ -12,7 +12,7 @@ Registries provide controlled operational representations of governed objects, i
 
 ### Universal Naming & Identification Registry (UNIR)
 
-The UNIR architecture is now materialized as three separate canonical documents with distinct responsibilities. They shall not be treated as interchangeable.
+The UNIR architecture is materialized as three separate canonical documents with distinct responsibilities. They shall not be treated as interchangeable.
 
 ```text
 UNIR-CORE-001
@@ -51,28 +51,32 @@ The Core document defines the architectural and semantic ownership boundaries of
 ### 2. UNIR Registry State
 
 **Document ID:** `UNIR-REGISTRY-001`  
-**Current Version:** `1.0`  
+**Current Version:** `1.1`  
 **Status:** `LOCKED — CANONICAL`  
-**Canonicality:** `CANONICAL`
+**Canonicality:** `CANONICAL`  
+**Publication Status:** `PUBLISHED`
 
 `UNIR-REGISTRY-001` represents the current registered state of UNIR, including current Registry Object representations, current registry state, applicable current-source provenance, and bounded registered/allocated identification content.
 
 It does not redefine the Six Core semantics and does not replace the underlying registration records.
 
-[Open UNIR-REGISTRY-001 v1.0](./10_UNIR/UNIR-REGISTRY-001_Universal_Naming_Identification_Registry_v1.0.md)
+[Open UNIR-REGISTRY-001 v1.1](./10_UNIR/UNIR-REGISTRY-001_Universal_Naming_Identification_Registry_v1.1.md)
 
 ### 3. UNIR Registration Record Representation
 
 **Document ID:** `UNIR-REGISTRATION-RECORD-001`  
-**Current Version:** `1.0`  
+**Current Version:** `1.1`  
 **Status:** `LOCKED — CANONICAL`  
-**Canonicality:** `CANONICAL`
+**Canonicality:** `CANONICAL`  
+**Publication Status:** `PUBLISHED`
 
 `UNIR-REGISTRATION-RECORD-001` provides the canonical representation and traceability layer for validated UNIR registration records associated with current Registry Objects.
 
 Underlying readiness, authorization, allocation, decision, registration-event, reassessment, audit, review, and reconciliation artifacts remain authoritative for their own record content. This document does not become a parallel evidence repository.
 
-[Open UNIR-REGISTRATION-RECORD-001 v1.0](./10_UNIR/UNIR-REGISTRATION-RECORD-001_Universal_Naming_Identification_Registration_Record_v1.0.md)
+[Open UNIR-REGISTRATION-RECORD-001 v1.1](./10_UNIR/UNIR-REGISTRATION-RECORD-001_Universal_Naming_Identification_Registration_Record_v1.1.md)
+
+The more detailed navigation and orientation page for the `10_UNIR` directory is maintained separately at [10_UNIR/README.md](./10_UNIR/README.md).
 
 ---
 
@@ -133,10 +137,12 @@ The legacy directory has therefore been removed from the active repository struc
 | Document | Version | Status | Scope |
 |---|---:|---|---|
 | `UNIR-CORE-001_Universal_Naming_Identification_Registry_v1.3.md` | 1.3 | LOCKED — CANONICAL | UNIR Core Architecture |
-| `UNIR-REGISTRY-001_Universal_Naming_Identification_Registry_v1.0.md` | 1.0 | LOCKED — CANONICAL | Current UNIR Registry State |
-| `UNIR-REGISTRATION-RECORD-001_Universal_Naming_Identification_Registration_Record_v1.0.md` | 1.0 | LOCKED — CANONICAL | Registration Record Representation & Traceability |
+| `UNIR-REGISTRY-001_Universal_Naming_Identification_Registry_v1.1.md` | 1.1 | LOCKED — CANONICAL / PUBLISHED | Current UNIR Registry State |
+| `UNIR-REGISTRATION-RECORD-001_Universal_Naming_Identification_Registration_Record_v1.1.md` | 1.1 | LOCKED — CANONICAL / PUBLISHED | Registration Record Representation & Traceability |
 
 The canonical UNIR document set is located in `00_System/40_Registries/10_UNIR/`.
+
+The directory-level README at `10_UNIR/README.md` provides document-by-document navigation and orientation for this canonical set.
 
 ---
 
