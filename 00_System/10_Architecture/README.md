@@ -18,7 +18,7 @@ It does not contain operational Knowledge Objects, implementation-planning artif
 
 Architecture defines the structural form of the system within its applicable authority boundary.
 
-The **Universal Architecture** is intended to serve as the highest architectural authority of the Universal system once formally materialized and adopted.
+The **Universal Architecture** is the current canonical architectural authority of the Universal system. Its canonical document identity is `DIUA-DIC-000002` and its canonical representation is `DIUA-DIC-000002_Universal_Architecture_v0.2.md`.
 
 Domain, subsystem, and other subordinate architectures shall conform to the applicable higher-level architectural authority and shall not silently override it.
 
@@ -26,11 +26,16 @@ Domain, subsystem, and other subordinate architectures shall conform to the appl
 
 ## Contents
 
-Current canonical architecture artifacts are recorded here as they are formally materialized and adopted.
+### Current Canonical Architecture
+
+- [`DIUA-DIC-000002_Universal_Architecture_v0.2.md`](./DIUA-DIC-000002_Universal_Architecture_v0.2.md) — Universal Architecture v0.2; **CANONICALIZED / LOCKED / CURRENT / UDS CONFORMED**.
+
+### Canonicalization Record
+
+- [`UA-54_Universal_Architecture_Canonicalization_Act_v1.0.md`](./UA-54_Universal_Architecture_Canonicalization_Act_v1.0.md) — formal canonicalization act for the Universal Architecture v0.2 artifact.
 
 Future canonical architecture artifacts may include:
 
-- Universal Architecture
 - Domain or subsystem architectures
 - Architecture specifications and supporting architectural definitions
 
