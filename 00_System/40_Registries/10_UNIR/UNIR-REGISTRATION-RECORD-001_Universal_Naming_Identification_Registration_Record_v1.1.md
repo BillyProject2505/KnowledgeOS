@@ -32,8 +32,8 @@ registry_authority: UNIR Registry Authority
 **Superseded By:** None  
 **Publication Status:** PUBLISHED  
 **Publication Event:** Canonical repository publication  
-**Publication Commit:** `a885e539c6981c1bffe13d23d68713f1c6a8d22c`  
-**Publication Timestamp:** `2026-08-15T08:27:02Z`  
+**Publication Commit:** `f4a22d0fc90083f75fc30fa0047bafeaa1270385`  
+**Publication Timestamp:** `2026-08-15T08:35:04Z`  
 **Primary Form:** Markdown  
 **Machine-Readable Metadata:** YES  
 **Canonical Repository Path:** `00_System/40_Registries/10_UNIR/UNIR-REGISTRATION-RECORD-001_Universal_Naming_Identification_Registration_Record_v1.1.md`
@@ -725,8 +725,8 @@ Document Status:       LOCKED — CANONICAL
 Canonicality:          CANONICAL
 Lock Status:           LOCKED
 Publication Status:    PUBLISHED
-Publication Commit:    a885e539c6981c1bffe13d23d68713f1c6a8d22c
-Publication Timestamp: 2026-08-15T08:27:02Z
+Publication Commit:    f4a22d0fc90083f75fc30fa0047bafeaa1270385
+Publication Timestamp: 2026-08-15T08:35:04Z
 ```
 
 ### 17.2 Canonical Lock Decision
