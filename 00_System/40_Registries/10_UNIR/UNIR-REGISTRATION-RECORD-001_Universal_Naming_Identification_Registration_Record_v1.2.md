@@ -15,8 +15,8 @@
 **Supersedes:** `UNIR-REGISTRATION-RECORD-001 v1.1`  
 **Publication Status:** PUBLISHED  
 **Publication Event:** Canonical repository publication of successor revision  
-**Publication Commit:** PENDING — set by resulting publication commit  
-**Publication Timestamp:** PENDING — set by resulting publication commit  
+**Publication Commit:** `505c2b0a613c8085fb859db78057be58459552f4`  
+**Publication Timestamp:** `2026-08-15T11:58:25Z`  
 
 ## Identifier Allocation Traceability
 
