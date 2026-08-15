@@ -12,9 +12,9 @@ purpose: Represent the current governed registration state of UPKO objects under
 authority: UPKR Governance
 semantic_authority: Current UPKR registry state only; substantive Production Knowledge remains under UPKO authority
 source_basis: UPKR-CORE-001 v1.0 — LOCKED — CANONICAL; UPKR-REGISTRATION-RECORD-001 v1.0 — LOCKED — CANONICAL; UNIR-ALLOCATION-ACT-007 — VERIFIED — ACTIVE EVIDENCE
-materialization: GITHUB_NATIVE_CHATGPT_READABLE — TARGET REPRESENTATION
+materialization: GITHUB_NATIVE_CHATGPT_READABLE
 canonicalization_decision: PENDING
-materialization_timestamp: PENDING_GITHUB_MATERIALIZATION
+materialization_timestamp: 2026-08-15T13:26:10Z
 document_role: Current Registry State
 ---
 
