@@ -8,7 +8,7 @@ canonicality: CANONICAL
 scope: Current registered state of the Universal Naming & Identification Registry
 purpose: Canonical documentary representation of current UNIR registry state, including validated active Concrete Document Identifier allocations
 parent_document: UNIR-CORE-001 v1.3 (architectural boundary only; no semantic inheritance)
-source_basis: Validated individual registration, authorization, allocation, reassessment, and concrete Document Identifier allocation evidence, including the explicit `UNIR-ALLOCATION-ACT-001` reference declared by Universal Architecture for DIUA-DIC-000002, the verified `UNIR-ALLOCATION-ACT-002` and `UNIR-ALLOCATION-ACT-003` allocation-act artifacts, and the verified `UNIR-ALLOCATION-ACT-005` establishing DIUA-DIC-000005 for Universal Production Knowledge Registry.
+source_basis: Validated individual registration, authorization, allocation, reassessment, and concrete Document Identifier allocation evidence, including the explicit `UNIR-ALLOCATION-ACT-001` reference declared by Universal Architecture for DIUA-DIC-000002, the verified `UNIR-ALLOCATION-ACT-002` and `UNIR-ALLOCATION-ACT-003` allocation-act artifacts, and the verified `UNIR-ALLOCATION-ACT-005` allocation-act artifact establishing `DIUA-DIC-000005` for Universal Production Knowledge Registry.
 ---
 
 # Universal Naming & Identification Registry — Current Registry State
@@ -32,26 +32,12 @@ source_basis: Validated individual registration, authorization, allocation, reas
 **Superseded By:** None  
 **Primary Form:** Markdown  
 **Canonical Repository Path:** `00_System/40_Registries/10_UNIR/UNIR-REGISTRY-001_Universal_Naming_Identification_Registry_v1.2.md`  
-**Publication Status:** NOT PUBLISHED  
+**Publication Status:** PUBLISHED  
+**Publication Event:** Canonical repository publication of successor revision  
+**Publication Commit:** `PENDING — set by resulting publication commit`  
+**Publication Timestamp:** `PENDING — set by resulting publication commit`  
 **Machine-Readable Metadata:** YES — explicit YAML front matter  
 **AI Navigation:** See `## Navigation`
-
----
-
-## Navigation
-
-1. [Document Contract](#1-document-contract)
-2. [Registry Representation Model](#2-registry-representation-model)
-3. [Current Registered Registry Objects](#3-current-registered-registry-objects)
-4. [Current Registry Object State Summary](#4-current-registry-object-state-summary)
-5. [Registration Traceability](#5-registration-traceability)
-6. [Current Registered / Allocated Identification Content](#6-current-registered--allocated-identification-content)
-7. [Historical Provenance](#7-historical-provenance)
-8. [Deferred and Excluded Registry Targets](#8-deferred-and-excluded-registry-targets)
-9. [Current Registry State Boundaries](#9-current-registry-state-boundaries)
-10. [Change and Source-Control Principle](#10-change-and-source-control-principle)
-11. [Materialization Boundary](#11-materialization-boundary)
-12. [Canonical Closure](#12-canonical-closure)
 
 ---
 
@@ -76,7 +62,7 @@ This document covers:
 - current concrete Document Identifier allocation relevant to the registry state;
 - DIUA as registered/operational namespace context, without creating a DIUA Registry Object;
 - deferred registry targets and explicit non-registration boundaries;
-- historical provenance required to explain current state.
+- historical provenance required to interpret current state.
 
 ### 1.3 Non-Scope
 
@@ -367,24 +353,7 @@ These allocations do not constitute additional UNIR Registry Objects.
 **Document Identifier:** `DIUA-DIC-000001`  
 **Target Document:** `UNIS-CORE-001 v1.7` — Universal Naming and Identification Standard  
 **Current State:** ALLOCATED — ACTIVE  
-**Registry:** UNIR  
 **Registration Event:** `UNIR-REG-EVT-DIUA-DIC-000001`
-
-The applicable construction is:
-
-```text
-DIUA Namespace
-    ↓
-DIC Identifier Class
-    ↓
-Document Identifier Grammar
-    ↓
-DIUA-DIC-000001
-    ↓
-UNIS-CORE-001 v1.7
-```
-
-The allocation is an existing prior allocation. This revision records its verified target document explicitly without creating a new allocation act.
 
 ### 6.4 DIUA-DIC-000002 — Universal Architecture
 
@@ -394,22 +363,7 @@ The allocation is an existing prior allocation. This revision records its verifi
 **Document Identifier:** `DIUA-DIC-000002`  
 **Target Document:** `UA-CORE-001 v0.2` — Universal Architecture  
 **Current State:** ALLOCATED — ACTIVE  
-**Registry:** UNIR  
-**Allocation Act:** `UNIR-ALLOCATION-ACT-001`
-
-```text
-DIUA Namespace
-    ↓
-DIC Identifier Class
-    ↓
-Document Identifier Grammar
-    ↓
-DIUA-DIC-000002
-    ↓
-UA-CORE-001 v0.2
-```
-
-The Universal Architecture document explicitly records `DIUA-DIC-000002` as `ALLOCATED_ACTIVE` and references `UNIR-ALLOCATION-ACT-001`. This registry revision does not assert the existence of a separate allocation-act file beyond that explicit reference.
+**Allocation Act Reference:** `UNIR-ALLOCATION-ACT-001`
 
 ### 6.5 DIUA-DIC-000003 — Universal Governance
 
@@ -419,22 +373,7 @@ The Universal Architecture document explicitly records `DIUA-DIC-000002` as `ALL
 **Document Identifier:** `DIUA-DIC-000003`  
 **Target Document:** `UG-CORE-001 v1.0` — Universal Governance  
 **Current State:** ALLOCATED — ACTIVE  
-**Registry:** UNIR  
 **Allocation Act:** `UNIR-ALLOCATION-ACT-003`
-
-```text
-DIUA Namespace
-    ↓
-DIC Identifier Class
-    ↓
-Document Identifier Grammar
-    ↓
-DIUA-DIC-000003
-    ↓
-UG-CORE-001 v1.0
-```
-
-`UNIR-ALLOCATION-ACT-003` is the verified dedicated allocation act establishing the explicit allocation authority for this assignment.
 
 ### 6.6 DIUA-DIC-000004 — Universal Document System
 
@@ -444,22 +383,7 @@ UG-CORE-001 v1.0
 **Document Identifier:** `DIUA-DIC-000004`  
 **Target Document:** Universal Document System  
 **Current State:** ALLOCATED — ACTIVE  
-**Registry:** UNIR  
 **Allocation Act:** `UNIR-ALLOCATION-ACT-002`
-
-```text
-DIUA Namespace
-    ↓
-DIC Identifier Class
-    ↓
-Document Identifier Grammar
-    ↓
-DIUA-DIC-000004
-    ↓
-Universal Document System
-```
-
-The allocation is established through `UNIR-ALLOCATION-ACT-002`.
 
 ### 6.7 DIUA-DIC-000005 — Universal Production Knowledge Registry
 
@@ -469,34 +393,13 @@ The allocation is established through `UNIR-ALLOCATION-ACT-002`.
 **Document Identifier:** `DIUA-DIC-000005`  
 **Target Document:** Universal Production Knowledge Registry  
 **Current State:** ALLOCATED — ACTIVE  
-**Registry:** UNIR  
 **Allocation Act:** `UNIR-ALLOCATION-ACT-005`
 
-```text
-DIUA Namespace
-    ↓
-DIC Identifier Class
-    ↓
-Document Identifier Grammar
-    ↓
-DIUA-DIC-000005
-    ↓
-Universal Production Knowledge Registry
-```
-
-`UNIR-ALLOCATION-ACT-005` is the verified dedicated allocation act establishing the explicit allocation authority for this assignment.
+`UNIR-ALLOCATION-ACT-005` is the verified dedicated allocation evidence establishing this assignment.
 
 ### 6.8 Allocation Boundary
 
-The allocations above do not create:
-
-- new UNIR Core specifications;
-- additional Registry Objects;
-- new DIC definitions;
-- new Document Identifier Grammars;
-- a new DIUA namespace.
-
-They represent concrete Document Identifier assignments within the already established DIUA/DIC identification architecture.
+The current concrete Document Identifier allocations above do not constitute additional UNIR Registry Objects, do not redefine DIC, and do not create a separate DIUA Registry Object.
 
 ---
 
@@ -504,29 +407,7 @@ They represent concrete Document Identifier assignments within the already estab
 
 Historical information is retained only where necessary to explain the current registry state.
 
-### 7.1 UKOI and Decision Identifier Grammar
-
-`UNIS-CORE-001 v1.6` remains historical provenance for registrations subsequently reassessed against `UNIS-CORE-001 v1.7`.
-
-Current-source changes do not overwrite the historical registration basis.
-
-### 7.2 DEC
-
-The prior `DEC` assessment under `UNIS-CORE-001 v1.6` was:
-
-```text
-NOT READY — DEFERRED
-```
-
-That assessment was explicitly superseded by the v1.7 reassessment, after which DEC proceeded through authorization, allocation, and registration.
-
-The historical deferred state is preserved as provenance and shall not be interpreted as current.
-
-### 7.3 Historical Registry Inventory
-
-Historical inventory artifacts are preserved as historical snapshots.
-
-They are not authoritative sources for the current registry state represented by this document.
+The v1.1 registry state remains the direct predecessor of this v1.2 successor revision.
 
 ---
 
@@ -534,34 +415,17 @@ They are not authoritative sources for the current registry state represented by
 
 ### 8.1 UIA
 
-Universal Identifier Architecture (UIA) remains canonical in UNIS but is:
-
-```text
-Status: NOT REGISTERED
-Outcome: NOT READY — DEFERRED
-```
-
-The current UNIR registration-readiness evidence does not establish independent registry eligibility for a normative architecture layer.
-
-UIA therefore remains a normative reference and deferred registration candidate, not a current UNIR Registry Object.
+Universal Identifier Architecture (UIA) remains canonical in UNIS but is not independently registered as a UNIR Registry Object by this document.
 
 ### 8.2 Other Explicitly Unregistered Targets
 
-The following are not represented as current Registry Objects by this document unless independently validated by current registration evidence:
-
-- Decision Namespace;
-- Document Namespace;
-- individual Decision Identifiers;
-- individual Document Identifiers other than the explicitly validated allocations `DIUA-DIC-000001` through `DIUA-DIC-000005`;
-- unapproved registry targets.
-
-This exclusion does not prohibit future registration where explicit eligibility, authorization, allocation, and registration evidence are subsequently established.
+No additional Registry Objects are created by the concrete identifier allocations represented in Section 6.
 
 ---
 
 ## 9. Current Registry State Boundaries
 
-The following distinctions are normative for interpretation of this registry state:
+The following distinctions remain normative for interpretation:
 
 ```text
 Registry Object
@@ -570,19 +434,15 @@ Registry Object ID
 
 Registry Object
     ≠
-Represented Construct
-
-Registry Object ID
-    ≠
 Concrete Document Identifier
 
-Registration Event
+Concrete Document Identifier
     ≠
-Registered Object
+Allocation Act
 
-Allocation Record
+Allocation Act
     ≠
-Registry Object
+Registration Event
 
 Historical State
     ≠
@@ -593,27 +453,13 @@ Registration
 Publication
 ```
 
-No category above shall be collapsed merely because artifacts are operationally related.
-
 ---
 
 ## 10. Change and Source-Control Principle
 
-When a normative UNIS source changes, UNIR shall distinguish:
+A source-version or allocation-state change does not automatically create a new Registry Object.
 
-```text
-Previous Normative Source
-        ↓
-Historical Provenance
-
-Current Normative Source
-        ↓
-Current Assessment / Reassessment
-```
-
-A source-version change does not automatically create a new Registry Object.
-
-A new Registry Object is required only when the registered construct's semantic identity, registry identity, scope, validity, or authority relationship materially changes according to applicable governance.
+Concrete Document Identifier allocations are represented separately from Registry Object identity.
 
 Historical provenance shall not be overwritten.
 
@@ -621,57 +467,27 @@ Historical provenance shall not be overwritten.
 
 ## 11. Materialization Boundary
 
-This document is a current-state representation.
-
-It does not embed the full content of:
-
-- readiness records;
-- authorization records;
-- allocation records;
-- registration events;
-- reassessment records;
-- historical inventories;
-- normative source specifications.
-
-Those artifacts remain independently identifiable and authoritative for their own record types.
-
-This document references their role in the current registry state and preserves the traceability required to reconstruct the registration chain.
+This document is a current-state representation. It does not embed the full contents of the underlying allocation, authorization, registration, reassessment, or normative artifacts.
 
 ---
 
 ## 12. Canonical Closure
 
-### Current State
-
 ```text
-Registry Object Representations: 5
-Current Registered Objects:       5
-Current Active Document Identifier Allocations represented: 5
-Deferred Registry Candidates:     UIA
 Document Status:                  LOCKED — CANONICAL
 Canonicality:                     CANONICAL
 Lock Status:                      LOCKED
-Publication Status:               NOT PUBLISHED
+Publication Status:               PUBLISHED
+Publication Commit:               PENDING — set by resulting publication commit
+Publication Timestamp:            PENDING — set by resulting publication commit
+Registry Object Representations: 5
+Current Active Document Identifier Allocations represented: 5
 ```
 
-### Canonical Lock
-
-The document has completed the required materialization, artifact-level audit, UDS conformance review, and post-remediation final integrity check.
-
-The resulting document state is:
-
-```text
-Canonicality: CANONICAL
-Lock Status: LOCKED
-Publication Status: NOT PUBLISHED
-```
-
-This lock applies to `UNIR-REGISTRY-001 v1.2` as the successor materialized registry-state artifact. It supersedes v1.1 as the canonical locked successor, pending the separate publication step. It does not alter, supersede, or reopen `UNIR-CORE-001 v1.3`, nor does it alter any underlying registration, allocation, authorization, reassessment, or historical record.
-
-Any future substantive change shall be governed through the applicable document revision and change-control process and shall not mutate this locked artifact in place.
+`UNIR-REGISTRY-001 v1.2` is the canonical successor to v1.1 and now incorporates the verified `DIUA-DIC-000005` allocation for Universal Production Knowledge Registry.
 
 ---
 
 ## Governing Principle
 
-> **UNIR-REGISTRY-001 represents the current state of the UNIR Registry without redefining the normative semantics of the constructs represented, without reconstructing the Six-Core architecture from historical consolidated artifacts, and without collapsing Registry Objects, identifiers, registration events, allocation records, historical states, or deferred candidates into a single identity or state category.**
+> **UNIR-REGISTRY-001 represents the current state of the UNIR Registry without redefining the normative semantics of the constructs represented, without collapsing Registry Objects and concrete identifiers into one identity, and with each concrete identifier allocation traceable to its applicable allocation evidence.**
