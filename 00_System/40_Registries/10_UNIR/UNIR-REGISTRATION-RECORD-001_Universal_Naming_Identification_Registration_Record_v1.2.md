@@ -4,10 +4,10 @@
 **Document Type:** Registration Record Representation  
 **Title:** Universal Naming & Identification Registration Record  
 **Version:** 1.2  
-**Status:** DRAFT — CANONICAL REVISION CANDIDATE  
-**Canonicality:** CANDIDATE  
-**Lock Status:** NOT LOCKED  
-**Document Role:** Canonical Registration Record Representation Candidate  
+**Status:** LOCKED — CANONICAL  
+**Canonicality:** CANONICAL  
+**Lock Status:** LOCKED  
+**Document Role:** Canonical Registration Record Representation  
 **Document Responsibility:** UNIR Registry Authority  
 **Semantic Authority:** UNIS for Universal Naming & Identification semantics  
 **Registry Authority:** UNIR Registry Authority for registry-record representation  
@@ -61,10 +61,10 @@ The allocation does not create a new UNIR Registry Object. It represents a concr
 ## Canonical Closure
 
 ```text
-Document Status:       DRAFT — CANONICAL REVISION CANDIDATE
-Canonicality:          CANDIDATE
-Lock Status:           NOT LOCKED
+Document Status:       LOCKED — CANONICAL
+Canonicality:          CANONICAL
+Lock Status:           LOCKED
 Publication Status:    NOT PUBLISHED
 ```
 
-`UNIR-REGISTRATION-RECORD-001 v1.2` is the successor revision candidate incorporating the verified `DIUA-DIC-000005` allocation. It supersedes the published v1.1 only upon completion of validation, canonical lock, and publication.
+`UNIR-REGISTRATION-RECORD-001 v1.2` is the successor revision incorporating the verified `DIUA-DIC-000005` allocation. It supersedes the published v1.1 as the canonical locked successor, pending the separate publication step.
