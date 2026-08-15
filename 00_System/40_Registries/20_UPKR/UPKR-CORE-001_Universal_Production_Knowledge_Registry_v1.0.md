@@ -12,9 +12,9 @@ purpose: Governed architecture for production-knowledge registration, registry s
 authority: UPKR Registry Governance
 semantic_authority: UPKR within its declared registry scope
 source_basis: Consolidated UPKR architecture established and reviewed in the current UPKR workstream; applicable approved UPKR work products and the verified UNIR allocation of DIUA-DIC-000005
-materialization: GITHUB_NATIVE_CHATGPT_READABLE — TARGET REPRESENTATION
+materialization: GITHUB_NATIVE_CHATGPT_READABLE
 canonicalization_decision: PENDING
-materialization_timestamp: PENDING_GITHUB_MATERIALIZATION
+materialization_timestamp: 2026-08-15T12:42:59Z
 document_role: Core Document
 ---
 
