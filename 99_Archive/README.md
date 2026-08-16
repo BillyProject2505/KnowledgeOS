@@ -2,64 +2,138 @@
 
 ## Purpose
 
-Stores deprecated, historical, superseded, retired, draft, and other archived materials within KnowledgeOS.
+`99_Archive` is the canonical archive boundary of KnowledgeOS.
+
+It preserves deprecated, historical, superseded, retired, draft, legacy, migration, and other non-active artifacts for provenance, traceability, recovery, audit, and historical reference.
+
+Archived artifacts are **not active Canonical Knowledge** unless an explicit canonical authority states otherwise.
 
 ---
 
-## Scope
+## Archive Boundary
 
-This directory preserves repository history while ensuring that archived materials remain available for reference, provenance, recovery, and historical traceability.
+The presence of a file inside `99_Archive` establishes only that the artifact belongs to the repository's archive boundary.
 
-Archived materials are **not** considered active Canonical Knowledge.
+Archive location does **not** by itself determine:
 
-The presence of an artifact in this directory establishes its **archive boundary**, but does not by itself determine the artifact's individual lifecycle disposition. Each archived artifact should therefore carry explicit archival metadata identifying its status and disposition where practical.
+- whether an artifact is `SUPERSEDED`, `RETIRED`, `DRAFT`, or `HISTORICAL`;
+- which successor replaced it;
+- whether it was ever canonical;
+- why it was archived.
+
+Those meanings belong to the artifact's own archival metadata and, where applicable, its documented lifecycle lineage.
 
 ---
 
 ## Archive Status Model
 
-Archived artifacts should use the following distinctions where applicable:
+Archived artifacts should use the following distinctions where they can be established reliably:
 
-- `SUPERSEDED` — an active or canonical predecessor replaced by an authorized successor.
-- `RETIRED` — deliberately withdrawn from active use without a direct successor serving as its replacement.
-- `DRAFT` — a non-canonical development artifact that did not become the active canonical version.
-- `HISTORICAL` — preserved for historical or provenance purposes without implying that it was superseded by a specific successor.
-- `ARCHIVED` — the repository disposition indicating that the artifact is preserved within this archive boundary.
+| Status | Meaning |
+|---|---|
+| `SUPERSEDED` | The historical version was replaced by an authorized successor. |
+| `RETIRED` | The artifact was deliberately withdrawn without a direct successor serving as its replacement. |
+| `DRAFT` | The artifact is a non-canonical development version that did not become the active canonical release. |
+| `HISTORICAL` | The artifact is preserved for historical or provenance purposes without a verified direct successor being assigned. |
+| `ARCHIVED` | Repository disposition indicating that the artifact is preserved inside this archive boundary. |
 
-`ARCHIVED` describes repository disposition. It does not, by itself, replace the artifact's lifecycle or historical status.
+`ARCHIVED` is a repository disposition. It does **not** replace the artifact's historical or lifecycle status.
 
 ---
 
-## Metadata Rule
+## Metadata Authority
 
-Each archived artifact should, where metadata is available or can be established reliably, identify at minimum:
+Every archived artifact should carry explicit archival metadata whenever that metadata can be established reliably.
+
+At minimum, the metadata should identify:
 
 - document or artifact identity;
 - version, where applicable;
-- current archival status;
-- archive disposition;
-- superseding successor, where one exists;
-- historical or archival reason, where useful for traceability.
+- historical or lifecycle status;
+- `canonicality` where applicable;
+- `archive_status`;
+- `archive_disposition`;
+- `superseded_by` when a verified successor exists.
 
-Archived metadata is documentary metadata only. It does not rewrite the substantive historical content of the archived artifact.
+Example:
 
-Statements inside an archived artifact that describe a former `Canonical`, `Active`, or `Locked` state remain part of that artifact's historical content and do not override its current archival metadata.
+```yaml
+---
+document_id: EXAMPLE-001
+version: "1.0"
+status: SUPERSEDED
+canonicality: HISTORICAL
+archive_status: ARCHIVED
+archive_disposition: SUPERSEDED
+superseded_by: EXAMPLE-001_v2.0.md
+---
+```
+
+The metadata belongs to the individual artifact. This README does **not** declare the lifecycle status of every file in the archive.
 
 ---
 
-## Rules
+## Successor and Lineage Rule
 
-- Do not place active Knowledge Objects in this directory.
+When multiple historical versions exist, `superseded_by` should identify the **nearest verified successor in the document lineage**, not automatically the latest version in the chain.
+
+For example:
+
+```text
+v1.0 → v2.0 → v3.0 → current
+```
+
+The correct archival lineage is:
+
+```text
+v1.0 → superseded_by: v2.0
+v2.0 → superseded_by: v3.0
+v3.0 → superseded_by: current successor
+```
+
+An archived successor may itself be archived. Archive location does not break lineage.
+
+Do not invent `superseded_by` when the successor cannot be verified.
+
+---
+
+## Historical Content Rule
+
+Archival metadata describes the **current status of the archived copy**. It does not rewrite the substantive historical content of that artifact.
+
+Statements inside an archived artifact that describe a former `Canonical`, `Active`, or `Locked` state remain historical statements and do not override the current archival metadata.
+
+Where an archival artifact is found to be truncated, corrupted, or otherwise unable to preserve its historical content, the artifact should be restored from a verified historical source or removed when reliable restoration is not possible.
+
+---
+
+## Archive Integrity Rules
+
+- Do not place active Knowledge Objects in `99_Archive`.
 - Do not treat archived artifacts as current canonical authority.
-- Preserve archived substantive content unless an explicit archival correction is required for traceability or governance.
+- Preserve substantive historical content.
 - Do not silently overwrite historical versions.
-- Do not classify every archived artifact as `SUPERSEDED`; use the disposition that matches its actual historical lifecycle.
-- Every archived item should include, or be accompanied by, sufficient information to understand why it was archived.
-- The `README.md` is the canonical navigation and orientation document for this archive boundary.
+- Do not classify every archived artifact as `SUPERSEDED` merely because it is archived.
+- Do not assign a successor without verified lineage.
+- Preserve version-to-version successor relationships when multiple historical versions exist.
+- Use manual restoration or verified historical blobs when a large archived file cannot be safely mutated without risking truncation.
+- Remove an archive artifact when its historical content is demonstrably corrupted and cannot be restored reliably, rather than preserving an invalid historical copy.
 
 ---
 
-## Contents
+## Archive Index
+
+The root of `99_Archive` is the primary archive index and navigation surface.
+
+Historical artifacts should remain directly discoverable from this directory whenever practical. Subdirectories should only be used when there is an explicit structural reason and their contents remain navigable from this README.
+
+The index is an orientation and navigation layer. It does **not** replace the metadata of individual archived artifacts.
+
+---
+
+## Current Archive Organization
+
+The archive may contain, among others:
 
 - Deprecated Documents
 - Superseded Versions
@@ -67,8 +141,10 @@ Statements inside an archived artifact that describe a former `Canonical`, `Acti
 - Historical Documents
 - Drafts and Development Artifacts
 - Legacy Structures
-- Archived Projects
+- Archived Project Artifacts
 - Migration and Materialization Snapshots
+
+Where a former archive subdirectory has been flattened into `99_Archive`, its artifacts should be treated as members of this same archive boundary.
 
 ---
 
@@ -78,9 +154,17 @@ Statements inside an archived artifact that describe a former `Canonical`, `Acti
 
 Repository Root
 
-### Related
+### Related KnowledgeOS Areas
 
-- 00_System
-- 01_Knowledge
-- 02_Projects
-- 98_Operator_Manual
+- `00_System`
+- `01_Knowledge`
+- `02_Projects`
+- `98_Operator_Manual`
+
+---
+
+## Canonical Archive Principle
+
+> **Archive location preserves history; artifact metadata preserves meaning.**
+
+`99_Archive/README.md` defines the archive boundary, orientation, and archival rules. The individual archived artifact remains authoritative for its own historical metadata and documented lineage.
