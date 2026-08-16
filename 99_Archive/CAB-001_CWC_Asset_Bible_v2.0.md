@@ -1,3 +1,14 @@
+---
+document_id: CAB-001
+title: Coz We Care Asset Bible
+version: "2.0"
+status: SUPERSEDED
+canonicality: HISTORICAL
+archive_status: ARCHIVED
+archive_disposition: SUPERSEDED
+superseded_by: CWC-CAB-001_CWC_Asset_Bible_v5.0.md
+---
+
 # Canonical Asset Bible
 
 Version 2.0
