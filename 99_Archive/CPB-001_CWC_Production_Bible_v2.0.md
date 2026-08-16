@@ -1,3 +1,14 @@
+---
+document_id: CPB-001
+title: CWC Production Bible
+version: "2.0"
+status: HISTORICAL
+canonicality: NON-CANONICAL
+archive_status: ARCHIVED
+archive_disposition: HISTORICAL
+superseded_by: null
+---
+
 # Chapter 01 — Foundation
 
 ## 1. Purpose
@@ -380,8 +391,6 @@ Define universal operational rules that apply across the entire Production Bible
 ### Canonical Decision
 
 These rules govern every production chapter and every Communication Artefact.
-
-### Rules
 
 #### UPR-001
 
@@ -994,25 +1003,21 @@ Define the relationship between the Audience System and downstream production sy
 
 ---
 
-## Canonical Decision
-
-The Audience System provides audience requirements for subsequent production chapters.
-
-The Audience System does not define implementation.
-
----
-
 ## Dependency Flow
 
 ```text
 Audience System
-        ↓
+↓
+
 Content Strategy
-        ↓
+↓
+
 Content Architecture
-        ↓
+↓
+
 Editorial System
-        ↓
+↓
+
 Visual Design System
 ```
 
@@ -1022,11 +1027,11 @@ Visual Design System
 
 ### AS-013
 
-Subsequent chapters shall inherit the Audience System.
+Downstream chapters shall inherit the Audience System.
 
 ### AS-014
 
-Implementation chapters shall not redefine audience knowledge.
+Production implementation shall not redefine canonical audience knowledge.
 
 ---
 
@@ -1050,57 +1055,33 @@ Define the universal principles governing every audience-related production deci
 
 Every Communication Artefact shall comply with the following Audience Principles.
 
----
+### AP-001 — Audience Before Platform
 
-## Audience Principles
+Audience shall be identified before platform selection.
 
-### AP-001
+### AP-002 — Audience Understanding Before Production
 
-Audience Before Production
+Production shall begin with audience understanding.
 
-### AP-002
+### AP-003 — Respect the Audience
 
-Audience-Centered Communication
+Audience members shall be communicated to respectfully and without stigma.
 
-### AP-003
+### AP-004 — Accessibility
 
-Inclusive Audience Recognition
+Communication shall be accessible to intended audiences.
 
-### AP-004
+### AP-005 — Evidence-Based Audience Understanding
 
-Context Before Assumption
+Audience assumptions shall be supported by available evidence where applicable.
 
-### AP-005
+### AP-006 — Audience Relevance
 
-Accessibility by Design
+Content shall remain relevant to the needs and context of the intended audience.
 
-### AP-006
+### AP-007 — Non-Discrimination
 
-Respectful Communication
-
-### AP-007
-
-Production Value Through Audience Understanding
-
----
-
-## Rules
-
-### AS-015
-
-No production decision shall weaken the Audience Principles.
-
-### AS-016
-
-Audience Principles shall govern interpretation whenever ambiguity exists.
-
----
-
-## Checklist
-
-- [ ] Audience Principles applied.
-- [ ] Audience respected.
-- [ ] Inclusive communication maintained.
+Audience classification shall never be used to stigmatize, exclude, or discriminate.
 
 ---
 
@@ -1110,106 +1091,75 @@ Audience Principles shall govern interpretation whenever ambiguity exists.
 
 Define the scope of the Audience System.
 
----
+### Included
 
-## Canonical Decision
+- Audience identity
+- Audience classification
+- Audience characteristics
+- Audience needs
+- Audience context
+- Audience relationships
 
-The Audience System defines audience knowledge only.
+### Excluded
 
-Audience implementation belongs to downstream production chapters.
+- Content strategy
+- Editorial implementation
+- Visual design
+- Production workflow
+- Publication strategy
 
----
+### Rules
 
-## Included
-
-- Audience Model
-- Audience Groups
-- Audience Classification
-- Audience Relationships
-
----
-
-## Excluded
-
-- Editorial adaptation
-- Visual adaptation
-- Platform targeting
-- Marketing segmentation
-- Advertising strategy
-- Campaign implementation
-
----
-
-## Rules
-
-### AS-017
+#### AS-015
 
 Only audience knowledge belongs in this chapter.
 
-### AS-018
+#### AS-016
 
 Implementation knowledge shall not be duplicated.
 
 ---
 
-## Checklist
-
-- [ ] Audience scope maintained.
-- [ ] No implementation duplication.
-
----
-
 # 3.8 Audience Checklist
 
-## Purpose
+### Audience Validation
 
-Validate that every production activity begins with the correct audience foundation.
+- [ ] Audience identified.
+- [ ] Audience classification confirmed.
+- [ ] Audience needs understood.
+- [ ] Audience context understood.
 
----
-
-## Audience Validation
-
-- [ ] Intended audience identified.
-- [ ] Audience groups selected.
-- [ ] Audience Principles applied.
-
----
-
-## Knowledge Validation
+### Knowledge Validation
 
 - [ ] Canonical audience source identified.
 - [ ] No duplicated audience knowledge.
-- [ ] Dependencies confirmed.
-
----
-
-## Production Readiness
-
-- [ ] Audience ready for Content Strategy.
-- [ ] Audience knowledge validated.
-- [ ] Audience foundation complete.
+- [ ] Audience remains distinct from Content Strategy.
 
 ---
 
 # Chapter 04 — Content Strategy
 
-# 4.1 Purpose
+## 4.1 Purpose
 
-## Purpose
+Define the canonical Content Strategy governing Communication Artefacts produced under the Coz We Care Production Bible (CPB).
 
-Define the canonical Content Strategy governing every Communication Artefact produced under the Coz We Care Production Bible (CPB).
-
-The Content Strategy establishes the strategic production knowledge required to determine **why** a Communication Artefact is created before its architecture, editorial implementation, visual design, production workflow, or publication strategy are defined.
+The Content Strategy establishes the strategic reasoning that determines **why communication is produced, what communication objectives it serves, and how content supports audience needs** before content is structured or produced.
 
 ---
 
 ## Canonical Decision
 
-The Content Strategy is the single canonical source governing strategic production knowledge within the Production Bible.
+The Content Strategy is the single canonical source governing strategic content decisions within the Production Bible.
 
-It defines **why** content exists.
+Content Strategy defines strategic content knowledge only.
 
-It does not define **how** content is implemented.
+Content Architecture determines how content is structured.
+
+Editorial System determines how content is written.
+
+Visual Design System determines how content is visually represented.
+
+Production Workflow determines how content is produced.
 
 ---
 
@@ -1217,40 +1167,46 @@ It does not define **how** content is implemented.
 
 ### CS-001
 
-Every Communication Artefact shall define its Content Strategy before production begins.
+Every Communication Artefact shall have a defined communication objective.
 
 ### CS-002
 
-The Content Strategy shall define strategic knowledge only.
+Content Strategy shall precede Content Architecture.
 
 ### CS-003
 
-Strategic knowledge shall remain consistent throughout every downstream production chapter.
+Content Strategy shall remain distinct from Editorial and Visual Systems.
 
 ---
 
 ## Checklist
 
-- Strategic purpose identified.
-- Communication objective established.
-- Content Strategy reviewed.
-- Downstream implementation identified.
+- [ ] Communication objective defined.
+- [ ] Audience identified.
+- [ ] Strategic content direction established.
+- [ ] Downstream implementation systems identified.
 
 ---
 
-# 4.2 Content Strategy Mission
+# 4.2 Content Mission
 
 ## Purpose
 
-Define the production mission of the Content Strategy.
+Define the strategic mission of content produced under Coz We Care.
 
 ---
 
 ## Canonical Decision
 
-The Content Strategy exists to ensure every Communication Artefact is produced for a clearly defined strategic purpose that supports the mission of Coz We Care.
+Content shall exist to support meaningful communication outcomes for the intended audience.
 
-Strategic intent shall drive production decisions while remaining independent from implementation.
+Content Strategy shall align content decisions with:
+
+- Communication objectives
+- Audience needs
+- Educational objectives
+- Behavioural objectives
+- Organisational priorities
 
 ---
 
@@ -1258,123 +1214,59 @@ Strategic intent shall drive production decisions while remaining independent fr
 
 ### CS-004
 
-Every Communication Artefact shall fulfil one or more Strategic Objectives.
+Every Communication Artefact shall have a defined strategic purpose.
 
 ### CS-005
 
-Strategic intent shall guide production decisions.
+Strategic content decisions shall prioritize audience value.
 
 ### CS-006
 
-Strategic objectives shall take precedence over production convenience.
+Content shall support measurable communication outcomes where appropriate.
 
 ---
 
-## Checklist
-
-- Strategic purpose defined.
-- Mission alignment confirmed.
-- Production objective validated.
-
----
-
-# 4.3 Content Strategy Model
+# 4.3 Communication Objectives
 
 ## Purpose
 
-Define the canonical strategic domains that compose the Content Strategy.
+Define the canonical communication objectives that content may serve.
 
 ---
 
 ## Canonical Decision
 
-The Content Strategy consists of five canonical strategic domains.
+Communication Objectives provide the strategic purpose for every Communication Artefact.
 
-- Strategic Objectives
-- Audience Alignment
-- Brand Alignment
-- Educational Alignment
-- Strategic Content Types
-
-Each domain has one canonical definition within the Production Bible.
+A Communication Artefact may serve one primary objective and one or more supporting objectives.
 
 ---
 
-# Strategic Objectives
+## Objective Categories
 
-Strategic Objectives define **why** a Communication Artefact is created.
+### Education
 
-## Inform
+Increase understanding, knowledge, or awareness.
 
-Communicate factual, accurate, and relevant information that enables audiences to understand a topic correctly.
+### Behaviour Change
 
-The primary outcome is awareness through reliable information.
+Support adoption of healthier or safer behaviours.
 
-## Educate
+### Engagement
 
-Improve knowledge and understanding through structured educational communication.
+Encourage interaction, reflection, participation, or dialogue.
 
-The primary outcome is meaningful learning rather than simple information delivery.
+### Support
 
-## Prevent
+Provide practical guidance, resources, or pathways to assistance.
 
-Encourage preventive behaviours and reduce health risks through evidence-based preventive communication.
+### Advocacy
 
-The primary outcome is healthier decision-making.
+Promote informed action, rights, policy understanding, or social change.
 
-## Support
+### Trust
 
-Provide guidance, encouragement, and psychosocial support that helps audiences navigate health-related situations with confidence and dignity.
-
-## Advocate
-
-Promote inclusion, reduce stigma, and encourage equitable access to health information, services, and opportunities.
-
-## Engage
-
-Encourage participation, dialogue, collaboration, and sustained interaction between Coz We Care and its communities.
-
----
-
-# Strategic Alignment
-
-## Audience Alignment
-
-Ensure every Communication Artefact aligns with the canonical Audience System so that strategic decisions are driven by audience needs rather than production convenience.
-
-## Brand Alignment
-
-Ensure every Communication Artefact consistently reflects the canonical Brand System and reinforces Coz We Care's identity, values, and positioning.
-
-## Educational Alignment
-
-Ensure every Communication Artefact supports the educational mission of Coz We Care by delivering accurate, trustworthy, inclusive, and evidence-based communication.
-
----
-
-# Strategic Content Types
-
-Strategic Content Types define the primary strategic role fulfilled by a Communication Artefact.
-
-## Educational
-
-Content whose primary strategic role is to increase knowledge, understanding, and awareness.
-
-## Preventive
-
-Content whose primary strategic role is to encourage preventive health behaviours and reduce avoidable health risks.
-
-## Supportive
-
-Content whose primary strategic role is to provide guidance, encouragement, or psychosocial support.
-
-## Advocacy
-
-Content whose primary strategic role is to reduce stigma, promote inclusion, and strengthen equitable access to health information and services.
-
-## Community Engagement
-
-Content whose primary strategic role is to strengthen participation, interaction, collaboration, and community involvement.
+Increase confidence in Coz We Care as a reliable source of information and support.
 
 ---
 
@@ -1382,39 +1274,41 @@ Content whose primary strategic role is to strengthen participation, interaction
 
 ### CS-007
 
-Every strategic domain shall have one canonical definition.
+Every Communication Artefact shall identify one primary communication objective.
 
 ### CS-008
 
-Strategic domains shall complement one another without overlap.
+Supporting objectives shall not conflict with the primary objective.
 
 ### CS-009
 
-Implementation details shall not be defined within this chapter.
+Communication objectives shall be specific enough to guide production decisions.
 
 ---
 
-## Checklist
-
-- Strategic domains identified.
-- Canonical definitions established.
-- No duplicated production knowledge.
-
----
-
-# 4.4 Content Classification
+# 4.4 Strategic Content Model
 
 ## Purpose
 
-Define how Communication Artefacts are classified according to strategic intent.
+Define the canonical model used to translate communication objectives into strategic content direction.
 
 ---
 
 ## Canonical Decision
 
-Every Communication Artefact shall define one or more Strategic Content Types using the canonical Content Strategy Model.
+The strategic content model consists of:
 
-Strategic classification supports production decisions without restricting communication.
+```text
+Communication Objective
+        ↓
+Audience Need
+        ↓
+Core Message
+        ↓
+Knowledge Outcome
+        ↓
+Desired Response
+```
 
 ---
 
@@ -1422,477 +1316,2272 @@ Strategic classification supports production decisions without restricting commu
 
 ### CS-010
 
-Every Communication Artefact shall define at least one Strategic Content Type.
+Every strategic content decision shall trace back to a communication objective.
 
 ### CS-011
 
-Multiple Strategic Content Types may be assigned when appropriate.
+Strategic content shall address an identified audience need.
 
 ### CS-012
 
-Strategic classification shall support production decisions without limiting multi-purpose communication.
+Every Communication Artefact shall have a clearly defined core message.
 
 ### CS-013
 
-Every Communication Artefact shall identify its intended audience before production begins.
+Knowledge outcomes shall be explicitly identified where applicable.
 
 ### CS-014
 
-Every Communication Artefact shall align with the canonical Audience System.
+The desired audience response shall be defined where appropriate.
+
+---
+
+# 4.5 Content Pillars
+
+## Purpose
+
+Define the canonical content pillars used to organize strategic content themes.
+
+---
+
+## Canonical Decision
+
+Content pillars provide strategic thematic structure while remaining independent of editorial and visual implementation.
+
+### CP-001 — HIV Knowledge
+
+Evidence-based information about HIV, prevention, testing, treatment, and health.
+
+### CP-002 — Sexual Health
+
+Education supporting healthy, informed, and responsible sexual health decisions.
+
+### CP-003 — Prevention
+
+Communication supporting HIV and STI prevention strategies.
+
+### CP-004 — Treatment & Care
+
+Information supporting treatment access, adherence, and continuity of care.
+
+### CP-005 — Mental & Emotional Wellbeing
+
+Communication addressing psychological and emotional wellbeing related to health and identity.
+
+### CP-006 — Rights & Inclusion
+
+Content supporting dignity, equality, human rights, and inclusion.
+
+### CP-007 — Community Support
+
+Information connecting audiences with community resources, services, and support systems.
+
+---
+
+## Rules
 
 ### CS-015
 
-Every Communication Artefact shall align with the canonical Brand System.
+Content pillars shall remain strategically distinct.
 
 ### CS-016
 
-Every Communication Artefact shall support the educational mission of Coz We Care.
-
----
-
-## Examples
-
-### ✔ Correct
-
-```text
-Strategic Objective
-        ↓
-Strategic Content Type
-        ↓
-Communication Artefact
-```
-
-### ✘ Incorrect
-
-```text
-Platform
-      ↓
-Strategy
-```
-
----
-
-## Checklist
-
-- Strategic Objective selected.
-- Strategic Content Type identified.
-- Audience alignment confirmed.
-- Brand alignment confirmed.
-- Educational alignment confirmed.
-
----
-
-# 4.5 Content Strategy Architecture
-
-## Purpose
-
-Define the relationship between the Content Strategy and downstream production systems.
-
----
-
-## Canonical Decision
-
-The Content Strategy provides strategic requirements for all downstream production chapters.
-
-Implementation remains the responsibility of those chapters.
-
----
-
-## Dependency Flow
-
-```text
-Content Strategy
-        ↓
-Content Architecture
-        ↓
-Editorial System
-        ↓
-Visual Design System
-```
-
----
-
-## Rules
+Content pillars may support multiple communication objectives.
 
 ### CS-017
 
-Subsequent chapters shall inherit the Content Strategy.
+Content pillars shall not define editorial implementation.
+
+---
+
+# 4.6 Strategic Content Prioritization
+
+## Purpose
+
+Define how strategic priorities are established when multiple content needs compete.
+
+---
+
+## Canonical Decision
+
+Content priorities shall be determined according to audience relevance, communication impact, evidence, urgency, and organizational importance.
+
+---
+
+## Prioritization Factors
+
+| Factor | Purpose |
+|---|---|
+| Audience Need | Measures relevance to the intended audience. |
+| Communication Impact | Measures potential communication outcome. |
+| Evidence Strength | Measures reliability of supporting knowledge. |
+| Urgency | Measures time sensitivity. |
+| Organisational Priority | Measures alignment with current organizational goals. |
+
+---
+
+## Rules
 
 ### CS-018
 
-Implementation chapters shall not redefine strategic knowledge.
-
----
-
-## Checklist
-
-- Dependencies identified.
-- Strategy inherited correctly.
-- No conflicting strategic definitions.
-
----
-
-# 4.6 Content Strategy Principles
-
-## Purpose
-
-Define the universal principles governing strategic production decisions.
-
----
-
-## Canonical Decision
-
-Every Communication Artefact shall comply with the following Content Strategy Principles.
-
----
-
-## Content Strategy Principles
-
-### CSP-001
-
-Purpose Before Content
-
-### CSP-002
-
-Objective Before Implementation
-
-### CSP-003
-
-Audience-Aligned Communication
-
-### CSP-004
-
-Brand-Aligned Communication
-
-### CSP-005
-
-Educational Integrity
-
-### CSP-006
-
-Evidence-Based Communication
-
-### CSP-007
-
-Meaningful Community Engagement
-
----
-
-## Rules
+Priority decisions shall be evidence-informed.
 
 ### CS-019
 
-No production decision shall weaken the Content Strategy Principles.
+Audience need shall be a primary prioritization factor.
 
 ### CS-020
 
-The Content Strategy Principles shall govern interpretation whenever ambiguity exists.
+Strategic priorities shall be reviewable and traceable.
 
 ---
 
-## Checklist
-
-- Principles applied.
-- Strategic intent preserved.
-- Mission alignment maintained.
-
----
-
-# 4.7 Content Strategy Boundaries
+# 4.7 Strategic Content Boundaries
 
 ## Purpose
 
-Define the scope of the Content Strategy.
+Define the scope of the Content Strategy chapter.
 
----
+### Included
 
-## Canonical Decision
+- Communication objectives
+- Strategic content direction
+- Content pillars
+- Content priorities
+- Strategic audience alignment
+- Knowledge outcomes
 
-The Content Strategy defines strategic production knowledge only.
+### Excluded
 
-Implementation belongs exclusively to downstream production chapters.
+- Editorial writing
+- Visual design
+- Production workflows
+- Publication procedures
+- Asset implementation
 
----
+### Rules
 
-## Included
+#### CS-021
 
-- Strategic Objectives
-- Strategic Alignment
-- Strategic Content Types
-- Strategic Classification
+Only strategic content knowledge belongs in this chapter.
 
----
+#### CS-022
 
-## Excluded
-
-- Content Architecture
-- Editorial implementation
-- Visual implementation
-- Production Workflow
-- Publication Strategy
-- Platform Strategy
-
----
-
-## Rules
-
-### CS-021
-
-Only strategic production knowledge belongs in this chapter.
-
-### CS-022
-
-Implementation knowledge shall not be duplicated.
-
----
-
-## Checklist
-
-- Strategic scope maintained.
-- No duplicated implementation knowledge.
+Editorial and visual implementation shall remain outside Content Strategy.
 
 ---
 
 # 4.8 Content Strategy Checklist
 
-## Purpose
+### Strategic Validation
 
-Validate that every production activity begins with the correct strategic foundation.
+- [ ] Communication objective defined.
+- [ ] Audience need identified.
+- [ ] Core message defined.
+- [ ] Content pillar selected.
+- [ ] Desired response identified.
 
----
+### Knowledge Validation
 
-## Strategy Validation
-
-- Strategic Objective identified.
-- Strategic Content Type selected.
-- Audience Alignment confirmed.
-- Brand Alignment confirmed.
-- Educational Alignment confirmed.
-
----
-
-## Knowledge Validation
-
-- Canonical strategy source identified.
-- No duplicated strategic knowledge.
-- Production knowledge preserved.
-
----
-
-## Production Readiness
-
-- Ready for Content Architecture.
-- Strategy validated.
-- Strategic foundation complete.
+- [ ] Strategic source identified.
+- [ ] No editorial duplication.
+- [ ] No visual implementation duplication.
 
 ---
 
 # Chapter 05 — Content Architecture
 
-## Chapter Mission
+## 5.1 Purpose
 
-Define the canonical architecture of all Coz We Care content so every content asset is consistently structured, machine-readable, strategically aligned, and reusable across production workflows.
+Define the canonical Content Architecture governing the structure, organization, hierarchy, and composition of Communication Artefacts produced under the Coz We Care Production Bible (CPB).
 
-This chapter establishes what content exists, how it is categorized, and how every content asset connects to strategic objectives and editorial execution.
-
----
-
-# Content Architecture Principles
-
-## CA-001 — Strategy First
-
-Every content asset shall originate from a strategic objective.
-
-No standalone content may exist without strategic alignment.
+Content Architecture translates strategic content decisions into a structured knowledge model that determines **what information exists, how information is organized, and how information relates to other information** before editorial or visual implementation occurs.
 
 ---
 
-## CA-002 — Structured Before Creative
+## Canonical Decision
 
-Content architecture defines structural consistency before creative execution.
+The Content Architecture is the single canonical source governing the structural organization of content within the Production Bible.
 
-Creativity operates inside the established architecture.
+Content Architecture defines content structure only.
 
----
+Content Strategy defines strategic direction.
 
-## CA-003 — Reusable Knowledge
+Editorial System defines writing and language.
 
-Content definitions must be reusable across:
+Visual Design System defines visual representation.
 
-- Instagram
-- FacebooK
-- TikTok
-- Website
-- Community Education
-- Campaign
-- Future Platforms
-
-without redefining their meaning.
+Production Workflow defines production execution.
 
 ---
 
-## CA-004 — AI Readability
+## Rules
 
-Every content object shall be:
+### CA-001
 
-- Machine-readable
-- Deterministic
-- Modular
-- Independently retrievable
+Every Communication Artefact shall have a defined content structure.
 
-to maximize AI production efficiency.
+### CA-002
 
----
+Content Architecture shall follow Content Strategy.
 
-# Strategic Objectives Mapping
+### CA-003
 
-Every content category shall map to one or more strategic objectives.
-
-| Strategic Objective | Supported Content |
-|---------------------|------------------|
-| Education | Educational Content |
-| Prevention | Prevention Campaign |
-| Community Engagement | Engagement Content |
-| Service Awareness | Service Information |
-| Advocacy | Advocacy Content |
-| Brand Trust | Storytelling & Community Content |
+Content Architecture shall remain independent of Editorial and Visual implementation.
 
 ---
 
-# Strategic Alignment
+## Checklist
 
-Each content asset shall maintain explicit alignment with:
+- [ ] Strategic objective identified.
+- [ ] Audience identified.
+- [ ] Content structure defined.
+- [ ] Editorial and visual implementation remain separate.
 
-- Brand Mission
-- Audience Needs
-- Strategic Objectives
-- Editorial Goals
+---
+
+# 5.2 Content Architecture Mission
+
+## Purpose
+
+Define the role of Content Architecture within the Production Bible.
+
+---
+
+## Canonical Decision
+
+Content Architecture exists to convert strategic content knowledge into an organized and navigable information structure.
+
+It ensures that content is logically organized before wording or visual design begins.
+
+---
+
+## Rules
+
+### CA-004
+
+Content structure shall support the communication objective.
+
+### CA-005
+
+Content organization shall follow audience comprehension needs.
+
+### CA-006
+
+Content architecture shall support modular reuse.
+
+---
+
+# 5.3 Content Model
+
+## Purpose
+
+Define the canonical content model used to represent structured production knowledge.
+
+---
+
+## Canonical Decision
+
+The content model consists of the following structural components:
+
+```text
+Communication Objective
+        ↓
+Content Theme
+        ↓
+Content Topic
+        ↓
+Core Message
+        ↓
+Supporting Information
+        ↓
+Call to Action
+```
+
+---
+
+## Rules
+
+### CA-007
+
+Every Communication Artefact shall have a defined core message.
+
+### CA-008
+
+Supporting information shall reinforce the core message.
+
+### CA-009
+
+Every applicable Communication Artefact shall have an appropriate Call to Action.
+
+---
+
+# 5.4 Information Hierarchy
+
+## Purpose
+
+Define how information is prioritized within Communication Artefacts.
+
+---
+
+## Canonical Decision
+
+Information shall be organized according to importance and comprehension sequence.
+
+The canonical hierarchy is:
+
+```text
+Primary Message
+      ↓
+Key Information
+      ↓
+Supporting Information
+      ↓
+Additional Context
+```
+
+---
+
+## Rules
+
+### CA-010
+
+Primary information shall be presented before secondary information.
+
+### CA-011
+
+Supporting information shall not obscure the primary message.
+
+### CA-012
+
+Information hierarchy shall support comprehension rather than maximize information density.
+
+---
+
+# 5.5 Modular Content Structure
+
+## Purpose
+
+Define modular principles for reusable content structures.
+
+---
+
+## Canonical Decision
+
+Content shall be structured into reusable modules where appropriate.
+
+Examples include:
+
+- Introduction
+- Explanation
+- Evidence
+- Example
+- Guidance
+- Call to Action
+
+---
+
+## Rules
+
+### CA-013
+
+Reusable content modules shall have one canonical purpose.
+
+### CA-014
+
+Modules may be reused across multiple Communication Artefacts.
+
+### CA-015
+
+Module reuse shall preserve canonical meaning.
+
+---
+
+# 5.6 Platform Content Structures
+
+## Purpose
+
+Define canonical structural patterns for common Communication Artefact formats.
+
+---
+
+## Canonical Decision
+
+Platform-specific structures may adapt content architecture while preserving the underlying knowledge model.
+
+---
+
+## Example Structures
+
+### Carousel
+
+```text
+Cover
+↓
+Context
+↓
+Core Message
+↓
+Explanation
+↓
+Evidence / Example
+↓
+Guidance
+↓
+CTA
+```
+
+### Static Graphic
+
+```text
+Hook
+↓
+Key Message
+↓
+Supporting Information
+↓
+CTA
+```
+
+### Short Video
+
+```text
+Hook
+↓
+Context
+↓
+Core Message
+↓
+Explanation
+↓
+CTA
+```
+
+---
+
+## Rules
+
+### CA-016
+
+Platform adaptation shall preserve the canonical content hierarchy.
+
+### CA-017
+
+Platform-specific structures shall not redefine canonical content knowledge.
+
+---
+
+# 5.7 Content Architecture Boundaries
+
+## Purpose
+
+Define the scope of the Content Architecture chapter.
+
+### Included
+
+- Content structure
+- Information hierarchy
+- Content modules
+- Content relationships
+- Platform content structures
+
+### Excluded
+
+- Strategic objectives
+- Editorial wording
+- Visual design
+- Production workflow
+- Publication procedures
+
+### Rules
+
+#### CA-018
+
+Only structural content knowledge belongs in this chapter.
+
+#### CA-019
+
+Strategic and editorial implementation shall remain outside Content Architecture.
+
+---
+
+# 5.8 Content Architecture Checklist
+
+### Structural Validation
+
+- [ ] Communication objective identified.
+- [ ] Core message defined.
+- [ ] Information hierarchy established.
+- [ ] Supporting information organized.
+- [ ] CTA defined.
+
+### Knowledge Validation
+
+- [ ] Structural source identified.
+- [ ] No strategic duplication.
+- [ ] No editorial duplication.
+
+---
+
+# Chapter 06 — Editorial System
+
+## 6.1 Purpose
+
+Define the canonical Editorial System governing language, writing, messaging, editorial reasoning, and linguistic consistency across every Communication Artefact produced under the Coz We Care Production Bible (CPB).
+
+The Editorial System translates structured content knowledge into clear, accurate, respectful, inclusive, and audience-appropriate communication language.
+
+---
+
+## Canonical Decision
+
+The Editorial System is the single canonical source governing editorial knowledge within the Production Bible.
+
+Editorial System defines **how content is written and communicated through language**.
+
+Content Strategy defines why the content exists.
+
+Content Architecture defines how the content is structured.
+
+Visual Design System defines how the content is visually represented.
+
+Production Workflow defines how the content is produced.
+
+---
+
+## Rules
+
+### ED-001
+
+Every Communication Artefact shall comply with the Editorial System.
+
+### ED-002
+
+Editorial decisions shall follow Content Architecture.
+
+### ED-003
+
+Editorial implementation shall preserve the intended strategic meaning.
+
+---
+
+## Checklist
+
+- [ ] Editorial objective identified.
+- [ ] Content structure reviewed.
+- [ ] Audience context understood.
+- [ ] Editorial standards selected.
+
+---
+
+# 6.2 Editorial Mission
+
+## Purpose
+
+Define the editorial mission of Coz We Care communication.
+
+---
+
+## Canonical Decision
+
+Editorial communication shall maximize clarity, accuracy, accessibility, empathy, and trust.
+
+Every communication should enable the audience to understand the intended message without unnecessary complexity, ambiguity, or stigma.
+
+---
+
+## Rules
+
+### ED-004
+
+Clarity shall take precedence over stylistic complexity.
+
+### ED-005
+
+Medical and factual accuracy shall take precedence over rhetorical impact.
+
+### ED-006
+
+Language shall remain respectful and non-stigmatizing.
+
+### ED-007
+
+Communication shall be appropriate to the intended audience.
+
+---
+
+# 6.3 Editorial Principles
+
+## Purpose
+
+Define the universal principles governing editorial decisions.
+
+---
+
+## Canonical Decision
+
+Every editorial decision shall comply with the following Editorial Principles.
+
+### EP-001 — Clarity
+
+Communication shall be immediately understandable to the intended audience.
+
+### EP-002 — Accuracy
+
+Editorial wording shall reflect verified information.
+
+### EP-003 — Simplicity
+
+Complex concepts shall be expressed in the simplest accurate form.
+
+### EP-004 — Respect
+
+Language shall respect the dignity of every audience member.
+
+### EP-005 — Non-Stigmatization
+
+Language shall not reinforce harmful stereotypes, stigma, or discrimination.
+
+### EP-006 — Inclusivity
+
+Editorial language shall recognize diverse experiences and identities without unnecessary labeling.
+
+### EP-007 — Consistency
+
+Terminology shall remain consistent across Communication Artefacts.
+
+### EP-008 — Accessibility
+
+Editorial language shall support accessibility and comprehension.
+
+### EP-009 — Empathy
+
+Communication shall demonstrate appropriate human sensitivity.
+
+### EP-010 — Evidence
+
+Claims shall be supported by reliable evidence where applicable.
+
+---
+
+# 6.4 Editorial Voice
+
+## Purpose
+
+Define the canonical editorial voice of Coz We Care.
+
+---
+
+## Canonical Decision
+
+The Coz We Care editorial voice shall be:
+
+- Friendly
+- Clear
+- Respectful
+- Non-judgmental
+- Inclusive
+- Educational
+- Evidence-based
+- Reassuring where appropriate
+
+---
+
+## Rules
+
+### ED-008
+
+Editorial voice shall remain consistent across platforms.
+
+### ED-009
+
+Platform adaptation may modify expression but shall not alter the core editorial voice.
+
+---
+
+# 6.5 Editorial Language Standards
+
+## Purpose
+
+Define universal language standards governing editorial communication.
+
+---
+
+## Canonical Decision
+
+Editorial language shall prioritize clarity, accuracy, accessibility, and consistency.
+
+### Language Rules
+
+- Use plain language where possible.
+- Avoid unnecessary technical jargon.
+- Define unavoidable technical terms.
+- Use inclusive terminology.
+- Avoid stigmatizing language.
+- Avoid ambiguous wording.
+- Maintain consistent terminology.
+- Use evidence-supported statements.
+
+---
+
+# 6.6 Terminology Governance
+
+## Purpose
+
+Define how terminology is controlled within the Production Bible.
+
+---
+
+## Canonical Decision
+
+Canonical terminology shall have one authoritative definition and one canonical usage standard.
+
+---
+
+## Rules
+
+### ED-010
+
+Canonical terms shall be defined explicitly.
+
+### ED-011
+
+Synonyms shall not introduce semantic ambiguity.
+
+### ED-012
+
+Deprecated terminology shall not be used in new Communication Artefacts.
+
+---
+
+# 6.7 Hook & Opening Principles
+
+## Purpose
+
+Define canonical principles for content hooks and openings.
+
+---
+
+## Canonical Decision
+
+Every Communication Artefact shall begin with a clear and relevant entry point appropriate to its communication objective and audience.
+
+---
+
+## Hook Types
+
+### Curiosity Hook
+
+Creates interest by introducing an unexpected or thought-provoking idea.
+
+### Question Hook
+
+Invites the audience to consider a relevant question.
+
+### Problem Hook
+
+Introduces a recognizable audience problem.
+
+### Benefit Hook
+
+Immediately communicates useful value.
+
+### Myth Hook
+
+Challenges a common misconception.
+
+---
+
+## Rules
+
+### ED-013
+
+Hooks shall remain truthful and evidence-compatible.
+
+### ED-014
+
+Hooks shall not use fear, shame, or stigma as engagement mechanisms.
+
+### ED-015
+
+Hooks shall support the communication objective.
+
+---
+
+# 6.8 Call to Action Language
+
+## Purpose
+
+Define editorial principles for Calls to Action (CTA).
+
+---
+
+## Canonical Decision
+
+Calls to Action shall clearly communicate the desired next step without manipulation, coercion, or ambiguity.
+
+---
+
+## Rules
+
+### ED-016
+
+CTA language shall be actionable.
+
+### ED-017
+
+CTA language shall remain respectful.
+
+### ED-018
+
+CTA language shall correspond to the communication objective.
+
+---
+
+# 6.9 Editorial Boundaries
+
+## Purpose
+
+Define the scope of the Editorial System.
+
+### Included
+
+- Writing principles
+- Editorial voice
+- Language standards
+- Terminology
+- Hooks
+- Calls to Action
+- Editorial consistency
+
+### Excluded
+
+- Content strategy
+- Content architecture
+- Visual design
+- Production workflow
+- Publication procedures
+
+### Rules
+
+#### ED-019
+
+Only editorial knowledge belongs in this chapter.
+
+#### ED-020
+
+Strategic and structural knowledge shall not be duplicated.
+
+---
+
+# 6.10 Editorial Checklist
+
+### Editorial Validation
+
+- [ ] Clear.
+- [ ] Accurate.
+- [ ] Accessible.
+- [ ] Respectful.
+- [ ] Non-stigmatizing.
+- [ ] Inclusive.
+- [ ] Consistent.
+
+### Knowledge Validation
+
+- [ ] Canonical terminology verified.
+- [ ] No strategic duplication.
+- [ ] No structural duplication.
+
+---
+
+# Chapter 07 — Visual Design System
+
+## 7.1 Purpose
+
+Define the canonical Visual Design System governing the visual representation, layout, typography, color, composition, and visual consistency of Communication Artefacts produced under the Coz We Care Production Bible (CPB).
+
+The Visual Design System translates structured content and editorial decisions into coherent visual communication.
+
+---
+
+## Canonical Decision
+
+The Visual Design System is the single canonical source governing visual design knowledge within the Production Bible.
+
+Visual Design System defines **how information is visually represented**.
+
+Content Strategy defines why communication exists.
+
+Content Architecture defines how information is structured.
+
+Editorial System defines how information is written.
+
+Production Workflow defines how information is produced.
+
+---
+
+## Rules
+
+### VD-001
+
+Every Communication Artefact shall comply with the Visual Design System.
+
+### VD-002
+
+Visual design shall follow Content Architecture and Editorial System requirements.
+
+### VD-003
+
+Visual design shall preserve canonical brand identity.
+
+---
+
+## Checklist
+
+- [ ] Content structure reviewed.
+- [ ] Editorial content finalized.
+- [ ] Brand identity applied.
+- [ ] Visual hierarchy defined.
+
+---
+
+# 7.2 Visual Mission
+
+## Purpose
+
+Define the production mission of the Visual Design System.
+
+---
+
+## Canonical Decision
+
+Visual design shall transform content knowledge into clear, coherent, accessible, and recognizable visual communication.
+
+---
+
+## Rules
+
+### VD-004
+
+Visual design shall improve comprehension.
+
+### VD-005
+
+Visual design shall support the communication objective.
+
+### VD-006
+
+Visual complexity shall not compromise clarity.
+
+---
+
+# 7.3 Visual Design Principles
+
+## Purpose
+
+Define universal principles governing visual decisions.
+
+---
+
+## Canonical Decision
+
+Every visual decision shall comply with the following Visual Design Principles.
+
+### VP-001 — Hierarchy
+
+Important information shall receive greater visual prominence.
+
+### VP-002 — Clarity
+
+Visual composition shall support rapid comprehension.
+
+### VP-003 — Consistency
+
+Visual elements shall follow canonical brand and design standards.
+
+### VP-004 — Accessibility
+
+Visual design shall support readability and inclusive access.
+
+### VP-005 — Balance
+
+Visual elements shall be distributed intentionally.
+
+### VP-006 — Simplicity
+
+Unnecessary visual complexity shall be avoided.
+
+### VP-007 — Recognition
+
+Visual identity shall remain recognizable across outputs.
+
+### VP-008 — Purpose
+
+Every visual element shall serve a communication purpose.
+
+---
+
+# 7.4 Layout Principles
+
+## Purpose
+
+Define universal layout principles governing Communication Artefacts.
+
+---
+
+## Canonical Decision
+
+Layout shall organize visual elements according to information hierarchy and communication objectives.
+
+### Layout Principles
+
+- Hierarchy before decoration.
+- Alignment before variation.
+- Consistency before novelty.
+- Whitespace supports comprehension.
+- Visual balance supports attention.
+
+---
+
+# 7.5 Typography Principles
+
+## Purpose
+
+Define universal typography principles governing Communication Artefacts.
+
+---
+
+## Canonical Decision
+
+Typography shall support hierarchy, readability, brand consistency, and accessibility.
+
+### Typography Principles
+
+- Use canonical brand typography.
+- Maintain clear hierarchy.
+- Avoid unnecessary font variation.
+- Prioritize readability.
+- Maintain adequate text contrast.
+
+---
+
+# 7.6 Colour Principles
+
+## Purpose
+
+Define universal color principles governing Communication Artefacts.
+
+---
+
+## Canonical Decision
+
+Color shall support brand recognition, information hierarchy, emotional tone, and accessibility.
+
+### Colour Principles
+
+- Use canonical brand colors.
+- Maintain sufficient contrast.
+- Use color intentionally.
+- Avoid decorative color overload.
+- Preserve semantic color meaning.
+
+---
+
+# 7.7 Imagery Principles
+
+## Purpose
+
+Define universal imagery principles.
+
+---
+
+## Canonical Decision
+
+Imagery shall support communication objectives, audience relevance, and brand consistency.
+
+### Imagery Principles
+
+- Relevant to communication purpose.
+- Appropriate for intended audience.
+- Inclusive and non-stigmatizing.
+- Consistent with brand identity.
+- Evidence-compatible where applicable.
+
+---
+
+# 7.8 Illustration Principles
+
+## Purpose
+
+Define universal illustration principles.
+
+---
+
+## Canonical Decision
+
+Illustration shall simplify complex information while maintaining clarity, consistency, and brand recognition.
+
+### Illustration Principles
+
+- Simplify complex concepts.
+- Maintain visual consistency.
+- Support content hierarchy.
+- Avoid misleading representations.
+
+---
+
+# 7.9 Iconography Principles
+
+## Purpose
+
+Define universal iconography principles.
+
+---
+
+## Canonical Decision
+
+Icons shall communicate meaning clearly and consistently.
+
+### Iconography Principles
+
+- Use recognizable symbols.
+- Maintain consistent style.
+- Avoid ambiguous icons.
+- Support accessibility.
+
+---
+
+# 7.10 Visual Accessibility
+
+## Purpose
+
+Define universal visual accessibility requirements.
+
+---
+
+## Canonical Decision
+
+Every Communication Artefact shall consider accessibility during visual production.
+
+### Accessibility Requirements
+
+- Adequate text contrast.
+- Sufficient font size.
+- Clear visual hierarchy.
+- Avoid color-only meaning.
+- Legible typography.
+- Adequate whitespace.
+
+---
+
+# 7.11 Visual Consistency
+
+## Purpose
+
+Define how visual consistency is maintained across outputs.
+
+---
+
+## Canonical Decision
+
+Visual consistency shall be maintained across all Communication Artefacts regardless of format or platform.
+
+---
+
+## Consistency Domains
+
+- Brand identity
+- Typography
+- Color
+- Layout
+- Imagery
+- Illustration
+- Iconography
+
+---
+
+# 7.12 Visual Quality Gate
+
+## Purpose
+
+Define the universal visual quality review requirements.
+
+---
+
+## Visual Validation
+
+- Brand identity correct.
+- Visual hierarchy clear.
+- Typography readable.
+- Color contrast sufficient.
+- Composition balanced.
+- Imagery appropriate.
+- Accessibility considered.
+
+---
+
+# 7.13 Visual Design Boundaries
+
+## Purpose
+
+Define the scope of the Visual Design System.
+
+### Included
+
+- Layout
+- Typography
+- Color
+- Imagery
+- Illustration
+- Iconography
+- Visual hierarchy
+- Accessibility
+
+### Excluded
+
+- Content strategy
+- Content architecture
+- Editorial writing
+- Production workflow
+- Publication procedures
+
+### Rules
+
+#### VD-007
+
+Only visual design knowledge belongs in this chapter.
+
+#### VD-008
+
+Strategic, structural, and editorial knowledge shall not be duplicated.
+
+---
+
+# 7.14 Visual Design Checklist
+
+### Visual Validation
+
+- [ ] Brand identity applied.
+- [ ] Layout hierarchy clear.
+- [ ] Typography readable.
+- [ ] Colour usage correct.
+- [ ] Imagery relevant.
+- [ ] Accessibility considered.
+
+### Knowledge Validation
+
+- [ ] Canonical visual source identified.
+- [ ] No content duplication.
+- [ ] No editorial duplication.
+
+---
+
+# Chapter 08 — Production Workflow
+
+## 8.1 Purpose
+
+Define the canonical Production Workflow governing how Communication Artefacts move from production intent to final publication under the Coz We Care Production Bible (CPB).
+
+The Production Workflow defines the operational sequence through which production knowledge is applied in practice.
+
+---
+
+## Canonical Decision
+
+The Production Workflow is the canonical production execution model for Coz We Care Communication Artefacts.
+
+The workflow integrates:
+
+- Production Intent
+- Content Strategy
+- Content Architecture
+- Editorial System
+- Visual Design System
+- Production
+- Quality Review
+- Publication
+
+---
+
+## 8.2 Workflow Sequence
+
+### Canonical Workflow
+
+```text
+Production Intent
+      ↓
+Foundation
+      ↓
+Brand System
+      ↓
+Audience System
+      ↓
+Content Strategy
+      ↓
+Content Architecture
+      ↓
+Editorial System
+      ↓
+Visual Design System
+      ↓
+Production
+      ↓
+Quality Review
+      ↓
+Publication
+```
+
+---
+
+## Rules
+
+### PW-001
+
+Every Communication Artefact shall follow the Production Workflow.
+
+### PW-002
+
+Each production stage shall complete its applicable requirements before proceeding to the next stage.
+
+### PW-003
+
+Production decisions shall remain traceable throughout the workflow.
+
+---
+
+# 8.3 Production Stage
+
+## Purpose
+
+Define how production decisions are converted into Communication Artefacts.
+
+---
+
+## Canonical Decision
+
+Production shall implement the approved content, editorial, and visual requirements without redefining canonical knowledge.
+
+---
+
+## Rules
+
+### PW-004
+
+Production shall use approved production knowledge.
+
+### PW-005
+
+Production shall preserve canonical specifications.
+
+### PW-006
+
+Production shall not introduce undocumented canonical changes.
+
+---
+
+# 8.4 Quality Review
+
+## Purpose
+
+Define the universal quality review stage within the Production Workflow.
+
+---
+
+## Canonical Decision
+
+Every Communication Artefact shall undergo quality review before publication.
+
+---
+
+## Quality Domains
+
+- Medical accuracy
+- Educational integrity
+- Editorial quality
+- Visual quality
+- Brand consistency
+- Accessibility
+- Production compliance
+
+---
+
+## Rules
+
+### PW-007
+
+Quality review shall be independent of production execution where practical.
+
+### PW-008
+
+All applicable quality domains shall be reviewed.
+
+### PW-009
+
+Unresolved quality failures shall block publication.
+
+---
+
+# 8.5 Publication
+
+## Purpose
+
+Define the final stage of the Production Workflow.
+
+---
+
+## Canonical Decision
+
+Publication shall occur only after applicable quality requirements have been satisfied.
+
+---
+
+## Rules
+
+### PW-010
+
+Every published Communication Artefact shall have passed the applicable Quality Review.
+
+### PW-011
+
+Publication shall preserve the canonical integrity of the Communication Artefact.
+
+### PW-012
+
+Publication records shall remain traceable.
+
+---
+
+# 8.6 Production Workflow Boundaries
+
+## Purpose
+
+Define the scope of the Production Workflow chapter.
+
+### Included
+
+- Production sequence
+- Production stage integration
+- Quality review
+- Publication readiness
+- Traceability
+
+### Excluded
+
+- Strategic content decisions
+- Editorial rules
+- Visual design standards
+- Governance policy
+- Administrative management
+
+### Rules
+
+#### PW-013
+
+Only production workflow knowledge belongs in this chapter.
+
+#### PW-014
+
+Governance and administrative management shall remain outside Production Workflow.
+
+---
+
+# 8.7 Production Workflow Checklist
+
+### Workflow Validation
+
+- [ ] Production Intent defined.
+- [ ] Foundation applied.
+- [ ] Brand System reviewed.
+- [ ] Audience identified.
+- [ ] Content Strategy defined.
+- [ ] Content Architecture established.
+- [ ] Editorial requirements complete.
+- [ ] Visual requirements complete.
+- [ ] Production completed.
+- [ ] Quality Review passed.
+- [ ] Publication approved.
+
+---
+
+# Chapter 09 — Production Quality
+
+## 9.1 Purpose
+
+Define the canonical Production Quality System governing validation, quality assurance, and continuous improvement of Communication Artefacts produced under the Coz We Care Production Bible (CPB).
+
+---
+
+## Canonical Decision
+
+Production Quality establishes the universal quality requirements applied to Communication Artefacts before publication and throughout continuous improvement cycles.
+
+---
+
+## Quality Model
+
+```text
+Medical Accuracy
+        ↓
+Educational Integrity
+        ↓
+Editorial Quality
+        ↓
+Visual Quality
+        ↓
+Brand Consistency
+        ↓
+Accessibility
+        ↓
+Production Compliance
+```
+
+---
+
+## Rules
+
+### PQ-001
+
+Every Communication Artefact shall pass the applicable Production Quality requirements.
+
+### PQ-002
+
+Quality failures shall be resolved before publication.
+
+### PQ-003
+
+Quality decisions shall be traceable.
+
+---
+
+# 9.2 Medical Accuracy
+
+### Purpose
+
+Ensure all health and medical information is accurate and evidence-based.
+
+### Requirements
+
+- Claims verified against reliable sources.
+- Medical terminology accurate.
+- No unsupported medical claims.
+- Uncertainty represented appropriately.
+
+---
+
+# 9.3 Educational Integrity
+
+### Purpose
+
+Ensure communication produces accurate and meaningful educational value.
+
+### Requirements
+
+- Knowledge correct.
+- Misconceptions identified where relevant.
+- Key learning preserved.
+- Educational objective achieved.
+
+---
+
+# 9.4 Editorial Quality
+
+### Requirements
+
+- Clear.
+- Accurate.
+- Respectful.
+- Inclusive.
+- Accessible.
+- Consistent.
+
+---
+
+# 9.5 Visual Quality
+
+### Requirements
+
+- Brand identity correct.
+- Visual hierarchy clear.
+- Typography readable.
+- Color accessible.
+- Imagery appropriate.
+- Layout balanced.
+
+---
+
+# 9.6 Brand Consistency
+
+### Requirements
+
+- Brand identity preserved.
+- Identity elements consistent.
+- Platform adaptation does not alter core identity.
+
+---
+
+# 9.7 Accessibility
+
+### Requirements
+
+- Text readable.
+- Contrast sufficient.
+- Color not sole carrier of meaning.
+- Visual hierarchy accessible.
+
+---
+
+# 9.8 Production Compliance
+
+### Requirements
+
+- Correct workflow followed.
+- Approved knowledge used.
+- Canonical standards preserved.
+- Production traceability maintained.
+
+---
+
+# 9.9 Quality Gate
+
+Publication shall be blocked when any critical quality requirement remains unresolved.
+
+---
+
+# 9.10 Continuous Improvement
+
+Quality findings shall be used to improve future production knowledge and workflows where appropriate.
+
+---
+
+# Chapter 10 — Publication
+
+## 10.1 Purpose
+
+Define the canonical Publication System governing final release and publication of Communication Artefacts produced under the Coz We Care Production Bible (CPB).
+
+---
+
+## Canonical Decision
+
+Publication is the final controlled stage of the production lifecycle.
+
+An artefact may be published only after completion of applicable production, quality, and compliance requirements.
+
+---
+
+## Publication Requirements
+
+- Production completed.
+- Quality Review passed.
+- Canonical requirements satisfied.
+- Publication metadata prepared.
+- Publication destination confirmed.
+- Traceability recorded.
+
+---
+
+## 10.2 Publication Checklist
+
+- [ ] Content approved.
+- [ ] Editorial quality passed.
+- [ ] Visual quality passed.
+- [ ] Accessibility reviewed.
+- [ ] Brand consistency confirmed.
+- [ ] Publication destination confirmed.
+- [ ] Publication record stored.
+
+---
+
+# Chapter 11 — Governance Boundaries
+
+## 11.1 Purpose
+
+Define the boundary between production knowledge and governance.
+
+---
+
+## Canonical Decision
+
+The Production Bible defines production knowledge only.
+
+Governance policies, organizational authority, approvals, and administrative controls belong to the Universal Governance system and shall not be duplicated within the Production Bible.
+
+---
+
+## Governance Boundaries
+
+The Production Bible may reference governance requirements when necessary for production compliance but shall not redefine them.
+
+---
+
+# Chapter 12 — Documentation Standards
+
+## 12.1 Purpose
+
+Define the documentation standards governing the structure and maintenance of the Production Bible.
+
+---
+
+## Canonical Decision
+
+Production Bible documentation shall be structured for clarity, consistency, traceability, and AI-first interpretation.
+
+---
+
+## Documentation Principles
+
+- Canonical decisions clearly identified.
+- Rules explicitly stated.
+- Examples provided where useful.
+- Checklists support validation.
+- Duplicate knowledge avoided.
+- Terminology consistent.
+
+---
+
+# Chapter 13 — Production Knowledge Objects
+
+## 13.1 Purpose
+
+Define the Production Knowledge Object (PKO) model within the Production Bible.
+
+---
+
+## Canonical Decision
+
+Every reusable production knowledge concept shall be represented as a Production Knowledge Object (PKO) where appropriate.
+
+---
+
+## PKO Requirements
+
+A PKO shall:
+
+- have one canonical purpose;
+- have one canonical owner;
+- have one canonical location;
+- be reusable;
+- be traceable;
+- be independently maintainable.
+
+---
+
+# Chapter 14 — Production Decision Model
+
+## 14.1 Purpose
+
+Define the canonical model for production decisions.
+
+---
+
+## Canonical Decision
+
+Every production decision shall be grounded in applicable canonical production knowledge and remain traceable to its source.
+
+---
+
+## Decision Model
+
+```text
+Production Objective
+        ↓
+Applicable Knowledge
+        ↓
+Production Decision
+        ↓
+Implementation
+        ↓
+Quality Review
+        ↓
+Publication
+```
+
+---
+
+# Chapter 15 — Production Governance Interface
+
+## 15.1 Purpose
+
+Define how production knowledge interfaces with external governance systems.
+
+---
+
+## Canonical Decision
+
+Production knowledge may reference governance decisions but shall not become the authoritative owner of governance policy.
+
+---
+
+# Chapter 16 — Production Knowledge Lifecycle
+
+## 16.1 Purpose
+
+Define the lifecycle of production knowledge within the Production Bible.
+
+---
+
+## Lifecycle
+
+```text
+Draft
+↓
+Review
+↓
+Approved
+↓
+Canonical
+↓
+Published
+↓
+Revised
+↓
+Retired
+```
+
+---
+
+# Chapter 17 — Production Knowledge Quality
+
+## 17.1 Purpose
+
+Define quality requirements for production knowledge itself.
+
+---
+
+## Quality Requirements
+
+- Accurate.
+- Consistent.
+- Reusable.
+- Traceable.
+- Deterministic.
+- AI-readable.
+- Production-relevant.
+
+---
+
+# Chapter 18 — Production Knowledge Traceability
+
+## 18.1 Purpose
+
+Ensure every production knowledge object can be traced to its canonical source, owner, version, and applicable production usage.
+
+---
+
+## Traceability Model
+
+```text
+Source
+↓
+Knowledge Object
+↓
+Production Decision
+↓
+Communication Artefact
+↓
+Publication
+```
+
+---
+
+# Chapter 19 — Production Knowledge Maintenance
+
+## 19.1 Purpose
+
+Define how production knowledge is maintained while preserving canonical integrity.
+
+---
+
+## Maintenance Principles
+
+- Controlled change.
+- Traceable revisions.
+- Canonical ownership.
+- No uncontrolled duplication.
+- Backward traceability.
+
+---
+
+# Chapter 20 — Production Knowledge Expansion
+
+## 20.1 Purpose
+
+Define how the Production Bible may be extended with new production knowledge domains.
+
+---
+
+## Canonical Decision
+
+New production knowledge domains may be added when justified by production need and approved through the applicable governance process.
+
+---
+
+## Expansion Rules
+
+- New knowledge shall have a defined owner.
+- New knowledge shall not duplicate existing canonical knowledge.
+- New chapters shall define clear boundaries.
+- New content shall support production capability.
+- Expansion shall preserve architectural integrity.
+
+---
+
+# Chapter 21 — Production Capability Model
+
+## 21.1 Purpose
+
+Define the canonical production capability model that underpins the Production Bible.
+
+---
+
+## Capability Areas
+
+- Content Strategy
+- Content Architecture
+- Editorial
+- Visual Design
 - Production Workflow
-
-Strategic alignment is mandatory for every production asset.
-
----
-
-# Strategic Content Types
-
-## Educational Content
-
-**Purpose**
-
-Increase public understanding through evidence-based educational materials.
+- Quality Assurance
+- Publication
 
 ---
 
-## Prevention Content
+# Chapter 22 — Production Artifact Model
 
-**Purpose**
+## 22.1 Purpose
 
-Promote healthy behavior and prevention practices.
-
----
-
-## Service Content
-
-**Purpose**
-
-Increase awareness and utilization of Coz We Care services.
+Define the canonical model of Communication Artefacts produced under the Production Bible.
 
 ---
 
-## Community Content
+## Communication Artefact
 
-**Purpose**
-
-Strengthen community participation and belonging.
+A Communication Artefact is the final or intermediate production output generated through the application of canonical production knowledge.
 
 ---
 
-## Storytelling Content
+# Chapter 23 — Production Workflow Integration
 
-**Purpose**
+## 23.1 Purpose
 
-Humanize the brand through authentic narratives.
-
----
-
-## Advocacy Content
-
-**Purpose**
-
-Support stigma reduction, inclusion, and public awareness.
+Define integration between Production Workflow and production knowledge domains.
 
 ---
 
-# Content Object Structure
+## Integration Model
 
-Every content asset shall minimally contain:
-
-- Content ID
-- Content Type
-- Strategic Objective
-- Primary Audience
-- Editorial Goal
-- Core Message
-- Call-to-Action
-- Distribution Channel
-- Production Status
-
----
-
-# Architecture Rules
-
-## AR-001 — One Content Type, One Definition
-
-Each content type shall have exactly one canonical definition.
+```text
+Production Intent
+↓
+Production Knowledge
+↓
+Production Decision
+↓
+Production Activity
+↓
+Communication Artefact
+↓
+Quality Review
+↓
+Publication
+```
 
 ---
 
-## AR-002 — Non-overlapping Purpose
+# Chapter 24 — Production Documentation Architecture
 
-Content types shall never overlap in purpose.
+## 24.1 Purpose
 
----
-
-## AR-003 — Editorial Inheritance
-
-Editorial execution shall inherit from the Content Architecture.
+Define the documentation architecture supporting production knowledge.
 
 ---
 
-## AR-004 — Workflow Consumption
+## Documentation Layers
 
-Production workflows shall consume the Content Architecture without modification.
-
----
-
-# AI Consumption Rules
-
-AI systems shall use this chapter as the canonical reference for:
-
-- Content categorization
-- Content planning
-- Editorial generation
-- Campaign composition
-- Production automation
-
-No AI workflow may redefine content structures outside this chapter.
+- Foundation
+- Domain Knowledge
+- Implementation Knowledge
+- Quality Knowledge
+- Traceability Knowledge
 
 ---
 
-# Canonical Dependencies
+# Chapter 25 — Production Knowledge Reuse
 
-## Depends On
+## 25.1 Purpose
 
-- Chapter 02 — Brand System
-- Chapter 03 — Audience System
-- Chapter 04 — Content Strategy
+Define canonical rules for reusing production knowledge.
 
-## Consumed By
+---
 
-- Chapter 06 — Editorial System
-- Production Workflow
-- AI Production Agents
-- Content Registry
+## Reuse Principles
 
-——-
+- Reuse canonical knowledge before creating new knowledge.
+- Reuse shall preserve canonical meaning.
+- Reused knowledge shall remain traceable to its canonical source.
+- Duplicated copies shall not become independent authorities.
 
+---
+
+# Chapter 26 — Production Consistency
+
+## 26.1 Purpose
+
+Define the universal principle of production consistency.
+
+---
+
+## Canonical Decision
+
+All Communication Artefacts shall maintain consistency with applicable canonical production knowledge.
+
+---
+
+# Chapter 27 — Production Evidence
+
+## 27.1 Purpose
+
+Define how evidence supports production knowledge and production decisions.
+
+---
+
+## Canonical Decision
+
+Evidence shall support factual accuracy, production decisions, and continuous improvement where applicable.
+
+---
+
+# Chapter 28 — Production Knowledge References
+
+## 28.1 Purpose
+
+Define how internal and external references support production knowledge.
+
+---
+
+## Reference Principles
+
+- References shall be traceable.
+- External standards shall be cited rather than duplicated.
+- Canonical sources shall be identifiable.
+- Reference relationships shall remain current where applicable.
+
+---
+
+# Chapter 29 — Production Quality Assurance Interface
+
+## 29.1 Purpose
+
+Define how quality assurance interacts with production knowledge.
+
+---
+
+## Canonical Decision
+
+Quality assurance shall validate production outputs against applicable canonical production knowledge.
+
+---
+
+# Chapter 30 — Production Knowledge Change Management
+
+## 30.1 Purpose
+
+Define how changes to production knowledge are managed.
+
+---
+
+## Change Principles
+
+- Changes require traceable justification.
+- Canonical ownership shall be preserved.
+- Impact shall be assessed where applicable.
+- Historical versions shall remain traceable.
+
+---
+
+# Chapter 31 — Production Knowledge Auditability
+
+## 31.1 Purpose
+
+Ensure production knowledge remains auditable throughout its lifecycle.
+
+---
+
+## Auditability Requirements
+
+- Version traceability.
+- Ownership traceability.
+- Decision traceability.
+- Production usage traceability.
+- Historical traceability.
+
+---
+
+# Chapter 32 — Production Knowledge Interoperability
+
+## 32.1 Purpose
+
+Ensure production knowledge can interoperate with related canonical systems.
+
+---
+
+## Interoperability Principles
+
+- Stable identifiers.
+- Explicit relationships.
+- Clear boundaries.
+- Machine-readable structure.
+- Traceable references.
+
+---
+
+# Chapter 33 — Production Knowledge Scalability
+
+## 33.1 Purpose
+
+Define how the Production Bible scales as production knowledge expands.
+
+---
+
+## Scalability Principles
+
+- Modular architecture.
+- Reusable knowledge.
+- Clear domain boundaries.
+- One Concept, One Home.
+- Controlled expansion.
+
+---
+
+# Chapter 34 — Production Knowledge Evolution
+
+## 34.1 Purpose
+
+Define how production knowledge evolves while preserving canonical integrity.
+
+---
+
+## Evolution Principles
+
+- Controlled evolution.
+- Backward traceability.
+- Canonical ownership.
+- Historical preservation.
+- No uncontrolled semantic drift.
+
+---
+
+# Chapter 35 — Production Knowledge Conformance
+
+## 35.1 Purpose
+
+Define how conformance to the Production Bible is evaluated.
+
+---
+
+## Conformance Model
+
+```text
+Production Knowledge
+        ↓
+Production Decision
+        ↓
+Production Implementation
+        ↓
+Quality Review
+        ↓
+Conformance
+```
+
+---
+
+# Chapter 36 — Production Knowledge Governance Alignment
+
+## 36.1 Purpose
+
+Define alignment between production knowledge and governance requirements.
+
+---
+
+## Canonical Decision
+
+Production knowledge shall remain aligned with applicable governance requirements while preserving governance ownership outside the Production Bible.
+
+---
+
+# Chapter 37 — Production Knowledge Publication Interface
+
+## 37.1 Purpose
+
+Define how production knowledge reaches publication.
+
+---
+
+## Publication Flow
+
+```text
+Draft
+↓
+Review
+↓
+Approved
+↓
+Canonical
+↓
+Published
+```
+
+---
+
+# Chapter 38 — Production Knowledge Repository Interface
+
+## 38.1 Purpose
+
+Define how production knowledge is stored and accessed within the repository.
+
+---
+
+## Repository Principles
+
+- Canonical source clearly identifiable.
+- Historical versions traceable.
+- Archive boundaries respected.
+- Machine-readable structure preserved.
+
+---
+
+# Chapter 39 — Production Knowledge Navigation
+
+## 39.1 Purpose
+
+Define how production knowledge can be navigated efficiently.
+
+---
+
+## Navigation Principles
+
+- Clear hierarchy.
+- Explicit references.
+- Stable identifiers.
+- Minimal ambiguity.
+
+---
+
+# Chapter 40 — Production Knowledge Continuity
+
+## 40.1 Purpose
+
+Ensure continuity of production knowledge across revisions, releases, and archival transitions.
+
+---
+
+## Continuity Principles
+
+- Historical versions preserved.
+- Canonical lineage traceable.
+- Successor relationships documented.
+- No loss of production context.
+
+---
+
+# End of Production Bible v2.0
