@@ -12,11 +12,11 @@
 **Semantic Authority:** UNIS for Universal Naming & Identification semantics  
 **Registry Authority:** UNIR Registry Authority for registry-record representation  
 **Parent Document:** `UNIR-REGISTRY-001 v1.5`  
-**Supersedes:** `UNIR-REGISTRATION-RECORD-001 v1.3`  
+**Supersedes:** `UNIR-REGISTRATION-RECORD-001 v1.4`  
 **Publication Status:** PUBLISHED  
 **Publication Event:** Canonical repository publication of successor revision  
-**Publication Commit:** `PENDING — v1.5 publication evidence`  
-**Publication Timestamp:** `PENDING — v1.5 publication evidence`
+**Publication Commit:** `a5abe668e5aebc94a7d2aee77be2ced476e264ce`  
+**Publication Timestamp:** `2026-08-16T06:38:28Z`
 
 ### Published v1.4 Provenance
 
@@ -71,7 +71,6 @@ Current Registry State
 
 The allocation does not create a new UNIR Registry Object. It represents a concrete document identity within the applicable DIUA/DIC identification architecture.
 
-
 ### DIUA-DIC-000006 — UPKR Registration Record
 
 **Record Type:** Document Identifier Allocation Record  
@@ -83,7 +82,6 @@ The allocation does not create a new UNIR Registry Object. It represents a concr
 **Allocation Act:** `UNIR-ALLOCATION-ACT-006` — VERIFIED — ACTIVE EVIDENCE
 
 This revision materializes the sixth concrete Document Identifier allocation for `UPKR-REGISTRATION-RECORD-001` based on the verified ACT-006 evidence. It does not create a UNIR Registry Object.
-
 
 ### DIUA-DIC-000007 — UPKR Registry
 
@@ -418,7 +416,7 @@ UPKR-REGISTRY-001
         ↓
 Universal Production Knowledge Registry Current Registry State
         ↓
-UNIR-REGISTRATION-RECORD-001 v1.4
+UNIR-REGISTRATION-RECORD-001 v1.5
 ```
 
 The incorporated act remains a distinct evidence artifact and does not collapse the Allocation Act into the Registration Record, Registry Object, or Current Registry State.
