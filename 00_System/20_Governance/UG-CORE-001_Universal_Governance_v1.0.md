@@ -11,9 +11,9 @@ lock_date: 2026-08-15
 document_type: Universal Governance
 title: Universal Governance
 short_name: UG
-version: "1.0"
-status: CANONICALLY_LOCKED
-canonicality: CANONICAL
+version: "1.1"
+status: CONTROLLED REVISION — NOT CANONICAL
+canonicality: NON-CANONICAL
 scope: Universal-level governance authority, decision, control, lifecycle, conformance, change, information, risk, operating model, capability, intelligence, performance, and continuous improvement
 purpose: Establish the Universal Governance framework that directs, controls, maintains, evolves, and assures the Universal system without redefining Universal Architecture or other reserved Universal authority
 parent_document: Universal Architecture
@@ -33,9 +33,9 @@ governance_authority: Universal Governance
 **Document Type:** Universal Governance  
 **Title:** Universal Governance  
 **Short Name:** UG  
-**Version:** `1.0`  
-**Status:** `CANONICALLY_LOCKED`  
-**Canonicality:** `CANONICAL`  
+**Version:** `1.1`  
+**Status:** `CONTROLLED REVISION — NOT CANONICAL`  
+**Canonicality:** `NON-CANONICAL`  
 **Document Role:** Universal Governance Authority  
 **Document Responsibility:** Universal Governance Authority  
 **Semantic Authority:** Universal Governance  
@@ -201,6 +201,17 @@ Any governance decision that requires an architectural change shall identify tha
 
 ### 1.2 Separation of Architecture and Governance
 
+Universal authority is hierarchical, not merely local.
+Any document, framework, standard, architecture, governance instrument, or other authoritative structure designated “Universal” shall, within its defined scope, constitute foundational authority applicable across the Universal system hierarchy and shall provide the governing framework for subordinate structures, including projects, domains, subsystems, and other lower-level structures.
+Subordinate structures shall inherit and conform to applicable Universal authority. They may specialize, implement, localize, or extend Universal rules within delegated or otherwise authorized scope, provided that such specialization, implementation, localization, or extension does not contradict, bypass, or silently override applicable Universal authority.
+Universal authority shall not absorb or replace substantive internal semantics that are properly owned by a lower-level structure. Lower-level authority remains valid where it is derived from, delegated by, or conformant with applicable Universal authority.
+Accordingly:
+Universal Authority ≠ Universal-only Scope.
+Universal Authority → hierarchical application → Project / Domain / Subsystem / Artifact.
+Universal Framework → Lower-level specialization.
+Universal Framework shall not be interpreted as absorption of lower-level semantics.
+This principle shall serve as an interpretive rule for the reading and application of Universal-designated documents and frameworks, including Universal Architecture, Universal Governance, UNIS, UDS, UPB, and other applicable Universal frameworks, without independently altering the substantive scope owned by any such document.
+
 Architecture and governance are distinct normative concerns.
 
 Architecture answers:
@@ -213,7 +224,29 @@ Governance answers:
 
 Neither layer shall be used as an implicit substitute for the other.
 
-### 1.3 Explicit Authority
+### 1.3 Universal Hierarchical Authority
+
+> **Universal authority is hierarchical, not merely local.**
+>
+> Any document, framework, standard, architecture, governance instrument, or other authoritative structure designated **“Universal”** shall, within its defined scope, constitute foundational authority applicable across the Universal system hierarchy and shall provide the governing framework for subordinate structures, including projects, domains, subsystems, and other lower-level structures.
+>
+> Subordinate structures shall inherit and conform to applicable Universal authority. They may specialize, implement, localize, or extend Universal rules within delegated or otherwise authorized scope, provided that such specialization, implementation, localization, or extension does not contradict, bypass, or silently override applicable Universal authority.
+>
+> Universal authority shall not absorb or replace substantive internal semantics that are properly owned by a lower-level structure. Lower-level authority remains valid where it is **derived from, delegated by, or conformant with** applicable Universal authority.
+>
+> Accordingly:
+>
+> **Universal Authority ≠ Universal-only Scope.**
+>
+> **Universal Authority → hierarchical application → Project / Domain / Subsystem / Artifact.**
+>
+> **Universal Framework → Lower-level specialization.**
+>
+> **Universal Framework shall not be interpreted as absorption of lower-level semantics.**
+>
+> This principle shall serve as an interpretive rule for the reading and application of Universal-designated documents and frameworks, including Universal Architecture, Universal Governance, UNIS, UDS, UPB, and other applicable Universal frameworks, without independently altering the substantive scope owned by any such document.
+
+### 1.4 Explicit Authority
 
 Every normative Universal decision shall have an identifiable source of authority.
 
@@ -221,13 +254,13 @@ No document, registry, standard, process, or operational practice shall become U
 
 Authority shall be established through an explicit governance mechanism.
 
-### 1.4 Canonicality by Authorization
+### 1.5 Canonicality by Authorization
 
 A document or artifact becomes canonical through an explicit authorization process.
 
 Existence, publication, repository presence, implementation, or historical usage alone does not establish canonical authority.
 
-### 1.5 Controlled Evolution
+### 1.6 Controlled Evolution
 
 The Universal system shall be capable of evolving without losing structural continuity.
 
@@ -243,13 +276,13 @@ Changes shall therefore be evaluated for:
 - supersession implications; and
 - historical traceability.
 
-### 1.6 No Silent Semantic Drift
+### 1.7 No Silent Semantic Drift
 
 A change that materially alters the meaning, authority, boundary, relationship, lifecycle, or interpretation of an existing canonical object shall not be treated as a merely editorial change.
 
 Material semantic change shall require the appropriate governance treatment.
 
-### 1.7 Traceable Decisions
+### 1.8 Traceable Decisions
 
 Material governance decisions shall remain traceable to:
 
@@ -261,7 +294,7 @@ Material governance decisions shall remain traceable to:
 - applicable dependencies; and
 - resulting artifacts or changes.
 
-### 1.8 Boundary Preservation
+### 1.9 Boundary Preservation
 
 Universal Governance shall preserve explicit boundaries between:
 
@@ -277,19 +310,19 @@ Universal Governance shall preserve explicit boundaries between:
 
 A lower-level artifact shall not acquire higher-level authority merely by reference.
 
-### 1.9 Temporal Integrity
+### 1.10 Governance Before Materialization
+
+Where a materialization, migration, transfer, retirement, supersession, or structural change would alter Universal-level authority, the governing decision shall precede the assumption that such change has occurred.
+
+Implementation shall not be treated as authorization.
+
+### 2.0 Temporal Integrity
 
 Universal authority shall be interpreted according to its applicable temporal state.
 
 Current authority, historical authority, superseded authority, withdrawn authority, and deprecated material shall be distinguishable.
 
 Historical artifacts may remain valuable as evidence or historical reference without remaining normative authority.
-
-### 1.10 Governance Before Materialization
-
-Where a materialization, migration, transfer, retirement, supersession, or structural change would alter Universal-level authority, the governing decision shall precede the assumption that such change has occurred.
-
-Implementation shall not be treated as authorization.
 
 ---
 
@@ -20238,8 +20271,8 @@ Governance shall guard against:
 ### 38.97 Performance, Effectiveness, and Continuous Improvement Status
 
 This section establishes the initial Universal Governance Performance, Effectiveness, and Continuous Improvement Framework.
-
 It remains subject to validation against the Governance Operating Model, Capability and Maturity Framework, Monitoring and Intelligence Framework, strategic governance, risk and resilience framework, assurance framework, and final Universal performance model.
+
 
 It is **canonically locked as part of Universal Governance v1.0**.
 
