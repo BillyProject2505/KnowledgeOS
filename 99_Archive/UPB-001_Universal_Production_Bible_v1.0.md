@@ -1,5 +1,16 @@
 # 001. Vision & Philosophy
 
+---
+document_id: UPB-001
+title: Universal Production Bible
+version: "1.0"
+status: HISTORICAL
+canonicality: NON-CANONICAL
+archive_status: ARCHIVED
+archive_disposition: HISTORICAL
+superseded_by: null
+---
+
 ## Purpose
 
 Define the philosophical foundation of the Universal Production Bible (UPB).
