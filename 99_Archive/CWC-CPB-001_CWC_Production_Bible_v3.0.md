@@ -1,4 +1,4 @@
-# Coz We Care Canonical Production Bible v3.0
+
 
 ---
 document_id: CWC-CPB-001
