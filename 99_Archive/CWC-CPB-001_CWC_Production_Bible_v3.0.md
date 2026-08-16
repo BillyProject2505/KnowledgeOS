@@ -1,6 +1,15 @@
 # Coz We Care Canonical Production Bible v3.0
 
 ---
+document_id: CWC-CPB-001
+title: CWC Production Bible
+version: "3.0"
+status: SUPERSEDED
+canonicality: HISTORICAL
+archive_status: ARCHIVED
+archive_disposition: SUPERSEDED
+superseded_by: 02_Projects/10_CozWeCare/CWC-CPB-001_CWC_Production_Bible_v4.0.md
+---
 
 # Chapter 01 — Foundation
 
