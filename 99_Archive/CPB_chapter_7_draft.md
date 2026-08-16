@@ -1,3 +1,15 @@
+---
+document_id: CPB-CH07
+title: CWC Production Bible — Chapter 07 — Visual Design System
+type: CHAPTER_DRAFT
+version: "draft"
+status: DRAFT
+canonicality: HISTORICAL
+archive_status: ARCHIVED
+archive_disposition: HISTORICAL_DRAFT
+superseded_by: null
+---
+
 # 7.1 Visual Foundation
 
 ## Purpose
