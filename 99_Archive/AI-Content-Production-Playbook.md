@@ -13,7 +13,7 @@ superseded_by: null
 
 **Version:** 1.0
 
-**Status:** Canonical
+**Status:** Historical Archive Copy
 
 ---
 
@@ -107,4 +107,4 @@ Dokumen ini ditujukan untuk:
 
 # Status
 
-Canonical
+Historical Archive Copy
