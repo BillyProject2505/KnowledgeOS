@@ -10,9 +10,44 @@ Registries provide controlled operational representations of governed objects, i
 
 ## Canonical Registry Architecture
 
-### Universal Naming & Identification Registry (UNIR)
+The active registry layer is organized by distinct registry authorities and document roles. Registry architecture, current registry state, and registration-record representation are kept separate so that normative semantics are not conflated with operational registry state or evidence.
 
-The UNIR architecture is materialized as three separate canonical documents with distinct responsibilities. They shall not be treated as interchangeable.
+```text
+00_System/40_Registries/
+│
+├── 10_UNIR/
+│   ├── UNIR-CORE-001
+│   │     ↓
+│   │   UNIR architecture and Six-Core boundary
+│   ├── UNIR-REGISTRY-001
+│   │     ↓
+│   │   current UNIR registry state
+│   ├── UNIR-REGISTRATION-RECORD-001
+│   │     ↓
+│   │   registration-record representation & traceability
+│   └── UNIR-ALLOCATION-ACT-00x
+│         ↓
+│       concrete Document Identifier allocation evidence
+│
+└── 20_UPKR/
+    ├── UPKR-CORE-001
+    │     ↓
+    │   UPKR architecture and governance
+    ├── UPKR-REGISTRATION-RECORD-001
+    │     ↓
+    │   UPKR registration evidence, decisions, events & traceability
+    └── UPKR-REGISTRY-001
+          ↓
+        current UPKR registered state
+```
+
+The registry families above have distinct semantic scope and shall not be treated as interchangeable.
+
+---
+
+## 1. Universal Naming & Identification Registry (UNIR)
+
+The UNIR architecture is materialized as a canonical document set with distinct responsibilities.
 
 ```text
 UNIR-CORE-001
@@ -26,9 +61,13 @@ Current Registry State
 UNIR-REGISTRATION-RECORD-001
     ↓
 Registration Record Representation & Traceability
+
+UNIR-ALLOCATION-ACT-00x
+    ↓
+Concrete Document Identifier Allocation Evidence
 ```
 
-### 1. UNIR Core Document
+### 1.1 UNIR Core Document
 
 **Document ID:** `UNIR-CORE-001`  
 **Current Version:** `1.3`  
@@ -48,35 +87,123 @@ The Core document defines the architectural and semantic ownership boundaries of
 
 [Open UNIR-CORE-001 v1.3](./10_UNIR/UNIR-CORE-001_Universal_Naming_Identification_Registry_v1.3.md)
 
-### 2. UNIR Registry State
+### 1.2 UNIR Registry State
 
 **Document ID:** `UNIR-REGISTRY-001`  
-**Current Version:** `1.1`  
+**Current Version:** `1.2`  
 **Status:** `LOCKED — CANONICAL`  
 **Canonicality:** `CANONICAL`  
 **Publication Status:** `PUBLISHED`
 
-`UNIR-REGISTRY-001` represents the current registered state of UNIR, including current Registry Object representations, current registry state, applicable current-source provenance, and bounded registered/allocated identification content.
+`UNIR-REGISTRY-001` represents the current registered state of UNIR, including current Registry Object representations, current registry state, applicable provenance, and bounded concrete Document Identifier allocations.
 
-It does not redefine the Six Core semantics and does not replace the underlying registration records.
+The current active allocation set represented by v1.2 includes `DIUA-DIC-000001` through `DIUA-DIC-000005`, with `DIUA-DIC-000005` allocated to the Universal Production Knowledge Registry.
 
-[Open UNIR-REGISTRY-001 v1.1](./10_UNIR/UNIR-REGISTRY-001_Universal_Naming_Identification_Registry_v1.1.md)
+It does not redefine the Six Core semantics and does not replace the underlying registration or allocation records.
 
-### 3. UNIR Registration Record Representation
+[Open UNIR-REGISTRY-001 v1.2](./10_UNIR/UNIR-REGISTRY-001_Universal_Naming_Identification_Registry_v1.2.md)
+
+### 1.3 UNIR Registration Record Representation
 
 **Document ID:** `UNIR-REGISTRATION-RECORD-001`  
-**Current Version:** `1.1`  
+**Current Version:** `1.2`  
 **Status:** `LOCKED — CANONICAL`  
 **Canonicality:** `CANONICAL`  
 **Publication Status:** `PUBLISHED`
 
-`UNIR-REGISTRATION-RECORD-001` provides the canonical representation and traceability layer for validated UNIR registration records associated with current Registry Objects.
+`UNIR-REGISTRATION-RECORD-001` provides the canonical representation and traceability layer for validated UNIR registration records associated with current Registry Objects and explicitly represented concrete Document Identifier allocations.
 
 Underlying readiness, authorization, allocation, decision, registration-event, reassessment, audit, review, and reconciliation artifacts remain authoritative for their own record content. This document does not become a parallel evidence repository.
 
-[Open UNIR-REGISTRATION-RECORD-001 v1.1](./10_UNIR/UNIR-REGISTRATION-RECORD-001_Universal_Naming_Identification_Registration_Record_v1.1.md)
+[Open UNIR-REGISTRATION-RECORD-001 v1.2](./10_UNIR/UNIR-REGISTRATION-RECORD-001_Universal_Naming_Identification_Registration_Record_v1.2.md)
 
-The more detailed navigation and orientation page for the `10_UNIR` directory is maintained separately at [10_UNIR/README.md](./10_UNIR/README.md).
+### 1.4 UNIR Allocation Acts
+
+Concrete Document Identifier allocation acts provide explicit allocation evidence for individual identifiers. They are distinct from Registry Objects, the current registry-state document, and the registration-record representation.
+
+The currently materialized UNIR allocation evidence includes, where applicable, allocation acts establishing identifiers such as `DIUA-DIC-000002`, `DIUA-DIC-000003`, `DIUA-DIC-000004`, and `DIUA-DIC-000005`.
+
+The detailed navigation and orientation page for the `10_UNIR` directory is maintained separately at [10_UNIR/README.md](./10_UNIR/README.md).
+
+---
+
+## 2. Universal Production Knowledge Registry (UPKR)
+
+The UPKR is the active registry layer for the Universal Production Knowledge architecture. It governs the registration representation and current registered-state representation of Universal Production Knowledge Objects (UPKOs). It does not own or redefine the substantive semantics of UPKOs.
+
+The active UPKR document set is organized as:
+
+```text
+UPKR-CORE-001
+    ↓
+UPKR architecture and governance
+
+UPKR-REGISTRATION-RECORD-001
+    ↓
+registration evidence, decisions, events, state & traceability
+
+UPKR-REGISTRY-001
+    ↓
+current registered state
+```
+
+### 2.1 UPKR Core
+
+`UPKR-CORE-001_Universal_Production_Knowledge_Registry_v1.0.md`
+
+**Role:** Canonical architecture and governance authority for UPKR.
+
+### 2.2 UPKR Registration Record
+
+`UPKR-REGISTRATION-RECORD-001_v1.1_23-UPKO-Initial-Registration-Batch.md`
+
+**Role:** Canonical materialization of the initial 23-UPKO registration records, including registration evidence, decisions, events, state, effective date, and traceability.
+
+### 2.3 UPKR Current Registry State
+
+`UPKR-REGISTRY-001_v1.1_23-UPKO-Initial-Registered-State.md`
+
+**Role:** Canonical current registry-state representation for the initial 23 registered UPKOs.
+
+### 2.4 Initial UPKR Registration State
+
+The current initial batch contains:
+
+```text
+UPKO-001 … UPKO-023
+Registration State = REGISTERED — 23/23
+Effective Date    = 2026-08-16
+```
+
+The registration layer is supported by the applicable Registration Decisions and Registration Events and is governed by `UPKR-CORE-001`.
+
+The initial batch was canonicalized through the governed act:
+
+`UPKR-CD-001 — APPROVE CANONICALIZATION`
+
+with effective date:
+
+`2026-08-16`
+
+### 2.5 UPKR Authority Boundary
+
+```text
+UPKO
+    = substantive Production Knowledge authority
+
+UPKR-CORE-001
+    = UPKR architecture / governance authority
+
+UPKR-REGISTRATION-RECORD-001
+    = registration evidence / decision / event / traceability
+
+UPKR-REGISTRY-001
+    = current registered state
+```
+
+UPKR documents shall not redefine substantive UPKO semantics.
+
+The detailed navigation and orientation page for the `20_UPKR` directory is maintained at [20_UPKR/README.md](./20_UPKR/README.md).
 
 ---
 
@@ -98,6 +225,7 @@ DIUA
                        UNIR
                          ↓
                 operational registration
+                allocation & registry state
 ```
 
 Accordingly:
@@ -106,6 +234,7 @@ Accordingly:
 - **Document Identifier Grammar** remains the identifier construction rule.
 - **UNIR** provides the applicable operational registration, allocation, lifecycle, and registry mechanisms.
 - DIUA shall not be assigned a separate UNIR Registry Object identity unless a future explicit registration-eligibility decision establishes that such registration is required.
+- A concrete Document Identifier allocation shall not be treated as a separate UNIR Registry Object solely because it is represented in the registry state.
 
 ---
 
@@ -114,10 +243,12 @@ Accordingly:
 - Registry specifications operate within the authority of applicable normative standards.
 - Registry identifiers must be unique within their applicable identity scope.
 - Registry object identity, classification, namespace, lifecycle/state, and governance concerns must remain within their defined ownership boundaries.
-- Current registry state shall be represented only by the canonical current-state registry document.
+- Current registry state shall be represented only by the applicable canonical current-state registry document.
 - Registration records shall remain traceable to their underlying authoritative artifacts.
 - Historical versions and superseded releases must remain traceable and must not be silently overwritten.
 - New registry constructs require explicit registration and eligibility decisions; names appearing in normative standards do not automatically become separate Registry Objects.
+- Concrete identifier allocation does not by itself create a Registry Object.
+- Registry families may represent different governed object classes; one registry's semantics must not be inferred from another registry without explicit authority.
 - Locked canonical documents shall not be edited in place; substantive change requires the applicable revision, audit, canonicalization, and lock process.
 
 ---
@@ -134,26 +265,33 @@ The legacy directory has therefore been removed from the active repository struc
 
 ## Current Canonical Registry Set
 
-| Document | Version | Status | Scope |
-|---|---:|---|---|
-| `UNIR-CORE-001_Universal_Naming_Identification_Registry_v1.3.md` | 1.3 | LOCKED — CANONICAL | UNIR Core Architecture |
-| `UNIR-REGISTRY-001_Universal_Naming_Identification_Registry_v1.1.md` | 1.1 | LOCKED — CANONICAL / PUBLISHED | Current UNIR Registry State |
-| `UNIR-REGISTRATION-RECORD-001_Universal_Naming_Identification_Registration_Record_v1.1.md` | 1.1 | LOCKED — CANONICAL / PUBLISHED | Registration Record Representation & Traceability |
+| Registry Family | Document | Version / State | Scope |
+|---|---|---|---|
+| UNIR | `UNIR-CORE-001_Universal_Naming_Identification_Registry_v1.3.md` | 1.3 — LOCKED / CANONICAL | UNIR Core Architecture |
+| UNIR | `UNIR-REGISTRY-001_Universal_Naming_Identification_Registry_v1.2.md` | 1.2 — LOCKED / CANONICAL / PUBLISHED | Current UNIR Registry State |
+| UNIR | `UNIR-REGISTRATION-RECORD-001_Universal_Naming_Identification_Registration_Record_v1.2.md` | 1.2 — LOCKED / CANONICAL / PUBLISHED | Registration Record Representation & Traceability |
+| UPKR | `UPKR-CORE-001_Universal_Production_Knowledge_Registry_v1.0.md` | 1.0 — Active Canonical | UPKR Architecture & Governance |
+| UPKR | `UPKR-REGISTRATION-RECORD-001_v1.1_23-UPKO-Initial-Registration-Batch.md` | v1.1 — Active Registration Record | Initial 23-UPKO Registration Records |
+| UPKR | `UPKR-REGISTRY-001_v1.1_23-UPKO-Initial-Registered-State.md` | v1.1 — Active Current State | Initial 23 Registered UPKOs |
 
 The canonical UNIR document set is located in `00_System/40_Registries/10_UNIR/`.
 
-The directory-level README at `10_UNIR/README.md` provides document-by-document navigation and orientation for this canonical set.
+The active UPKR document set is located in `00_System/40_Registries/20_UPKR/`.
 
 ---
 
 ## Reading Order
 
-For a first-time reading of the current UNIR architecture, use this order:
+For a first-time reading of the current registry architecture, use this order:
 
-1. `UNIR-CORE-001` — understand the canonical Six Core architecture and boundaries.
-2. `UNIR-REGISTRY-001` — inspect the current registered Registry state.
-3. `UNIR-REGISTRATION-RECORD-001` — inspect validated registration-record relationships and traceability.
-4. The underlying registration/allocation/reassessment artifacts — consult individual records when record-level evidence is required.
+1. `UNIR-CORE-001` — understand the canonical UNIR Six-Core architecture and boundaries.
+2. `UNIR-REGISTRY-001` — inspect the current UNIR registered state and active concrete Document Identifier allocations.
+3. `UNIR-REGISTRATION-RECORD-001` — inspect validated UNIR registration-record relationships and traceability.
+4. `10_UNIR/README.md` — use the UNIR directory-level navigation and evidence-chain orientation when tracing specific allocation acts.
+5. `UPKR-CORE-001` — understand UPKR architecture and governance.
+6. `UPKR-REGISTRATION-RECORD-001` — inspect the UPKR registration evidence for the registered UPKO set.
+7. `UPKR-REGISTRY-001` — inspect the current registered state of UPKR.
+8. `20_UPKR/README.md` — use the UPKR directory-level navigation and archive boundary orientation.
 
 ---
 
@@ -161,14 +299,16 @@ For a first-time reading of the current UNIR architecture, use this order:
 
 This README is a **navigation and orientation document**. It is not:
 
-- a replacement for `UNIR-CORE-001`;
+- a replacement for any registry Core document;
 - a current registry inventory;
 - a registration record repository;
-- a normative definition of UNIR semantics;
+- an allocation-act repository;
+- a normative definition of UNIR, UPKR, UNIS, UIA, or UPKO semantics;
 - an alternative canonical source of registry state;
-- an authority to modify locked UNIR documents.
+- an authority to modify locked canonical registry documents.
 
 ---
 
 **Directory:** `00_System/40_Registries`  
-**UNIR canonical document directory:** `00_System/40_Registries/10_UNIR`
+**UNIR canonical document directory:** `00_System/40_Registries/10_UNIR`  
+**UPKR active document directory:** `00_System/40_Registries/20_UPKR`
