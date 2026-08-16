@@ -4,15 +4,14 @@ document_reference: UPKR-REGISTRY-001
 document_type: Registry State
 title: Universal Production Knowledge Registry Current Registry State
 working_revision: v1.1
-revision_status: CONTROLLED REVISION — MATERIALIZED — NOT CANONICAL
-canonicality: NOT CANONICAL
-lock: UNLOCKED
+revision_status: LOCKED — CANONICAL
+canonicality: CANONICAL
+lock: LOCKED
 scope: Current authoritative registry state representation for the Universal Production Knowledge Registry
 purpose: Materialize the current registered state of UPKO objects supported by completed registration evidence
 authority: UPKR Governance
 semantic_authority: Current UPKR registry state only; substantive Production Knowledge remains under UPKO authority
-source_basis: UPKR-CORE-001 v1.0 — LOCKED — CANONICAL; UPKR-REGISTRATION-RECORD-001 v1.1 — CONTROLLED REVISION — MATERIALIZED — NOT CANONICAL
-materialization: GITHUB_NATIVE_CHATGPT_READABLE
+source_basis: UPKR-CORE-001 v1.0 — LOCKED — CANONICAL; UPKR-REGISTRATION-RECORD-001 v1.1 — LOCKED — CANONICAL
 base_document: UPKR-REGISTRY-001 v1.0 — LOCKED — CANONICAL
 effective_date: 2026-08-16
 document_role: Current Registry State
@@ -24,21 +23,21 @@ document_role: Current Registry State
 **Document Reference:** `UPKR-REGISTRY-001`  
 **Document Type:** `Registry State`  
 **Version:** `1.1`  
-**Status:** `CONTROLLED REVISION — MATERIALIZED — NOT CANONICAL`  
-**Canonicality:** `NOT CANONICAL`  
-**Lock Status:** `UNLOCKED`  
+**Status:** `LOCKED — CANONICAL`  
+**Canonicality:** `CANONICAL`  
+**Lock Status:** `LOCKED`  
 **Document Role:** `Current Registry State`  
 **Effective Date:** `2026-08-16`
 
 ---
 
-## 1. Revision Boundary
+## 1. Canonicalization Boundary
 
-This is a controlled revision derived from `UPKR-REGISTRY-001 v1.0 — LOCKED — CANONICAL`.
+This v1.1 revision is the canonical materialization of the completed initial 23-UPKO registration state.
 
-It materializes the current 23/23 registered state supported by the completed Registration Decisions and Registration Events. It does not modify or recanonicalize v1.0.
+`UPKR-CORE-001 v1.0` remains the canonical architecture and governance authority. `UPKR-REGISTRATION-RECORD-001` remains the registration history and traceability layer. This document owns only the current registry state representation.
 
-`UPKR-CORE-001 v1.0` remains the canonical architecture and governance authority. `UPKR-REGISTRATION-RECORD-001` remains the registration history and traceability layer.
+The prior v1.0 document remains preserved as the historical canonical baseline/version lineage and is not overwritten by this canonicalization.
 
 ## 2. Authority Boundary
 
@@ -94,29 +93,29 @@ Notes
 
 | Registry Entry ID | UPKO Reference | UPKO Object Type | Current Registration State | Effective Date | Registration Record | Registration Event | Current Validation / Reassessment | Last State Transition |
 |---|---|---|---|---|---|---|---|---|
-| UPKR-REG-001 | UPKO-001 — Production Philosophy | Philosophy | REGISTERED | 2026-08-16 | UPKR-RR-001 | UPKR-RE-001 | VALID / NONE | CANDIDATE → REGISTERED |
-| UPKR-REG-002 | UPKO-002 — AI-First Production Knowledge | Philosophy | REGISTERED | 2026-08-16 | UPKR-RR-002 | UPKR-RE-002 | VALID / NONE | CANDIDATE → REGISTERED |
-| UPKR-REG-003 | UPKO-003 — Brand Identity | Model | REGISTERED | 2026-08-16 | UPKR-RR-003 | UPKR-RE-003 | VALID / NONE | CANDIDATE → REGISTERED |
-| UPKR-REG-004 | UPKO-004 — Brand Positioning | Model | REGISTERED | 2026-08-16 | UPKR-RR-004 | UPKR-RE-004 | VALID / NONE | CANDIDATE → REGISTERED |
-| UPKR-REG-005 | UPKO-005 — Brand Principles | Principle | REGISTERED | 2026-08-16 | UPKR-RR-005 | UPKR-RE-005 | VALID / NONE | CANDIDATE → REGISTERED |
-| UPKR-REG-006 | UPKO-006 — Audience Model | Model | REGISTERED | 2026-08-16 | UPKR-RR-006 | UPKR-RE-006 | VALID / NONE | CANDIDATE → REGISTERED |
-| UPKR-REG-007 | UPKO-007 — Audience Classification | Classification | REGISTERED | 2026-08-16 | UPKR-RR-007 | UPKR-RE-007 | VALID / NONE | CANDIDATE → REGISTERED |
-| UPKR-REG-008 | UPKO-008 — Strategic Objective | Objective | REGISTERED | 2026-08-16 | UPKR-RR-008 | UPKR-RE-008 | VALID / NONE | CANDIDATE → REGISTERED |
-| UPKR-REG-009 | UPKO-009 — Strategic Alignment | Model | REGISTERED | 2026-08-16 | UPKR-RR-009 | UPKR-RE-009 | VALID / NONE | CANDIDATE → REGISTERED |
-| UPKR-REG-010 | UPKO-010 — Content Type | Classification | REGISTERED | 2026-08-16 | UPKR-RR-010 | UPKR-RE-010 | VALID / NONE | CANDIDATE → REGISTERED |
-| UPKR-REG-011 | UPKO-011 — Editorial Voice | Model | REGISTERED | 2026-08-16 | UPKR-RR-011 | UPKR-RE-011 | VALID / NONE | CANDIDATE → REGISTERED |
-| UPKR-REG-012 | UPKO-012 — Editorial Tone | Model | REGISTERED | 2026-08-16 | UPKR-RR-012 | UPKR-RE-012 | VALID / NONE | CANDIDATE → REGISTERED |
-| UPKR-REG-013 | UPKO-013 — Writing Standards | Standard | REGISTERED | 2026-08-16 | UPKR-RR-013 | UPKR-RE-013 | VALID / NONE | CANDIDATE → REGISTERED |
-| UPKR-REG-014 | UPKO-014 — Inclusive Language Standards | Standard | REGISTERED | 2026-08-16 | UPKR-RR-014 | UPKR-RE-014 | VALID / NONE | CANDIDATE → REGISTERED |
-| UPKR-REG-015 | UPKO-015 — Call-to-Action Standards | Standard | REGISTERED | 2026-08-16 | UPKR-RR-015 | UPKR-RE-015 | VALID / NONE | CANDIDATE → REGISTERED |
-| UPKR-REG-016 | UPKO-016 — Health & Educational Writing Standards | Standard | REGISTERED | 2026-08-16 | UPKR-RR-016 | UPKR-RE-016 | VALID / NONE | CANDIDATE → REGISTERED |
-| UPKR-REG-017 | UPKO-017 — Canvas System | System | REGISTERED | 2026-08-16 | UPKR-RR-017 | UPKR-RE-017 | VALID / NONE | CANDIDATE → REGISTERED |
-| UPKR-REG-018 | UPKO-018 — Layout System | System | REGISTERED | 2026-08-16 | UPKR-RR-018 | UPKR-RE-018 | VALID / NONE | CANDIDATE → REGISTERED |
-| UPKR-REG-019 | UPKO-019 — Surface System | System | REGISTERED | 2026-08-16 | UPKR-RR-019 | UPKR-RE-019 | VALID / NONE | CANDIDATE → REGISTERED |
-| UPKR-REG-020 | UPKO-020 — Typography System | System | REGISTERED | 2026-08-16 | UPKR-RR-020 | UPKR-RE-020 | VALID / NONE | CANDIDATE → REGISTERED |
-| UPKR-REG-021 | UPKO-021 — Color System | System | REGISTERED | 2026-08-16 | UPKR-RR-021 | UPKR-RE-021 | VALID / NONE | CANDIDATE → REGISTERED |
-| UPKR-REG-022 | UPKO-022 — Graphic Elements System | System | REGISTERED | 2026-08-16 | UPKR-RR-022 | UPKR-RE-022 | VALID / NONE | CANDIDATE → REGISTERED |
-| UPKR-REG-023 | UPKO-023 — Imagery System | System | REGISTERED | 2026-08-16 | UPKR-RR-023 | UPKR-RE-023 | VALID / NONE | CANDIDATE → REGISTERED |
+| UPKR-REG-001 | UPKO-001 — Production Philosophy | Philosophy | REGISTERED | 2026-08-16 | UPKR-RR-001 | UPKR-RE-001 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
+| UPKR-REG-002 | UPKO-002 — AI-First Production Knowledge | Philosophy | REGISTERED | 2026-08-16 | UPKR-RR-002 | UPKR-RE-002 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
+| UPKR-REG-003 | UPKO-003 — Brand Identity | Model | REGISTERED | 2026-08-16 | UPKR-RR-003 | UPKR-RE-003 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
+| UPKR-REG-004 | UPKO-004 — Brand Positioning | Model | REGISTERED | 2026-08-16 | UPKR-RR-004 | UPKR-RE-004 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
+| UPKR-REG-005 | UPKO-005 — Brand Principles | Principle | REGISTERED | 2026-08-16 | UPKR-RR-005 | UPKR-RE-005 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
+| UPKR-REG-006 | UPKO-006 — Audience Model | Model | REGISTERED | 2026-08-16 | UPKR-RR-006 | UPKR-RE-006 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
+| UPKR-REG-007 | UPKO-007 — Audience Classification | Classification | REGISTERED | 2026-08-16 | UPKR-RR-007 | UPKR-RE-007 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
+| UPKR-REG-008 | UPKO-008 — Strategic Objective | Objective | REGISTERED | 2026-08-16 | UPKR-RR-008 | UPKR-RE-008 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
+| UPKR-REG-009 | UPKO-009 — Strategic Alignment | Model | REGISTERED | 2026-08-16 | UPKR-RR-009 | UPKR-RE-009 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
+| UPKR-REG-010 | UPKO-010 — Content Type | Classification | REGISTERED | 2026-08-16 | UPKR-RR-010 | UPKR-RE-010 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
+| UPKR-REG-011 | UPKO-011 — Editorial Voice | Model | REGISTERED | 2026-08-16 | UPKR-RR-011 | UPKR-RE-011 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
+| UPKR-REG-012 | UPKO-012 — Editorial Tone | Model | REGISTERED | 2026-08-16 | UPKR-RR-012 | UPKR-RE-012 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
+| UPKR-REG-013 | UPKO-013 — Writing Standards | Standard | REGISTERED | 2026-08-16 | UPKR-RR-013 | UPKR-RE-013 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
+| UPKR-REG-014 | UPKO-014 — Inclusive Language Standards | Standard | REGISTERED | 2026-08-16 | UPKR-RR-014 | UPKR-RE-014 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
+| UPKR-REG-015 | UPKO-015 — Call-to-Action Standards | Standard | REGISTERED | 2026-08-16 | UPKR-RR-015 | UPKR-RE-015 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
+| UPKR-REG-016 | UPKO-016 — Health & Educational Writing Standards | Standard | REGISTERED | 2026-08-16 | UPKR-RR-016 | UPKR-RE-016 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
+| UPKR-REG-017 | UPKO-017 — Canvas System | System | REGISTERED | 2026-08-16 | UPKR-RR-017 | UPKR-RE-017 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
+| UPKR-REG-018 | UPKO-018 — Layout System | System | REGISTERED | 2026-08-16 | UPKR-RR-018 | UPKR-RE-018 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
+| UPKR-REG-019 | UPKO-019 — Surface System | System | REGISTERED | 2026-08-16 | UPKR-RR-019 | UPKR-RE-019 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
+| UPKR-REG-020 | UPKO-020 — Typography System | System | REGISTERED | 2026-08-16 | UPKR-RR-020 | UPKR-RE-020 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
+| UPKR-REG-021 | UPKO-021 — Color System | System | REGISTERED | 2026-08-16 | UPKR-RR-021 | UPKR-RE-021 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
+| UPKR-REG-022 | UPKO-022 — Graphic Elements System | System | REGISTERED | 2026-08-16 | UPKR-RR-022 | UPKR-RE-022 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
+| UPKR-REG-023 | UPKO-023 — Imagery System | System | REGISTERED | 2026-08-16 | UPKR-RR-023 | UPKR-RE-023 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED |
 
 ## 6. Registration-State Integrity
 
@@ -138,7 +137,7 @@ No current `REGISTERED` state is inferred merely from eligibility, validation, a
 
 The effective date of the initial 23-UPKO registration batch is `2026-08-16`.
 
-The date is represented consistently with the Registration Record materialization:
+The date is represented consistently across the applicable registration layers:
 
 ```text
 Registration Record       = 2026-08-16
@@ -150,9 +149,7 @@ Current Registry State    = 2026-08-16
 
 ## 8. Relationship to Canonical v1.0
 
-`UPKR-REGISTRY-001 v1.0` remains `LOCKED — CANONICAL` and remains the schema and architecture baseline for this layer.
-
-This v1.1 controlled revision materializes the completed registration state; it does not silently overwrite v1.0.
+`UPKR-REGISTRY-001 v1.0` remains preserved as the historical canonical baseline/version lineage. The present v1.1 document is the canonical current-state materialization for the completed 23-UPKO registration batch.
 
 ## 9. Current-State Boundary
 
@@ -166,13 +163,12 @@ Current Registry State
 Registration Record / Historical Ledger
 ```
 
-## 10. Canonicalization Boundary
+## 10. Canonical Status
 
 ```text
-v1.0 = LOCKED — CANONICAL
-v1.1 = CONTROLLED REVISION — MATERIALIZED — NOT CANONICAL
+v1.1 = LOCKED — CANONICAL
 ```
 
-Canonicalization of this current-state revision requires a separate governed canonicalization decision and shall not be inferred from materialization alone.
+This canonicalization does not alter substantive UPKO semantics, registration decisions, registration events, or the UPKR Core architecture.
 
 # End of Document
