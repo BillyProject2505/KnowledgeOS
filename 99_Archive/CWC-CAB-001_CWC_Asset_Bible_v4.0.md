@@ -1,6 +1,15 @@
 # CWC Canonical Asset Bible v4.0
 
 ---
+document_id: CWC-CAB-001
+title: CWC Canonical Asset Bible
+version: "4.0"
+status: SUPERSEDED
+canonicality: HISTORICAL
+archive_status: ARCHIVED
+archive_disposition: SUPERSEDED
+superseded_by: CWC-CAB-001_CWC_Asset_Bible_v5.0.md
+---
 
 # Introduction
 
