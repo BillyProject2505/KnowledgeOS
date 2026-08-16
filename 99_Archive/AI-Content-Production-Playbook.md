@@ -1,3 +1,14 @@
+---
+document_id: ACPP
+title: AI Content Production Playbook
+version: "1.0"
+status: HISTORICAL
+canonicality: NON-CANONICAL
+archive_status: ARCHIVED
+archive_disposition: HISTORICAL
+superseded_by: null
+---
+
 # AI Content Production Playbook (ACPP)
 
 **Version:** 1.0
