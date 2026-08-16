@@ -33,13 +33,13 @@ document_role: Current Registry State
 
 ---
 
-## 1. Revision Boundary
+## 1. Canonicalization Boundary
 
-This is a controlled revision derived from `UPKR-REGISTRY-001 v1.0 — LOCKED — CANONICAL`.
+This v1.1 revision is the canonical materialization of the completed initial 23-UPKO registration state.
 
-It materializes the current 23/23 registered state supported by the completed Registration Decisions and Registration Events. It does not modify or recanonicalize v1.0.
+`UPKR-CORE-001 v1.0` remains the canonical architecture and governance authority. `UPKR-REGISTRATION-RECORD-001` remains the registration history and traceability layer. This document owns only the current registry state representation.
 
-`UPKR-CORE-001 v1.0` remains the canonical architecture and governance authority. `UPKR-REGISTRATION-RECORD-001` remains the registration history and traceability layer.
+The prior v1.0 document remains preserved as the historical canonical baseline/version lineage and is not overwritten by this canonicalization.
 
 ## 2. Authority Boundary
 
@@ -116,9 +116,7 @@ R16-FED-001 — Final Eligibility Determination
 R21 — Final Source/Authority Audit
 ```
 
-These references are used consistently for all 23 entries because the corresponding Registration Records explicitly identify them as the validation evidence. fileciteturn89file3
-
-No new validation or reassessment artifact is created by this normalization. `Reassessment / Change History = NONE` remains unchanged for all 23 records.
+These references are used consistently for all 23 entries because the corresponding Registration Records explicitly identify them as the validation evidence. No new validation or reassessment artifact is created by this normalization. `Reassessment / Change History = NONE` remains unchanged for all 23 records.
 
 ## 5. Current Registry Entries
 
@@ -147,6 +145,7 @@ No new validation or reassessment artifact is created by this normalization. `Re
 | UPKR-REG-021 | UPKO-021 — Color System | System | REGISTERED | 2026-08-16 | UPKR-RR-021 | UPKR-RE-021 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED | Registered through approved Registration Decision and Registration Event; Reassessment / Change History = NONE. |
 | UPKR-REG-022 | UPKO-022 — Graphic Elements System | System | REGISTERED | 2026-08-16 | UPKR-RR-022 | UPKR-RE-022 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED | Registered through approved Registration Decision and Registration Event; Reassessment / Change History = NONE. |
 | UPKR-REG-023 | UPKO-023 — Imagery System | System | REGISTERED | 2026-08-16 | UPKR-RR-023 | UPKR-RE-023 | R16-FED-001 — Final Eligibility Determination; R21 — Final Source/Authority Audit | CANDIDATE → REGISTERED | Registered through approved Registration Decision and Registration Event; Reassessment / Change History = NONE. |
+
 ## 5.1 Notes Field Policy
 
 For all 23 Registry Entries, `Notes` is materialized as:
@@ -175,7 +174,7 @@ No current `REGISTERED` state is inferred merely from eligibility, validation, a
 
 The effective date of the initial 23-UPKO registration batch is `2026-08-16`.
 
-The date is represented consistently with the Registration Record materialization:
+The date is represented consistently across the applicable registration layers:
 
 ```text
 Registration Record       = 2026-08-16
@@ -187,9 +186,7 @@ Current Registry State    = 2026-08-16
 
 ## 8. Relationship to Canonical v1.0
 
-`UPKR-REGISTRY-001 v1.0` remains `LOCKED — CANONICAL` and remains the schema and architecture baseline for this layer.
-
-This v1.1 controlled revision materializes the completed registration state; it does not silently overwrite v1.0.
+`UPKR-REGISTRY-001 v1.0` remains preserved as the historical canonical baseline/version lineage. The present v1.1 document is the canonical current-state materialization for the completed 23-UPKO registration batch.
 
 ## 9. Current-State Boundary
 
@@ -203,16 +200,6 @@ Current Registry State
 Registration Record / Historical Ledger
 ```
 
-## 10. Canonicalization Boundary
-
-```text
-v1.0 = LOCKED — CANONICAL
-v1.1 = LOCKED — CANONICAL
-```
-
-Canonicalization of this current-state revision requires a separate governed canonicalization decision and shall not be inferred from materialization alone.
-
-# End of Document
 ## 10. Canonical Status
 
 ```text
