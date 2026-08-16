@@ -1,3 +1,14 @@
+---
+document_id: CPB-001
+title: CWC Production Bible
+version: "1.0"
+status: SUPERSEDED
+canonicality: HISTORICAL
+archive_status: ARCHIVED
+archive_disposition: SUPERSEDED
+superseded_by: CWC-CPB-001_CWC_Production_Bible_v3.0.md
+---
+
 # 001. Purpose & Scope
 
 ## Definition
@@ -602,7 +613,7 @@ Content Strategy shall remain independent of production platform.
 
 ### OUTPUT-CPB001-005
 
-Every official Coz We Care production shall be guided by a consistent canonical Content Strategy Model before production begins.
+Every official production shall be guided by a consistent canonical Content Strategy Model before production begins.
 
 # 005. Content Strategy
 
