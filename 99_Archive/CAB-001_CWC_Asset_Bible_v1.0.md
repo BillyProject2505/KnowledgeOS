@@ -6,7 +6,7 @@ status: SUPERSEDED
 canonicality: HISTORICAL
 archive_status: ARCHIVED
 archive_disposition: SUPERSEDED
-superseded_by: CWC-CAB-001_CWC_Asset_Bible_v5.0.md
+superseded_by: CAB-001_CWC_Asset_Bible_v2.0.md
 ---
 
 # CAB-001_CWC_Asset_Bible_v1.0
