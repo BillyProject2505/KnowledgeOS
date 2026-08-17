@@ -7,6 +7,9 @@
 **Canonicality:** CANONICAL  
 **Lock Status:** LOCKED  
 **Status:** LOCKED — CANONICALIZED  
+**Publication Status:** PUBLISHED  
+**Publication Commit:** `7b01e61812ee73a8c6c7e09d9a920c4bf22d25ce`  
+**Publication Timestamp:** `2026-08-17T23:27:00+08:00`  
 **Authority:** UNIR Registry Authority  
 **Target:** Universal Governance  
 **Target Document ID:** `UG-CORE-001`  
@@ -133,7 +136,7 @@ The authorized user declares this successor revision **CANONICALIZED and LOCKED*
 
 Canonicalization State: CANONICALIZED
 Lock State: LOCKED
-Publication State: NOT PUBLISHED
+Publication State: PUBLISHED
 
 ```text
 Allocation Act:       UNIR-ALLOCATION-ACT-003
