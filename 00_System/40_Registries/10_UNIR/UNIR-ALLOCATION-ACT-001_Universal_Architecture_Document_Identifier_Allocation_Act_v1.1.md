@@ -7,6 +7,7 @@
 **Canonicality:** CANONICAL  
 **Lock Status:** LOCKED  
 **Status:** LOCKED — CANONICALIZED  
+**Publication Status:** PUBLISHED  
 **Authority:** UNIR Registry Authority  
 **Target:** Universal Architecture  
 **Target Document ID:** `UA-CORE-001`  
@@ -137,7 +138,7 @@ The authorized user declares this successor revision **CANONICALIZED and LOCKED*
 
 Canonicalization State: CANONICALIZED
 Lock State: LOCKED
-Publication State: NOT PUBLISHED
+Publication State: PUBLISHED
 
 ```text
 Allocation Act:       UNIR-ALLOCATION-ACT-001
