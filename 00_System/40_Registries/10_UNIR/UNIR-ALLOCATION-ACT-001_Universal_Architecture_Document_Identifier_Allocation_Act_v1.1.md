@@ -8,6 +8,8 @@
 **Lock Status:** LOCKED  
 **Status:** LOCKED — CANONICALIZED  
 **Publication Status:** PUBLISHED  
+**Publication Commit:** `eb3af7810667f7ffb63a7a72b3ee196e8f9aaf4a`  
+**Publication Timestamp:** `2026-08-17T18:56:41+08:00`  
 **Authority:** UNIR Registry Authority  
 **Target:** Universal Architecture  
 **Target Document ID:** `UA-CORE-001`  
