@@ -1,8 +1,9 @@
 ---
 allocation_act_id: UNIR-ALLOCATION-ACT-008
 document_type: Concrete Document Identifier Allocation Act
-version: "1.0"
+version: "1.2"
 status: PROPOSED — PENDING AUTHORIZATION
+supersedes: UNIR-ALLOCATION-ACT-008 v1.1
 authority: UNIR Registry Authority
 target: Universal Canonicalization Protocol
 allocated_identifier: DIUA-DIC-000008
@@ -17,7 +18,8 @@ allocation_sequence: "000008"
 
 **Allocation Act ID:** `UNIR-ALLOCATION-ACT-008`  
 **Document Type:** Concrete Document Identifier Allocation Act  
-**Version:** 1.0  
+**Version:** 1.2  
+**Supersedes:** `UNIR-ALLOCATION-ACT-008 v1.1`  
 **Status:** PROPOSED — PENDING AUTHORIZATION  
 **Authority:** UNIR Registry Authority  
 **Target:** Universal Canonicalization Protocol (UCP)  
@@ -28,9 +30,15 @@ allocation_sequence: "000008"
 **Grammar:** `DIUA-DIC-<6DigitSequence>`  
 **Allocation Sequence:** `000008`
 
+## Revision Purpose
+
+This successor revision refines the documentary traceability of the proposed allocation without changing its authorization state. `DIUA-DIC-000008` remains a candidate identifier and remains `PROPOSED — NOT YET ALLOCATED`.
+
+No authorization, active allocation, canonical publication, or registry-state materialization is inferred by this revision.
+
 ## 1. Allocation Determination
 
-This proposed Allocation Act establishes the candidate concrete Document Identifier:
+This proposed Allocation Act records the proposed candidate concrete Document Identifier:
 
 ```text
 DIUA-DIC-000008
@@ -41,6 +49,8 @@ Universal Canonicalization Protocol
 The candidate is derived from the current validated allocation state in the uploaded `UNIR-REGISTRY-001 v1.5` and `UNIR-REGISTRATION-RECORD-001 v1.5` source baseline.
 
 Those sources establish seven active concrete Document Identifier allocations, with `DIUA-DIC-000007` as the latest active allocation. Therefore `000008` is the next candidate sequence. The uploaded sources do not themselves establish an allocation act for `DIUA-DIC-000008`.
+
+`DIUA-DIC-000008` is a proposed next-sequence candidate derived from the validated current allocation state. This sequence inference does not constitute allocation authorization.
 
 ## 2. Allocation Scope
 
@@ -95,14 +105,37 @@ Before this act may be treated as verified active evidence:
 4. this act shall be promoted to `VERIFIED — ACTIVE EVIDENCE`;
 5. the resulting allocation shall subsequently be materialized into the applicable UNIR registration and current registry-state representations through their controlled successor revisions.
 
+## Current-State Traceability Bridge
+
+The current validated UNIR baseline establishes the following state:
+
+```text
+UNIR-REGISTRY-001 v1.5
+        ↓
+7 active DIC allocations
+        ↓
+DIUA-DIC-000007
+        ↓
+next candidate sequence
+        ↓
+DIUA-DIC-000008
+        ↓
+Universal Canonicalization Protocol (UCP)
+```
+
+This bridge represents a **proposed allocation determination only**. It does not constitute allocation authorization, active allocation evidence, or current registry-state registration.
+
 ## 7. Canonical Closure
 
 ```text
-Allocation Act:       UNIR-ALLOCATION-ACT-008
-Candidate ID:         DIUA-DIC-000008
-Target:               Universal Canonicalization Protocol
-Allocation State:     PROPOSED — NOT YET ALLOCATED
-Evidence State:       PENDING
+Allocation Act:          UNIR-ALLOCATION-ACT-008
+Candidate ID:            DIUA-DIC-000008
+Target:                  Universal Canonicalization Protocol
+Allocation State:        PROPOSED — NOT YET ALLOCATED
+Evidence State:          PENDING
+Canonicalization State:  NOT ESTABLISHED
+Lock State:              UNLOCKED
+Publication State:       NOT PUBLISHED
 ```
 
 ### Current Evidence Relationship
@@ -127,4 +160,4 @@ This relationship is a proposed allocation determination, not yet an active allo
 
 ## Decision Boundary
 
-`DIUA-DIC-000008` shall not be represented as `ALLOCATED — ACTIVE` in any canonical UNIR Registry or Registration Record until `UNIR-ALLOCATION-ACT-008` has completed its authorization and validation gate.
+`DIUA-DIC-000008` shall not be represented as `ALLOCATED — ACTIVE`, `CANONICAL`, `LOCKED`, or `PUBLISHED` in any canonical UNIR Registry or Registration Record until `UNIR-ALLOCATION-ACT-008` has completed its authorization and validation gate.
