@@ -4,7 +4,12 @@
 **Document Type:** Concrete Document Identifier Allocation Act  
 **Version:** 1.1  
 **Supersedes:** `UNIR-ALLOCATION-ACT-004 v1.0`  
-**Status:** RECONSTRUCTED — SOURCE-BOUND  
+**Canonicality:** CANONICAL  
+**Lock Status:** LOCKED  
+**Status:** LOCKED — CANONICALIZED  
+**Publication Status:** PUBLISHED  
+**Publication Commit:** `c4f555b74c238866a3403c820c8889e15e60540e`  
+**Publication Timestamp:** `2026-08-18T09:29:00+08:00`  
 **Authority:** UNIR Registry Authority  
 **Target:** Universal Naming and Identification Standard  
 **Target Document ID:** `UNIS-CORE-001`  
@@ -137,9 +142,9 @@ Target Document ID:   UNIS-CORE-001
 Allocation State:     ALLOCATED — ACTIVE
 Evidence State:       RECONSTRUCTED — SOURCE-BOUND
 Reference Type:       Controlled Historical Allocation Reference
-Canonicalization State: NOT ESTABLISHED
-Lock State:             UNLOCKED
-Publication State:      NOT PUBLISHED
+Canonicalization State: CANONICALIZED
+Lock State:             LOCKED
+Publication State:      PUBLISHED
 ```
 
 ### Evidence Relationship
@@ -158,7 +163,7 @@ The Allocation Act remains a distinct artifact. Its reference in UNIS does not e
 
 ### Historical Evidence Boundary
 
-The original full substantive body of `UNIR-ALLOCATION-ACT-004` is not present in the available source material. This successor revision therefore remains `RECONSTRUCTED — SOURCE-BOUND`. No unsupported historical wording, publication state, lock state, or canonicalization state is inferred.
+The original full substantive body of `UNIR-ALLOCATION-ACT-004` is not present in the available source material. This successor revision therefore preserves the historical evidence boundary. No unsupported historical wording, publication state, lock state, or canonicalization state is inferred.
 
 ### Source-Boundary Note
 
