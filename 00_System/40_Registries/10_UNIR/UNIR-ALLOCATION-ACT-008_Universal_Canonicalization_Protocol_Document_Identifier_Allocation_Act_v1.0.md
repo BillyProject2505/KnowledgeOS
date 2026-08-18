@@ -23,6 +23,9 @@ allocation_sequence: "000008"
 **Canonicality:** CANONICAL  
 **Lock Status:** LOCKED  
 **Status:** LOCKED — CANONICALIZED  
+**Publication Status:** PUBLISHED  
+**Publication Commit:** `570dfab1d1568f1f62940758c2af941d7da66699`  
+**Publication Timestamp:** `2026-08-18T09:29:00+08:00`  
 **Authority:** UNIR Registry Authority  
 **Target:** Universal Canonicalization Protocol (UCP)  
 **Allocated Identifier:** `DIUA-DIC-000008`  
@@ -137,7 +140,7 @@ Allocation State:        PROPOSED — NOT YET ALLOCATED
 Evidence State:          PENDING
 Canonicalization State:  CANONICALIZED
 Lock State:              LOCKED
-Publication State:       NOT PUBLISHED
+Publication State:       PUBLISHED
 ```
 
 ### Canonicalization Declaration
@@ -166,4 +169,4 @@ This relationship is a proposed allocation determination, not yet an active allo
 
 ## Decision Boundary
 
-`DIUA-DIC-000008` shall not be represented as `ALLOCATED — ACTIVE` or as an authorized allocation in any canonical UNIR Registry or Registration Record until `UNIR-ALLOCATION-ACT-008` has completed its authorization and validation gate. The document artifact may be canonicalized and locked independently of the allocation authorization.
+`DIUA-DIC-000008` shall not be represented as `ALLOCATED — ACTIVE` or as an authorized allocation in any canonical UNIR Registry or Registration Record until `UNIR-ALLOCATION-ACT-008` has completed its authorization and validation gate. The document artifact may be canonicalized, locked, and published independently of the allocation authorization.
