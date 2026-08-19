@@ -24,11 +24,24 @@ Existing repository documents may be used as reference, evidence, historical mat
 
 ### Research Sequence
 
-- `research/UAICP-REF-001-research-and-evidence-framework.md` — research/evidence handling framework.
-- `research/UAICP-RQU-001-research-questions-and-unknowns-framework.md` — research questions and unknowns framework.
-- `research/UAICP-POM-001-problem-and-objective-discovery-model.md` — problem and objective discovery model.
-- `research/UAICP-CED-001-concept-and-entity-discovery-model_v1.1.md` — concept and entity discovery model.
-- `research/UAICP-BRD-001-boundary-and-responsibility-discovery-model.md` — boundary and responsibility discovery model.
+The root-level research and construction methodology currently contains the following sequence:
+
+1. `UAICP-FC-001` — Foundational Concept & North Star
+2. `UAICP-RCC-001` — Project Research & Construction Charter
+3. `UAICP-REF-001` — Research & Evidence Framework
+4. `UAICP-RQU-001` — Research Questions & Unknowns Framework
+5. `UAICP-POM-001` — Problem & Objective Discovery Model
+6. `UAICP-CED-001` — Concept & Entity Discovery Model
+7. `UAICP-BRD-001` — Boundary & Responsibility Discovery Model
+8. `UAICP-RDD-001` — Relationship & Dependency Discovery Model
+9. `UAICP-DCA-001` — Dependency Analysis & Circularity Assessment Model
+10. `UAICP-ARD-001` — Architecture Discovery Model
+
+### Publication Status
+
+Steps 1–8 are currently published in the repository.
+
+Steps 9–10 have completed review and are publication-ready, but are intentionally not yet published. Their inclusion in this methodological sequence does not imply that the files already exist in the repository.
 
 ## Construction Sequence
 
@@ -55,7 +68,11 @@ Dependency & Circularity Analysis
     ↓
 Architecture Discovery
     ↓
-Governance / Document / Operational Architecture
+Architecture Decision Basis
+    ↓
+Architecture Decision / Formalization when justified
+    ↓
+Governance / Document / Operational Architecture as determined by discovery
     ↓
 Implementation
     ↓
@@ -63,6 +80,8 @@ AI Production / Automation
 ```
 
 This sequence is a working methodological map. It does not by itself make any later artifact canonical or determine that every step must become a separate final document.
+
+After Architecture Discovery, the workflow becomes outcome-driven. No additional root-level methodology step is presumed unless research demonstrates that one is necessary.
 
 ## Anti-Loop / Anti-Bootstrap Principle
 
@@ -74,6 +93,13 @@ The project shall not:
 - inherit legacy architecture merely because it already exists;
 - create documents only to reduce or increase file count;
 - convert unresolved questions into architecture by assumption;
+- force a predetermined Universal-level document set before architecture discovery justifies it;
 - or allow implementation constraints to silently define unresolved semantics.
 
 Legacy repository content is not automatically canonical for the new trajectory.
+
+## Scope Principle
+
+Steps 1–10 are root-level methodology artifacts. The term `Universal` is reserved for artifacts whose architectural scope is actually determined to be Universal through the research and architecture process.
+
+Therefore, root-level methodology documents do not use `Universal` merely because the overall initiative has a Universal scope.
