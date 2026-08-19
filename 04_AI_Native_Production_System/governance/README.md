@@ -8,19 +8,19 @@ This directory contains the root-level methodological governance artifacts that 
 
 The following files are the current root-level methodology and decision-control artifacts associated with this construction trajectory:
 
-| Step / Function | Document ID | File | Role |
-|---|---|---|---|
-| 1 | `UAICP-FC-001` | [Foundational Concept & North Star](../foundation/UAICP-FC-001-foundational-concept-and-north-star.md) | Foundational intent and North Star |
-| 2 | `UAICP-RCC-001` | `UAICP-RCC-001-project-research-and-construction-charter.md` | Research and construction governance |
-| 3 | `UAICP-REF-001` | `../research/UAICP-REF-001-research-and-evidence-framework.md` | Evidence and research control |
-| 4 | `UAICP-RQU-001` | `../research/UAICP-RQU-001-research-questions-and-unknowns-framework.md` | Research questions and unknowns |
-| 5 | `UAICP-POM-001` | `../research/UAICP-POM-001-project-problem-and-objective-discovery-model.md` | Problem and objective discovery |
-| 6 | `UAICP-CED-001` | `../research/UAICP-CED-001-project-concept-and-entity-discovery-model_v1.1.md` | Concept and entity discovery |
-| 7 | `UAICP-BRD-001` | `../research/UAICP-BRD-001-project-boundary-and-responsibility-discovery-model.md` | Boundary and responsibility discovery |
-| 8 | `UAICP-RDD-001` | `../research/UAICP-RDD-001-project-relationship-and-dependency-discovery-model.md` | Relationship and candidate-dependency discovery |
-| 9 | `UAICP-DCA-001` | `../research/UAICP-DCA-001-dependency-analysis-and-circularity-assessment-model.md` | Dependency and circularity assessment |
-| 10 | `UAICP-ARD-001` | `../research/UAICP-ARD-001-architecture-discovery-model.md` | Architecture discovery and Architecture Decision Basis |
-| Transition | `UAICP-ADM-001` | `UAICP-ADM-001-architecture-decision-model-v1.0.md` | Controlled transition from Architecture Decision Basis to Architecture Decision |
+| Step / Function | Document ID | File | Role | State |
+|---|---|---|---|---|
+| 1 | `UAICP-FC-001` | [Foundational Concept & North Star](../foundation/UAICP-FC-001-foundational-concept-and-north-star.md) | Foundational intent and North Star | Published |
+| 2 | `UAICP-RCC-001` | `UAICP-RCC-001-project-research-and-construction-charter.md` | Research and construction governance | Published |
+| 3 | `UAICP-REF-001` | `../research/UAICP-REF-001-research-and-evidence-framework.md` | Evidence and research control | Published |
+| 4 | `UAICP-RQU-001` | `../research/UAICP-RQU-001-research-questions-and-unknowns-framework.md` | Research questions and unknowns | Published |
+| 5 | `UAICP-POM-001` | `../research/UAICP-POM-001-project-problem-and-objective-discovery-model.md` | Problem and objective discovery | Published |
+| 6 | `UAICP-CED-001` | `../research/UAICP-CED-001-project-concept-and-entity-discovery-model_v1.1.md` | Concept and entity discovery | Published |
+| 7 | `UAICP-BRD-001` | `../research/UAICP-BRD-001-project-boundary-and-responsibility-discovery-model.md` | Boundary and responsibility discovery | Published |
+| 8 | `UAICP-RDD-001` | `../research/UAICP-RDD-001-project-relationship-and-dependency-discovery-model.md` | Relationship and candidate-dependency discovery | Published |
+| 9 | `UAICP-DCA-001` | `../research/UAICP-DCA-001-dependency-analysis-and-circularity-assessment-model.md` | Dependency and circularity assessment | Published |
+| 10 | `UAICP-ARD-001` | `../research/UAICP-ARD-001-architecture-discovery-model.md` | Architecture discovery and Architecture Decision Basis | Published |
+| Transition | `UAICP-ADM-001` | `UAICP-ADM-001-architecture-decision-model-v1.0.md` | Controlled transition from Architecture Decision Basis to Architecture Decision | Publication-ready / Not yet published |
 
 The file names in this index reflect the current root-level naming convention. Steps 5–8 use normalized filenames without the `Universal` prefix.
 
@@ -32,11 +32,11 @@ This document establishes the research and construction method, sequencing princ
 
 ## Architecture Decision Transition
 
-`UAICP-ADM-001-architecture-decision-model-v1.0.md` is a **root-level transition mechanism**, not a final system governance artifact.
+`UAICP-ADM-001` is a **root-level transition mechanism**, not a final system governance artifact.
 
 It governs the controlled transition from an Architecture Decision Basis to an Architecture Decision. It does not define the architecture itself, create decision authority, or establish final Universal Governance.
 
-The transition is:
+The intended transition is:
 
 ```text
 Architecture Discovery
