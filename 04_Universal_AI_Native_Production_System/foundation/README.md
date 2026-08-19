@@ -50,9 +50,25 @@ The use of the word **Universal** in later core documents denotes an architectur
 
 ## Current Research State
 
-Steps 1–8 are currently published in the repository. Step 9 (`UAICP-DCA-001`) and Step 10 (`UAICP-ARD-001`) have completed review and are publication-ready but have not yet been published.
+Steps 1–10 are currently published in the repository.
 
 After Step 10, the workflow becomes outcome-driven. Step 10 produces an **Architecture Decision Basis**, not an automatically approved architecture or a predetermined Step 11.
+
+The architecture-decision transition is governed by `UAICP-ADM-001`, which is a root-level transition mechanism rather than a numbered discovery step.
+
+The transition is:
+
+```text
+Architecture Discovery
+        ↓
+Architecture Decision Basis
+        ↓
+Architecture Decision Model
+        ↓
+Architecture Decision
+```
+
+`UAICP-ADM-001` does not define the architecture itself, create decision authority, or establish final Universal Governance.
 
 ## Reading Rule
 
