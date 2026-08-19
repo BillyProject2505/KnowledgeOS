@@ -43,14 +43,14 @@ establish a final or canonical architecture.
 Steps 1–9 established the research and discovery foundation from which Step 10
 could evaluate architectural possibilities.
 
-The discovery work identifies a recurring system need: the future system must
-support governed resolution of knowledge and production-relevant information
-while preserving authority, applicability, temporal context, provenance,
-semantic boundaries, and dependency integrity.
+The discovery work identifies recurring candidate problem areas around knowledge
+applicability, authority, semantic connection, production-rule reuse, document
+dependency effects, and historical/current distinction. These remain research
+candidates and are not treated here as automatically confirmed facts.
 
-The architecture must therefore be evaluated as a response to discovered
-problems and concerns rather than as an extension of an existing repository or
-implementation structure.
+The architecture must therefore be evaluated as a response to sufficiently
+supported findings and material concerns rather than as an extension of an
+existing repository or implementation structure.
 
 ---
 
@@ -78,9 +78,10 @@ ARD-001
 Architecture Discovery
 ```
 
-The upstream research establishes candidate problems rather than automatically
-confirmed facts. Evidence maturity, applicability, provenance, and uncertainty
-must therefore remain visible throughout architectural reasoning.
+The upstream research establishes candidate problems, candidate concepts,
+boundaries, relationships, and dependency assessments at different maturity
+levels. Evidence maturity, applicability, provenance, and uncertainty therefore
+remain visible throughout architectural reasoning.
 
 ---
 
@@ -88,31 +89,48 @@ must therefore remain visible throughout architectural reasoning.
 
 ## D-01 — Knowledge Applicability
 
-The system may need to determine which knowledge is applicable to a request,
-context, or production task.
+**Evidence status:** Candidate driver supported by the problem landscape and
+applicability principles.
+
+The architecture should support determining which knowledge is applicable to a
+request, context, or production task without relying on repository convenience
+alone.
 
 ## D-02 — Authority Integrity
 
-The system may need to distinguish legitimate authority from document location,
+**Evidence status:** Candidate driver with substantial upstream support.
+
+The architecture should distinguish legitimate authority from document location,
 authorship, repository ownership, or implementation control.
 
 ## D-03 — Temporal Applicability
 
-The system may need to distinguish historical material from currently applicable
-material and preserve time-dependent validity.
+**Evidence status:** Candidate driver with substantial upstream support.
+
+The architecture should distinguish historical material from currently
+applicable material and preserve time-dependent validity where material.
 
 ## D-04 — Dependency Integrity
+
+**Evidence status:** Established architectural concern derived from relationship
+and dependency assessment principles.
 
 The architecture must distinguish ordinary relationships from material
 dependencies and semantic dependencies from implementation coupling.
 
 ## D-05 — Semantic Boundary Integrity
 
+**Evidence status:** Established architectural concern derived from concept,
+boundary, and relationship discovery.
+
 Concepts, entities, responsibilities, authority, scope, relationships, and
 representations must remain distinguishable where the evidence shows that the
 distinction is material.
 
 ## D-06 — Evidence and Provenance Integrity
+
+**Evidence status:** Established architectural concern derived from the evidence
+and provenance framework and subsequent discovery steps.
 
 Material reasoning must remain traceable to its evidence, while uncertainty,
 hypotheses, and unresolved states remain visible.
@@ -131,6 +149,8 @@ The principal architectural concerns are:
 - preservation of evidence, provenance, and uncertainty;
 - protection against foundational circularity and bootstrap failure;
 - independence of semantic architecture from repository and implementation form.
+
+These concerns are not themselves implementation components.
 
 ---
 
@@ -170,8 +190,9 @@ The architecture must respect the following constraints:
 
 # 8. Architectural Invariants
 
-The following invariants are treated as material conditions for a valid candidate
-architecture where supported by the upstream evidence:
+The following invariants are treated as material conditions for candidate
+architecture evaluation because they are supported by upstream research,
+constraints, or dependency principles:
 
 ```text
 Evidence is distinguishable from Authority.
@@ -183,7 +204,7 @@ Foundational construction dependencies remain non-circular.
 Canonical meaning does not depend solely on repository location.
 ```
 
-These are constraints on candidate evaluation, not implementation specifications.
+These are evaluation conditions, not implementation specifications.
 
 ---
 
@@ -207,6 +228,10 @@ Risks:
 - potential bottleneck;
 - reduced domain autonomy.
 
+**Disposition: DEFERRED.** Retained as a credible alternative because
+centralized consistency may be valuable where evidence later demonstrates that
+central control is materially required.
+
 ## Alternative B — Federated Semantic Architecture
 
 Knowledge and selected resolution responsibilities remain distributed while
@@ -224,6 +249,10 @@ Risks:
 - cross-domain provenance complexity;
 - coordination overhead;
 - increased dependency management complexity.
+
+**Disposition: DEFERRED.** Retained as a credible alternative because
+federation may become preferable if material domain autonomy is subsequently
+established.
 
 ## Alternative C — Composable / Multi-Dimensional Architecture
 
@@ -247,6 +276,10 @@ Risks:
 - requires clear responsibility ownership;
 - may be more difficult to explain or implement initially.
 
+**Disposition: PREFERRED CANDIDATE / REQUIRES_FURTHER_ANALYSIS.** Candidate C
+currently provides the strongest overall fit to the discovered concerns and
+invariants, but it is not selected or authorized as an Architecture Decision.
+
 ---
 
 # 10. Comparative Assessment
@@ -264,9 +297,9 @@ Risks:
 | Risk of over-centralization | High | Low | Lower |
 | Risk of fragmentation | Low | High | Medium |
 
-The assessment does not establish a final architecture. It identifies the
-current comparative position of the alternatives based on the Step 5–9 evidence
-available to Step 10.
+The assessment identifies the current comparative position of the alternatives
+based on the Step 5–9 evidence available to Step 10. It does not establish a
+final architecture.
 
 ---
 
@@ -300,9 +333,15 @@ The preferred candidate carries several material trade-offs:
 - distributed or cross-cutting provenance requires consistent semantics;
 - implementation should not collapse semantic distinctions for convenience.
 
-Alternative A remains attractive where centralized consistency is materially more
-important than domain autonomy. Alternative B remains attractive where domain
-autonomy is demonstrated to be a material requirement.
+### Risk Disposition
+
+| Risk | Disposition |
+|---|---|
+| Coordination complexity | ACCEPTED FOR FURTHER ANALYSIS |
+| Dependency-boundary drift | REQUIRES_VALIDATION |
+| Authority bootstrap risk | BLOCKING IF INTRODUCED |
+| Provenance semantic inconsistency | REQUIRES_VALIDATION |
+| Implementation-driven semantic collapse | MITIGATED BY CONSTRAINTS |
 
 ---
 
@@ -319,7 +358,14 @@ The current basis depends on the following assumptions:
 4. Legitimate architecture decision authority will be supplied by an applicable
    governance mechanism rather than created by this document.
 
-These assumptions must be reviewed during eligibility assessment.
+### Assumption Disposition
+
+| Assumption | Disposition |
+|---|---|
+| Step 5 problem candidates remain material | REQUIRES_VALIDATION |
+| Step 6–9 distinctions remain architecturally material | REQUIRES_VALIDATION |
+| No currently known evidence fundamentally reverses Candidate C | ACCEPTED FOR ELIGIBILITY REVIEW |
+| Legitimate decision authority exists outside this document | CONDITION FOR DECISION |
 
 ---
 
@@ -334,7 +380,20 @@ The following remain open:
 - the detailed relationship between resolution flow and production workflow;
 - detailed implementation consequences.
 
-These issues remain explicit rather than being silently closed by this document.
+### Unresolved Issue Classification
+
+| Issue | Status | Blocking Effect |
+|---|---|---|
+| Exact architectural scope | OPEN | CONDITIONALLY BLOCKING |
+| Precise authority allocation | OPEN | CONDITIONALLY BLOCKING |
+| Knowledge-resolution structural form | OPEN | NON-BLOCKING for basis; material for final design |
+| Provenance placement/distribution | OPEN | NON-BLOCKING for basis; material for final design |
+| Resolution-flow / production relationship | OPEN | NON-BLOCKING for basis; material for final design |
+| Detailed implementation consequences | DEFERRED | NON-BLOCKING |
+
+None of these issues is currently established as sufficient, by itself, to
+reverse the preferred candidate. Eligibility assessment must nevertheless test
+whether any unresolved issue is capable of fundamentally changing the decision.
 
 ---
 
@@ -344,7 +403,21 @@ This document provides a structured basis for the next decision-transition stage
 
 It does not itself authorize architecture.
 
-The next authorized action is an eligibility assessment under `UAICP-ADM-001`.
+For `UAICP-ADM-001`, the current input state is:
+
+```text
+Architecture Decision Basis        PRESENT
+Material Alternatives               IDENTIFIED
+Material Concerns                  ASSESSED
+Material Dependencies              ASSESSED
+Circularity / Bootstrap Risks      DISPOSITIONED
+Material Assumptions               IDENTIFIED / CLASSIFIED
+Unresolved Issues                  IDENTIFIED / CLASSIFIED
+Upstream Traceability              PRESENT
+```
+
+The next authorized action is a formal eligibility assessment under
+`UAICP-ADM-001`.
 
 Possible outcomes are:
 
@@ -394,7 +467,8 @@ chain.
 
 # 17. Status Statement
 
-**Status: DRAFT — Architecture Decision Basis prepared for eligibility assessment.**
+**Status: DRAFT — Architecture Decision Basis refined and prepared for formal
+eligibility assessment.**
 
 This document does not establish, canonize, approve, or authorize the final
 architecture.
