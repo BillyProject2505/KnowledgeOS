@@ -20,7 +20,7 @@ The following files are the current root-level methodology and decision-control 
 | 8 | `UAICP-RDD-001` | `../research/UAICP-RDD-001-project-relationship-and-dependency-discovery-model.md` | Relationship and candidate-dependency discovery | Published |
 | 9 | `UAICP-DCA-001` | `../research/UAICP-DCA-001-dependency-analysis-and-circularity-assessment-model.md` | Dependency and circularity assessment | Published |
 | 10 | `UAICP-ARD-001` | `../research/UAICP-ARD-001-architecture-discovery-model.md` | Architecture discovery and Architecture Decision Basis | Published |
-| Transition | `UAICP-ADM-001` | `UAICP-ADM-001-architecture-decision-model-v1.0.md` | Controlled transition from Architecture Decision Basis to Architecture Decision | Publication-ready / Not yet published |
+| Transition | `UAICP-ADM-001` | `UAICP-ADM-001-architecture-decision-model-v1.0.md` | Controlled transition from Architecture Decision Basis to Architecture Decision | Published |
 
 The file names in this index reflect the current root-level naming convention. Steps 5–8 use normalized filenames without the `Universal` prefix.
 
