@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This directory is the dedicated home for the new Universal AI-Native Production System research and construction trajectory.
+This directory is the dedicated home for the new AI-Native Production System research and construction trajectory.
 
 It is intentionally separated from the existing `00_System` architecture and governance corpus so that the new project can be researched and constructed from a clean methodological baseline while preserving the historical repository corpus unchanged.
 
@@ -39,9 +39,9 @@ The root-level research and construction methodology currently contains the foll
 
 ### Publication Status
 
-Steps 1–8 are currently published in the repository.
+Steps 1–10 are currently published in the repository.
 
-Steps 9–10 have completed review and are publication-ready, but are intentionally not yet published. Their inclusion in this methodological sequence does not imply that the files already exist in the repository.
+Publication does not automatically establish canonicality. Each document remains subject to its own stated status, authority, lifecycle, and later decision process.
 
 ## Construction Sequence
 
