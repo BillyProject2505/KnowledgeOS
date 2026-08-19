@@ -16,11 +16,11 @@ Existing repository documents may be used as reference, evidence, historical mat
 
 ### Foundation
 
-- `foundation/UAICP-FC-001-foundational-concept-and-north-star.md` — foundational concept and project North Star.
+- `foundation/UAICP-FC-001-foundational-concept-and-north-star_v1.0.md` — foundational concept and project North Star.
 
 ### Construction Governance
 
-- `governance/UAICP-RCC-001-project-research-and-construction-charter.md` — governs how the new trajectory is researched and constructed, including anti-loop and anti-bootstrap safeguards.
+- `governance/UAICP-RCC-001-project-research-and-construction-charter_v1.0.md` — governs how the new trajectory is researched and constructed, including anti-loop and anti-bootstrap safeguards.
 - `governance/UAICP-ADM-001-architecture-decision-model-v1.0.md` — governs the controlled transition from Architecture Decision Basis to Architecture Decision; it is not a final system governance artifact and is not a numbered Step 11.
 
 ### Research Sequence
@@ -37,6 +37,24 @@ The root-level research and construction methodology currently contains the foll
 8. `UAICP-RDD-001` — Relationship & Dependency Discovery Model
 9. `UAICP-DCA-001` — Dependency Analysis & Circularity Assessment Model
 10. `UAICP-ARD-001` — Architecture Discovery Model
+
+### Current Filenames
+
+The repository currently uses explicit version suffixes in the filenames of the published methodology artifacts:
+
+```text
+UAICP-FC-001-foundational-concept-and-north-star_v1.0.md
+UAICP-RCC-001-project-research-and-construction-charter_v1.0.md
+UAICP-REF-001-research-and-evidence-framework_v1.0.md
+UAICP-RQU-001-research-questions-and-unknowns-framework_v1.0.md
+UAICP-POM-001-problem-and-objective-discovery-model_v1.0.md
+UAICP-CED-001-concept-and-entity-discovery-model_v1.1.md
+UAICP-BRD-001-boundary-and-responsibility-discovery-model_v1.0.md
+UAICP-RDD-001-relationship-and-dependency-discovery-model_v1.0.md
+UAICP-DCA-001-dependency-analysis-and-circularity-assessment-model_v1.2.md
+UAICP-ARD-001-architecture-discovery-model_v1.1.md
+UAICP-ADM-001-architecture-decision-model-v1.0.md
+```
 
 ### Publication Status
 
