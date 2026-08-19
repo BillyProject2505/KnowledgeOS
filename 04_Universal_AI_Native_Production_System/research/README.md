@@ -36,16 +36,16 @@ This is a **root-level discovery and construction workflow**, not a pre-declared
 
 | Step | Document ID | File | Purpose |
 |---|---|---|---|
-| 1 | `UAICP-FC-001` | `foundation/UAICP-FC-001-foundational-concept-and-north-star.md` | Foundational concept and North Star |
-| 2 | `UAICP-RCC-001` | `governance/UAICP-RCC-001-project-research-and-construction-charter.md` | Research and construction control |
-| 3 | `UAICP-REF-001` | `UAICP-REF-001-research-and-evidence-framework.md` | Evidence and research discipline |
-| 4 | `UAICP-RQU-001` | `UAICP-RQU-001-research-questions-and-unknowns-framework.md` | Research questions and unresolved unknowns |
-| 5 | `UAICP-POM-001` | `UAICP-POM-001-project-problem-and-objective-discovery-model.md` | Problem and objective discovery |
-| 6 | `UAICP-CED-001` | `UAICP-CED-001-project-concept-and-entity-discovery-model_v1.1.md` | Concept and entity discovery |
-| 7 | `UAICP-BRD-001` | `UAICP-BRD-001-project-boundary-and-responsibility-discovery-model.md` | Boundary and responsibility discovery |
-| 8 | `UAICP-RDD-001` | `UAICP-RDD-001-project-relationship-and-dependency-discovery-model.md` | Relationship and candidate-dependency discovery |
-| 9 | `UAICP-DCA-001` | `UAICP-DCA-001-dependency-analysis-and-circularity-assessment-model.md` | Dependency and circularity assessment |
-| 10 | `UAICP-ARD-001` | `UAICP-ARD-001-architecture-discovery-model.md` | Architecture discovery and Architecture Decision Basis |
+| 3 | `UAICP-REF-001` | `UAICP-REF-001-research-and-evidence-framework_v1.0.md` | Evidence and research discipline |
+| 4 | `UAICP-RQU-001` | `UAICP-RQU-001-research-questions-and-unknowns-framework_v1.0.md` | Research questions and unresolved unknowns |
+| 5 | `UAICP-POM-001` | `UAICP-POM-001-problem-and-objective-discovery-model_v1.0.md` | Problem and objective discovery |
+| 6 | `UAICP-CED-001` | `UAICP-CED-001-concept-and-entity-discovery-model_v1.1.md` | Concept and entity discovery |
+| 7 | `UAICP-BRD-001` | `UAICP-BRD-001-boundary-and-responsibility-discovery-model_v1.0.md` | Boundary and responsibility discovery |
+| 8 | `UAICP-RDD-001` | `UAICP-RDD-001-relationship-and-dependency-discovery-model_v1.0.md` | Relationship and candidate-dependency discovery |
+| 9 | `UAICP-DCA-001` | `UAICP-DCA-001-dependency-analysis-and-circularity-assessment-model_v1.2.md` | Dependency and circularity assessment |
+| 10 | `UAICP-ARD-001` | `UAICP-ARD-001-architecture-discovery-model_v1.1.md` | Architecture discovery and Architecture Decision Basis |
+
+Steps 1–2 are indexed from their owning folders: `../foundation/UAICP-FC-001-foundational-concept-and-north-star_v1.0.md` and `../governance/UAICP-RCC-001-project-research-and-construction-charter_v1.0.md`.
 
 ## Publication State
 
@@ -68,7 +68,7 @@ Architecture Discovery
         ↓
 Architecture Decision Basis
         ↓
-Decision Point
+Decision Eligibility
         ├── Evidence insufficient
         │       ↓
         │   Further research / discovery
