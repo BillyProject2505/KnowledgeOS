@@ -397,38 +397,51 @@ whether any unresolved issue is capable of fundamentally changing the decision.
 
 ---
 
-# 15. Decision Readiness
+# 15. Eligibility Assessment
 
-This document provides a structured basis for the next decision-transition stage.
+`UAICP-ADM-001` eligibility assessment has been completed against the current
+Architecture Decision Basis.
 
-It does not itself authorize architecture.
+## Eligibility Result
 
-For `UAICP-ADM-001`, the current input state is:
+**ELIGIBLE_WITH_CONDITIONS**
 
-```text
-Architecture Decision Basis        PRESENT
-Material Alternatives               IDENTIFIED
-Material Concerns                  ASSESSED
-Material Dependencies              ASSESSED
-Circularity / Bootstrap Risks      DISPOSITIONED
-Material Assumptions               IDENTIFIED / CLASSIFIED
-Unresolved Issues                  IDENTIFIED / CLASSIFIED
-Upstream Traceability              PRESENT
-```
+The Architecture Decision Basis is sufficiently structured to proceed to the
+Architecture Decision process, but two conditions remain mandatory before a
+final Architecture Decision may be approved or become effective.
 
-The next authorized action is a formal eligibility assessment under
-`UAICP-ADM-001`.
+### Condition CND-001 — Architectural Scope
 
-Possible outcomes are:
+The scope of the eventual architecture must be explicitly established before
+final Architecture Decision approval.
 
-```text
-ELIGIBLE
-ELIGIBLE_WITH_CONDITIONS
-NOT_ELIGIBLE
-```
+Possible scope outcomes include Universal, cross-project, project, domain,
+production, or another justified scope. Scope must be determined as a discovery
+and decision outcome rather than inferred from the repository or document title.
 
-A material unresolved issue that could fundamentally change the preferred
-candidate should result in `NOT_ELIGIBLE` until appropriately resolved.
+**Status:** OPEN / CONDITIONALLY BLOCKING.
+
+### Condition CND-002 — Legitimate Decision Authority
+
+A legitimate governance mechanism must identify the authority entitled to make,
+approve, and, where applicable, make effective the Architecture Decision.
+
+Authority must not be inferred from document authorship, repository ownership,
+AI generation, technical convenience, or implementation control.
+
+**Status:** OPEN / CONDITIONALLY BLOCKING.
+
+## Eligibility Interpretation
+
+`ELIGIBLE_WITH_CONDITIONS` does **not** mean that Candidate C has been selected,
+approved, canonicalized, or made effective.
+
+It means only that the current Architecture Decision Basis may proceed to the
+Architecture Decision process subject to CND-001 and CND-002.
+
+The Architecture Decision process must return to research or architecture
+discovery if either condition reveals a material issue capable of fundamentally
+changing the preferred candidate.
 
 ---
 
@@ -458,17 +471,21 @@ Assessed Dependencies / Circularity
 ARD-001
   ↓
 Architecture Decision Basis
+  ↓
+ADM-001 Eligibility Assessment
+  ↓
+ELIGIBLE_WITH_CONDITIONS
 ```
 
-The preferred candidate and its rationale remain traceable to this upstream
-chain.
+The preferred candidate and its rationale remain traceable to the upstream
+discovery chain.
 
 ---
 
 # 17. Status Statement
 
-**Status: DRAFT — Architecture Decision Basis refined and prepared for formal
-eligibility assessment.**
+**Status: DRAFT — Architecture Decision Basis refined and assessed as
+ELIGIBLE_WITH_CONDITIONS for transition to the Architecture Decision process.**
 
 This document does not establish, canonize, approve, or authorize the final
 architecture.
