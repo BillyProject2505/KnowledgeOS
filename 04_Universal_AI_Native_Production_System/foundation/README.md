@@ -2,11 +2,11 @@
 
 ## Purpose
 
-This directory contains the foundational conceptual references for the new Universal AI-Native Production System trajectory.
+This directory contains the foundational conceptual reference for the new AI-Native Production System trajectory.
 
 ## Primary Document
 
-`UAICP-FC-001-foundational-concept-and-north-star.md`
+`UAICP-FC-001-foundational-concept-and-north-star_v1.0.md`
 
 This document defines the project's conceptual North Star, intended end-state, lessons learned, and methodological direction.
 
@@ -54,7 +54,9 @@ Steps 1–10 are currently published in the repository.
 
 After Step 10, the workflow becomes outcome-driven. Step 10 produces an **Architecture Decision Basis**, not an automatically approved architecture or a predetermined Step 11.
 
-The architecture-decision transition is governed by `UAICP-ADM-001`, which is a root-level transition mechanism rather than a numbered discovery step.
+The architecture-decision transition is governed by `UAICP-ADM-001`, which is a root-level transition mechanism rather than a numbered discovery step. Its current file is:
+
+`../governance/UAICP-ADM-001-architecture-decision-model-v1.0.md`
 
 The transition is:
 
