@@ -6,20 +6,22 @@ This directory contains the root-level methodological governance artifacts that 
 
 ## File Index
 
-The current root-level methodology sequence is:
+The following files are the current root-level methodology artifacts associated with this construction trajectory:
 
-1. `UAICP-FC-001` — Foundational Concept & North Star
-2. `UAICP-RCC-001` — Research & Construction Charter
-3. `UAICP-REF-001` — Research & Evidence Framework
-4. `UAICP-RQU-001` — Research Questions & Unknowns
-5. `UAICP-POM-001` — Project Problem & Objective Discovery Model
-6. `UAICP-CED-001` — Project Concept & Entity Discovery Model
-7. `UAICP-BRD-001` — Project Boundary & Responsibility Discovery Model
-8. `UAICP-RDD-001` — Project Relationship & Dependency Discovery Model
-9. `UAICP-DCA-001` — Dependency Analysis & Circularity Assessment Model
-10. `UAICP-ARD-001` — Architecture Discovery Model
+| Step | Document ID | File | Role |
+|---|---|---|---|
+| 1 | `UAICP-FC-001` | [Foundational Concept & North Star](../foundation/UAICP-FC-001-foundational-concept-and-north-star.md) | Foundational intent and North Star |
+| 2 | `UAICP-RCC-001` | `UAICP-RCC-001-project-research-and-construction-charter.md` | Research and construction governance |
+| 3 | `UAICP-REF-001` | `UAICP-REF-001-research-and-evidence-framework.md` | Evidence and research control |
+| 4 | `UAICP-RQU-001` | `UAICP-RQU-001-research-questions-and-unknowns.md` | Research questions and unknowns |
+| 5 | `UAICP-POM-001` | `UAICP-POM-001-project-problem-and-objective-discovery-model.md` | Problem and objective discovery |
+| 6 | `UAICP-CED-001` | `UAICP-CED-001-project-concept-and-entity-discovery-model.md` | Concept and entity discovery |
+| 7 | `UAICP-BRD-001` | `UAICP-BRD-001-project-boundary-and-responsibility-discovery-model.md` | Boundary and responsibility discovery |
+| 8 | `UAICP-RDD-001` | `UAICP-RDD-001-project-relationship-and-dependency-discovery-model.md` | Relationship and candidate-dependency discovery |
+| 9 | `UAICP-DCA-001` | `UAICP-DCA-001-dependency-analysis-and-circularity-assessment-model.md` | Dependency and circularity assessment |
+| 10 | `UAICP-ARD-001` | `UAICP-ARD-001-architecture-discovery-model.md` | Architecture discovery |
 
-These documents form the current root-level methodology chain from foundational intent through architecture discovery.
+The file names in this index reflect the current root-level naming convention. Steps 5–8 use the normalized filenames without the `Universal` prefix.
 
 ## Primary Governance Document
 
