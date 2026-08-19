@@ -397,51 +397,63 @@ whether any unresolved issue is capable of fundamentally changing the decision.
 
 ---
 
-# 15. Eligibility Assessment
+# 15. Decision Readiness
 
-`UAICP-ADM-001` eligibility assessment has been completed against the current
-Architecture Decision Basis.
+This document provides a structured basis for the next decision-transition stage.
 
-## Eligibility Result
+It does not itself authorize architecture.
 
-**ELIGIBLE_WITH_CONDITIONS**
+For `UAICP-ADM-001`, the current input state is:
 
-The Architecture Decision Basis is sufficiently structured to proceed to the
-Architecture Decision process, but two conditions remain mandatory before a
-final Architecture Decision may be approved or become effective.
+```text
+Architecture Decision Basis        PRESENT
+Material Alternatives               IDENTIFIED
+Material Concerns                  ASSESSED
+Material Dependencies              ASSESSED
+Circularity / Bootstrap Risks      DISPOSITIONED
+Material Assumptions               IDENTIFIED / CLASSIFIED
+Unresolved Issues                  IDENTIFIED / CLASSIFIED
+Upstream Traceability              PRESENT
+```
+
+The formal eligibility assessment has been completed as follows:
+
+```text
+Eligibility: ELIGIBLE_WITH_CONDITIONS
+
+Conditions:
+CND-001 — Architectural Scope
+    OPEN / CONDITIONALLY BLOCKING
+
+CND-002 — Legitimate Decision Authority
+    OPEN / CONDITIONALLY BLOCKING
+```
+
+**Eligibility does not select or approve Candidate C.** It only permits the
+architecture decision process to proceed if the stated conditions are satisfied
+by the applicable decision authority.
 
 ### Condition CND-001 — Architectural Scope
 
-The scope of the eventual architecture must be explicitly established before
-final Architecture Decision approval.
-
-Possible scope outcomes include Universal, cross-project, project, domain,
-production, or another justified scope. Scope must be determined as a discovery
-and decision outcome rather than inferred from the repository or document title.
-
-**Status:** OPEN / CONDITIONALLY BLOCKING.
+The scope of the architecture to be decided must be established explicitly.
+Scope must be treated as a discovery/decision outcome and must not be inferred
+from repository naming, folder location, or the existence of historical
+Universal Architecture artifacts.
 
 ### Condition CND-002 — Legitimate Decision Authority
 
-A legitimate governance mechanism must identify the authority entitled to make,
-approve, and, where applicable, make effective the Architecture Decision.
+A legitimate and applicable governance mechanism must identify the authority
+that may make and approve the architecture decision. Authority must not be
+inferred from document authorship, repository ownership, AI generation,
+technical convenience, or historical architecture artifacts.
 
-Authority must not be inferred from document authorship, repository ownership,
-AI generation, technical convenience, or implementation control.
+Historical architecture artifacts, including `UA-CORE-001`, are not treated as
+current decision authority or normative basis for this decision process. They may
+be retained as historical/reference material for future architecture research
+subject to the Research & Evidence Framework.
 
-**Status:** OPEN / CONDITIONALLY BLOCKING.
-
-## Eligibility Interpretation
-
-`ELIGIBLE_WITH_CONDITIONS` does **not** mean that Candidate C has been selected,
-approved, canonicalized, or made effective.
-
-It means only that the current Architecture Decision Basis may proceed to the
-Architecture Decision process subject to CND-001 and CND-002.
-
-The Architecture Decision process must return to research or architecture
-discovery if either condition reveals a material issue capable of fundamentally
-changing the preferred candidate.
+Until CND-001 and CND-002 are resolved, no Architecture Decision shall be
+recorded as approved or effective.
 
 ---
 
@@ -472,20 +484,20 @@ ARD-001
   ↓
 Architecture Decision Basis
   ↓
-ADM-001 Eligibility Assessment
+ADM-001
   ↓
-ELIGIBLE_WITH_CONDITIONS
+Eligibility Assessment: ELIGIBLE_WITH_CONDITIONS
 ```
 
-The preferred candidate and its rationale remain traceable to the upstream
-discovery chain.
+The preferred candidate and its rationale remain traceable to this upstream
+chain.
 
 ---
 
 # 17. Status Statement
 
-**Status: DRAFT — Architecture Decision Basis refined and assessed as
-ELIGIBLE_WITH_CONDITIONS for transition to the Architecture Decision process.**
+**Status: DRAFT — Architecture Decision Basis complete for the current discovery
+cycle; decision transition remains conditional.**
 
 This document does not establish, canonize, approve, or authorize the final
 architecture.
