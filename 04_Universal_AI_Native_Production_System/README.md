@@ -21,6 +21,7 @@ Existing repository documents may be used as reference, evidence, historical mat
 ### Construction Governance
 
 - `governance/UAICP-RCC-001-project-research-and-construction-charter.md` — governs how the new trajectory is researched and constructed, including anti-loop and anti-bootstrap safeguards.
+- `governance/UAICP-ADM-001-architecture-decision-model-v1.0.md` — governs the controlled transition from Architecture Decision Basis to Architecture Decision; it is not a final system governance artifact and is not a numbered Step 11.
 
 ### Research Sequence
 
@@ -40,6 +41,8 @@ The root-level research and construction methodology currently contains the foll
 ### Publication Status
 
 Steps 1–10 are currently published in the repository.
+
+`UAICP-ADM-001` is also published as a root-level architecture decision transition mechanism.
 
 Publication does not automatically establish canonicality. Each document remains subject to its own stated status, authority, lifecycle, and later decision process.
 
@@ -70,6 +73,8 @@ Architecture Discovery
     ↓
 Architecture Decision Basis
     ↓
+Architecture Decision Model
+    ↓
 Architecture Decision / Formalization when justified
     ↓
 Governance / Document / Operational Architecture as determined by discovery
@@ -81,7 +86,32 @@ AI Production / Automation
 
 This sequence is a working methodological map. It does not by itself make any later artifact canonical or determine that every step must become a separate final document.
 
-After Architecture Discovery, the workflow becomes outcome-driven. No additional root-level methodology step is presumed unless research demonstrates that one is necessary.
+The numbered research sequence ends at Step 10. `UAICP-ADM-001` is a transition mechanism, not a new numbered discovery step.
+
+## Outcome-Driven Principle After Architecture Discovery
+
+After Architecture Discovery, the workflow becomes outcome-driven rather than document-count-driven.
+
+```text
+Architecture Discovery
+        ↓
+Architecture Decision Basis
+        ↓
+Architecture Decision Model
+        ↓
+Decision Eligibility
+        ├── Evidence insufficient
+        │       ↓
+        │   Further research / discovery
+        │
+        └── Evidence sufficient
+                ↓
+        Architecture Decision
+                ↓
+        Approved / Rejected / Deferred / Return-to-Research / Return-to-Architecture-Discovery
+```
+
+No numbered Step 11 is predetermined merely to continue the numbering. Any subsequent artifact must be justified by the resulting decision and applicable discovery.
 
 ## Anti-Loop / Anti-Bootstrap Principle
 
@@ -100,6 +130,8 @@ Legacy repository content is not automatically canonical for the new trajectory.
 
 ## Scope Principle
 
-Steps 1–10 are root-level methodology artifacts. The term `Universal` is reserved for artifacts whose architectural scope is actually determined to be Universal through the research and architecture process.
+Steps 1–10 are root-level methodology artifacts. `UAICP-ADM-001` is a root-level architecture decision transition artifact. These artifacts are not automatically part of the Universal architectural layer.
 
-Therefore, root-level methodology documents do not use `Universal` merely because the overall initiative has a Universal scope.
+The term `Universal` is reserved for artifacts whose architectural or knowledge scope is actually determined to be Universal through the research, discovery, and decision process.
+
+Therefore, root-level methodology and transition artifacts do not use `Universal` merely because the overall initiative may later produce Universal-scope artifacts.
