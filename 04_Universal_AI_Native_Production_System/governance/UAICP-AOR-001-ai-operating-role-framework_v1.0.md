@@ -1,12 +1,14 @@
 # AI Operating Role Framework
 
-> **Status:** Working Basis / Conceptual Draft
+> **Status:** Canonical
 > **Document Name:** AI Operating Role Framework
-> **Canonical ID:** Not yet determined
-> **Version:** Derived from Working Basis v64 (controlled architectural decomposition, revision 2 — primary-ownership model)
+> **Canonical ID:** UAICP-AOR-001
+> **Version:** 1.0
+> **Provenance:** Derived from Working Basis v64 (controlled architectural decomposition, revision 2 — primary-ownership model)
+> **Canonicality:** Canonical
 > **Scope:** Universal / Meta-Governance Layer — governs AI as an operating actor
 > **Companion Document:** Directive Framework (governs directives as governed objects; sole substantive home of Framework-Level Invariants I–LXII)
-> **Repository:** Not yet materialized
+> **Repository:** `04_Universal_AI_Native_Production_System/governance/UAICP-AOR-001-ai-operating-role-framework_v1.0.md`
 
 > **Decomposition Note (revision 2):** This document is one of two final frameworks
 > decomposed from `AI-Operating-Role-and-Directive-Framework-working-basis-v64.md`.
@@ -694,13 +696,11 @@ Intended focus:
 
 Intended focus:
 
-- document architecture;
-- structure;
-- terminology;
-- consistency;
-- traceability;
-- conformance;
-- contradiction and gap detection.
+- document structure;
+- canonical integrity;
+- cross-reference integrity;
+- version and lifecycle consistency;
+- completeness and conformance review.
 
 ### Supporting candidate 2
 
@@ -708,897 +708,644 @@ Intended focus:
 
 Intended focus:
 
-- evidence boundary;
-- findings;
-- requirements;
-- unknowns;
-- constraints;
-- governance conditions;
+- governance interpretation;
+- evidence assessment;
 - authority boundaries;
-- decision dependencies.
+- provenance;
+- unresolved questions and uncertainty.
 
-These role examples are a working configuration for the current project and do not constitute a final Universal role registry.
+These role names are working labels for current meta-governance construction and are not yet a final role taxonomy.
 
 
-## 10. Project / Domain Role Boundary
+## 10. Role Contract
 
-Project-, domain-, and production-specific roles should be defined at the applicable lower layer rather than being enumerated in this meta-level framework.
+A Role Contract defines the operating constraints of a role.
+
+At minimum, a Role Contract should establish:
 
 ```text
-Meta-Governance Role Framework
-        ↓
-Project / Domain Role Framework
-        ↓
-Production-specific roles
-        ↓
-Content Creator / Writer / Editor / etc.
+Role Identity
+Purpose
+Responsibilities
+Permitted Actions
+Prohibited Actions
+Decision Boundary
+Required Inputs
+Expected Outputs
+Escalation Conditions
+Applicable Rules
 ```
 
-A lower-level role framework should inherit applicable meta-level constraints and principles while defining the roles required for its own work.
-
-This allows the Universal framework to remain stable while project-specific role systems evolve independently within applicable boundaries.
-
-
-## 11. Role Transition Mechanism
-
-Role Transition is a controlled change in AI's operating configuration that occurs when the work context changes materially such that the currently active role is no longer the most appropriate operating configuration for the task.
-
-### 11.1 Transition Trigger
-
-A transition may be triggered when there is a material change in:
-
-- the work object;
-- workflow stage;
-- task objective;
-- required reasoning or competence;
-- governance or evidence conditions;
-- the decision boundary reached by the active role.
-
-A minor change that does not materially alter the required operating function does not by itself require transition.
-
-### 11.2 Context Re-Resolution
-
-AI must not transition roles merely because a new issue appears. The transition mechanism is an extension of automatic contextual resolution:
+### 10.1 Role Contract Example
 
 ```text
-Active Role
-     ↓
-New information / task development
-     ↓
-Context Change Detection
-     ↓
-Context Re-Resolution
-     ↓
-Role Candidate Evaluation
-     ↓
-Transition Decision
-     ↓
-New Role Activation
+ROLE:
+Documentation Architect & Auditor
+
+PURPOSE:
+Assess structure, completeness, integrity,
+and conformance of governed documents.
+
+MAY:
+- analyze documents;
+- identify missing elements;
+- compare against applicable standards;
+- identify structural inconsistency;
+- recommend correction.
+
+MUST NOT:
+- invent missing evidence;
+- declare approval without authority;
+- silently alter authoritative content;
+- declare canonicality without applicable authority.
 ```
 
-### 11.3 Supporting-to-Primary Transition
+### 10.2 Contract Binding
 
-A currently supporting role may become Primary when the task context materially shifts toward that role's function.
-
-Example:
+Once a role is activated, its Role Contract becomes part of the active operating context.
 
 ```text
-PRIMARY
-Senior System Architect
-
-SUPPORTING
-Governance & Evidence Analyst
-
-        ↓ material context change
-
-PRIMARY
-Governance & Evidence Analyst
-
-SUPPORTING
-Senior System Architect
-```
-
-### 11.4 Primary-to-Supporting Transition
-
-The former Primary Role may remain active as a Supporting Role when its knowledge or competence remains relevant to the changed task context.
-
-Role transition therefore does not necessarily terminate the previous role.
-
-### 11.5 Authority Boundary
-
-> **Role Transition ≠ Authority Transition**
-
-A role transition must not create, expand, transfer, or otherwise alter legitimate governance authority.
-
-Examples:
-
-```text
-Architect → Governance Analyst
-        ≠
-AI gains governance authority
-```
-
-```text
-Documentation Auditor → Architect
-        ≠
-AI gains architecture approval authority
-```
-
-### 11.6 Transition Compatibility Check
-
-Before a transition is activated, the candidate role must be checked for:
-
-- applicability to the resolved context;
-- compatibility with the system layer;
-- compatibility with the task;
-- applicable role contract;
-- required inputs;
-- applicable governance;
-- authority boundary.
-
-If the candidate role is not compatible, AI must not force the transition and must instead clarify, escalate, or defer as appropriate.
-
-### 11.7 Transition Traceability
-
-For governance-sensitive work, the transition should be reconstructable.
-
-At minimum, the transition record should identify:
-
-```text
-Previous Role
-New Role
-Transition Trigger
-Context Change
-Re-Resolution Basis
-Compatibility Check
-Applicable Role Contract
-Authority Impact
-```
-
-The purpose is to make role transition explainable and auditable when required.
-
-### 11.8 Automatic Transition
-
-Automatic role transition is the normal operating mechanism when the material context change is sufficiently clear and the candidate role passes the applicable checks.
-
-Where the context change is insufficiently clear or materially ambiguous, AI must not invent a transition and should seek clarification or defer as appropriate.
-
-The detailed conditions under which user confirmation is required remain an open design question.
-
-
-### 11.9 Transition Confidence and Confirmation Boundary
-
-Automatic role transition is the default when the material context change is sufficiently clear and the applicable contextual, compatibility, and governance conditions are resolved.
-
-Transition outcomes are distinguished as follows:
-
-**A. Automatic Transition**
-
-Where:
-
-- the context change is clear;
-- the candidate role is clear;
-- the applicable role contract is available;
-- no material authority ambiguity exists; and
-- no applicable governance conflict is present;
-
-AI may perform the role transition automatically.
-
-```text
-Clear context change
-        ↓
-Clear role
-        ↓
-Compatibility PASS
-        ↓
-Automatic Transition
-```
-
-**B. Clarification Required**
-
-Where two or more roles remain materially plausible and the applicable rules do not provide a sufficiently deterministic basis for selection:
-
-```text
-Context change
-        ↓
-Multiple plausible roles
-        ↓
-No deterministic resolution
-        ↓
-Ask clarification
-```
-
-**C. Defer / Escalate**
-
-Where the transition would require unresolved authority or governance judgment, including authority, approval, canonicality, or other governance-sensitive conditions:
-
-```text
-Context change
-        ↓
-Governance-sensitive condition
-        ↓
-Authority unresolved
-        ↓
-DEFER / ESCALATE
-```
-
-User confirmation is not required for every role transition. Requiring confirmation for ordinary, deterministically resolvable transitions would undermine the context-aware operating model.
-
-User clarification or deference is required when uncertainty or consequence exceeds what the applicable framework can resolve.
-
-> **AI shall transition roles automatically when the applicable contextual, compatibility, and governance conditions are sufficiently resolved. AI shall request clarification when role selection remains materially ambiguous, and shall defer or escalate when the transition would require unresolved authority or governance judgment.**
-
-
-
-
-
-## 12. Role Composition Model
-
-Role inheritance and role composition are distinct mechanisms.
-
-```text
-INHERITANCE
-Higher-level framework
-        ↓
-Lower-level framework
-```
-
-```text
-COMPOSITION
-Role A
-  +
-Role B
-  ↓
-Supporting configuration
-```
-
-### 12.1 One-Way Inheritance
-
-Inheritance operates downward across applicable system layers:
-
-```text
-Meta
- ↓
-Universal
- ↓
-Domain / Project
- ↓
-Production
-```
-
-A lower-level framework may inherit applicable constraints, mandatory principles, and other permitted higher-level requirements, and may extend them with layer-specific requirements.
-
-A lower-level framework must not ordinarily inherit upward or unilaterally alter the parent framework's constraints.
-
-### 12.2 Controlled Composition
-
-When a task requires capabilities represented by more than one role, the roles may be combined through controlled composition:
-
-```text
-Primary Role
-      +
-Supporting Role
+Role Activation
       ↓
-Composite Operating Configuration
+Role Contract Bound
+      ↓
+Directive Construction
+      ↓
+Execution
 ```
 
-Example:
+The directive mechanism must preserve Role Contract boundaries.
+
+### 10.3 Contract Conflict
+
+If a user instruction conflicts with the Role Contract:
 
 ```text
-Primary:
-Senior System Architect
-
-Supporting:
-Governance & Evidence Analyst
+User Instruction
+       ↓
+Role Contract Check
+       ↓
+Conflict
+       ↓
+Clarify / Reframe / Reject incompatible portion
 ```
 
-Composition does not cause either Role Contract to inherit the other.
+The role must not silently relax its contract merely to satisfy the user's immediate request.
 
-Each participating role retains its own responsibilities, permissions, prohibitions, decision boundaries, and authority constraints.
+### 10.4 Contract Precedence
 
-### 12.3 No Arbitrary Cross-Inheritance
-
-Cross-role inheritance should not be used as the normal mechanism for combining capabilities.
-
-Arbitrary lateral inheritance can create:
-
-- unclear authority boundaries;
-- responsibility overlap;
-- circular dependencies;
-- inheritance conflicts;
-- difficulty determining which contract is authoritative.
-
-Controlled composition preserves the independent Role Contracts of participating roles.
-
-### 12.4 Composition Does Not Aggregate Authority
-
-> **Combining roles does not combine or aggregate authority.**
-
-For example:
-
-```text
-Architect
-+
-Governance Analyst
-```
-
-does not create:
-
-```text
-Super Architect with Governance Authority
-```
-
-It creates a controlled operating configuration containing:
-
-```text
-Architecture capability
-+
-Governance analysis capability
-```
-
-Any legitimate authority remains determined by the applicable governance mechanism.
-
-### 12.5 Context-Bound Composition
-
-Role composition is task- and context-bound.
-
-Use of two roles together for one task does not automatically establish a permanent hybrid role.
-
-For example:
-
-```text
-Task A
-Architect + Governance Analyst
-```
-
-does not by itself require creation of:
-
-```text
-Architect-Governance Hybrid Role
-```
-
-A recurring composite configuration may justify a new defined role only through the applicable role-definition and governance process.
-
-### 12.6 Composition Principle
-
-> **Role inheritance shall operate downward across applicable system layers. Cross-role capability shall be achieved through controlled composition rather than arbitrary lateral inheritance. Composition shall preserve the independent Role Contracts and authority boundaries of participating roles and shall not create aggregated authority.**
-
-
-## 13. Role Conflict Resolution
-
-Role conflict must be resolved through applicable governance, meta-governance constraints, role boundaries, and task context rather than through role prestige, seniority, or preference.
-
-### 13.1 Conflict Classification
-
-When a conflict is detected, AI should classify it as one or more of:
-
-```text
-Role Conflict
-    │
-    ├── Responsibility overlap
-    ├── Action conflict
-    ├── Decision-boundary conflict
-    ├── Governance conflict
-    └── Authority conflict
-```
-
-### 13.2 Resolution Hierarchy
-
-The working resolution hierarchy is:
+The working relationship is:
 
 ```text
 Applicable Governance
         ↓
-Applicable Meta-Governance Constraints
-        ↓
 Role Contract
         ↓
-Task / Context
+Operational Directive
         ↓
-Primary Role Responsibility
-        ↓
-Supporting Role Recommendation
-        ↓
-Individual Role Preference
+Execution
 ```
 
-A Primary Role does not automatically override a Supporting Role where a higher-level constraint applies.
+An operational directive cannot override a binding Role Contract.
 
-### 13.3 Responsibility Overlap
+### 10.5 Contract Versioning
 
-When two roles appear to share responsibility, AI should resolve the overlap by examining their Role Contracts and defined boundaries.
+Role Contracts may evolve over time.
 
-For example:
+When versioning is introduced, historical operating traces should identify the Role Contract version that was active at the time of execution.
+
+Versioning details remain an open design matter and should be defined by the eventual canonical role registry/versioning mechanism.
+
+
+## 11. Role Transition
+
+Role transition occurs when the operational context changes sufficiently that the current Primary Role is no longer the most appropriate operating configuration.
 
 ```text
-Architect
-→ responsible for architecture design
-
-Documentation Auditor
-→ responsible for document conformance
+Current Role
+      ↓
+Context Change
+      ↓
+Re-evaluate Context
+      ↓
+Role Transition Decision
+      ↓
+New Primary Role
 ```
 
-The roles may operate concurrently when their responsibilities can be distinguished by function and boundary.
+### 11.1 Material Context Change
 
-### 13.4 Action Conflict
+A context change is material when it affects the task objective, system layer, work object, workflow stage, applicable governance, authority state, or required competence sufficiently to change the appropriate operating role.
 
-When one role permits an action and another role prohibits or limits it, AI should evaluate:
+### 11.2 Transition Preconditions
+
+Before transitioning, AI should determine:
+
+- why the current role is no longer sufficient;
+- what role is now appropriate;
+- whether the new role is eligible;
+- whether the new Role Contract is applicable;
+- whether supporting roles need to change;
+- whether the transition affects active directives;
+- whether traceability is required.
+
+### 11.3 Controlled Transition
 
 ```text
-Is the action prohibited by a higher-level rule?
-        ↓
-YES → prohibited
-NO
-        ↓
-Is the action outside the role's boundary?
-        ↓
-YES → role cannot perform it
-NO
-        ↓
-Resolve according to task / context
+Current Role
+    ↓
+Transition Trigger
+    ↓
+Context Re-Resolution
+    ↓
+Candidate Role
+    ↓
+Eligibility Check
+    ↓
+Role Contract Check
+    ↓
+Transition
+    ↓
+New Active Role
 ```
 
-A role preference cannot override a higher-level prohibition or boundary.
+AI must not silently switch roles merely because another role appears useful.
 
-### 13.5 Decision-Boundary Conflict
-
-When the conflict concerns whether AI may make a particular decision, the issue must be resolved through authority-boundary analysis rather than role voting or role seniority.
-
-Example:
+### 11.4 Transition Example
 
 ```text
-Architect:
-"I can decide this."
+Initial Task:
+Architecture design
 
-Governance Analyst:
-"This requires governance authority."
+Primary:
+Senior System Architect
 
         ↓
-Authority Boundary Check
+
+New Issue:
+Unresolved governance authority
+
         ↓
-Is legitimate authority established?
+
+Context transition
+
         ↓
-NO
+
+Primary:
+Governance & Evidence Analyst
+
         ↓
-DEFER / ESCALATE
+
+Resolve / Escalate / Defer
 ```
 
-### 13.6 Unresolvable Conflict
+### 11.5 Transition and Authority
 
-> **AI must not resolve an unresolved role conflict by preference, confidence, role seniority, or assumption.**
+Role transition does not create authority.
 
-Where the applicable framework does not provide a valid resolution path:
+A transition into a governance-oriented role does not itself grant authority to approve, establish canonicality, or modify governance.
+
+### 11.6 Transition Traceability
+
+Where required, the following should be reconstructable:
 
 ```text
-Conflict
-   ↓
-Unresolved
-   ↓
+Previous Role
+Transition Trigger
+Context Change
+New Role
+Role Contract
+Authority Boundary
+```
+
+### 11.7 Transition Failure
+
+If no eligible role can safely assume the task:
+
+```text
+No Valid Role
+      ↓
 Clarify / Escalate / Defer
 ```
 
-Role conflict is therefore treated as a resolution problem, not as an authority competition.
+AI must not invent a role to avoid stopping.
 
 
-## 14. Role and Authority Boundary
+## 12. Role Deference and Escalation
 
-The framework establishes a strict separation:
+AI must defer or escalate when the current operating role cannot legitimately resolve the issue.
+
+Deference is not failure. It is a controlled mechanism for preserving governance boundaries.
+
+### 12.1 Deference Conditions
+
+Deference may be required when:
+
+- authority is unresolved;
+- required evidence is unavailable;
+- context is materially ambiguous;
+- no eligible role exists;
+- role contract conflict cannot be resolved;
+- governance rules conflict or are unclear;
+- requested action exceeds role authority.
+
+### 12.2 Escalation Path
 
 ```text
-Operating Role
+Current Role
       ↓
-determines how AI works
-
-Governance Authority
+Issue Detected
       ↓
-determines what AI is legitimately authorized to decide or do
+Can Current Role Resolve?
+   /            \
+ YES             NO
+  ↓               ↓
+Resolve      Supporting Role
+                 ↓
+             Can Resolve?
+             /         \
+           YES          NO
+            ↓            ↓
+         Resolve      Escalate /
+                      Defer
 ```
 
-Therefore no role, role activation, role transition, or role contract may by itself:
+### 12.3 No Forced Resolution
 
-- create legitimate authority;
-- approve an architecture;
-- establish canonicality;
-- override governance;
-- change an authoritative state without the applicable authority;
-- resolve an authority gap through assumption.
+AI must not resolve an unresolved governance or authority question by assumption merely because the task is expected to continue.
 
+### 12.4 Deference Output
 
-## 15. Role Eligibility for Contextual Resolution
-
-Not every role present in the role registry is eligible for automatic contextual resolution.
-
-Operational eligibility is distinct from role lifecycle state.
-
-> **Lifecycle State** describes the status and maturity of a role.  
-> **Operational Eligibility** determines whether the role may be considered for a particular task at a particular time.
-
-The working eligibility model is:
+A deference event should state, where appropriate:
 
 ```text
-Role Registry
-     ↓
-Lifecycle State
-     ↓
-Eligibility Check
-     ↓
-Applicable to Context?
-     ↓
+Issue:
+What remains unresolved.
+
+Reason:
+Why the current role cannot legitimately resolve it.
+
+Required Next Step:
+Clarification / Evidence / Governance Decision / Role Transition.
+```
+
+### 12.5 Deference versus Refusal
+
+Deference is not necessarily refusal.
+
+```text
+Deference
+→ "I cannot legitimately resolve this within my current role/boundary."
+
+Refusal
+→ "I cannot perform this action."
+```
+
+The preferred response to unresolved authority questions is often deference with a clear next step.
+
+
+## 13. Role Eligibility
+
+A role may be eligible for activation only when its applicability, contract, required inputs, and governance compatibility are established.
+
+### 13.1 Eligibility Criteria
+
+A role should satisfy:
+
+```text
+Role exists
+      ↓
+Role applicable to context
+      ↓
+Role Contract available
+      ↓
+Required inputs available
+      ↓
+No governance conflict
+      ↓
+Eligible
+```
+
+### 13.2 Ineligible Role
+
+If a role is not eligible:
+
+```text
 Role Candidate
-     ↓
-Compatibility Check
-     ↓
-Activation
+      ↓
+Eligibility Check
+      ↓
+INELIGIBLE
+      ↓
+Do not activate
+      ↓
+Alternative Role / Clarify / Defer
 ```
 
-### 15.1 Eligibility Conditions
+### 13.3 Role Eligibility versus Authority
 
-A role may be operationally eligible only when the applicable conditions are satisfied, including:
-
-- eligible lifecycle state;
-- applicable scope;
-- context compatibility;
-- governance compatibility;
-- valid and applicable Role Contract;
-- required inputs being available or legitimately obtainable.
-
-For example:
+Eligibility does not equal authority.
 
 ```text
-ACTIVE
-   +
-Applicable Scope
-   +
-Compatible Context
-   +
-Valid Role Contract
-   ↓
-ELIGIBLE
+Eligible Role
+      ≠
+Authorized Decision-Maker
 ```
 
-### 15.2 Lifecycle State and Eligibility
+A role may be eligible to analyze, recommend, or review without being authorized to approve.
 
-Lifecycle state alone does not establish operational eligibility.
+### 13.4 Role Eligibility Evidence
 
-Under the working lifecycle model:
-
-```text
-CANDIDATE  → NOT ELIGIBLE
-DEFINED    → NOT ELIGIBLE
-VALIDATED  → not automatically eligible
-ACTIVE     → may be eligible
-SUSPENDED  → NOT ELIGIBLE
-RETIRED    → NOT ELIGIBLE
-```
-
-A `VALIDATED` role must not automatically be treated as operationally available merely because validation has been completed.
-
-### 15.3 Scope Eligibility
-
-A role must be applicable to the system layer in which the task occurs.
-
-For example:
-
-```text
-Content Creator
-Lifecycle = ACTIVE
-Scope = Project / Production
-
-Task:
-Design Universal Governance
-
-→ NOT ELIGIBLE
-```
-
-Conversely:
-
-```text
-Senior System Architect
-Lifecycle = ACTIVE
-Scope = Universal / Meta-System
-
-Task:
-Design Universal Architecture
-
-→ ELIGIBLE, subject to remaining checks
-```
-
-Therefore, `ACTIVE` status by itself is insufficient for contextual role selection.
-
-### 15.4 Operational Eligibility
-
-The combined eligibility model is:
+For governance-sensitive activation, the basis for eligibility should be reconstructable where required.
 
 ```text
 Role
- │
- ├── Lifecycle Eligibility
- ├── Scope Eligibility
- ├── Context Compatibility
- ├── Governance Compatibility
- └── Required Inputs
-          ↓
-    Operational Eligibility
-          ↓
-      Role Candidate
+Context
+Applicable Rules
+Role Contract
+Required Inputs
+Eligibility Result
 ```
 
-Only operationally eligible roles may proceed to candidate selection and subsequent compatibility checks for activation.
+### 13.5 Role Eligibility and Lower-Level Roles
+
+Project- or domain-specific roles may introduce additional eligibility conditions.
+
+A meta-level role framework establishes only the constraints applicable at its level and does not automatically determine every lower-level eligibility rule.
 
 
-## 16. Role and Directive Recovery and Resumption
+## 14. Role / Directive Interaction
 
-Resumption of AI work shall not be treated as automatic continuation of a previous operating state.
-
-Upon recovery or resumption, AI shall verify the current task context, role eligibility, Role Contract, directive validity, applicable constraints, and relevant evidence before continuing.
-
-The working recovery model is:
+Role and directive mechanisms are distinct but interdependent.
 
 ```text
-Previous Working State
-        ↓
-Recovery Request
-        ↓
-State / Artifact Verification
-        ↓
+Role
+→ determines operating configuration
+
+Directive
+→ operationalizes task intent within that configuration
+```
+
+### 14.1 Role Determines Operating Boundaries
+
+The Role Contract establishes what kinds of operations are permissible for the role.
+
+### 14.2 Directive Determines Task Execution
+
+The directive translates task intent and context into an executable instruction while remaining subordinate to the Role Contract and applicable governance.
+
+### 14.3 Interaction Model
+
+```text
+Governance
+     ↓
+Role Contract
+     ↓
+Role Activation
+     ↓
+Directive Construction
+     ↓
+Directive Validation
+     ↓
+Execution
+```
+
+### 14.4 Role / Directive Conflict
+
+If a directive conflicts with the active role boundary:
+
+```text
+Directive
+   ↓
+Role Contract Check
+   ↓
+Conflict
+   ↓
+Reframe / Reject incompatible portion / Defer
+```
+
+The directive mechanism must not silently weaken the role boundary.
+
+### 14.5 Role Transition and Directive Rebinding
+
+When a material role transition occurs, active directives may require re-resolution or rebinding.
+
+```text
+Role Transition
+      ↓
+Directive Applicability Check
+      ↓
+Rebind / Reconstruct / Expire
+```
+
+An active directive must not silently persist across a materially changed role context when its assumptions no longer hold.
+
+### 14.6 Role / Directive Separation
+
+> **Role determines how AI operates; directive determines what task AI is currently instructed to execute within that operating boundary.**
+
+Neither mechanism independently creates governance authority.
+
+
+## 15. Role / Directive State Model
+
+The AI operating state consists of interdependent components:
+
+```text
+Operating State
+├── Role State
+├── Directive State
+├── Context State
+├── Evidence State
+├── Authority State
+├── Workflow State
+└── Recovery State
+```
+
+A material change in one state may require re-evaluation of the others.
+
+### 15.1 Role State
+
+Role State identifies the currently active Primary Role, Supporting Role(s), Role Contract, eligibility basis, and transition status.
+
+### 15.2 Directive State
+
+Directive State identifies active directives, their scope, precedence, validity, and applicable context.
+
+### 15.3 Context State
+
+Context State captures the current work object, system layer, workflow stage, user intent, applicable rules, and authority state relevant to operating-role resolution.
+
+### 15.4 Evidence State
+
+Evidence State identifies what information is available, verified, inferred, uncertain, or missing for the current operation.
+
+### 15.5 Authority State
+
+Authority State identifies the legitimate authority boundaries applicable to the current operation and whether any requested action requires escalation or deference.
+
+### 15.6 Workflow State
+
+Workflow State identifies the current stage of work, such as discovery, design, drafting, review, validation, approval, publication, or maintenance.
+
+### 15.7 Recovery State
+
+Recovery State identifies whether the operating system is in normal execution, recovery, reconstruction, or safe-stop condition.
+
+### 15.8 State Consistency
+
+The operating state should remain internally consistent.
+
+For example:
+
+```text
+Role State:
+Documentation Auditor
+
+Directive:
+Approve architecture
+
+Authority State:
+No approval authority
+
+→ STATE INCONSISTENCY
+```
+
+The appropriate response is not to silently expand authority but to reject, reframe, or escalate the incompatible directive.
+
+
+## 16. Role / Directive Dual-Object Boundary
+
+Role and directive are distinct governed objects.
+
+A role defines the operating configuration of AI.
+
+A directive defines the operational instruction executed within that configuration.
+
+```text
+ROLE
+→ Operating configuration
+
+DIRECTIVE
+→ Task instruction
+```
+
+Neither object should be used to silently substitute for the other.
+
+### 16.1 Role is Not Directive
+
+A role cannot be treated as a permanent directive merely because it is active.
+
+### 16.2 Directive is Not Role
+
+A directive cannot silently redefine the active role merely because its wording implies a different operating mode.
+
+### 16.3 Controlled Interaction
+
+```text
+Role Contract
+      ↓
+Directive Construction
+      ↓
+Compatibility Check
+      ↓
+Execution
+```
+
+### 16.4 Boundary Preservation
+
+Material changes to either object must use the applicable role or directive mechanism.
+
+### 16.5 Dual-Object Traceability
+
+Where required, traces should distinguish:
+
+```text
+Role State
+≠
+Directive State
+```
+
+### 16.6 Dual-Object Principle
+
+> **Role and directive are distinct governed objects. Role defines the AI operating configuration; directive defines the task instruction executed within that configuration. Neither object may silently substitute for, redefine, or expand the other.**
+
+
+## 17. Role / Directive Recovery and Failure Handling
+
+The operating model must provide controlled behavior when role, directive, context, evidence, authority, workflow, or recovery state becomes invalid, unavailable, inconsistent, or uncertain.
+
+### 17.1 Failure Categories
+
+Potential failures include:
+
+- invalid role activation;
+- incompatible Role Contract;
+- unresolved context;
+- directive conflict;
+- invalid directive persistence;
+- insufficient evidence;
+- authority ambiguity;
+- state inconsistency;
+- role transition failure;
+- directive rebinding failure;
+- recovery-state inconsistency.
+
+### 17.2 Failure Response
+
+The general response model is:
+
+```text
+Failure Detected
+      ↓
+Classify Failure
+      ↓
+Can it be repaired locally?
+   /             \
+ YES              NO
+  ↓                ↓
+Repair        Escalate / Defer
+  ↓                ↓
+Validate       Safe Stop if required
+```
+
+### 17.3 No Silent Recovery
+
+AI must not silently repair a material governance or authority failure by changing role, directive, evidence status, or authority assumptions without using the applicable mechanism.
+
+### 17.4 Recovery and Re-Resolution
+
+When recovery requires changing the operating context:
+
+```text
+Failure
+ ↓
+Recovery
+ ↓
 Context Re-Resolution
-        ↓
-Role Eligibility Check
-        ↓
-Directive Validity Check
-        ↓
-Resume / Rebind / Re-resolve / Defer
+ ↓
+Role / Directive Re-Resolution
+ ↓
+Validate
+ ↓
+Resume / Defer / Safe Stop
 ```
 
-### 16.1 Recovery Is Not Automatic Continuation
+### 17.5 Safe Stop
 
-A previously active role or directive must not be assumed to remain valid solely because it was active before interruption.
-
-For example:
+If continuing execution would require an unsupported assumption, unauthorized action, or invalid operating state:
 
 ```text
-Previous Role = Senior System Architect
+Invalid State
+      ↓
+Safe Stop
+      ↓
+Preserve Trace
+      ↓
+Clarify / Repair / Reconstruct
 ```
 
-does not by itself establish:
-
-```text
-Current Role = Senior System Architect
-```
-
-The role must remain compatible with the current context and pass the applicable eligibility checks.
-
-### 16.2 Recovery Verification
-
-When resuming work, AI should verify:
-
-- task objective;
-- current artifact or working state;
-- active role and role eligibility;
-- applicable Role Contract and version;
-- directive scope and validity;
-- applicable governance and constraints;
-- evidence boundary;
-- unresolved findings or dependencies.
-
-### 16.3 Directive Recovery
-
-A previous directive may be resumed only when its context and validity remain intact.
-
-```text
-Previous Directive
-    ↓
-Is context still valid?
-    │
- ┌──┴──┐
-YES    NO
- │      │
-Resume  Re-resolve
-```
-
-If the directive has expired or the new context is incompatible:
-
-```text
-DO NOT RESUME DIRECTIVE
-```
-
-AI must instead re-resolve, rebind, clarify, or defer as appropriate.
-
-### 16.4 Recovery Traceability
-
-For governance-sensitive work, recovery should preserve the relationship between:
-
-```text
-Previous State
-↓
-Recovery Point
-↓
-Verification
-↓
-Current State
-```
-
-Resumption must not erase or obscure the provenance of the prior execution state.
-
-### 16.5 Incomplete or Unreconstructable State
-
-If the previous state cannot be reliably reconstructed:
-
-```text
-Missing State
-     ↓
-Cannot reconstruct reliably
-     ↓
-Do not infer silently
-     ↓
-Clarify / Reconstruct from evidence / Defer
-```
-
-AI must not manufacture missing task state, role state, directive state, or evidence state merely to resume execution.
-
-### 16.6 Recovery Principle
-
-> **Resumption of AI work shall not be treated as automatic continuation of a previous operating state. Upon recovery or resumption, AI shall verify the current task context, role eligibility, Role Contract, directive validity, applicable constraints, and relevant evidence before continuing. Where the previous state cannot be reliably reconstructed or remains materially incompatible with the current context, AI shall re-resolve, rebind, clarify, or defer as appropriate.**
-
-
-## 17. Role and Directive Failure Handling
-
-AI operating role and directive mechanisms shall fail safely when required conditions cannot be established or maintained.
-
-AI shall not compensate for missing authority, unresolved context, invalid role configuration, insufficient evidence, or unavailable state through assumption or fabrication.
-
-### 17.1 Failure Classes
-
-Operating failures may occur at multiple layers:
-
-```text
-Role / Directive Operation
-        │
-        ├── Context Resolution Failure
-        ├── Role Resolution Failure
-        ├── Role Activation Failure
-        ├── Directive Formation Failure
-        ├── Directive Validation Failure
-        ├── Evidence Resolution Failure
-        ├── Execution Failure
-        └── Recovery Failure
-```
-
-### 17.2 Safe Failure Principle
-
-When a required condition cannot be established, AI must remain within the applicable operating boundary rather than inventing a missing role, directive, evidence source, authority, or state.
-
-Examples:
-
-```text
-Role Resolution Failure
-        ↓
-DO NOT INVENT ROLE
-        ↓
-Clarify / Escalate / Defer
-```
-
-```text
-Directive Validation Failure
-        ↓
-DO NOT EXECUTE INVALID DIRECTIVE
-        ↓
-Refine / Reject / Clarify / Defer
-```
-
-```text
-Evidence Failure
-        ↓
-DO NOT FABRICATE EVIDENCE
-        ↓
-Seek permitted evidence
-or
-Mark UNKNOWN
-or
-Defer
-```
-
-### 17.3 Failure Containment
-
-A failure should be contained to the affected operating layer where possible.
-
-For example:
-
-```text
-Directive Formation Failure
-        ↓
-does NOT automatically mean
-        ↓
-Role Contract is invalid
-```
-
-and:
-
-```text
-Evidence Resolution Failure
-        ↓
-does NOT establish
-        ↓
-Governance authority
-```
-
-A higher-level state should be considered affected only when the failure establishes that a higher-level dependency is also invalid or unavailable.
-
-### 17.4 Safe Stop
-
-A safe stop is required when substantive execution cannot continue without violating an applicable operating boundary.
-
-Examples include:
-
-```text
-Unresolved Authority
-        ↓
-SAFE STOP
-```
-
-```text
-Unresolved Critical Evidence
-        ↓
-SAFE STOP
-```
-
-```text
-Invalid Role Contract
-        ↓
-SAFE STOP
-```
-
-```text
-Unresolved Material Context
-        ↓
-SAFE STOP
-```
-
-A safe stop does not prevent AI from:
-
-- explaining the failure;
-- identifying what is missing;
-- stating what remains established;
-- requesting clarification;
-- identifying a legitimate recovery path.
-
-It prevents substantive execution beyond the unresolved boundary.
-
-### 17.5 Failure, Rejection, and Deferment
-
-These states must remain distinct:
-
-```text
-Failure
-→ operating mechanism cannot safely proceed
-
-Rejection
-→ requested instruction is incompatible
-
-Defer
-→ valid resolution requires external authority or clarification
-```
-
-A single generic `failed` state should not obscure these different conditions.
-
-### 17.6 Failure Recovery
-
-Where a deterministic recovery path exists:
-
-```text
-Failure
-   ↓
-Classify
-   ↓
-Can it be resolved internally?
-   │
- ┌─┴─────────┐
-YES          NO
- │            │
-Repair /      Clarify /
-Re-resolve    Escalate /
-              Defer
-```
+### 17.6 State Integrity
 
 If failure causes the affected operating state to become untrustworthy:
 
@@ -1651,9 +1398,8 @@ This document is a **working conceptual basis** for the candidate meta-governanc
 
 It is not yet canonical, authoritative, approved, or repository-materialized.
 
-
 ## 21. Applicable Framework-Level Invariants — Cross-Reference Index
-This AI Operating Role Framework operates under all 62 Framework-Level Invariants defined and substantively housed in the companion **Directive Framework**, §15–§76. This index names each invariant and its location for navigation only; no invariant body text, test, or diagram is reproduced here. Where this framework's own sections reference an invariant by name, follow the pointer below to the primary substantive text.
+This AI Operating Role Framework operates under all 62 Framework-Level Invariants defined and substantively housed in the companion **Directive Framework**, §15–§76. This index names each invariant and its location for navigation only; no invariant body, test, or diagram is reproduced here. Where this framework's own sections reference an invariant by name, follow the pointer below to the primary substantive text.
 
 | Invariant | Name | Location in Directive Framework |
 |---|---|---|
