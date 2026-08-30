@@ -46,3 +46,19 @@ No separate asset folder or additional project structure was created. The genera
 ### Current Production Gate
 
 Master Story Frame must be finalized and approved before Story 1 visual production proceeds.
+
+---
+
+## 2026-08-30 — Brand Asset Registry Added
+
+Added `02_Assets/Brand/README.md` as the registry for canonical BAKU Edit Tugas brand assets.
+
+### Asset classification
+
+- The user-approved logo remains the **CANONICAL** brand mark per D-003.
+- Generated logo concepts, concept boards, and subsequently generated variants in the conversation are **REFERENCE** unless explicitly approved by the user.
+- No binary logo file was uploaded to GitHub in this sync because the chat file references available to the GitHub connector could not be transferred as repository binary content without creating a new/re-rendered asset, which is prohibited by the asset-sync instruction.
+
+### Integrity note
+
+This sync intentionally avoided manufacturing, re-rendering, or substituting a logo merely to populate the asset directory. The canonical binary source must be added only when the original approved file is directly available for repository upload.
