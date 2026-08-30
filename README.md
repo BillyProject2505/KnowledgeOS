@@ -8,7 +8,7 @@ Knowledge Operating System (KOS)
 
 KnowledgeOS is a canonical repository designed to store, organize, govern, and maintain reusable Knowledge Objects and canonical knowledge artifacts for AI-assisted projects.
 
-It serves as the primary repository-level knowledge reference across the KnowledgeOS ecosystem while preserving explicit authority boundaries between system, knowledge, project, resource, and archive layers.
+It serves as a primary repository-level knowledge reference across the KnowledgeOS ecosystem while preserving explicit authority boundaries between system, knowledge, project, resource, and archive layers.
 
 ---
 
@@ -27,6 +27,23 @@ Each artifact remains authoritative only within its declared scope and governanc
 - `02_Projects` — project-specific canonical and operational knowledge.
 - `03_Resources` — supporting resources and reference material.
 - `99_Archive` — historical, superseded, retired, draft, legacy, and other non-active artifacts preserved for provenance and traceability.
+
+---
+
+## Project Layer
+
+Project-specific knowledge and operational systems are maintained under `02_Projects/` and `03_Projects/` according to the repository structure currently in use.
+
+The active `03_Projects/` layer includes project indexes and project-specific workspaces such as BAKU Edit Tugas. Project README files define local navigation, scope, and boundaries; they do not override repository or system authority.
+
+Current project navigation:
+
+- [`03_Projects`](./03_Projects/)
+- [`BAKU Edit Tugas`](./03_Projects/BAKU_Edit_Tugas/)
+- [`BAKU Edit Tugas — Context`](./03_Projects/BAKU_Edit_Tugas/00_Context/)
+- [`BAKU Edit Tugas — Content`](./03_Projects/BAKU_Edit_Tugas/01_Content/)
+- [`BAKU Edit Tugas — Assets`](./03_Projects/BAKU_Edit_Tugas/02_Assets/)
+- [`BAKU Edit Tugas — Production`](./03_Projects/BAKU_Edit_Tugas/03_Production/)
 
 ---
 
@@ -64,6 +81,7 @@ Folder-level `README.md` files provide local navigation, scope, authority, and m
 - Use verified successor relationships when documenting supersession.
 - Treat archived artifacts as historical/non-active unless explicit authority states otherwise.
 - Keep README files navigational and boundary-oriented; they do not replace the substantive authority of canonical documents.
+- Keep repository navigation synchronized with the actual directory structure.
 
 ---
 
@@ -75,6 +93,7 @@ Folder-level `README.md` files provide local navigation, scope, authority, and m
 - [`01_Knowledge`](./01_Knowledge/)
 - [`02_Projects`](./02_Projects/)
 - [`03_Resources`](./03_Resources/)
+- [`03_Projects`](./03_Projects/)
 - [`99_Archive`](./99_Archive/)
 
 ### Repository Documents
