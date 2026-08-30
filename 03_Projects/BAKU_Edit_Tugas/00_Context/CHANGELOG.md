@@ -49,16 +49,49 @@ Master Story Frame must be finalized and approved before Story 1 visual producti
 
 ---
 
-## 2026-08-30 — Brand Asset Registry Added
+## 2026-08-30 — Brand Asset Synchronization
 
-Added `02_Assets/Brand/README.md` as the registry for canonical BAKU Edit Tugas brand assets.
+Synchronized the canonical BAKU Edit Tugas brand assets into the project asset directory.
 
-### Asset classification
+### Added
 
-- The user-approved logo remains the **CANONICAL** brand mark per D-003.
-- Generated logo concepts, concept boards, and subsequently generated variants in the conversation are **REFERENCE** unless explicitly approved by the user.
-- No binary logo file was uploaded to GitHub in this sync because the chat file references available to the GitHub connector could not be transferred as repository binary content without creating a new/re-rendered asset, which is prohibited by the asset-sync instruction.
+- `02_Assets/Brand/BAKU_Edit_Tugas_logo-primary.png`
+- `02_Assets/Brand/BAKU_Edit_Tugas_logo-transparent.png`
+- `02_Assets/Brand/README.md`
 
-### Integrity note
+### Asset Policy
 
-This sync intentionally avoided manufacturing, re-rendering, or substituting a logo merely to populate the asset directory. The canonical binary source must be added only when the original approved file is directly available for repository upload.
+- Both logo files are canonical project brand assets.
+- Primary logo is the default brand mark.
+- Transparent logo is used when transparent-background treatment is required.
+- AI-generated replacement logos and exploratory logo variants are not canonical.
+
+---
+
+## 2026-08-30 — Meta Platform Reference Added
+
+Added a project-level Meta platform reference based on current official Meta and AI at Meta materials, with explicit evidence labels and boundaries between policy, official guidance, Meta AI capability, observation, hypothesis, and unknowns.
+
+### Added
+
+- `00_Context/META_PLATFORM_GUIDELINES.md`
+
+### Updated
+
+- `00_Context/PROJECT_CONTEXT.md`
+  - Added Instagram/Facebook content-production scope.
+  - Added Meta guidance and Meta AI as reference layers for content production.
+  - Added canonical brand asset references.
+  - Added platform-guidance verification as an ongoing project concern.
+
+### Key Rules
+
+- Do not treat Meta AI output as Meta policy.
+- Do not treat platform observations as guaranteed algorithm rules.
+- Do not claim fixed hashtag counts guarantee reach or recommendation.
+- Prefer official Meta sources for policy and best-practice evidence.
+- Re-verify platform guidance when Meta changes policies, limits, recommendation rules, or creator guidance.
+
+### Current Meta Reference Status
+
+`META_PLATFORM_GUIDELINES.md` is a living project reference and must be updated when authoritative Meta guidance changes.
