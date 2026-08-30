@@ -2,53 +2,137 @@
 
 ## Status
 
-PRODUCTION
+WORKING — Master Story Frame is the current production gate; Story 1–4 final layouts are not approved.
 
 ## Purpose
 
-Canonical working content state for the BAKU Edit Tugas Instagram Story Highlight FAQ.
+Canonical current content state for the BAKU Edit Tugas Instagram Story Highlight FAQ. The Highlight functions as decision support for prospective customers who have already visited the profile: answer common questions, reduce friction, build trust, and support inquiry/conversion.
 
-## Current State
+## Format
 
-The FAQ Highlight workstream has been established as the active production stream. Story-by-story copy is not yet fully recorded in this canonical file.
+- Static Instagram Story.
+- 9:16.
+- Target size: 1080 × 1920 px.
+- Four Stories total.
+- No video or animation.
+- Final typography, logo placement, alignment, spacing, copy, CTA treatment, and final QC are completed in Canva.
 
-## Production Rules
+## Master Visual System
 
-- Do not treat conversation-only wording as final content unless explicitly approved.
-- Record approved copy here before treating it as canonical.
-- Preserve consistency with the project context and decision register.
-- Superseded content should be retained only when needed for traceability and clearly marked as superseded.
+**Status:** APPROVED at structural level; exact design specifications remain WORKING / OPEN.
 
-## Story Sequence
+Use one Master Story Frame + four cinematic scenes.
 
-### Story 01
+Consistent across all Stories:
 
-**Status:** NOT YET RECORDED
+- layout structure;
+- typography hierarchy;
+- logo position;
+- safe-area treatment;
+- question treatment;
+- answer treatment;
+- branding;
+- overall visual language.
 
-### Story 02
+Variable by Story:
 
-**Status:** NOT YET RECORDED
+- character;
+- scene;
+- objects;
+- visual metaphor;
+- supporting imagery.
 
-### Story 03
+Visual direction: professional, modern, academic, approachable, realistic, cinematic, clean, and natural. Avoid generic illustration and stock-photo aesthetics that feel disconnected from the brand.
 
-**Status:** NOT YET RECORDED
+## Story 01 — Positioning
 
-### Story 04
+**Status:** APPROVED CONTENT / VISUAL NOT PRODUCED
 
-**Status:** NOT YET RECORDED
+**Purpose:** Remove the perception that BAKU is only a "joki" service and position the offer as academic assistance/dampingan.
 
-### Story 05
+**Question / Hook:** `Ini joki skripsi ya?`
 
-**Status:** NOT YET RECORDED
+**Answer:** `Bukan. Kami dampingi biar kamu ngerti.`
 
-### Story 06
+**Supporting copy:** `Konsultasi & revisi sesuai kebutuhan.`
 
-**Status:** NOT YET RECORDED
+**Visual direction:** Student(s) discussing or receiving academic guidance. The scene should feel natural and professional, not like someone merely handing over work to be completed by another person.
 
-### Story 07
+## Story 02 — Speed
 
-**Status:** NOT YET RECORDED
+**Status:** APPROVED CONTENT / VISUAL NOT PRODUCED
 
-### Story 08
+**Purpose:** Give a clear expected turnaround timeframe.
 
-**Status:** NOT YET RECORDED
+**Question / Hook:** `Berapa lama?`
+
+**Answer:** `1–3 hari`
+
+**Supporting copy:** `Tergantung panjang & tingkat pengerjaan.`
+
+**Visual direction:** Desk/workflow context such as laptop, academic documents, calendar, or another relevant time/workflow visual.
+
+## Story 03 — Privacy
+
+**Status:** APPROVED CONTENT / VISUAL NOT PRODUCED
+
+**Purpose:** Reduce customer concern about document privacy and build trust.
+
+**Question / Hook:** `Privasi aman?`
+
+**Answer:** `Aman. File tidak disebarkan.`
+
+**Supporting copy:** `Bisa request hapus setelah selesai.`
+
+**Visual direction:** Laptop/documents with a private, secure, professional treatment.
+
+**Claim boundary:** Do not add unsupported absolute-security claims or fabricated counts/statistics/social proof. In particular, do not use claims such as `100% Private` or invented file/customer counts.
+
+## Story 04 — Accessibility + Conversion
+
+**Status:** APPROVED CONTENT / VISUAL NOT PRODUCED
+
+**Purpose:** Remove geographic friction and create a clear inquiry action.
+
+**Question / Hook:** `Bisa luar Manado?`
+
+**Answer:** `Bisa. 100% online.`
+
+**CTA:** `Butuh bantuan? Chat BAKU →`
+
+**Visual direction:** Student using a laptop for online consultation/communication. Subtle local Manado cues are acceptable, but the scene must not imply service is limited to one university.
+
+**CTA note:** WhatsApp CTA treatment is to be finalized in Canva.
+
+## Current Design State
+
+### Master Story Frame
+
+**Status:** WORKING / NOT APPROVED
+
+A Master Frame concept has been visually explored, but the generated mockups are references only and are not the final Canva layout. The official logo supplied by the user must be used; AI-generated logo artwork is not canonical.
+
+### Story 01 Prototype
+
+**Status:** OPEN — next visual-production step after Master Frame approval.
+
+### Stories 02–04
+
+**Status:** OPEN — production follows Story 1 validation and Master Frame lock.
+
+## Not Canonical
+
+The following are not current canonical production content:
+
+- AI-generated mockup text/layout as final artwork;
+- AI-generated replacement logo;
+- exact font family/size/spacing specifications from visual explorations;
+- exact CTA pill treatment;
+- exact safe-area pixel boundaries;
+- any fabricated performance statistic or social proof.
+
+## Production Sequence
+
+`Concept → Master Frame → Generation → Visual QC → Canva → Final QC → Export`
+
+Immediate next step: finalize and approve the Master Story Frame before generating the Story 1 prototype.
