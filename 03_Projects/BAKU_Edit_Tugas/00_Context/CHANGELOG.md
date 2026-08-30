@@ -95,3 +95,36 @@ Added a project-level Meta platform reference based on current official Meta and
 ### Current Meta Reference Status
 
 `META_PLATFORM_GUIDELINES.md` is a living project reference and must be updated when authoritative Meta guidance changes.
+
+---
+
+## 2026-08-30 — Story 1 Visual Baseline Synchronization
+
+Synchronized the project memory with the user-approved Story 1 artifact and treated it as the current visual production baseline.
+
+### Updated
+
+- `00_Context/DECISIONS.md`
+  - Marked the previous cinematic-scene and realistic/cinematic visual-direction decisions as superseded where they conflict with the approved Story 1 artifact.
+  - Added the approved flat editorial illustration system.
+  - Added the approved Story 1 visual baseline and typography/asset reference authority.
+  - Recorded the Story 1 answer revision to `Bukang! Torang itu dampingi / Supaya ngana mangarti`.
+- `00_Context/PROJECT_CONTEXT.md`
+  - Replaced the previous cinematic/realistic production direction with the approved flat editorial illustration system.
+  - Recorded Story 1 as the approved visual baseline and updated the next production objective to Stories 2–4.
+- `01_Content/Instagram/Story_Highlight_FAQ/CONTENT.md`
+  - Recorded Story 1 as an approved visual baseline.
+  - Updated Story 1 copy to match the approved artifact.
+  - Recorded the approved flat illustration, palette, composition, and asset usage reference.
+- `01_Content/Instagram/Story_Highlight_FAQ/PRODUCTION_HANDOFF.md`
+  - Updated the active production gate from Master Frame approval to production of Stories 2–4 using the approved Story 1 baseline.
+
+### Superseded
+
+- Earlier realistic/cinematic visual treatment.
+- Earlier generic Story 1 answer wording `Bukan. Kami dampingi biar kamu ngerti.`.
+- Earlier exploratory mockups that conflict with the approved Story 1 baseline.
+
+### Current Production State
+
+Story 1 visual baseline is approved. Stories 2–4 remain unproduced/final.
