@@ -86,11 +86,11 @@ The FAQ Highlight consists of four Stories with these purposes:
 ## D-009 — Master Visual System
 
 **Date:** 2026-08-30  
-**Status:** APPROVED
+**Status:** SUPERSEDED
 
-The four Stories will use one Master Story Frame with four cinematic scenes. Layout structure, typography hierarchy, logo position, safe-area treatment, question/answer treatment, branding, and overall visual language remain consistent across the series. Characters, scenes, objects, visual metaphors, and supporting imagery may vary by Story.
+The previous decision required one Master Story Frame with four cinematic scenes. Its structural consistency requirement is retained, but the cinematic-scene treatment is superseded by the later flat visual-system decision.
 
-**Reason:** Consistency and readability are prioritized over novelty.
+**Reason:** The user explicitly established the uploaded Story 1 artifact as the production visual reference.
 
 ---
 
@@ -106,9 +106,9 @@ Canva is the finalization layer for typography, logo placement, alignment, spaci
 ## D-011 — Visual Direction
 
 **Date:** 2026-08-30  
-**Status:** APPROVED
+**Status:** SUPERSEDED
 
-The visual direction is professional, modern, academic, approachable, realistic, cinematic, clean, and natural. Realistic cinematic static visuals are preferred over generic illustration or stock-photo aesthetics that feel disconnected from the brand.
+The earlier realistic/cinematic visual direction is superseded for the current FAQ Story production by the approved flat editorial illustration system established from the user's Story 1 artifact.
 
 ---
 
@@ -164,3 +164,57 @@ The production sequence is:
 Within the current workstream, the immediate gate is to design and lock the Master Story Frame first. After Master Frame approval, Story 1 is the first visual prototype and is used to validate the system before replicating it to Stories 2–4.
 
 **Reason:** Validate the reusable system before spending production effort on all four Stories.
+
+---
+
+## D-017 — Story 1 Visual Baseline
+
+**Date:** 2026-08-30  
+**Status:** APPROVED
+
+The user-approved Story 1 artifact is the canonical visual baseline for the FAQ Story production. Future Story compositions must follow its established structure, typography treatment, relative sizing, spacing rhythm, use of the canonical BAKU logo, flat illustration treatment, color relationships, and overall composition language unless a later explicit decision supersedes it.
+
+The uploaded artifact itself is the visual authority for these production characteristics. Do not infer or substitute a different font family, font sizing, illustration style, logo treatment, or layout merely because another system could be technically equivalent.
+
+**Reason:** The user explicitly established the uploaded Story 1 composition as the production reference and instructed that any mismatch with prior GitHub guidance must be adjusted to match the approved artifact.
+
+---
+
+## D-018 — Flat Editorial Illustration System
+
+**Date:** 2026-08-30  
+**Status:** APPROVED
+
+The FAQ Story visual treatment is now a flat editorial illustration system rather than realistic/cinematic imagery. The visual language uses the warm cream background, deep navy, and warm gold relationships established by the approved Story 1 artifact, with clean illustrated academic/consultation scenes and restrained supporting objects.
+
+**Reason:** The user explicitly rejected the earlier realism requirement and approved the uploaded flat Story 1 composition as the visual baseline.
+
+---
+
+## D-019 — Story 1 Canonical Copy Revision
+
+**Date:** 2026-08-30  
+**Status:** APPROVED
+
+Story 1 retains the question/hook `Ini joki skripsi ya?` and supporting copy `Konsultasi & revisi sesuai kebutuhan.`, while the approved answer is revised to the wording shown in the user-approved Story 1 artifact:
+
+`Bukang! Torang itu dampingi`
+
+`Supaya ngana mangarti`
+
+The additional illustrative text visible in the approved artifact is also part of the Story 1 composition reference and must not be silently replaced by the earlier generic answer wording.
+
+**Reason:** The user explicitly instructed that GitHub state must be adjusted to match the uploaded approved Story 1 artifact where it differs.
+
+---
+
+## D-020 — Story 1 Typography and Asset Reference Authority
+
+**Date:** 2026-08-30  
+**Status:** APPROVED
+
+For Story 1 and subsequent compositions derived from it, typography family, relative font sizing, logo scale/placement, illustration usage, and supporting asset treatment must follow the approved Story 1 artifact as implemented in Canva. The canonical GitHub logo assets remain the only approved logo source.
+
+Exact font metadata and numeric measurements are not to be fabricated from a raster export; when a precise numeric value is required, the Canva source is authoritative.
+
+**Reason:** The user established the uploaded composition as the exact visual reference while the repository must not store invented measurements that cannot be verified.
