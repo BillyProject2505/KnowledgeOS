@@ -2,7 +2,7 @@
 
 ## Status
 
-WORKING — Master Story Frame is the current production gate; Story 1–4 final layouts are not approved.
+WORKING — Story 1 visual baseline is now approved; Stories 2–4 remain unproduced. The approved Story 1 artifact is the current visual reference for subsequent Story compositions.
 
 ## Purpose
 
@@ -19,44 +19,48 @@ Canonical current content state for the BAKU Edit Tugas Instagram Story Highligh
 
 ## Master Visual System
 
-**Status:** APPROVED at structural level; exact design specifications remain WORKING / OPEN.
+**Status:** APPROVED at structural level.
 
-Use one Master Story Frame + four cinematic scenes.
+The approved Story 1 artifact is now the visual baseline for the reusable system. Subsequent Stories must preserve its established layout structure, typography treatment, relative sizing, spacing rhythm, canonical logo usage, color relationships, and flat editorial illustration language. Story-specific scenes, characters, objects, and supporting imagery may vary without changing the core system.
 
-Consistent across all Stories:
+The earlier realistic/cinematic visual treatment is superseded for this workstream.
 
-- layout structure;
-- typography hierarchy;
-- logo position;
-- safe-area treatment;
-- question treatment;
-- answer treatment;
-- branding;
-- overall visual language.
+## Brand / Visual Baseline
 
-Variable by Story:
-
-- character;
-- scene;
-- objects;
-- visual metaphor;
-- supporting imagery.
-
-Visual direction: professional, modern, academic, approachable, realistic, cinematic, clean, and natural. Avoid generic illustration and stock-photo aesthetics that feel disconnected from the brand.
+- Background: warm cream/off-white relationship matching the approved Story 1 artifact.
+- Primary brand color: deep navy relationship matching the approved Story 1 artifact and canonical logo.
+- Accent: warm gold relationship matching the approved Story 1 artifact and canonical logo.
+- Visual treatment: flat editorial illustration.
+- Academic/consultation context should remain natural and approachable.
+- Use the canonical BAKU Edit Tugas logo from `02_Assets/Brand/`; do not use AI-generated replacement logos.
+- Typography family, relative sizes, placement, and spacing must follow the approved Story 1 Canva implementation.
+- Do not invent exact numeric font metadata from a raster image; Canva is authoritative for precise values.
 
 ## Story 01 — Positioning
 
-**Status:** APPROVED CONTENT / VISUAL NOT PRODUCED
+**Status:** APPROVED — visual baseline established
 
 **Purpose:** Remove the perception that BAKU is only a "joki" service and position the offer as academic assistance/dampingan.
 
 **Question / Hook:** `Ini joki skripsi ya?`
 
-**Answer:** `Bukan. Kami dampingi biar kamu ngerti.`
+**Answer:**
+
+`Bukang! Torang itu dampingi`
+
+`Supaya ngana mangarti`
 
 **Supporting copy:** `Konsultasi & revisi sesuai kebutuhan.`
 
-**Visual direction:** Student(s) discussing or receiving academic guidance. The scene should feel natural and professional, not like someone merely handing over work to be completed by another person.
+**Approved visual reference:** The user-provided Story 1 artifact is the canonical visual baseline for structure, typography, relative sizing, logo treatment, illustration style, palette relationships, spacing, and composition language.
+
+**Illustrative content shown in the approved artifact:**
+
+- Student receiving/discussing academic guidance with another person.
+- Laptop, notebook, academic documents, books, desk items, plants, and other restrained academic workspace objects.
+- Speech bubble and note-card style supporting text are part of the approved Story 1 composition reference.
+
+**Production rule:** Do not silently revert Story 1 to the previous generic answer wording or cinematic visual treatment.
 
 ## Story 02 — Speed
 
@@ -70,7 +74,7 @@ Visual direction: professional, modern, academic, approachable, realistic, cinem
 
 **Supporting copy:** `Tergantung panjang & tingkat pengerjaan.`
 
-**Visual direction:** Desk/workflow context such as laptop, academic documents, calendar, or another relevant time/workflow visual.
+**Visual direction:** Apply the approved Story 1 flat editorial illustration system. Story-specific workflow/time objects may vary, but layout, typography treatment, color relationships, and overall visual language must remain consistent with Story 1.
 
 ## Story 03 — Privacy
 
@@ -84,7 +88,7 @@ Visual direction: professional, modern, academic, approachable, realistic, cinem
 
 **Supporting copy:** `Bisa request hapus setelah selesai.`
 
-**Visual direction:** Laptop/documents with a private, secure, professional treatment.
+**Visual direction:** Apply the approved Story 1 flat editorial illustration system with a private, secure, professional academic-document context.
 
 **Claim boundary:** Do not add unsupported absolute-security claims or fabricated counts/statistics/social proof. In particular, do not use claims such as `100% Private` or invented file/customer counts.
 
@@ -100,39 +104,40 @@ Visual direction: professional, modern, academic, approachable, realistic, cinem
 
 **CTA:** `Butuh bantuan? Chat BAKU →`
 
-**Visual direction:** Student using a laptop for online consultation/communication. Subtle local Manado cues are acceptable, but the scene must not imply service is limited to one university.
+**Visual direction:** Apply the approved Story 1 flat editorial illustration system. Student using a laptop for online consultation/communication. Subtle local Manado cues are acceptable, but the scene must not imply service is limited to one university.
 
-**CTA note:** WhatsApp CTA treatment is to be finalized in Canva.
+**CTA note:** WhatsApp CTA treatment follows the approved Story 1 visual language and is finalized in Canva.
 
 ## Current Design State
 
 ### Master Story Frame
 
-**Status:** WORKING / NOT APPROVED
+**Status:** APPROVED — structural visual system validated through the approved Story 1 baseline.
 
-A Master Frame concept has been visually explored, but the generated mockups are references only and are not the final Canva layout. The official logo supplied by the user must be used; AI-generated logo artwork is not canonical.
+The reusable system is represented by the approved Story 1 composition. The system is now flat editorial rather than realistic/cinematic. Future Story layouts must derive from this approved baseline rather than from earlier cinematic prototypes.
 
 ### Story 01 Prototype
 
-**Status:** OPEN — next visual-production step after Master Frame approval.
+**Status:** APPROVED — visual baseline established
+
+The user-provided artifact is the current approved reference for the actual production treatment.
 
 ### Stories 02–04
 
-**Status:** OPEN — production follows Story 1 validation and Master Frame lock.
+**Status:** OPEN — production follows the approved Story 1 baseline.
 
 ## Not Canonical
 
 The following are not current canonical production content:
 
-- AI-generated mockup text/layout as final artwork;
+- earlier AI-generated cinematic/realistic mockups;
 - AI-generated replacement logo;
-- exact font family/size/spacing specifications from visual explorations;
-- exact CTA pill treatment;
-- exact safe-area pixel boundaries;
-- any fabricated performance statistic or social proof.
+- previous generic Story 1 answer wording `Bukan. Kami dampingi biar kamu ngerti.`;
+- unsupported performance statistics or social proof;
+- invented exact font metadata or measurements not verified in Canva.
 
 ## Production Sequence
 
 `Concept → Master Frame → Generation → Visual QC → Canva → Final QC → Export`
 
-Immediate next step: finalize and approve the Master Story Frame before generating the Story 1 prototype.
+Current next step: produce Story 2 using the approved Story 1 visual baseline while preserving the canonical Story 2 copy.
