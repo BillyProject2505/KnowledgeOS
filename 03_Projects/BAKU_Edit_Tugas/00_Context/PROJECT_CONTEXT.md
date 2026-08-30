@@ -24,7 +24,7 @@ Instagram Story Highlight — FAQ
 
 ## Current Production Objective
 
-Design and lock the **Master Story Frame 9:16** before producing the four final Story visuals.
+Produce Stories 2–4 using the approved Story 1 visual baseline and canonical Master Frame structure.
 
 Production sequence:
 
@@ -56,7 +56,11 @@ The Highlight is not being treated primarily as a daily reach-oriented content f
 
 Question / Hook: `Ini joki skripsi ya?`
 
-Answer: `Bukan. Kami dampingi biar kamu ngerti.`
+Answer:
+
+`Bukang! Torang itu dampingi`
+
+`Supaya ngana mangarti`
 
 Supporting copy: `Konsultasi & revisi sesuai kebutuhan.`
 
@@ -94,22 +98,24 @@ CTA: `Butuh bantuan? Chat BAKU →`
 
 Purpose: remove geographic friction and create a clear inquiry action.
 
-WhatsApp CTA treatment will be finalized in Canva.
+WhatsApp CTA treatment is finalized in Canva.
 
 ## Master Visual System — Approved
 
-Use **one Master Story Frame + four cinematic scenes**.
+Use one reusable Story Frame derived from the approved Story 1 composition.
 
 Consistent across the series:
 
 - layout structure;
-- typography hierarchy;
-- logo position;
+- typography treatment and relative sizing;
+- logo position and scale relationship;
 - safe-area treatment;
 - question treatment;
 - answer treatment;
+- color relationships;
 - branding;
-- overall visual language.
+- overall flat editorial illustration language;
+- spacing rhythm and composition logic.
 
 Variable by Story:
 
@@ -117,7 +123,9 @@ Variable by Story:
 - scene;
 - objects;
 - visual metaphor;
-- background/supporting imagery.
+- supporting imagery.
+
+The earlier cinematic/realistic scene treatment is superseded.
 
 Core principles:
 
@@ -131,18 +139,22 @@ Core principles:
 
 ## Visual Direction — Approved
 
-- Professional
-- Modern
-- Academic
-- Approachable
-- Realistic
-- Cinematic
-- Clean
-- Natural
+The current FAQ visual system is **flat editorial illustration**, based on the user-approved Story 1 artifact.
 
-Use realistic cinematic static visuals. Avoid generic illustration and stock-photo aesthetics that feel disconnected from the brand.
+Characteristics:
 
-Visuals support the message and must not overpower copy hierarchy.
+- professional;
+- modern;
+- academic;
+- approachable;
+- clean;
+- natural;
+- warm cream background;
+- deep navy primary color relationship;
+- warm gold accent relationship;
+- clean academic/consultation illustrations and restrained supporting objects.
+
+Do not revert to the previously explored realistic/cinematic treatment unless explicitly revised later.
 
 ## Safe Area — Approved Principle
 
@@ -154,7 +166,7 @@ Use a conservative Story safe area based on Meta guidance:
 
 These are layout principles, not a claim that 1080 × 1420 px is an official Instagram safe-zone specification.
 
-Exact pixel boundaries remain **WORKING / OPEN** until the Master Frame prototype is visually tested.
+Exact pixel boundaries remain a Canva production detail unless explicitly locked later.
 
 ## Copy Principles — Approved
 
@@ -207,11 +219,12 @@ Use only canonical brand assets for production. Do not replace the official logo
 
 - Project space is initialized.
 - FAQ Highlight is the active workstream.
-- Four-story copy and strategic structure are recorded as canonical.
-- Master visual system is approved at the structural level.
-- Master Frame prototype has been explored visually but is **not yet approved as final**.
-- Story visuals and final Canva layouts are **not yet approved/final**.
-- Meta platform guidance reference is now established for ongoing content production.
+- Four-story content structure is recorded as canonical.
+- Story 1 copy has been revised to match the user-approved Story 1 artifact.
+- The approved Story 1 artifact is the canonical visual baseline for the FAQ series.
+- The previous cinematic/realistic visual direction is superseded by the flat editorial illustration system.
+- Story 1 visual baseline is approved.
+- Stories 2–4 are not yet produced/final.
 
 ## Status Vocabulary
 
@@ -226,15 +239,11 @@ Use these statuses consistently:
 
 ## Open Items
 
-- Exact typography system.
-- Exact font sizes.
-- Exact spacing.
-- Exact image treatment.
-- Exact CTA treatment.
-- Exact safe-area pixel boundaries.
-- Final Master Story Frame approval.
+- Production of Stories 2–4 using the approved Story 1 baseline.
+- Full-series visual QC after Stories 2–4 are produced.
+- Exact Canva measurements when needed for repeatability.
 - Ongoing verification of Meta platform guidance as policies and product behavior change.
 
 ## Next Production Objective
 
-Finalize and approve the Master Story Frame 9:16 before generating the Story 1 prototype.
+Produce Story 2 using the approved Story 1 visual baseline and canonical Story 2 copy.
