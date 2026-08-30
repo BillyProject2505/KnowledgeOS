@@ -12,39 +12,208 @@ Maintain the durable project context required to produce BAKU Edit Tugas work co
 
 Instagram Story Highlight — FAQ
 
+## Current Production Objective
+
+Design and lock the **Master Story Frame 9:16** before producing the four final Story visuals.
+
+Production sequence:
+
+`Master Frame → Story 1 Prototype → Visual QC → Canva Finalization → Story 2–4 → Full-Series QC → Export`
+
 ## Production Context
 
-The current workstream is an FAQ Story Highlight intended to help prospective customers who have visited BAKU Edit Tugas understand key questions before making an inquiry.
+The FAQ Highlight is a decision-support asset for prospective customers who have already visited the BAKU Edit Tugas profile. Its role is to answer common questions, reduce friction, build trust, and support inquiry/conversion.
+
+Funnel:
+
+`Profile → FAQ Highlight → Trust → Inquiry → Conversion`
+
+The Highlight is not being treated primarily as a daily reach-oriented content format.
+
+## Format — Approved
+
+- Static Instagram Story.
+- 9:16.
+- Target size: 1080 × 1920 px.
+- Output: static image.
+- No video or animation.
+- Logo is added manually in Canva.
+- Canva is the finalization layer for typography, logo, alignment, spacing, copy, CTA, and final QC.
+
+## Four-Story Content Structure — Approved
+
+### Story 1 — Positioning
+
+Question / Hook: `Ini joki skripsi ya?`
+
+Answer: `Bukan. Kami dampingi biar kamu ngerti.`
+
+Supporting copy: `Konsultasi & revisi sesuai kebutuhan.`
+
+Purpose: clarify that BAKU is positioned as academic assistance rather than a "joki" service.
+
+### Story 2 — Speed
+
+Question / Hook: `Berapa lama?`
+
+Answer: `1–3 hari`
+
+Supporting copy: `Tergantung panjang & tingkat pengerjaan.`
+
+Purpose: set a clear time expectation.
+
+### Story 3 — Privacy
+
+Question / Hook: `Privasi aman?`
+
+Answer: `Aman. File tidak disebarkan.`
+
+Supporting copy: `Bisa request hapus setelah selesai.`
+
+Purpose: reduce privacy concerns and build trust.
+
+Do not use unsupported absolute-security or fabricated social-proof claims.
+
+### Story 4 — Accessibility + Conversion
+
+Question / Hook: `Bisa luar Manado?`
+
+Answer: `Bisa. 100% online.`
+
+CTA: `Butuh bantuan? Chat BAKU →`
+
+Purpose: remove geographic friction and create a clear inquiry action.
+
+WhatsApp CTA treatment will be finalized in Canva.
+
+## Master Visual System — Approved
+
+Use **one Master Story Frame + four cinematic scenes**.
+
+Consistent across the series:
+
+- layout structure;
+- typography hierarchy;
+- logo position;
+- safe-area treatment;
+- question treatment;
+- answer treatment;
+- branding;
+- overall visual language.
+
+Variable by Story:
+
+- character;
+- scene;
+- objects;
+- visual metaphor;
+- background/supporting imagery.
+
+Core principles:
+
+`Consistency > novelty`
+
+`Clarity > decoration`
+
+`Function > aesthetics`
+
+`Conversion > vanity`
+
+## Visual Direction — Approved
+
+- Professional
+- Modern
+- Academic
+- Approachable
+- Realistic
+- Cinematic
+- Clean
+- Natural
+
+Use realistic cinematic static visuals. Avoid generic illustration and stock-photo aesthetics that feel disconnected from the brand.
+
+Visuals support the message and must not overpower copy hierarchy.
+
+## Safe Area — Approved Principle
+
+Use a conservative Story safe area based on Meta guidance:
+
+- approximately 14% top;
+- approximately 20% bottom;
+- approximately 6% left/right.
+
+These are layout principles, not a claim that 1080 × 1420 px is an official Instagram safe-zone specification.
+
+Exact pixel boundaries remain **WORKING / OPEN** until the Master Frame prototype is visually tested.
+
+## Copy Principles — Approved
+
+No fixed maximum-word rule is being used.
+
+Copy should be as short as possible without removing necessary context. Prefer:
+
+- one question;
+- one answer;
+- supporting copy only when needed;
+- one CTA when appropriate.
+
+## Evidence / Claim Boundaries — Approved
+
+Accepted strategic principles:
+
+- prioritize immediate comprehension at Story opening;
+- treat Highlights as persistent profile-based decision-support assets;
+- use safe-area principles for important elements.
+
+Not used as primary design rules or KPIs:
+
+- simplistic ranking formulas across Instagram surfaces;
+- Feed static-image engagement benchmarks as a prediction for Highlight performance;
+- historical 2018 paid-Story mixed-format findings as an organic 2026 Highlight KPI;
+- fixed "18–22 words" copy limits.
+
+Rejected claims:
+
+- unsupported `2×` CTA-performance claim;
+- fabricated counts/statistics/social proof;
+- unsupported absolute privacy/security claims.
 
 ## Brand Asset
 
-The user has provided an official BAKU Edit Tugas logo for use as the project brand mark.
+The logo provided by the user in the production conversation is the **official BAKU Edit Tugas logo** for this workstream.
 
-## Operating Principle
-
-ChatGPT conversation is temporary working context. This project directory is the durable project memory. Approved decisions and current production state must be recorded here so work can resume consistently in a new session.
+Do not replace it with an AI-generated logo. Logo placement and final treatment are handled manually in Canva.
 
 ## Current State
 
-- Project space initialized in `KnowledgeOS/03_Projects/BAKU_Edit_Tugas/`.
-- Current workstream: Instagram Story Highlight — FAQ.
-- Production context is established.
-- Durable decision tracking is now active.
+- Project space is initialized.
+- FAQ Highlight is the active workstream.
+- Four-story copy and strategic structure are recorded as canonical.
+- Master visual system is approved at the structural level.
+- Master Frame prototype has been explored visually but is **not yet approved as final**.
+- Story visuals and final Canva layouts are **not yet approved/final**.
 
-## Known
+## Status Vocabulary
 
-- BAKU Edit Tugas is the project being produced in this workspace.
-- The FAQ Highlight is the active content workstream.
-- The provided logo is the official BAKU Edit Tugas logo.
+Use these statuses consistently:
 
-## Assumptions
+- `APPROVED` — final decision/content explicitly approved.
+- `WORKING` — actively being developed and not final.
+- `DRAFT` — draft not approved.
+- `SUPERSEDED` — previously valid but replaced.
+- `OPEN` — requires a decision.
+- `BLOCKED` — cannot proceed without required information.
 
-- None recorded as approved project facts.
+## Open Items
 
-## Open Issues
-
-- Detailed Story-by-Story copy and visual production decisions remain to be finalized in the content workflow.
+- Exact typography system.
+- Exact font sizes.
+- Exact spacing.
+- Exact image treatment.
+- Exact CTA treatment.
+- Exact safe-area pixel boundaries.
+- Final Master Story Frame approval.
 
 ## Next Production Objective
 
-Continue the FAQ Highlight production from the approved project context and record each approved decision in `DECISIONS.md`.
+Finalize and approve the Master Story Frame 9:16 before generating the Story 1 prototype.
