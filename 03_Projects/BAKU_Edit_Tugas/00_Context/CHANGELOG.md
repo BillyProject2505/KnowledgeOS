@@ -19,6 +19,30 @@ Created the canonical BAKU Edit Tugas project space under `KnowledgeOS/03_Projec
 - The active workstream is Instagram Story Highlight — FAQ.
 - The user-provided BAKU Edit Tugas logo is the official brand mark.
 
-### Next
+---
 
-Continue FAQ production and record newly approved decisions and canonical content changes in the project files.
+## 2026-08-30 — Production State Sync
+
+Updated the canonical project memory against the current FAQ production context in the working conversation.
+
+### Updated
+
+- `00_Context/PROJECT_CONTEXT.md`
+  - Added the current production objective and production sequence.
+  - Recorded the four-story FAQ content structure and approved format constraints.
+  - Recorded the master visual system, visual direction, safe-area principle, copy principle, and claim boundaries.
+  - Recorded current open production specifications and the distinction between approved structure and unapproved visual details.
+- `00_Context/DECISIONS.md`
+  - Added approved decisions for FAQ format, four-story structure, master visual system, Canva finalization, visual direction, safe-area principle, copy principle, evidence/claim boundaries, Unsrat scope, and production sequence.
+- `01_Content/Instagram/Story_Highlight_FAQ/CONTENT.md`
+  - Replaced the initial placeholder state with the current canonical four-Story content state.
+  - Recorded approved copy, purposes, visual directions, and current production status.
+  - Removed stale placeholder Story 5–8 entries by replacing them with the actual four-story workstream.
+
+### Not Added
+
+No separate asset folder or additional project structure was created. The generated visual mockups in the conversation remain reference explorations, not canonical final assets.
+
+### Current Production Gate
+
+Master Story Frame must be finalized and approved before Story 1 visual production proceeds.
