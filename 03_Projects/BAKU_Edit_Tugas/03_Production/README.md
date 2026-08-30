@@ -4,7 +4,7 @@ Folder ini berisi sistem operasional produksi pekerjaan klien BAKU Edit Tugas.
 
 ## Tujuan
 
-Menstandarkan proses pengerjaan layanan akademik berbantuan AI agar setiap pekerjaan dapat dikerjakan secara konsisten, dapat diperiksa, dan dapat ditingkatkan dari waktu ke waktu.
+Menstandarkan proses pengerjaan layanan akademik berbantuan AI agar setiap pekerjaan dapat dikerjakan secara konsisten, dapat diperiksa, dapat ditelusuri, dan dapat ditingkatkan dari waktu ke waktu.
 
 ## Ruang Lingkup
 
@@ -17,11 +17,23 @@ Production System digunakan untuk pekerjaan klien seperti:
 
 Dokumentasi ini adalah sistem operasional produksi. Konteks brand, content strategy, dan keputusan sosial-media tingkat project tetap dikelola di `../00_Context/`, `../01_Content/`, dan `../02_Assets/` sesuai kewenangannya.
 
+## Operating Model
+
+Arsitektur proses produksi ditetapkan pada:
+
+`01_Workflows/Operating_Model.md`
+
+**Version:** 2.1
+
+Operating Model adalah source of truth arsitektural untuk lifecycle, mandatory controls, decision gates, evidence, resolution state, dan Definition of Done.
+
+`01_Workflows/Master_Workflow.md` adalah implementasi workflow operasional yang diturunkan dari Operating Model dan tidak boleh menyimpang secara diam-diam.
+
 ## Prinsip Utama
 
 > AI assists the work; human owns the academic responsibility.
 
-AI digunakan sebagai alat bantu untuk mempercepat dan meningkatkan kualitas pekerjaan. Human review tetap wajib untuk judgment akademik, factual accuracy, citation verification, dan keputusan final.
+AI digunakan sebagai alat bantu untuk mempercepat dan meningkatkan kualitas pekerjaan. Human review tetap wajib untuk judgment akademik, factual accuracy, citation verification, dan keputusan final yang relevan dengan scope/risk pekerjaan.
 
 Jangan menganggap output AI sebagai sumber kebenaran tanpa pemeriksaan.
 
@@ -41,7 +53,7 @@ Jangan menganggap output AI sebagai sumber kebenaran tanpa pemeriksaan.
 
 ### `01_Workflows/`
 
-Alur kerja produksi yang menjelaskan urutan aktivitas dan handoff antar tahap.
+Operating Model dan workflow produksi yang menjelaskan lifecycle, control, urutan aktivitas, dan handoff antar tahap.
 
 ### `02_SOP/`
 
@@ -79,50 +91,73 @@ Informasi sensitif dan file pekerjaan klien harus ditempatkan pada workspace pro
 
 Repository berfungsi sebagai durable operational knowledge dan production system, bukan sebagai default client-file storage.
 
-## Master Workflow
-
-Alur produksi utama BAKU:
+## Master Production Lifecycle
 
 ```text
 Client Request
     ↓
-Intake
+01 Intake
     ↓
-Requirement Analysis
+02 Diagnose + Risk
     ↓
-Document Diagnosis
+03 Authorize
     ↓
-Editing Plan
+04 Produce
     ↓
-AI-Assisted Editing
+05 Review
     ↓
-Human Review
+06 Academic QC
     ↓
-Fact & Citation Verification
+07 Originality / AI Review [conditional]
     ↓
-Formatting
+08 Final QC
     ↓
-Final QC
+09 Delivery
     ↓
-Delivery
+10 Archive
 ```
 
-Master Workflow adalah sumber rujukan proses. SOP, AI workflow, QC, dan template harus konsisten dengan workflow ini.
+Detail lifecycle dan controls berada di `01_Workflows/Operating_Model.md` dan implementasinya di `01_Workflows/Master_Workflow.md`.
 
 ## Production Quality Gate
 
 Tidak ada pekerjaan yang dianggap final hanya karena AI telah menghasilkan output.
 
-Sebelum delivery, output harus melewati human review dan pemeriksaan yang relevan, termasuk:
+Sebelum delivery, output harus memenuhi Definition of Done pada Operating Model dan melewati review/QC yang relevan terhadap scope dan risk, termasuk bila applicable:
 
 - kesesuaian terhadap requirement klien;
+- institutional/assignment compliance;
 - academic judgment;
 - factual accuracy;
-- citation/reference verification;
+- source/citation verification;
+- originality/similarity review;
+- AI-assistance screening;
 - formatting;
 - final QC.
 
-Tahap yang tidak relevan untuk jenis pekerjaan tertentu dapat diadaptasi berdasarkan requirement, tetapi tidak boleh dihilangkan tanpa alasan yang jelas.
+Tahap conditional hanya dijalankan ketika applicable, tetapi tidak boleh dilewati tanpa alasan yang jelas dan tercatat.
+
+## Resolution State
+
+Finding production menggunakan status:
+
+- `RESOLVED`
+- `OPEN`
+- `WAITING_AUTHOR`
+- `WAITING_SOURCE`
+- `ESCALATED`
+
+Only `RESOLVED` findings satisfy completion requirements.
+
+## Risk Model
+
+Gunakan risk level:
+
+- `LOW`
+- `MEDIUM`
+- `HIGH`
+
+Risk level menentukan kedalaman evidence, review, dan QC yang diperlukan. Jangan menambah status untuk setiap aktivitas kecil.
 
 ## Relationship to Project Context
 
@@ -140,28 +175,17 @@ Canonical brand assets berada di:
 
 Production System mengeksekusi pekerjaan berdasarkan keputusan dan batasan yang berlaku pada project context. Jika terjadi konflik, jangan mengubah keputusan secara diam-diam; gunakan decision register sebagai rujukan dan catat perubahan yang disetujui.
 
-## Current Integration with BAKU Project
+## Repository Boundary
 
-Social-content production dan client-work production adalah dua konteks yang berbeda namun menggunakan prinsip operasional yang sama: clear requirements, reusable standards, human review, traceability, dan final QC.
+GitHub adalah durable source of truth untuk approved operating knowledge, standards, SOPs, templates, governance, dan dokumentasi project yang memang perlu dipelihara.
 
-Untuk current social-content state, lihat root project README dan `../00_Context/PROJECT_CONTEXT.md`.
+Working drafts, client files, personal data, dan production evidence tidak otomatis masuk repository. Simpan di workspace produksi yang sesuai kecuali ada alasan operasional yang jelas dan aman.
 
-FAQ Highlight yang sedang diproduksi merupakan content-production workstream, sedangkan folder ini menyediakan production operating system untuk pekerjaan klien.
-
-## Status Vocabulary
-
-Gunakan status berikut secara konsisten ketika status produksi perlu dicatat:
-
-- `APPROVED` — final dan disetujui.
-- `WORKING` — sedang dikembangkan.
-- `DRAFT` — draft belum disetujui.
-- `SUPERSEDED` — digantikan keputusan atau versi yang lebih baru.
-- `OPEN` — membutuhkan keputusan.
-- `BLOCKED` — tidak dapat dilanjutkan tanpa informasi atau keputusan yang diperlukan.
+Exploratory conversation output adalah working knowledge sampai secara eksplisit disetujui dan direkam.
 
 ## Maintenance Rule
 
-Perubahan pada workflow, SOP, standards, QC, templates, knowledge, atau governance harus tetap konsisten dengan project authority.
+Perubahan pada workflow, SOP, standards, QC, templates, knowledge, atau governance harus tetap konsisten dengan Operating Model.
 
 Jangan membuat struktur atau abstraksi baru hanya untuk menambah dokumentasi. Tambahkan aturan, template, atau layer baru hanya ketika terdapat kebutuhan operasional yang nyata dan dapat dipelihara.
 
