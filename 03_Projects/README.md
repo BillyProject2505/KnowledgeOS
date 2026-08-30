@@ -2,15 +2,47 @@
 
 ## Purpose
 
-Contains project-specific integrations and project-level knowledge maintained within KnowledgeOS.
+Contains project-specific integrations, knowledge, assets, production systems, and supporting material maintained within KnowledgeOS.
+
+This directory is a project index and boundary layer. Substantive decisions and operational rules remain governed by the relevant project documentation and higher-level repository/system authority.
 
 ---
 
 ## Scope
 
-This directory contains project-specific artifacts, documents, integrations, and supporting material.
+Each project under this directory maintains its own declared scope, structure, status, and source-of-truth boundaries.
 
-Project artifacts shall remain within their declared project scope and shall not automatically become Universal or repository-wide canonical authority.
+Project artifacts must remain within their declared project scope unless an explicit higher-level decision establishes broader authority or reuse.
+
+---
+
+## Projects
+
+### BAKU Edit Tugas
+
+`03_Projects/BAKU_Edit_Tugas/`
+
+Academic-service brand and production project covering brand context, social content, canonical assets, and the production operating system for client work.
+
+Current project entry point:
+
+[`BAKU_Edit_Tugas/README.md`](./BAKU_Edit_Tugas/README.md)
+
+### CozWeCare
+
+Project-specific workspace for CozWeCare materials and knowledge.
+
+### OBK
+
+Project-specific workspace for OBK materials and knowledge.
+
+### KDS
+
+Project-specific workspace for KDS materials and knowledge.
+
+### Personal
+
+Project-specific workspace for personal project materials and knowledge.
 
 ---
 
@@ -18,16 +50,9 @@ Project artifacts shall remain within their declared project scope and shall not
 
 Project-level authority is determined by each artifact's declared scope, metadata, governance, and documented lineage.
 
-A project artifact does not override system-level or Universal authority merely because it is stored here.
+A project artifact does not override Universal, repository-level, or system-level authority merely because it is stored here.
 
----
-
-## Contents
-
-- CozWeCare
-- OBK
-- KDS
-- Personal
+Project READMEs are intended for navigation, scope, and orientation. They are not substitutes for the project's decision registers, standards, workflows, or other normative documents.
 
 ---
 
@@ -37,9 +62,11 @@ A project artifact does not override system-level or Universal authority merely 
 
 Repository Root
 
-### Repository-Level Orientation
-
 [`../README.md`](../README.md)
+
+### Project Navigation
+
+Open the relevant project README for its current structure, status, and canonical entry points.
 
 ---
 
@@ -47,6 +74,7 @@ Repository Root
 
 - Preserve project boundaries and ownership.
 - Keep project-specific knowledge distinct from Universal and system-level knowledge.
-- Preserve artifact status, version, and lineage information.
-- Do not use this README as substantive project authority.
+- Keep the project index synchronized with the actual project directories present under `03_Projects/`.
+- Preserve artifact status, version, and lineage information where applicable.
+- Do not place substantive project authority in this README.
 - Keep this README focused on navigation, scope, and project boundaries.
