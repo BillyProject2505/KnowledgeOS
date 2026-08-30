@@ -1,19 +1,11 @@
 # BAKU Edit Tugas — Master Production Workflow
 
-**Status:** Active
-**Version:** 2.1
-**Authority:** Derived from `Operating_Model.md` v2.1
-**Purpose:** Menjadi workflow produksi operasional yang menurunkan lifecycle dan mandatory controls dari Operating Model BAKU Edit Tugas.
+**Status:** Active  
+**Version:** 2.1  
+**Authority:** Derived from `Operating_Model.md` v2.1  
+**Purpose:** Menjadi peta eksekusi operasional pekerjaan klien berdasarkan lifecycle dan mandatory controls yang ditetapkan pada Operating Model.
 
-## 1. Production Principle
-
-BAKU menyediakan bantuan akademik berbasis AI dengan human oversight.
-
-> AI assists the work; human owns the academic responsibility.
-
-AI tidak dianggap sebagai sumber kebenaran tunggal. Output AI harus diperlakukan sebagai draft atau assistance sampai diverifikasi.
-
-## 2. End-to-End Workflow
+## 1. Production Workflow
 
 ```text
 01 Intake
@@ -37,182 +29,245 @@ AI tidak dianggap sebagai sumber kebenaran tunggal. Output AI harus diperlakukan
 10 Archive
 ```
 
-## 3. Stage Definitions
+## 2. Stage Definitions
 
 ### 01 — Intake
 
-**Objective:** Mengubah permintaan klien menjadi Work Brief yang dapat diproduksi.
+**Purpose:** Mengubah permintaan klien menjadi Work Brief yang dapat diproduksi.
 
-Capture what is applicable:
-- service type;
-- document type;
-- academic level;
-- institution and program;
-- scope;
+**Input:**
+- permintaan klien;
+- file/draft yang tersedia;
 - deadline;
-- output format;
-- client/instructor requirements;
-- source/reference materials;
-- applicable institutional guideline.
+- requirement dan reference yang tersedia.
 
-**Gate:** Minimum requirements tersedia sebelum diagnosis.
+**Activities:**
+- capture service type dan document type;
+- capture academic level, institution/program, dan scope;
+- capture output format dan deadline;
+- capture client/instructor/institution requirements;
+- identify applicable institutional guideline;
+- record requirement/source inventory.
+
+**Gate:** Minimum information untuk diagnosis tersedia.
+
+**Output:** Work Brief + requirement source inventory.
+
+**Handoff:** Diagnose + Risk.
+
+**Control references:** `Operating_Model.md → MC-01, MC-04`
 
 ### 02 — Diagnose + Risk
 
-**Objective:** Menentukan kondisi dokumen, scope intervensi, masalah, dependency, privacy/sensitivity concern, dan risk level.
+**Purpose:** Menentukan kondisi dokumen, kebutuhan intervensi, dependency, dan risk level sebelum produksi.
 
-Risk:
-- `LOW`
-- `MEDIUM`
-- `HIGH`
+**Input:** Work Brief + source materials + document.
 
-Pisahkan language/format, editorial, dan substantive academic issues.
+**Activities:**
+- inspect document condition;
+- identify language, editorial, academic, source/citation, formatting, and data-sensitivity concerns;
+- identify missing or ambiguous information;
+- classify risk as `LOW`, `MEDIUM`, or `HIGH`.
+
+**Gate:** Scope, dependencies, dan risk cukup jelas untuk authorization.
+
+**Output:** Diagnosis + risk assessment + findings/dependencies.
+
+**Handoff:** Authorize.
+
+**Control references:** `Operating_Model.md → MC-02`
 
 ### 03 — Authorize
 
-**Objective:** Menentukan apakah pekerjaan boleh diproduksi.
+**Purpose:** Menentukan apakah pekerjaan dapat diproduksi dalam scope yang disetujui.
 
-Outcomes:
+**Input:** Work Brief + diagnosis + risk assessment.
+
+**Activities:**
+- confirm scope and boundaries;
+- confirm required evidence/source availability;
+- apply integrity and safety boundaries;
+- determine required review depth.
+
+**Gate outcomes:**
 - `AUTHORIZED`
 - `CLARIFICATION_REQUIRED`
 - `ESCALATED`
 - `DECLINED`
 
-Jangan menerima fabrication of evidence/data/sources, concealment of unattributed copying, atau detector gaming.
+**Output:** Authorization decision + approved scope.
+
+**Handoff:** Produce or resolution path.
+
+**Control references:** `Operating_Model.md → MC-03`
 
 ### 04 — Produce
 
-**Objective:** Mengerjakan scope yang telah diotorisasi dengan human control.
+**Purpose:** Mengerjakan scope yang telah diotorisasi.
 
-AI dapat digunakan untuk language assistance, controlled rephrasing, coherence suggestions, structure suggestions, dan pattern checks.
+**Input:** Approved scope + document + applicable requirements.
 
-#### Edit Authority
+**Activities:**
+- perform approved editing/content-support work;
+- use AI assistance where appropriate;
+- record or surface substantive decisions;
+- maintain required evidence/source references.
 
-**E1 — Direct Edit**  
-Mechanical/editorial corrections yang jelas.
+**Gate:** Output remains within approved scope and applicable controls.
 
-**E2 — Editorial Judgment**  
-Contextual editing dengan kewajiban mempertahankan makna.
+**Output:** Production draft + findings/change evidence as applicable.
 
-**E3 — Academic Decision**  
-Perubahan terhadap methodology, evidence, claims, interpretation, research design, atau conclusions. Harus di-review/diotorisasi manusia dan tidak boleh silent rewrite.
+**Handoff:** Review.
+
+**Control references:** `Operating_Model.md → MC-05, MC-06, MC-07, MC-10`
 
 ### 05 — Review
 
-**Objective:** Memastikan hasil produksi sesuai Work Brief, scope, edit authority, dan meaning preservation.
+**Purpose:** Memeriksa hasil produksi terhadap brief, scope, dan edit boundaries sebelum academic QC.
 
-Material changes diklasifikasikan:
-- `PRESERVED`
-- `ALTERED`
-- `UNCERTAIN`
+**Input:** Production draft + Work Brief.
 
-`ALTERED` atau unresolved `UNCERTAIN` membutuhkan review sebelum finalization.
+**Activities:**
+- verify scope completion;
+- review changes for meaning preservation;
+- inspect unwanted additions or over-editing;
+- identify unresolved findings;
+- route substantive items for escalation where required.
+
+**Gate:** No unresolved material issue may be silently carried forward.
+
+**Output:** Reviewed draft + updated findings/resolution states.
+
+**Handoff:** Academic QC.
+
+**Control references:** `Operating_Model.md → MC-05, MC-06, MC-07, MC-08`
 
 ### 06 — Academic QC
 
-**Objective:** Menilai academic compliance dan supportability.
+**Purpose:** Menilai academic compliance dan quality sesuai scope serta requirement yang berlaku.
 
-Jika guideline institusi/assignment berlaku:
+**Input:** Reviewed draft + applicable requirements + source evidence.
 
-```text
-Guideline Source
-    ↓
-Requirement Extraction
-    ↓
-Applicability Assessment
-    ↓
-Document Mapping
-    ↓
-PASS / FAIL / N/A / REVIEW
-```
+**Activities:**
+- apply institutional/assignment requirements where applicable;
+- assess structural compliance;
+- assess substantive academic quality;
+- assess requirement applicability;
+- record evidence and findings.
 
-Pisahkan:
-- structural compliance;
-- substantive academic quality;
-- requirement applicability.
+**Gate:** Requirement status menggunakan `PASS / FAIL / N/A / REVIEW` sesuai evidence yang tersedia.
 
-`FAIL` hanya jika evidence cukup untuk menetapkan non-compliance. Jika evidence tidak cukup, gunakan `REVIEW`.
+**Output:** Academic QC result + compliance/quality findings.
+
+**Handoff:** Originality / AI Review when applicable; otherwise Final QC.
+
+**Control references:** `Operating_Model.md → MC-04, MC-09`
 
 ### 07 — Originality / AI Review [Conditional]
 
-Aktif hanya bila scope atau risk membutuhkan.
+**Purpose:** Menjalankan review originality atau AI-assistance hanya ketika scope/risk membutuhkannya dan tool dapat diterapkan secara valid.
 
-#### Similarity / Originality
+**Input:** QC-ready document + applicable review scope + available tool/source evidence.
 
-```text
-Similarity Detection
-    ↓
-Match Context Classification
-    ↓
-Source Inspection
-    ↓
-Human Interpretation
-    ↓
-Resolution
-```
+**Activities:**
+- run applicable similarity/originality checks;
+- classify match context and inspect relevant sources;
+- run AI-assistance screening when applicable;
+- record signal, limitations, interpretation, and resolution state.
 
-Similarity score bukan plagiarism verdict.
+**Gate:** Screening must be applicable; unresolved material findings follow resolution/escalation path.
 
-#### AI-Assistance Screening
+**Output:** Originality/AI review result + findings.
 
-AI screening adalah advisory signal, bukan proof of authorship atau misconduct.
+**Handoff:** Final QC or resolution path.
 
-Pastikan screening applicable berdasarkan capability tool, language, document length/type, dan documented limitations.
+**Control references:** `Operating_Model.md → MC-08, MC-09`
 
 ### 08 — Final QC
 
-**Objective:** Memastikan pekerjaan siap delivery.
+**Purpose:** Memastikan pekerjaan benar-benar siap untuk delivery.
 
-Verify:
-- approved scope completed;
-- applicable requirements addressed;
-- required reviews/verifications completed;
-- critical findings resolved;
-- required evidence recorded;
-- final version correct;
-- file integrity;
-- delivery package correct.
+**Input:** Reviewed/verified output + all applicable QC results.
 
-Unresolved states that materially remain:
-- `OPEN`
-- `WAITING_AUTHOR`
-- `WAITING_SOURCE`
-- `ESCALATED`
+**Activities:**
+- verify approved scope is complete;
+- verify applicable requirements and required reviews are addressed;
+- confirm required evidence is recorded;
+- confirm final version and file integrity;
+- verify unresolved findings do not violate delivery gates;
+- prepare final delivery package.
 
-harus memblokir final approval sesuai risk/scope; critical unresolved findings selalu block delivery.
+**Gate:** Critical unresolved findings always block delivery. Other unresolved states are handled according to risk and scope.
+
+**Output:** Final QC approval or blocked status.
+
+**Handoff:** Delivery when approved; resolution path when blocked.
+
+**Control references:** `Operating_Model.md → MC-08, MC-09, MC-11`
 
 ### 09 — Delivery
 
-Delivery hanya setelah Final QC approval.
+**Purpose:** Menyerahkan output yang telah disetujui secara jelas dan traceable.
+
+**Input:** Final QC approved deliverable.
+
+**Activities:**
+- provide final file/package;
+- include relevant revision or limitation notes;
+- communicate required next action when applicable.
+
+**Gate:** Final QC approval exists.
+
+**Output:** Delivered work package.
+
+**Handoff:** Archive.
+
+**Control references:** `Operating_Model.md → MC-11`
 
 ### 10 — Archive
 
-Simpan minimum operational evidence untuk traceability. Jangan gunakan repository sebagai default client-file storage.
+**Purpose:** Menyimpan evidence operasional yang diperlukan untuk traceability tanpa menjadikan repository sebagai default client-file storage.
 
-## 4. Mandatory Controls
+**Input:** Delivered work + required operational evidence.
 
-Workflow ini mengoperasikan mandatory controls yang didefinisikan pada `Operating_Model.md` v2.1:
+**Activities:**
+- record required production metadata and evidence;
+- retain relevant decision/resolution records;
+- preserve approved operational knowledge;
+- keep client data in the appropriate production workspace.
 
-- MC-01 Client Requirement Capture
-- MC-02 Risk Classification
-- MC-03 Authorization / Integrity Gate
-- MC-04 Institutional Guideline Gate [conditional]
-- MC-05 Edit Authority
-- MC-06 Meaning Preservation
-- MC-07 Substantive Change Escalation
-- MC-08 Resolution State
-- MC-09 Evidence Sufficiency
-- MC-10 External Processing Gate
-- MC-11 Fail-Closed Final QC
+**Gate:** Archive only after delivery decision is complete.
 
-## 5. Completion Rule
+**Output:** Archived operational record.
 
-Pekerjaan tidak dianggap selesai hanya karena AI menghasilkan output atau file telah dibuat.
+## 3. Workflow Control References
 
-Definition of Done mengikuti `Operating_Model.md` v2.1.
+The workflow executes the mandatory controls defined by `Operating_Model.md` v2.1. The Operating Model is normative; this document only identifies where controls are exercised in the lifecycle.
 
-## 6. Authority & Change Control
+| Control | Primary workflow stage(s) |
+|---|---|
+| MC-01 Client Requirement Capture | 01 Intake |
+| MC-02 Risk Classification | 02 Diagnose + Risk |
+| MC-03 Authorization / Integrity Gate | 03 Authorize |
+| MC-04 Institutional Guideline Gate | 01 Intake, 06 Academic QC |
+| MC-05 Edit Authority | 04 Produce, 05 Review |
+| MC-06 Meaning Preservation | 04 Produce, 05 Review |
+| MC-07 Substantive Change Escalation | 03 Authorize, 04 Produce, 05 Review |
+| MC-08 Resolution State | 05 Review, 07 Originality / AI Review, 08 Final QC |
+| MC-09 Evidence Sufficiency | 06 Academic QC, 07 Originality / AI Review, 08 Final QC |
+| MC-10 External Processing Gate | 04 Produce |
+| MC-11 Fail-Closed Final QC | 08 Final QC, 09 Delivery |
 
-`Operating_Model.md` adalah source of truth arsitektural. SOP, AI workflow, QC, dan templates harus diturunkan dari model tersebut dan tidak boleh diam-diam menyimpang.
+## 4. Completion Rule
 
-Setiap perubahan material pada workflow harus mengikuti change control project.
+A work item is complete only when the approved scope and applicable requirements have been addressed, required reviews/verifications are completed, required evidence is recorded, unresolved blocking findings are cleared, and Final QC approves delivery.
+
+The normative Definition of Done and delivery rules are defined in `Operating_Model.md` v2.1.
+
+## 5. Authority & Change Control
+
+`Operating_Model.md` v2.1 is the **normative architectural source of truth**. This document is the **operational execution map** derived from it.
+
+This document must not redefine normative controls. If an operational interpretation conflicts with the Operating Model, the Operating Model prevails until formally changed.
+
+Changes to this workflow must remain aligned with the Operating Model and follow project change control. SOPs, AI workflows, QC artifacts, and templates must be derived from these authoritative layers rather than creating competing rules.
