@@ -1,8 +1,9 @@
 # BAKU Edit Tugas — Master Production Workflow
 
 **Status:** Active
-**Version:** 1.0
-**Purpose:** Menjadi sumber kebenaran utama alur produksi pekerjaan klien BAKU Edit Tugas.
+**Version:** 2.1
+**Authority:** Derived from `Operating_Model.md` v2.1
+**Purpose:** Menjadi workflow produksi operasional yang menurunkan lifecycle dan mandatory controls dari Operating Model BAKU Edit Tugas.
 
 ## 1. Production Principle
 
@@ -17,197 +18,201 @@ AI tidak dianggap sebagai sumber kebenaran tunggal. Output AI harus diperlakukan
 ```text
 01 Intake
     ↓
-02 Requirement Analysis
+02 Diagnose + Risk
     ↓
-03 Document Diagnosis
+03 Authorize
     ↓
-04 Editing Plan
+04 Produce
     ↓
-05 AI-Assisted Editing
+05 Review
     ↓
-06 Human Review
+06 Academic QC
     ↓
-07 Fact & Citation Verification
+07 Originality / AI Review [conditional]
     ↓
-08 Formatting
+08 Final QC
     ↓
-09 Final QC
+09 Delivery
     ↓
-10 Delivery
+10 Archive
 ```
 
 ## 3. Stage Definitions
 
 ### 01 — Intake
 
-**Objective:** Mengumpulkan informasi minimum yang diperlukan untuk memahami pekerjaan.
+**Objective:** Mengubah permintaan klien menjadi Work Brief yang dapat diproduksi.
 
-**Input:** Permintaan klien, file, brief, deadline, dan persyaratan yang tersedia.
+Capture what is applicable:
+- service type;
+- document type;
+- academic level;
+- institution and program;
+- scope;
+- deadline;
+- output format;
+- client/instructor requirements;
+- source/reference materials;
+- applicable institutional guideline.
 
-**Output:** Intake record yang lengkap dan pekerjaan yang dapat dianalisis.
+**Gate:** Minimum requirements tersedia sebelum diagnosis.
 
-**Gate:** Tidak ada pekerjaan dimulai sebelum scope, deadline, dan file utama cukup jelas.
+### 02 — Diagnose + Risk
 
-### 02 — Requirement Analysis
+**Objective:** Menentukan kondisi dokumen, scope intervensi, masalah, dependency, privacy/sensitivity concern, dan risk level.
 
-**Objective:** Menerjemahkan permintaan klien menjadi requirement yang dapat dikerjakan.
+Risk:
+- `LOW`
+- `MEDIUM`
+- `HIGH`
 
-Periksa:
-- jenis dokumen;
-- tujuan dokumen;
-- instruksi dosen/institusi;
-- bahasa;
-- gaya penulisan;
-- citation style;
-- format;
-- batasan dan prioritas;
-- deadline.
+Pisahkan language/format, editorial, dan substantive academic issues.
 
-**Output:** Requirement summary / editing brief.
+### 03 — Authorize
 
-### 03 — Document Diagnosis
+**Objective:** Menentukan apakah pekerjaan boleh diproduksi.
 
-**Objective:** Menentukan kondisi dokumen sebelum editing.
+Outcomes:
+- `AUTHORIZED`
+- `CLARIFICATION_REQUIRED`
+- `ESCALATED`
+- `DECLINED`
 
-Periksa minimal:
-- grammar dan spelling;
-- clarity;
-- coherence;
-- struktur;
-- konsistensi istilah;
-- citation/reference;
-- formatting;
-- kemungkinan factual issues;
-- bagian yang ambigu atau kurang informasi.
+Jangan menerima fabrication of evidence/data/sources, concealment of unattributed copying, atau detector gaming.
 
-**Output:** Diagnosis dan daftar masalah yang diprioritaskan.
+### 04 — Produce
 
-### 04 — Editing Plan
+**Objective:** Mengerjakan scope yang telah diotorisasi dengan human control.
 
-**Objective:** Menentukan apa yang akan diperbaiki, apa yang dipertahankan, dan bagaimana AI akan digunakan.
+AI dapat digunakan untuk language assistance, controlled rephrasing, coherence suggestions, structure suggestions, dan pattern checks.
 
-Prinsip:
-- pertahankan makna dan intent penulis;
-- jangan mengubah fakta tanpa dasar;
-- bedakan editing dari content creation;
-- gunakan AI hanya pada task yang sesuai;
-- tandai area yang membutuhkan human judgment.
+#### Edit Authority
 
-**Output:** Editing plan yang dapat dieksekusi.
+**E1 — Direct Edit**  
+Mechanical/editorial corrections yang jelas.
 
-### 05 — AI-Assisted Editing
+**E2 — Editorial Judgment**  
+Contextual editing dengan kewajiban mempertahankan makna.
 
-**Objective:** Menggunakan AI untuk mempercepat dan meningkatkan pekerjaan editing.
+**E3 — Academic Decision**  
+Perubahan terhadap methodology, evidence, claims, interpretation, research design, atau conclusions. Harus di-review/diotorisasi manusia dan tidak boleh silent rewrite.
 
-Use case umum:
-- grammar correction;
-- spelling;
-- sentence clarity;
-- rephrasing;
-- academic tone;
-- paragraph coherence;
-- redundancy detection;
-- structure suggestions;
-- checklist-based review.
+### 05 — Review
 
-AI **tidak otomatis memiliki otoritas** untuk:
-- menetapkan fakta;
-- mengarang sumber;
-- memvalidasi citation tanpa pemeriksaan;
-- membuat keputusan akademik final.
+**Objective:** Memastikan hasil produksi sesuai Work Brief, scope, edit authority, dan meaning preservation.
 
-**Output:** Draft hasil editing berbantuan AI.
+Material changes diklasifikasikan:
+- `PRESERVED`
+- `ALTERED`
+- `UNCERTAIN`
 
-### 06 — Human Review
+`ALTERED` atau unresolved `UNCERTAIN` membutuhkan review sebelum finalization.
 
-**Objective:** Memastikan perubahan AI sesuai konteks dan tidak merusak makna.
+### 06 — Academic QC
 
-Reviewer memeriksa:
-- apakah intent penulis tetap;
-- apakah perubahan masuk akal;
-- apakah ada perubahan makna;
-- apakah gaya konsisten;
-- apakah AI memperkenalkan klaim baru;
-- apakah ada bagian yang perlu dikembalikan atau ditulis ulang.
+**Objective:** Menilai academic compliance dan supportability.
 
-**Output:** Human-reviewed draft.
+Jika guideline institusi/assignment berlaku:
 
-### 07 — Fact & Citation Verification
+```text
+Guideline Source
+    ↓
+Requirement Extraction
+    ↓
+Applicability Assessment
+    ↓
+Document Mapping
+    ↓
+PASS / FAIL / N/A / REVIEW
+```
 
-**Objective:** Memastikan klaim dan referensi yang membutuhkan verifikasi memiliki dasar yang dapat dipertanggungjawabkan.
+Pisahkan:
+- structural compliance;
+- substantive academic quality;
+- requirement applicability.
 
-Prinsip:
-- sumber primer diprioritaskan bila relevan;
-- citation harus dapat dilacak;
-- jangan menerima referensi AI tanpa verifikasi;
-- pisahkan factual editing dari factual invention.
+`FAIL` hanya jika evidence cukup untuk menetapkan non-compliance. Jika evidence tidak cukup, gunakan `REVIEW`.
 
-**Output:** Verified content dan citation status.
+### 07 — Originality / AI Review [Conditional]
 
-### 08 — Formatting
+Aktif hanya bila scope atau risk membutuhkan.
 
-**Objective:** Menyesuaikan dokumen dengan requirement yang berlaku.
+#### Similarity / Originality
 
-Periksa:
-- heading;
-- numbering;
-- spacing;
-- margins;
-- typography;
-- page layout;
-- table/figure formatting;
-- references;
-- file naming.
+```text
+Similarity Detection
+    ↓
+Match Context Classification
+    ↓
+Source Inspection
+    ↓
+Human Interpretation
+    ↓
+Resolution
+```
 
-**Output:** Formatted document.
+Similarity score bukan plagiarism verdict.
 
-### 09 — Final QC
+#### AI-Assistance Screening
 
-**Objective:** Memastikan pekerjaan siap dikirim.
+AI screening adalah advisory signal, bukan proof of authorship atau misconduct.
 
-Minimal check:
-- requirement terpenuhi;
-- isi konsisten;
-- grammar diperiksa;
-- citation/reference diperiksa;
-- formatting sesuai;
-- tidak ada placeholder;
-- tidak ada AI artifact yang mengganggu;
-- file dapat dibuka;
-- versi final benar.
+Pastikan screening applicable berdasarkan capability tool, language, document length/type, dan documented limitations.
 
-**Output:** Approved final deliverable.
+### 08 — Final QC
 
-### 10 — Delivery
+**Objective:** Memastikan pekerjaan siap delivery.
 
-**Objective:** Menyerahkan hasil dengan jelas dan tanpa ambiguity.
+Verify:
+- approved scope completed;
+- applicable requirements addressed;
+- required reviews/verifications completed;
+- critical findings resolved;
+- required evidence recorded;
+- final version correct;
+- file integrity;
+- delivery package correct.
 
-Delivery harus menyertakan:
-- file final;
-- informasi revisi bila relevan;
-- catatan keterbatasan bila ada;
-- next action bila diperlukan.
+Unresolved states that materially remain:
+- `OPEN`
+- `WAITING_AUTHOR`
+- `WAITING_SOURCE`
+- `ESCALATED`
 
-## 4. Decision Rules
+harus memblokir final approval sesuai risk/scope; critical unresolved findings selalu block delivery.
 
-### Editing vs Writing
+### 09 — Delivery
 
-Jika klien menyediakan draft, default-nya adalah mempertahankan substansi dan memperbaiki kualitas dokumen.
+Delivery hanya setelah Final QC approval.
 
-Jika pekerjaan membutuhkan penambahan substansi, bagian tersebut harus dapat dibedakan secara internal dari pure editing dan memerlukan review yang lebih ketat.
+### 10 — Archive
 
-### AI vs Human
+Simpan minimum operational evidence untuk traceability. Jangan gunakan repository sebagai default client-file storage.
 
-Gunakan AI untuk pattern work, drafting assistance, restructuring suggestions, dan language assistance.
+## 4. Mandatory Controls
 
-Gunakan human judgment untuk intent, factual reliability, academic appropriateness, source verification, dan final approval.
+Workflow ini mengoperasikan mandatory controls yang didefinisikan pada `Operating_Model.md` v2.1:
 
-## 5. Quality Gate
+- MC-01 Client Requirement Capture
+- MC-02 Risk Classification
+- MC-03 Authorization / Integrity Gate
+- MC-04 Institutional Guideline Gate [conditional]
+- MC-05 Edit Authority
+- MC-06 Meaning Preservation
+- MC-07 Substantive Change Escalation
+- MC-08 Resolution State
+- MC-09 Evidence Sufficiency
+- MC-10 External Processing Gate
+- MC-11 Fail-Closed Final QC
 
-Tidak ada tahap yang dianggap selesai hanya karena AI menghasilkan output.
+## 5. Completion Rule
 
-Setiap stage harus menghasilkan output yang cukup jelas untuk menjadi input stage berikutnya.
+Pekerjaan tidak dianggap selesai hanya karena AI menghasilkan output atau file telah dibuat.
 
-## 6. Change Control
+Definition of Done mengikuti `Operating_Model.md` v2.1.
 
-Perubahan terhadap Master Workflow harus disengaja dan didokumentasikan. SOP, prompt, template, dan QC tidak boleh diam-diam menyimpang dari workflow ini.
+## 6. Authority & Change Control
+
+`Operating_Model.md` adalah source of truth arsitektural. SOP, AI workflow, QC, dan templates harus diturunkan dari model tersebut dan tidak boleh diam-diam menyimpang.
+
+Setiap perubahan material pada workflow harus mengikuti change control project.
