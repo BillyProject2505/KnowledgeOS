@@ -8,6 +8,16 @@ BAKU Edit Tugas
 
 Maintain the durable project context required to produce BAKU Edit Tugas work consistently across ChatGPT sessions and production stages.
 
+## Content Production Scope
+
+Primary social-content scope currently includes Instagram and Facebook. Platform guidance is maintained separately in `META_PLATFORM_GUIDELINES.md` and must not be treated as project strategy by itself.
+
+## Meta / Platform Reference Role
+
+Meta official guidance and Meta AI materials are used as reference inputs for content writing, caption development, hashtag assistance, recommendation-eligibility checks, and platform-specific production decisions.
+
+Meta AI is an assistance layer, not a policy authority and not a source of guarantees about reach, recommendation, engagement, or virality.
+
 ## Current Workstream
 
 Instagram Story Highlight — FAQ
@@ -170,19 +180,28 @@ Not used as primary design rules or KPIs:
 - simplistic ranking formulas across Instagram surfaces;
 - Feed static-image engagement benchmarks as a prediction for Highlight performance;
 - historical 2018 paid-Story mixed-format findings as an organic 2026 Highlight KPI;
-- fixed "18–22 words" copy limits.
+- fixed "18–22 words" copy limits;
+- fixed hashtag counts as guaranteed ranking rules.
 
 Rejected claims:
 
 - unsupported `2×` CTA-performance claim;
 - fabricated counts/statistics/social proof;
-- unsupported absolute privacy/security claims.
+- unsupported absolute privacy/security claims;
+- claims that any particular caption, hashtag, or format guarantees reach or recommendation.
 
-## Brand Asset
+## Brand Assets — Approved
 
-The logo provided by the user in the production conversation is the **official BAKU Edit Tugas logo** for this workstream.
+Canonical logo assets are stored under:
 
-Do not replace it with an AI-generated logo. Logo placement and final treatment are handled manually in Canva.
+`02_Assets/Brand/`
+
+Current canonical assets:
+
+- `BAKU_Edit_Tugas_logo-primary.png`
+- `BAKU_Edit_Tugas_logo-transparent.png`
+
+Use only canonical brand assets for production. Do not replace the official logo with AI-generated artwork.
 
 ## Current State
 
@@ -192,6 +211,7 @@ Do not replace it with an AI-generated logo. Logo placement and final treatment 
 - Master visual system is approved at the structural level.
 - Master Frame prototype has been explored visually but is **not yet approved as final**.
 - Story visuals and final Canva layouts are **not yet approved/final**.
+- Meta platform guidance reference is now established for ongoing content production.
 
 ## Status Vocabulary
 
@@ -213,6 +233,7 @@ Use these statuses consistently:
 - Exact CTA treatment.
 - Exact safe-area pixel boundaries.
 - Final Master Story Frame approval.
+- Ongoing verification of Meta platform guidance as policies and product behavior change.
 
 ## Next Production Objective
 
