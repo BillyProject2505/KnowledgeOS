@@ -24,13 +24,9 @@ Instagram Story Highlight — FAQ
 
 ## Current Production Objective
 
-Produce Stories 2–4 using the approved Story 1 visual baseline and canonical Master Frame structure.
+Produce and publish subsequent Instagram Story Highlight workstreams using the approved Instagram Story Production Standard and relevant content baselines.
 
-Production sequence:
-
-`Master Frame → Story 1 Prototype → Visual QC → Canva Finalization → Story 2–4 → Full-Series QC → Export`
-
-## Production Context
+## FAQ Production Context
 
 The FAQ Highlight is a decision-support asset for prospective customers who have already visited the BAKU Edit Tugas profile. Its role is to answer common questions, reduce friction, build trust, and support inquiry/conversion.
 
@@ -40,17 +36,28 @@ Funnel:
 
 The Highlight is not being treated primarily as a daily reach-oriented content format.
 
+## Current FAQ State
+
+The FAQ Highlight is **PUBLISHED** on Instagram and consists of four Stories:
+
+1. Positioning
+2. Speed
+3. Privacy
+4. Accessibility + Conversion
+
+The approved Story 1 visual baseline is the canonical visual reference for the FAQ series. The FAQ visual direction is the approved flat editorial illustration system.
+
 ## Format — Approved
 
 - Static Instagram Story.
 - 9:16.
 - Target size: 1080 × 1920 px.
 - Output: static image.
-- No video or animation.
+- No video or animation unless explicitly revised by a future brief.
 - Logo is added manually in Canva.
 - Canva is the finalization layer for typography, logo, alignment, spacing, copy, CTA, and final QC.
 
-## Four-Story Content Structure — Approved
+## Four-Story FAQ Content Structure — Approved
 
 ### Story 1 — Positioning
 
@@ -126,16 +133,6 @@ Variable by Story:
 - supporting imagery.
 
 The earlier cinematic/realistic scene treatment is superseded.
-
-Core principles:
-
-`Consistency > novelty`
-
-`Clarity > decoration`
-
-`Function > aesthetics`
-
-`Conversion > vanity`
 
 ## Visual Direction — Approved
 
@@ -218,13 +215,14 @@ Use only canonical brand assets for production. Do not replace the official logo
 ## Current State
 
 - Project space is initialized.
-- FAQ Highlight is the active workstream.
-- Four-story content structure is recorded as canonical.
+- FAQ Highlight is the active recorded workstream and is published on Instagram.
+- Four-story FAQ content structure is recorded as canonical.
 - Story 1 copy has been revised to match the user-approved Story 1 artifact.
 - The approved Story 1 artifact is the canonical visual baseline for the FAQ series.
 - The previous cinematic/realistic visual direction is superseded by the flat editorial illustration system.
 - Story 1 visual baseline is approved.
-- Stories 2–4 are not yet produced/final.
+- All four FAQ Stories are produced and published.
+- Future Highlight workstreams should use the Instagram Story Production Standard and require their own content approval before production.
 
 ## Status Vocabulary
 
@@ -239,11 +237,11 @@ Use these statuses consistently:
 
 ## Open Items
 
-- Production of Stories 2–4 using the approved Story 1 baseline.
-- Full-series visual QC after Stories 2–4 are produced.
+- Future Instagram Story Highlight workstreams, beginning with LAYANAN.
+- Full-series maintenance/review of existing Highlight assets when needed.
 - Exact Canva measurements when needed for repeatability.
 - Ongoing verification of Meta platform guidance as policies and product behavior change.
 
 ## Next Production Objective
 
-Produce Story 2 using the approved Story 1 visual baseline and canonical Story 2 copy.
+Begin the next recommended Story Highlight workstream: **LAYANAN**, starting with canonical service-scope definition and content architecture before visual production.
