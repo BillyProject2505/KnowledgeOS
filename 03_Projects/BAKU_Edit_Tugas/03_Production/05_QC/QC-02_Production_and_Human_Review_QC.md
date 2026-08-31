@@ -4,11 +4,11 @@
 **Version:** 2.1  
 **Type:** QC Checklist  
 **Authority:** Derived from `Operating_Model.md` v2.1, `Control_Matrix.md` v2.1, `SOP-03_Academic_Production_with_AI.md`, and `SOP-04_Human_Review_and_Edit_Boundary.md`  
-**Primary Controls:** MC-05, MC-06, MC-07, MC-08
+**Primary Controls:** MC-05, MC-06, MC-07, MC-08, MC-10
 
 ## 1. Purpose
 
-Memverifikasi bahwa hasil production berbantuan AI tetap berada dalam approved scope, perubahan diklasifikasikan dengan benar, meaning preservation diperiksa, substantive changes dieskalasikan, dan semua findings memiliki resolution state yang jelas.
+Memverifikasi bahwa hasil production berbantuan AI tetap berada dalam approved scope, perubahan diklasifikasikan dengan benar, meaning preservation diperiksa, substantive changes dieskalasikan, external processing dilakukan sesuai MC-10, dan semua findings memiliki resolution state yang jelas.
 
 QC ini memverifikasi hasil SOP-03 dan SOP-04; QC tidak membuat aturan normatif baru.
 
@@ -62,7 +62,20 @@ Kedalaman pemeriksaan disesuaikan dengan risk dan scope pekerjaan.
 | Terminology remains contextually appropriate | PASS / REVIEW | |
 | No unnecessary stylistic inflation or over-editing remains | PASS / REVIEW | |
 
-### E. Findings & Resolution
+### E. External Processing — MC-10
+
+| Check | Result | Evidence / Note |
+|---|---|---|
+| External processing was identified as applicable when client material was sent to an external AI/tool | PASS / REVIEW / N/A | |
+| Need-to-process was justified for the task | PASS / REVIEW / N/A | |
+| Unnecessary personal/confidential/sensitive data was minimized or redacted before processing | PASS / BLOCK / N/A | |
+| Outbound payload was reviewed before external processing | PASS / BLOCK / N/A | |
+| Processing decision was recorded as `ALLOW`, `ESCALATE`, or `BLOCK` when applicable | PASS / BLOCK / N/A | |
+| MC-10 evidence is traceable to the production record | PASS / REVIEW / N/A | |
+
+QC-02 verifies that MC-10 was executed during production. It does not replace the normative External Processing Gate in `Operating_Model.md` or its control specification in `Control_Matrix.md`.
+
+### F. Findings & Resolution
 
 | Check | Result | Evidence / Note |
 |---|---|---|
@@ -84,11 +97,11 @@ Choose one:
 
 ### Gate rule
 
-`PASS` requires approved scope completion for this stage, no unresolved blocking issue, correct handling of material changes, and sufficient review evidence.
+`PASS` requires approved scope completion for this stage, no unresolved blocking issue, correct handling of material changes, sufficient review evidence, and satisfactory handling of MC-10 when applicable.
 
 Use `REVIEW` when evidence is incomplete but the issue is not yet established as a blocking failure.
 
-Use `BLOCKED` when an unauthorized substantive change, fabricated content, or other blocking condition is present.
+Use `BLOCKED` when an unauthorized substantive change, fabricated content, unresolved MC-10 blocking condition, or other blocking condition is present.
 
 ## 5. Failure / Escalation Checks
 
@@ -99,7 +112,8 @@ Block or route to resolution when:
 - fabricated facts, citations, methodology, or results are present;
 - a substantive issue was silently rewritten;
 - a tracked blocking finding has no valid resolution;
-- production materially exceeded approved scope.
+- production materially exceeded approved scope;
+- sensitive/external processing occurred without required MC-10 controls.
 
 Do not resolve these conditions by editing the QC record alone.
 
@@ -113,7 +127,8 @@ Attach or reference, as applicable:
 - E1/E2/E3 classification evidence;
 - escalation/decision record;
 - findings and resolution states;
-- relevant source/reference evidence.
+- relevant source/reference evidence;
+- MC-10 processing decision, minimization/redaction, and outbound payload evidence when applicable.
 
 ## 7. QC Result
 
@@ -132,6 +147,7 @@ Attach or reference, as applicable:
 | MC-06 Meaning Preservation | Material changes have semantic comparison evidence and no unresolved unauthorized alteration. |
 | MC-07 Substantive Change Escalation | E3 issues have appropriate human/author routing and recorded decisions. |
 | MC-08 Resolution State | Tracked findings retain current states and are not treated as resolved prematurely. |
+| MC-10 External Processing Gate | Applicable external processing has evidence of minimization/redaction, outbound payload review, and processing decision. |
 
 Normative definitions remain in:
 
@@ -148,4 +164,4 @@ Procedures remain in:
 
 ## 9. Change Control
 
-Changes to this QC that alter gate behavior, evidence requirements, edit authority, semantic review, escalation, or resolution handling must be reviewed against `Operating_Model.md` and `Control_Matrix.md` before approval.
+Changes to this QC that alter gate behavior, evidence requirements, edit authority, semantic review, escalation, resolution handling, or MC-10 verification must be reviewed against `Operating_Model.md` and `Control_Matrix.md` before approval.
