@@ -231,3 +231,21 @@ Exact font metadata and numeric measurements are not to be fabricated from a ras
 For the current FAQ workstream, the approved Story 1 artifact remains the visual authority for exact series-specific typography, relative sizing, spacing rhythm, logo treatment, illustration treatment, and composition language.
 
 **Reason:** The user explicitly approved creating a reusable Instagram Story production standard based on the established BAKU Story 1 production baseline.
+
+---
+
+## D-022 — FAQ Highlight Published
+
+**Date:** 2026-09-01  
+**Status:** APPROVED
+
+The BAKU Edit Tugas **FAQ Story Highlight has been published on Instagram**.
+
+The published Highlight contains the four completed Stories:
+
+1. Positioning
+2. Speed
+3. Privacy
+4. Accessibility + Conversion
+
+**Reason:** The user explicitly confirmed that the FAQ Highlight and its four Stories have been published on Instagram.
