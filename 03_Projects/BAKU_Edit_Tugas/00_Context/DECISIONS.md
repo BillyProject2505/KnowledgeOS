@@ -249,3 +249,22 @@ The published Highlight contains the four completed Stories:
 4. Accessibility + Conversion
 
 **Reason:** The user explicitly confirmed that the FAQ Highlight and its four Stories have been published on Instagram.
+
+---
+
+## D-023 — LAYANAN Highlight Content Architecture
+
+**Date:** 2026-09-01  
+**Status:** APPROVED
+
+The BAKU Edit Tugas **LAYANAN** Story Highlight will use five Stories with the following structure:
+
+1. Overview — introduce the purpose of the LAYANAN Highlight and orient the viewer to BAKU's service offering.
+2. Editing — present Editing Grammar and Proofreading.
+3. Document — present Formatting and Sitasi & Referensi.
+4. Review & Consultation — present Review Skripsi and Konsultasi Tulis.
+5. CTA — provide the appropriate inquiry action for the LAYANAN Highlight.
+
+The underlying service scope must remain limited to the current canonical service catalog. This decision approves the Story grouping and sequence only; final wording, CTA copy, and visual assets remain subject to subsequent production decisions.
+
+**Reason:** The user explicitly approved the proposed five-Story content architecture for the LAYANAN Highlight.
