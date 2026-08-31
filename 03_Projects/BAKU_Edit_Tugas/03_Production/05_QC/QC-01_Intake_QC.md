@@ -1,125 +1,188 @@
-# BAKU Edit Tugas — QC-01 Intake QC
+# BAKU Edit Tugas — QC-01 Intake & Pre-Production Gate Verification
 
 **Status:** Approved  
 **Version:** 2.1  
-**Type:** QC Checklist  
-**Authority:** Derived from `Operating_Model.md` v2.1, `Control_Matrix.md` v2.1, and `SOP-01_Intake_and_Requirement_Analysis.md`  
-**Primary Controls:** MC-01, MC-04
+**Type:** Quality Control / Verification  
+**Authority:** Verifies `SOP-01` and `SOP-02` outputs against `Operating_Model.md` v2.1 and `Control_Matrix.md` v2.1  
+**Primary Controls:** MC-01, MC-02, MC-03, MC-04
 
 ## 1. Purpose
 
-Memverifikasi bahwa intake dan requirement analysis telah menghasilkan Work Brief yang cukup untuk diagnosis, serta memastikan institutional guideline yang relevan telah ditangani sesuai control yang berlaku.
+QC-01 memverifikasi bahwa hasil intake, diagnosis/risk assessment, dan authorization record telah memenuhi gate sebelum pekerjaan masuk ke `04 Produce`.
 
-QC ini memverifikasi hasil SOP-01; QC tidak membuat requirement atau policy baru.
+QC-01 adalah **verification layer**, bukan sumber normative rule.
 
-## 2. Applicability
+- `Operating_Model.md` menetapkan aturan normatif.
+- `Control_Matrix.md` menetapkan control specification.
+- `SOP-01` menjalankan intake.
+- `SOP-02` menjalankan risk assessment dan authorization.
+- `QC-01` memverifikasi output kedua SOP tersebut sebelum production.
 
-Wajib untuk pekerjaan yang telah melalui intake.
+## 2. Scope
 
-MC-04 checks berlaku ketika compliance terhadap guideline institusi, instructor, assignment, journal, atau requirement eksternal lainnya menjadi bagian dari scope.
+QC-01 berlaku untuk seluruh work item sebelum production dimulai.
 
-## 3. Checklist
+Coverage dibagi menjadi dua checkpoint:
 
-### A. Work Brief
+1. **Intake Verification** — memverifikasi output `SOP-01` untuk MC-01/MC-04.
+2. **Pre-Production Gate Verification** — memverifikasi output `SOP-02` untuk MC-02/MC-03.
 
-| Check | Result | Evidence / Note |
-|---|---|---|
-| Service type captured | PASS / REVIEW | |
-| Document type captured | PASS / REVIEW | |
-| Scope explicit enough for diagnosis | PASS / REVIEW | |
-| Deadline captured | PASS / REVIEW | |
-| Output format captured when applicable | PASS / N/A / REVIEW | |
-| Academic level captured when applicable | PASS / N/A / REVIEW | |
-| Institution/program captured when relevant | PASS / N/A / REVIEW | |
-| Client/instructor requirements recorded when provided | PASS / N/A / REVIEW | |
-| Files/drafts received or missing items recorded | PASS / REVIEW | |
-| Open questions/dependencies recorded | PASS / N/A / REVIEW | |
+QC-01 tidak mengulang diagnosis atau membuat keputusan authorization baru. QC-01 hanya memverifikasi bahwa keputusan yang dibuat melalui SOP-02 memiliki evidence minimum, outcome yang valid, dan tidak melanggar gate yang berlaku.
 
-### B. Requirement Source Inventory
+## 3. Inputs
 
-| Check | Result | Evidence / Note |
-|---|---|---|
-| Client requirements identified | PASS / N/A / REVIEW | |
-| Instructor requirements identified when applicable | PASS / N/A / REVIEW | |
-| Institutional requirements identified when applicable | PASS / N/A / REVIEW | |
-| Format/document requirements identified when applicable | PASS / N/A / REVIEW | |
-| Source/reference requirements identified when applicable | PASS / N/A / REVIEW | |
-| No requirement appears invented by operator | PASS / REVIEW | |
+- Work Brief;
+- Requirement Source Inventory;
+- Guideline Record when applicable;
+- Applicable Requirement List/Matrix when applicable;
+- Risk Assessment;
+- Risk Rationale;
+- Approved Scope;
+- Required Review Depth;
+- Open Dependencies / Resolution States;
+- Authorization Decision.
 
-### C. Institutional Guideline Gate
+## 4. Checkpoint A — Intake Verification
 
-Complete only when MC-04 is active.
+### MC-01 Client Requirement Capture
 
-| Check | Result | Evidence / Note |
-|---|---|---|
-| Guideline requirement is explicitly in scope | PASS / REVIEW | |
-| Guideline source identified | PASS / REVIEW | |
-| Issuing institution/program is relevant | PASS / REVIEW | |
-| Version/year captured when available | PASS / N/A / REVIEW | |
-| Source URL/file recorded | PASS / REVIEW | |
-| Applicability assessed | PASS / REVIEW | |
-| Guideline is accessible/readable | PASS / REVIEW | |
-| Applicable requirements extracted | PASS / REVIEW | |
-| Requirement references section/page when available | PASS / N/A / REVIEW | |
-| Unverified guideline is not presented as compliant | PASS / REVIEW | |
+[ ] Service type captured.
 
-## 4. Gate Decision
+[ ] Document type captured.
 
-Choose one:
+[ ] Scope is explicit enough for diagnosis.
+
+[ ] Deadline is captured.
+
+[ ] Output format is captured when needed.
+
+[ ] Critical files/materials are present or explicitly recorded as missing.
+
+[ ] Client/instructor/institution requirements are recorded when provided.
+
+[ ] Open questions and dependencies are visible.
+
+### MC-04 Institutional Guideline Gate
+
+[ ] Guideline applicability has been determined when relevant.
+
+[ ] Official/authoritative source is identified when compliance is required.
+
+[ ] Source accessibility/readability is recorded.
+
+[ ] Requirement extraction is traceable when MC-04 is active.
+
+[ ] Unverified or ambiguous requirements are not represented as verified compliance.
+
+### Intake Decision
+
+Use only the applicable outcome:
 
 - `READY_FOR_DIAGNOSIS`
 - `CLARIFICATION_REQUIRED`
 - `REVIEW / UNVERIFIED`
-- `BLOCKED`
 
-### Gate rule
+Do not treat missing information as resolved by assumption.
 
-`READY_FOR_DIAGNOSIS` requires the minimum intake information needed for diagnosis and no unresolved critical intake dependency.
+## 5. Checkpoint B — Pre-Production Gate Verification
 
-Use `CLARIFICATION_REQUIRED` when a critical requirement is ambiguous or missing.
+This checkpoint closes the verification gap identified for `MC-02` and `MC-03`.
 
-Use `REVIEW / UNVERIFIED` when a relevant guideline/source cannot yet be sufficiently verified.
+### MC-02 Risk Classification
 
-Use `BLOCKED` only when the work cannot responsibly proceed under applicable operating controls.
+[ ] Risk level is present: `LOW`, `MEDIUM`, or `HIGH`.
 
-## 5. Failure / Escalation Checks
+[ ] Risk rationale is specific enough to explain the assigned level.
 
-Block or return to intake when:
+[ ] Risk rationale is tied to actual work conditions, scope, sensitivity, evidence requirements, or substantive concerns.
 
-- scope is materially ambiguous;
-- critical file or requirement is missing and diagnosis would otherwise be misleading;
-- applicable guideline cannot be identified or validated;
-- a compliance claim is being made without an accessible/applicable source;
-- required clarification has not been resolved.
+[ ] Required review depth is identified where relevant.
 
-Do not resolve missing information by assumption.
+### MC-03 Authorization / Integrity Gate
 
-## 6. Evidence Requirements
+[ ] Approved scope is explicit.
 
-Attach or reference:
+[ ] Integrity boundaries were checked.
 
-- Work Brief;
-- Requirement Source Inventory;
-- Guideline Record when MC-04 applies;
-- Applicable Requirement List/Matrix when MC-04 applies;
-- Open Questions / Dependencies;
-- Intake gate decision.
+[ ] Required evidence/source dependencies are visible.
 
-## 7. QC Result
+[ ] Open dependencies are recorded with appropriate resolution state.
 
-**Overall Result:** `PASS / REVIEW / BLOCKED`
+[ ] Authorization outcome is one of:
 
-**Reviewer:**  
-**Date/Time:**  
-**Work Item:**  
-**Notes:**  
+- `AUTHORIZED`
+- `CLARIFICATION_REQUIRED`
+- `ESCALATED`
+- `DECLINED`
 
-## 8. Control Traceability
+[ ] Production is permitted only when authorization outcome is `AUTHORIZED`.
 
-| Control | Verification |
-|---|---|
-| MC-01 Client Requirement Capture | Work Brief + requirement/source inventory complete enough for diagnosis |
-| MC-04 Institutional Guideline Gate | Guideline source/applicability/readability and requirement extraction verified when applicable |
+[ ] No prohibited request has been silently accepted.
+
+[ ] Any substantive decision dependency remains visible and attributable to the appropriate decision owner.
+
+### Pre-Production Gate Decision
+
+The verification result is:
+
+- `PASS` — MC-02/MC-03 evidence is present, coherent, and authorization outcome is `AUTHORIZED`;
+- `REVIEW` — evidence or applicability is insufficient and requires clarification/review;
+- `BLOCKED` — authorization is not `AUTHORIZED`, a blocking dependency remains, or integrity boundary is not satisfied.
+
+**Production must not begin unless Pre-Production Gate Verification = `PASS`.**
+
+## 6. Non-Overlap Boundary
+
+QC-01 does **not**:
+
+- assign the risk level instead of SOP-02;
+- make the authorization decision instead of SOP-02;
+- redefine MC-02 or MC-03;
+- perform production work;
+- perform detailed production/human-review checks covered by QC-02.
+
+Its sole role is to verify that the required pre-production decision and evidence exist and satisfy the applicable gate.
+
+## 7. Handoff to Production
+
+Successful handoff to `04 Produce` requires:
+
+```text
+Intake Verification = PASS
++
+Pre-Production Gate Verification = PASS
++
+Authorization Decision = AUTHORIZED
+```
+
+If any checkpoint is `REVIEW` or `BLOCKED`, do not start normal production.
+
+Route to the applicable clarification, escalation, or correction path.
+
+## 8. QC Record
+
+Record at minimum:
+
+- work item;
+- reviewer;
+- intake verification result;
+- pre-production verification result;
+- risk level and rationale checked;
+- authorization outcome checked;
+- blocking/review findings;
+- evidence references;
+- date/time.
+
+Do not store unnecessary personal or sensitive client data in the QC record.
+
+## 9. Control Traceability
+
+| Control | Verified Output | Evidence |
+|---|---|---|
+| MC-01 | `SOP-01` Work Brief / requirement capture | Work Brief + requirement/source inventory |
+| MC-02 | `SOP-02` Risk Assessment | Risk level + rationale |
+| MC-03 | `SOP-02` Authorization Decision | Approved scope + authorization outcome + dependencies |
+| MC-04 | `SOP-01` guideline gate outputs | Guideline/source record + requirement mapping when applicable |
 
 Normative definitions remain in:
 
@@ -129,10 +192,14 @@ Control specification remains in:
 
 `../01_Workflows/Control_Matrix.md`
 
-Procedure remains in:
+## 10. Relationship to QC-02
 
-`../02_SOP/SOP-01_Intake_and_Requirement_Analysis.md`
+`QC-01` verifies the **pre-production gate**.
 
-## 9. Change Control
+`QC-02` verifies **production and human review execution**.
 
-Changes to this QC that alter gate behavior, required evidence, or control applicability must be reviewed against `Operating_Model.md` and `Control_Matrix.md` before approval.
+QC-02 does not replace the pre-production verification performed here, and QC-01 does not perform post-production review.
+
+## 11. Change Control
+
+Changes to this QC that alter pre-production gate criteria, control applicability, approval conditions, or required evidence must be reviewed against `Operating_Model.md` and `Control_Matrix.md` before approval.
