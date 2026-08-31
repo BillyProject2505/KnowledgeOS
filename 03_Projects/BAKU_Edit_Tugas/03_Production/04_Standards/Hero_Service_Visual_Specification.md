@@ -1,7 +1,7 @@
 # BAKU Edit Tugas — Hero Service Visual Specification
 
 **Status:** Canonical Visual Specification  
-**Version:** 1.0  
+**Version:** 1.1  
 **Scope:** Instagram Hero Service poster series  
 **Relationship:** Supplements `Instagram_Poster_Production_Standard.md`  
 **Reference implementation:** Approved Hero Service #1 poster
@@ -93,7 +93,33 @@ Rules:
 - Preserve the logo's original proportions.
 - Do not stretch or distort the logo.
 
-The logo area should align with the main left-side content column and maintain clear separation from the Hero Service badge.
+### 5.1 Logo Scale and Placement Reference
+
+The approved Hero Service #1 poster is the quantitative reference for logo scale and placement across the Hero Service series.
+
+Reference measurements from the 1080 × 1350 px Hero Service #1 poster:
+
+| Property | Reference |
+|---|---:|
+| Logo visual width | **≈286 px** |
+| Logo visual height | **≈146 px** |
+| Width as share of canvas | **≈26.5%** |
+| Approx. left offset | **≈44 px** |
+| Approx. top offset | **≈52 px** |
+
+These measurements are **visual reference values**, not permission to violate the global 60 px safe-margin rule for critical content. The transparent/empty padding inside the approved logo asset may cause the visible artwork to begin slightly inside or outside the nominal asset bounding box.
+
+For new Hero Service posters:
+- target a visible logo width of approximately **280–290 px**;
+- use **≈286 px** as the default starting reference;
+- preserve the source asset's original aspect ratio;
+- never non-uniformly stretch the logo;
+- position the logo in the **upper-left header area**;
+- maintain clear separation between logo and Hero Service badge;
+- manually place and fine-tune the logo in Canva against the 60 px safe-area framework;
+- do not redesign the header merely to make the logo fit.
+
+The purpose of this rule is **visual consistency with Hero Service #1**, not pixel-perfect recreation of its exact bounding box.
 
 ---
 
@@ -207,7 +233,7 @@ The CTA is one of the strongest elements near the bottom of the poster.
 
 Default structure:
 
-> **[CTA headline]** | **[WhatsApp icon] 0897-7706-838**
+> **[CTA headline] | [WhatsApp icon] 0897-7706-838**
 
 Rules:
 - Make the CTA visually obvious.
@@ -361,6 +387,7 @@ Before final approval, verify:
 - Looks unmistakably like BAKU Edit Tugas.
 - Matches the established Hero Service visual language.
 - Uses the approved logo asset correctly.
+- Logo scale and placement remain visually consistent with the Hero Service #1 reference.
 
 ### Content
 - Service name matches the service catalog.
