@@ -128,3 +128,28 @@ Synchronized the project memory with the user-approved Story 1 artifact and trea
 ### Current Production State
 
 Story 1 visual baseline is approved. Stories 2–4 remain unproduced/final.
+
+---
+
+## 2026-09-01 — LAYANAN Story 1 Overview Copy Approved
+
+Updated the LAYANAN Highlight content state after explicit approval of Story 1 — Overview copy.
+
+### Updated
+
+- `00_Context/DECISIONS.md`
+  - Added D-024 recording the approved Story 1 — Overview copy.
+- `01_Content/Instagram/Story_Highlights/LAYANAN/CONTENT.md`
+  - Story 1 status changed from `OPEN` to `APPROVED`.
+  - Recorded the canonical Question / Hook, Answer, and Supporting Copy.
+  - Current gate moved to Story 2–5 copy and visual production.
+
+### Approved Copy
+
+- Question / Hook: `Butuh bantuan tugas?`
+- Answer: `Torang bantu sesuai ngana pe kebutuhan`
+- Supporting copy: `Dari editing, proofreading, sampai konsultasi tulis.`
+
+### Current Production State
+
+LAYANAN content architecture remains approved. Story 1 copy is approved. Stories 2–5 remain open for copy and visual production.
