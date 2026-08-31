@@ -1,13 +1,13 @@
 # BAKU Edit Tugas — Instagram Story Highlights Checklist
 
 **Status:** WORKING  
-**Purpose:** Master checklist for the Instagram Story Highlight set. This document tracks which Highlights and individual Stories have been produced. It is an execution checklist, not a replacement for approved content or decisions in the project context and decision register.
+**Purpose:** Master checklist for the Instagram Story Highlight set. This document tracks which Highlights and individual Stories have been produced and published. It is an execution checklist, not a replacement for approved content or decisions in the project context and decision register.
 
 ## Recommended Highlight Set
 
 | # | Highlight | Primary Function | Status |
 |---|---|---|---|
-| 1 | **FAQ** | Answer common customer questions, reduce friction, build trust, support inquiry/conversion | ✅ **PRODUCED** |
+| 1 | **FAQ** | Answer common customer questions, reduce friction, build trust, support inquiry/conversion | ✅ **PUBLISHED** |
 | 2 | **LAYANAN** | Explain what BAKU can help with and clarify the service scope | ☐ **NOT STARTED** |
 | 3 | **PORTOFOLIO** | Show examples/evidence of the type and quality of work | ☐ **NOT STARTED** |
 | 4 | **CARA ORDER** | Explain how prospective customers can start an inquiry/order | ☐ **NOT STARTED** |
@@ -16,15 +16,15 @@
 
 ## Highlight 01 — FAQ
 
-**Highlight Status:** ✅ **PRODUCED**  
+**Highlight Status:** ✅ **PUBLISHED**  
 **Stories:** 4
 
 | Story | Topic | Status |
 |---|---|---|
-| 1 | **Positioning** | ✅ **PRODUCED** |
-| 2 | **Speed** | ✅ **PRODUCED** |
-| 3 | **Privacy** | ✅ **PRODUCED** |
-| 4 | **Accessibility + Conversion** | ✅ **PRODUCED** |
+| 1 | **Positioning** | ✅ **PUBLISHED** |
+| 2 | **Speed** | ✅ **PUBLISHED** |
+| 3 | **Privacy** | ✅ **PUBLISHED** |
+| 4 | **Accessibility + Conversion** | ✅ **PUBLISHED** |
 
 ### FAQ Structure
 
@@ -41,13 +41,13 @@ The approved Story 1 visual baseline is the reference for the FAQ Story composit
 
 ## Production State Notes
 
-- All four FAQ Stories have been produced in the current project workflow.
-- The checklist status **PRODUCED** means the Story/Highlight has been created; it does not by itself mean the asset has passed every final-delivery gate unless that state is explicitly recorded elsewhere.
+- All four FAQ Stories have been produced and the FAQ Highlight has been published on Instagram.
+- The checklist status **PUBLISHED** means the Highlight/Story has been published to Instagram based on the current project state.
 - Content approval, visual QC, Canva finalization, and export state remain governed by the relevant content and production documents.
 
 ## Rules
 
-- A checkmark means the item has been produced/established in the current project workflow; it does not by itself mean every individual asset has passed final delivery QC unless that state is explicitly recorded elsewhere.
+- A checkmark/status means the item has been produced and, where marked PUBLISHED, published in the current project workflow; it does not by itself replace detailed final-delivery QC records.
 - The sequence above is a **recommended production roadmap**, not a set of approved content decisions for future Highlights.
 - Do not create copy, claims, statistics, testimonials, service lists, or other factual content for future Highlights until the underlying information is verified or explicitly approved.
 - Genuine testimonials/social proof must be evidence-backed; do not fabricate them.
