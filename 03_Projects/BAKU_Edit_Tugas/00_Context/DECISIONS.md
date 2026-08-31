@@ -88,7 +88,7 @@ The FAQ Highlight consists of four Stories with these purposes:
 **Date:** 2026-08-30  
 **Status:** SUPERSEDED
 
-The previous decision required one Master Story Frame with four cinematic scenes. Its structural consistency requirement is retained, but the cinematic-scene treatment is superseded by the later flat visual-system decision.
+The previous decision required one Master Story Frame with four cinematic scenes. Its structural consistency requirement is retained, but the cinematic-scene treatment is superseded by the later flat visual-system decision recorded below.
 
 **Reason:** The user explicitly established the uploaded Story 1 artifact as the production visual reference.
 
@@ -196,7 +196,7 @@ The FAQ Story visual treatment is now a flat editorial illustration system rathe
 **Date:** 2026-08-30  
 **Status:** APPROVED
 
-Story 1 retains the question/hook `Ini joki skripsi ya?` and supporting copy `Konsultasi & revisi sesuai kebutuhan.`, while the approved answer is revised to the wording shown in the user-approved Story 1 artifact:
+Story 1 retains the canonical question/hook `Ini joki skripsi ya?` and supporting copy `Konsultasi & revisi sesuai kebutuhan.`, while the approved answer is revised to the wording shown in the user-approved Story 1 artifact:
 
 `Bukang! Torang itu dampingi`
 
@@ -218,3 +218,16 @@ For Story 1 and subsequent compositions derived from it, typography family, rela
 Exact font metadata and numeric measurements are not to be fabricated from a raster export; when a precise numeric value is required, the Canva source is authoritative.
 
 **Reason:** The user established the uploaded composition as the exact visual reference while the repository must not store invented measurements that cannot be verified.
+
+---
+
+## D-021 — Instagram Story Production Standard
+
+**Date:** 2026-09-01  
+**Status:** APPROVED
+
+`01_Content/Instagram/INSTAGRAM_STORY_PRODUCTION_STANDARD.md` is the reusable production standard for BAKU Edit Tugas Instagram Story content, covering format, brand asset handling, reusable layout principles, typography hierarchy, color relationships, illustration rules, safe-area guidance, CTA rules, Canva production, workflow, QC, approval status, and change control.
+
+For the current FAQ workstream, the approved Story 1 artifact remains the visual authority for exact series-specific typography, relative sizing, spacing rhythm, logo treatment, illustration treatment, and composition language.
+
+**Reason:** The user explicitly approved creating a reusable Instagram Story production standard based on the established BAKU Story 1 production baseline.
