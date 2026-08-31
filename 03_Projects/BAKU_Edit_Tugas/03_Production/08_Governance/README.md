@@ -22,3 +22,7 @@ Governance berlaku untuk seluruh workflow produksi yang terdokumentasi di `03_Pr
 - `Client_Data_Policy.md`
 - `Confidentiality.md`
 - `Change_Management.md`
+
+## Relation to Production
+
+Governance tidak menggantikan workflow, SOP, standards, atau QC; governance menjadi guardrail yang berlaku lintas seluruh aktivitas produksi.
