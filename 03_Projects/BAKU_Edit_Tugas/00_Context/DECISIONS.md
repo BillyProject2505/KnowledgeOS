@@ -268,3 +268,20 @@ The BAKU Edit Tugas **LAYANAN** Story Highlight will use five Stories with the f
 The underlying service scope must remain limited to the current canonical service catalog. This decision approves the Story grouping and sequence only; final wording, CTA copy, and visual assets remain subject to subsequent production decisions.
 
 **Reason:** The user explicitly approved the proposed five-Story content architecture for the LAYANAN Highlight.
+
+---
+
+## D-024 — LAYANAN Story 1 Overview Copy
+
+**Date:** 2026-09-01  
+**Status:** APPROVED
+
+Story 1 of the LAYANAN Highlight uses the following canonical copy:
+
+**Question / Hook:** `Butuh bantuan tugas?`
+
+**Answer:** `Torang bantu sesuai ngana pe kebutuhan`
+
+**Supporting copy:** `Dari editing, proofreading, sampai konsultasi tulis.`
+
+**Reason:** The user explicitly approved the complete Story 1 — Overview copy after revising the Answer to the specified local-language wording.
