@@ -38,6 +38,8 @@ The logo provided by the user in the production conversation is the official BAK
 
 The GitHub project directory is the durable source of truth for BAKU project context and approved decisions. ChatGPT conversations are working context and must not be the sole storage location for important project decisions.
 
+**Reason:** Important project decisions need durable, auditable storage.
+
 ---
 
 ## D-005 — Decision Recording Rule
