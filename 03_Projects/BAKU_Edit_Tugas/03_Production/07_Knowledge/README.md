@@ -23,3 +23,10 @@ It is not intended to become a complete academic encyclopedia.
 - Citation and referencing
 - Document formatting
 - AI-assisted academic work
+
+## Related Production Layers
+
+- `../01_Workflows/`
+- `../02_SOP/`
+- `../04_Standards/`
+- `../05_QC/`
