@@ -1,7 +1,7 @@
 # BAKU Edit Tugas — Story Highlight: LAYANAN
 
 **Status:** WORKING
-**Current Gate:** Content architecture approved; final copy and visual production pending
+**Current Gate:** Story 2–5 copy and visual production pending
 
 ## Purpose
 
@@ -34,7 +34,13 @@ LAYANAN terdiri dari lima Story:
 
 Purpose: memperkenalkan Highlight LAYANAN dan mengarahkan viewer pada cakupan layanan BAKU.
 
-**Copy:** OPEN
+**Status:** APPROVED
+
+**Question / Hook:** `Butuh bantuan tugas?`
+
+**Answer:** `Torang bantu sesuai ngana pe kebutuhan`
+
+**Supporting copy:** `Dari editing, proofreading, sampai konsultasi tulis.`
 
 ### Story 2 — Editing
 
@@ -77,7 +83,7 @@ Visual baseline khusus LAYANAN belum ditetapkan. Saat visual baseline dibuat, ke
 
 ## Open Items
 
-- final copy Story 1–5;
+- final copy Story 2–5;
 - CTA wording;
 - visual baseline/asset requirements;
 - Canva production;
