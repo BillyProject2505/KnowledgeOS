@@ -218,3 +218,24 @@ Exact numeric typography, logo measurements, and spacing values remain Canva-sou
 ### Current Production State
 
 FAQ remains completed and published. The reusable Story visual system is now documented for subsequent Highlight production, including the active LAYANAN workstream.
+
+---
+
+## 2026-09-05 — Reusable Story Visual Baseline Declared Canonical
+
+Formally declared the reusable Story visual baseline canonical for BAKU Edit Tugas Instagram Story production.
+
+### Updated
+
+- `00_Context/DECISIONS.md`
+  - Added D-027 establishing the reusable Story visual baseline as the default canonical visual authority for future Instagram Story production, unless superseded or narrowed by an explicit later decision.
+
+### Canonical Scope
+
+- System-level composition grammar, palette relationship, logo treatment, question/answer hierarchy, editorial illustration language, whitespace, and applicable footer treatment are now canonical.
+- Content-specific elements remain variable and are governed by the relevant content state.
+- Exact numeric typography, logo measurements, spacing, and Canva implementation details remain source-dependent and must be taken from the approved Canva source when precision is required.
+
+### Current Production State
+
+The canonical reusable Story visual baseline is now active for subsequent Highlight workstreams, including LAYANAN.
