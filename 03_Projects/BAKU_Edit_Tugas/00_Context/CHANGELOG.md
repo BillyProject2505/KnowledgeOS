@@ -153,3 +153,25 @@ Updated the LAYANAN Highlight content state after explicit approval of Story 1 �
 ### Current Production State
 
 LAYANAN content architecture remains approved. Story 1 copy is approved. Stories 2–5 remain open for copy and visual production.
+
+---
+
+## 2026-09-05 — LAYANAN Story 2 Editing Copy Approved
+
+Updated the LAYANAN Highlight content state after approval of Story 2 — Editing.
+
+### Approved Copy
+
+- Question / Hook: `Tulisan perlu diedit?`
+- Answer: `Torang bantu rapikan`
+- Supporting copy: `Editing Grammar + Proofreading.`
+
+### Updated
+
+- `01_Content/Instagram/Story_Highlights/LAYANAN/CONTENT.md`
+  - Story 2 status changed from `DRAFT` to `APPROVED`.
+  - Current gate moved to Story 3–5 copy and visual production.
+
+### Current Production State
+
+LAYANAN Story 1 and Story 2 copy are approved. Stories 3–5 remain open for copy and visual production.
