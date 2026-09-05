@@ -334,3 +334,20 @@ System-level characteristics are reusable. Content-level elements such as questi
 Exact numeric typography, logo measurements, and spacing values must not be inferred from raster exports; the approved Canva source is authoritative when precise values are required.
 
 **Reason:** The user explicitly requested that the approved visual baseline be added to GitHub so it can be reused for future production. The reusable production standard has therefore been updated to encode the visual grammar rather than leaving it only in conversation context.
+
+---
+
+## D-027 — Reusable Story Visual Baseline Declared Canonical
+
+**Date:** 2026-09-05  
+**Status:** APPROVED
+
+The reusable Story visual baseline documented in `01_Content/Instagram/INSTAGRAM_STORY_PRODUCTION_STANDARD.md` is hereby declared **canonical for BAKU Edit Tugas Instagram Story production**.
+
+For future Story Highlights and Story series intended to be visually consistent with the BAKU system, this baseline is the default visual authority unless an explicit later project decision supersedes or narrows it for a specific workstream.
+
+The canonical baseline governs system-level characteristics including composition grammar, palette relationship, logo treatment, question/answer hierarchy, editorial illustration language, whitespace, and applicable footer treatment. Content-specific elements remain variable and must be defined by the relevant content state.
+
+Exact numeric typography, logo measurements, spacing values, and Canva-specific implementation details remain source-dependent and must be taken from the approved Canva source when precision is required; they are not inferred from raster exports.
+
+**Reason:** The user explicitly instructed that the reusable visual baseline be established as canonical so it can serve as the default reference for subsequent production.
