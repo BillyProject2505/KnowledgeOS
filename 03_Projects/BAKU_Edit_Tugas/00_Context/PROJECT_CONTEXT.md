@@ -20,15 +20,15 @@ Meta AI is an assistance layer, not a policy authority and not a source of guara
 
 ## Current Workstream
 
-Instagram Story Highlight — FAQ
+Instagram Story Highlight — LAYANAN
 
 ## Current Production Objective
 
-Produce and publish subsequent Instagram Story Highlight workstreams using the approved Instagram Story Production Standard and relevant content baselines.
+Produce and publish the LAYANAN Instagram Story Highlight using the approved content structure and canonical service scope.
 
 ## FAQ Production Context
 
-The FAQ Highlight is a decision-support asset for prospective customers who have already visited the BAKU Edit Tugas profile. Its role is to answer common questions, reduce friction, build trust, and support inquiry/conversion.
+The FAQ Highlight is a completed decision-support asset for prospective customers who have already visited the BAKU Edit Tugas profile. Its role is to answer common questions, reduce friction, build trust, and support inquiry/conversion.
 
 Funnel:
 
@@ -46,6 +46,8 @@ The FAQ Highlight is **PUBLISHED** on Instagram and consists of four Stories:
 4. Accessibility + Conversion
 
 The approved Story 1 visual baseline is the canonical visual reference for the FAQ series. The FAQ visual direction is the approved flat editorial illustration system.
+
+The FAQ Highlight was produced and finalized in Canva, including typography, logo placement, alignment, spacing, copy, CTA, and final visual treatment.
 
 ## Format — Approved
 
@@ -212,17 +214,39 @@ Current canonical assets:
 
 Use only canonical brand assets for production. Do not replace the official logo with AI-generated artwork.
 
+## LAYANAN Production Context
+
+The LAYANAN Highlight uses five Stories based on the approved content architecture:
+
+1. Overview — `Butuh bantuan tugas?` / `Torang bantu sesuai ngana pe kebutuhan` / `Dari editing, proofreading, sampai konsultasi tulis.`
+2. Editing — `Tulisan perlu diedit?` / `Torang bantu rapikan` / `Editing Grammar + Proofreading.`
+3. Document — `Dokumen mau dirapikan?` / `Torang bantu susun` / `Formatting + Sitasi & Referensi.`
+4. Review & Consultation — `Bingung dengan skripsi?` / `Torang bantu review & konsultasi` / `Cek alur tulisan dan kasih saran perbaikan.`
+5. CTA — `Butuh bantuan?` / `Chat BAKU →`
+
+Current service scope remains limited to the canonical six-service catalog:
+
+- Editing Grammar
+- Proofreading
+- Formatting
+- Sitasi & Referensi
+- Review Skripsi
+- Konsultasi Tulis
+
+Service promises such as `1x revisi gratis` and `selesai 24 jam` are not operational SLA controls unless separately approved as business rules.
+
 ## Current State
 
 - Project space is initialized.
-- FAQ Highlight is the active recorded workstream and is published on Instagram.
-- Four-story FAQ content structure is recorded as canonical.
-- Story 1 copy has been revised to match the user-approved Story 1 artifact.
-- The approved Story 1 artifact is the canonical visual baseline for the FAQ series.
-- The previous cinematic/realistic visual direction is superseded by the flat editorial illustration system.
-- Story 1 visual baseline is approved.
-- All four FAQ Stories are produced and published.
-- Future Highlight workstreams should use the Instagram Story Production Standard and require their own content approval before production.
+- FAQ Highlight is completed and published on Instagram.
+- FAQ final visuals were produced and finalized in Canva.
+- Four-story FAQ content structure and visual system are canonical.
+- Story 1 visual baseline remains the canonical FAQ reference.
+- Previous cinematic/realistic visual direction is superseded.
+- Instagram Story Production Standard is approved.
+- LAYANAN content architecture is approved.
+- LAYANAN Stories 1–5 copy are approved and canonical.
+- LAYANAN visual production is the next active gate.
 
 ## Status Vocabulary
 
@@ -237,11 +261,14 @@ Use these statuses consistently:
 
 ## Open Items
 
-- Future Instagram Story Highlight workstreams, beginning with LAYANAN.
-- Full-series maintenance/review of existing Highlight assets when needed.
+- Establish and approve visual baseline for LAYANAN.
+- Define visual asset requirements for Stories 1–5.
+- Canva production for LAYANAN.
+- Visual QC and Final QC.
+- Export and publish state.
 - Exact Canva measurements when needed for repeatability.
 - Ongoing verification of Meta platform guidance as policies and product behavior change.
 
 ## Next Production Objective
 
-Begin the next recommended Story Highlight workstream: **LAYANAN**, starting with canonical service-scope definition and content architecture before visual production.
+Begin **LAYANAN visual production**, starting with the visual baseline and asset requirements before generating individual Story visuals.
