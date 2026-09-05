@@ -287,3 +287,18 @@ Story 1 of the LAYANAN Highlight uses the following canonical copy:
 **Supporting copy:** `Dari editing, proofreading, sampai konsultasi tulis.`
 
 **Reason:** The user explicitly approved the complete Story 1 — Overview copy after revising the Answer to the specified local-language wording.
+
+---
+
+## D-025 — LAYANAN Story 5 CTA Copy
+
+**Date:** 2026-09-05  
+**Status:** APPROVED
+
+Story 5 of the LAYANAN Highlight uses the following canonical CTA copy:
+
+**Hook:** `Butuh bantuan?`
+
+**CTA:** `Chat BAKU →`
+
+**Reason:** The CTA is intentionally concise and functions solely as the inquiry action after the preceding four Stories have explained the service offering.
