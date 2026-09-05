@@ -1,7 +1,7 @@
 # BAKU Edit Tugas — Story Highlight: LAYANAN
 
 **Status:** WORKING
-**Current Gate:** Story 4–5 copy and visual production pending
+**Current Gate:** Story 5 copy and visual production pending
 
 ## Purpose
 
@@ -79,7 +79,15 @@ Services:
 - Review Skripsi
 - Konsultasi Tulis
 
-**Copy:** OPEN
+**Status:** APPROVED
+
+**Question / Hook:** `Bingung dengan skripsi?`
+
+**Answer:** `Torang bantu review & konsultasi`
+
+**Supporting copy:** `Cek alur tulisan dan kasih saran perbaikan.`
+
+**QC Note:** Copy remains within the canonical service scope: Review Skripsi covers review of major thesis flow and consistency, while Konsultasi Tulis provides written feedback and concrete improvement suggestions.
 
 ### Story 5 — CTA
 
@@ -95,7 +103,7 @@ Visual baseline khusus LAYANAN belum ditetapkan. Saat visual baseline dibuat, ke
 
 ## Open Items
 
-- final copy Story 4–5;
+- final copy Story 5;
 - CTA wording;
 - visual baseline/asset requirements;
 - Canva production;
