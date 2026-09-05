@@ -1,7 +1,7 @@
 # BAKU Edit Tugas — Story Highlight: LAYANAN
 
 **Status:** WORKING
-**Current Gate:** Visual baseline and production pending
+**Current Gate:** Visual production
 
 ## Purpose
 
@@ -103,11 +103,31 @@ Purpose: memberikan action yang sesuai untuk inquiry layanan.
 
 Gunakan `01_Content/Instagram/INSTAGRAM_STORY_PRODUCTION_STANDARD.md` sebagai reusable production standard.
 
-Visual baseline khusus LAYANAN belum ditetapkan. Saat visual baseline dibuat, keputusan yang berlaku harus dicatat secara eksplisit.
+**Canonical visual baseline:** gunakan reusable BAKU Instagram Story visual baseline yang telah ditetapkan sebagai kanonikal melalui decision register. LAYANAN tidak membuat visual system baru kecuali ada explicit decision yang menyetujui deviation.
+
+Untuk LAYANAN, inherit system-level characteristics dari baseline canonical, termasuk:
+
+- warm cream/off-white background;
+- deep navy primary;
+- warm gold/yellow accent;
+- canonical BAKU logo treatment;
+- large bold question/hook sebagai first reading point;
+- clear question → answer hierarchy;
+- flat editorial illustration dengan academic/student context;
+- restrained supporting objects;
+- generous whitespace;
+- stable composition grammar.
+
+Elemen content-level dapat bervariasi sesuai layanan yang dijelaskan, termasuk character, scene, supporting objects, visual metaphor, dan contextual illustration.
+
+Exact numeric typography, logo measurements, spacing, dan implementation details mengikuti approved Canva source; jangan mengarang spesifikasi numerik dari raster reference.
+
+## Production Gate
+
+LAYANAN content architecture dan copy Stories 1–5 telah approved. Visual production berikutnya harus menggunakan canonical visual baseline sebagai starting point, kemudian melalui Visual QC dan Canva finalization sebelum Final QC.
 
 ## Open Items
 
-- visual baseline/asset requirements;
 - Canva production;
 - Visual QC;
 - Final QC;
