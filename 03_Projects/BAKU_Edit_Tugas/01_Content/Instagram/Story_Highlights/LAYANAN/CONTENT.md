@@ -1,7 +1,7 @@
 # BAKU Edit Tugas — Story Highlight: LAYANAN
 
 **Status:** WORKING
-**Current Gate:** Story 5 copy and visual production pending
+**Current Gate:** Visual baseline and production pending
 
 ## Purpose
 
@@ -93,7 +93,11 @@ Services:
 
 Purpose: memberikan action yang sesuai untuk inquiry layanan.
 
-**CTA copy:** OPEN
+**Status:** APPROVED
+
+**Hook:** `Butuh bantuan?`
+
+**CTA:** `Chat BAKU →`
 
 ## Visual Production
 
@@ -103,8 +107,6 @@ Visual baseline khusus LAYANAN belum ditetapkan. Saat visual baseline dibuat, ke
 
 ## Open Items
 
-- final copy Story 5;
-- CTA wording;
 - visual baseline/asset requirements;
 - Canva production;
 - Visual QC;
