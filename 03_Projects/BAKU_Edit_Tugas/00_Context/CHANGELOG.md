@@ -175,3 +175,20 @@ Updated the LAYANAN Highlight content state after approval of Story 2 — Editin
 ### Current Production State
 
 LAYANAN Story 1 and Story 2 copy are approved. Stories 3–5 remain open for copy and visual production.
+
+---
+
+## 2026-09-05 — FAQ Highlight Production Completed
+
+Updated the project context to reflect the user's explicit confirmation that the FAQ Story Highlight was fully produced, finalized, and published using Canva.
+
+### Updated
+
+- `00_Context/PROJECT_CONTEXT.md`
+  - FAQ Highlight status clarified as completed and published.
+  - Canva production/finalization recorded as completed for the FAQ Highlight.
+  - Current workstream shifted to LAYANAN.
+
+### Current Production State
+
+FAQ is no longer an active production gate. It remains a completed published reference for the BAKU Instagram Story system.
