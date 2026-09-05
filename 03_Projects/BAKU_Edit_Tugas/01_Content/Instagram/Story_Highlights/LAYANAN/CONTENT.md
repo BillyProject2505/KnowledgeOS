@@ -49,7 +49,15 @@ Services:
 - Editing Grammar
 - Proofreading
 
-**Copy:** OPEN
+**Status:** DRAFT
+
+**Question / Hook:** `Tulisan perlu diedit?`
+
+**Answer:** `Torang bantu rapikan`
+
+**Supporting copy:** `Editing Grammar + Proofreading.`
+
+**QC Note:** Copy is a draft. The wording `rapikan` is positioning language, not a verbatim service-catalog term.
 
 ### Story 3 — Document
 
@@ -83,7 +91,8 @@ Visual baseline khusus LAYANAN belum ditetapkan. Saat visual baseline dibuat, ke
 
 ## Open Items
 
-- final copy Story 2–5;
+- approval/finalization of Story 2 copy;
+- final copy Story 3–5;
 - CTA wording;
 - visual baseline/asset requirements;
 - Canva production;
