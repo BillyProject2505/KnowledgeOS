@@ -1,7 +1,7 @@
 # BAKU Edit Tugas — Instagram Story Production Standard
 
-**Version:** 1.0  
-**Date:** 2026-09-01  
+**Version:** 1.1  
+**Date:** 2026-09-05  
 **Status:** APPROVED
 
 ## Purpose
@@ -56,24 +56,72 @@ Rules:
 
 ## 3. Canonical Visual Baseline
 
-Untuk FAQ Highlight saat ini, Story 1 yang telah disetujui menjadi visual baseline.
+Untuk FAQ Highlight saat ini, Story 1 yang telah disetujui menjadi visual baseline dan diperkuat oleh completed/published FAQ Story set sebagai reference set.
 
-Baseline characteristics:
+### 3.1 Fixed Visual Characteristics
+
+Karakteristik berikut diperlakukan sebagai system-level baseline untuk FAQ dan sebagai reference utama saat membuat Story Highlight lain yang dimaksudkan untuk konsisten dengan sistem BAKU:
 
 - warm cream/off-white background;
 - deep navy primary;
-- warm gold accent;
+- warm gold/yellow accent;
 - dark navy/charcoal text;
-- flat editorial illustration;
-- clean vector shapes;
-- academic/student context;
+- canonical BAKU logo dengan treatment konsisten;
+- large bold question/hook sebagai first reading point;
+- prominent rounded dark-navy answer box dengan gold answer text;
+- flat editorial illustration dengan academic/student context;
+- clean vector-like forms;
 - friendly and approachable tone;
 - restrained supporting objects;
-- strong typography hierarchy;
 - generous whitespace;
-- consistent composition language.
+- consistent composition language;
+- dedicated FAQ footer treatment di bagian bawah untuk FAQ Highlight.
 
-Untuk workstream lain, baseline harus ditentukan dan disetujui secara eksplisit sebelum dianggap canonical.
+### 3.2 Composition Grammar
+
+Default composition grammar untuk Story yang mengikuti baseline ini adalah:
+
+`Logo → Question/Hook → Answer Zone → Supporting Visual/Context → Main Illustration → Footer/CTA`
+
+Functional zones:
+
+1. **Logo zone** — fixed and protected.
+2. **Question / hook zone** — dominant entry point.
+3. **Answer zone** — strongest message hierarchy after the question.
+4. **Supporting visual/context zone** — speech bubble, note, object, or contextual element when useful.
+5. **Main visual field** — large illustration or relevant visual metaphor.
+6. **Footer / CTA zone** — persistent footer only where the series uses one; CTA only when relevant to the content brief.
+
+The overall structure should remain stable while illustration, character, scene, objects, speech bubble, visual metaphor, and copy vary.
+
+### 3.3 Fixed vs Variable Elements
+
+**Fixed / system-level:**
+
+- canvas and aspect ratio;
+- core palette relationship;
+- logo treatment;
+- question → answer hierarchy;
+- rounded answer-box concept for FAQ baseline;
+- overall composition grammar;
+- visual tone;
+- footer treatment for FAQ Highlight.
+
+**Variable / content-level:**
+
+- question;
+- answer;
+- supporting copy;
+- character;
+- scene;
+- speech bubble content;
+- objects;
+- visual metaphor;
+- supporting imagery.
+
+Do not redesign the core system merely to make individual Stories appear different.
+
+Untuk workstream lain, baseline dapat diadopsi setelah explicit approval. Adopsi tidak berarti seluruh variable elements harus identik.
 
 ## 4. Reusable Layout System
 
@@ -84,7 +132,7 @@ Default functional zones:
 1. Logo zone — fixed.
 2. Question / hook zone.
 3. Answer zone — strongest typographic hierarchy.
-4. Supporting copy zone.
+4. Supporting copy zone / visual context.
 5. Visual field — flat illustration / relevant visual metaphor.
 6. Trust / CTA zone — CTA hanya bila relevan dengan content brief.
 
@@ -138,7 +186,7 @@ Untuk FAQ baseline, gunakan flat editorial illustration.
 Preferred characteristics:
 
 - student/academic context;
-- believable educational scenario;
+- believable educational or consultation scenario;
 - clean vector forms;
 - consistent outline/treatment;
 - navy/gold/cream relationship;
@@ -185,9 +233,9 @@ Exact pixel boundaries dapat dikunci lebih lanjut pada Canva source bila diperlu
 
 CTA hanya digunakan jika tujuan content memerlukan action.
 
-Untuk series saat ini:
+Untuk series FAQ yang telah selesai:
 
-- Story 4 FAQ memiliki CTA utama.
+- Story 4 memiliki CTA utama.
 - Story lain tidak perlu CTA tambahan kecuali content brief menetapkannya.
 
 CTA treatment harus:
@@ -212,7 +260,7 @@ Gunakan Canva untuk:
 - final visual QC;
 - export.
 
-Jika template sudah approved:
+Jika template/baseline sudah approved:
 
 - jangan mengganti layout dasar tanpa explicit decision;
 - jangan mengubah logo secara otomatis;
@@ -244,6 +292,7 @@ Untuk series reusable:
 - [ ] Answer memiliki dominant hierarchy.
 - [ ] Supporting copy tidak overpowering.
 - [ ] CTA hanya bila relevan.
+- [ ] Core composition grammar tetap terbaca.
 
 ### Visual
 
@@ -313,9 +362,9 @@ Gunakan ketika produksi tidak dapat dilanjutkan tanpa informasi atau asset yang 
 
 ## 16. Current FAQ Baseline Reference
 
-The current FAQ production baseline is the approved Story 1 artifact and its associated canonical decisions/content.
+The current FAQ production baseline is the user-approved Story 1 artifact together with the completed/published FAQ Story set as a supporting reference set.
 
-For FAQ production, Story 1 establishes the visual authority for:
+Story 1 establishes the primary visual authority for:
 
 - layout;
 - relative typography sizing;
@@ -323,11 +372,27 @@ For FAQ production, Story 1 establishes the visual authority for:
 - logo placement/treatment;
 - flat illustration language;
 - color relationships;
+- answer-box treatment;
 - overall composition language.
 
-Future FAQ Stories should change the content and visual metaphor while preserving those system-level characteristics.
+The completed/published Story set demonstrates the approved system across multiple content variants. Future FAQ or adjacent Highlight Stories should change the content and visual metaphor while preserving the system-level characteristics above.
 
-## 17. Change Control
+When exact numeric measurements are needed, the Canva source remains authoritative.
+
+## 17. Reference Authority & Reuse
+
+Use the following authority order for production decisions:
+
+1. Explicit current project decision in `00_Context/DECISIONS.md`.
+2. Approved Canva master/source for exact visual implementation.
+3. This reusable production standard for system-level rules.
+4. Approved exported PNG/reference artifacts for visual comparison and QC.
+
+A raster reference must not be used to invent unsupported numeric specifications.
+
+For reuse in a new Story Highlight workstream, inherit the system-level baseline first, then define and approve only the content-specific or series-specific deviations that are functionally required.
+
+## 18. Change Control
 
 Changes to this standard require explicit project decision and should be recorded in:
 
