@@ -302,3 +302,35 @@ Story 5 of the LAYANAN Highlight uses the following canonical CTA copy:
 **CTA:** `Chat BAKU →`
 
 **Reason:** The CTA is intentionally concise and functions solely as the inquiry action after the preceding four Stories have explained the service offering.
+
+---
+
+## D-026 — Reusable FAQ Visual Baseline Reference Set
+
+**Date:** 2026-09-05  
+**Status:** APPROVED
+
+The user-approved and completed FAQ Story Highlight is now the reusable visual reference set for BAKU Edit Tugas Instagram Story production.
+
+The primary visual authority remains the approved Story 1 artifact. The completed/published FAQ Story set is a supporting reference showing how the system is applied across multiple content variants.
+
+The reusable baseline includes:
+
+- warm cream/off-white background;
+- deep navy primary;
+- warm gold/yellow accent;
+- dark navy/charcoal text;
+- canonical BAKU logo treatment;
+- large bold question/hook as the first reading point;
+- prominent rounded dark-navy answer box with gold answer text for the FAQ baseline;
+- flat editorial academic/student illustration;
+- restrained supporting objects and contextual elements;
+- generous whitespace;
+- stable question → answer → visual → footer/CTA composition grammar;
+- dedicated FAQ footer treatment for the FAQ Highlight.
+
+System-level characteristics are reusable. Content-level elements such as question, answer, character, scene, speech bubble, objects, visual metaphor, and supporting imagery may vary.
+
+Exact numeric typography, logo measurements, and spacing values must not be inferred from raster exports; the approved Canva source is authoritative when precise values are required.
+
+**Reason:** The user explicitly requested that the approved visual baseline be added to GitHub so it can be reused for future production. The reusable production standard has therefore been updated to encode the visual grammar rather than leaving it only in conversation context.
