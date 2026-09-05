@@ -1,0 +1,123 @@
+{
+  "registration_record": {
+    "title": "Content OS — Universal Identifier Registration Record",
+    "canonical_source": {
+      "system": "Linear",
+      "document_title": "Content OS — Universal Identifier Registration Record (v1.6, CANONICAL)",
+      "document_id": "2e441d54-3ad5-4d52-810a-695a11d6dc43",
+      "document_url": "https://linear.app/bussiness-content-os/document/content-os-universal-identifier-registration-record-v16-canonical-984555237e68",
+      "version": "1.6",
+      "status": "CANONICAL",
+      "related_issue": "BUS-17",
+      "related_issue_url": "https://linear.app/bussiness-content-os/issue/BUS-17/universal-identifier-registration-record"
+    },
+    "governing_standard": {
+      "name": "UNIR-CORE-001",
+      "version": "1.2",
+      "relationship": "external, reference/illustrative material only — adopted narrowly for the Allocation Act pattern, per Root Level Architecture §8 point 5. Its example allocation acts are not Content OS allocation acts."
+    },
+    "registry_dependency": {
+      "system": "repository",
+      "path": "registry.json",
+      "related_issue": "BUS-16",
+      "relationship": "The Registry (BUS-16), not this document, is authoritative for current registry state. This document supplies allocation-act-level evidence and traceability for entries already present in the Registry."
+    },
+    "canonical_closure": {
+      "allocations_recorded": 11,
+      "range_start": "DIUA-DIC-000001",
+      "range_end": "DIUA-DIC-000011",
+      "next_available_sequence": "DIUA-DIC-000012",
+      "registry_cross_check": "Matches Universal Identifier Registry (BUS-16) §4, v1.4"
+    }
+  },
+  "allocation_acts": [
+    {
+      "allocation_act_id": "CONTENT-OS-ALLOC-001",
+      "identifier": "DIUA-DIC-000001",
+      "target_document": "Content OS — Root Level Architecture",
+      "issue": "BUS-10",
+      "allocation_basis": "First document in Content OS's fresh DIUA-DIC sequence (Registry §4), per Owner instruction that the reference material's example allocations do not bind Content OS's own numbering.",
+      "allocation_state": "ALLOCATED — ACTIVE"
+    },
+    {
+      "allocation_act_id": "CONTENT-OS-ALLOC-002",
+      "identifier": "DIUA-DIC-000002",
+      "target_document": "Content OS — Root Governance",
+      "issue": "BUS-11",
+      "allocation_basis": "Sequential allocation following CONTENT-OS-ALLOC-001.",
+      "allocation_state": "ALLOCATED — ACTIVE"
+    },
+    {
+      "allocation_act_id": "CONTENT-OS-ALLOC-003",
+      "identifier": "DIUA-DIC-000003",
+      "target_document": "Content OS — Root Documentation Structure",
+      "issue": "BUS-12",
+      "allocation_basis": "Sequential allocation following CONTENT-OS-ALLOC-002.",
+      "allocation_state": "ALLOCATED — ACTIVE"
+    },
+    {
+      "allocation_act_id": "CONTENT-OS-ALLOC-004",
+      "identifier": "DIUA-DIC-000004",
+      "target_document": "Content OS — Reference Model",
+      "issue": "BUS-13",
+      "allocation_basis": "Sequential allocation following CONTENT-OS-ALLOC-003.",
+      "allocation_state": "ALLOCATED — ACTIVE"
+    },
+    {
+      "allocation_act_id": "CONTENT-OS-ALLOC-005",
+      "identifier": "DIUA-DIC-000005",
+      "target_document": "Content OS — System Architecture",
+      "issue": "BUS-14",
+      "allocation_basis": "Sequential allocation following CONTENT-OS-ALLOC-004.",
+      "allocation_state": "ALLOCATED — ACTIVE"
+    },
+    {
+      "allocation_act_id": "CONTENT-OS-ALLOC-006",
+      "identifier": "DIUA-DIC-000006",
+      "target_document": "Content OS — System Governance",
+      "issue": "BUS-15",
+      "allocation_basis": "Sequential allocation following CONTENT-OS-ALLOC-005; last of the initial six canonical documents.",
+      "allocation_state": "ALLOCATED — ACTIVE"
+    },
+    {
+      "allocation_act_id": "CONTENT-OS-ALLOC-007",
+      "identifier": "DIUA-DIC-000007",
+      "target_document": "SDOH — Project Architecture (Domain/Project Tier 2 — Satu Dosis Obat Hati)",
+      "issue": null,
+      "allocation_basis": "First Tier 2 allocation, per SDOH Owner's explicit instruction on 2026-09-03 to register the domain's canonical documents.",
+      "allocation_state": "ALLOCATED — ACTIVE"
+    },
+    {
+      "allocation_act_id": "CONTENT-OS-ALLOC-008",
+      "identifier": "DIUA-DIC-000008",
+      "target_document": "SDOH — Production SOP (Domain/Project Tier 2 — Satu Dosis Obat Hati)",
+      "issue": null,
+      "allocation_basis": "Sequential allocation following CONTENT-OS-ALLOC-007.",
+      "allocation_state": "ALLOCATED — ACTIVE"
+    },
+    {
+      "allocation_act_id": "CONTENT-OS-ALLOC-009",
+      "identifier": "DIUA-DIC-000009",
+      "target_document": "SDOH — Research Source List (Domain/Project Tier 2 — Satu Dosis Obat Hati)",
+      "issue": null,
+      "allocation_basis": "Sequential allocation following CONTENT-OS-ALLOC-008.",
+      "allocation_state": "ALLOCATED — ACTIVE"
+    },
+    {
+      "allocation_act_id": "CONTENT-OS-ALLOC-010",
+      "identifier": "DIUA-DIC-000010",
+      "target_document": "SDOH — QA Document (Domain/Project Tier 2 — Satu Dosis Obat Hati)",
+      "issue": null,
+      "allocation_basis": "Sequential allocation following CONTENT-OS-ALLOC-009; last of SDOH's initial four canonical documents.",
+      "allocation_state": "ALLOCATED — ACTIVE"
+    },
+    {
+      "allocation_act_id": "CONTENT-OS-ALLOC-011",
+      "identifier": "DIUA-DIC-000011",
+      "target_document": "SDOH — Asset Registry (Domain/Project Tier 2 — Satu Dosis Obat Hati)",
+      "issue": null,
+      "allocation_basis": "Sequential allocation following CONTENT-OS-ALLOC-010; new document created to register SDOH's reusable visual asset identities (logo variants, surfaces, ornament).",
+      "allocation_state": "ALLOCATED — ACTIVE"
+    }
+  ]
+}
