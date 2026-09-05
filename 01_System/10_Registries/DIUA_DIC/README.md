@@ -15,7 +15,7 @@ This directory is the repository-side materialization of **BUS-16 — Universal 
 This directory does not restate that document's narrative content (purpose, scope, namespace rationale, registration process, open questions). It provides only:
 
 - `registry.json` — a machine-readable mirror of the canonical document's §4 "Current Registered Objects" table and its declared next-available sequence.
-- `validate_registry.py` — a dependency-free validator that mechanically checks `registry.json` for internal consistency (identifier format, uniqueness, sequencing, required fields, and the declared boundary that only `Content OS Document` is an established object class).
+- `validate_registry.py` — a dependency-free validator that mechanically checks `registry.json` for internal consistency: identifier format (derived from the registry's own declared `namespace`/`marker`, so the grammar and the format check can't silently drift apart), uniqueness, sequencing, required fields, and the declared boundary that only `Content OS Document` is an established object class (fails closed if that list is ever left empty).
 
 Whenever the canonical Linear document is amended (a new `DIUA-DIC-*` allocation, a lifecycle-state change), `registry.json` must be updated to match, and `validate_registry.py` re-run. If this file and the Linear document ever disagree, **the Linear document governs** — this is a materialization, not a second source of truth.
 
