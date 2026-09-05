@@ -192,3 +192,29 @@ Updated the project context to reflect the user's explicit confirmation that the
 ### Current Production State
 
 FAQ is no longer an active production gate. It remains a completed published reference for the BAKU Instagram Story system.
+
+---
+
+## 2026-09-05 — Reusable FAQ Visual Baseline Codified
+
+Codified the approved FAQ visual baseline into the reusable Instagram Story production standard and decision register so the system can be reused beyond the original FAQ production.
+
+### Updated
+
+- `01_Content/Instagram/INSTAGRAM_STORY_PRODUCTION_STANDARD.md`
+  - Version advanced from 1.0 to 1.1.
+  - Added fixed visual characteristics.
+  - Added composition grammar.
+  - Added fixed vs variable element boundaries.
+  - Added reference authority and reuse rules.
+  - Clarified Story 1 as primary visual authority and the completed FAQ set as a supporting reference set.
+- `00_Context/DECISIONS.md`
+  - Added D-026 approving the completed FAQ Highlight as a reusable visual reference set.
+
+### Validation Rule
+
+Exact numeric typography, logo measurements, and spacing values remain Canva-source-dependent and must not be invented from raster exports.
+
+### Current Production State
+
+FAQ remains completed and published. The reusable Story visual system is now documented for subsequent Highlight production, including the active LAYANAN workstream.
