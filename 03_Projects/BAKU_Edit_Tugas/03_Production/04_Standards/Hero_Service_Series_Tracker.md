@@ -1,7 +1,7 @@
 # BAKU Edit Tugas — Hero Service Series Tracker
 
 **Status:** Active
-**Version:** 1.0
+**Version:** 1.1
 **Type:** Production & Publishing Completion Tracker
 **Scope:** Six Hero Service posters derived from the current BAKU Edit Tugas service catalog.
 **Authority:** Tracking document only. It does not create new service, workflow, control, or SLA rules.
@@ -21,12 +21,12 @@ The tracker separates **production completion** from **Instagram publishing comp
 
 ## 2. Current Hero Service Sequence
 
-The current service catalog contains six services: Review Skripsi, Proofreading, Editing Grammar, Formatting, Sitasi & Referensi, and Konsultasi Tulis. fileciteturn10file0L2-L2
+The current service catalog contains six services: Review Skripsi, Proofreading, Editing Grammar, Formatting, Sitasi & Referensi, and Konsultasi Tulis.
 
 | # | Hero Service | Website Service | Production Status | Canva Final | Published Instagram | Post URL | Notes |
 |---|---|---|---|---|---|---|---|
-| **01** | **Review Skripsi** | Review Skripsi | ✅ Complete | ✅ Complete | ⬜ Not recorded | — | Hero Service #1 completed in current production cycle |
-| **02** | **Proofreading** | Proofreading | 🟡 In progress | ⬜ Pending | ⬜ Not published | — | Hero Service #2 next production target |
+| **01** | **Review Skripsi** | Review Skripsi | 🟡 In progress | ⬜ Pending | ⬜ Not recorded | — | Rework required. Previous draft is not treated as production-complete until the updated AI visual workflow and final QC gates pass. |
+| **02** | **Proofreading** | Proofreading | 🟡 In progress | ⬜ Pending | ⬜ Not published | — | Production must use the updated AI Visual Production Protocol validated through Hero Service #1. |
 | **03** | **Editing Grammar** | Editing Grammar | ⬜ Not started | ⬜ Pending | ⬜ Not published | — | |
 | **04** | **Formatting** | Formatting | ⬜ Not started | ⬜ Pending | ⬜ Not published | — | |
 | **05** | **Sitasi & Referensi** | Sitasi & Referensi | ⬜ Not started | ⬜ Pending | ⬜ Not published | — | |
@@ -67,7 +67,7 @@ A Hero Service poster is considered **Published** only when all of the following
 | Status | Meaning |
 |---|---|
 | ⬜ Not started | Work has not begun |
-| 🟡 In progress | Work is actively being produced |
+| 🟡 In progress | Work is actively being produced or requires rework |
 | 🟢 Production complete | Design passed final production QC |
 | 🔵 Published | Poster is live on Instagram and publication is recorded |
 | 🔴 Blocked | A critical issue prevents completion |
@@ -76,7 +76,9 @@ A Hero Service poster is considered **Published** only when all of the following
 
 ### Design / Production
 
-**1 of 6** Hero Service posters is currently treated as production-complete.
+**0 of 6** Hero Service posters are currently treated as production-complete.
+
+Hero Service #1 has been returned to **In progress / Rework** because the previous draft did not provide sufficient evidence for the complete production gates.
 
 ### Publishing
 
@@ -125,7 +127,10 @@ This tracker should be used together with:
 - `Instagram_Poster_Production_Standard.md` — canonical production standard;
 - `Hero_Service_Visual_Specification.md` — visual system for the Hero Service series;
 - `Hero_Service_Poster_Completeness_Checklist.md` — per-poster completion gate;
-- `Service_Catalog_and_Workflow_Mapping.md` — authoritative service-to-production mapping.
+- `Service_Catalog_and_Workflow_Mapping.md` — authoritative service-to-production mapping;
+- `../03_AI/AI_Visual_Production_Protocol.md` — AI visual generation boundary;
+- `../03_AI/Hero_Service_Visual_Brief_Template.md` — visual generation input;
+- `../03_AI/AI_Visual_QC_Checklist.md` — AI visual asset gate.
 
 This document answers a different question:
 
