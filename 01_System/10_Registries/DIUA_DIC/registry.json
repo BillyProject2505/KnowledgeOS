@@ -1,0 +1,106 @@
+{
+  "registry": {
+    "title": "Content OS — Universal Identifier Registry",
+    "namespace": "DIUA",
+    "identifier_class": "DIC",
+    "grammar": "DIUA-DIC-<6DigitSequence>",
+    "canonical_source": {
+      "system": "Linear",
+      "document_title": "Content OS — Universal Identifier Registry (v1.4, CANONICAL)",
+      "document_id": "3cff66e7-5782-40c6-b373-f28b38215243",
+      "document_url": "https://linear.app/bussiness-content-os/document/content-os-universal-identifier-registry-v14-canonical-ef7653bc3e86",
+      "version": "1.4",
+      "status": "CANONICAL",
+      "related_issue": "BUS-16",
+      "related_issue_url": "https://linear.app/bussiness-content-os/issue/BUS-16/universal-identifier-registry"
+    },
+    "governing_standard": {
+      "name": "UNIR-CORE-001",
+      "version": "1.2",
+      "relationship": "external, reference/illustrative material only — adopted narrowly for registry schema/structure (six-Core model), per Root Level Architecture §8 point 5. Its example allocations are not Content OS allocations."
+    },
+    "established_object_classes": [
+      "Content OS Document"
+    ],
+    "next_available_sequence": "DIUA-DIC-000012"
+  },
+  "allocations": [
+    {
+      "identifier": "DIUA-DIC-000001",
+      "registered_document": "Content OS — Root Level Architecture",
+      "issue": "BUS-10",
+      "object_class": "Content OS Document",
+      "lifecycle_state": "ALLOCATED — ACTIVE"
+    },
+    {
+      "identifier": "DIUA-DIC-000002",
+      "registered_document": "Content OS — Root Governance",
+      "issue": "BUS-11",
+      "object_class": "Content OS Document",
+      "lifecycle_state": "ALLOCATED — ACTIVE"
+    },
+    {
+      "identifier": "DIUA-DIC-000003",
+      "registered_document": "Content OS — Root Documentation Structure",
+      "issue": "BUS-12",
+      "object_class": "Content OS Document",
+      "lifecycle_state": "ALLOCATED — ACTIVE"
+    },
+    {
+      "identifier": "DIUA-DIC-000004",
+      "registered_document": "Content OS — Reference Model",
+      "issue": "BUS-13",
+      "object_class": "Content OS Document",
+      "lifecycle_state": "ALLOCATED — ACTIVE"
+    },
+    {
+      "identifier": "DIUA-DIC-000005",
+      "registered_document": "Content OS — System Architecture",
+      "issue": "BUS-14",
+      "object_class": "Content OS Document",
+      "lifecycle_state": "ALLOCATED — ACTIVE"
+    },
+    {
+      "identifier": "DIUA-DIC-000006",
+      "registered_document": "Content OS — System Governance",
+      "issue": "BUS-15",
+      "object_class": "Content OS Document",
+      "lifecycle_state": "ALLOCATED — ACTIVE"
+    },
+    {
+      "identifier": "DIUA-DIC-000007",
+      "registered_document": "SDOH — Project Architecture (Domain/Project Tier 2 — Satu Dosis Obat Hati)",
+      "issue": null,
+      "object_class": "Content OS Document",
+      "lifecycle_state": "ALLOCATED — ACTIVE"
+    },
+    {
+      "identifier": "DIUA-DIC-000008",
+      "registered_document": "SDOH — Production SOP (Domain/Project Tier 2 — Satu Dosis Obat Hati)",
+      "issue": null,
+      "object_class": "Content OS Document",
+      "lifecycle_state": "ALLOCATED — ACTIVE"
+    },
+    {
+      "identifier": "DIUA-DIC-000009",
+      "registered_document": "SDOH — Research Source List (Domain/Project Tier 2 — Satu Dosis Obat Hati)",
+      "issue": null,
+      "object_class": "Content OS Document",
+      "lifecycle_state": "ALLOCATED — ACTIVE"
+    },
+    {
+      "identifier": "DIUA-DIC-000010",
+      "registered_document": "SDOH — QA Document (Domain/Project Tier 2 — Satu Dosis Obat Hati)",
+      "issue": null,
+      "object_class": "Content OS Document",
+      "lifecycle_state": "ALLOCATED — ACTIVE"
+    },
+    {
+      "identifier": "DIUA-DIC-000011",
+      "registered_document": "SDOH — Asset Registry (Domain/Project Tier 2 — Satu Dosis Obat Hati)",
+      "issue": null,
+      "object_class": "Content OS Document",
+      "lifecycle_state": "ALLOCATED — ACTIVE"
+    }
+  ]
+}

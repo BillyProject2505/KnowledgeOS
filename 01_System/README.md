@@ -26,6 +26,8 @@ Repository placement provides structural context only; it does not independently
 
 Organize system artifacts according to the repository's current system taxonomy, including architecture, governance, standards, registries, specifications, releases, development, and planning where those areas are materialized.
 
+- [`10_Registries`](./10_Registries/) — system-level registry artifacts, including the Content OS Universal Identifier Registry (`DIUA-DIC-*`, BUS-16).
+
 ## Maintenance Rules
 
 - Preserve explicit authority boundaries between system layers.
