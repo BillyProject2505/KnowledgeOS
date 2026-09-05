@@ -1,7 +1,7 @@
 # BAKU Edit Tugas — Story Highlight: LAYANAN
 
 **Status:** WORKING
-**Current Gate:** Story 3–5 copy and visual production pending
+**Current Gate:** Story 4–5 copy and visual production pending
 
 ## Purpose
 
@@ -64,7 +64,13 @@ Services:
 - Formatting
 - Sitasi & Referensi
 
-**Copy:** OPEN
+**Status:** APPROVED
+
+**Question / Hook:** `Dokumen mau dirapikan?`
+
+**Answer:** `Torang bantu susun`
+
+**Supporting copy:** `Formatting + Sitasi & Referensi.`
 
 ### Story 4 — Review & Consultation
 
@@ -89,7 +95,7 @@ Visual baseline khusus LAYANAN belum ditetapkan. Saat visual baseline dibuat, ke
 
 ## Open Items
 
-- final copy Story 3–5;
+- final copy Story 4–5;
 - CTA wording;
 - visual baseline/asset requirements;
 - Canva production;
