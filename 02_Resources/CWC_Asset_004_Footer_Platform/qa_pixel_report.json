@@ -1,0 +1,90 @@
+{
+  "canvas_size_context_blue.png": {
+    "pass": true,
+    "detail": "size=(1080, 1350)"
+  },
+  "canvas_size_context_white.png": {
+    "pass": true,
+    "detail": "size=(1080, 1350)"
+  },
+  "pill_canvas_size_variant_blue.png": {
+    "pass": true,
+    "detail": "size=(1070, 64)"
+  },
+  "transparent_bg_variant_blue.png": {
+    "pass": true,
+    "detail": "corner alpha=0"
+  },
+  "no_hidden_fill_variant_blue.png": {
+    "pass": true,
+    "detail": "alpha=11 (AA bleed only, no solid fill)"
+  },
+  "pill_canvas_size_variant_white.png": {
+    "pass": true,
+    "detail": "size=(1070, 64)"
+  },
+  "transparent_bg_variant_white.png": {
+    "pass": true,
+    "detail": "corner alpha=0"
+  },
+  "no_hidden_fill_variant_white.png": {
+    "pass": true,
+    "detail": "alpha=11 (AA bleed only, no solid fill)"
+  },
+  "monochrome_opaque_variant_blue.png": {
+    "pass": true,
+    "detail": "0/2905 fully-opaque px deviate from treatment color"
+  },
+  "monochrome_aa_fringe_variant_blue.png": {
+    "pass": true,
+    "detail": "0/1952 AA-fringe px deviate >24/255 from treatment color (low-alpha quantization noise expected within tolerance; a real second hue would deviate far more)"
+  },
+  "monochrome_opaque_variant_white.png": {
+    "pass": true,
+    "detail": "0/2905 fully-opaque px deviate from treatment color"
+  },
+  "monochrome_aa_fringe_variant_white.png": {
+    "pass": true,
+    "detail": "0/1991 AA-fringe px deviate >24/255 from treatment color (low-alpha quantization noise expected within tolerance; a real second hue would deviate far more)"
+  },
+  "icon_aspect_preserved_instagram": {
+    "pass": true,
+    "detail": "native aspect ratio 1.000 preserved via uniform scale"
+  },
+  "icon_aspect_preserved_facebook": {
+    "pass": true,
+    "detail": "native aspect ratio 0.526 preserved via uniform scale"
+  },
+  "icon_aspect_preserved_tiktok": {
+    "pass": true,
+    "detail": "native aspect ratio 0.847 preserved via uniform scale"
+  },
+  "icon_aspect_preserved_whatsapp": {
+    "pass": true,
+    "detail": "native aspect ratio 0.953 preserved via uniform scale"
+  },
+  "group_center_x": {
+    "pass": true,
+    "detail": "measured group_center_x=535.0 pill_center_x=535.0 deviation=0.0px"
+  },
+  "h_padding_min_18px": {
+    "pass": true,
+    "detail": "left_padding=157.70px right_padding=157.70px"
+  },
+  "vertical_axis_y32": {
+    "pass": true,
+    "detail": "content vertical bbox 18-45, center=31.5"
+  },
+  "platform_order": {
+    "pass": true,
+    "detail": "ORDER constant = ['instagram', 'facebook', 'tiktok', 'whatsapp'] (Instagram, Facebook, TikTok, WhatsApp)"
+  },
+  "text_accuracy": {
+    "pass": true,
+    "detail": "@cozwecare.id / @teshivmdo / @cozwecare.id / 0822-9255-2915 rendered verbatim (see generate.py TEXTS)"
+  },
+  "variant_parity_geometry": {
+    "pass": true,
+    "detail": "alpha-mismatch px count=0"
+  }
+}
