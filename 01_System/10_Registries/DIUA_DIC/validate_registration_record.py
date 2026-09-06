@@ -13,7 +13,12 @@ state (registry.json) in this same directory:
                           and its sequence number matches the identifier's
                           own sequence number (acts are allocated 1:1 and
                           in the same order as identifiers)
-  - identifier:           format DIUA-DIC-<6DigitSequence>, unique (no
+  - identifier:           format <namespace>-<marker>-<6DigitSequence>,
+                          derived from registry.json's own declared
+                          registry.namespace/registry.marker (BUS-16 is
+                          authoritative for the identifier grammar; this
+                          validator must not carry its own hardcoded copy
+                          that could silently drift from it), unique (no
                           duplicate registration of the same identifier)
   - referential integrity: every registration-record identifier must exist
                           in registry.json (no orphan/unknown identifier),
@@ -40,7 +45,6 @@ import sys
 from pathlib import Path
 
 ACT_ID_RE = re.compile(r"^CONTENT-OS-ALLOC-(\d{3})$")
-IDENTIFIER_RE = re.compile(r"^DIUA-DIC-(\d{6})$")
 REQUIRED_ACT_FIELDS = (
     "allocation_act_id",
     "identifier",
@@ -82,6 +86,20 @@ def main():
         a.get("identifier"): a for a in registry_data.get("allocations", [])
     }
 
+    namespace = registry_data.get("registry", {}).get("namespace")
+    marker = registry_data.get("registry", {}).get("marker")
+    if not namespace or not marker:
+        fail(
+            errors,
+            "registry.json registry.namespace/registry.marker is missing or empty — cannot "
+            "derive the identifier grammar for cross-validation; BUS-16 is authoritative for it",
+        )
+        identifier_re = None
+        prefix = None
+    else:
+        identifier_re = re.compile(rf"^{re.escape(namespace)}-{re.escape(marker)}-(\d{{6}})$")
+        prefix = f"{namespace}-{marker}"
+
     if not acts:
         fail(errors, "no allocation_acts found in registration_record.json")
 
@@ -114,9 +132,12 @@ def main():
             seen_act_sequences.add(act_seq)
 
         identifier = act.get("identifier", "")
-        id_match = IDENTIFIER_RE.match(identifier)
+        if identifier_re is None:
+            fail(errors, f"{label}: cannot validate identifier grammar — registry.json namespace/marker unavailable")
+            continue
+        id_match = identifier_re.match(identifier)
         if not id_match:
-            fail(errors, f"{label}: identifier '{identifier}' does not match DIUA-DIC-<6DigitSequence> grammar")
+            fail(errors, f"{label}: identifier '{identifier}' does not match {prefix}-<6DigitSequence> grammar")
             continue
 
         id_seq = int(id_match.group(1))
@@ -172,14 +193,14 @@ def main():
                 f"registration_record.json — allocation without evidence/traceability",
             )
 
-    if seen_identifier_sequences:
+    if seen_identifier_sequences and prefix is not None:
         ordered = sorted(seen_identifier_sequences)
         expected = list(range(1, len(ordered) + 1))
         if ordered != expected:
             fail(
                 errors,
                 f"sequencing gap or non-contiguous registration: got {ordered}, "
-                f"expected a contiguous run {expected} starting at DIUA-DIC-000001",
+                f"expected a contiguous run {expected} starting at {prefix}-000001",
             )
 
         recorded_count = closure.get("allocations_recorded")
@@ -190,8 +211,8 @@ def main():
                 f"actual count of allocation acts ({len(ordered)})",
             )
 
-        expected_start = f"DIUA-DIC-{ordered[0]:06d}"
-        expected_end = f"DIUA-DIC-{ordered[-1]:06d}"
+        expected_start = f"{prefix}-{ordered[0]:06d}"
+        expected_end = f"{prefix}-{ordered[-1]:06d}"
         if closure.get("range_start") != expected_start:
             fail(
                 errors,
@@ -205,7 +226,7 @@ def main():
                 f"computed '{expected_end}'",
             )
 
-        expected_next = f"DIUA-DIC-{ordered[-1] + 1:06d}"
+        expected_next = f"{prefix}-{ordered[-1] + 1:06d}"
         if closure.get("next_available_sequence") != expected_next:
             fail(
                 errors,
