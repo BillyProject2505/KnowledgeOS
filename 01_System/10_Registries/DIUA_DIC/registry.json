@@ -2,7 +2,7 @@
   "registry": {
     "title": "Content OS — Universal Identifier Registry",
     "namespace": "DIUA",
-    "identifier_class": "DIC",
+    "marker": "DIC",
     "grammar": "DIUA-DIC-<6DigitSequence>",
     "canonical_source": {
       "system": "Linear",
