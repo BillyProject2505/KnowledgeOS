@@ -228,7 +228,7 @@ Exact font metadata and numeric measurements are not to be fabricated from a ras
 **Date:** 2026-09-01  
 **Status:** APPROVED
 
-`01_Content/Instagram/INSTAGRAM_STORY_PRODUCTION_STANDARD.md` is the reusable production standard for BAKU Edit Tugas Instagram Story content, covering format, brand asset handling, reusable layout principles, typography hierarchy, color relationships, illustration rules, safe-area guidance, CTA rules, Canva production, workflow, QC, approval status, and change control.
+`01_Content/Instagram/INSTAGRAM_STORY_PRODUCTION_STANDARD.md` is the reusable production standard for BAKU Edit Tugas Instagram Story content, covering format, brand asset handling, reusable layout principles, typography hierarchy, color relationships, illustration rules, safe-area guidance, CTA rules, Canva production, workflow, approval status, and change control.
 
 For the current FAQ workstream, the approved Story 1 artifact remains the visual authority for exact series-specific typography, relative sizing, spacing rhythm, logo treatment, illustration treatment, and composition language.
 
@@ -385,6 +385,29 @@ For AI-generated visual assets, generated logos and unapproved internal text are
 
 For LAYANAN specifically, illustration direction should map to the service: Editing → writing/proofreading/document cleanup; Document → formatting/citation/reference/document organization; Review & Consultation → review, annotation, feedback, or consultation scene; CTA → action clarity over decorative complexity.
 
-**Reason:** The user explicitly provided a refined visual reference and requested that the GitHub design settings be corrected so subsequent production outputs the intended visual style more reliably. The reusable production standard has been updated accordingly.
+**Reason:** The user explicitly instructed that the GitHub production settings be adjusted when the actual approved visual reference revealed a more precise reusable composition than the existing standard captured.
+
+---
+
+## D-029 — LAYANAN Reference Scene & CTA Application Refinement
+
+**Date:** 2026-09-08  
+**Status:** APPROVED
+
+The user-approved latest LAYANAN reference further clarifies how the canonical service-poster composition should be executed.
+
+For future LAYANAN production:
+
+- Main illustration should generally be a **scene-level composition**, not an isolated character/icon, when the service benefits from contextual storytelling.
+- Supporting props such as books, documents, laptops, mugs, plants, notebooks, papers, and checklist/annotation boards are allowed when they reinforce the service context.
+- Review & Consultation may use a believable two-person interaction as the focal scene.
+- Hook-area contextual symbols such as a question bubble may be used when they reinforce the question/hook and remain subordinate.
+- Service cue strips may use navy circular icons + short dark-navy labels + thin gold dividers.
+- `LAYANAN` may be used as the bottom series marker.
+- CTA Stories should favor a **clear, high-contrast action block** (such as the approved `Chat BAKU →` CTA) and may use phone/chat/inquiry imagery as supporting context.
+- Supporting copy on CTA Stories should remain short; illustration must not overpower the action.
+- Generated visual assets may contain UI-like chat or checklist details for context, but any internal text must be audited and must not introduce unapproved claims, slogans, service names, contact details, or promises.
+
+**Reason:** This decision converts the user's latest visual example from an informal reference into explicit reusable production guidance, reducing visual drift in subsequent Story generation.
 
 ---
