@@ -1,6 +1,6 @@
 # BAKU Edit Tugas — Instagram Story Production Standard
 
-**Version:** 1.2  
+**Version:** 1.3  
 **Date:** 2026-09-08  
 **Status:** APPROVED
 
@@ -65,7 +65,8 @@ Baseline ini harus menghasilkan tampilan yang:
 - jelas terbaca dalam sekali lihat;
 - terasa seperti satu sistem brand, bukan kumpulan template yang berbeda;
 - menggunakan ilustrasi sebagai visual utama, bukan sekadar decorative filler;
-- menjaga hierarchy yang kuat dari logo → hook → answer → supporting copy → illustration → service/footer cue.
+- menjaga hierarchy yang kuat dari logo → hook → answer → supporting copy → illustration → service/footer cue;
+- memiliki visual density yang terkontrol, dengan satu blok ilustrasi utama yang kuat dan supporting objects yang mendukung konteks tanpa mengambil alih pesan.
 
 ### 3.1 Fixed Visual Characteristics
 
@@ -86,17 +87,20 @@ Karakteristik berikut diperlakukan sebagai system-level baseline:
 - compact service cue/footer strip bila series membutuhkannya;
 - generous whitespace di antara text blocks;
 - stable visual rhythm dan strong center axis;
-- subtle corner decoration (gold rounded shape/dots) hanya sebagai framing, bukan focal point.
+- subtle corner decoration (gold rounded shape/dots) hanya sebagai framing, bukan focal point;
+- illustration field boleh menjadi scene lengkap dengan furniture, stationery, books, plant, laptop, mug, notes, checklist/annotation board, atau contextual props selama semuanya tetap relevan, flat-editorial, dan subordinate to the main message;
+- service cues dapat menggunakan icon-in-circle + short label + thin gold divider sebagai secondary navigation;
+- untuk closing/CTA Story, action clarity mengalahkan kepadatan service information; service cue boleh dipertahankan hanya bila membantu orientasi dan tidak membuat CTA terasa sekunder.
 
 ### 3.2 Reference Composition Anatomy
 
 Gunakan anatomi berikut sebagai default composition recipe. Ini adalah **relative layout guidance**, bukan pixel lock:
 
 1. **Top framing / logo zone** — logo ditempatkan centered atau near-centered pada bagian atas, dengan ruang napas yang jelas dari tepi atas.
-2. **Hook zone** — headline besar, bold, uppercase, maksimal beberapa baris, menjadi elemen pertama yang terbaca setelah logo.
+2. **Hook zone** — headline besar, bold, uppercase, maksimal beberapa baris, menjadi elemen pertama yang terbaca setelah logo. Hook boleh memakai contextual symbol seperti question bubble/circle jika mendukung comprehension.
 3. **Answer zone** — rounded dark-navy panel yang lebar, berada tepat setelah hook; answer menggunakan warm gold dan menjadi second strongest hierarchy.
 4. **Supporting copy zone** — satu blok singkat di bawah answer panel, dark navy/charcoal, centered dan mudah dipindai.
-5. **Main illustration field** — menempati area visual terbesar pada bagian tengah-bawah. Ilustrasi harus langsung merepresentasikan konteks layanan yang sedang dijelaskan.
+5. **Main illustration field** — menempati area visual terbesar pada bagian tengah-bawah. Ilustrasi harus langsung merepresentasikan konteks layanan yang sedang dijelaskan. Untuk service scenes, gunakan satu focal interaction/subject dan supporting props yang membentuk satu coherent scene.
 6. **Service cue strip** — bila digunakan, letakkan di bawah illustration field sebagai rangkuman visual kecil; gunakan icon + label singkat dan pisahkan item dengan divider tipis.
 7. **Bottom framing** — label series/highlight atau CTA dapat ditempatkan di area bawah yang aman; gunakan framing dekoratif minimal.
 
@@ -114,9 +118,11 @@ Untuk menjaga kesamaan antar-Story, pertahankan prinsip berikut:
 - Answer panel memiliki margin visual yang cukup dari hook dan supporting copy.
 - Supporting copy tidak menempel ke illustration; berikan breathing room.
 - Illustration field menjadi blok visual besar yang menyatukan halaman.
+- Ilustrasi utama sebaiknya cukup tinggi/besar untuk menjadi focal anchor, tetapi tidak memaksa karakter atau objek memotong hook, answer panel, atau footer secara agresif.
 - Service cue/footer berada setelah illustration, bukan memotong focal illustration secara acak.
 - Dekorasi sudut tidak boleh masuk ke text hierarchy atau membuat layout terasa penuh.
 - Gunakan satu center axis untuk primary text dan primary illustration kecuali deviation telah disetujui.
+- Jaga separation antara service-cue strip dan bottom series marker/CTA; keduanya tidak boleh terbaca sebagai satu blok yang terlalu padat.
 
 ### 3.4 Fixed vs Variable Elements
 
@@ -144,7 +150,8 @@ Untuk menjaga kesamaan antar-Story, pertahankan prinsip berikut:
 - service icons;
 - visual metaphor;
 - contextual imagery;
-- footer/CTA copy when required.
+- footer/CTA copy when required;
+- contextual props within the illustration scene.
 
 Do not redesign the core system merely to make individual Stories appear different.
 
@@ -227,14 +234,16 @@ Preferred characteristics:
 - restrained object density;
 - clear focal subject;
 - sufficient negative space untuk typography;
-- illustration large enough to function as the main visual anchor.
+- illustration large enough to function as the main visual anchor;
+- scene-level composition yang terasa hidup dan spesifik, bukan sekadar satu isolated character atau icon;
+- supporting props dapat dipakai untuk memperjelas konteks layanan selama tidak menciptakan copy/claim baru.
 
 Untuk Story layanan:
 
 - **Editing:** prioritaskan visual dokumen/tulisan, proofreading marks, notebook, pen, laptop, atau aktivitas merapikan tulisan.
 - **Document:** prioritaskan dokumen, layout halaman, citation/reference, laptop, paper stack, checklist, atau elemen formatting.
-- **Review & Consultation:** prioritaskan review dokumen, discussion, feedback, annotation, atau consultation scene.
-- **CTA:** illustration dapat diperkecil atau ditiadakan bila action clarity lebih penting.
+- **Review & Consultation:** prioritaskan review dokumen, discussion, feedback, annotation, atau consultation scene dengan dua karakter atau interaction yang believable bila sesuai kebutuhan.
+- **CTA:** prioritaskan action clarity. Visual dapat berupa phone/chat scene, inquiry interaction, message bubble, atau consultation touchpoint. Illustration boleh tetap cukup besar, tetapi tidak boleh mengalahkan CTA.
 
 Aset visual standalone preferred untuk placement manual ketika template Canva sudah dikunci.
 
@@ -256,7 +265,8 @@ Allowed by default:
 - small navy/gold dot grids;
 - thin gold divider lines;
 - simple circular service/support icons;
-- small contextual accent shapes.
+- small contextual accent shapes;
+- contextual question/heart/chat symbols bila mendukung comprehension dan tetap subordinate.
 
 Rules:
 
@@ -317,7 +327,10 @@ CTA treatment harus:
 - jelas sebagai action;
 - tetap di dalam safe area;
 - tidak mengalahkan question/answer hierarchy;
-- tidak menggunakan unsupported performance claim seperti “2× better”.
+- tidak menggunakan unsupported performance claim seperti “2× better”;
+- pada closing Story, CTA boleh menjadi elemen visual paling kontras setelah hook dan boleh menggunakan wide rounded navy CTA panel dengan gold action text;
+- supporting copy pada CTA harus singkat dan tidak bersaing dengan action utama;
+- CTA visual dapat didukung oleh phone/chat/inquiry illustration, tetapi illustration harus subordinate terhadap action.
 
 Untuk LAYANAN, CTA utama berada pada Story yang memang ditetapkan sebagai CTA story; jangan memaksa CTA ke setiap Story layanan.
 
@@ -344,6 +357,8 @@ Jika template/baseline sudah approved:
 - jangan menggunakan AI-generated logo sebagai replacement;
 - gunakan copy/content dari canonical content document;
 - gunakan generated illustration hanya sebagai visual asset, lalu audit seluruh internal text/marks sebelum finalisasi.
+
+Untuk generated visual yang sudah mengikuti composition reference tetapi belum menggunakan canonical logo/copy sebagai editable elements, anggap asset tersebut sebagai **visual reference / illustration source**, bukan final Canva layout.
 
 ## 14. Production Workflow
 
@@ -376,6 +391,7 @@ Reference Lock berarti menetapkan satu approved visual source/reference sebelum 
 - [ ] Service cue/footer tidak mengalahkan main message.
 - [ ] CTA hanya bila relevan.
 - [ ] Core composition anatomy tetap terbaca.
+- [ ] Untuk CTA Story, action block dan supporting copy terbaca jelas tanpa illustration atau footer mengambil alih perhatian.
 
 ### Visual
 
@@ -387,6 +403,7 @@ Reference Lock berarti menetapkan satu approved visual source/reference sebelum 
 - [ ] Tidak ada generated logo/brand mark.
 - [ ] Tidak ada internal illustration text yang tidak canonical.
 - [ ] Negative space cukup.
+- [ ] Scene illustration terasa coherent; objects/props tidak random atau ornamental semata.
 
 ### Safe Area
 
@@ -425,66 +442,38 @@ Gunakan untuk eksplorasi yang belum disetujui.
 
 ### OPEN
 
-Gunakan ketika keputusan produksi masih membutuhkan keputusan eksplisit.
+Gunakan ketika keputusan produksi masih membutuhkan keputusan.
 
 ### SUPERSEDED
 
-Gunakan ketika baseline/decision sebelumnya digantikan oleh keputusan baru.
+Gunakan ketika keputusan/dokumen telah digantikan oleh versi baru.
 
 ### BLOCKED
 
-Gunakan ketika produksi tidak dapat dilanjutkan tanpa informasi atau asset yang wajib.
+Gunakan ketika produksi tidak dapat dilanjutkan tanpa required information atau required asset.
 
-## 17. Non-Negotiable Rules
+## 17. Change Control
 
-- No fabricated data.
-- No fabricated sources.
-- No fabricated testimonials/social proof.
-- No unsupported performance claims.
-- No unsupported absolute security/privacy claims.
-- No AI-generated replacement logo.
-- No unapproved text inside generated illustrations.
-- Do not change approved copy without explicit revision.
-- Do not change an approved visual baseline without explicit decision.
-- Do not add complexity without a functional reason.
+Perubahan system-level harus dicatat pada `00_Context/DECISIONS.md`.
 
-## 18. Current Canonical Reference
+Perubahan series-specific dapat dicatat pada content document atau relevant project file.
 
-The current canonical visual reference for reusable BAKU Instagram Story production is the approved flat editorial Story system, with the latest LAYANAN reference composition serving as the practical service-poster composition reference.
+Perubahan yang hanya bersifat execution detail dan tidak mengubah system-level baseline tidak memerlukan decision baru.
 
-The reference establishes:
+Setiap perubahan standar wajib menaikkan version dan memperbarui date.
 
-- warm cream canvas;
-- top-centered canonical logo placement;
-- large navy hook;
-- navy rounded answer panel with gold answer;
-- compact supporting copy;
-- large central service-relevant illustration;
-- restrained corner decoration;
-- optional service cue strip;
-- minimal bottom series marker/CTA treatment.
+## 18. Current LAYANAN Reference Notes
 
-The reference is authoritative for **composition language and visual relationships**, not for generated-logo usage or unsupported internal illustration text.
+Untuk LAYANAN, approved reference terbaru memperkuat pola berikut:
 
-When exact numeric measurements are needed, the approved Canva source remains authoritative.
+- service story menggunakan **large service-relevant scene illustration**;
+- review/consultation cocok menggunakan **dua-karakter interaction** bila itu memperjelas layanan;
+- contextual props seperti dokumen, buku, laptop, plant, notebook, checklist, atau mug dapat digunakan untuk membuat scene terasa specific;
+- hook dapat menggunakan contextual question symbol;
+- rounded navy answer panel dengan gold text adalah core visual anchor kedua;
+- service cue strip menggunakan navy circular icons, short labels, dan gold dividers;
+- `LAYANAN` dapat berfungsi sebagai bottom series marker;
+- corner shapes/dot grids tetap subtle;
+- pada CTA Story, visual phone/chat/inquiry dapat digunakan, tetapi action `Chat BAKU →` tetap menjadi focal action dan bukan salah satu detail kecil di dalam illustration.
 
-## 19. Reference Authority & Reuse
-
-Use the following authority order for production decisions:
-
-1. Explicit current project decision in `00_Context/DECISIONS.md`.
-2. Approved Canva master/source for exact visual implementation.
-3. This reusable production standard for system-level rules.
-4. Approved exported PNG/reference artifacts for visual comparison and QC.
-
-A raster reference must not be used to invent unsupported numeric specifications.
-
-For reuse in a new Story Highlight workstream, inherit the system-level baseline first, then define and approve only the content-specific or series-specific deviations that are functionally required.
-
-## 20. Change Control
-
-Changes to this standard require explicit project decision and should be recorded in:
-
-`00_Context/DECISIONS.md`
-
-Changes to a specific Story series should be recorded in the relevant content directory rather than rewriting this standard.
+Dokumen ini tidak mengunci exact font family, exact pixel coordinates, atau exact illustration asset. Untuk nilai tersebut, approved Canva source tetap menjadi authority.
