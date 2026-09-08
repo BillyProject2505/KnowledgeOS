@@ -351,3 +351,40 @@ The canonical baseline governs system-level characteristics including compositio
 Exact numeric typography, logo measurements, spacing values, and Canva-specific implementation details remain source-dependent and must be taken from the approved Canva source when precision is required; they are not inferred from raster exports.
 
 **Reason:** The user explicitly instructed that the reusable visual baseline be established as canonical so it can serve as the default reference for subsequent production.
+
+---
+
+## D-028 — LAYANAN Service-Poster Visual Composition Refinement
+
+**Date:** 2026-09-08  
+**Status:** APPROVED
+
+The latest user-provided LAYANAN visual reference establishes a refined practical composition for future BAKU Instagram Story service content. This does **not** replace the canonical brand system; it makes the composition recipe more explicit so future production is less likely to drift.
+
+The approved composition recipe is:
+
+`Top Logo → Large Hook → Rounded Navy Answer Panel → Supporting Copy → Large Service-Relevant Illustration → Optional Service Cue Strip → Minimal Bottom Series Marker/CTA`
+
+Required visual relationships:
+
+- warm cream/off-white full background;
+- deep navy as primary structural color;
+- warm gold as controlled accent;
+- canonical BAKU logo placed manually in the top zone;
+- hook large, bold, and high-contrast;
+- answer in a wide rounded navy panel with gold text;
+- thin gold dividers and small contextual icons may support hierarchy;
+- one large central illustration should act as the main visual anchor;
+- illustration should directly represent the service being explained;
+- supporting objects should remain restrained and coherent;
+- service cue items may use simple navy circular icons, short labels, and gold dividers;
+- subtle corner shapes/dot grids may frame the composition but must not compete with the message;
+- primary text uses a stable center axis unless a specific approved source requires otherwise.
+
+For AI-generated visual assets, generated logos and unapproved internal text are prohibited. The AI visual may supply the illustration and overall visual direction only; canonical logo, exact copy, service labels, typography, and final layout are finalized in Canva.
+
+For LAYANAN specifically, illustration direction should map to the service: Editing → writing/proofreading/document cleanup; Document → formatting/citation/reference/document organization; Review & Consultation → review, annotation, feedback, or consultation scene; CTA → action clarity over decorative complexity.
+
+**Reason:** The user explicitly provided a refined visual reference and requested that the GitHub design settings be corrected so subsequent production outputs the intended visual style more reliably. The reusable production standard has been updated accordingly.
+
+---
