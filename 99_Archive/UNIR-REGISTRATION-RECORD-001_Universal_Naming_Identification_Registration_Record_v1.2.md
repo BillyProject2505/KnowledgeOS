@@ -1,3 +1,16 @@
+---
+document_id: UNIR-REGISTRATION-RECORD-001
+title: Universal Naming & Identification Registration Record
+version: "1.2"
+status: HISTORICAL
+canonicality: NON-CANONICAL
+archive_status: ARCHIVED
+archive_disposition: HISTORICAL
+superseded_by: null
+---
+
+> **Archive note:** Canonical and locked declarations below are preserved historical content and do not establish current repository authority.
+
 # Universal Naming & Identification Registration Record
 
 **Document ID:** UNIR-REGISTRATION-RECORD-001  

@@ -22,17 +22,17 @@ Each artifact remains authoritative only within its declared scope and governanc
 
 ## Repository Structure
 
-- `00_System` — system architecture, governance, standards, registries, specifications, releases, development, and planning.
-- `01_Knowledge` — reusable canonical knowledge and knowledge-domain artifacts.
-- `02_Projects` — project-specific canonical and operational knowledge.
-- `03_Resources` — supporting resources and reference material.
+- `00_Meta` — research, foundation, and construction-governance material for the Meta AI-Native Production System trajectory.
+- `01_System` — system architecture, governance, standards, registries, specifications, releases, development, and planning.
+- `02_Resources` — supporting resources and reference material.
+- `03_Projects` — project-specific canonical and operational knowledge.
 - `99_Archive` — historical, superseded, retired, draft, legacy, and other non-active artifacts preserved for provenance and traceability.
 
 ---
 
 ## Project Layer
 
-Project-specific knowledge and operational systems are maintained under `02_Projects/` and `03_Projects/` according to the repository structure currently in use.
+Project-specific knowledge and operational systems are maintained under `03_Projects/`.
 
 The active `03_Projects/` layer includes project indexes and project-specific workspaces such as BAKU Edit Tugas. Project README files define local navigation, scope, and boundaries; they do not override repository or system authority.
 
@@ -65,8 +65,6 @@ Canonical interpretation shall follow the artifact's own metadata, declared auth
 ## Documentation
 
 - `README.md` — repository-level orientation and navigation.
-- `INDEX.md` — repository index where maintained.
-- `MAP.md` — structural repository map where maintained.
 
 Folder-level `README.md` files provide local navigation, scope, authority, and maintenance guidance for their respective directories.
 
@@ -89,17 +87,11 @@ Folder-level `README.md` files provide local navigation, scope, authority, and m
 
 ### Primary Layers
 
-- [`00_System`](./00_System/)
-- [`01_Knowledge`](./01_Knowledge/)
-- [`02_Projects`](./02_Projects/)
-- [`03_Resources`](./03_Resources/)
+- [`00_Meta`](./00_Meta/)
+- [`01_System`](./01_System/)
+- [`02_Resources`](./02_Resources/)
 - [`03_Projects`](./03_Projects/)
 - [`99_Archive`](./99_Archive/)
-
-### Repository Documents
-
-- [`INDEX.md`](./INDEX.md)
-- [`MAP.md`](./MAP.md)
 
 ---
 

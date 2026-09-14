@@ -3,14 +3,18 @@ document_id: DIUA-DIC-000006
 document_reference: UPKR-REGISTRATION-RECORD-001
 document_type: Registration Record
 version: v1.1
-status: LOCKED — CANONICAL
-canonicality: CANONICAL
-lock: LOCKED
+status: HISTORICAL
+canonicality: NON-CANONICAL
+archive_status: ARCHIVED
+archive_disposition: HISTORICAL
+superseded_by: null
 scope: Initial 23-UPKO registration batch
 registry_reference: UPKR-REGISTRY-001
 effective_date: 2026-08-16
 base_document: UPKR-REGISTRATION-RECORD-001 v1.0 — LOCKED — CANONICAL
 ---
+
+> **Archive note:** Canonical and locked declarations below are preserved historical content and do not establish current repository authority.
 
 # UPKR Registration Record — v1.1 Initial 23-UPKO Registration Batch
 

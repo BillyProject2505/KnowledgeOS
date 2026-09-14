@@ -7,7 +7,7 @@ Directory ini berisi aturan, workflow, dan QC untuk penggunaan AI dalam produksi
 ### Academic / Editorial AI
 
 - `AI_Workflow.md`
-- `AI_Usage_Policy.md`
+- `AI_Usage_Policy.md` — implementation profile subordinate to `../08_Governance/AI_Usage_Policy.md`.
 - `AI_QC_Checklist.md`
 
 ### Visual Production AI

@@ -3,13 +3,18 @@ document_id: UNIR-REGISTRY-001
 document_type: Universal Registry State
 title: Universal Naming & Identification Registry — Current Registry State
 version: "1.2"
-status: LOCKED — CANONICAL
-canonicality: CANONICAL
+status: HISTORICAL
+canonicality: NON-CANONICAL
+archive_status: ARCHIVED
+archive_disposition: HISTORICAL
+superseded_by: null
 scope: Current registered state of the Universal Naming & Identification Registry
 purpose: Canonical documentary representation of current UNIR registry state, including validated active Concrete Document Identifier allocations
 parent_document: UNIR-CORE-001 v1.3 (architectural boundary only; no semantic inheritance)
 source_basis: Validated individual registration, authorization, allocation, reassessment, and concrete Document Identifier allocation evidence, including the explicit `UNIR-ALLOCATION-ACT-001` reference declared by Universal Architecture for DIUA-DIC-000002, the verified `UNIR-ALLOCATION-ACT-002` and `UNIR-ALLOCATION-ACT-003` allocation-act artifacts, and the verified `UNIR-ALLOCATION-ACT-005` allocation-act artifact establishing `DIUA-DIC-000005` for Universal Production Knowledge Registry.
 ---
+
+> **Archive note:** Canonical and locked declarations below are preserved historical content and do not establish current repository authority.
 
 # Universal Naming & Identification Registry — Current Registry State
 

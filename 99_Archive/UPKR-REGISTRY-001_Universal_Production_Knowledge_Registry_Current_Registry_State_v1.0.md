@@ -4,9 +4,11 @@ document_type: Registry State
 title: Universal Production Knowledge Registry Current Registry State
 short_name: UPKR Registry
 version: "1.0"
-status: LOCKED — CANONICAL
-canonicality: CANONICAL
-lock: LOCKED
+status: HISTORICAL
+canonicality: NON-CANONICAL
+archive_status: ARCHIVED
+archive_disposition: HISTORICAL
+superseded_by: null
 scope: Current authoritative registry state representation for the Universal Production Knowledge Registry
 purpose: Represent the current governed registration state of UPKO objects under UPKR, including only states supported by valid registration evidence
 authority: UPKR Governance
@@ -17,6 +19,8 @@ canonicalization_decision: UPKR-REGISTRY-001 v1.0 Canonicalization Decision v1.0
 materialization_timestamp: 2026-08-15T13:26:10Z
 document_role: Current Registry State
 ---
+
+> **Archive note:** Canonical and locked declarations below are preserved historical content and do not establish current repository authority.
 
 # Universal Production Knowledge Registry Current Registry State
 

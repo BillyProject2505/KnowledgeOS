@@ -1,8 +1,14 @@
-# BAKU AI Usage Policy
+# BAKU AI Usage Implementation Profile
+
+**Status:** Active implementation profile
+
+**Authority:** Subordinate to [`../08_Governance/AI_Usage_Policy.md`](../08_Governance/AI_Usage_Policy.md)
+
+**Conflict rule:** If this profile conflicts with the governance policy, the governance policy controls.
 
 ## Purpose
 
-Dokumen ini menetapkan aturan penggunaan AI dalam produksi pekerjaan BAKU Edit Tugas. AI digunakan sebagai alat bantu produktivitas dan quality support, bukan sebagai otoritas akademik atau pengganti human judgment.
+Dokumen ini menerapkan kebijakan penggunaan AI ke aktivitas produksi BAKU Edit Tugas. Dokumen ini tidak membentuk policy authority kedua. AI digunakan sebagai alat bantu produktivitas dan quality support, bukan sebagai otoritas akademik atau pengganti human judgment.
 
 ## Core Principle
 

@@ -1,3 +1,16 @@
+---
+document_id: UNIR-ALLOCATION-ACT-006
+title: UPKR Registration Record Concrete Document Identifier Allocation Act
+version: "1.0"
+status: HISTORICAL
+canonicality: NON-CANONICAL
+archive_status: ARCHIVED
+archive_disposition: HISTORICAL
+superseded_by: null
+---
+
+> **Archive note:** Active-state declarations below are preserved historical evidence and do not establish current repository authority.
+
 # Universal Production Knowledge Registry Registration Record Concrete Document Identifier Allocation Act
 
 **Allocation Act ID:** UNIR-ALLOCATION-ACT-006  

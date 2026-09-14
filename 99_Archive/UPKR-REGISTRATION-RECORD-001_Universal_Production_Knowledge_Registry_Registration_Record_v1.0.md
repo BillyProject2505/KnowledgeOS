@@ -4,9 +4,11 @@ document_type: Registration Record
 title: Universal Production Knowledge Registry Registration Record
 short_name: UPKR Registration Record
 version: "1.0"
-status: LOCKED — CANONICAL
-canonicality: CANONICAL
-lock: LOCKED
+status: HISTORICAL
+canonicality: NON-CANONICAL
+archive_status: ARCHIVED
+archive_disposition: HISTORICAL
+superseded_by: null
 scope: Registration representation and traceability for the Universal Production Knowledge Registry
 purpose: Govern registration records, validation evidence, registration decisions, registration state transitions, and traceability for UPKR-managed UPKO registrations
 authority: UPKR Governance
@@ -17,6 +19,8 @@ canonicalization_decision: UPKR-REGISTRATION-RECORD-001 v1.0 Canonicalization De
 materialization_timestamp: 2026-08-15T13:13:42Z
 document_role: Registration Record
 ---
+
+> **Archive note:** Canonical and locked declarations below are preserved historical content and do not establish current repository authority.
 
 # Universal Production Knowledge Registry Registration Record
 

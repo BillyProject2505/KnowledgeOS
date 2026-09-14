@@ -1,15 +1,17 @@
-# Coz We Care Canonical Production Bible v3.0
-
 ---
 document_id: CWC-CPB-001
 title: CWC Production Bible
 version: "3.0"
-status: SUPERSEDED
+status: HISTORICAL
 canonicality: HISTORICAL
 archive_status: ARCHIVED
-archive_disposition: SUPERSEDED
-superseded_by: 02_Projects/10_CozWeCare/CWC-CPB-001_CWC_Production_Bible_v4.0.md
+archive_disposition: HISTORICAL
+superseded_by: null
 ---
+
+# Coz We Care Canonical Production Bible v3.0
+
+> **Archive note:** A successor is not materialized in this repository. No active authority or successor relationship should be inferred from historical statements preserved below.
 
 # Chapter 01 — Foundation
 
@@ -4609,4 +4611,3 @@ The following sections define each canonical visual system independently.
 Each system governs a unique responsibility within the Visual Design System while preserving the unified visual identity of Coz We Care.
 
 ---
-

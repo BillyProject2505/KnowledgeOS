@@ -4,7 +4,7 @@
 
 This directory is the dedicated home for the new AI-Native Production System research and construction trajectory.
 
-It is intentionally separated from the existing `00_System` architecture and governance corpus so that the new project can be researched and constructed from a clean methodological baseline while preserving the historical repository corpus unchanged.
+It is intentionally separated from the existing `01_System` architecture and governance corpus so that the new project can be researched and constructed from a clean methodological baseline while preserving the historical repository corpus unchanged.
 
 ## Boundary
 
@@ -12,20 +12,22 @@ The artifacts in this directory do not automatically inherit architectural or no
 
 Existing repository documents may be used as reference, evidence, historical material, or lessons learned only according to the new project's research and adoption process.
 
-## Initial Reference
+## Planned Artifact Set
+
+The methodology identifiers and filenames below describe the planned construction sequence. They are **not currently materialized or published in this repository**. Until a named artifact exists in the tree and declares its own status, it must not be treated as an available dependency or authority.
 
 ### Foundation
 
-- `foundation/UAICP-FC-001-foundational-concept-and-north-star_v1.0.md` — foundational concept and project North Star.
+- `20_Foundation/UAICP-FC-001-foundational-concept-and-north-star_v1.0.md` — planned foundational concept and project North Star.
 
 ### Construction Governance
 
-- `governance/UAICP-RCC-001-project-research-and-construction-charter_v1.0.md` — governs how the new trajectory is researched and constructed, including anti-loop and anti-bootstrap safeguards.
-- `governance/UAICP-ADM-001-architecture-decision-model-v1.0.md` — governs the controlled transition from Architecture Decision Basis to Architecture Decision; it is not a final system governance artifact and is not a numbered Step 11.
+- `30_Governance/UAICP-RCC-001-project-research-and-construction-charter_v1.0.md` — planned research and construction charter.
+- `30_Governance/UAICP-ADM-001-architecture-decision-model-v1.0.md` — planned architecture-decision transition mechanism.
 
 ### Research Sequence
 
-The root-level research and construction methodology currently contains the following sequence:
+The planned root-level research and construction methodology contains the following sequence:
 
 1. `UAICP-FC-001` — Foundational Concept & North Star
 2. `UAICP-RCC-001` — Project Research & Construction Charter
@@ -38,9 +40,9 @@ The root-level research and construction methodology currently contains the foll
 9. `UAICP-DCA-001` — Dependency Analysis & Circularity Assessment Model
 10. `UAICP-ARD-001` — Architecture Discovery Model
 
-### Current Filenames
+### Planned Filenames
 
-The repository currently uses explicit version suffixes in the filenames of the published methodology artifacts:
+The planned filenames use explicit version suffixes:
 
 ```text
 UAICP-FC-001-foundational-concept-and-north-star_v1.0.md
@@ -56,13 +58,9 @@ UAICP-ARD-001-architecture-discovery-model_v1.1.md
 UAICP-ADM-001-architecture-decision-model-v1.0.md
 ```
 
-### Publication Status
+### Materialization Status
 
-Steps 1–10 are currently published in the repository.
-
-`UAICP-ADM-001` is also published as a root-level architecture decision transition mechanism.
-
-Publication does not automatically establish canonicality. Each document remains subject to its own stated status, authority, lifecycle, and later decision process.
+None of the eleven named `UAICP-*` artifacts is currently materialized in this repository. The sequence is retained as a planning map only. Materialization does not automatically establish canonicality; every future document remains subject to its own stated status, authority, lifecycle, and decision process.
 
 ## Construction Sequence
 

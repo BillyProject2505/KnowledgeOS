@@ -4,8 +4,14 @@ document_type: Canonicalization Decision
 scope: Initial 23-UPKO registration batch
 effective_date: 2026-08-16
 decision: APPROVE CANONICALIZATION
-status: RECORDED — GOVERNANCE ACT
+status: HISTORICAL
+canonicality: NON-CANONICAL
+archive_status: ARCHIVED
+archive_disposition: HISTORICAL
+superseded_by: null
 ---
+
+> **Archive note:** The governance act below is preserved as historical evidence and does not establish current repository authority.
 
 # UPKR Canonicalization Decision — Initial 23-UPKO Registration Batch
 

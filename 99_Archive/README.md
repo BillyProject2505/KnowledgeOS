@@ -156,10 +156,10 @@ Repository Root
 
 ### Related KnowledgeOS Areas
 
-- `00_System`
-- `01_Knowledge`
-- `02_Projects`
-- `98_Operator_Manual`
+- [`00_Meta`](../00_Meta/)
+- [`01_System`](../01_System/)
+- [`02_Resources`](../02_Resources/)
+- [`03_Projects`](../03_Projects/)
 
 ---
 

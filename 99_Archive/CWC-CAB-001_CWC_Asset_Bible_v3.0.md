@@ -1,5 +1,3 @@
-# Coz We Care Canonical Asset Bible v3.0
-
 ---
 document_id: CWC-CAB-001
 title: CWC Canonical Asset Bible
@@ -10,6 +8,8 @@ archive_status: ARCHIVED
 archive_disposition: SUPERSEDED
 superseded_by: CWC-CAB-001_CWC_Asset_Bible_v4.0.md
 ---
+
+# Coz We Care Canonical Asset Bible v3.0
 
 # Introduction
 
@@ -1903,4 +1903,3 @@ These topics are governed by their respective sections or canonical artifacts.
 | **CWC-CRS-AS-001** | Provides the authoritative visual representation of the Official Brand Logo. |
 
 ---
-
