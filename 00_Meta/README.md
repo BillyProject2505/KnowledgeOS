@@ -27,7 +27,7 @@ The methodology identifiers and filenames below describe the planned constructio
 
 ### Research Sequence
 
-The root-level research and construction methodology currently contains the following sequence:
+The planned root-level research and construction methodology contains the following sequence:
 
 1. `UAICP-FC-001` — Foundational Concept & North Star
 2. `UAICP-RCC-001` — Project Research & Construction Charter
@@ -40,9 +40,9 @@ The root-level research and construction methodology currently contains the foll
 9. `UAICP-DCA-001` — Dependency Analysis & Circularity Assessment Model
 10. `UAICP-ARD-001` — Architecture Discovery Model
 
-### Current Filenames
+### Planned Filenames
 
-The repository currently uses explicit version suffixes in the filenames of the published methodology artifacts:
+The planned filenames use explicit version suffixes:
 
 ```text
 UAICP-FC-001-foundational-concept-and-north-star_v1.0.md

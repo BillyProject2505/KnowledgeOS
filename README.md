@@ -65,6 +65,7 @@ Canonical interpretation shall follow the artifact's own metadata, declared auth
 ## Documentation
 
 - `README.md` — repository-level orientation and navigation.
+
 Folder-level `README.md` files provide local navigation, scope, authority, and maintenance guidance for their respective directories.
 
 ---
