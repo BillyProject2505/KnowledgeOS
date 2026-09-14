@@ -1,3 +1,16 @@
+---
+document_id: CWC-PB-LEGACY
+title: CWC Production Bible — Legacy Unversioned Copy
+version: "1.0"
+status: HISTORICAL
+canonicality: NON-CANONICAL
+archive_status: ARCHIVED
+archive_disposition: HISTORICAL
+superseded_by: null
+---
+
+> **Archive note:** The lock statements below are preserved historical content and do not establish current authority.
+
 ## PB-FND-001 — Purpose
 
 Status: LOCK
@@ -17728,4 +17741,3 @@ Referenced By:
 - Publication audit documentation
 
 ---
-

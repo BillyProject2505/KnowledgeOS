@@ -2,12 +2,14 @@
 document_id: CWC-CAR-001
 title: CWC Canonical Asset Registry
 version: "2.0"
-status: SUPERSEDED
+status: HISTORICAL
 canonicality: HISTORICAL
 archive_status: ARCHIVED
-archive_disposition: SUPERSEDED
-superseded_by: 02_Projects/10_CozWeCare/CWC-CAR-001_CWC_Asset_Registry_v3.0.md
+archive_disposition: HISTORICAL
+superseded_by: null
 ---
+
+> **Archive note:** A successor is not materialized in this repository. No active authority or successor relationship should be inferred from historical statements preserved below.
 
 # CWC Canonical Asset Registry v2.0
 

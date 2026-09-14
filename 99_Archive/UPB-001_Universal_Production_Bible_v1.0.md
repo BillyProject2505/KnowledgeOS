@@ -1,5 +1,3 @@
-# 001. Vision & Philosophy
-
 ---
 document_id: UPB-001
 title: Universal Production Bible
@@ -10,6 +8,8 @@ archive_status: ARCHIVED
 archive_disposition: HISTORICAL
 superseded_by: null
 ---
+
+# 001. Vision & Philosophy
 
 ## Purpose
 

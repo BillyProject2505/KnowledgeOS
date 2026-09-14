@@ -28,21 +28,7 @@ Current project entry point:
 
 [`BAKU_Edit_Tugas/README.md`](./BAKU_Edit_Tugas/README.md)
 
-### CozWeCare
-
-Project-specific workspace for CozWeCare materials and knowledge.
-
-### OBK
-
-Project-specific workspace for OBK materials and knowledge.
-
-### KDS
-
-Project-specific workspace for KDS materials and knowledge.
-
-### Personal
-
-Project-specific workspace for personal project materials and knowledge.
+No other project workspace is currently materialized under this directory. Project names must not be listed as active entries until their directory and project README exist.
 
 ---
 

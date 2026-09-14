@@ -48,7 +48,6 @@ QC artifact set sudah tersedia dan digunakan sebagai layer pemeriksaan produksi:
 | `QC-03_Academic_Compliance_QC.md` | Memverifikasi academic compliance dan applicable requirements. |
 | `QC-04_Originality_and_AI_Review_QC.md` | Memverifikasi originality/AI-related review sesuai scope dan control yang berlaku. |
 | `QC-05_Final_QC.md` | Memverifikasi final production state sebelum delivery. |
-| `Final_QC_Checklist.md` | Checklist final delivery gate yang berorientasi pada requirement, content, language, coherence, citation/evidence, AI output, formatting, dan delivery. |
 | `E2E-01_Production_Workflow_Integration_Test.md` | Verifikasi integrasi end-to-end production workflow. |
 | `E2E-01_Synthetic_Execution_Packet.md` | Paket eksekusi sintetis untuk pengujian workflow dan QC. |
 
@@ -63,7 +62,8 @@ Final delivery tidak ditentukan hanya berdasarkan keberadaan output atau penyele
 Untuk detail gate, gunakan:
 
 - `QC-05_Final_QC.md`
-- `Final_QC_Checklist.md`
+
+`QC-05_Final_QC.md` adalah satu-satunya normative Final QC gate yang aktif. Checklist legacy di `archive/` tidak boleh digunakan sebagai dependency aktif.
 
 ## Issue Handling
 
